@@ -1,18 +1,10 @@
-# r8_DGEC_template
+# Science Application Metadata Guidance
 
 ## Overview
 
-The r8_DGEC_template project is a template for creating new git repos
-for FWS R8 NWRS I&M team work.
-
-This project is organized generally following [Wilson, et al. 2017]
-(https://doi.org/10.1371/journal.pcbi.1005510).
-
-## Installing
-
-Create a new repo on GitHub using this template. No installation is necessary.
-
-To make changes to this repo, clone it or fork it, make a branch, and submit a pull request.
+This project was created to develop a Science Applications Metatata Guidance documentation. 
+The documentation will be developed using Quarto (https://quarto.org/) within the R.RStudio
+environment. 
 
 ### Requirements
 
@@ -20,6 +12,9 @@ To make changes to this repo, clone it or fork it, make a branch, and submit a p
 * git
 
 ## How to use this project
+
+Updates can be made (and submitted as pull requests) directly in the GitHub 
+environment or through a desktop process via Git. 
 
 ## Contributing
 
