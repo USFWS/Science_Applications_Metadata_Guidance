@@ -1,4 +1,0 @@
-doc/* linguist-documentation
-*.md linguist-documentation
-*.Rd linguist-documentation
-*.Rmd linguist-language=R
