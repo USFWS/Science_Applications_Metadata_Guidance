@@ -1,1 +1,1 @@
-Sitemap: https://nmfs-opensci.github.io/NOAA-quarto-simple/sitemap.xml
+Sitemap: https://studious-adventure-wo15nv1.pages.github.io/sitemap.xml
