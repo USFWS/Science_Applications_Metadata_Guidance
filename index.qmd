@@ -1,12 +1,19 @@
 ---
-title: "NOAA quarto simple with R"
-subtitle: "A simple Quarto webpage with a book layout"
+title: "USFWS Science Applications Metadata Guidance"
+subtitle: "A guide to MDEditor and ScienceBase for SA"
 page-layout: full
 ---
 
-This is a template for many simple Quarto website that looks like a "book". This is a common format for documentation. It includes a GitHub Action that will build the website automatically when you make changes to the files. The NOAA palette and fonts has been added to `theme.scss`. The webpage will be on the `gh-pages` branch. Serving the website files from this branch is a common way to keep all the website files from cluttering your main branch. 
+This is a template for many simple Quarto website that looks like a "book". 
+This is a common format for documentation. It includes a GitHub Action that will 
+build the website automatically when you make changes to the files. The NOAA 
+palette and fonts has been added to `theme.scss`. The webpage will be on the 
+`gh-pages` branch. Serving the website files from this branch is a common way 
+to keep all the website files from cluttering your main branch. 
 
-The GitHub Action installs R so you can have R code in your qmd or Rmd files. Note, you do not need to make changes to your Rmd files unless your need Quarto features like cross-references.
+The GitHub Action installs R so you can have R code in your qmd or Rmd files. 
+Note, you do not need to make changes to your Rmd files unless your need Quarto 
+features like cross-references.
 
 ## GitHub Set-up
 

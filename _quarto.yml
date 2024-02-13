@@ -3,9 +3,9 @@ project:
 
 website: 
   page-navigation: true
-  title: "NOAA - Quarto Simple" 
-  site-url: "https://nmfs-opensci.github.io/NOAA-quarto-simple" 
-  repo-url: "https://github.com/nmfs-opensci/NOAA-quarto-simple"
+  title: "USFWS Science Applications - Metadata Guidance" 
+  site-url: "https://studious-adventure-wo15nv1.pages.github.io" 
+  repo-url: "https://github.com/usfws/sciapps_metadata_guidance"
   repo-actions: [edit, source, issue]
   favicon: images/favicon.ico
   
@@ -15,17 +15,17 @@ website:
   
   sidebar:
     background: "#D9E3E4"
-    logo: "https://raw.githubusercontent.com/nmfs-opensci/assets/main/logo/nmfs-opensci-logo3.png"
+    logo: "https://www.fws.gov/themes/custom/fws_gov/logo.svg"
     favicon: images/favicon.ico
     pinned: true
     align: center
     tools: 
       - icon: globe
-        href: https://nmfs-opensci.github.io
-        text: "NMFS Open Science"
+        href: https://fws.gov
+        text: "USFWS"
       - icon: github
-        href: https://github.com/nmfs-opensci
-        text: "NMFS OpenSci"
+        href: https://github.com/usfws
+        text: "USFWS Github"
 
     style: "docked"
     search: true
