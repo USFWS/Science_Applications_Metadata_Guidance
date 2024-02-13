@@ -10,7 +10,7 @@ you have a few steps.
 
 ## Turn on GitHub Pages for your repo
 
-* Turn on GitHub Pages under Settings > Pages . You will set pages to be made from the gh-pages branch and the root directory.
+* Turn on GitHub Pages under Settings > Pages. You will set pages to be made from the gh-pages branch and the root directory.
 * Turn on GitHub Actions under Settings > Actions > General
 
 The GitHub Action will automatically recreate your website when you push to GitHub **after** you do the initial `gh-pages` set-up
