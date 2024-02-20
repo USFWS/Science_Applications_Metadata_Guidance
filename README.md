@@ -2,9 +2,10 @@
 
 ## Overview
 
-This project was created to develop a Science Applications Metatata Guidance documentation. 
-The documentation will be developed using Quarto (https://quarto.org/) within the R.RStudio
-environment. 
+This project was created to develop a Science Applications Metadata Guidance 
+documentation. 
+The documentation will be developed using Quarto (https://quarto.org/) within 
+the RStudio environment. 
 
 ### Requirements
 

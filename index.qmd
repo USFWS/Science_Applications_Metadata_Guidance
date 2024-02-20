@@ -4,26 +4,75 @@ subtitle: "A guide to MDEditor and ScienceBase for SA"
 page-layout: full
 ---
 
-This is a template for many simple Quarto website that looks like a "book". 
-This is a common format for documentation. It includes a GitHub Action that will 
-build the website automatically when you make changes to the files. The NOAA 
-palette and fonts has been added to `theme.scss`. The webpage will be on the 
-`gh-pages` branch. Serving the website files from this branch is a common way 
-to keep all the website files from cluttering your main branch. 
+# Introduction
 
-The GitHub Action installs R so you can have R code in your qmd or Rmd files. 
-Note, you do not need to make changes to your Rmd files unless your need Quarto 
-features like cross-references.
+_Note: This is a working draft that will continue to be edited. 
+**Last updated: 20 February 2024**. Please refresh this manual every time you 
+open it to ensure you are viewing the most recent version._
 
-## GitHub Set-up
+If you have questions/concerns regarding this guidance, please contact the 
+FWS SA National Data Steward \(sadatasteward@fws.gov\) or 
+Blake Massey \(blake_massey@fws.gov until 20 April 2024\).
 
-* Click the green "use template" button to make a repository with this content.  Make sure to make your repo public (since GitHub Pages doesn't work on private repos unless you have a paid account) and check box to include all the branches (so that you get the gh-pages branch).
-<img width="637" alt="image" src="https://user-images.githubusercontent.com/2545978/197051535-c43c62de-17e8-40bf-a536-3eea8db250c4.png">
+## Introduction
 
-* Turn on GitHub Pages under Settings > Pages . You will set pages to be made from the gh-pages branch and root directory.
-<img width="540" alt="image" src="https://user-images.githubusercontent.com/2545978/196808262-3d2262be-b9b5-4897-bba5-fc2f056dd335.png">
+This manual describes the requirements and best practices for the creation of 
+high-quality and consistent metadata records for projects and products for 
+USFWS Science Applications. These metadata requirements conform to the 
+standardized metadata format agreed upon by the SA Data Management Working Group 
+and meets USFWS policy requirements for data management. This metadata drives 
+the unified SA Science Catalog, where SA projects and products are discoverable, 
+accessible, and usable.
 
-* Turn on GitHub Actions under Settings > Actions > General
-<img width="719" alt="image" src="https://user-images.githubusercontent.com/2545978/196808404-0c075fcf-db03-4516-88dd-3143b9fca475.png">
+## USFWS Data Management Integration
 
-* Edit the repo description and Readme to add a link to the webpage. When you edit the description, you will see the link url in the url box or you can click on the Actions tab or the  Settings > Pages page to find the url.
+Metadata creation is part of the Maintain step of the [Data Management Lifecycle](https://doimspp.sharepoint.com/sites/fws-data/SitePages/Data_management_life_cycle_home.aspx).   
+Guidance is also available in the [USFWS data management handbook.](https://doimspp.sharepoint.com/sites/fws-data/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Ffws%2Ddata%2FShared%20Documents%2FDataManagementHandbook%2Epdf&parent=%2Fsites%2Ffws%2Ddata%2FShared%20Documents)
+
+### Metadata and mdEditor
+
+The metadata editing tool employed to create and support metadata requirements 
+is mdEditor. This tool was an extension of an initiative by the [Alaska Data Integration Working Group](http://www.adiwg.org/about/) \([ADIwg](https://adiwg.gitbooks.io/mdeditor/content/GLOSSARY.html#adiwg)\) 
+and adopted by SA.
+
+This manual refers to the creation of SA metadata specifically. If you want 
+information on the creation of other metadata records using mdEditor, or more 
+information in general, please refer to the 
+[mdEditor User Manual](https://adiwg.gitbooks.io/mdeditor/content/).
+
+## Who Should Use this Manual
+
+This guide is for anyone creating or updating metadata for SA-related projects 
+and products. The primary purpose is to describe in detail how to develop 
+metadata for items for inclusion in the SA Science Catalog, but the tool can 
+also be used to track any project or funding.
+
+The metadata requirements described here apply to science projects and products 
+that were funded by SA 
+\(for more details, see the [Project, Products, and Contacts](lcc-projects-products-contacts.md) section\).
+
+## How to Use this Manual
+
+Directly accessing this manual from the internet is the recommended way to use 
+this manual. By doing so, you will guarantee that you are using the current
+version since it is a live document and any updates can be made instantly. The 
+online version will also have the best functionality and graphical display.
+
+If needed, you can download this manual as a PDF and save a copy to your 
+computer for printing or offline use. If you choose this method, be sure to 
+reference the online version regularly and save a new PDF as updates are made 
+to the online version. Also note that not all of the formatting will be exactly 
+the same as the online version.
+
+:::{.callout-note}
+Some of the stylized text boxes \(like this one\) will not translate to the PDF 
+exactly. The text will still be outlined with a background color, but the icon 
+above the text will not display in the PDF.
+:::
+
+## Disclaimer
+
+This manual was developed while mdEditor was also being developed. Due to this, 
+there may be minor discrepancies between screenshots in the manual and the 
+current production version of mdEditor.
+

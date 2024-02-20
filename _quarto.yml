@@ -33,18 +33,16 @@ website:
     contents:
       - href: index.qmd
         text: Home
-      - href: content/add-content.qmd
-        text: Add content
-      - href: content/customizing.qmd
-        text: Customizing
-      - href: content/rendering.qmd
-        text: Rendering
-      - href: content/rmarkdown.Rmd
-        text: R Markdown files
-      - href: content/code.qmd
-        text: Code in your files
-      - href: content/acknowledgements.qmd
-        text: Acknowledgements
+      - href: content/roles_and_responsibilities.qmd
+        text: Roles and Responsibilites (Draft)
+      - href: content/goals_sa_data_management.qmd   
+        text: Goals of SA Data Management
+      - href: content/sa_science_catalog.qmd   
+        text: SA Science Catalog
+      - href: content/projects_products_contacts.qmd   
+        text: Projects, Products, and Contacts 
+      - href: content/non_duplication_policy_guidance.qmd   
+        text: Non-Duplication Policy Guidance         
 
 format:
   html:
