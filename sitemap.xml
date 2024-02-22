@@ -1,67 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://studious-adventure-wo15nv1.pages.github.io/SECURITY.html</loc>
-    <lastmod>2024-02-20T17:25:04.142Z</lastmod>
+    <loc>https://studious-adventure-wo15nv1.pages.github.io/CHANGELOG.html</loc>
+    <lastmod>2024-02-22T15:45:35.205Z</lastmod>
   </url>
   <url>
-    <loc>https://studious-adventure-wo15nv1.pages.github.io/content/non_duplication_policy_guidance.html</loc>
-    <lastmod>2024-02-20T17:25:04.202Z</lastmod>
+    <loc>https://studious-adventure-wo15nv1.pages.github.io/content/10_digital_object_identifier.html</loc>
+    <lastmod>2024-02-22T15:45:35.269Z</lastmod>
   </url>
   <url>
-    <loc>https://studious-adventure-wo15nv1.pages.github.io/content/Archive/acknowledgements.html</loc>
-    <lastmod>2024-02-20T17:25:04.202Z</lastmod>
+    <loc>https://studious-adventure-wo15nv1.pages.github.io/content/06c_metadata_editing_republishing.html</loc>
+    <lastmod>2024-02-22T15:45:35.265Z</lastmod>
   </url>
   <url>
-    <loc>https://studious-adventure-wo15nv1.pages.github.io/content/Archive/add-content.html</loc>
-    <lastmod>2024-02-20T17:25:04.202Z</lastmod>
+    <loc>https://studious-adventure-wo15nv1.pages.github.io/content/03_sa_science_catalog.html</loc>
+    <lastmod>2024-02-22T15:45:35.265Z</lastmod>
   </url>
   <url>
-    <loc>https://studious-adventure-wo15nv1.pages.github.io/content/Archive/publishing.html</loc>
-    <lastmod>2024-02-20T17:25:04.202Z</lastmod>
+    <loc>https://studious-adventure-wo15nv1.pages.github.io/content/01_roles_and_responsibilities.html</loc>
+    <lastmod>2024-02-22T15:45:35.265Z</lastmod>
   </url>
   <url>
-    <loc>https://studious-adventure-wo15nv1.pages.github.io/content/goals_sa_data_management.html</loc>
-    <lastmod>2024-02-20T17:25:04.202Z</lastmod>
+    <loc>https://studious-adventure-wo15nv1.pages.github.io/content/06d_metadata_pts_considerations.html</loc>
+    <lastmod>2024-02-22T15:45:35.265Z</lastmod>
   </url>
   <url>
-    <loc>https://studious-adventure-wo15nv1.pages.github.io/content/sa_science_catalog.html</loc>
-    <lastmod>2024-02-20T17:25:04.206Z</lastmod>
+    <loc>https://studious-adventure-wo15nv1.pages.github.io/content/08_MDEditor_Metadata_File_Management/08b_import.html</loc>
+    <lastmod>2024-02-22T15:45:35.269Z</lastmod>
+  </url>
+  <url>
+    <loc>https://studious-adventure-wo15nv1.pages.github.io/content/08_MDEditor_Metadata_File_Management/08g_copy_records.html</loc>
+    <lastmod>2024-02-22T15:45:35.269Z</lastmod>
+  </url>
+  <url>
+    <loc>https://studious-adventure-wo15nv1.pages.github.io/content/08_MDEditor_Metadata_File_Management/08e_import_fgdc.html</loc>
+    <lastmod>2024-02-22T15:45:35.269Z</lastmod>
+  </url>
+  <url>
+    <loc>https://studious-adventure-wo15nv1.pages.github.io/content/06b_metadata_sciencebase_first.html</loc>
+    <lastmod>2024-02-22T15:45:35.265Z</lastmod>
   </url>
   <url>
     <loc>https://studious-adventure-wo15nv1.pages.github.io/index.html</loc>
-    <lastmod>2024-02-20T17:25:04.206Z</lastmod>
+    <lastmod>2024-02-22T15:45:35.269Z</lastmod>
   </url>
   <url>
-    <loc>https://studious-adventure-wo15nv1.pages.github.io/DISCLAIMER.html</loc>
-    <lastmod>2024-02-20T17:25:04.142Z</lastmod>
+    <loc>https://studious-adventure-wo15nv1.pages.github.io/content/04_projects_products_contacts.html</loc>
+    <lastmod>2024-02-22T15:45:35.265Z</lastmod>
   </url>
   <url>
-    <loc>https://studious-adventure-wo15nv1.pages.github.io/content/roles_and_responsibilities.html</loc>
-    <lastmod>2024-02-20T17:25:04.206Z</lastmod>
+    <loc>https://studious-adventure-wo15nv1.pages.github.io/content/08_MDEditor_Metadata_File_Management/08f_export.html</loc>
+    <lastmod>2024-02-22T15:45:35.269Z</lastmod>
   </url>
   <url>
-    <loc>https://studious-adventure-wo15nv1.pages.github.io/content/projects_products_contacts.html</loc>
-    <lastmod>2024-02-20T17:25:04.206Z</lastmod>
+    <loc>https://studious-adventure-wo15nv1.pages.github.io/content/08_MDEditor_Metadata_File_Management/08a_import_intro.html</loc>
+    <lastmod>2024-02-22T15:45:35.269Z</lastmod>
   </url>
   <url>
-    <loc>https://studious-adventure-wo15nv1.pages.github.io/content/Archive/code.html</loc>
-    <lastmod>2024-02-20T17:25:04.202Z</lastmod>
+    <loc>https://studious-adventure-wo15nv1.pages.github.io/content/08_MDEditor_Metadata_File_Management/08d_import_sbjson.html</loc>
+    <lastmod>2024-02-22T15:45:35.269Z</lastmod>
   </url>
   <url>
-    <loc>https://studious-adventure-wo15nv1.pages.github.io/content/Archive/rmarkdown.html</loc>
-    <lastmod>2024-02-20T17:25:04.202Z</lastmod>
+    <loc>https://studious-adventure-wo15nv1.pages.github.io/content/08_MDEditor_Metadata_File_Management/08c_import_mdjson.html</loc>
+    <lastmod>2024-02-22T15:45:35.269Z</lastmod>
   </url>
   <url>
-    <loc>https://studious-adventure-wo15nv1.pages.github.io/content/Archive/rendering.html</loc>
-    <lastmod>2024-02-20T17:25:04.202Z</lastmod>
+    <loc>https://studious-adventure-wo15nv1.pages.github.io/content/09_metadata_requirements_checklist.html</loc>
+    <lastmod>2024-02-22T15:45:35.269Z</lastmod>
   </url>
   <url>
-    <loc>https://studious-adventure-wo15nv1.pages.github.io/content/Archive/customizing.html</loc>
-    <lastmod>2024-02-20T17:25:04.202Z</lastmod>
+    <loc>https://studious-adventure-wo15nv1.pages.github.io/content/06a_metadata_from_scratch.html</loc>
+    <lastmod>2024-02-22T15:45:35.265Z</lastmod>
   </url>
   <url>
-    <loc>https://studious-adventure-wo15nv1.pages.github.io/CHANGELOG.html</loc>
-    <lastmod>2024-02-20T17:25:04.142Z</lastmod>
+    <loc>https://studious-adventure-wo15nv1.pages.github.io/content/02_goals_sa_data_management.html</loc>
+    <lastmod>2024-02-22T15:45:35.265Z</lastmod>
+  </url>
+  <url>
+    <loc>https://studious-adventure-wo15nv1.pages.github.io/content/07_settings.html</loc>
+    <lastmod>2024-02-22T15:45:35.269Z</lastmod>
+  </url>
+  <url>
+    <loc>https://studious-adventure-wo15nv1.pages.github.io/content/05_non_duplication_policy_guidance.html</loc>
+    <lastmod>2024-02-22T15:45:35.265Z</lastmod>
   </url>
 </urlset>
