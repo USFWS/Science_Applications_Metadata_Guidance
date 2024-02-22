@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>USFWS Science Applications - Metadata Guidance – c_metadata_editing_republishing</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../content/06d_metadata_pts_considerations.html" rel="next">
+<link href="../content/06b_metadata_sciencebase_first.html" rel="prev">
+<link href="../images/favicon.ico" rel="icon">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/06a_metadata_from_scratch.html">Metadata</a></li><li class="breadcrumb-item"><a href="../content/06c_metadata_editing_republishing.html">Metadata Editing / Re-Publishing</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-center sidebar-header">
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="https://www.fws.gov/themes/custom/fws_gov/logo.svg" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      <div class="sidebar-tools-main tools-wide">
+    <a href="https://fws.gov" rel="" title="USFWS" class="quarto-navigation-tool px-1" aria-label="USFWS"><i class="bi bi-globe"></i></a>
+    <a href="https://github.com/usfws" rel="" title="USFWS Github" class="quarto-navigation-tool px-1" aria-label="USFWS Github"><i class="bi bi-github"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/01_roles_and_responsibilities.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Roles &amp; Responsibilities (Draft)</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/02_goals_sa_data_management.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Goals of SA Data Management</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/03_sa_science_catalog.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">SA Science Catalog</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/04_projects_products_contacts.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Projects, Products, Contacts</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/05_non_duplication_policy_guidance.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Non Duplication Policy Guidance</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Metadata</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/06a_metadata_from_scratch.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Metadata From Scratch</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/06b_metadata_sciencebase_first.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Metadata From ScienceBase</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/06c_metadata_editing_republishing.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Metadata Editing / Re-Publishing</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/06d_metadata_pts_considerations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">PTS Considerations</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/07_settings.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Settings</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
+ <span class="menu-text">mdEditor Metadata File Management</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/08_MDEditor_Metadata_File_Management/08a_import_intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">mdEditor Metadata File Management</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
+ <span class="menu-text">Import</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/08_MDEditor_Metadata_File_Management/08b_import.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Import</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/08_MDEditor_Metadata_File_Management/08c_import_mdjson.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">mdJSON</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/08_MDEditor_Metadata_File_Management/08d_import_sbjson.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">sbJSON</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/08_MDEditor_Metadata_File_Management/08e_import_fgdc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">FGDC</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/08_MDEditor_Metadata_File_Management/08f_export.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Export</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/08_MDEditor_Metadata_File_Management/08g_copy_records.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Copy Records</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/09_metadata_requirements_checklist.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Metadata Requirements Checklist</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/10_digital_object_identifier.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Digital Object Identifier (DOI)</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#metadata-editing-re-publishing" id="toc-metadata-editing-re-publishing" class="nav-link active" data-scroll-target="#metadata-editing-re-publishing">Metadata Editing / Re-Publishing</a>
+  <ul class="collapse">
+  <li><a href="#step-1-gather-information-needed-for-your-metadata-entries." id="toc-step-1-gather-information-needed-for-your-metadata-entries." class="nav-link" data-scroll-target="#step-1-gather-information-needed-for-your-metadata-entries."><strong>Step 1: Gather information needed for your metadata entries.</strong></a></li>
+  <li><a href="#step-2-open-mdeditor." id="toc-step-2-open-mdeditor." class="nav-link" data-scroll-target="#step-2-open-mdeditor.">Step 2: Open mdEditor.</a></li>
+  <li><a href="#step-3-import-mdeditor-files." id="toc-step-3-import-mdeditor-files." class="nav-link" data-scroll-target="#step-3-import-mdeditor-files.">Step 3: Import mdEditor file(s).</a></li>
+  <li><a href="#step-4-check-the-settings." id="toc-step-4-check-the-settings." class="nav-link" data-scroll-target="#step-4-check-the-settings.">Step 4: Check the Settings.</a></li>
+  <li><a href="#step-5-update-contacts." id="toc-step-5-update-contacts." class="nav-link" data-scroll-target="#step-5-update-contacts.">Step 5: Update Contacts.</a></li>
+  <li><a href="#step-6-update-projects." id="toc-step-6-update-projects." class="nav-link" data-scroll-target="#step-6-update-projects.">Step 6: Update Projects.</a></li>
+  <li><a href="#step-7-update-products." id="toc-step-7-update-products." class="nav-link" data-scroll-target="#step-7-update-products.">Step 7: Update Products.</a></li>
+  <li><a href="#step-8-for-applicable-products-create-import-or-update-data-dictionaries." id="toc-step-8-for-applicable-products-create-import-or-update-data-dictionaries." class="nav-link" data-scroll-target="#step-8-for-applicable-products-create-import-or-update-data-dictionaries.">Step 8: For applicable Products, create, import, or update Data Dictionaries.</a></li>
+  <li><a href="#step-9-check-associations-between-projects-andor-products." id="toc-step-9-check-associations-between-projects-andor-products." class="nav-link" data-scroll-target="#step-9-check-associations-between-projects-andor-products.">Step 9: Check Associations between Projects and/or Products.</a></li>
+  <li><a href="#step-10-publish-your-records-to-sciencebase." id="toc-step-10-publish-your-records-to-sciencebase." class="nav-link" data-scroll-target="#step-10-publish-your-records-to-sciencebase.">Step 10: Publish your records to ScienceBase.</a></li>
+  <li><a href="#step-11-export-your-records-and-contacts-for-backup-transfer-or-sharing." id="toc-step-11-export-your-records-and-contacts-for-backup-transfer-or-sharing." class="nav-link" data-scroll-target="#step-11-export-your-records-and-contacts-for-backup-transfer-or-sharing.">Step 11: Export your records and contacts for backup, transfer, or sharing.</a></li>
+  <li><a href="#step-12-review-the-resulting-entries-in-the-lcc-science-catalog." id="toc-step-12-review-the-resulting-entries-in-the-lcc-science-catalog." class="nav-link" data-scroll-target="#step-12-review-the-resulting-entries-in-the-lcc-science-catalog.">Step 12: Review the resulting entries in the LCC Science Catalog.</a></li>
+  <li><a href="#step-13-consult-with-the-different-qaqc-resources." id="toc-step-13-consult-with-the-different-qaqc-resources." class="nav-link" data-scroll-target="#step-13-consult-with-the-different-qaqc-resources.">Step 13: Consult with the different QA/QC Resources.</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/usfws/sciapps_metadata_guidance/edit/main/content/06c_metadata_editing_republishing.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/usfws/sciapps_metadata_guidance/blob/main/content/06c_metadata_editing_republishing.qmd" class="toc-action">View source</a></p><p><a href="https://github.com/usfws/sciapps_metadata_guidance/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+<section id="metadata-editing-re-publishing" class="level1">
+<h1>Metadata Editing / Re-Publishing</h1>
+<p>Follow this workflow if you have already created and published mdJSON to ScienceBase and need to update the metadata and re-publish to ScienceBase.</p>
+<section id="step-1-gather-information-needed-for-your-metadata-entries." class="level2">
+<h2 class="anchored" data-anchor-id="step-1-gather-information-needed-for-your-metadata-entries."><strong>Step 1: Gather information needed for your metadata entries.</strong></h2>
+<p>Have the necessary information to update your metadata records readily accessible before you begin.</p>
+</section>
+<section id="step-2-open-mdeditor." class="level2">
+<h2 class="anchored" data-anchor-id="step-2-open-mdeditor.">Step 2: Open mdEditor.</h2>
+<p>The direct link to mdEditor is <a href="https://go.mdeditor.org">https://go.mdeditor.org</a>. Choose the browser you plan to use for mdEditor and bookmark this link.</p>
+<p>mdEditor can also be accessed from its homepage at <a href="https://www.mdeditor.org/">https://www.mdeditor.org/</a>. This site provides some background information and Frequently Asked Questions about mdEditor.</p>
+</section>
+<section id="step-3-import-mdeditor-files." class="level2">
+<h2 class="anchored" data-anchor-id="step-3-import-mdeditor-files.">Step 3: <a href="../data-management/import/mdjson.md">Import</a> mdEditor file(s).</h2>
+<p>Import the mdEditor file(s) that you wish to edit. Remember, once you have edited and published metadata from mdEditor, you must always use mdEditor to update the metadata (rather than make changes directly on ScienceBase). The Science Catalog will only update based on what is in mdJSON (and not sbJSON).</p>
+</section>
+<section id="step-4-check-the-settings." class="level2">
+<h2 class="anchored" data-anchor-id="step-4-check-the-settings.">Step 4: Check the <a href="../settings.md">Settings</a>.</h2>
+<p>Ensure the correct LCC-specific settings are in place for Importing, Metadata Repositories, and Publishing.</p>
+</section>
+<section id="step-5-update-contacts." class="level2">
+<h2 class="anchored" data-anchor-id="step-5-update-contacts.">Step 5: Update <a href="../contacts/">Contacts</a>.</h2>
+<p>If you have new contacts to add to your metadata record, create those contacts.</p>
+</section>
+<section id="step-6-update-projects." class="level2">
+<h2 class="anchored" data-anchor-id="step-6-update-projects.">Step 6: Update <a href="../project-entry-guidance/">Projects</a>.</h2>
+<p>Update/edit metadata as needed.</p>
+</section>
+<section id="step-7-update-products." class="level2">
+<h2 class="anchored" data-anchor-id="step-7-update-products.">Step 7: Update <a href="../product-entry-guidance/">Products</a>.</h2>
+<p>Update/edit metadata as needed.</p>
+</section>
+<section id="step-8-for-applicable-products-create-import-or-update-data-dictionaries." class="level2">
+<h2 class="anchored" data-anchor-id="step-8-for-applicable-products-create-import-or-update-data-dictionaries.">Step 8: For applicable Products, create, import, or update Data <a href="../product-entry-guidance/dictionaries-tab-product.md">Dictionaries</a>.</h2>
+</section>
+<section id="step-9-check-associations-between-projects-andor-products." class="level2">
+<h2 class="anchored" data-anchor-id="step-9-check-associations-between-projects-andor-products.">Step 9: Check Associations between Projects and/or Products.</h2>
+<p>If you only updated metadata in existing record that were already associated, you do not need to do anything with the associations.</p>
+<p>If you created a new product for your project, then associate those records in mdEditor.</p>
+</section>
+<section id="step-10-publish-your-records-to-sciencebase." class="level2">
+<h2 class="anchored" data-anchor-id="step-10-publish-your-records-to-sciencebase.">Step 10: <a href="../publish/">Publish</a> your records to ScienceBase.</h2>
+<p>Check that your record published where expected and that the mdJSON and xml files are attached to the SB Item. Your records should publish to their existing locations. If you added a new product to a project, then it should appear as a new child item to the project.</p>
+</section>
+<section id="step-11-export-your-records-and-contacts-for-backup-transfer-or-sharing." class="level2">
+<h2 class="anchored" data-anchor-id="step-11-export-your-records-and-contacts-for-backup-transfer-or-sharing.">Step 11: <a href="../data-management/export.md">Export</a> your records and contacts for backup, transfer, or sharing.</h2>
+<p>You may want to export working backups before publishing depending on your situation, but archival exports should be done after publishing since publishing can alter records, like adding or changing a ScienceBase ID.</p>
+</section>
+<section id="step-12-review-the-resulting-entries-in-the-lcc-science-catalog." class="level2">
+<h2 class="anchored" data-anchor-id="step-12-review-the-resulting-entries-in-the-lcc-science-catalog.">Step 12: Review the resulting entries in the <a href="https://lccnetwork.org/catalog">LCC Science Catalog</a>.</h2>
+<p>The Science Catalog updates overnight so you should review newly-published records the day after you publish to ScienceBase. This will be one of your best quality control checks.</p>
+</section>
+<section id="step-13-consult-with-the-different-qaqc-resources." class="level2">
+<h2 class="anchored" data-anchor-id="step-13-consult-with-the-different-qaqc-resources.">Step 13: Consult with the different <a href="../metadata-improvements/qaqc-fixes/dj-case-qaqc-list.md">QA/QC Resources</a>.</h2>
+<p>See the <a href="../metadata-improvements/qaqc-fixes/dj-case-qaqc-list.md">QA/QC Resources</a> page for the different tools available to check your metadata.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../content/06b_metadata_sciencebase_first.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Metadata From ScienceBase</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../content/06d_metadata_pts_considerations.html" class="pagination-link">
+        <span class="nav-page-text">PTS Considerations</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">© CC-1.0</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">This page is built with <a href="https://quarto.org/">Quarto</a>.</div>
+  </div>
+</footer>
+
+
+
+</body></html>

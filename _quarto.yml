@@ -27,23 +27,38 @@ website:
         href: https://github.com/usfws
         text: "USFWS Github"
 
-    style: "docked"
+    style: "floating"
     search: true
     collapse-level: 1
     contents:
       - href: index.qmd
-        text: Home
-      - href: content/roles_and_responsibilities.qmd
-        text: Roles and Responsibilites (Draft)
-      - href: content/goals_sa_data_management.qmd   
-        text: Goals of SA Data Management
-      - href: content/sa_science_catalog.qmd   
-        text: SA Science Catalog
-      - href: content/projects_products_contacts.qmd   
-        text: Projects, Products, and Contacts 
-      - href: content/non_duplication_policy_guidance.qmd   
-        text: Non-Duplication Policy Guidance         
-
+        text: Introduction
+      - content/01_roles_and_responsibilities.qmd
+      - content/02_goals_sa_data_management.qmd   
+      - content/03_sa_science_catalog.qmd   
+      - content/04_projects_products_contacts.qmd   
+      - content/05_non_duplication_policy_guidance.qmd   
+      - section: "Metadata"
+        contents:
+          - content/06a_metadata_from_scratch.qmd
+          - content/06b_metadata_sciencebase_first.qmd          
+          - content/06c_metadata_editing_republishing.qmd          
+          - content/06d_metadata_pts_considerations.qmd 
+      - content/07_settings.qmd           
+      - section: "mdEditor Metadata File Management"
+        contents:
+          - content/08_MDEditor_Metadata_File_Management/08a_import_intro.qmd    
+          - section: "Import"
+            contents:
+            - content/08_MDEditor_Metadata_File_Management/08b_import.qmd
+            - content/08_MDEditor_Metadata_File_Management/08c_import_mdjson.qmd          
+            - content/08_MDEditor_Metadata_File_Management/08d_import_sbjson.qmd          
+            - content/08_MDEditor_Metadata_File_Management/08e_import_fgdc.qmd          
+          - content/08_MDEditor_Metadata_File_Management/08f_export.qmd   
+          - content/08_MDEditor_Metadata_File_Management/08g_copy_records.qmd   
+      - content/09_metadata_requirements_checklist.qmd  
+      - content/10_digital_object_identifier.qmd        
+      
 format:
   html:
     theme:

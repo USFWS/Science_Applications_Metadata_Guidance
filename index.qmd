@@ -12,7 +12,7 @@ open it to ensure you are viewing the most recent version._
 
 If you have questions/concerns regarding this guidance, please contact the 
 FWS SA National Data Steward \(sadatasteward@fws.gov\) or 
-Blake Massey \(blake_massey@fws.gov until 20 April 2024\).
+Blake Massey \(blake_massey@fws.gov\).
 
 ## Introduction
 
@@ -27,7 +27,7 @@ accessible, and usable.
 ## USFWS Data Management Integration
 
 Metadata creation is part of the Maintain step of the [Data Management Lifecycle](https://doimspp.sharepoint.com/sites/fws-data/SitePages/Data_management_life_cycle_home.aspx).   
-Guidance is also available in the [USFWS data management handbook.](https://doimspp.sharepoint.com/sites/fws-data/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Ffws%2Ddata%2FShared%20Documents%2FDataManagementHandbook%2Epdf&parent=%2Fsites%2Ffws%2Ddata%2FShared%20Documents)
+Guidance is also available in the [USFWS Data Management Handbook.](https://doimspp.sharepoint.com/sites/fws-data/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Ffws%2Ddata%2FShared%20Documents%2FDataManagementHandbook%2Epdf&parent=%2Fsites%2Ffws%2Ddata%2FShared%20Documents)
 
 ### Metadata and mdEditor
 
@@ -49,7 +49,7 @@ also be used to track any project or funding.
 
 The metadata requirements described here apply to science projects and products 
 that were funded by SA 
-\(for more details, see the [Project, Products, and Contacts](lcc-projects-products-contacts.md) section\).
+\(for more details, see the [Project, Products, and Contacts](content/projects_products_contacts.qmd) section\).
 
 ## How to Use this Manual
 

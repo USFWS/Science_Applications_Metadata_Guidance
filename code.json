@@ -1,10 +1,10 @@
 [
   {
-    "name": "r8_DGEC_Template",
+    "name": "sciapps_metadata_guidance",
     "organization": "U.S. Fish & Wildlife Service",
-    "description": "A template for FWS R8 DGEC repositories",
-    "version": "1.0",
-    "status": "released",
+    "description": "Science Application Metadata Guidance Documenation",
+    "version": "0.9",
+    "status": "pre-release",
 
     "permissions": {
       "usageType": "openSource",
@@ -16,33 +16,33 @@
       ]
     },
 
-    "homepageURL": "https://github.com/USFWS/r8_DGEC_template",
-    "downloadURL": "https://github.com/USFWS/r8_DGEC_template/archive/refs/heads/main.zip",
-    "disclaimerURL": "https://github.com/USFWS/r8_DGEC_template/blob/main/DISCLAIMER.md",
-    "repositoryURL": "https://github.com/USFWS/r8_DGEC_template.git",
+    "homepageURL": "https://github.com/USFWS/sciapps_metadata_guidance",
+    "downloadURL": "https://github.com/USFWS/sciapps_metadata_guidance/archive/refs/heads/main.zip",
+    "disclaimerURL": "https://github.com/USFWS/sciapps_metadata_guidance/blob/main/DISCLAIMER.md",
+    "repositoryURL": "https://github.com/USFWS/sciapps_metadata_guidance.git",
     "vcs": "git",
 
     "laborHours": 2,
 
     "tags": [
-      "r8",
+      "Science Applications HQ",
       "usfws"
     ],
 
     "languages": [
-	  "r",
+	    "r",
       "json",
       "md",
       "html"
     ],
 
     "contact": {
-      "name": "Justin Mills",
-      "email": "justin_mills@fws.gov"
+      "name": "Blake Massey",
+      "email": "blake_massey@fws.gov"
     },
 
     "date": {
-      "metadataLastUpdated": "2023-01-31"
+      "metadataLastUpdated": "2024-02-20"
     }
   }
 ]
