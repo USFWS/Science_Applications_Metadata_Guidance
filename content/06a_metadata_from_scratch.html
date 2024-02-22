@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>USFWS Science Applications - Metadata Guidance</title>
+<title>USFWS Science Applications - Metadata Guidance - Metadata From Scratch</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -96,15 +96,18 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-center sidebar-header">
+    <div class="pt-lg-2 mt-2 text-center sidebar-header sidebar-header-stacked">
       <a href="../index.html" class="sidebar-logo-link">
-      <img src="https://www.fws.gov/themes/custom/fws_gov/logo.svg" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <img src="../assets/usfws_logo_64w_76h.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
-      <div class="sidebar-tools-main tools-wide">
-    <a href="https://fws.gov" title="USFWS" class="quarto-navigation-tool px-1" aria-label="USFWS"><i class="bi bi-globe"></i></a>
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">USFWS Science Applications Metadata Guidance</a> 
+        <div class="sidebar-tools-main tools-wide">
+    <a href="https://www.fws.gov/program/science-applications" title="USFWS Science Applications" class="quarto-navigation-tool px-1" aria-label="USFWS Science Applications"><i class="bi bi-globe"></i></a>
     <a href="https://github.com/usfws" title="USFWS Github" class="quarto-navigation-tool px-1" aria-label="USFWS Github"><i class="bi bi-github"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
+    </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
@@ -122,7 +125,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../content/01_roles_and_responsibilities.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Roles &amp; Responsibilities (Draft)</span></a>
+ <span class="menu-text">Roles and Responsibilites</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -201,8 +204,8 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/08_MDEditor_Metadata_File_Management/08a_import_intro.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">mdEditor Metadata File Management</span></a>
+  <a href="../content/08_MDEditor_Metadata_File_Management/08a_metadata_format.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Metadata Format</span></a>
   </div>
 </li>
           <li class="sidebar-item sidebar-item-section">
@@ -216,8 +219,8 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/08_MDEditor_Metadata_File_Management/08b_import.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Import</span></a>
+  <a href="../content/08_MDEditor_Metadata_File_Management/08b_import_import_settings.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Import Settings</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -235,7 +238,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../content/08_MDEditor_Metadata_File_Management/08e_import_fgdc.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">FGDC</span></a>
+ <span class="menu-text">FDGC</span></a>
   </div>
 </li>
       </ul>
@@ -276,9 +279,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#metadata-from-scratch" id="toc-metadata-from-scratch" class="nav-link active" data-scroll-target="#metadata-from-scratch">Metadata From Scratch</a>
-  <ul class="collapse">
-  <li><a href="#step-1-gather-information-needed-for-your-metadata-entries." id="toc-step-1-gather-information-needed-for-your-metadata-entries." class="nav-link" data-scroll-target="#step-1-gather-information-needed-for-your-metadata-entries.">Step 1: Gather information needed for your metadata entries.</a></li>
+  <li><a href="#step-1-gather-information-needed-for-your-metadata-entries." id="toc-step-1-gather-information-needed-for-your-metadata-entries." class="nav-link active" data-scroll-target="#step-1-gather-information-needed-for-your-metadata-entries.">Step 1: Gather information needed for your metadata entries.</a></li>
   <li><a href="#step-2-open-mdeditor." id="toc-step-2-open-mdeditor." class="nav-link" data-scroll-target="#step-2-open-mdeditor.">Step 2: Open mdEditor.</a></li>
   <li><a href="#step-3-set-the-correct-default-settings." id="toc-step-3-set-the-correct-default-settings." class="nav-link" data-scroll-target="#step-3-set-the-correct-default-settings.">Step 3: Set the correct default Settings.</a></li>
   <li><a href="#step-4-create-contacts." id="toc-step-4-create-contacts." class="nav-link" data-scroll-target="#step-4-create-contacts.">Step 4: Create Contacts.</a></li>
@@ -290,18 +291,31 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#step-10-publish-your-records-to-sciencebase." id="toc-step-10-publish-your-records-to-sciencebase." class="nav-link" data-scroll-target="#step-10-publish-your-records-to-sciencebase.">Step 10: Publish your records to ScienceBase.</a></li>
   <li><a href="#step-11-export-your-records-and-contacts-for-backup-transfer-or-sharing." id="toc-step-11-export-your-records-and-contacts-for-backup-transfer-or-sharing." class="nav-link" data-scroll-target="#step-11-export-your-records-and-contacts-for-backup-transfer-or-sharing.">Step 11: Export your records and contacts for backup, transfer, or sharing.</a></li>
   <li><a href="#step-12-review-the-resulting-entries-in-the-sa-science-catalog." id="toc-step-12-review-the-resulting-entries-in-the-sa-science-catalog." class="nav-link" data-scroll-target="#step-12-review-the-resulting-entries-in-the-sa-science-catalog.">Step 12: Review the resulting entries in the SA Science Catalog.</a></li>
-  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/usfws/sciapps_metadata_guidance/edit/main/content/06a_metadata_from_scratch.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/usfws/sciapps_metadata_guidance/blob/main/content/06a_metadata_from_scratch.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/usfws/sciapps_metadata_guidance/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/06a_metadata_from_scratch.html">Metadata</a></li><li class="breadcrumb-item"><a href="../content/06a_metadata_from_scratch.html">Metadata From Scratch</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Metadata From Scratch</h1>
+</div>
 
 
 
-<section id="metadata-from-scratch" class="level1">
-<h1>Metadata From Scratch</h1>
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
 <p>Follow this workflow if you are creating mdJSON metadata for the very first time and you do not have existing project or product metadata already on ScienceBase.</p>
 <section id="step-1-gather-information-needed-for-your-metadata-entries." class="level2">
 <h2 class="anchored" data-anchor-id="step-1-gather-information-needed-for-your-metadata-entries.">Step 1: Gather information needed for your metadata entries.</h2>
@@ -356,7 +370,6 @@ ul.task-list li input[type="checkbox"] {
 <p>The Science Catalog updates overnight so you should review newly-published records the day after you publish to ScienceBase. This will be one of your best quality control checks.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

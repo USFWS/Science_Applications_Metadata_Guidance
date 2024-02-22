@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>USFWS Science Applications - Metadata Guidance - Goals of SA Data Management</title>
+<title>USFWS Science Applications - Metadata Guidance - Import Settings</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +23,26 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../content/03_sa_science_catalog.html" rel="next">
-<link href="../content/01_roles_and_responsibilities.html" rel="prev">
-<link href="../images/favicon.ico" rel="icon">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../content/08_MDEditor_Metadata_File_Management/08c_import_mdjson.html" rel="next">
+<link href="../../content/08_MDEditor_Metadata_File_Management/08a_metadata_format.html" rel="prev">
+<link href="../../images/favicon.ico" rel="icon">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -83,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/02_goals_sa_data_management.html">Goals of SA Data Management</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../content/08_MDEditor_Metadata_File_Management/08a_metadata_format.html">mdEditor Metadata File Management</a></li><li class="breadcrumb-item"><a href="../../content/08_MDEditor_Metadata_File_Management/08b_import_import_settings.html">Import</a></li><li class="breadcrumb-item"><a href="../../content/08_MDEditor_Metadata_File_Management/08b_import_import_settings.html">Import Settings</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -97,11 +97,11 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header sidebar-header-stacked">
-      <a href="../index.html" class="sidebar-logo-link">
-      <img src="../assets/usfws_logo_64w_76h.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <a href="../../index.html" class="sidebar-logo-link">
+      <img src="../../assets/usfws_logo_64w_76h.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
     <div class="sidebar-title mb-0 py-0">
-      <a href="../">USFWS Science Applications Metadata Guidance</a> 
+      <a href="../../">USFWS Science Applications Metadata Guidance</a> 
         <div class="sidebar-tools-main tools-wide">
     <a href="https://www.fws.gov/program/science-applications" title="USFWS Science Applications" class="quarto-navigation-tool px-1" aria-label="USFWS Science Applications"><i class="bi bi-globe"></i></a>
     <a href="https://github.com/usfws" title="USFWS Github" class="quarto-navigation-tool px-1" aria-label="USFWS Github"><i class="bi bi-github"></i></a>
@@ -118,37 +118,37 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Introduction</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/01_roles_and_responsibilities.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/01_roles_and_responsibilities.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Roles and Responsibilites</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/02_goals_sa_data_management.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../content/02_goals_sa_data_management.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Goals of SA Data Management</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/03_sa_science_catalog.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/03_sa_science_catalog.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">SA Science Catalog</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/04_projects_products_contacts.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/04_projects_products_contacts.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Projects, Products, Contacts</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/05_non_duplication_policy_guidance.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/05_non_duplication_policy_guidance.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Non Duplication Policy Guidance</span></a>
   </div>
 </li>
@@ -163,25 +163,25 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/06a_metadata_from_scratch.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/06a_metadata_from_scratch.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Metadata From Scratch</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/06b_metadata_sciencebase_first.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/06b_metadata_sciencebase_first.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Metadata From ScienceBase</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/06c_metadata_editing_republishing.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/06c_metadata_editing_republishing.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Metadata Editing / Re-Publishing</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/06d_metadata_pts_considerations.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/06d_metadata_pts_considerations.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">PTS Considerations</span></a>
   </div>
 </li>
@@ -189,55 +189,55 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/07_settings.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/07_settings.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Settings</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
  <span class="menu-text">mdEditor Metadata File Management</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/08_MDEditor_Metadata_File_Management/08a_metadata_format.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/08_MDEditor_Metadata_File_Management/08a_metadata_format.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Metadata Format</span></a>
   </div>
 </li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
  <span class="menu-text">Import</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/08_MDEditor_Metadata_File_Management/08b_import_import_settings.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/08_MDEditor_Metadata_File_Management/08b_import_import_settings.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Import Settings</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/08_MDEditor_Metadata_File_Management/08c_import_mdjson.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/08_MDEditor_Metadata_File_Management/08c_import_mdjson.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">mdJSON</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/08_MDEditor_Metadata_File_Management/08d_import_sbjson.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/08_MDEditor_Metadata_File_Management/08d_import_sbjson.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">sbJSON</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/08_MDEditor_Metadata_File_Management/08e_import_fgdc.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/08_MDEditor_Metadata_File_Management/08e_import_fgdc.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">FDGC</span></a>
   </div>
 </li>
@@ -245,13 +245,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/08_MDEditor_Metadata_File_Management/08f_export.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/08_MDEditor_Metadata_File_Management/08f_export.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Export</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/08_MDEditor_Metadata_File_Management/08g_copy_records.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/08_MDEditor_Metadata_File_Management/08g_copy_records.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Copy Records</span></a>
   </div>
 </li>
@@ -259,13 +259,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/09_metadata_requirements_checklist.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/09_metadata_requirements_checklist.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Metadata Requirements Checklist</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/10_digital_object_identifier.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/10_digital_object_identifier.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Digital Object Identifier (DOI)</span></a>
   </div>
 </li>
@@ -279,22 +279,20 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#science-catalog-goals-and-objectives" id="toc-science-catalog-goals-and-objectives" class="nav-link active" data-scroll-target="#science-catalog-goals-and-objectives">Science Catalog Goals and Objectives</a>
+  <li><a href="#general-import-settings" id="toc-general-import-settings" class="nav-link active" data-scroll-target="#general-import-settings">General Import Settings</a>
   <ul class="collapse">
-  <li><a href="#goal-1-provide-an-easily-searchable-repository-for-sa-funded-science-projects-and-products-through-the-sa-science-catalog." id="toc-goal-1-provide-an-easily-searchable-repository-for-sa-funded-science-projects-and-products-through-the-sa-science-catalog." class="nav-link" data-scroll-target="#goal-1-provide-an-easily-searchable-repository-for-sa-funded-science-projects-and-products-through-the-sa-science-catalog.">Goal 1: Provide an easily searchable repository for SA-funded science projects and products through the SA Science Catalog.</a></li>
-  <li><a href="#goal-2-increase-transparency-of-sa-project-funding-information." id="toc-goal-2-increase-transparency-of-sa-project-funding-information." class="nav-link" data-scroll-target="#goal-2-increase-transparency-of-sa-project-funding-information.">Goal 2: Increase transparency of SA project funding information.</a></li>
-  <li><a href="#goal-3-demonstrate-the-impact-and-value-of-the-investment-in-landscape-scale-conservation." id="toc-goal-3-demonstrate-the-impact-and-value-of-the-investment-in-landscape-scale-conservation." class="nav-link" data-scroll-target="#goal-3-demonstrate-the-impact-and-value-of-the-investment-in-landscape-scale-conservation.">Goal 3: Demonstrate the impact and value of the investment in landscape-scale conservation.</a></li>
-  <li><a href="#goal-4-illustrate-the-link-between-sa-funded-applied-science-projects-and-todays-conservation-challenges." id="toc-goal-4-illustrate-the-link-between-sa-funded-applied-science-projects-and-todays-conservation-challenges." class="nav-link" data-scroll-target="#goal-4-illustrate-the-link-between-sa-funded-applied-science-projects-and-todays-conservation-challenges.">Goal 4: Illustrate the link between SA-funded applied science projects and today’s conservation challenges.</a></li>
+  <li><a href="#replace-vs.-merge" id="toc-replace-vs.-merge" class="nav-link" data-scroll-target="#replace-vs.-merge">Replace vs.&nbsp;Merge</a></li>
+  <li><a href="#import-settings" id="toc-import-settings" class="nav-link" data-scroll-target="#import-settings">Import Settings</a></li>
   </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/usfws/sciapps_metadata_guidance/edit/main/content/02_goals_sa_data_management.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/usfws/sciapps_metadata_guidance/blob/main/content/02_goals_sa_data_management.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/usfws/sciapps_metadata_guidance/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/usfws/sciapps_metadata_guidance/edit/main/content/08_MDEditor_Metadata_File_Management/08b_import_import_settings.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/usfws/sciapps_metadata_guidance/blob/main/content/08_MDEditor_Metadata_File_Management/08b_import_import_settings.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/usfws/sciapps_metadata_guidance/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../content/08_MDEditor_Metadata_File_Management/08a_metadata_format.html">mdEditor Metadata File Management</a></li><li class="breadcrumb-item"><a href="../../content/08_MDEditor_Metadata_File_Management/08b_import_import_settings.html">Import</a></li><li class="breadcrumb-item"><a href="../../content/08_MDEditor_Metadata_File_Management/08b_import_import_settings.html">Import Settings</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Goals of SA Data Management</h1>
+<h1 class="title">Import Settings</h1>
 </div>
 
 
@@ -311,36 +309,31 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<blockquote class="blockquote">
-<p>We envision a well-functioning data management, integration, and sharing process that integrates, at minimum, the products of SA-funded projects with those from regionally-funded projects, and that support the data lifecycle in a coordinated manner.—Conservation Science Plan v.1</p>
-</blockquote>
-<p>In the beginning, Science Applications was leading the Landscape Conservation Cooperatives: A network of individual, geographically distinct partnerships coordinated by SA. The 22 Landscape Conservation Cooperatives (LCCs) developed uniquely and independently based on the needs of their regions and partnerships. As a result, there was not a single workflow for data management and sharing among the LCCs. Instead there were multiple workflows, varying formats, and different use cases for managing and sharing the results of LCC-funded projects. Further, because LCCs placed varying levels of importance on data management, LCCs varied greatly in their staff capacity for data management.</p>
-<p>While the individual workflows met the needs of the individual LCCs and their partner organizations, they were not enough to achieve the goal of a network-wide, integrated dynamic project and product database. Through collective agreement, LCCs agreed they needed to modify their workflows to create comparable project and product metadata.</p>
-<p>Procedurally, the LCC Network has committed to using ScienceBase for cataloging all funded projects and associated products. As per the LCC Network’s response to a DOI Office of the Inspector General 2017 report, individual LCCs must contribute their project and product metadata to the ScienceBase repository by the end of 2017 and mid-2018 respectively. In tandem with this ScienceBase requirement, the LCC Network is required to post data products to data.gov and this data conduit will be in place with products cataloged by end of 2018.</p>
-<p>While SA has refocused on FWS priorities, the need for data management, integration, and sharing process remains essential to mission of FWS and SA. This guidance was developed by the SA Data Management Working Group (DMWG) with the leadership of the Architecture Subgroup (ASG).</p>
-<section id="science-catalog-goals-and-objectives" class="level2">
-<h2 class="anchored" data-anchor-id="science-catalog-goals-and-objectives">Science Catalog Goals and Objectives</h2>
-<section id="goal-1-provide-an-easily-searchable-repository-for-sa-funded-science-projects-and-products-through-the-sa-science-catalog." class="level3">
-<h3 class="anchored" data-anchor-id="goal-1-provide-an-easily-searchable-repository-for-sa-funded-science-projects-and-products-through-the-sa-science-catalog.">Goal 1: Provide an easily searchable repository for SA-funded science projects and products through the SA Science Catalog.</h3>
-<p>Objective 1.1: Enable efficient and consistent searching and filtering across all SA projects and products&gt;</p>
-<p>Objective 1.2: Ensure resource managers and partners can continue to find and use LCC information and products for decision-making and conservation action on the landscape.</p>
-<p>Objective 1.3: Support users (e.g., resource managers, scientists, auditors, graduate students) in identifying remaining/future science needs and preventing future duplication of work by displaying who and what SA has funded.</p>
-<p>Objective 1.4: Ensure the SA Science Catalog instance will remain accessible through a portable design that can be hosted on fws.gov and elsewhere, if needed.</p>
+<p>The Import function loads an mdEditor or mdJSON file into the current mdEditor session. You can also import existing ScienceBase metadata or FGDC (Federal Geographic Data Committee) metadata into mdEditor to create mdJSON.</p>
+<section id="general-import-settings" class="level2">
+<h2 class="anchored" data-anchor-id="general-import-settings">General Import Settings</h2>
+<section id="replace-vs.-merge" class="level3">
+<h3 class="anchored" data-anchor-id="replace-vs.-merge">Replace vs.&nbsp;Merge</h3>
+<p>The <strong>Replace/Merge</strong> toggle allows you to either replace or merge the imported records with the records currently loaded in mdEditor. In most instances you should select “Merge.” An exception is when you want to import Settings associated with an mdEditor file (see below).</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Selecting “Replace” will remove all metadata records currently in mdEditor and leave only the newly-imported files. If you are importing a record to add to the existing records, choose “Merge.”</p>
+</div>
+</div>
 </section>
-<section id="goal-2-increase-transparency-of-sa-project-funding-information." class="level3">
-<h3 class="anchored" data-anchor-id="goal-2-increase-transparency-of-sa-project-funding-information.">Goal 2: Increase transparency of SA project funding information.</h3>
-<p>Objective 2.1: Document how FWS and other sources of funding were used to fund science projects.</p>
-<p>Objective 2.2: Enable Science Applications and other key partners to show how FWS and other sources of funding were allocated to partners (e.g., states, tribes, federal agencies).</p>
-<p>Objective 2.3: Allow data managers to use the Science Catalog as an internal project tracking system.</p>
-</section>
-<section id="goal-3-demonstrate-the-impact-and-value-of-the-investment-in-landscape-scale-conservation." class="level3">
-<h3 class="anchored" data-anchor-id="goal-3-demonstrate-the-impact-and-value-of-the-investment-in-landscape-scale-conservation.">Goal 3: Demonstrate the impact and value of the investment in landscape-scale conservation.</h3>
-<p>Objective 3.1: Enable Science Applications and other key partners to show how investments by FWS and other federal programs leveraged additional funding by partners.</p>
-<p>Objective 3.2: Demonstrate the depth and breadth of the projects and products produced by SA and the partners and collaborators involved.</p>
-</section>
-<section id="goal-4-illustrate-the-link-between-sa-funded-applied-science-projects-and-todays-conservation-challenges." class="level3">
-<h3 class="anchored" data-anchor-id="goal-4-illustrate-the-link-between-sa-funded-applied-science-projects-and-todays-conservation-challenges.">Goal 4: Illustrate the link between SA-funded applied science projects and today’s conservation challenges.</h3>
-<p>Objective 4.1: Link SA projects and products to overarching Conservation Issues.</p>
+<section id="import-settings" class="level3">
+<h3 class="anchored" data-anchor-id="import-settings">Import Settings</h3>
+<p>Only mdEditor files store Settings information; mdJSON files do not. You must import Settings to retain metadata repository information, default ScienceBase parent identifier, and auto-save preference. To import the Settings with an mdEditor file, set the import to “Replace” (be sure you have already saved a backup copy of any files currently in mdEditor). Set the mode back to “Merge” once you’ve finished importing the Settings.</p>
+<p>If you have records already loaded into mdEditor with all desired Settings, then you do not need to re-import Settings when you import additional mdEditor files.</p>
+<p>See next sections for specific file format import guidance on <a href="../../content/08_MDEditor_Metadata_File_Management/08c_import_mdjson.html">mdJSON</a>, <a href="../../content/08_MDEditor_Metadata_File_Management/08d_import_sbjson.html">sbJSON</a>, and <a href="../../content/08_MDEditor_Metadata_File_Management/08e_import_fgdc.html">FGDC</a> metadata.</p>
 
 
 </section>
@@ -880,13 +873,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../content/01_roles_and_responsibilities.html" class="pagination-link" aria-label="Roles and Responsibilites">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Roles and Responsibilites</span>
+      <a href="../../content/08_MDEditor_Metadata_File_Management/08a_metadata_format.html" class="pagination-link" aria-label="Metadata Format">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Metadata Format</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../content/03_sa_science_catalog.html" class="pagination-link" aria-label="SA Science Catalog">
-        <span class="nav-page-text">SA Science Catalog</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../content/08_MDEditor_Metadata_File_Management/08c_import_mdjson.html" class="pagination-link" aria-label="mdJSON">
+        <span class="nav-page-text">mdJSON</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -898,7 +891,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/usfws/sciapps_metadata_guidance/edit/main/content/02_goals_sa_data_management.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/usfws/sciapps_metadata_guidance/blob/main/content/02_goals_sa_data_management.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/usfws/sciapps_metadata_guidance/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/usfws/sciapps_metadata_guidance/edit/main/content/08_MDEditor_Metadata_File_Management/08b_import_import_settings.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/usfws/sciapps_metadata_guidance/blob/main/content/08_MDEditor_Metadata_File_Management/08b_import_import_settings.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/usfws/sciapps_metadata_guidance/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>

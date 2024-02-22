@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>USFWS Science Applications - Metadata Guidance</title>
+<title>USFWS Science Applications - Metadata Guidance - Metadata Requirements Checklist</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -96,15 +96,18 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-center sidebar-header">
+    <div class="pt-lg-2 mt-2 text-center sidebar-header sidebar-header-stacked">
       <a href="../index.html" class="sidebar-logo-link">
-      <img src="https://www.fws.gov/themes/custom/fws_gov/logo.svg" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <img src="../assets/usfws_logo_64w_76h.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
-      <div class="sidebar-tools-main tools-wide">
-    <a href="https://fws.gov" title="USFWS" class="quarto-navigation-tool px-1" aria-label="USFWS"><i class="bi bi-globe"></i></a>
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">USFWS Science Applications Metadata Guidance</a> 
+        <div class="sidebar-tools-main tools-wide">
+    <a href="https://www.fws.gov/program/science-applications" title="USFWS Science Applications" class="quarto-navigation-tool px-1" aria-label="USFWS Science Applications"><i class="bi bi-globe"></i></a>
     <a href="https://github.com/usfws" title="USFWS Github" class="quarto-navigation-tool px-1" aria-label="USFWS Github"><i class="bi bi-github"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
+    </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
@@ -122,7 +125,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../content/01_roles_and_responsibilities.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Roles &amp; Responsibilities (Draft)</span></a>
+ <span class="menu-text">Roles and Responsibilites</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -201,8 +204,8 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/08_MDEditor_Metadata_File_Management/08a_import_intro.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">mdEditor Metadata File Management</span></a>
+  <a href="../content/08_MDEditor_Metadata_File_Management/08a_metadata_format.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Metadata Format</span></a>
   </div>
 </li>
           <li class="sidebar-item sidebar-item-section">
@@ -216,8 +219,8 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/08_MDEditor_Metadata_File_Management/08b_import.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Import</span></a>
+  <a href="../content/08_MDEditor_Metadata_File_Management/08b_import_import_settings.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Import Settings</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -235,7 +238,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../content/08_MDEditor_Metadata_File_Management/08e_import_fgdc.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">FGDC</span></a>
+ <span class="menu-text">FDGC</span></a>
   </div>
 </li>
       </ul>
@@ -272,22 +275,30 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#metadata-requirements-checklist" id="toc-metadata-requirements-checklist" class="nav-link active" data-scroll-target="#metadata-requirements-checklist">Metadata Requirements Checklist</a></li>
-  </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/usfws/sciapps_metadata_guidance/edit/main/content/09_metadata_requirements_checklist.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/usfws/sciapps_metadata_guidance/blob/main/content/09_metadata_requirements_checklist.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/usfws/sciapps_metadata_guidance/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Metadata Requirements Checklist</h1>
+</div>
 
 
 
-<section id="metadata-requirements-checklist" class="level1">
-<h1>Metadata Requirements Checklist</h1>
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
 <p>Below are metadata fields that are required for Project metadata, Data Product metadata, the ScienceBase 30-day policy, and for Digital Object Identifier (DOI) metadata.</p>
 <section id="basic-information" class="level4">
 <h4 class="anchored" data-anchor-id="basic-information">Basic Information</h4>
@@ -972,7 +983,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 </section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -1526,7 +1536,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/usfws/sciapps_metadata_guidance/edit/main/content/09_metadata_requirements_checklist.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/usfws/sciapps_metadata_guidance/blob/main/content/09_metadata_requirements_checklist.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/usfws/sciapps_metadata_guidance/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions"><ul><li><a href="https://github.com/usfws/sciapps_metadata_guidance/edit/main/content/09_metadata_requirements_checklist.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/usfws/sciapps_metadata_guidance/blob/main/content/09_metadata_requirements_checklist.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/usfws/sciapps_metadata_guidance/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
