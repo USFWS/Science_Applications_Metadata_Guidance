@@ -1,10 +1,9 @@
 ---
+title: "Goals of SA Data Management"
 editor: 
   markdown: 
     wrap: 80
 ---
-
-# Goals of SA Data Management
 
 > We envision a well-functioning data management, integration, and sharing
 > process that integrates, at minimum, the products of SA-funded projects with

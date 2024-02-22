@@ -1,10 +1,9 @@
 ---
+title: "Import Settings"
 editor: 
   markdown: 
     wrap: 80
 ---
-
-# Import
 
 The Import function loads an mdEditor or mdJSON file into the current mdEditor
 session. You can also import existing ScienceBase metadata or FGDC (Federal
@@ -38,4 +37,7 @@ If you have records already loaded into mdEditor with all desired Settings, then
 you do not need to re-import Settings when you import additional mdEditor files.
 
 See next sections for specific file format import guidance on
-[mdJSON](mdjson.md), [sbJSON](sbjson.md), and [FGDC](fgdc.md) metadata.
+[mdJSON](08c_import_mdjson.qmd), 
+[sbJSON](08d_import_sbjson.qmd), 
+and 
+[FGDC](08e_import_fgdc.qmd) metadata.

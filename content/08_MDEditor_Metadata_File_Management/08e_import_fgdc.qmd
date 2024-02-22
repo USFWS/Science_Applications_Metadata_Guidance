@@ -1,4 +1,9 @@
-# FGDC
+---
+title: "FDGC"
+editor: 
+  markdown: 
+    wrap: 80
+---
 
 \[content to be added\]
 

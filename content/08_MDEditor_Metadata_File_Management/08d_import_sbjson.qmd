@@ -1,10 +1,9 @@
 ---
+title: "sbJSON"
 editor: 
   markdown: 
     wrap: 80
 ---
-
-# sbJSON
 
 This method should be used when you have an existing ScienceBase item that has
 not yet been edited in mdEditor. The ScienceBase item may or may not have the

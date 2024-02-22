@@ -1,10 +1,9 @@
 ---
+title: "Export"
 editor: 
   markdown: 
     wrap: 80
 ---
-
-# Export
 
 The export function allows the current set of metadata records to be saved as an
 mdEditor or mdJSON file. The saved files can be shared with collaborators,
@@ -37,7 +36,7 @@ application and retain all mdEditor information, including Settings.
     cache will delete any records or data you have entered into the mdEditor).
     Exporting ensures that your data is secure even after clearing the storage
     cache. Not exporting your data before clearing your cache will result in a
-    permanent loss of records. Consult the [Settings](../settings.md) section of
+    permanent loss of records. Consult the [Settings](../07_settings.qmd) section of
     this manual to learn more.
 
 ## Export Options

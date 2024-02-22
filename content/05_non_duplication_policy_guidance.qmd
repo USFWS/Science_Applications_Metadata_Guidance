@@ -1,10 +1,9 @@
 ---
+title: "Non Duplication Policy Guidance"
 editor: 
   markdown: 
     wrap: 80
 ---
-
-# Non Duplication Policy Guidance
 
 ### Non Duplication Policy
 

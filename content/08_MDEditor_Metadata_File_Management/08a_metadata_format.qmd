@@ -1,10 +1,9 @@
 ---
+title: "Metadata Format"
 editor: 
   markdown: 
     wrap: 80
 ---
-
-# mdEditor Metadata File Management
 
 File management in mdEditor involves consistent and proper handling and storage
 of mdEditor derived formats of metadata. These files are essential for long-term
@@ -19,10 +18,10 @@ it will not show the metadata records from your original browser. It also means
 that clearing your browser's cache generally will not delete your mdEditor
 records. However, depending on your browser's settings, clearing your browser
 cache may still delete your mdEditor data (e.g., in Chrome, checking the
-"c_ookies and other site data\_" option will clear your mdEditor data).
+"*cookies and other site data*" option will clear your mdEditor data).
 
 ::: callout-warning
-**Warning**: In mdEditor settings, you can clear your storage cache. Doing so
+In mdEditor settings, you can clear your storage cache. Doing so
 will remove all of the information currently loaded in mdEditor. Reasons you
 might want to clear your storage cache is due to too much information stored in
 the cache, or as a way to debug a problem with mdEditor. **It is very important

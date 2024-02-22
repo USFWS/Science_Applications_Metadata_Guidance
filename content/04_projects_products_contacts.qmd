@@ -1,10 +1,9 @@
 ---
+title: "Projects, Products, Contacts"
 editor: 
   markdown: 
     wrap: 80
 ---
-
-# Projects, Products, Contacts
 
 ## Understanding Projects, Products, and Contacts
 

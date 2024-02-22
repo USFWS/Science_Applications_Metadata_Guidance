@@ -1,10 +1,10 @@
 ---
-title: "USFWS Science Applications Metadata Guidance"
+title: |
+  | USFWS Science Applications
+  | Metadata Guidance
 subtitle: "A guide to MDEditor and ScienceBase for SA"
 page-layout: full
 ---
-
-# Introduction
 
 _Note: This is a working draft that will continue to be edited. 
 **Last updated: 20 February 2024**. Please refresh this manual every time you 
@@ -26,7 +26,7 @@ accessible, and usable.
 
 ## USFWS Data Management Integration
 
-Metadata creation is part of the Maintain step of the [Data Management Lifecycle](https://doimspp.sharepoint.com/sites/fws-data/SitePages/Data_management_life_cycle_home.aspx).   
+Metadata creation is part of the Maintain step of the [Data Management Lifecycle](https://doimspp.sharepoint.com/sites/fws-data/SitePages/Data_management_life_cycle_home.aspx).
 Guidance is also available in the [USFWS Data Management Handbook.](https://doimspp.sharepoint.com/sites/fws-data/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Ffws%2Ddata%2FShared%20Documents%2FDataManagementHandbook%2Epdf&parent=%2Fsites%2Ffws%2Ddata%2FShared%20Documents)
 
 ### Metadata and mdEditor

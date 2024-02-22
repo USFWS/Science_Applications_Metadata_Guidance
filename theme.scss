@@ -4,3 +4,34 @@
 
 $font-family: "Atkinson Hyperlegible", sans-serif;
 
+//$body-bg: #fdf6e3; //Solarized backgground color
+
+/*-- navbar --*/  //Currently not used
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-brand.navbar-brand-logo {
+  display: flex;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-right: 0;
+  margin-left: 5em;
+}
+
+.navbar-title {
+  font-size: 1.75em;
+}
+
+img.navbar-logo {
+  max-height: 45px;
+  width: auto;
+  margin-right: .75em;  
+  align-items: baseline;
+}
+
+
+#quarto-header {
+  border-bottom: 1px solid black;
+}

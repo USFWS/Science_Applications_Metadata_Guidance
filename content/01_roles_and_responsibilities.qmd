@@ -1,12 +1,10 @@
 ---
+title: "Roles & Responsibilities (Draft)"
+subtitle: "Describes FWS Enterprise Roles and defines Responsibilities within SA"
 editor: 
   markdown: 
     wrap: 80
-
-description: Describes FWS Enterprise Roles and defines Responsibilities within SA
 ---
-
-# Roles & Responsibilities (Draft)
 
 ### ARDs
 

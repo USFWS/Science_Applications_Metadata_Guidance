@@ -1,10 +1,9 @@
 ---
+title: "Digital Object Identifier (DOI)"
 editor: 
   markdown: 
     wrap: 80
 ---
-
-# Digital Object Identifier (DOI)
 
 A Digital Object Identifier (DOI) is a globally unique, persistent, and
 resolvable identifier used to uniquely identify objects and are widely used to

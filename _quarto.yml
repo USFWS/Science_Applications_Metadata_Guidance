@@ -12,17 +12,23 @@ website:
   page-footer:
     right: "This page is built with [Quarto](https://quarto.org/)."
     left: "&copy; CC-1.0"
+
+#  navbar:
+#    logo: "/assets/usfws_logo_64w_76h.png"  
+#    background: primary
+#    search: false 
   
   sidebar:
+    title: "USFWS Science Applications Metadata Guidance"   
     background: "#D9E3E4"
-    logo: "https://www.fws.gov/themes/custom/fws_gov/logo.svg"
-    favicon: images/favicon.ico
+    logo: "/assets/usfws_logo_64w_76h.png"
+    favicon: favicon.ico
     pinned: true
     align: center
-    tools: 
+    tools:
       - icon: globe
-        href: https://fws.gov
-        text: "USFWS"
+        href: https://www.fws.gov/program/science-applications
+        text: "USFWS Science Applications"
       - icon: github
         href: https://github.com/usfws
         text: "USFWS Github"
@@ -33,7 +39,8 @@ website:
     contents:
       - href: index.qmd
         text: Introduction
-      - content/01_roles_and_responsibilities.qmd
+      - href: content/01_roles_and_responsibilities.qmd
+        text: Roles and Responsibilites        
       - content/02_goals_sa_data_management.qmd   
       - content/03_sa_science_catalog.qmd   
       - content/04_projects_products_contacts.qmd   
@@ -47,10 +54,10 @@ website:
       - content/07_settings.qmd           
       - section: "mdEditor Metadata File Management"
         contents:
-          - content/08_MDEditor_Metadata_File_Management/08a_import_intro.qmd    
+          - content/08_MDEditor_Metadata_File_Management/08a_metadata_format.qmd    
           - section: "Import"
             contents:
-            - content/08_MDEditor_Metadata_File_Management/08b_import.qmd
+            - content/08_MDEditor_Metadata_File_Management/08b_import_import_settings.qmd
             - content/08_MDEditor_Metadata_File_Management/08c_import_mdjson.qmd          
             - content/08_MDEditor_Metadata_File_Management/08d_import_sbjson.qmd          
             - content/08_MDEditor_Metadata_File_Management/08e_import_fgdc.qmd          
@@ -62,12 +69,13 @@ website:
 format:
   html:
     theme:
-      light: [cosmo, theme.scss] 
-      dark: [cosmo, theme-dark.scss]
+      light: [materia, theme.scss]
+      dark: [materia, theme-dark.scss]
     code-copy: true
     code-overflow: wrap
     toc: true
-
+    grid:
+      sidebar-width: 350px
 
 filters:
   - include-files.lua

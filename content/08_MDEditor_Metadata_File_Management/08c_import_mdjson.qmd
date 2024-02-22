@@ -1,10 +1,9 @@
 ---
+title: "mdJSON"
 editor: 
   markdown: 
     wrap: 80
 ---
-
-# mdJSON
 
 You can click or drag and drop a file onto the **Import Data** button to import
 a local file.

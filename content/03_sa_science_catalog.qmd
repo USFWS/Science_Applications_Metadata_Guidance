@@ -1,10 +1,9 @@
 ---
+title: "SA Science Catalog"
 editor: 
   markdown: 
     wrap: 80
 ---
-
-# SA Science Catalog
 
 A more detailed look at the metadata requirements and architecture behind the
 Science Applications Science Catalog.

@@ -1,10 +1,9 @@
 ---
+title: "Settings"
 editor: 
   markdown: 
     wrap: 80
 ---
-
-# Settings
 
 The settings menu allows for the configuring of user-specific options. Settings
 must be configured before you create SA metadata.
