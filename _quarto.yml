@@ -1,27 +1,24 @@
 project: 
   type: website
 
+language: 
+  search-box-placeholder: "Search"
+
 website: 
   page-navigation: true
   title: "USFWS Science Applications - Metadata Guidance" 
   site-url: "https://studious-adventure-wo15nv1.pages.github.io" 
   repo-url: "https://github.com/usfws/sciapps_metadata_guidance"
   repo-actions: [edit, source, issue]
-  favicon: images/favicon.ico
-  
-  page-footer:
-    right: "This page is built with [Quarto](https://quarto.org/)."
-    left: "&copy; CC-1.0"
-
-#  navbar:
-#    logo: "/assets/usfws_logo_64w_76h.png"  
-#    background: primary
-#    search: false 
+  favicon: favicon.png
+  search:
+    location: sidebar
+    type: textbox
   
   sidebar:
     title: "USFWS Science Applications Metadata Guidance"   
     background: "#D9E3E4"
-    logo: "/assets/usfws_logo_64w_76h.png"
+    logo: "/assets/usfws_logo_64px_width.png"
     favicon: favicon.ico
     pinned: true
     align: center
@@ -34,7 +31,7 @@ website:
         text: "USFWS Github"
 
     style: "floating"
-    search: true
+      
     collapse-level: 1
     contents:
       - href: index.qmd
@@ -66,17 +63,20 @@ website:
       - content/09_metadata_requirements_checklist.qmd  
       - content/10_digital_object_identifier.qmd        
       
+      
 format:
   html:
+    toc: true
     theme:
       light: [materia, theme.scss]
       dark: [materia, theme-dark.scss]
     code-copy: true
     code-overflow: wrap
-    toc: true
     grid:
       sidebar-width: 350px
-
+      body-width: 900px
+      margin-width: 300px
+      
 filters:
   - include-files.lua
   - quarto

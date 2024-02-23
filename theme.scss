@@ -6,32 +6,44 @@ $font-family: "Atkinson Hyperlegible", sans-serif;
 
 //$body-bg: #fdf6e3; //Solarized backgground color
 
+#quarto-sidebar .sidebar-search .aa-Autocomplete {
+    width: 145px;
+    background-color: #ffffff;    
+    border: 2px solid #b9b4b4;
+}
+
+.sidebar #quarto-search svg.aa-SubmitIcon {
+    width: 25px;
+    height: 25px;
+    color: #444;
+    opacity: 1;
+}
+
 /*-- navbar --*/  //Currently not used
-.navbar {
-  padding-top: 0;
-  padding-bottom: 0;
-}
+//.navbar {
+//  padding-top: 0;
+//  padding-bottom: 0;
+//}
 
-.navbar-brand.navbar-brand-logo {
-  display: flex;
-  padding-top: 0;
-  padding-bottom: 0;
-  margin-right: 0;
-  margin-left: 5em;
-}
+//.navbar-brand.navbar-brand-logo {
+//  display: flex;
+//  padding-top: 0;/
+//  padding-bottom: 0;
+//  margin-right: 0;
+//  margin-left: 5em;
+//}
 
-.navbar-title {
-  font-size: 1.75em;
-}
+//.navbar-title {
+//  font-size: 1.75em;
+//}
 
-img.navbar-logo {
-  max-height: 45px;
-  width: auto;
-  margin-right: .75em;  
-  align-items: baseline;
-}
+//img.navbar-logo {
+//  max-height: 45px;
+//  width: auto;
+//  margin-right: .75em;  
+//  align-items: baseline;
+//}
 
-
-#quarto-header {
-  border-bottom: 1px solid black;
-}
+//#quarto-header {
+//  border-bottom: 1px solid black;
+//}

@@ -1,13 +1,10 @@
 ---
-title: |
-  | USFWS Science Applications
-  | Metadata Guidance
+title: "USFWS Science Applications Metadata Guidance"
 subtitle: "A guide to MDEditor and ScienceBase for SA"
 page-layout: full
 ---
-
 _Note: This is a working draft that will continue to be edited. 
-**Last updated: 20 February 2024**. Please refresh this manual every time you 
+**Last updated: 23 February 2024**. Please refresh this manual every time you 
 open it to ensure you are viewing the most recent version._
 
 If you have questions/concerns regarding this guidance, please contact the 
@@ -23,6 +20,8 @@ standardized metadata format agreed upon by the SA Data Management Working Group
 and meets USFWS policy requirements for data management. This metadata drives 
 the unified SA Science Catalog, where SA projects and products are discoverable, 
 accessible, and usable.
+
+
 
 ## USFWS Data Management Integration
 

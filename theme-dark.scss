@@ -24,3 +24,10 @@ $popover-bg: #242424;
 
 // Bootstrap inputs
 $input-bg: #242424;
+
+.sidebar #quarto-search svg.aa-SubmitIcon {
+    width: 25px;
+    height: 25px;
+    opacity: 1;
+    color: white;
+}
