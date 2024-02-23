@@ -1,0 +1,143 @@
+---
+title: "Metadata Tab: Project"
+editor: 
+  markdown: 
+    wrap: 80
+---
+
+The Metadata tab describes your project's metadata, including a description that
+outlines the process of metadata creation, contributors to the creation of the
+metadata, and metadata repositories.
+
+| Quick Reference: Project Metadata Tab     | Required? |
+|:------------------------------------------|:----------|
+| Basic Information: Metadata Status, Dates | Required  |
+| Metadata Contacts                         | Required  |
+| Metadata Identifier                       | Required  |
+| Parent Metadata                           | Required  |
+| Metadata Repositories                     | Required  |
+
+## Basic Information
+
+### Metadata Status
+
+Select the appropriate status of the creation of your metadata from the drop
+down menu. For example, if you have added all of your metadata, select
+*"completed."* If you still have metadata to add, select *"onGoing."*
+
+### Dates
+
+Add at least one date is required. Recommended are "creation" (when you first
+created your metadata) and "lastUpdate" (when you updated metadata after initial
+publication).
+
+## Metadata Contacts
+
+**Metadata Contacts** are required. Adding a metadata contact will give users a
+contact point should they have any questions about the metadata. \_\_
+
+| Role           | Contact          | Required?                |
+|:---------------|:-----------------|:-------------------------|
+| author         | See notes below  | At least one is required |
+| publisher      | default is USFWS | Required                 |
+| pointOfContact | SA Data Steward  | Required                 |
+
+#### Metadata Contact Notes:
+
+-   The author should be an individual and can be a generic data manager.
+-   In most cases, the author will be the data manager, but could be anyone,
+    including someone outside of FWS (e.g., imported FGDC metadata can list the
+    original author).
+-   Publisher can also include the FWS region and/or program.
+-   The point of contact should be a regional or national data steward.
+
+![Example Metadata Contacts entry](../.gitbook/assets/image%20%2817%29.png)
+
+## Metadata Identifier
+
+The **Metadata Identifier** is automatically populated by mdEditor. The metadata
+identifier gives each of your projects and products a unique ID and
+differentiates them from other similar projects and products. Digital Object
+Identifiers are not needed for Projects.
+
+-   If the record was imported from ScienceBase, the Metadata Identifier will be
+    auto-populated with the ScienceBase ID (SBID).
+-   If the record was created in mdEditor, it will generate a universally unique
+    identifier (UUID).
+
+{% hint style="danger" %} Once a Metadata Identifier is created in the metadata,
+do not change it. mdEditor uses the Metadata Identifier to connect records and
+changing the Metadata Identifier can break those connections. If there are
+additional identifiers you want to include in your metadata record, include them
+in [Main/Citation/Identifier](record-main-copy.md#identifier). {% endhint %}
+
+![mdEditor Metadata auto-generated identifier
+entry](../.gitbook/assets/image%20%288%29.png)
+
+## Parent Metadata
+
+**Parent Metadata** tells mdEditor where the project metadata should go when it
+is published. If using ScienceBase, this is the folder above the project by
+default.
+
+If you imported the project metadata from ScienceBase originally, this section
+will be populated already.
+
+If you created the project metadata from scratch in mdEditor, this will be
+blank. If you provide a default parent ID in
+[Settings](../settings.md#publishing-settings) (Publishing Settings for
+ScienceBase), this will be generated for you when when you publish. This is most
+likely your SA regional project folder. You can enter the parent item SBID
+directly in your individual metadata record if you wish.
+
+### Parent Metadata Required Fields:
+
+#### Title (Required)
+
+If this is not already populated, you can enter something like "Parent folder."
+
+#### Identifier and namespace (Required)
+
+Defines the location of the parent folder in ScienceBase.
+
+| Identifier                                 | Namespace   |
+|:-------------------------------------------|:------------|
+| ScienceBase identifier for the parent item | scienceBase |
+
+{% hint style="info" %} The ScienceBase identifier is the alphanumeric string in
+the item's URL immediately following "**item/".** For example,
+**59b97600e4b091459a54d9f3c** is the SBID for the item at the URL:
+<https://www.sciencebase.gov/catalog/item/59b97600e4b091459a54d9f3c> {% endhint
+%}
+
+![Example ScienceBase Parent Metadata
+entry](../.gitbook/assets/image%20%2815%29.png)
+
+## Metadata Repositories
+
+**Metadata Repositories** indicate where the metadata will be sent upon
+publishing.
+
+### SA Science Catalog
+
+For projects that should be listed in the SA Science Catalog: Select
+*“ScienceCatalog”* from the repository list. *“SA Science Catalog”* should
+automatically show up as the collection title. If the collection title does not
+appear, stop and enter the correct information in [Settings](../settings.md).
+Then select the repository for your project. Projects without the correct tag
+and collection title will not show up in the Science Catalog.
+
+{% hint style="danger" %} The Metadata Repository and Collection Title must be
+exactly the same for each of your records with no variations in spelling,
+spaces, capitalization, etc. Specifying this information in Settings is the best
+way to ensure the repository information will be consistent across all of your
+records. It strongly recommended that you do not type these in by hand on
+individual metadata records. {% endhint %}
+
+{% hint style="info" %} You should only use the data.gov repository for data
+products such as datasets, GIS data, etc. Data.gov does not include reports,
+presentations, or other documents nor are projects sent to data.gov. {% endhint
+%}
+
+![Example SA Science Catalog Metadata
+entry](../.gitbook/assets/image%20%2813%29.png)

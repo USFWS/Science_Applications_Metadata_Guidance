@@ -7,6 +7,13 @@ documentation.
 The documentation was developed using Quarto (https://quarto.org/) within 
 the RStudio environment. 
 
+_Note: This is a working draft that will continue to be edited. 
+**Last updated: 23 February 2024**_. 
+
+If you have questions/concerns regarding this guidance, please contact the 
+FWS SA National Data Steward \(sadatasteward@fws.gov\) or 
+Blake Massey \(blake_massey@fws.gov\).
+
 ### Requirements
 
 * R 
