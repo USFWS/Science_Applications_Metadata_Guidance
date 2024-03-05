@@ -6,7 +6,7 @@ language:
 
 website: 
   page-navigation: true
-  title: "USFWS Science Applications - Metadata Guidance" 
+  title: "USFWS Science Applications - Metadata Guidance QUARTO" 
   site-url: "https://studious-adventure-wo15nv1.pages.github.io" 
   repo-url: "https://github.com/usfws/sciapps_metadata_guidance"
   repo-actions: [edit, source, issue]
@@ -29,107 +29,104 @@ website:
       - icon: github
         href: https://github.com/usfws
         text: "USFWS Github"
-
     style: "floating"
-      
     collapse-level: 1
     contents:
       - href: index.qmd
         text: Introduction
-      - href: content/01_roles_and_responsibilities.qmd
-        text: Roles and Responsibilites        
-      - content/02_goals_sa_data_management.qmd   
-      - content/03_sa_science_catalog.qmd   
-      - content/04_projects_products_contacts.qmd   
-      - content/05_non_duplication_policy_guidance.qmd   
+      - content/roles_and_responsibilities.qmd
+      - content/goals_sa_data_management.qmd   
+      - content/sa_science_catalog.qmd   
+      - content/projects_products_contacts.qmd   
+      - content/non_duplication_policy_guidance.qmd   
       - section: "Workflow"
         contents:
-          - content/06_workflow/06a_metadata_from_scratch.qmd
-          - content/06_workflow/06b_metadata_sciencebase_first.qmd          
-          - content/06_workflow/06c_metadata_editing_republishing.qmd          
-          - content/06_workflow/06d_metadata_pts_considerations.qmd 
-      - content/07_settings.qmd           
+          - content/workflow/metadata_from_scratch.qmd
+          - content/workflow/metadata_sciencebase_first.qmd          
+          - content/workflow/metadata_editing_republishing.qmd          
+          - content/workflow/metadata_project_tracking_system_considerations.qmd
+      - content/settings.qmd           
       - section: "mdEditor Metadata File Management"
         contents:
-          - content/08_mdeditor_metadata_file_management/08a_metadata_format.qmd    
+          - content/mdeditor_metadata_file_management/metadata_format.qmd    
           - section: "Import"
             contents:
-            - content/08_mdeditor_metadata_file_management/08b_import_import_settings.qmd
-            - content/08_mdeditor_metadata_file_management/08c_import_mdjson.qmd          
-            - content/08_mdeditor_metadata_file_management/08d_import_sbjson.qmd          
-            - content/08_mdeditor_metadata_file_management/08e_import_fgdc.qmd          
-          - content/08_mdeditor_metadata_file_management/08f_export.qmd   
-          - content/08_mdeditor_metadata_file_management/08g_copy_records.qmd   
-      - content/09_metadata_requirements_checklist.qmd  
-      - content/10_digital_object_identifier.qmd        
+            - content/mdeditor_metadata_file_management/import_import_settings.qmd
+            - content/mdeditor_metadata_file_management/import_mdjson.qmd          
+            - content/mdeditor_metadata_file_management/import_sbjson.qmd          
+            - content/mdeditor_metadata_file_management/import_fgdc.qmd          
+          - content/mdeditor_metadata_file_management/export.qmd   
+          - content/mdeditor_metadata_file_management/copy_records.qmd   
+      - content/metadata_requirements_checklist.qmd  
+      - content/digital_object_identifier.qmd        
       - section: "Project Entry Guidance"
         contents:
-          - content/11_project_entry_guidance/11a_overview_project.qmd
-          - content/11_project_entry_guidance/11b_main_tab_project.qmd          
-          - content/11_project_entry_guidance/11c_metadata_tab_project.qmd          
-          - content/11_project_entry_guidance/11d_keywords_tab_project.qmd          
-          - content/11_project_entry_guidance/11e_taxonomy_tab_project.qmd          
-          - content/11_project_entry_guidance/11f_extent_tab_project.qmd          
-          - content/11_project_entry_guidance/11g_documents_tab_project.qmd          
-          - content/11_project_entry_guidance/11h_funding_tab_project.qmd           
-          - content/11_project_entry_guidance/11i_associating_records_project.qmd          
+          - content/project_entry_guidance/overview_project.qmd
+          - content/project_entry_guidance/main_tab_project.qmd          
+          - content/project_entry_guidance/metadata_tab_project.qmd          
+          - content/project_entry_guidance/keywords_tab_project.qmd          
+          - content/project_entry_guidance/taxonomy_tab_project.qmd          
+          - content/project_entry_guidance/extent_tab_project.qmd          
+          - content/project_entry_guidance/documents_tab_project.qmd          
+          - content/project_entry_guidance/funding_tab_project.qmd           
+          - content/project_entry_guidance/associating_records_project.qmd          
       - section: "Product Entry Guidance"
         contents:
-          - content/12_product_entry_guidance/12a_overview_product.qmd
-          - content/12_product_entry_guidance/12b_main_tab_product.qmd          
-          - content/12_product_entry_guidance/12c_metadata_tab_product.qmd          
-          - content/12_product_entry_guidance/12d_keywords_tab_product.qmd          
-          - content/12_product_entry_guidance/12e_taxonomy_tab_product.qmd          
-          - content/12_product_entry_guidance/12f_extent_tab_product.qmd          
-          - content/12_product_entry_guidance/12g_lineage_tab_product.qmd   
-          - content/12_product_entry_guidance/12h_distribution_tab_product.qmd       
-          - content/12_product_entry_guidance/12i_constraints_tab_product.qmd       
-          - content/12_product_entry_guidance/12j_dictionaries_tab_product.qmd       
-          - content/12_product_entry_guidance/12k_documents_tab_product.qmd       
-          - content/12_product_entry_guidance/12l_associating_records_product.qmd       
+          - content/product_entry_guidance/overview_product.qmd
+          - content/product_entry_guidance/main_tab_product.qmd          
+          - content/product_entry_guidance/metadata_tab_product.qmd          
+          - content/product_entry_guidance/keywords_tab_product.qmd          
+          - content/product_entry_guidance/taxonomy_tab_product.qmd          
+          - content/product_entry_guidance/extent_tab_product.qmd          
+          - content/product_entry_guidance/lineage_tab_product.qmd   
+          - content/product_entry_guidance/distribution_tab_product.qmd       
+          - content/product_entry_guidance/constraints_tab_product.qmd       
+          - content/product_entry_guidance/dictionaries_tab_product.qmd       
+          - content/product_entry_guidance/documents_tab_product.qmd       
+          - content/product_entry_guidance/associating_records_product.qmd       
       - section: "Co-Funded Project Requirements"
         contents:
-          - content/13_cofunded_project_requirements/13a_cofunded_projects_overview.qmd
-          - content/13_cofunded_project_requirements/13b_collaboration_protocol.qmd
+          - content/cofunded_project_requirements/cofunded_projects_overview.qmd
+          - content/cofunded_project_requirements/collaboration_protocol.qmd
           - section: "Sub-Project Protocol"          
             contents: 
-              - content/13_cofunded_project_requirements/13c1_sub_project_protocol.qmd
-              - content/13_cofunded_project_requirements/13c2_sub_project_of_fws_region_project.qmd
-              - content/13_cofunded_project_requirements/13c3_sub_project_of_casc_project.qmd
+              - content/cofunded_project_requirements/sub_project_protocol.qmd
+              - content/cofunded_project_requirements/sub_project_of_fws_region_project.qmd
+              - content/cofunded_project_requirements/sub_project_of_casc_project.qmd
           - section: "Co-Funded Protocol"          
             contents: 
-              - content/13_cofunded_project_requirements/13d1_co_funded_protocol.qmd
-              - content/13_cofunded_project_requirements/13d2_fws_co_funded_projects.qmd
-              - content/13_cofunded_project_requirements/13d3_fws_casc_projects_products.qmd
-              - content/13_cofunded_project_requirements/13d4_casc_responsibilites.qmd
-              - content/13_cofunded_project_requirements/13d5_lcc_examples.qmd
+              - content/cofunded_project_requirements/co_funded_protocol.qmd
+              - content/cofunded_project_requirements/fws_co_funded_projects.qmd
+              - content/cofunded_project_requirements/fws_casc_projects_products.qmd
+              - content/cofunded_project_requirements/casc_responsibilites.qmd
+              - content/cofunded_project_requirements/lcc_examples.qmd
       - section: "Contact Entry Guidance"
         contents:
-          - content/14a_contact_entry_guidance_overview.qmd
-          - content/14b_summary_contact_requirements.qmd
-          - content/14c_individual_contacts.qmd
-          - content/14d_organization_contacts.qmd
+          - content/contact_entry_guidance/contact_entry_guidance_overview.qmd
+          - content/contact_entry_guidance/summary_contact_requirements.qmd
+          - content/contact_entry_guidance/individual_contacts.qmd
+          - content/contact_entry_guidance/organization_contacts.qmd
       - section: "Publish"
         contents:
-          - content/15a_publish_overview.qmd
-          - content/15b_requirements_for_publishing.qmd
-          - content/15c_testing_publishing.qmd
-          - content/15d_how_to_publish.qmd          
-          - content/15e_re_publishing.qmd          
-      - content/16_archiving_requirements.qmd
+          - content/publish/publish_overview.qmd
+          - content/publish/requirements_for_publishing.qmd
+          - content/publish/testing_publishing.qmd
+          - content/publish/how_to_publish.qmd          
+          - content/publish/re_publishing.qmd          
+      - content/archiving_requirements.qmd
       - section: "Trouble-Shooting Tips"
         contents:
-          - content/17_trouble_shooting_tips/17a_trouble_shooting_tips_overview.qmd      
-          - content/17_trouble_shooting_tips/17b_qa_qc_fixes.qmd      
-          - content/17_trouble_shooting_tips/17c_qa_qc_resources.qmd      
+          - content/trouble_shooting_tips/trouble_shooting_tips_overview.qmd      
+          - content/trouble_shooting_tips/qa_qc_fixes.qmd      
+          - content/trouble_shooting_tips/qa_qc_resources.qmd      
       - section: "Bulk Editing Resources"
         contents:
-          - content/18_bulk_editing_resources/18a_injector_script_overview.qmd      
-          - content/18_bulk_editing_resources/18b_injector_script_funding.qmd      
-          - content/18_bulk_editing_resources/18c_injector_script_distribution_links.qmd 
-      - content/19_help.qmd
-      - content/20_glossary_of_terms.qmd
-      
+          - content/bulk_editing_resources/injector_script_overview.qmd      
+          - content/bulk_editing_resources/injector_script_funding.qmd      
+          - content/bulk_editing_resources/injector_script_distribution_links.qmd 
+      - content/help.qmd
+      - content/glossary_of_terms.qmd
+
 format:
   html:
     toc: true
