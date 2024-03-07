@@ -1,5 +1,6 @@
 ---
-title: "Metadata Tab: Project"
+title: "Metadata Tab"
+subtitle: "Project"
 editor: 
   markdown: 
     wrap: 80
@@ -65,7 +66,7 @@ Identifiers are not needed for Projects.
 -   If the record was created in mdEditor, it will generate a universally unique
     identifier (UUID).
 
-:::{.callout-info}
+:::{.callout-warning}
 Once a Metadata Identifier is created in the metadata,
 do not change it. mdEditor uses the Metadata Identifier to connect records and
 changing the Metadata Identifier can break those connections. If there are

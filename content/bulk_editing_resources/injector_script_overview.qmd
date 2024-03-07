@@ -18,8 +18,8 @@ application (mdeditor.org). More information on mdJSON can be found at
 
 There are two demos available to help with metadata improvements:
 
-[Add Funding Administrators](injector-script-funding.md)
+[Add Funding Administrators](injector_script_funding.qmd)
 
-[Add Distribution Links](injector-script-distribution-links.md) (for products)
+[Add Distribution Links](injector_script_distribution_links.qmd) (for products)
 
 Point of Contact: Matt Heller (matthew_heller\@fws.gov).

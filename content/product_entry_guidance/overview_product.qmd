@@ -1,21 +1,21 @@
 ---
-title: "Product Entry Guidance Overview"
+title: "Product Records: Overview"
 editor: 
   markdown: 
     wrap: 80
 ---
 
-The Product Entry Guidance section will cover how to create a metadata record
+The Product Records section will cover how to create a metadata record
 for a product. A product can be anything from a document or presentation or
 website to a dataset or programming code. mdEditor offers an extensive list of
 product options, of which "*product*" should never be used.
 
 ## Before You Begin
 
-### Adjust your mdEditor [Settings](../settings.md):
+### Adjust your mdEditor Settings:
 
 **Metadata Repositories**: Make sure your default settings are correct for the
-SA Science Catalog and data.gov. See [Settings](../settings.md).
+SA Science Catalog and data.gov. See [Settings](../settings.qmd).
 
 **Parent Identifier**: In the publishing settings, enter your SA regional
 ScienceBase project folder's identifier in the "Default Parent Identifier"
@@ -28,36 +28,35 @@ metadata, select **Product** from the **Profile** drop down in the main menu.
 This will limit the number of available tabs and only show tabs that contain
 fields that are required for product creation.
 
-![Select the Product profile in the Profile dropdown in the top
-ribbon](../.gitbook/assets/image%20%2818%29.png)
+![Select the Product profile in the Profile dropdown in the top ribbon](../../assets/product_profile_from_dropdown.png)
 
 ### Make sure your contacts are loaded into mdEditor:
 
 In mdEditor, contacts are created separately from individual records, and then
 stored within a library in mdEditor. Once contacts have been entered or imported
 into mdEditor, they can be used in metadata records. SA maintains a 'seed' list
-of contacts that can be found in the[SA ScienceBase community item
+of contacts that can be found in the [SA ScienceBase community item
 page](https://www.sciencebase.gov/catalog/item/5b4e1c3fe4b06a6dd17df2d3).
 
 ## Edit a Product
 
-1.  Import or create your product record (see [workflow](../getting-started/)).
+1.  Import or create your product record (see [workflow](../content/workflow/workflow_overview.qmd)).
 2.  Choose the specific **Resource Type** that describes your product. Do not
     choose the generic "product."
 3.  Select the Product Profile: from the Main Menu (Top Navigation Bar) select
     "**Product"** from the profile drop-down menu.
 4.  Fill out metadata information for the following tabs:
-    -   [Main Tab: Product](main-tab-product.md)
-    -   [Metadata Tab: Product](metadata-tab-product/)
-    -   [Keywords Tab: Product](keyword-tab-product.md)
-    -   [Taxonomy Tab: Product](taxonomy-tab-product.md)
-    -   [Extent Tab: Product](extent-tab-product.md)
-    -   [Lineage Tab: Product](lineage.md)
-    -   [Distribution Tab: Product](distribution.md)
-    -   [Constraints Tab: Product](record-constraints.md)
-    -   [Dictionaries Tab: Product](dictionaries-tab-product.md)
-    -   [Documents Tab: Product](documents-tab-products.md)
-5.  If applicable, [associate](associating-records-products.md)your products
+    -   [Main Tab](main_tab_product.qmd)
+    -   [Metadata Tab](metadata_tab_product.qmd)
+    -   [Keywords Tab](keyword_tab_product.qmd)
+    -   [Taxonomy Tab](taxonomy_tab_product.qmd)
+    -   [Extent Tab](extent_tab_product.qmd)
+    -   [Lineage Tab](lineage_tab_product.qmd)
+    -   [Distribution Tab](distribution_tab_product.qmd)
+    -   [Constraints Tab](constraints_tab_product.qmd)
+    -   [Dictionaries Tab](dictionaries_tab_product.qmd)
+    -   [Documents Tab](documents_tab_products.qmd)
+5.  If applicable, [associate](associating_records_product.qmd) your products
     with other metadata records.
 
 ## Required Fields for Products

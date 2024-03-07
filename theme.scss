@@ -19,6 +19,11 @@ $font-family: "Atkinson Hyperlegible", sans-serif;
     opacity: 1;
 }
 
+// This sets the color of the "selected" sidebar navigation item 
+#quarto-sidebar .sidebar-item-container .active{
+    color: #2196f3;
+}
+
 /*-- navbar --*/  //Currently not used
 //.navbar {
 //  padding-top: 0;

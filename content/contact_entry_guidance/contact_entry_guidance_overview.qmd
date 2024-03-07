@@ -1,5 +1,5 @@
 ---
-title: "Contact Entry Guidance Overview"
+title: "Contact Records: Overview"
 editor: 
   markdown: 
     wrap: 80

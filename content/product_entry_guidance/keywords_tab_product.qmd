@@ -1,5 +1,6 @@
 ---
-title: "Keywords Tab: Product"
+title: "Keywords Tab"
+subtitle: "Product"
 editor: 
   markdown: 
     wrap: 80
@@ -57,8 +58,9 @@ ISO Topic List:
 17. transportation
 18. utilitiesCommunication
 
-{% hint style="info" %} Tip: Biota and environment are probably the best fit for
-most SA projects. {% endhint %}
+::: callout-tip
+Biota and environment are probably the best fit for most SA projects.
+:::
 
 #### GCMD Keywords (Best Practice)
 
@@ -67,9 +69,11 @@ by NASA. Look for useful keywords in the GCMD Science Keywords. There are GCMD
 Platforms and Instruments Keywords but they are unlikely to apply to SA
 products.
 
-{% hint style="info" %} Best Practice: Check the "Full Path" checkbox to save
-the full path of the keyword to your metadata. This will maintain the category
-and context of the specific keywords chosen. {% endhint %}
+::: callout-hint
+Best Practice: Check the "Full Path" checkbox to save the full path of the
+keyword to your metadata. This will maintain the category and context of the
+specific keywords chosen.
+:::
 
 ## Custom Thesaurus
 
@@ -80,18 +84,22 @@ that are not available in an existing thesaurus.
 You cannot add keywords to an existing thesaurus; you can only add keywords in a
 custom thesaurus.
 
-{% hint style="info" %} You cannot save a custom thesaurus in mdEditor. {%
-endhint %}
+::: callout-hint
+You cannot save a custom thesaurus in mdEditor.
+:::
 
-{% hint style="info" %} Tip: If you have a consistent set of keywords that you
-use across your projects or products, you could add these to a "template
-project" record in mdEditor and then modify the specific keywords you need for
-each entry. See the workflow section for more info about using template records.
-{% endhint %}
+::: callout-hint
+Tip: If you have a consistent set of keywords that you use across your projects
+or products, you could add these to a "template project" record in mdEditor and
+then modify the specific keywords you need for each entry. See the workflow
+section for more info about using template records.
+:::
 
-{% hint style="info" %} Look for useful keywords in the GCMD Science Keywords.
-GCMD Science keywords are the most applicable to SA. There are GCMD Platforms
-and Instruments keywords, but they are unlikely to apply to SA. {% endhint %}
+::: callout-hint
+Look for useful keywords in the GCMD Science Keywords. GCMD Science keywords are
+the most applicable to SA. There are GCMD Platforms and Instruments keywords,
+but they are unlikely to apply to SA.
+:::
 
 ## Keywords and ScienceBase
 
@@ -99,11 +107,13 @@ and Instruments keywords, but they are unlikely to apply to SA. {% endhint %}
 
 mdEditor uses the term "keywords" while ScienceBase uses the term "tags."
 
-{% hint style="info" %} Keywords edited in mdEditor will not overwrite keywords
-stored in ScienceBase (i.e. sbJSON) because ScienceBase only adds to the list of
-tags. If you do not want obsolete keywords/tags to show up on ScienceBase,
-manually delete these in ScienceBase. mdJSON and the SA Science Catalog,
-however, will reflect any changes made in mdEditor. {% endhint %}
+::: {.callout-hint}
+Keywords edited in mdEditor will not overwrite keywords stored in ScienceBase
+(i.e. sbJSON) because ScienceBase only adds to the list of tags. If you do not
+want obsolete keywords/tags to show up on ScienceBase, manually delete these in
+ScienceBase. mdJSON and the SA Science Catalog, however, will reflect any
+changes made in mdEditor.
+:::
 
 ### Imported Keywords
 
@@ -114,5 +124,4 @@ Controlled vocab list in ScienceBase cannot connect to mdEditor. The selected
 keywords for any specific record will import into mdEditor, but the saved list
 will not be.
 
-![Example ISO Topic Category keyword
-entry](../.gitbook/assets/keywords_window.png)
+![Example ISO Topic Category keyword entry](../../assets/example_keywords_entry.png)

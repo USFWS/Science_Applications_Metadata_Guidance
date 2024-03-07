@@ -1,5 +1,6 @@
 ---
-title: "Constraints Tab: Product"
+title: "Constraints Tab"
+subtitle: "Product"
 description: 
   "THIS SECTION IS UNDER REVIEW FOR FOIA, RECORDS MANAGEMENT, AND PRIVACY POLICY
   GUIDANCE; MAJOR CHANGES ARE FORTHCOMING."
@@ -21,10 +22,12 @@ how the resource can and cannot be used.
 
 Identify concerns over how people should or should not use the product.
 
-{% hint style="info" %} If your product is licensed, let people know here.
-Typically files used will be public domain, but not always. {% endhint %}
+::: {.callout-note}
+If your product is licensed, let people know here.
+Typically files used will be public domain, but not always. 
+:::
 
-![](../.gitbook/assets/use_limitation.png)
+![](../../assets/use_limitation.png)
 
 ## Legal
 
@@ -62,8 +65,7 @@ should be used for in the license field.
 https://creativecommons.org/publicdomain/zero/1.0/
 ```
 
-![Example legal constraint entry for U.S. Government Works open
-license](../.gitbook/assets/image%20%2827%29.png)
+![Example legal constraint entry for U.S. Government Works open license](../../assets/example_legal_contraint_entry.png)
 
 #### Limited Access
 
@@ -78,7 +80,8 @@ of the resource. Choose classification from the drop-down menu. For products
 without restrictions, best practice is to indicate 'unclassified' from the
 security classification dropdown menu.
 
-{% hint style="info" %} Classification is the class of security (e.g., top
-secret, public access). {% endhint %}
+::: {.callout-note}
+Classification is the class of security (e.g., top secret, public access). 
+:::
 
-![](../.gitbook/assets/image%20%2826%29.png)
+![](../../assets/example_security.png)

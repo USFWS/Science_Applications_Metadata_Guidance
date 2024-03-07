@@ -1,5 +1,6 @@
 ---
-title: "Documents Tab: Product"
+title: "Documents Tab"
+subtitle: "Product"
 editor: 
   markdown: 
     wrap: 80
@@ -13,10 +14,12 @@ report for a workshop that inspired the product.
 
 There are no SA specific requirements or best practices for documents.
 
-{% hint style="info" %} ScienceBase has a similar section called "weblinks."
+::: {.callout-note}
+ScienceBase has a similar section called "weblinks."
 These will be populated in the Documents section if sbJSON is imported into
-mdEditor. {% endhint %}
+mdEditor. 
+:::
 
-For more information, consult the[Documents
+For more information, consult the [Documents
 section](https://guide.mdeditor.org/reference/edit-window/metadata/documents-panels/document-section.html)
 of the mdEditor manual.

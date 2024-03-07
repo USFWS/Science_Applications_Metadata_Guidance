@@ -32,7 +32,7 @@ the asset title, creator(s), publication date, type of data product, abstract,
 dates relevant to the resource, and an online link to the permanent repository
 location of resource and can be updated at any time.
 
-![Figure 1: Anatomy of a DOI URL](/assets/doi_url_anatomy.png)
+![Figure 1: Anatomy of a DOI URL](../assets/doi_url_anatomy.png)
 
 **Figure 1 from** [**Alaska Region Interim Data Management User
 Guide**](https://ak-region-dst.gitbook.io/alaska-region-interim-data-management-user-guide/sharing/obtaining-a-digital-object-identifier-doi)
@@ -40,7 +40,7 @@ Guide**](https://ak-region-dst.gitbook.io/alaska-region-interim-data-management-
 Once minted, the DOI is included as an identifier in your metadata record
 (Figure 2)
 
-![](/assets/doi_identifier_metadata.png)
+![](../assets/doi_identifier_metadata.png)
 
 This Tool was developed and is managed by the United States Geological Survey
 (USGS) [Science Analytics and Synthesis
@@ -99,7 +99,7 @@ To mint a DOI, follow these steps:
     section in the login page (Figure 1). The DOI does not need to be published
     publicly until the DOI metadata is completed.
 
-![New User Instructions on the Login Page](/assets/doi_login_new_user.png)
+![New User Instructions on the Login Page](../assets/doi_login_new_user.png)
 
 The DOI is comprised of the resolvable service url, the registered prefix and a
 product identifier suffix (Figure 2). Service DOI are assigned the prefix of
@@ -125,14 +125,11 @@ product identifier suffix (Figure 2). Service DOI are assigned the prefix of
 8.  Include the DOI as an online resource in your metadata record (Figure 2c).
     In this case the entire DOI url is needed.
 
-![INCORRECT DOI entry as identifier in 
-metadata](/assets/doi_incorrect_doi_identifier.png)
+![INCORRECT DOI entry as identifier in metadata](../assets/doi_incorrect_doi_identifier.png)
 
-![CORRECT DOI entry as identifier in
-metadata](/assets/doi_correct_doi_identifier.png)
+![CORRECT DOI entry as identifier in metadata](../assets/doi_correct_doi_identifier.png)
 
-![Example of DOI entered as both online resource and
-identifier](/assets/doi_online_resource_identifier.png)
+![Example of DOI entered as both online resource and identifier](../assets/doi_online_resource_identifier.png)
 
 ### DOI Administration
 
@@ -169,7 +166,7 @@ example, an employee may login and create a DOI during planning set the DOI to
 hidden until the data and set edit rights to other accountable data staff. Once
 completed and approved, the DOI status can be set to public.
 
-![Example of DOI Tool Dashboard](/assets/doi_doi_tool_dashboard.png)
+![Example of DOI Tool Dashboard](../assets/doi_doi_tool_dashboard.png)
 
 ### Bulk DOI Creation and Updates API
 
@@ -179,4 +176,4 @@ bulk creation of DOIs through scripting/programming. After logging into the tool
 with your Department of Interior Active Directory credentials, see the DOI API
 link for more information.
 
-![DOI API tool link indicated with red arrow](/assets/doi_api_tool_link.png)
+![DOI API tool link indicated with red arrow](../assets/doi_api_tool_link.png)

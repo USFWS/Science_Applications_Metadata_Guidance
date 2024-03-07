@@ -1,3 +1,7 @@
+```{r, echo=FALSE}
+todays_date = format(Sys.time(), '%d %B, %Y')
+```
+
 # Science Application Metadata Guidance
 
 ## Overview
@@ -8,7 +12,7 @@ The documentation was developed using Quarto (https://quarto.org/) within
 the RStudio environment. 
 
 _Note: This is a working draft that will continue to be edited. 
-**Last updated: 23 February 2024**_. 
+**Last updated:** **`r todays_date`**.
 
 If you have questions/concerns regarding this guidance, please contact the 
 FWS SA National Data Steward \(sadatasteward@fws.gov\) or 

@@ -33,9 +33,9 @@ The SB Scanner will show all of the Harvest Set tags you have in ScienceBase
 (called Metadata Repositories in mdEditor). The following warnings may be shown:
 
 | Harvest Set Tag Warning                                         | Definition                                                                                                                                                                                                       |
-|:---------------------------------------|:---------------------------------------|
-| not valid LCC repository tag                                    | Your Science Catalog tag is something other than "LCC Network Science Catalog" and needs to be fixed. See [QA/QC Fixes](./#metadata) for more info.                                                              |
-| Warning: too many variants of data.gov tag. pick one and use it | You have more than one version of a data.gov tag (you must use only one version). See [data.gov Metadata Repository tag](../../product-entry-guidance/metadata-tab-product/#metadata-repositories) for guidance. |
+|:----------------------------------|:-------------------------------------------|
+| not valid LCC repository tag                                    | Your Science Catalog tag is something other than "LCC Network Science Catalog" and needs to be fixed. See [QA/QC Fixes](qa_qc_fixes.qmd) for more info.                                                          |
+| Warning: too many variants of data.gov tag. pick one and use it | You have more than one version of a data.gov tag (you must use only one version). See [data.gov Metadata Repository tag](../../product_entry_guidance/metadata_tab_product/#metadata-repositories) for guidance. |
 
 ### Warnings
 
@@ -46,7 +46,7 @@ metadata requirements. These warnings will allow you to check your SB records to
 ensure you have met metadata requirements and make necessary updates and
 corrections.
 
-Note: if you see a warning in the SB Scanner that isn't listed here, please let
+Note: If you see a warning in the SB Scanner that isn't listed here, please let
 Megan Cook (megan_cook\@fws.gov) know to add to this list.
 
 | Warning Type                                        | Definition                                                                                                                                     |
@@ -80,7 +80,7 @@ The summary view shows:
 -   For each item, it will list the number of weblinks, and the number and type
     of file attachments.
 
-A "\[D\]" added to the end of the title means that the item is marked as "Data,"
+A "\[D\]" added to the end of the title means that the item is marked as "Data",
 and a "\[P\]" means marked as a "Publication."
 
 Note: Project items are those directly marked as such in ScienceBase via the
@@ -108,21 +108,21 @@ LCCs who used the template scripting (i.e., input metadata into a spreadsheet
 that Josh scripted into mdEditor to create your initial metadata records). Below
 is a possible way to check and solve that issue.
 
-\(1\) If you go into the Keywords section of your record, you may see that there
+1. If you go into the Keywords section of your record, you may see that there
 are entries under "Selected Keywords" but those selections aren't highlighted
 green in the tree of options.\
-![](../../.gitbook/assets/error_missing_keywords_nogreen.png)
+![](../../assets/error_missing_keywords_nogreen.png)
 
-\(2\) Click on the desired options in the tree, which will add a duplicate set
+2. Click on the desired options in the tree, which will add a duplicate set
 of those keywords in "Selected Keywords."
-![](../../.gitbook/assets/error_missing_keywords_add.PNG)
+![](../../assets/error_missing_keywords_add.png)
 
-\(3\) Delete the duplicate keywords **from the top of the list**.
-![](../../.gitbook/assets/error_missing_keywords_delete.PNG)
+3. Delete the duplicate keywords **from the top of the list**.
+![](../../assets/error_missing_keywords_delete.png)
 
-\(4\) Now your keywords should be selected properly. You can re-publish and
+4. Now your keywords should be selected properly. You can re-publish and
 check the SB scanner again.
-![](../../.gitbook/assets/error_missing_keywords_green.png)
+![](../../assets/error_missing_keywords_green.png)
 
 ## Automatic QA/QC Checks from DJ Case
 

@@ -1,5 +1,6 @@
 ---
-title: "Main Tab: Product"
+title: "Main Tab"
+subtitle: "Product"
 editor: 
   markdown: 
     wrap: 80
@@ -34,15 +35,15 @@ The **Status** drop-down menu allows you to select the status of your product.
 Choose status ONLY from the four following options: *completed*, *ongoing*,
 *proposed*, or *accepted*.
 
-![](../.gitbook/assets/main_screenshot_updated.png)
+![](../../assets/basic_information.png)
 
 ## Default Locale
 
 **Default Locale** allows for the selection of **Language**, **Character Set**,
 and **Country**. English, UTF-8, and USA will be selected by default, but you
-may change them if necessary. See [Settings](../settings.md) for instruction.
+may change them if necessary. See [Settings](../settings.qmd) for instruction.
 
-![](../.gitbook/assets/default_locale.png)
+![](../../assets/default_locale.png)
 
 ## Resource Types
 
@@ -52,15 +53,16 @@ a valid option. After the record is initiated the field should be automatically
 filled in with the resource type selected when the record was created. Name is
 optional - you can leave this blank or enter a shorten project name.
 
-{% hint style="info" %} Products must have a specific resource type selected,
-NOT just "product". {% endhint %}
+::: {.callout-info} 
+Products must have a specific resource type selected, NOT just "product". 
+:::
 
 ## Point of Contacts
 
 Adding a point of contact gives staff information on who to contact should they
 have a question regarding your project or product. From the **Role** drop-down
 menu, select **pointOfContact**. From the **Contacts** drop-down menu, select a
-contact from the list of contacts. See the [Contacts](../contacts/) section for
+contact from the list of contacts. See the [Contact Entry Guidance](../contact_entry_guidance/contact_entry_guidance_overview.qmd) section for
 information on creating contacts.
 
 | Role                  | Contact                                        | Required?               |
@@ -73,11 +75,12 @@ information on creating contacts.
 | administrator         | FWS Region (legacy and DOI Unified)            | Required                |
 | collaborator          | partnership organizations and/or programs      | Required, if applicable |
 
-{% hint style="info" %} The FWS Science Applications National Data Steward will
+::: {.callout-info} 
+The FWS Science Applications National Data Steward will
 serve as the long term contact/backup. This way, users have a point-of-contact
 even if there is a positional change within an organization. Regional Data
-Steward should be included in addition as a point of contact if available. {%
-endhint %}
+Steward should be included in addition as a point of contact if available. 
+:::
 
 ## Citation
 
@@ -116,8 +119,10 @@ contributors could be intellectual and financial participants.
 | principalInvestigator   | data creator    | Required      |
 | coPrincipalInvestigator | data co-creator | Best Practice |
 
-{% hint style="info" %} For items that will be sent to data.gov, only the first
-in the list of Responsible Parties (#0) will appear. {% endhint %}
+::: {.callout-info}
+For items that will be sent to data.gov, only the first
+in the list of Responsible Parties (#0) will appear. 
+:::
 
 #### Online Resource
 
@@ -125,10 +130,12 @@ Enter the Name and URL for the location where users can find the product (e.g.,
 ScienceBase page or DOI url). Data.gov refers to this online resource link to
 send users to the data download.
 
-{% hint style="info" %} Important: The URLs to access and download products must
+::: {.callout-info} 
+Important: The URLs to access and download products must
 **also** be included in the Distribution tab. Distribution Links is the only
 online resource that data.gov reads so without a URL there, users have no way to
-access the actual product from data.gov. {% endhint %}
+access the actual product from data.gov. 
+:::
 
 #### Identifier
 
@@ -137,32 +144,39 @@ you have internal SA specific IDs for projects, enter them here. A Digital
 Object Identifier (DOI) is the preferred identifier for this. The Archive Folder
 Name may be included here as well.
 
-![Example of Online resource and identifier metadata
-entries](../.gitbook/assets/image%20%2829%29.png)
+![Example of Online resource and identifier metadata entries](../../assets/doi_identifier_metadata.png)
 
-{% hint style="danger" %} Digital Object Identifier can be entered both as an
+::: {.callout-info} 
+Digital Object Identifier can be entered both as an
 online resource AND an identifier. Note that the entry format is different. As
 an online resource, the entire url is required, however, as an identifier, only
-the prefix and suffix of the DOI are required (see figure above). {% endhint %}
+the prefix and suffix of the DOI are required (see figure above).
+:::
 
-{% hint style="info" %} **Best Practice**: Create and use internal identifiers
+::: {.callout-info title="Best Practice"} 
+**Best Practice**: Create and use internal identifiers
 that are unique within your region for projects and their products. Example:
-GNLCC2010-11. {% endhint %}
+GNLCC2010-11.
+:::
 
-{% hint style="info" %} If your item does not have a ScienceBase ID (SBID) yet,
+::: {.callout-info} 
+If your item does not have a ScienceBase ID (SBID) yet,
 ScienceBase will create one automatically upon publishing. If you imported your
 item from ScienceBase originally, then the SBID will already be included in
 Metadata/Metadata Identifier and you do not need to include it here. Note that
 if you edit an item that is already on ScienceBase without using its existing
 SBID, a duplicate item will be created on ScienceBase. Consult the
-[Publish](../publish/) section of this manual to learn more. {% endhint %}
+[Publish](../publish/publish_overview.qmd) section of this manual to learn more. 
+:::
 
-{% hint style="info" %} If the product metadata was created by copying another
+::: {.callout-info} 
+If the product metadata was created by copying another
 mdEditor metadata record, this identifier MUST be edited/changed since it will
 reflect the copied record identifier. Only the mdEditor UUID changes to
 represent a new record when an item is copied. Consult the [Copy
-Records](../data-management/copy-records.md) section of this manual to learn how
-to make a copy. {% endhint %}
+Records](../mdeditor_metadata_file_management/copy_records.qmd) section of this 
+manual to learn how to make a copy.
+:::
 
 ## Description
 
@@ -173,9 +187,10 @@ Abstract, Purpose, Supplemental Information, and an Environment Description.
 
 Enter an Abstract
 
-{% hint style="info" %} Tip: Write your abstracts for projects in the present
-tense if the project is underway and past tense if it has been completed. {%
-endhint %}
+::: {.callout-info} 
+ Tip: Write your abstracts for projects in the present
+tense if the project is underway and past tense if it has been completed. 
+:::
 
 #### Short Abstract
 
@@ -195,4 +210,4 @@ publication, date of presentation, or dates when the data was collected.
 
 -   **Required**: For each product, add a start date and end date.
 
-![](../.gitbook/assets/main-time-period.PNG)
+![](../../assets/example_time_period.png)

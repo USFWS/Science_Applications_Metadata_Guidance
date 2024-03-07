@@ -1,5 +1,6 @@
 ---
-title: "Keywords Tab: Project"
+title: "Keywords Tab"
+subtitle: "Project"
 editor: 
   markdown: 
     wrap: 80

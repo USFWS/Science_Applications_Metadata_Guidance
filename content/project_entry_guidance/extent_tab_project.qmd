@@ -1,5 +1,6 @@
 ---
-title: "Extent Tab: Project"
+title: "Extent Tab"
+subtitle: "Project"
 editor: 
   markdown: 
     wrap: 80
@@ -45,30 +46,39 @@ geoJSON files for all FWS regional and state geographies are available on
 (private DMWG folder that requires ScienceBase login). Download the relevant
 files and then import into mdEditor.
 
-{% hint style="info" %} Important: coordinates used must be geographic
+::: {.callout-note}
+Important: coordinates used must be geographic
 coordinates, not projected coordinates. {% endhint %}
+:::
 
 ### Option 2: Draw Spatial Features
 
-{% hint style="info" %} Tip: It is easier to click "finish" when drawing a
+::: {.callout-note} 
+Tip: It is easier to click "finish" when drawing a
 polygon instead of trying to close the polygon by clicking on the first point.
-{% endhint %}
+:::
 
 ### Option 3: Draw Bounding Box
 
-{% hint style="info" %} mdEditor can automatically calculate a bounding box if
-you have at least one extent in the metadata. {% endhint %}
+::: {.callout-tip}
+mdEditor can automatically calculate a bounding box if
+you have at least one extent in the metadata. 
+:::
 
-![Example Geographic Extent entry](../.gitbook/assets/extent_boundingbox-2.PNG)
+![Example Geographic Extent entry](../../assets/example_geographic_extent.png)
 
-{% hint style="danger" %} Bounding boxes will not work across the dateline but
+::: {.callout-warning}
+Bounding boxes will not work across the dateline but
 you can have more than one extent per project. If your project area crosses the
 dateline, split the area into multiple extents and create separate bounding
-boxes. {% endhint %}
+boxes. 
+:::
 
 ## Saving and Exporting Extents
 
-{% hint style="info" %} Tip: You can export, save, and import an extent to use
-for other projects or products. {% endhint %}
+::: {.callout-note}  
+Tip: You can export, save, and import an extent to use
+for other projects or products. 
+:::
 
-![](../.gitbook/assets/edit_extent_page.png)
+![](../../assets/edit_extent_page.png)

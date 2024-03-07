@@ -1,5 +1,6 @@
 ---
-title: "Main Tab: Project"
+title: "Main Tab"
+subtitle: "Project"
 editor: 
   markdown: 
     wrap: 80
@@ -62,7 +63,7 @@ have a question regarding your project or product.
 :::{.callout-note}
 To add contacts to a metadata record, you must first
 create/upload the contacts into mdEditor. See the
-[Contact](../contact_entry_guidance/contact_entry_guidance_overview.qmd)
+[Contact Entry Guidance](../contact_entry_guidance/contact_entry_guidance_overview.qmd)
 Section for more information. 
 :::
 
@@ -207,4 +208,4 @@ For each project, add a Start Date and End Date. If the project spanned a single
 fiscal year, you can use the “Pick a Fiscal Year” dropdown to autofill the date
 fields.
 
-![Example Project Start and End Dates entry in mdEditor](../../assets/example_project_start_end_dates.png)
+![Example Project Start and End Dates entry in mdEditor](../../assets/example_time_period.png)

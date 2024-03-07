@@ -1,5 +1,6 @@
 ---
-title: "Taxonomy Tab: Product"
+title: "Taxonomy Tab"
+subtitle: "Product"
 editor: 
   markdown: 
     wrap: 80
@@ -9,7 +10,6 @@ editor:
 |:--------------------------------------|:------------------------|
 | Taxonomy                              | Required, if applicable |
 
-Please see the [taxonomy guidance in the Project Entry Guidance
-section](../project-entry-guidance/taxonomy-tab-projects.md).
+Please see the [taxonomy guidance in the Project Entry Guidance section](../project_entry_guidance/taxonomy_tab_projects.qmd).
 
 Taxonomy is required for projects and products, as applicable.

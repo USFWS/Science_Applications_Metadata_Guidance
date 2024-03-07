@@ -1,5 +1,6 @@
 ---
-title: "Lineage Tab: Product"
+title: "Lineage Tab"
+subtitle: "Product"
 editor: 
   markdown: 
     wrap: 80

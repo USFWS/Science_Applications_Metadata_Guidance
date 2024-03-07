@@ -17,16 +17,15 @@ metadata record where you should add contacts.
 *Please see the corresponding sections for which contacts should be added
 where.*
 
-1.  [Main Tab](../project-entry-guidance/record-main-copy.md#point-of-contacts)
+1.  [Main Tab](../project_entry_guidance/.qmd#point-of-contacts)
     / "Point of Contact” section
-2.  [Main
-    Tab](../project-entry-guidance/record-main-copy.md#responsible-parties-required)
+2.  [Main Tab](../project_entry_guidance/main_tab_project.qmd#responsible-parties-required)
     / Citation / “Responsible Parties” section
-3.  [Metadata Tab](../project-entry-guidance/metadata-tab.md#metadata-contacts)
+3.  [Metadata Tab](../project_entry_guidance/metadata_tab_project.qmd#metadata-contacts)
     / “Contacts” section
-4.  [Funding Tab](../project-entry-guidance/funding-tab.md) / “Allocation”
+4.  [Funding Tab](../project_entry_guidance/funding_tab_project.qmd) / “Allocation”
     section. For Projects only.
-5.  [Distribution Tab](../product-entry-guidance/distribution.md) / "Contacts”
+5.  [Distribution Tab](../product_entry_guidance/distribution_tab_product.qmd) / "Contacts”
     section. For Products only.
 
 ### **Main / Point of Contact**
@@ -80,13 +79,15 @@ be an organization, not an individual. For FWS projects, the default source is
 U.S. Fish and Wildlife Service. Regions or programs should be added as the
 funding "administrator" in the Other Contacts field.
 
-{% hint style="info" %} Funding source should always identify the agency or
+::: {.callout-note}
+Funding source should always identify the agency or
 organization, rather than a sub-program or office. For example, all funding from
 other FWS programs need to list U.S. Fish and Wildlife Service as the source
 (and not list the source as Fisheries, specific Refuges, ES, etc.).
 Clarifications on the exact program or office where the funding came from can be
 done through the Funding/Other Contacts field (and choose the role of
-"administrator"). {% endhint %}
+"administrator"). 
+:::
 
 #### Recipient (Required)
 
@@ -99,11 +100,13 @@ separate allocations.
 The Principal Investigator may be added n the Other Contacts field as
 "principalInvestigator."
 
-{% hint style="info" %} Funding administrator can also be used to differentiate
+::: {.callout-note}
+Funding administrator can also be used to differentiate
 funding from different programs/offices within the same agency. For example, the
 U.S. Fish and Wildlife Service can be identified as the funding source and the
 funding administrator could include "Ecological Services" or a specific field
-office. {% endhint %}
+office. 
+:::
 
 ### **Distribution (for Products only)**
 

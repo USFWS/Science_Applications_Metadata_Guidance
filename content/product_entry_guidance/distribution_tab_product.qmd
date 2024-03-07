@@ -1,18 +1,19 @@
 ---
-title: "Lineage Tab: Product"
+title: "Distribution Tab"
+subtitle: "Product"
 editor: 
   markdown: 
     wrap: 80
 ---
 
-# Distribution Tab: Product
-
 **Distribution** provides documentation on how or where users can obtain
 products. Distribution methods may include online options (e.g., website,
 database) or offline options (e.g., delivery via mail, library).
 
-{% hint style="info" %} An online distribution link is required for any products
-sent to data.gov. {% endhint %}
+::: {.callout-hint}
+An online distribution link is required for any products
+sent to data.gov. 
+:::
 
 | Quick Reference: Required for SA Products | Required? |
 |:------------------------------------------|:----------|
@@ -54,20 +55,23 @@ single product record, the Name should be different for each file so the user
 can differentiate between them. For example, "Download Aguiguan Veg 2016 data"
 or "Download FDM Veg 2011 data."
 
-{% hint style="info" %} Unique Names for multiple files are particularly
+::: {.callout-note}
+Unique Names for multiple files are particularly
 important for items being sent to data.gov. Without a name specified at all, the
 link will display as "webpage," which isn't particularly informative to users.
-Identical names for different files also won't be particularly informative. {%
-endhint %}
+Identical names for different files also won't be particularly informative. 
+:::
 
 #### URI
 
 The most important thing to enter is the URL where the product can be accessed
 or downloaded.
 
-{% hint style="info" %} An online link is required for any products sent to
+::: {.callout-note}
+An online link is required for any products sent to
 data.gov. Preferably the link should be a direct download to the data and not an
-intermediary page. {% endhint %}
+intermediary page. 
+:::
 
 #### Function
 
@@ -86,13 +90,13 @@ ScienceBase items.
 \(1\) First scroll to the Attached Files on the ScienceBase item and click the
 Attach Files control.
 
-![](../.gitbook/assets/distribution_sb_attach_files.PNG)
+![](../../assets/distribution_sb_attached_files.png)
 
 \(2\) From the list of attached files, find the relevant file, right click the
 name, and select "copy link address." Then paste that link into the Online
 Option in mdEditor.
 
-![](../.gitbook/assets/distribution_sb_copy_link.PNG)
+![](../../assets/distribution_sb_copy_link.png)
 
 ### Offline Option
 
@@ -101,4 +105,4 @@ product here.
 
 ## Example Distributor
 
-![](../.gitbook/assets/distribution_example.PNG)
+![](../../assets/distribution_example.png)
