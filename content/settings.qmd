@@ -106,7 +106,7 @@ Identifier is located.
 
 ## Export Settings
 
-See the [Export section](mdeditor_metadata_file_management/export.qmd#export-options) for
+See the [Export section](metadata_file_management/export.qmd#export-options) for
 information about the options available for Exporting.
 
 ## Profile and Validation Settings

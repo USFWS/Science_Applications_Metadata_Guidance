@@ -27,7 +27,7 @@ region and be responsible for entering the metadata.
 :::
 
 In addition to metadata requirements described in 
-[Project Entry Guidance](../project_entry_guidance/overview_project.qmd), 
+[Project Records](../project_records/project_records_overview.qmd), 
 enter the following for projects with multiple Service regional or program 
 collaborators:
 
@@ -35,4 +35,4 @@ collaborators:
 
 Include the lead region and/or program in other funding Contacts as
 'administrator' (see 
-[Contact Entry Guidance](../contact_entry_guidance/contact_entry_guidance_overview.qmd)).
+[Contact Records](../contact_records/contact_records_overview.qmd)).

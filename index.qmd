@@ -39,7 +39,7 @@ Guidance is also available in the [USFWS Data Management Handbook.](https://doim
 The metadata editing tool employed to create and support metadata requirements 
 is mdEditor. This tool was an extension of an initiative by the 
 [Alaska Data Integration Working Group](http://www.adiwg.org/about/) 
-([ADIwg](content/glossary_of_terms.qmd#adiwg)) 
+([ADIwg](content/glossary.qmd#adiwg)) 
 and adopted by SA.
 
 This manual refers to the creation of SA metadata specifically. If you want 

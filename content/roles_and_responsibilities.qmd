@@ -1,6 +1,6 @@
 ---
 title: "Roles & Responsibilities (Draft)"
-subtitle: "Description of FWS Enterprise Roles and Responsibilities within SA"
+subtitle: "Science Applications Enterprise Roles and Responsibilities"
 editor: 
   markdown: 
     wrap: 80
@@ -18,8 +18,8 @@ Definition​: Assistant Regional Directors for Science Applications
     stewardship
 -   Sign ​memo​ stating a project intended for funding is not duplicative
     research or other science activity (Science Project) and therefore does
-    not need to go through any additional steps in the [SA Non-Duplication
-    Policy](non_duplication_policy_guidance.qmd).
+    not need to go through any additional steps in the [Non-Duplication
+    Policy](non_duplication_policy.qmd).
 -   Sign ​CASC Consultation Certification memo​ stating the CASC consultation
     took place and identified not duplication of funding between SA and a
     CASC. For grants and cooperative agreements, this can be certified by
@@ -50,7 +50,7 @@ Science Coordinators and the SA HQ Grants Manager.
 ### SA Contracting Officer
 
 Definition​: SA staff who serve as Contracting officials and Contracting Office
-Representatives and \*\*\*\*are the primary liaison with the contracting
+Representatives and \*\*\*\* are the primary liaison with the contracting
 personnel who issue and administer contracts.
 
 -   Work with SA Project Officer to ensure that all data procurement contracts
@@ -120,7 +120,7 @@ also assumes the roleof Project Officer.
 
 -   Ensures deliverables are loaded to ScienceBase
 
--   Write/ ensures project and product metadata meets SA standards
+-   Write/ensures project and product metadata meets SA standards
 
 -   Works with Data Steward to develop a Data Management Plan
 

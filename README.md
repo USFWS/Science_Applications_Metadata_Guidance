@@ -1,8 +1,7 @@
-```{r, echo=FALSE}
-todays_date = format(Sys.time(), '%d %B, %Y')
-```
-
-# Science Application Metadata Guidance
+---
+title: "Science Application Metadata Guidance" 
+date: "`r todays_date = format(Sys.time(), '%d %B, %Y')`"
+---
 
 ## Overview
 

@@ -34,12 +34,12 @@ about mdEditor.
 In mdEditor settings, set the SA-specific settings for Importing, Metadata
 Repositories, and Publishing.
 
-## Step 4: Create [Contacts](../contact_entry_guidance/contact_entry_guidance_overview.qmd).
+## Step 4: Create [Contacts](../contact_records/contact_records_overview.qmd).
 
 Contacts must be created or uploaded before they can be added to project and
 product metadata records.
 
-## Step 5: Create [Projects](../project_entry_guidance/overview_project.qmd).
+## Step 5: Create [Projects](../project_records/project_records_overview.qmd).
 
 If you have an existing ScienceBase project record that has not been edited in
 mdEditor, import the ScienceBase record to create a new mdEditor record.
@@ -50,7 +50,7 @@ record from scratch.
 If you have already created an mdEditor record for the project, import the
 mdEditor file to continue editing.
 
-## Step 6: Create [Products](../product_entry_guidance/overview_product.qmd).
+## Step 6: Create [Products](../product_records/product_records_overview.qmd).
 
 If you have an existing ScienceBase product record that has not been edited in
 mdEditor, import the ScienceBase record to create a new mdEditor record.
@@ -61,23 +61,23 @@ record from scratch.
 If you have already created an mdEditor record for the product, import the
 mdEditor file to continue editing.
 
-## Step 7: For applicable Products, create Data [Dictionaries](../product_entry_guidance/dictionaries_tab_product.qmd).
+## Step 7: For applicable Products, create Data [Dictionaries](../product_records/dictionaries_tab_product.qmd).
 
 ## Step 8: Complete metadata.
 
 Decide on your desired file management approach and complete your metadata
-accordingly. See the [File Management](../mdeditor_metadata_file_management/metadata_format.qmd) 
+accordingly. See the [File Management](../metadata_file_management/metadata_file_management_overview.qmd) 
 section for options and instructions.
 
 ## Step 9: Create desired Associations between Projects and/or Products.
 
 Associations can be either 
-[associated from a project](../project_entry_guidance/associating_records_project.qmd) or 
-[associated from a product](../product_entry_guidance/associating_records_product.qmd).
+[associated from a project](../project_records/associating_records_project.qmd) or 
+[associated from a product](../product_records/associating_records_product.qmd).
 
-## Step 10: [Publish](../publish/publish_overview.qmd) your records to ScienceBase.
+## Step 10: [Publish](../publishing/publishing_overview.qmd) your records to ScienceBase.
 
-## Step 11: [Export](../mdeditor_metadata_file_management/export.qmd) 
+## Step 11: [Export](../metadata_file_management/export.qmd) 
 your records and contacts for backup, transfer, or sharing.
 
 You may want to export working backups before publishing depending on your

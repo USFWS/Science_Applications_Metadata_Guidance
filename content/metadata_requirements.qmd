@@ -1,0 +1,119 @@
+---
+title: "Metadata Requirements"
+---
+
+Below are metadata fields that are required for Project metadata, Data Product 
+metadata, the ScienceBase 30-day policy, and for Digital Object Identifier (DOI) 
+metadata.
+
+#### Basic Information
+
+| Metadata Field            | Project metadata                                                  | Product metadata                                                          | ScienceBase 30-day Policy | DOI metadata |
+|:--------------|:--------------|:--------------|:--------------|:--------------|
+| Title                     | [**Required**](project_records/main_tab_project.qmd#title)  | [**Required**](product_records/main_tab_product.qmd#title) | **Required**              | **Required** |
+| Status                    | [**Required**](project_records/main_tab_project.qmd#status) | [**Required**](product_records/main_tab_product.qmd#status)         | **Required**              | **Required** |
+| Resource Type             |                                                                   | [**Required**](product_records/main_tab_product.qmd#resource-types) |                           |              |
+| Point of Contact          | [**Required**](project_records/main_tab_project.qmd#point-of-contacts)| [**Required**](product_records/main_tab_product.qmd#point-of-contacts)|             |              |
+| Custodian                 | **Required**                                                      | **Required**                                                              |                           |              |
+| Principal Investigator    | As applicable                                                     | As applicable                                                             | **Required**              |              |
+| Administrator             | **Required**                                                      |                                                                           | **Required**              |              |
+| Administrative Region     | **Required**                                                      | **Required**                                                              |                           |              |
+| co-Principal Investigator | As applicable                                                     |                                                                           |                           |              |
+| Abstract                  | **Required**                                                      | **Required**                                                              | **Required**              |              |
+| Start Date                | [**Required**](project_records/main_tab_project.qmd#time-period) | As Applicable                                                             | **Required**              |              |
+| End Date                  | **Required**                                                      | **Required**                                                              | **Required**              |              |
+
+#### Citation Information
+
+| Metadata Field         | Project metadata | Product metadata | ScienceBase 30-day Policy | DOI metadata |
+|:--------------|:--------------|:--------------|:--------------|:--------------|
+| Title                  | **Required**     | **Required**     |                           |              |
+| Acquisition Date       |                  | As Applicable    |                           |              |
+| Creation Date          |                  | As Applicable    |                           |              |
+| Date Updated           |                  | As Applicable    |                           |              |
+| Date Revised           |                  | As Applicable    |                           |              |
+| Date Published         |                  | As Applicable    |                           |              |
+| Principal Investigator | **Required**     | **Required**     | **Required**              | **Required** |
+| Online Resource Name   | As Applicable    | As Applicable    |                           |              |
+| Online Resource URL    | **Required**     | **Required**     |                           |              |
+| URL Function           | As Applicable    | As Applicable    |                           |              |
+| Metadata Identifier    | Required         | Required         |                           |              |
+| identifier Namespace   | Required         | Required         |                           |              |
+| DOI Identifier         |                  | As Applicable    |                           |              |
+| DOI Namespace          |                  | As Applicable    |                           |              |
+
+#### Metadata Information
+
+| Metadata Field                         | Project metadata | Product metadata | ScienceBase 30-day Policy | DOI metadata |
+|:--------------|:--------------|:--------------|:--------------|:--------------|
+| Arthur                                 | **Required**     | **Required**     |                           |              |
+| Publisher                              | **Required**     | **Required**     |                           |              |
+| Point of Contact                       | **Required**     | **Required**     |                           |              |
+| Parent Metadata Title                  | **Required**     | **Required**     |                           |              |
+| Metadata Identifier                    | **Required**     | **Required**     |                           |              |
+| Identifier Namespace                   | **Required**     | **Required**     |                           |              |
+| Repository or Catalog Name(s)          | **Required**     | **Required**     |                           |              |
+| Repository or Catalog Collection Title | **Required**     | **Required**     |                           |              |
+| data.gov Catalog Collection Name       |                  | As Applicable    |                           |              |
+| Maintenance Frequency                  |                  | As Applicable    |                           |              |
+
+#### Keywords
+
+| Metadata Field                           | Project metadata | Product metadata | ScienceBase 30-day Policy | DOI metadata |
+|:--------------|:--------------|:--------------|:--------------|:--------------|
+| ISO Topic Category                       | **Required**     | **Required**     |                           |              |
+| SA Priority                              | **Required**     | **Required**     |                           |              |
+| SA Science Topic                         | **Required**     |                  |                           |              |
+| Conservation Action                      | As Applicable    |                  |                           |              |
+| Shared Priority                          | As Applicable    |                  |                           |              |
+| Strategic Habitat Conservation Component | As Applicable    |                  |                           |              |
+| Taxonomic Classification (ITIS)          | As Applicable    | As Applicable    |                           |              |
+| Geographic Extent                        | **Required**     | **Required**     |                           |              |
+| Spatial Reference and Resolution         | As Applicable    | As Applicable    |                           |              |
+
+#### Distribution Information
+
+| Metadata Field                                   | Project metadata | Product metadata | ScienceBase 30-day Policy | DOI metadata |
+|:--------------|:--------------|:--------------|:--------------|:--------------|
+| Distributor                                      |                  | **Required**     |                           |              |
+| Online Transfer Name                             |                  | As Applicable    |                           |              |
+| Online Transfer URL                              |                  | As Applicable    |                           |              |
+| Online Transfer Function                         |                  | As Applicable    |                           |              |
+| Online Transfer Application Profile              |                  | As Applicable    |                           |              |
+| Online Transfer Order Process                    |                  | As Applicable    |                           |              |
+| Distribution Format name, version, & compression |                  | As Applicable    |                           |              |
+
+#### Constraints Information
+
+| Metadata Field       | Project metadata | Product metadata | ScienceBase 30-day Policy | DOI metadata |
+|:--------------|:--------------|:--------------|:--------------|:--------------|
+| Access Constraints   |                  | **Required**     |                           |              |
+| Use Constraints      |                  | As Applicable    |                           |              |
+| Handling Description |                  | As Applicable    |                           |              |
+| Other Constraints    |                  | As Applicable    |                           |              |
+
+#### Funding Information
+
+| Metadata Field         | Project metadata | Product metadata | ScienceBase 30-day Policy | DOI metadata |
+|:--------------|:--------------|:--------------|:--------------|:--------------|
+| Award ID               | **Required**     |                  | **Required**              |              |
+| Sub-activity           | **Required**     |                  |                           |              |
+| Funding Code           | **Required**     |                  |                           |              |
+| Amount                 | **Required**     |                  | **Required**              |              |
+| Source                 | **Required**     |                  | **Required**              |              |
+| Allocation             | **Required**     |                  |                           |              |
+| Funding Organization   | **Required**     |                  |                           |              |
+| Recipient Organization | **Required**     |                  |                           |              |
+| Matching Funds         | As Applicable    |                  |                           |              |
+| Fiscal Year            | **Required**     |                  | **Required**              |              |
+
+#### Contact Information
+
+| Metadata Field      | Project metadata | Product metadata | ScienceBase 30-day Policy | DOI metadata |
+|:--------------|:--------------|:--------------|:--------------|:--------------|
+| Type                | **Required**     | **Required**     |                           |              |
+| Individual Name     | **Required**     | **Required**     |                           |              |
+| Position            | As Applicable    | As Applicable    |                           |              |
+| Organizational Name | **Required**     | **Required**     |                           |              |
+| Member Organization | **Required**     | **Required**     |                           |              |
+| Email Address       | As Applicable    | As Applicable    |                           |              |

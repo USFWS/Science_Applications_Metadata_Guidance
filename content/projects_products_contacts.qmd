@@ -52,7 +52,7 @@ products (e.g., investigators, collaborators, funders). Contacts are entered
 once in mdEditor and can be added to multiple projects and products.
 
 ::: callout-note
-Consult the [Contacts](contact_entry_guidance/contact_entry_guidance_overview.qmd) 
+Consult the [Contacts](contact_records/contact_records_overview.qmd) 
 section for information on adding contacts.
 :::
 
@@ -78,7 +78,7 @@ relationships between projects and products through the Associated feature.
 
 ::: callout-note
 Consult either the [Associating Records:
-Product](product_entry_guidance/associating_records_product.qmd) or [Associating
-Records: Project](project_entry_guidance/associating_records_project.qmd) section for
+Product](product_records/associating_records_product.qmd) or [Associating
+Records: Project](project_records/associating_records_project.qmd) section for
 more information).
 :::

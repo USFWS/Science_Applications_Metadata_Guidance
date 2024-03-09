@@ -8,10 +8,10 @@ editor:
 USGS CASC have their own metadata requirements. If your project is a sub-project
 of a CASC project, complete a unique metadata record with the following
 requirements. Products of a sub-project can be entered as described in 
-[Product Entry Guidance](../product_entry_guidance/overview_project.qmd)
+[Product Records](../product_records/product_records_overview.qmd)
 
 If the SA and CASC contributions cannot be teased apart into project and
-sub-project, then follow the [collaboration protocol](../collaboration_protocol.qmd) 
+sub-project, then follow the [collaboration protocol](collaboration_protocol.qmd) 
 instead.
 
 ## Main/Points of Contact

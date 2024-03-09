@@ -21,7 +21,7 @@ programmatic project and product. These records will be searchable in the
 Science Catalog for each collaborating entity identified in the metadata.
 
 In addition to standard metadata requirements as described in 
-[Project Entry Guidance](../../project_entry_guidance/overview_project.qmd), 
+[Project Records](../project_records/project_records_overview.qmd), 
 include the  following additions.
 
 ## Main/Point of Contacts
@@ -57,8 +57,8 @@ Collaborators do not need to be listed here.
 ## Funding (for Projects only)
 
 Add a separate funding allocation for each year and each region or program that
-provided funding as described in [Funding Tab:
-Project](../../project_entry_guidance/funding_tab.qmd).
+provided funding as described in 
+[Funding Tab: Project](../project_records/funding_tab_project.qmd).
 
 1.  The source should be U.S. Fish and Wildlife Service.
 2.  Add the funding region or program associated with the amount as the

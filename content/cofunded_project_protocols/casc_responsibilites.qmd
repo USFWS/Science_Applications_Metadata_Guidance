@@ -19,7 +19,7 @@ record:
 
 -   “This project was co-funded by the \[X, Y, Z\] Climate Adaptation Science
     Centers and the USFWS \[A, B, C\] region program. An alternate reference to
-    this project can be found here\[insert SA ScienceBase URL\].”
+    this project can be found here \[insert SA ScienceBase URL\].”
 
 Example: “This project was co-funded by the South Central Climate Adaptation
 Science Center and the USFWS Gulf Coast Region. An alternate reference to this

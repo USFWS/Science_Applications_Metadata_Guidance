@@ -17,7 +17,7 @@ with new/updated mdJSON).
 
 Please read through ALL instructions before you begin the publishing process.
 After you understand how the publishing function works, please read
-the [**Testing Publishing**](testing_publishing.qmd)
+the [**Testing Publishing**](testing.qmd)
 and proceed with testing a record before you try to publish any of your real
 records.
 

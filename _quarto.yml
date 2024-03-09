@@ -2,7 +2,7 @@ project:
   type: website
 
 language: 
-  search-box-placeholder: "Search" # Currrently not working. Old version? 
+  search-box-placeholder: "Search" # Currrently not working. Change in css? 
 
 website: 
   page-navigation: true
@@ -33,117 +33,108 @@ website:
         text: Introduction
       - href: content/roles_and_responsibilities.qmd
         text: "Roles and Responsibilities"
-      - content/goals_sa_data_management.qmd   
-      - content/sa_science_catalog.qmd   
+      - content/data_management_goals.qmd   
+      - content/science_catalog.qmd   
       - content/projects_products_contacts.qmd   
       - content/non_duplication_policy.qmd   
       - section: "Workflow"
+        href: content/workflow/workflow_overview.qmd
         contents:
-          - href: content/workflow/workflow_overview.qmd
-            text: "Overview"
           - content/workflow/metadata_from_scratch.qmd
           - content/workflow/metadata_sciencebase_first.qmd          
           - content/workflow/metadata_editing_republishing.qmd          
           - href: content/workflow/metadata_project_tracking_system_considerations.qmd
             text: "Project Tracking System Considerations"
       - content/settings.qmd           
-      - section: "mdEditor File Management"
+      - section: "Metadata File Management"
+        href: content/metadata_file_management/metadata_file_management_overview.qmd    
         contents:
-          - content/mdeditor_metadata_file_management/metadata_file_management.qmd    
           - section: "Import"
+            href: content/metadata_file_management/import_overview.qmd
             contents:
-            - content/mdeditor_metadata_file_management/import_import_settings.qmd
-            - content/mdeditor_metadata_file_management/import_mdjson.qmd          
-            - content/mdeditor_metadata_file_management/import_sbjson.qmd          
-            - content/mdeditor_metadata_file_management/import_fgdc.qmd          
-          - content/mdeditor_metadata_file_management/export.qmd   
-          - content/mdeditor_metadata_file_management/copy_records.qmd   
-      - content/metadata_requirements_checklist.qmd  
+            - content/metadata_file_management/import_mdjson.qmd          
+            - content/metadata_file_management/import_sbjson.qmd          
+            - content/metadata_file_management/import_fgdc.qmd          
+          - content/metadata_file_management/export.qmd   
+          - content/metadata_file_management/copy_records.qmd   
+      - content/metadata_requirements.qmd  
       - href: content/digital_object_identifier.qmd        
         text: "Digitial Object Identifier"
       - section: "Project Records"
+        href: content/project_records/project_records_overview.qmd
         contents:
-          - href: content/project_entry_guidance/overview_project.qmd
-            text: "Overview"        
-          - content/project_entry_guidance/main_tab_project.qmd          
-          - content/project_entry_guidance/metadata_tab_project.qmd          
-          - content/project_entry_guidance/keywords_tab_project.qmd          
-          - content/project_entry_guidance/taxonomy_tab_project.qmd          
-          - content/project_entry_guidance/extent_tab_project.qmd          
-          - content/project_entry_guidance/documents_tab_project.qmd          
-          - content/project_entry_guidance/funding_tab_project.qmd           
-          - content/project_entry_guidance/associating_records_project.qmd          
+          - content/project_records/main_tab_project.qmd          
+          - content/project_records/metadata_tab_project.qmd          
+          - content/project_records/keywords_tab_project.qmd          
+          - content/project_records/taxonomy_tab_project.qmd          
+          - content/project_records/extent_tab_project.qmd          
+          - content/project_records/documents_tab_project.qmd          
+          - content/project_records/funding_tab_project.qmd           
+          - content/project_records/associating_records_project.qmd          
       - section: "Product Records"
+        href: content/product_records/product_records_overview.qmd
         contents:
-          - href: content/product_entry_guidance/overview_product.qmd
-            text: "Overview"        
-          - content/product_entry_guidance/main_tab_product.qmd          
-          - content/product_entry_guidance/metadata_tab_product.qmd  
-          - content/product_entry_guidance/datagov_guidance_product.qmd 
-          - content/product_entry_guidance/keywords_tab_product.qmd          
-          - content/product_entry_guidance/taxonomy_tab_product.qmd          
-          - content/product_entry_guidance/extent_tab_product.qmd          
-          - content/product_entry_guidance/lineage_tab_product.qmd   
-          - content/product_entry_guidance/distribution_tab_product.qmd       
-          - content/product_entry_guidance/constraints_tab_product.qmd       
-          - content/product_entry_guidance/dictionaries_tab_product.qmd       
-          - content/product_entry_guidance/documents_tab_product.qmd       
-          - content/product_entry_guidance/associating_records_product.qmd       
+          - content/product_records/main_tab_product.qmd          
+          - content/product_records/metadata_tab_product.qmd  
+          - content/product_records/datagov_guidance_product.qmd 
+          - content/product_records/keywords_tab_product.qmd          
+          - content/product_records/taxonomy_tab_product.qmd          
+          - content/product_records/extent_tab_product.qmd          
+          - content/product_records/lineage_tab_product.qmd   
+          - content/product_records/distribution_tab_product.qmd       
+          - content/product_records/constraints_tab_product.qmd       
+          - content/product_records/dictionaries_tab_product.qmd       
+          - content/product_records/documents_tab_product.qmd       
+          - content/product_records/associating_records_product.qmd       
       - section: "Contact Records"
+        href: content/contact_records/contact_records_overview.qmd
         contents:
-          - href: content/contact_entry_guidance/contact_entry_guidance_overview.qmd
-            text: "Overview"
-          - content/contact_entry_guidance/summary_contact_requirements.qmd
-          - content/contact_entry_guidance/individual_contacts.qmd
-          - content/contact_entry_guidance/organization_contacts.qmd
-      - section: "Co-Funded Project Protocols"
+          - content/contact_records/summary_contact_requirements.qmd
+          - content/contact_records/individual_contacts.qmd
+          - content/contact_records/organization_contacts.qmd
+      - section: "Co-Funded Projects"
+        href: content/cofunded_project_protocols/cofunded_projects_overview.qmd
         contents:
-          - href: content/cofunded_project_protocols/cofunded_projects_overview.qmd
-            text: "Overview"         
           - content/cofunded_project_protocols/collaboration_protocol.qmd
           - section: "Sub-Project Protocol"          
+            href: content/cofunded_project_protocols/subproject_protocol_overview.qmd
             contents: 
-              - href: content/cofunded_project_protocols/subproject_protocol_overview.qmd
-                text: "Overview"
               - content/cofunded_project_protocols/subproject_of_fws_region_program_project.qmd
               - content/cofunded_project_protocols/subproject_of_casc_project.qmd
           - section: "Co-Funded Protocol"          
+            href: content/cofunded_project_protocols/cofunded_protocol_overview.qmd
             contents: 
-              - href: content/cofunded_project_protocols/cofunded_protocol_overview.qmd
-                text: "Overview"
               - content/cofunded_project_protocols/fws_cofunded_projects.qmd
               - content/cofunded_project_protocols/fws_casc_projects_products.qmd
               - content/cofunded_project_protocols/casc_responsibilites.qmd
               - content/cofunded_project_protocols/lcc_examples.qmd
       - section: "Publishing"
+        href: content/publishing/publishing_overview.qmd
         contents:
-          - href: content/publishing/publishing_overview.qmd
-            text: "Overview"
-          - content/publishing/requirements_for_publishing.qmd
-          - content/publishing/testing_publishing.qmd
-          - content/publishing/how_to_publish.qmd          
+          - content/publishing/requirements.qmd
+          - content/publishing/testing.qmd
+          - content/publishing/how_to.qmd          
           - content/publishing/republishing.qmd          
-      - content/archiving_requirements.qmd
-      - section: "Trouble-Shooting Tips"
+      - content/archiving.qmd
+      - section: "Trouble-Shooting"
+        href: content/trouble_shooting/trouble_shooting_overview.qmd      
         contents:
-          - href: content/trouble_shooting_tips/trouble_shooting_tips_overview.qmd      
-            text: "Overview"
-          - content/trouble_shooting_tips/qa_qc_fixes.qmd      
-          - content/trouble_shooting_tips/qa_qc_resources.qmd      
-      - section: "Bulk Editing Resources"
+          - content/trouble_shooting/qa_qc_fixes.qmd      
+          - content/trouble_shooting/qa_qc_resources.qmd      
+      - section: "Injector Script"
+        href: content/injector_script/injector_script_overview.qmd      
         contents:
-          - content/bulk_editing_resources/injector_script_overview.qmd      
-          - content/bulk_editing_resources/injector_script_funding.qmd      
-          - content/bulk_editing_resources/injector_script_distribution_links.qmd 
+          - content/injector_script/example_funding.qmd      
+          - content/injector_script/example_distribution_links.qmd 
       - content/help.qmd
-      - content/glossary_of_terms.qmd
+      - content/glossary.qmd
 
 format:
   html:
     toc: true
     theme:
-      light: [materia, theme.scss]
-      dark: [materia, theme-dark.scss]
+      light: [materia, css/theme.scss]
+      dark: [materia, css/theme-dark.scss]
     code-copy: true
     code-overflow: wrap
     grid:
@@ -154,5 +145,3 @@ format:
 filters:
   - include-files.lua
   - quarto
-
-  
