@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.551">
+<meta name="generator" content="quarto-1.4.552">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -70,6 +70,10 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<meta name="mermaid-theme" content="neutral">
+<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -178,12 +182,6 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Metadata Editing / Re-Publishing</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../content/workflow/metadata_project_tracking_system_considerations.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Project Tracking System Considerations</span></a>
-  </div>
-</li>
       </ul>
   </li>
         <li class="sidebar-item">
@@ -248,12 +246,6 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="../../content/metadata_requirements.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Metadata Requirements</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../content/digital_object_identifier.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Digitial Object Identifier</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -537,12 +529,6 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../content/archiving.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Archiving</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../content/trouble_shooting/trouble_shooting_overview.html" class="sidebar-item-text sidebar-link">
@@ -558,35 +544,40 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">QA/QC Fixes</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../content/trouble_shooting/qa_qc_resources.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">QA/QC Resources</span></a>
-  </div>
-</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../content/injector_script/injector_script_overview.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Injector Script</span></a>
+            <a href="../../content/appendix/appendix_overview.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Appendix</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../content/appendix/injector_script/injector_script_overview.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Injector Script</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/injector_script/example_funding.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/appendix/injector_script/example_funding.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Funding Example</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/injector_script/example_distribution_links.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/appendix/injector_script/example_distribution_links.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Distribution Links Example</span></a>
   </div>
 </li>
+      </ul>
+  </li>
       </ul>
   </li>
         <li class="sidebar-item">
@@ -644,16 +635,17 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This section describes the additional metadata entry requirements for documenting projects and products that involved multiple SA regions or FWS programs, or were co-funded with the USGS Climate Adaptation Science Centers (CASCs) or other federal bureaus. SA metadata requirements and best practices described in <a href="../../content/project_records/project_records_overview.html">Project Records</a> still apply, unless otherwise noted below.</p>
+<p>This section describes the additional metadata entry requirements for documenting projects and products that involved multiple SA regions or FWS programs, or were co-funded with the USGS Climate Adaptation Science Centers (CASCs) or other federal bureaus.</p>
+<p>SA metadata requirements and best practices described in <a href="../../content/project_records/project_records_overview.html">Project Records</a> still apply, unless otherwise noted below.</p>
 <section id="goals" class="level2">
 <h2 class="anchored" data-anchor-id="goals">Goals</h2>
 <p>The goals for these guidelines are:</p>
 <ol type="1">
-<li>to identify when a project is co-funded and which protocol to follow;</li>
-<li>to maintain consistent, quality metadata records for projects and products across all FWS regions for inclusion in the SA Science Catalog;</li>
-<li>to avoid duplicate reporting of the same funding dollars, while also allowing each regional program to fully describe its financial contribution and project support;</li>
-<li>to avoid the appearance of duplicated research efforts between FWS and CASCs or other federal bureaus (see <a href="../../content/non_duplication_policy.html#non-duplication-policy">Non-Duplication Policy</a>)</li>
-<li>and to clearly communicate the relationships between separate, but related, FWS and CASC funded projects to the public.</li>
+<li>Identify when a project is co-funded and which protocol to follow</li>
+<li>Maintain consistent, quality metadata records for projects and products across all FWS regions for inclusion in the SA Science Catalog</li>
+<li>Avoid duplicate reporting of the same funding dollars, while also allowing each regional program to fully describe its financial contribution and project support.</li>
+<li>Avoid the appearance of duplicated research efforts between FWS and CASCs or other federal bureaus (see <a href="../../content/non_duplication_policy.html#non-duplication-policy">Non-Duplication Policy</a>)</li>
+<li>Clearly communicate the relationships between separate, but related, FWS and CASC funded projects to the public</li>
 </ol>
 </section>
 <section id="terms" class="level2">
@@ -672,12 +664,48 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Sub-Project</strong> (see definition above): One region (Region A) is the lead for a large project (parent project), while another region (Region B), funds a distinct sub-project effort or distinct deliverable of the large project. This scenario can apply to FWS-CASC parent projects and may include project continuations when new objectives or deliverables are described.</p>
 <p><strong>Multi-regional Co-funded Project</strong>: One region leads a project with funding support from another region(s). The project cannot be divided into distinct sub-projects.</p>
 <p><strong>FWS/CASC Co-funded Project</strong>: FWS region(s) and CASC(s) co-fund a project without distinct sub-projects or products.</p>
-<p><em>See the flowchart below for identifying which protocol to follow.</em></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../assets/decision_support_flow_chart_cofunded_projects.jpg" class="img-fluid figure-img"></p>
-<figcaption>Decision Support Flow Chart for co-funded projects</figcaption>
+<div class="cell" data-fig-width="8" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-mermaid1" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-mermaid1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+<pre class="mermaid mermaid-js" data-label="fig-mermaid1">%%{init: {'theme': 'base', 'themeVariables': {'fontSize': '16px', 'primaryColor': '#E6E6FA', 'secondaryColor': '#006100', 'primaryBorderColor': '#fff0f0', 'tertiaryColor': '#fff0f0'}}}%%
+%%{init: {"flowchart": {"htmlLabels": false}} }%%
+
+flowchart TD
+    A("Did another FWS Region or DOI Agency&lt;br&gt; (i.e., CASC) provide funding?") 
+    AY("Yes")
+    AN("No")
+    ANN("Follow collaboration protocol")
+    B("Can a distinct portion of the project be identified,&lt;br&gt; or a separate product be identified?")    
+    BY("Yes")
+    BN("No")
+    BYY("Split the project;&lt;br&gt; follow sub-project protocol")
+    BNN("This is multi-regional &lt;br&gt;or CASC co-funded project;&lt;br&gt; follow co-funded protocol")
+
+    A ---AY:::yesclass
+    A ---AN:::noclass
+    AY --&gt;B
+    B ---BY:::yesclass
+    B ---BN:::noclass
+    BY --&gt;BYY:::stopclass
+    BN --&gt;BNN:::stopclass
+    AN --&gt;ANN:::stopclass
+    
+    classDef stopclass fill:#FFC300,stroke-width:0px,stroke:#333;
+    classDef yesclass fill:#00A36C;    
+    classDef noclass fill:#fF9966;
+    linkStyle default stroke:#5F6A6A,stroke-width:4px;
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-mermaid1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Flowchart for identifying which protocol to follow
+</figcaption>
 </figure>
+</div>
+</div>
 </div>
 
 
