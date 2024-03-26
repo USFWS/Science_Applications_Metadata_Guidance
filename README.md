@@ -1,17 +1,12 @@
----
-title: "Science Application Metadata Guidance" 
-date: "`r todays_date = format(Sys.time(), '%d %B, %Y')`"
----
 
-## Overview
+## Science Application Metadata Guidance - Overview
 
 This project was created to develop a Science Applications Metadata Guidance 
 documentation. 
 The documentation was developed using Quarto (https://quarto.org/) within 
 the RStudio environment. 
 
-_Note: This is a working draft that will continue to be edited. 
-**Last updated:** **`r todays_date`**.
+_Note: This is a working draft that will continue to be edited.
 
 If you have questions/concerns regarding this guidance, please contact the 
 FWS SA National Data Steward \(sadatasteward@fws.gov\) or 
@@ -29,8 +24,11 @@ environment or through a desktop process via Git.
 
 ## Contributing
 
+If you’d like to give feedback, please consider reporting a typo or leaving a 
+pull request at https://github.com/USFWS/sciapps_metadata_guidance.
+
 Contact the project coordinator (blake_massey@fws.gov) for information about 
-contributing.
+any additional contributions.
 
 ## Disclaimer 
 

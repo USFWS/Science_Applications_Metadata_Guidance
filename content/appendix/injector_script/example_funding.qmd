@@ -24,44 +24,44 @@ A recording of this demo is available for viewing at:
 
 ## Steps
 
-### (1) Download script and other helpful files from GitHub.
+### 1. Download script and other helpful files from GitHub.
 
 a.  Go to <https://github.com/mmheller/mdEditorFileInjector> and download all
     the files.
 
-![](../../assets/injector_download_script_1.png)
+![](../../../assets/injector_download_script_1.png)
 
 b.  Unzip to any folder.
 
-![](../../assets/injector_unzip_1.png)
+![](../../../assets/injector_unzip_1.png)
 
-### (2) Gather some mdEditor files for the demo test.
+### 2. Gather some mdEditor files for the demo test.
 
 a.  Create a folder named **Demo** somewhere convenient.
 
-![](../../assets/injector_demo_folder.png)
+![](../../../assets/injector_demo_folder.png)
 
 b.  Copy/paste 2-5 of YOUR mdEditor files into the Demo folder.
 
-![](../../assets/injector_demo_files.png)
+![](../../../assets/injector_demo_files.png)
 
-### (3) Build the string that will have the necessary arguments to run the script.
+### 3. Build the string that will have the necessary arguments to run the script.
 
 a.  Open any text editor (e.g., notepad) and enter the following letters with
     Dashes on separate lines (**–C –D –F –f –T –O**).
 
-![](../../assets/injector_script_1.png)
+![](../../../assets/injector_script_1.png)
 
 For reference, the final version will look like this. Follow the specific steps
 below to write each line.
 
-![](../../assets/injector_script_2_1.png)
+![](../../../assets/injector_script_2_1.png)
 
 b.  Enter the path to the Demo folder in line **–C**. Note: all files and files
     in subfolders will be processed by the script. No original files will be
     edited, copies will always be made.
 
-![](../../assets/injector_demo_path_paste.png)
+![](../../../assets/injector_demo_path_paste.png)
 
 c.  Enter **“metadata\|funding”** in line **–D**. This is the location in the
     JSON that we’re telling the script to look for finding JSON text. Note: be
@@ -76,9 +76,9 @@ d.  For line **–F**
     files.
 2.  AND copy/paste the file name **inject_FundingAdministrator.txt**
 
-![](../../assets/injector_copy_path.png)
+![](../../../assets/injector_copy_path.png)
 
-![](../../assets/injector_copy_filename.png)
+![](../../../assets/injector_copy_filename.png)
 
 Make sure to separate the path and filename with a back slash. This holds all
 the text we will inject.
@@ -93,49 +93,51 @@ f.  Add **False** to the **–T** line. This indicates we’re not adding new
 g.  Add **6** to the **–O** line. This specifies the option for the more complex
     find/replace.
 
-![](../../assets/injector_script_2.png)
+![](../../../assets/injector_script_2.png)
 
-### (4) Edit the *inject_FundingAdministrator.txt* file with the Contact ID of your choice.
+### 4. Edit the *inject_FundingAdministrator.txt* file with the Contact ID of your choice.
 
 a.  Open mdEditor, clear the cache, and then import one of the mdEditor files
     from the demo folder.
 
 b.  However you want to do it, copy the Contact ID of your choice.
 
-![](../../assets/injector_contactid.png)
+![](../../../assets/injector_contactid.png)
 
 c.  Open **inject_FundingAdministrator.txt** in a text editor and overwrite the
     Contact ID value in the file. Save and then close the file.
 
-![](../../assets/injector_contactid_save.png)
+![](../../../assets/injector_contactid_save.png)
 
-{% hint style="info" %} Note: The Contact ID you enter must be the same for all
+::: {.callout-note} 
+The Contact ID you enter must be the same for all
 the mdEditor files you want to run through the processor (or are in the demo
 folder). If you have different Contact IDs to inject across different records,
 you must do these in separate iterations of the script with only the relevant
 mdEditor files for each contact ID. *If you have different Contact IDs to add
 **within the same record**, you cannot use the script and must edit those
-records manually in mdEditor.* {% endhint %}
+records manually in mdEditor.*
+:::
 
-### (5) Open the *find_FundingAdminstrator.txt* file.
+### 5. Open the *find_FundingAdminstrator.txt* file.
 
 Make sure it says:
 
-![](../../assets/injector_matchingfalse.png)
+![](../../../assets/injector_matchingfalse.png)
 
-### (6) Inspect one or more of the mdEditor files in mdEditor.
+### 6. Inspect one or more of the mdEditor files in mdEditor.
 
 a.  Go to Funding. Choose an allocation where match is not selected and click
     "More." Then click "Edit" for the allocation. Scroll down and notice no
     entries under “Other Contacts.”
 
-![](../../assets/injector_othercontacts_none.png)
+![](../../../assets/injector_othercontacts_none.png)
 
-### (7) Run the script.
+### 7. Run the script.
 
 a.  Back in the text editor, add two blank lines in the beginning.
 
-![](../../assets/injector_script_blanklines.png)
+![](../../../assets/injector_script_blanklines.png)
 
 b.  Find the path to your python.exe and enter in the 1st line. Example:
     **C:**\Python27\ArcGISx6410.6\python.exe
@@ -144,23 +146,23 @@ c.  Find the path to your .py injector script file and enter in the 2nd line.
     Note: this will be in the folder you downloaded and unzipped. Example:
     **C:**\Temp\mdEditorFileInjector-master\mdEditorFileInjector\_v1.py
 
-![](../../assets/injector_script_4.png)
+![](../../../assets/injector_script_4.png)
 
 d.  Remove all the carriage returns and extra spaces, and save if desired. Note:
     if any of your file paths have spaces, make sure to enclose the full
     path/filename with double quotes.
 
-![](../../assets/injector_script_5.png)
+![](../../../assets/injector_script_5.png)
 
 e.  Open a DOS prompt.
 
-![](../../assets/injector_dosprompt_1.png)
+![](../../../assets/injector_dosprompt_1.png)
 
 f.  Copy/paste the text from your text editor into the command prompt to run.
 
-![](../../assets/injector_dos_paste_1.png)
+![](../../../assets/injector_dos_paste_1.png)
 
-### (8) Inspect the results.
+### 8. Inspect the results.
 
 a.  Open mdEditor and clear the cache.
 
@@ -168,7 +170,7 @@ b.  Click Import. Go to the demo folder and into the new folder created. Note:
     each time the process runs it will create a new folder and add new files to
     this folder.
 
-![](../../assets/injector_newfiles_1.png)
+![](../../../assets/injector_newfiles_1.png)
 
 c.  Select one of the new files to import.
 
@@ -176,7 +178,7 @@ d.  Go to Funding. Choose an allocation where match is not selected and click
     "More." Then click "Edit" for the allocation. Scroll down and notice a new
     entry under “Other Contacts.”
 
-![](../../assets/injector_othercontacts_updated.png)
+![](../../../assets/injector_othercontacts_updated.png)
 
 Note: If it errors out, there’s a problem. Go to the demo folder and into the
 new folder created and do the following:

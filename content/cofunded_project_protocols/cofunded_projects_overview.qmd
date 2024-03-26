@@ -12,8 +12,9 @@ editor:
 This section describes the additional metadata entry requirements for
 documenting projects and products that involved multiple SA regions or FWS
 programs, or were co-funded with the USGS Climate Adaptation Science Centers
-(CASCs) or other federal bureaus. SA metadata requirements and best practices
-described in 
+(CASCs) or other federal bureaus. 
+
+SA metadata requirements and best practices described in 
 [Project Records](../project_records/project_records_overview.qmd) 
 still apply, unless otherwise noted below.
 
@@ -21,17 +22,17 @@ still apply, unless otherwise noted below.
 
 The goals for these guidelines are:
 
-1.  to identify when a project is co-funded and which protocol to follow;
-2.  to maintain consistent, quality metadata records for projects and products
-    across all FWS regions for inclusion in the SA Science Catalog;
-3.  to avoid duplicate reporting of the same funding dollars, while also
+1.  Identify when a project is co-funded and which protocol to follow
+2.  Maintain consistent, quality metadata records for projects and products
+    across all FWS regions for inclusion in the SA Science Catalog
+3.  Avoid duplicate reporting of the same funding dollars, while also
     allowing each regional program to fully describe its financial contribution
-    and project support;
-4.  to avoid the appearance of duplicated research efforts between FWS and CASCs
+    and project support.
+4.  Avoid the appearance of duplicated research efforts between FWS and CASCs
     or other federal bureaus (see 
     [Non-Duplication Policy](../non_duplication_policy.qmd#non-duplication-policy))
-5.  and to clearly communicate the relationships between separate, but related,
-    FWS and CASC funded projects to the public.
+5.  Clearly communicate the relationships between separate, but related,
+    FWS and CASC funded projects to the public
 
 ## Terms
 
@@ -84,7 +85,38 @@ sub-projects.
 **FWS/CASC Co-funded Project**: FWS region(s) and CASC(s) co-fund a project
 without distinct sub-projects or products.
 
-*See the flowchart below for identifying which protocol to follow.*
 
-![Decision Support Flow Chart for co-funded
-projects](../../assets/decision_support_flow_chart_cofunded_projects.jpg)
+```{mermaid}
+%%| label: fig-mermaid1
+%%| fig-width: 8
+%%| fig-cap: |
+%%|    Flowchart for identifying which protocol to follow
+%%{init: {'theme': 'base', 'themeVariables': {'fontSize': '16px', 'primaryColor': '#E6E6FA', 'secondaryColor': '#006100', 'primaryBorderColor': '#fff0f0', 'tertiaryColor': '#fff0f0'}}}%%
+%%{init: {"flowchart": {"htmlLabels": false}} }%%
+
+flowchart TD
+    A("Did another FWS Region or DOI Agency<br> (i.e., CASC) provide funding?") 
+    AY("Yes")
+    AN("No")
+    ANN("Follow collaboration protocol")
+    B("Can a distinct portion of the project be identified,<br> or a separate product be identified?")    
+    BY("Yes")
+    BN("No")
+    BYY("Split the project;<br> follow sub-project protocol")
+    BNN("This is multi-regional <br>or CASC co-funded project;<br> follow co-funded protocol")
+
+    A ---AY:::yesclass
+    A ---AN:::noclass
+    AY -->B
+    B ---BY:::yesclass
+    B ---BN:::noclass
+    BY -->BYY:::stopclass
+    BN -->BNN:::stopclass
+    AN -->ANN:::stopclass
+    
+    classDef stopclass fill:#FFC300,stroke-width:0px,stroke:#333;
+    classDef yesclass fill:#00A36C;    
+    classDef noclass fill:#fF9966;
+    linkStyle default stroke:#5F6A6A,stroke-width:4px;
+```
+

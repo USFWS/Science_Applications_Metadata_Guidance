@@ -4,6 +4,7 @@ subtitle: "A guide to MDEditor and ScienceBase for SA"
 page-layout: full
 execute: 
   enabled: true
+    
 ---
 ```{r, echo=FALSE}
 todays_date = format(Sys.time(), '%d %B, %Y')
@@ -65,19 +66,9 @@ this manual. By doing so, you will guarantee that you are using the current
 version since it is a live document and any updates can be made instantly. The 
 online version will also have the best functionality and graphical display.
 
-<!-- REMOVE THIS ARROW AND ARROW AT END TO SHOW THIS SECTION AGAIN
-If needed, you can download this manual as a PDF and save a copy to your 
-computer for printing or offline use. If you choose this method, be sure to 
-reference the online version regularly and save a new PDF as updates are made 
-to the online version. Also note that not all of the formatting will be exactly 
-the same as the online version.
-
-:::{.callout-note}
-Some of the stylized text boxes \(like this one\) will not translate to the PDF 
-exactly. The text will still be outlined with a background color, but the icon 
-above the text will not display in the PDF.
-:::
--->
+If you’d like to give feedback, please consider reporting an [issue](https://github.com/USFWS/sciapps_metadata_guidance/issues/new) 
+or submitting edits pages by making a 
+[pull request](https://github.com/USFWS/sciapps_metadata_guidance).
 
 ## Disclaimer
 

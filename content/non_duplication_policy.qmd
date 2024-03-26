@@ -15,7 +15,7 @@ allows partners to discover and engage in SA supported science as desired.
 | Quick Reference: Project metadata for Non Duplication Policy                                        | Required |
 |:---------------------------------------|:---------------------------------------|
 | Basic Information: Title, Status                                                                    | Required |
-| Point of Contacts (see [Main Tab: Project](project_records/main_tab_project.qmd#point-of-contacts)) | Required |
+| Point of Contacts (see [Main Tab](project_records/main_tab_project.qmd#point-of-contacts)) | Required |
 | Description: Abstract                                                                               | Required |
 | Time Period                                                                                         | Required |
 | Funding: Award Number, amount, source, fiscal year, recipients                                      | Required |
@@ -49,17 +49,15 @@ projects funded with SA applications monies (1410, 1420, and 1430):
     activity. Consider whether the project will result in a science product
     (e.g. survey, study, tool, assessment, publication, etc.).
 
-```{=html}
 <!-- -->
-```
+
 a.  If you decide that it IS NOT research or another type of other science
     activity, document your decision using [this
     template](https://doimspp.sharepoint.com/:w:/r/sites/NationalScienceApplicationsTeam/_layouts/15/Doc.aspx?sourcedoc=%7BCBE94F78-67C1-478F-9A3A-DD264F031155%7D&file=SA_nonDup_policy_notScienceActivity_note_to_file_template_v2.docx&action=default&mobileredirect=true)
     and attach it to the official award file.
 
-```{=html}
 <!-- -->
-```
+
 1.  If you decide that it IS research or another type of science activity,
     proceed with the steps outlined below.
 
@@ -109,17 +107,15 @@ projects funded with SA applications monies (1410, 1420, and 1430).
     (required). Consider whether the project will result in a science product
     (e.g. survey, study, tool, assessment, publication, etc.).
 
-```{=html}
 <!-- -->
-```
+
 a.  If you decide that it IS NOT research or another type of other science
     activity, document your decision using [this
     template](https://doimspp.sharepoint.com/:w:/r/sites/NationalScienceApplicationsTeam/_layouts/15/Doc.aspx?sourcedoc=%7BCBE94F78-67C1-478F-9A3A-DD264F031155%7D&file=SA_nonDup_policy_notScienceActivity_note_to_file_template_v2.docx&action=default&mobileredirect=true)
     and attach it to the official award file (required).
 
-```{=html}
 <!-- -->
-```
+
 1.  If you decide that it IS research or another type of science activity,
     proceed with the steps outlined below.
 
@@ -149,16 +145,14 @@ a.  If you decide that it IS NOT research or another type of other science
         the scope only as necessary. You should not limit your search to CASC
         communities.
 
-```{=html}
 <!-- -->
-```
+
 d.  Include copies of [ScienceBase search
     template](https://doimspp.sharepoint.com/:w:/r/sites/NationalScienceApplicationsTeam/Shared%20Documents/NonDuplication%20Policy%20Resources/All%20Other%20SA%20NonDuplication%20Policy%20Documents/Search%20Documentation%20Template_clean.docx?d=wfec340115ba14373b7cd9ecb92e309ac&csf=1&e=dyVjxv)
     and corresponding results (spreadsheet) in the financial award file.
 
-```{=html}
 <!-- -->
-```
+
 1.  Repeat Practice 2 at <https://catalog.data.gov> and any other relevant
     federal databases. You can use the [ScienceBase search
     template](https://doimspp.sharepoint.com/:w:/r/sites/NationalScienceApplicationsTeam/Shared%20Documents/NonDuplication%20Policy%20Resources/All%20Other%20SA%20NonDuplication%20Policy%20Documents/Search%20Documentation%20Template_clean.docx?d=wfec340115ba14373b7cd9ecb92e309ac&csf=1&e=dyVjxv)

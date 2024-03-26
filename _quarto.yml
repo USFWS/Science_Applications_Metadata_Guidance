@@ -43,8 +43,6 @@ website:
           - content/workflow/metadata_from_scratch.qmd
           - content/workflow/metadata_sciencebase_first.qmd          
           - content/workflow/metadata_editing_republishing.qmd          
-          - href: content/workflow/metadata_project_tracking_system_considerations.qmd
-            text: "Project Tracking System Considerations"
       - content/settings.qmd           
       - section: "Metadata File Management"
         href: content/metadata_file_management/metadata_file_management_overview.qmd    
@@ -58,8 +56,8 @@ website:
           - content/metadata_file_management/export.qmd   
           - content/metadata_file_management/copy_records.qmd   
       - content/metadata_requirements.qmd  
-      - href: content/digital_object_identifier.qmd        
-        text: "Digitial Object Identifier"
+#      - href: content/digital_object_identifier.qmd        
+#        text: "Digitial Object Identifier"
       - section: "Project Records"
         href: content/project_records/project_records_overview.qmd
         contents:
@@ -115,33 +113,42 @@ website:
           - content/publishing/testing.qmd
           - content/publishing/how_to.qmd          
           - content/publishing/republishing.qmd          
-      - content/archiving.qmd
+#      - content/archiving.qmd
       - section: "Trouble-Shooting"
         href: content/trouble_shooting/trouble_shooting_overview.qmd      
         contents:
           - content/trouble_shooting/qa_qc_fixes.qmd      
-          - content/trouble_shooting/qa_qc_resources.qmd      
-      - section: "Injector Script"
-        href: content/injector_script/injector_script_overview.qmd      
+#          - content/trouble_shooting/qa_qc_resources.qmd    
+      - section: "Appendix"
+        href: content/appendix/appendix_overview.qmd 
         contents:
-          - content/injector_script/example_funding.qmd      
-          - content/injector_script/example_distribution_links.qmd 
+        - section: "Injector Script"
+          href: content/appendix/injector_script/injector_script_overview.qmd      
+          contents:
+            - content/appendix/injector_script/example_funding.qmd      
+            - content/appendix/injector_script/example_distribution_links.qmd 
+#        - section: "Project Tracking System - Region 6"  
+#          href: content/appendix/project_tracking_system/project_tracking_system_considerations.qmd
+#          contents:         
+#            - content/appendix/project_tracking_system/project_tracking_system_considerations.qmd
       - content/help.qmd
       - content/glossary.qmd
 
 format:
-  html:
-    toc: true
-    theme:
-      light: [materia, css/theme.scss]
-      dark: [materia, css/theme-dark.scss]
-    code-copy: true
-    code-overflow: wrap
-    grid:
-      sidebar-width: 350px
-      body-width: 900px
-      margin-width: 300px
-      
+ html:
+   toc: true
+   theme:
+     light: [materia, css/theme.scss]
+     dark: [materia, css/theme-dark.scss]
+   mermaid:
+     theme: neutral
+   code-copy: true
+   code-overflow: wrap
+   grid:
+     sidebar-width: 350px
+     body-width: 900px
+     margin-width: 300px
+
 filters:
   - include-files.lua
   - quarto
