@@ -633,14 +633,24 @@ ul.task-list li input[type="checkbox"] {
 <section id="architecture" class="level2">
 <h2 class="anchored" data-anchor-id="architecture">Architecture</h2>
 <p>At present, SA creates and edits metadata in mdEditor and then publish the metadata to ScienceBase, where it can be channeled to the SA Science Catalog and data.gov. The mdTranslator tool is integrated with mdEditor so you can create metadata once, and then convert and publish the metadata in your desired format, such as mdJSON for the SA Science Catalog, sbJSON for ScienceBase, XML for data.gov, and FGDC for geospatial data.</p>
-<p><em>The following diagram details the LCC Science Catalog system architecture.</em></p>
-<p><img src="../assets/science_catalog_system_architecture.svg" class="img-fluid" width="800"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/metadata_system_architecture.png" class="img-fluid figure-img" width="800"></p>
+<figcaption>A basic diagram detailing the Science Applications metadata system architecture</figcaption>
+</figure>
+</div>
 <ol type="1">
 <li>Items are imported from a database (like ScienceBase), or created directly in mdEditor.</li>
 <li>mdJSON files can also be stored in a local repository and then transmitted via a web service to ScienceBase. Alternately, the local files can be exported to a web accessible folder and then harvested by ScienceBase.</li>
 <li>The mdTranslator converts the mdJSON files into sbJSON (the ScienceBase JSON format), and XML.</li>
 <li>Items are exported from ScienceBase to: Data.gov as XML; the SA Science Catalog website as Projects and Products; or into mdEditor as mdJSON.</li>
 </ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/metadata_system_architecture2.png" class="img-fluid figure-img" width="800"></p>
+<figcaption>A diagram of the Science Applications metadata system architecture that focuces on the relationship between MdEditor, ScienceBase, Data.gov, and the Science Applications Science Catalog. Blue arrow action are performed by the user. After a user publishes to ScienceBase from mdEditor, the dark brown arrow actions are triggered automatically by mdEditor and ScienceBase webservices. Green arrow actions are performed automatically by the external catalogs.</figcaption>
+</figure>
+</div>
 
 
 </section>
