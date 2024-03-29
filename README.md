@@ -6,7 +6,7 @@ documentation.
 The documentation was developed using Quarto (https://quarto.org/) within 
 the RStudio environment. 
 
-_Note: This is a working draft that will continue to be edited.
+_Note_: This is a working draft that will continue to be edited.
 
 If you have questions/concerns regarding this guidance, please contact the 
 FWS SA National Data Steward \(sadatasteward@fws.gov\) or 
@@ -15,7 +15,7 @@ Blake Massey \(blake_massey@fws.gov\).
 ### Requirements
 
 * R 
-* git
+* Git (or Github Desktop)
 
 ## How to use this project
 

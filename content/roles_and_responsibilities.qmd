@@ -117,11 +117,8 @@ Definition​: SA staff who is responsible for leading the internal project who
 also assumes the roleof Project Officer.
 
 -   Assumes role of SA Project Officer
-
 -   Ensures deliverables are loaded to ScienceBase
-
 -   Write/ensures project and product metadata meets SA standards
-
 -   Works with Data Steward to develop a Data Management Plan
 
 ### Data Steward
