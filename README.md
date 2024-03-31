@@ -1,9 +1,3 @@
----
-editor: 
-  markdown: 
-    wrap: 80
----
-
 ## Science Application Metadata Guidance - Overview
 
 This project was created to develop a Science Applications Metadata Guidance
