@@ -1,5 +1,5 @@
 ---
-title: "LCC Examples"
+title: "Co-Funded LCC Projects"
 editor: 
   markdown: 
     wrap: 80

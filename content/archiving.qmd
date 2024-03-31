@@ -4,6 +4,8 @@ order: 1
 editor: 
   markdown: 
     wrap: 80
+    
+draft: true # REMOVE if you want this page to publish   
 ---
 
 ### Central storage of mdEditor Files

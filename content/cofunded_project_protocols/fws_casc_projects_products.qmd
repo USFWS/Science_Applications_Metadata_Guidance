@@ -58,7 +58,7 @@ data/tool/etc. hosted on ScienceBase. These additions are detailed below.
 
 Add all collaborating Service regions/programs and CASCs as “collaborator.”
 
-:::
+:::{.callout-note appearance="minimal"}
 The lead Service region/program should be listed as “administrator” and does 
 not need to be added as a “collaborator.” 
 :::

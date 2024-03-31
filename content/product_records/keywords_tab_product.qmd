@@ -31,7 +31,7 @@ clear results of projects and products.
 #### ISO Topic Category (Required)
 
 Because mdJSON metadata is based on the ISO (International Organization for
-Standardization) metadata standard, all LCC projects must select at least one
+Standardization) metadata standard, all projects should select at least one
 ISO Topic Category. ISO topics were generally meant for spatial data so they
 might be a bit of a stretch, but do your best to find the best fit. mdEditor
 provides definitions of each ISO topic category if you hover over the **?**
@@ -69,7 +69,7 @@ by NASA. Look for useful keywords in the GCMD Science Keywords. There are GCMD
 Platforms and Instruments Keywords but they are unlikely to apply to SA
 products.
 
-::: callout-hint
+::: {.callout-hint appearance="minimal"}
 Best Practice: Check the "Full Path" checkbox to save the full path of the
 keyword to your metadata. This will maintain the category and context of the
 specific keywords chosen.
@@ -84,18 +84,18 @@ that are not available in an existing thesaurus.
 You cannot add keywords to an existing thesaurus; you can only add keywords in a
 custom thesaurus.
 
-::: callout-hint
+::: {.callout-hint appearance="minimal"}
 You cannot save a custom thesaurus in mdEditor.
 :::
 
-::: callout-hint
+::: {.callout-hint appearance="minimal"}
 Tip: If you have a consistent set of keywords that you use across your projects
 or products, you could add these to a "template project" record in mdEditor and
 then modify the specific keywords you need for each entry. See the workflow
 section for more info about using template records.
 :::
 
-::: callout-hint
+::: {.callout-hint appearance="minimal"}
 Look for useful keywords in the GCMD Science Keywords. GCMD Science keywords are
 the most applicable to SA. There are GCMD Platforms and Instruments keywords,
 but they are unlikely to apply to SA.
@@ -107,7 +107,7 @@ but they are unlikely to apply to SA.
 
 mdEditor uses the term "keywords" while ScienceBase uses the term "tags."
 
-::: {.callout-hint}
+::: {.callout-hint appearance="minimal"}
 Keywords edited in mdEditor will not overwrite keywords stored in ScienceBase
 (i.e. sbJSON) because ScienceBase only adds to the list of tags. If you do not
 want obsolete keywords/tags to show up on ScienceBase, manually delete these in

@@ -10,7 +10,7 @@ for an SA project.
 
 ## Before You Begin
 
-### **Adjust your mdEditor Settings:**
+#### 1. Adjust your mdEditor Settings:
 
 **Metadata Repositories**: Make sure your default settings are correct for the
 SA Science Catalog and data.gov. See [Settings](../settings.qmd).
@@ -19,7 +19,7 @@ SA Science Catalog and data.gov. See [Settings](../settings.qmd).
 ScienceBase project folder's identifier in the "Default Parent Identifier"
 field.
 
-### **Select the Project Profile**:
+#### 2. Select the Project Profile
 
 After creating your project record initially and before you begin adding
 metadata, select **Project** from the **Profile** drop-down in the main menu.
@@ -29,7 +29,7 @@ fields that are applicable to project metadata.
 ![After selecting the Project profile, only the relevant tabs will be
 displayed.](../../assets/project_profile.png)
 
-### **Make sure your contacts are loaded into mdEditor:**
+#### 3. Make sure your contacts are loaded into mdEditor:
 
 In mdEditor, contacts are created separately from individual records and then
 stored within a library in mdEditor. Once contacts have been entered or imported
@@ -39,8 +39,8 @@ To reduce unnecessary duplication of contacts, SA has a "seed list" of contacts
 that include government agencies and partners that are often affiliated with
 USFWS projects and products [SA ScienceBase community item page](https://www.sciencebase.gov/catalog/item/5b4e1c3fe4b06a6dd17df2d3).
 
-:::{.callout-warning} 
-You should maintain a single list of your contacts.
+:::{.callout-warning appearance="minimal"} 
+**Warning**: You should maintain a single list of your contacts.
 Having duplicate copies of the same contact is not desirable. It can create
 confusion as you edit and manage your metadata records and introduce unnecessary
 errors. 
@@ -63,9 +63,9 @@ errors.
 5.  If applicable, [associate](associating_records_project.qmd) your project with other
     metadata records.
 
-## Required Fields for Projects
+### Required Fields for Projects
 
-### **Main Tab**
+#### **Main Tab**
 
 -   Title
 -   Status
@@ -84,7 +84,7 @@ errors.
     -   Start Date
     -   End Date
 
-### **Metadata Tab**
+#### **Metadata Tab**
 
 -   Metadata Status
 -   Last Update Date
@@ -96,7 +96,7 @@ errors.
     -   Namespace
 -   Metadata Repositories
 
-### **Keywords Tab**
+#### **Keywords Tab**
 
 -   ISO Topic Category
 -   SA Priority Area Category
@@ -105,15 +105,15 @@ errors.
 -   Anticipated Deliverables (Best Practice)
 -   GCMD Keywords (Best Practice)
 
-### Taxonomy Tab
+#### Taxonomy Tab
 
 -   Taxonomic classifications
 
-### **Extent Tab**
+#### **Extent Tab**
 
 -   Geographic Extent
 
-### **Funding Tab**
+#### **Funding Tab**
 
 -   Allocation
     -   AwardID

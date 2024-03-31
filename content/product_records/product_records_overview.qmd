@@ -12,7 +12,7 @@ product options, of which "*product*" should never be used.
 
 ## Before You Begin
 
-### Adjust your mdEditor Settings:
+#### 1. Adjust your mdEditor Settings:
 
 **Metadata Repositories**: Make sure your default settings are correct for the
 SA Science Catalog and data.gov. See [Settings](../settings.qmd).
@@ -21,7 +21,7 @@ SA Science Catalog and data.gov. See [Settings](../settings.qmd).
 ScienceBase project folder's identifier in the "Default Parent Identifier"
 field.
 
-### Select the Product Profile:
+#### 2. Select the Product Profile:
 
 After creating your product record initially and before you begin adding
 metadata, select **Product** from the **Profile** drop down in the main menu.
@@ -30,7 +30,7 @@ fields that are required for product creation.
 
 ![Select the Product profile in the Profile dropdown in the top ribbon](../../assets/product_profile_from_dropdown.png)
 
-### Make sure your contacts are loaded into mdEditor:
+#### 3. Make sure your contacts are loaded into mdEditor:
 
 In mdEditor, contacts are created separately from individual records, and then
 stored within a library in mdEditor. Once contacts have been entered or imported

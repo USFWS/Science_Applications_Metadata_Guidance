@@ -35,7 +35,7 @@ required.
 ## Metadata Contacts
 
 **Metadata Contacts** are required and selected from your list of contacts.
-Adding a metadata contact will give LCC staff a contact point should they have
+Adding a metadata contact will give people a contact point should they have
 any questions about the metadata.
 
 | Role           | Contact          | Required?                |
@@ -68,7 +68,7 @@ dataset.
 -   If the record was created in mdEditor, it will generate a universally unique
     identifier (UUID).
 
-:::{.callout-warning}
+:::{.callout-warning appearance="minimal"}
 Once a Metadata Identifier is created in the metadata,
 do not change it. mdEditor uses the Metadata Identifier to connect records and
 changing the Metadata Identifier can break those connections. If there are
@@ -105,7 +105,7 @@ Defines the location of the parent folder in ScienceBase.
 |:-------------------------------------------|:------------|
 | ScienceBase identifier for the parent item | scienceBase |
 
-:::{.callout-hint}
+:::{.callout-hint appearance="minimal"}
 The ScienceBase identifier is the alphanumeric string in
 the item's URL immediately following "**item/**". For example,
 **59b97600e4b091459a54d9f3c** is the SBID for the item at the URL:
@@ -139,7 +139,7 @@ collection title will not be sent to data.gov.
 
 :::{.callout-warning} 
 The Metadata Repository and Collection Title must be
-exactly the same for each of your LCC's records with no variations in spelling,
+exactly the same for each of your records with no variations in spelling,
 spaces, capitalization, etc. Specifying this information in Settings is the best
 way to ensure the repository information will be consistent across all of your
 records. It strongly recommended that you do not type these in by hand on

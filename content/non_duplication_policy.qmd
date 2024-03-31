@@ -12,13 +12,13 @@ information with partners regarding what science projects SA is supporting. This
 transparency helps to reduce duplication of efforts across funding agencies and
 allows partners to discover and engage in SA supported science as desired.
 
-| Quick Reference: Project metadata for Non Duplication Policy                                        | Required |
+| Quick Reference: Project metadata for Non Duplication Policy                               | Required |
 |:---------------------------------------|:---------------------------------------|
-| Basic Information: Title, Status                                                                    | Required |
+| Basic Information: Title, Status                                                           | Required |
 | Point of Contacts (see [Main Tab](project_records/main_tab_project.qmd#point-of-contacts)) | Required |
-| Description: Abstract                                                                               | Required |
-| Time Period                                                                                         | Required |
-| Funding: Award Number, amount, source, fiscal year, recipients                                      | Required |
+| Description: Abstract                                                                      | Required |
+| Time Period                                                                                | Required |
+| Funding: Award Number, amount, source, fiscal year, recipients                             | Required |
 
 Below is a copy of the Non Duplication Policy guidance memo, in detail for
 reference:
@@ -40,26 +40,22 @@ for a list of resources.
 
 #### Summary of Required Actions
 
-For all financial assistance and inter-/intra-agency agreements or contracts for
-research projects and other science activities you must do what is outlined in
-the list below. Unless otherwise specified, the following applies to all science
-projects funded with SA applications monies (1410, 1420, and 1430):
+For all financial assistance and inter- or intra-agency agreements or contracts
+for research projects and other science activities you must do what is outlined
+in the list below. Unless otherwise specified, the following applies to all
+science projects funded with SA applications monies (1410, 1420, and 1430):
 
 1.  First determine if the project is a research project or other science
     activity. Consider whether the project will result in a science product
     (e.g. survey, study, tool, assessment, publication, etc.).
 
-<!-- -->
+    a.  If you decide that it **is not** **research** or another type of other
+        science activity, document your decision using [this
+        template](https://doimspp.sharepoint.com/:w:/r/sites/NationalScienceApplicationsTeam/_layouts/15/Doc.aspx?sourcedoc=%7BCBE94F78-67C1-478F-9A3A-DD264F031155%7D&file=SA_nonDup_policy_notScienceActivity_note_to_file_template_v2.docx&action=default&mobileredirect=true)
+        and attach it to the official award file.
 
-a.  If you decide that it IS NOT research or another type of other science
-    activity, document your decision using [this
-    template](https://doimspp.sharepoint.com/:w:/r/sites/NationalScienceApplicationsTeam/_layouts/15/Doc.aspx?sourcedoc=%7BCBE94F78-67C1-478F-9A3A-DD264F031155%7D&file=SA_nonDup_policy_notScienceActivity_note_to_file_template_v2.docx&action=default&mobileredirect=true)
-    and attach it to the official award file.
-
-<!-- -->
-
-1.  If you decide that it IS research or another type of science activity,
-    proceed with the steps outlined below.
+    b.  If you decide that it **is** **research** or another type of science
+        activity, proceed with the steps outlined below.
 
 2.  Search for duplicative projects in ScienceBase (use the [ScienceBase search
     template](https://doimspp.sharepoint.com/:w:/r/sites/NationalScienceApplicationsTeam/Shared%20Documents/NonDuplication%20Policy%20Resources/All%20Other%20SA%20NonDuplication%20Policy%20Documents/Search%20Documentation%20Template_clean.docx?d=wfec340115ba14373b7cd9ecb92e309ac&csf=1&e=dyVjxv)).
@@ -97,7 +93,7 @@ a.  If you decide that it IS NOT research or another type of other science
 
 #### Required and Recommended Practices
 
-As denoted by “(required)” in the list below, only practices 2, 5, and 6 are
+As denoted by “(**required**)” in the list below, only practices 3, 6, and 7 are
 required per policy; the others are recommended but are not required. Note:
 required actions are the same as those listed above in the Summary of Required
 Actions. Unless otherwise specified, the following applies to all science
@@ -106,85 +102,76 @@ projects funded with SA applications monies (1410, 1420, and 1430).
 1.  Determine if the project is a research project or other science activity
     (required). Consider whether the project will result in a science product
     (e.g. survey, study, tool, assessment, publication, etc.).
+    a.  If you decide that it IS NOT research or another type of other science
+        activity, document your decision using [this
+        template](https://doimspp.sharepoint.com/:w:/r/sites/NationalScienceApplicationsTeam/_layouts/15/Doc.aspx?sourcedoc=%7BCBE94F78-67C1-478F-9A3A-DD264F031155%7D&file=SA_nonDup_policy_notScienceActivity_note_to_file_template_v2.docx&action=default&mobileredirect=true)
+        and attach it to the official award file (required).
 
+    b.  If you decide that it IS research or another type of science activity,
+        proceed with the steps outlined below.
+
+```{=html}
 <!-- -->
-
-a.  If you decide that it IS NOT research or another type of other science
-    activity, document your decision using [this
-    template](https://doimspp.sharepoint.com/:w:/r/sites/NationalScienceApplicationsTeam/_layouts/15/Doc.aspx?sourcedoc=%7BCBE94F78-67C1-478F-9A3A-DD264F031155%7D&file=SA_nonDup_policy_notScienceActivity_note_to_file_template_v2.docx&action=default&mobileredirect=true)
-    and attach it to the official award file (required).
-
-<!-- -->
-
-1.  If you decide that it IS research or another type of science activity,
-    proceed with the steps outlined below.
-
+```
 2.  Consider coordinating with other federal agencies prior to the project
     funding phase:
 
-3.  
-
-    1.  You may consult informally during project development, or, when
+    a.  You may consult informally during project development, or, when
         appropriate, invite staff from CASCs and other federal programs to be
         peer reviewers.
-    2.  When invited and able, consider participating in the project development
+
+    b.  When invited and able, consider participating in the project development
         and selection phases for other agencies’ research programs.
 
-4.  Search ScienceBase.gov for potentially duplicative projects prior to funding
-    (required):
+3.  Search ScienceBase.gov for potentially duplicative projects prior to funding
+    (**required**):
 
     a.  Document your search of ScienceBase using the [ScienceBase search
         template](https://doimspp.sharepoint.com/:w:/r/sites/NationalScienceApplicationsTeam/Shared%20Documents/NonDuplication%20Policy%20Resources/All%20Other%20SA%20NonDuplication%20Policy%20Documents/Search%20Documentation%20Template_clean.docx?d=wfec340115ba14373b7cd9ecb92e309ac&csf=1&e=dyVjxv).
 
-5.  
-
-    1.  Do multiple searches (i.e. varying search terms and criteria) as
+    b.  Do multiple searches (i.e. varying search terms and criteria) as
         necessary.
 
-    2.  Be expansive in your search – use a variety of search terms and limit
+    c.  Be expansive in your search – use a variety of search terms and limit
         the scope only as necessary. You should not limit your search to CASC
         communities.
 
-<!-- -->
-
-d.  Include copies of [ScienceBase search
+4.  Include copies of [ScienceBase search
     template](https://doimspp.sharepoint.com/:w:/r/sites/NationalScienceApplicationsTeam/Shared%20Documents/NonDuplication%20Policy%20Resources/All%20Other%20SA%20NonDuplication%20Policy%20Documents/Search%20Documentation%20Template_clean.docx?d=wfec340115ba14373b7cd9ecb92e309ac&csf=1&e=dyVjxv)
     and corresponding results (spreadsheet) in the financial award file.
 
-<!-- -->
-
-1.  Repeat Practice 2 at <https://catalog.data.gov> and any other relevant
+5.  Repeat Practice 2 at <https://catalog.data.gov> and any other relevant
     federal databases. You can use the [ScienceBase search
     template](https://doimspp.sharepoint.com/:w:/r/sites/NationalScienceApplicationsTeam/Shared%20Documents/NonDuplication%20Policy%20Resources/All%20Other%20SA%20NonDuplication%20Policy%20Documents/Search%20Documentation%20Template_clean.docx?d=wfec340115ba14373b7cd9ecb92e309ac&csf=1&e=dyVjxv)
     to document these searches, though note that some of the instructions on the
     template are specific to ScienceBase.
 
-2.  Insert this language in NOFO: “Applicants must document literature searchers
+6.  Insert this language in NOFO: “Applicants must document literature searchers
     (e.g. academic literature, industry publication, ScienceBase, and Data.gov).
     Applicants should explain why their project is non-duplicative and how it
-    will augment existing knowledge.”(required)
+    will augment existing knowledge.” (**required**)
 
-3.  Consult with CASCs once you have selected a project to fund, but prior to
+7.  Consult with CASCs once you have selected a project to fund, but prior to
     funding. Email Anna-Marie_York\@fws.gov to obtain a link to a form to send
-    to CASC directors (required).
+    to CASC directors (**required**).
 
-    1.  Use the results of ScienceBase searches, informal consultations, and/or
+    a.  Use the results of ScienceBase searches, informal consultations, and/or
         serving on review panels to identify CASCs that have funded similar
         research. You may also consider any CASC in your project geography. Aim
         to be expansive.
 
-    2.  Consider sending the form to leadership from other federal agencies as
+    b.  Consider sending the form to leadership from other federal agencies as
         well.
 
-    3.  Using google forms will allow us to download a spreadsheet of
+    c.  Using google forms will allow us to download a spreadsheet of
         time-stamped responses. Email
         [Anna_Marie_York\@fws.gov](mailto:Anna-Marie_York@fws.gov) for a copy of
         the resulting spreadsheet.
 
-    4.  Include a copy of the responses (spreadsheet) in the financial award
+    d.  Include a copy of the responses (spreadsheet) in the financial award
         file.
 
-4.  After consultation with CASCs is complete, the SA-ARD must provide a memo to
+8.  After consultation with CASCs is complete, the SA-ARD must provide a memo to
     the file ([template
     here](https://doimspp.sharepoint.com/:w:/r/sites/NationalScienceApplicationsTeam/_layouts/15/Doc.aspx?sourcedoc=%7B4C2AA4BE-8EE4-4ACB-A8F9-CAA911CEDA06%7D&file=SA_nonDup_policy_consultation_note_to_file_template_v2.docx&action=default&mobileredirect=true))
     certifying that consultation occurred. (Note: for grants and cooperative
@@ -193,7 +180,7 @@ d.  Include copies of [ScienceBase search
     Include a copy of the spreadsheet of responses as part of the official award
     file.
 
-5.  Enter all project information into ScienceBase as soon as possible, but
+9.  Enter all project information into ScienceBase as soon as possible, but
     within 30 days of the agreement being in place (required per [September 2017
     memo](https://doimspp.sharepoint.com/sites/NationalScienceApplicationsTeam/Shared%20Documents/General/Financial%20Resources/Non-duplication%20Policies/All%20Other%20SA%20NonDuplication%20Policy%20Documents/ClimateEffectsPrograms_042017_Public.pdf?CT=1586191476056&OR=ItemsView)).
     Provide as much information about projects as possible and update regularly,
@@ -209,21 +196,14 @@ d.  Include copies of [ScienceBase search
     project or receiving a product. Here is what’s required for each
     project/product:
 
-    1.  Title
-
-    2.  PI/Funding Recipient’s[^1] Name and Contact info
-
-    3.  PI/Funding Recipient’s Organization
-
-    4.  Start Date
-
-    5.  Projected End Date
-
-    6.  Abstract
-
-    7.  Award ID
-
-    8.  Funding Sources and Amounts
+    a.  Title
+    b.  PI/Funding Recipient’s[^1] Name and Contact info
+    c.  PI/Funding Recipient’s Organization
+    d.  Start Date
+    e.  Projected End Date
+    f.  Abstract
+    g.  Award ID
+    h.  Funding Sources and Amounts
 
 2.  You can use mdEditor to make the records if that is your preference, or do
     it directly in ScienceBase. Here is a [video

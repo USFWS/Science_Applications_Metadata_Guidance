@@ -8,12 +8,15 @@ editor:
 Follow this workflow if you have already created and published mdJSON to
 ScienceBase and need to update the metadata and re-publish to ScienceBase.
 
-## **Step 1: Gather information needed for your metadata entries.**
+### 1. Gather information 
 
-Have the necessary information to update your metadata records readily
-accessible before you begin.
+Have information about your contacts, projects, and products on hand before you
+begin creating metadata records. Key information to gather includes project
+proposals, funding agreements and amounts, project reports, product information,
+and contact information for individuals and organizations involved in the
+projects.
 
-## Step 2: Open mdEditor.
+### 2. Open mdEditor
 
 The direct link to mdEditor is <https://go.mdeditor.org>. Choose the browser you
 plan to use for mdEditor and bookmark this link.
@@ -22,33 +25,49 @@ mdEditor can also be accessed from its homepage at <https://www.mdeditor.org/>.
 This site provides some background information and Frequently Asked Questions
 about mdEditor.
 
-## Step 3: [Import](../metadata_file_management/import_mdjson.qmd) mdEditor file(s).
+Always hit ***Refresh*** in your browser before each work session (and
+periodically throughout the session) to ensure that you are using the most
+updated version of mdEditor.
 
-Import the mdEditor file(s) that you wish to edit. Remember, once you have
+### 3. Import mdEditor file(s).
+
+Select and [import](../metadata_file_management/import_mdjson.qmd) the mdEditor 
+file(s) that you wish to edit. Remember, once you have
 edited and published metadata from mdEditor, you must always use mdEditor to
 update the metadata (rather than make changes directly on ScienceBase). The
 Science Catalog will only update based on what is in mdJSON (and not sbJSON).
 
-## Step 4: Check the [Settings](../settings.qmd).
+### 4. Check the Settings
 
-Ensure the correct LCC-specific settings are in place for Importing, Metadata
+Ensure the correct settings are in place for Importing, Metadata
 Repositories, and Publishing.
 
-## Step 5: Update [Contacts](../contact_records/contact_records_overview.qmd).
+### 5. Update Contacts
 
-If you have new contacts to add to your metadata record, create those contacts.
+Update or create new contacts using the
+[Contacts](../contact_records/contact_records_overview.qmd) entry form in
+mdEditor. After Contacts are created, they can be associated with project and
+product metadata records.
 
-## Step 6: Update [Projects](../project_records/project_records_overview.qmd).
+### 6. Update Projects
 
-Update/edit metadata as needed.
+If you have already created an mdEditor record for the product, update and edit 
+metadata as needed using the [Projects](../project_records/project_records_overview.qmd)
+records editing interface. 
 
-## Step 7: Update [Products](../product_records/product_records_overview.qmd).
+### 7. Update Products 
 
-Update/edit metadata as needed.
+If you have already created an mdEditor record for the product, update and edit 
+metadata as needed using the [Products](../product_records/product_records_overview.qmd)
+records editing interface.
 
-## Step 8: For applicable Products, create, import, or update Data [Dictionaries](../product_records/dictionaries_tab_product.qmd).
+### 8. Create or import data dictionaries
 
-## Step 9: Check Associations between Projects and/or Products.
+If a product record has a need for data
+[dictionaries](../product_records/dictionaries_tab_product.qmd), create or
+import one.
+
+### 9. Check Associations between Projects and/or Products.
 
 If you only updated metadata in existing record that were already associated,
 you do not need to do anything with the associations.
@@ -56,26 +75,31 @@ you do not need to do anything with the associations.
 If you created a new product for your project, then associate those records in
 mdEditor.
 
-## Step 10: [Publish](../publishing/publishing_overview.qmd) your records to ScienceBase.
+### 10. Publish your records
+
+From the mdEditor interface, [publish](../publishing/publishing_overview.qmd)
+the records to ScienceBase.
 
 Check that your record published where expected and that the mdJSON and xml
 files are attached to the SB Item. Your records should publish to their existing
 locations. If you added a new product to a project, then it should appear as a
 new child item to the project.
 
-## Step 11: [Export](../metadata_file_management/export.qmd) your records and contacts for backup, transfer, or sharing.
+### 11. Export your records
 
-You may want to export working backups before publishing depending on your
-situation, but archival exports should be done after publishing since publishing
-can alter records, like adding or changing a ScienceBase ID.
+Use the [Export](../metadata_file_management/export.qmd) function to export
+records of your products, projects, and contacts for backup, transfer, or
+sharing. You may want to export working backups before publishing depending on
+your situation, but archival exports should be done after publishing since
+publishing can alter records, like adding or changing a ScienceBase ID.
 
-## Step 12: Review the resulting entries in the [Science Catalog](https://www.fws.gov/science/catalog).
+### 12. Review Science Catalog
 
-The Science Catalog updates overnight so you should review newly-published
-records the day after you publish to ScienceBase. This will be one of your best
-quality control checks.
+The [SA Science Catalog](https://www.fws.gov/science/catalog/) updates overnight
+so you should review newly-published records the day after you publish to
+ScienceBase. This will be one of your best quality control checks.
 
-## Step 13: Consult with the different [QA/QC Resources](../trouble_shooting/qa_qc_resources.qmd).
+### 13. Consult QA/QC resources.
 
-See the [QA/QC Resources](../trouble_shooting/qa_qc_fixes.qmd) page for
-the different tools available to check your metadata.
+See the [QA/QC Fixes](../trouble_shooting/qa_qc_fixes.qmd) page for suggestions
+about updating your data to check your metadata.

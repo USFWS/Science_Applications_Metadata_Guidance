@@ -2,7 +2,7 @@ project:
   type: website
 
 language: 
-  search-box-placeholder: "Search" # Currrently not working. Change in css? 
+  search-box-placeholder: Search # Currrently not working. Change in css? 
 
 website: 
   page-navigation: true
@@ -14,7 +14,6 @@ website:
   search:
     location: sidebar
     type: textbox
-  
   sidebar:
     title: "USFWS Science Applications Metadata Guidance"   
     background: "#D9E3E4"
@@ -105,7 +104,6 @@ website:
               - content/cofunded_project_protocols/fws_cofunded_projects.qmd
               - content/cofunded_project_protocols/fws_casc_projects_products.qmd
               - content/cofunded_project_protocols/casc_responsibilites.qmd
-              - content/cofunded_project_protocols/lcc_examples.qmd
       - section: "Publishing"
         href: content/publishing/publishing_overview.qmd
         contents:
@@ -119,14 +117,21 @@ website:
         contents:
           - content/trouble_shooting/qa_qc_fixes.qmd      
 #          - content/trouble_shooting/qa_qc_resources.qmd    
+      - section: "Developer Resources"
+        href: content/developer_resources/developer_resources_overview.qmd        
+        contents:
+        - section: "Injector Script"
+          href: content/developer_resources/injector_script/injector_script_overview.qmd      
+          contents:
+            - content/developer_resources/injector_script/example_funding.qmd      
+            - content/developer_resources/injector_script/example_distribution_links.qmd         
       - section: "Appendix"
         href: content/appendix/appendix_overview.qmd 
         contents:
-        - section: "Injector Script"
-          href: content/appendix/injector_script/injector_script_overview.qmd      
+        - section: "LCC Workflows"
+          href: content/appendix/lcc_workflows/lcc_workflows_overview.qmd      
           contents:
-            - content/appendix/injector_script/example_funding.qmd      
-            - content/appendix/injector_script/example_distribution_links.qmd 
+            - content/appendix/lcc_workflows/cofunded_lcc_projects.qmd      
 #        - section: "Project Tracking System - Region 6"  
 #          href: content/appendix/project_tracking_system/project_tracking_system_considerations.qmd
 #          contents:         

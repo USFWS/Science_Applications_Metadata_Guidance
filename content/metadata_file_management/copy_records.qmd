@@ -23,17 +23,17 @@ existing metadata record.
 
 **Use the Copy button carefully**:
 
-::: {.callout-note}
+::: {.callout-note appearance="minimal"}
 Making a copy will generate a new Record ID for the copied record and be named
 “Copy of …”. All the other info will remain the same including associations. The
 “Metadata Identifier” is NOT copied but any identifiers in the Main Citation
 WILL be copied.
 :::
 
-::: {.callout-warning}
-It is extremely important to review all copied identifiers and delete any that
-do not apply to the new record. Leaving in identifiers that do not belong could
-result in your new item being published to the wrong location
+::: {.callout-warning appearance="minimal"}}
+**Warning**: It is extremely important to review all copied identifiers and 
+delete any that do not apply to the new record. Leaving in identifiers that do 
+not belong could result in your new item being published to the wrong location
 :::
 
 Before saving, carefully review all information in copied record to ensure all

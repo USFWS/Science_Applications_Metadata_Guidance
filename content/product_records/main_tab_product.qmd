@@ -111,7 +111,7 @@ types is required.
 #### Responsible Parties
 
 This must include a point of contact, but may also include other responsible
-parties such as funders (including your LCC), partners, collaborators, and
+parties such as funders, partners, collaborators, and
 contributors. Collaborators could be intellectual participants while
 contributors could be intellectual and financial participants.
 

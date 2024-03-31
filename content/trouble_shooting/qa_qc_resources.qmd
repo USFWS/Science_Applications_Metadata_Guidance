@@ -3,6 +3,7 @@ title: "QA/QC Resources"
 editor: 
   markdown: 
     wrap: 80
+draft: true # REMOVE if you want this page to publish
 ---
 
 There are several resources are your disposal for QA/QC of metadata. They are

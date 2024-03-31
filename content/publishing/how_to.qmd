@@ -21,7 +21,7 @@ details), note that you will lose this information if you refresh.
 
 **Step 4**: Review Records on ScienceBase
 
-**Step 5**: Review Entries in the LCC Science Catalog
+**Step 5**: Review Entries in the SA Science Catalog
 
 ### Step 1: Login to ScienceBase
 

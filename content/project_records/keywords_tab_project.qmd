@@ -34,7 +34,7 @@ keywords.
 ### ISO Topic Category (Required)
 
 Because mdJSON metadata is based on the ISO (International Organization for
-Standardization) metadata standard, all LCC projects must select at least one
+Standardization) metadata standard, all SA projects should select at least one
 ISO Topic Category. ISO topics were generally meant for spatial data so they
 might be a bit of a stretch, bu do your best to find the best fit. mdEditor
 provides definitions of each ISO topic category if you hover over the ? icon.
@@ -60,9 +60,9 @@ Choose all that apply. The ISO Topic list is as follows:
 17. transportation
 18. utilitiesCommunication
 
-:::{.callout-info} 
+:::{.callout-info appearance="minimal"} 
 Tip: Biota and environment are probably the best fit for
-most LCC projects.
+most projects.
 :::
 
 ### SA Priority Area (Required)
@@ -163,12 +163,13 @@ keywords for conservation actions are as listed:
 
 GCMD stands for Global Change Master Directory and these keywords are maintained
 by NASA. Look for useful keywords in the GCMD Science Keywords. There are GCMD
-Platforms and Instruments Keywords but they are unlikely to apply to LCCs.
+Platforms and Instruments Keywords but they are unlikely to apply to SA 
+projects.
 
-:::{.callout-info}
-Best Practice: Check the "Full Path" checkbox to save
-the full path of the keyword to your metadata. This will maintain the category
-and context of the specific keywords chosen. 
+:::{.callout-info appearance="minimal"}
+*Best Practice*: Check the "Full Path" checkbox to save the full path of the 
+keyword to your metadata. This will maintain the category and context of the 
+specific keywords chosen. 
 :::
 
 ## Custom Thesaurus
@@ -182,11 +183,11 @@ custom thesaurus. If a region or program finds the need for the additional of
 keywords to an existing thesaurus or the need for another thesaurus, please
 contact the FWS SA National Data Steward.
 
-:::{.callout-info} 
+:::{.callout-info appearance="minimal"} 
 You cannot save a custom thesaurus in mdEditor. 
 :::
 
-:::{.callout-info} 
+:::{.callout-info appearance="minimal"} 
 Tip: If you have a consistent set of keywords that you
 use across your projects, you could add these to a "template project" record in
 mdEditor and then modify the specific keywords you need for each project. See
@@ -199,7 +200,7 @@ the workflow section for more info about using template records.
 
 mdEditor uses the term "keywords" while ScienceBase uses the term "tags."
 
-:::{.callout-info} 
+:::{.callout-info appearance="minimal"} 
 Keywords edited in mdEditor will not overwrite keywords
 stored in sbJSON on ScienceBase because ScienceBase only adds to the list of
 tags. If you want to remove obsolete keywords/tags on ScienceBase, you will need
@@ -212,7 +213,7 @@ however, will reflect the changes made in mdEditor.
 If you imported your project metadata from ScienceBase, then the ScienceBase
 keywords are included in a custom thesaurus.
 
-If your LCC already has a controlled vocab list in ScienceBase, unfortunately it
+If your project already has a controlled vocab list in ScienceBase, unfortunately it
 cannot connect to mdEditor. The selected keywords for any specific record will
 import into mdEditor, but the saved list will not be.
 

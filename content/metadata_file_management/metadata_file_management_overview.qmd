@@ -20,14 +20,14 @@ records. However, depending on your browser's settings, clearing your browser
 cache may still delete your mdEditor data (e.g., in Chrome, checking the
 "*cookies and other site data*" option will clear your mdEditor data).
 
-::: callout-warning
-In mdEditor settings, you can clear your storage cache. Doing so will remove all
-of the information currently loaded in mdEditor. Reasons you might want to clear
-your storage cache is due to too much information stored in the cache, or as a
-way to debug a problem with mdEditor. **It is very important that you back up
-your records before clearing the mdEditor cache to avoid losing your data.**
-Consult the [Export](export.qmd) or Settings section of this manual to learn
-more.
+::: {.callout-warning appearance="minimal"}
+**Warning**: In mdEditor settings, you can clear your storage cache. Doing so 
+will remove all of the information currently loaded in mdEditor. Reasons you 
+might want to clear your storage cache is due to too much information stored in 
+the cache, or as a way to debug a problem with mdEditor. **It is very important 
+that you back up your records before clearing the mdEditor cache to avoid 
+losing your data.** Consult the [Export](export.qmd) or Settings section of 
+this manual to learn more.
 :::
 
 ## mdEditor File Format
@@ -49,7 +49,7 @@ records between browsers. The Import functionality lets you load records into
 mdEditor, either from previously-saved mdEditor session, exported from another
 browser, or downloaded from ScienceBase.
 
-:::{.callout-note}
+:::{.callout-note appearance="minimal"}}
 JSON = JavaScript Object Notation, an open source file format. mdEditor produces
 mdJSON. ScienceBase has their own specific format, called sbJSON.
 :::
@@ -60,7 +60,7 @@ mdJSON. ScienceBase has their own specific format, called sbJSON.
 
 To keep file size manageable, it is recommended that you work on one project
 (and its related products and contacts) at a time. You should group said
-project, products, and contacts together using the same scheme that your LCC
+project, products, and contacts together using the same scheme that your group
 uses to organize data.
 
 1.  Save each project and affiliated products together as a set. To do this,
@@ -89,8 +89,8 @@ list. If you do not export your contact list, and you later import a record that
 contains a contact not loaded in mdEditor, you may receive an error and have to
 re-create and re-enter the contact for that record.
 
-::: callout-warning
-If contacts records are re-created, it results in another mdEditor identifier
+::: {.callout-warning appearance="minimal"}
+**Warning**: If contacts records are re-created, it results in another mdEditor identifier
 being created for a contact, resulting in duplicate contacts. mdEditor does not
 know that this is an existing contact. You should maintain a single list of your
 contacts. Having duplicate copies of the same contact is not desirable. It can

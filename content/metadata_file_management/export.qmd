@@ -60,7 +60,7 @@ export data window).
     (only for mdEditor files). Consult the [Settings](../settings.qmd) section of
     this manual to learn about settings.
 
-::: {.callout-note}
+::: {.callout-note appearance="minimal"}
 If you need to switch browsers for mdEditor, or want to send your settings to
 someone else, you can export the settings. Someone else can then re-import your
 settings which include the default Metadata Repositories and Publishing

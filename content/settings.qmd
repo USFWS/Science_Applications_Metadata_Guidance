@@ -19,7 +19,7 @@ order to post.
 you exit a data entry field. Changes must be manually saved if the Auto-Save
 feature is turned off.
 
-::: {.callout-note}
+::: {.callout-note appearance="minimal"}
 Auto-Save allows you to save less frequently, but it makes it harder to undo
 changes that you make to your records. If you stay on the same record, you can
 cancel changes. But once you leave the record, the record is saved and you can’t
@@ -33,7 +33,7 @@ cancel the change except by manually re-editing the record.
 **Clear All Records**: All records can be cleared by clicking the "Clear Storage
 Cache."
 
-::: {.callout-warning}
+::: {.callout-warning appearance="minimal"}
 **Warning**: Clearing all records will delete all of the records currently
 loaded in mdEditor. Before doing so, use the Export function to make a backup of
 your records. Otherwise, the records will be permanently lost (unless you
@@ -42,15 +42,15 @@ previously made a backup copy).
 
 ![General Settings](/assets/settings_general_Settings.png)
 
-## SA Specific Settings
+## SA-Specific Settings
 
 *These must be implemented before you begin creating metadata records.*
 
-**(1) Importing from ScienceBase** In the Defaults section, set the default
+**1. Importing from ScienceBase** In the Defaults section, set the default
 Import URL to import items from ScienceBase with the following:
 <https://api.sciencebase.gov/sbmd-service/mdjson/>.
 
-**(2) Metadata Repositories**: In the Defaults section, add two Metadata
+**2. Metadata Repositories**: In the Defaults section, add two Metadata
 Repositories.
 
 1.  Select **ScienceCatalog** from the Repository drop-down menu. Enter “SA
@@ -61,7 +61,7 @@ Repositories.
 
 ![Science Applications settings](/assets/settings_defaults.png)
 
-::: callout-note
+::: {.callout-note appearance="minimal"}
 The metadata repository information must be exactly the same for each record
 with no variations in spelling, spaces, capitalization, etc. Specifying this
 information in Settings is the best way to ensure the repository information
@@ -69,11 +69,23 @@ will be consistent across records. It is strongly recommended that you do not
 type these in by hand on individual metadata records.
 :::
 
-**(3) Parent Identifier**: Under publishing, enter the ScienceBase identifier
-for your SA Region's ScienceBase project folder in the "Default Parent
-Identifier" field.
+**3. Parent Identifier**: Under publishing, enter the ScienceBase identifier for
+your SA Region's ScienceBase project folder (see table below) in the "Default
+Parent Identifier" field.
 
 ![](/assets/settings_publishing_settings_parentid.png)
+
+| USFWS Region     | Parent Identifier        |
+|------------------|--------------------------|
+| **Region 1**     | 5b4e1c5ae4b06a6dd17df2d5 |
+| **Region 2**     | 5b6469d3e4b006a11f733900 |
+| **Region 3**     | 5b6469e5e4b006a11f733902 |
+| **Region 4**     | 5b6469efe4b006a11f733904 |
+| **Region 5**     | 5b6469f8e4b006a11f733906 |
+| **Region 6**     | 5b646a02e4b006a11f733908 |
+| **Region 7**     | 5b646a2fe4b006a11f73390c |
+| **Region 8**     | 5b646a38e4b006a11f73390e |
+| **Headquarters** | 5b646a14e4b006a11f73390a |
 
 ## Defaults
 
@@ -97,10 +109,10 @@ information above.
 SA metadata will be published directly to ScienceBase (and from there be sent to
 the Science Catalog and data.gov).
 
-In the **Default Parent Identifier**, enter your LCC's ScienceBase project
-folder's ScienceBase ID (SBID). **Default Community** and **Default
-Organization** are free text fields to describe where your Default Parent
-Identifier is located.
+In the **Default Parent Identifier**, enter your SA Region's ScienceBase project
+folder ScienceBase ID (SBID). **Default Community** and **Default Organization**
+are free text fields to describe where your Default Parent Identifier is
+located.
 
 ![](/assets/settings_publishing_settings_parentid_comm_org.png)
 

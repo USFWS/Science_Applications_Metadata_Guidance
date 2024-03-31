@@ -1,13 +1,13 @@
 ---
 title: "Projects, Products, Contacts"
+subtitle: "Relationships among Projects, Products, and Contacts"
 editor: 
   markdown: 
     wrap: 80
 ---
 
-## Understanding Projects, Products, and Contacts
 
-Contacts, projects, and products all share a relationship in mdEditor and are
+Projects, products, and contacts all share a relationship in mdEditor and are
 each entered independently.
 
 ### Projects
@@ -27,7 +27,7 @@ public-relevant information.
 SA projects can also include other defined efforts that did not necessarily
 require the awarding of funds (i.e. internal efforts).
 
-::: callout-note
+::: {.callout-note appearance="minimal"}
 Individual data managers may want to track other projects using the same
 metadata format and store that information on ScienceBase, without publishing it
 to the SA Science Catalog.
@@ -51,7 +51,7 @@ Contacts are the individuals and organizations involved with projects and
 products (e.g., investigators, collaborators, funders). Contacts are entered
 once in mdEditor and can be added to multiple projects and products.
 
-::: callout-note
+::: {.callout-note appearance="minimal"}
 Consult the [Contacts](contact_records/contact_records_overview.qmd) 
 section for information on adding contacts.
 :::
@@ -67,7 +67,7 @@ products is the role of the individual(s) and/or organization(s) who provided
 funding. This may include a direct full contributor or any partners that
 provided funding.
 
-::: callout-note
+::: {.callout-note appearance="minimal"}
 Contact types are specified in the contact record (examples: federal, state,
 NGO). Specific roles for each contact are defined within the respective project
 and product records (examples: principal investigator, collaborator).
@@ -76,7 +76,7 @@ and product records (examples: principal investigator, collaborator).
 **Products are often the results of projects**. mdEditor defines the
 relationships between projects and products through the Associated feature.
 
-::: callout-note
+::: {.callout-note appearance="minimal"}
 Consult either the [Associating Records:
 Product](product_records/associating_records_product.qmd) or [Associating
 Records: Project](project_records/associating_records_project.qmd) section for

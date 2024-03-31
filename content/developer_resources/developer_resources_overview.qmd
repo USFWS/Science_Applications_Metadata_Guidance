@@ -1,0 +1,33 @@
+---
+title: "Developer Resources - Overview"
+editor: 
+  markdown: 
+    wrap: 80
+---
+
+This section contains information about developer resources
+
+#### Folder Structure
+
+[Injector Script](injector_script/injector_script_overview.qmd#export-options): A Python-based tool to update mdEditor records.
+
+#### Other Resources
+
+ScienceBase related developer materials:
+
+-   [USGS ScienceBase R Tools](https://github.com/DOI-USGS/sbtools)
+
+-   [USGS Python ScienceBase Utilities - Code
+    USGS](https://code.usgs.gov/sas/sdm/sciencebasepy)
+
+-   [USGS Python ScienceBase Utilities -
+    GitHub](https://github.com/DOI-USGS/sciencebasepy)
+
+-   [ScienceBase Project
+    Documentation](https://doimspp.sharepoint.com/sites/usgs-sdm-apps/ScienceBaseProjectDocumentation)
+
+-   [ScienceBase Instructions and
+    Documentation](https://www.usgs.gov/sciencebase-instructions-and-documentation)
+
+ScienceBase Features contains various resources that may be relevant to
+developers.

@@ -10,7 +10,7 @@ editor:
 The following is a suggested workflow for using mdEditor to create, publish, and
 save metadata records for SA projects and products.
 
-### Step 1: Gather information needed for your metadata entries.
+### 1. Gather information 
 
 Have information about your contacts, projects, and products on hand before you
 begin creating metadata records. Key information to gather includes project
@@ -18,7 +18,7 @@ proposals, funding agreements and amounts, project reports, product information,
 and contact information for individuals and organizations involved in the
 projects.
 
-### Step 2: Open mdEditor.
+### 2. Open mdEditor
 
 The direct link to mdEditor is <https://go.mdeditor.org>. Choose the browser you
 plan to use for mdEditor and bookmark this link.
@@ -27,77 +27,107 @@ mdEditor can also be accessed from its homepage at <https://www.mdeditor.org/>.
 This site provides some background information and Frequently Asked Questions
 about mdEditor.
 
-Always hit *refresh* in your browser before each work session (and periodically
-throughout the session) to ensure that you are using the most updated version of
-mdEditor.
+Always hit ***Refresh*** in your browser before each work session (and
+periodically throughout the session) to ensure that you are using the most
+updated version of mdEditor.
 
-### Step 3: Set the correct default [Settings](../settings.qmd).
+### 3. Adjust settings
 
 In mdEditor settings, set the SA-specific settings for importing from
-ScienceBase, Metadata Repositories, and Publishing (See Settings).
+ScienceBase, Metadata Repositories, and Publishing (See
+[Settings](../settings.qmd)).
 
-### Step 4: Create or import [Contacts](../contact_records/contact_records_overview.qmd).
+### 4. Create or import contacts
 
 Contacts must be created or uploaded before they can be added to project and
-product metadata records.
+product metadata records using the
+[Contacts](../contact_records/contact_records_overview.qmd) entry form in
+mdEditor.
 
 Use the "contacts seed file" that contains pre-filled information and standard
 naming conventions for all SA regions, common federal agencies, and the SA
 Network Data Steward. (link to contact seed file here)
 
-### Step 5: Create or import [Projects](../project_records/project_records_overview.qmd).
+### 5. Create or import projects
 
-If you have an existing ScienceBase project record that has not been edited in
-mdEditor, import the ScienceBase record to create a new mdEditor record.
-[Workflow guidance](metadata_sciencebase_first.qmd).
+For creating or importing metadata for a
+[project](../project_records/project_records_overview.qmd) use one of the
+following options based on whether or not you have already created a mdEditor
+project record.
 
-If you have no existing metadata for a project, create an mdEditor project
-record from scratch. [Workflow guidance](metadata_from_scratch.qmd).
+a.  If you do not have existing ScienceBase project records, create an mdEditor
+    project record from scratch using the [Metadata from
+    Scratch](metadata_from_scratch.qmd) workflow.
 
-If you have already created an mdEditor record for the project, import the
-mdEditor file to continue editing. Import guidance.
+b.  If you have an existing ScienceBase project record that has not been edited
+    in mdEditor, import the ScienceBase record to create a new mdEditor record
+    using the [Metadata from ScienceBase](metadata_sciencebase_first.qmd)
+    workflow.
 
-### Step 6: Create or import [Products](../product_records/product_records_overview.qmd).
+c.  If you have already created an mdEditor record for the project, import the
+    mdEditor file to [Metadata Editing /
+    Re-Publishing](metadata_editing_republishing.qmd) workflow to continue
+    editing.
 
-If you have an existing ScienceBase product record that has not been edited in
-mdEditor, import the ScienceBase record to create a new mdEditor record.
+### 6. Create or import products
 
-If you have no existing metadata for a product, create an mdEditor product
-record from scratch.
+For creating or importing metadata for a
+[product](../product_records/product_records_overview.qmd) use one of the
+following options based on whether or not you have already created a mdEditor
+project record.
 
-If you have already created an mdEditor record for the product, import the
-mdEditor file to continue editing.
+a.  If you do not have existing ScienceBase product records, create an mdEditor
+    project record from scratch using the [Metadata from
+    Scratch](metadata_from_scratch.qmd) workflow.
 
-### Step 7: For applicable Products, create or import Data [Dictionaries](../product_records/dictionaries_tab_product.qmd).
+b.  If you have an existing ScienceBase product record that has not been edited
+    in mdEditor, import the ScienceBase record to create a new mdEditor record
+    using the [Metadata from ScienceBase](metadata_sciencebase_first.qmd)
+    workflow.
 
-### Step 8: Complete metadata.
+c.  If you have already created an mdEditor record for the product, import the
+    mdEditor file to [Metadata Editing /
+    Re-Publishing](metadata_editing_republishing.qmd) workflow to continue
+    editing.
+
+### 7. Create or import data dictionaries
+
+If a product record has a need for data
+[dictionaries](../product_records/dictionaries_tab_product.qmd), create or
+import one.
+
+### 8. Complete metadata
 
 Decide on your desired file management approach and complete your metadata
 accordingly. See the [File Management](../metadata_file_management/metadata_file_management_overview.qmd)
 section for options and instructions.
 
-### Step 9: Create desired Associations between Projects and/or Products.
+### 9. Create associations
 
-Associations can be either 
-[associated from a project](../project_records/associating_records_project.qmd) or 
-[associated from a product](../product_records/associating_records_product.qmd).
+For projects and/or products, associations can be either [associated from a
+project](../project_records/associating_records_project.qmd) or [associated from
+a product](../product_records/associating_records_product.qmd).
 
-### Step 10: [Publish](../publishing/publishing_overview.qmd) your records to ScienceBase.
+### 10. Publish your records
 
-### Step 11: [Export](../metadata_file_management/export.qmd) your records and contacts for backup, transfer, or sharing.
+From the mdEditor interface, [publish](../publishing/publishing_overview.qmd)
+the records to ScienceBase.
 
-You may want to export working backups before publishing depending on your
-situation, but archival exports should be done after publishing since publishing
-can alter records, like adding or changing a ScienceBase ID.
+### 11. Export your records
 
-### Step 12: Review the resulting entries in the [SA Science Catalog](https://www.fws.gov/science/catalog/).
+Use the [Export](../metadata_file_management/export.qmd) function to export
+records of your products, projects, and contacts for backup, transfer, or
+sharing. You may want to export working backups before publishing depending on
+your situation, but archival exports should be done after publishing since
+publishing can alter records, like adding or changing a ScienceBase ID.
 
-The Science Catalog updates overnight so you should review newly-published
-records the day after you publish to ScienceBase. This will be one of your best
-quality control checks.
+### 12. Review Science Catalog
 
-### Step 13: Consult with the different QA/QC Resources.
+The [SA Science Catalog](https://www.fws.gov/science/catalog/) updates overnight
+so you should review newly-published records the day after you publish to
+ScienceBase. This will be one of your best quality control checks.
 
-See the [QA/QC
-Resources](../trouble_shooting/qa_qc_resources.qmd) page for
-the different tools available to check your metadata.
+### 13. Consult QA/QC resources.
+
+See the [QA/QC Fixes](../trouble_shooting/qa_qc_fixes.qmd) page for suggestions
+about updating your data to check your metadata.

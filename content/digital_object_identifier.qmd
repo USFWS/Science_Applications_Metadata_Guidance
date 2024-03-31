@@ -3,6 +3,7 @@ title: "Digital Object Identifier (DOI)"
 editor: 
   markdown: 
     wrap: 80
+draft: true
 ---
 
 A Digital Object Identifier (DOI) is a globally unique, persistent, and
@@ -14,7 +15,7 @@ Organization of Standards (ISO). DOIs are connected to the asset in perpetuity
 through a DOI hosting service (e.g., DataCite or CrossRef) that maintains the
 link to the resource.
 
-DOIs should be assigned to Service-funded assets such as dataset, services,
+DOIs should be assigned to Service-funded assets such as datasets, services,
 models, and reports, with the exception of research publications where journals
 assign the DOIs. Using DOIs promotes discovery and re-useability of the
 Service’s work and investments in data and ensures appropriate recognition for

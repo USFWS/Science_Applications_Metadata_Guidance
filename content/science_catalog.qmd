@@ -23,7 +23,7 @@ interest.
 
 At present, SA creates and edits metadata in mdEditor and then publish the
 metadata to ScienceBase, where it can be channeled to the SA Science Catalog and
-data.gov. The mdTranslator tool is integrated with mdEditor so you can create
+Data.gov. The mdTranslator tool is integrated with mdEditor so you can create
 metadata once, and then convert and publish the metadata in your desired format,
 such as mdJSON for the SA Science Catalog, sbJSON for ScienceBase, XML for
 data.gov, and FGDC for geospatial data.
@@ -40,5 +40,6 @@ data.gov, and FGDC for geospatial data.
 4.  Items are exported from ScienceBase to: Data.gov as XML; the SA Science
     Catalog website as Projects and Products; or into mdEditor as mdJSON.
 
+<!---
 ![A diagram of the Science Applications metadata system architecture that focuces on the relationship between MdEditor, ScienceBase, Data.gov, and the Science Applications Science Catalog. Blue arrow action are performed by the user. After a user publishes to ScienceBase from mdEditor, the dark brown arrow actions are triggered automatically by mdEditor and ScienceBase webservices. Green arrow actions are performed automatically by the external catalogs.](/assets/metadata_system_architecture2.png){width="800"}
-
+--->

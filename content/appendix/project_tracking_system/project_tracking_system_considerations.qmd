@@ -3,9 +3,10 @@ title: "Project Tracking System (PTS) Considerations"
 editor: 
   markdown: 
     wrap: 80
+draft: true # REMOVE if you want this page to publish again    
 ---
 
 Consult this section for things you need to consider if you are using the
 Project Tracking System (PTS) for managing your project metadata.
 
-\[content to be added Matt!\]
+Content to be added Matt!

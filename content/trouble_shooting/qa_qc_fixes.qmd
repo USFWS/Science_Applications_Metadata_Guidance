@@ -28,10 +28,10 @@ item is republished, it just adds to tags. This issue applies to all keywords,
 but it is most important to fix for Harvest Sets. This scenario can happen with
 both erroneous data.gov tags or misspelled Harvest Set tagging.
 
-    You may want to consider using the [Injector Script](../appendix/injector_script/injectors_script_overview.qmd)
-    to delete or replace
-    erroneous versions from mdJSON. You would still be required required to 
-    manually remove the erroneous versions from SB items.
+    You may want to consider using the 
+    [Injector Script](../appendix/injector_script/injector_script_overview.qmd)
+    to delete or replace erroneous versions from mdJSON. You would still be 
+    required to manually remove the erroneous versions from SB items.
 
 ### Funding
 
@@ -72,12 +72,8 @@ there is no way for a user to access the actual product. The recommended role is
 "distributor" (see the [Product Distribution](../product_records/distribution_tab_product.qmd) section for more
 info).
 
-    **Note**: Matt Heller is looking into a solution using the injector script so 
-    data managers could run this automated process themselves to meet minimum 
-    requirements.
-
 ### Fixing Errors
 
-12. Republish any records that don’t have mdJSON attached (without mdJSON,
+11. Republish any records that don’t have mdJSON attached (without mdJSON,
 the item will not show up in the Science Catalog). 
 

@@ -53,6 +53,6 @@ ScienceBase.
 
 1.  Add the following text to the Summary in the CASC ScienceBase record: “This
     project is a sub-project of USFWS \[X\] region project described
-    here\[insert LCC ScienceBase URL\].”
+    here \[insert SA ScienceBase URL\].”
 2.  Add the association in ScienceBase as a “subprojectOf” the SA metadata
     record.

@@ -18,10 +18,10 @@ records with the records currently loaded in mdEditor. In most instances you
 should select "Merge." An exception is when you want to import Settings
 associated with an mdEditor file (see below).
 
-::: {.callout-warning}
-Selecting "Replace" will remove all metadata records currently in mdEditor and
-leave only the newly-imported files. If you are importing a record to add to the
-existing records, choose "Merge."
+::: {.callout-warning appearance="minimal"}
+**Warning:** Selecting "Replace" will remove all metadata records currently in 
+mdEditor and leave only the newly-imported files. If you are importing a record 
+to add to the existing records, choose "Merge."
 :::
 
 ### Import Settings

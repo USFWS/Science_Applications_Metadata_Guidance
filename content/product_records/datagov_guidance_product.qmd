@@ -1,5 +1,5 @@
 ---
-title: "data.gov Guidance"
+title: "Data.gov Products"
 editor: 
   markdown: 
     wrap: 80
@@ -7,7 +7,7 @@ editor:
 
 Follow the guidance below for items to be sent to data.gov.
 
-## **What products go into data.gov?**
+## **What Products go into data.gov?**
 
 The information below is based on the best available information about data.gov
 as of April 2018. A future Department of the Interior data governance board may
@@ -25,8 +25,8 @@ issue written guidance about what is appropriate for data.gov.
 -   Data.gov is intended for data only. As such, NO publications, report
     documents, web pages, or presentation recordings are to be cataloged.
 
-:::{.callout-warning} 
-Avoid submitting a dataset more than once. If someone
+:::{.callout-warning appearance="minimal"} 
+**Warning**: Avoid submitting a dataset more than once. If someone
 else from any organization has cataloged the identical data on data.gov, do not
 enter it again. 
 :::
@@ -48,7 +48,9 @@ Department of the Interior items go through data.doi.gov first.
 
 Link to DOI data.gov: <https://data.doi.gov/dataset>
 
+Link to SA items: __(insert link here)__
+
+<!--
 Link to LCC Network items:
 <https://data.doi.gov/dataset?organization=lcc-network>
-
-Link to SA items: (insert link here)
+-->

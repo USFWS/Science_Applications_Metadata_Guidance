@@ -1,6 +1,6 @@
 ---
-title: "Roles & Responsibilities (Draft)"
-subtitle: "Science Applications Enterprise Roles and Responsibilities"
+title: "Roles & Responsibilities"
+subtitle: "Science Applications Enterprise Roles and Responsibilities (Draft)"
 editor: 
   markdown: 
     wrap: 80
@@ -12,11 +12,11 @@ Definition​: Assistant Regional Directors for Science Applications
 
 -   Responsible for supporting staff time and allocating resources to follow
     the SA Data Management Plan through their entire chain of command
--   Ensure data management responsibilities are followed when SA funds go are
-    allocated outside the program (e.g., to another FWS program)
+-   Ensure data management responsibilities are followed when SA funds are
+    allocated outside the Program (e.g., go to another FWS Program)
 -   Ensure Performance Appraisal Plans reflect responsibilities for data
     stewardship
--   Sign ​memo​ stating a project intended for funding is not duplicative
+-   Sign memo stating a project intended for funding is not duplicative
     research or other science activity (Science Project) and therefore does
     not need to go through any additional steps in the [Non-Duplication
     Policy](non_duplication_policy.qmd).
@@ -34,8 +34,8 @@ Applications
 -   Provide program leadership and accountability to ensure all SA data
     management, Science Catalog, internal tracking, and non-duplication
     policies are followed across the program.
--   Ensure data management responsibilities are followed when SA funds go
-    outside the program (e.g., to another FWS program)
+-   Ensure data management responsibilities are followed when SA funds are
+    allocated outside the Program (e.g., go to another FWS Program).
 
 ### HQ Staff
 
@@ -43,14 +43,13 @@ Definition​: Science Applications HQ staff who are responsible for coordinatin
 and leading SA data management efforts, including but not limited to: SA HQ
 Science Coordinators and the SA HQ Grants Manager.
 
--   Ensure data management responsibilities are followed when SA funds go
-    outside the program (e.g., to another FWS program)
--   Create CASC consultation Google Form to be sent to CASC director(s)
+-   Ensure data management responsibilities are followed when SA funds are
+    allocated outside the Program (e.g., go to another FWS Program)
 
 ### SA Contracting Officer
 
 Definition​: SA staff who serve as Contracting officials and Contracting Office
-Representatives and \*\*\*\* are the primary liaison with the contracting
+Representatives are the primary liaison with the contracting
 personnel who issue and administer contracts.
 
 -   Work with SA Project Officer to ensure that all data procurement contracts
@@ -61,8 +60,8 @@ personnel who issue and administer contracts.
 ### SA Grants Manager
 
 Definition​: SA staff who are responsible for issuing financial assistance
-awards or who are the primary liaison(s) with WSFR staff who issue financial
-assistance awards.
+awards or who are the primary liaison(s) with Office of Conservation Investment 
+staff who issue financial assistance awards.
 
 -   Work with SA Project Officer to ensure that all data procurement
     agreements make appropriate reference to data management and, at a
@@ -79,7 +78,7 @@ and final reports, and ensuring receipt of deliverables.
     non-duplication policies and requirements are followed for the projects
     they manage. This can be done themselves, requiring the work from PIs
     (e.g. product metadata), or delegating the work to a data manager/steward
-    -   Include requirement for data management plan
+    -   Include requirement for a data management plan
     -   Include requirements for project and product metadata
     -   Ensure the project record is posted to ScienceBase within 30 days
     -   Ensure the full metadata is updated
@@ -114,11 +113,11 @@ the funded project and providing deliverables to SA.
 ### SA Principal Investigator
 
 Definition​: SA staff who is responsible for leading the internal project who
-also assumes the roleof Project Officer.
+also assumes the role of Project Officer.
 
 -   Assumes role of SA Project Officer
--   Ensures deliverables are loaded to ScienceBase
--   Write/ensures project and product metadata meets SA standards
+-   Ensures deliverables are uploaded to ScienceBase
+-   Writes and ensures project and product metadata meets SA standards
 -   Works with Data Steward to develop a Data Management Plan
 
 ### Data Steward
@@ -126,10 +125,8 @@ also assumes the roleof Project Officer.
 Definition​: Any SA staff or personnel working on behalf of SA (e.g.,
 contractor) who performs a data management action - writing, reviewing, or
 publishing metadata; publishing deliverables; etc. Can be project officer,
-data manager, or other staff. Often a Data manager fills this role.
+data manager, or other staff. Often a Data Manager fills this role.
 
 -   Assist non-SA Project Officers with ensuring SA data management, Science
     Catalog, internal tracking, and non-duplication policies and requirements
     are followed.
-
-### Science Coordinators
