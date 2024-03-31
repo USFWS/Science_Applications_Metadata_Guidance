@@ -29,7 +29,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../content/appendix/appendix_overview.html" rel="next">
+<link href="../../content/developer_resources/developer_resources_overview.html" rel="next">
 <link href="../../content/trouble_shooting/trouble_shooting_overview.html" rel="prev">
 <link href="../../favicon.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
@@ -326,7 +326,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../content/product_records/datagov_guidance_product.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">data.gov Guidance</span></a>
+ <span class="menu-text">Data.gov Products</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -479,12 +479,6 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">CASC Responsibilities</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../content/cofunded_project_protocols/lcc_examples.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">LCC Examples</span></a>
-  </div>
-</li>
       </ul>
   </li>
       </ul>
@@ -543,8 +537,8 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../content/appendix/appendix_overview.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Appendix</span></a>
+            <a href="../../content/developer_resources/developer_resources_overview.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Developer Resources</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -552,7 +546,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../content/appendix/injector_script/injector_script_overview.html" class="sidebar-item-text sidebar-link">
+            <a href="../../content/developer_resources/injector_script/injector_script_overview.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Injector Script</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -561,14 +555,42 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/appendix/injector_script/example_funding.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/developer_resources/injector_script/example_funding.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Funding Example</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/appendix/injector_script/example_distribution_links.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/developer_resources/injector_script/example_distribution_links.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Distribution Links Example</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../content/appendix/appendix_overview.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Appendix</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../content/appendix/lcc_workflows/lcc_workflows_overview.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">LCC Workflows</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-15" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/appendix/lcc_workflows/cofunded_lcc_projects.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Co-Funded LCC Projects</span></a>
   </div>
 </li>
       </ul>
@@ -652,7 +674,7 @@ ul.task-list li input[type="checkbox"] {
 <ol start="3" type="1">
 <li><p>Ensure you have a single version of your data.gov tag and it is consistent across all of your items.</p></li>
 <li><p>If you update your Metadata Repositories in mdJSON and publish to ScienceBase, you will also need to delete the erroneous version from ScienceBase (called Harvest Sets in SB). The issue is that SB doesn’t remove tags when an item is republished, it just adds to tags. This issue applies to all keywords, but it is most important to fix for Harvest Sets. This scenario can happen with both erroneous data.gov tags or misspelled Harvest Set tagging.</p>
-<p>You may want to consider using the <a href="../appendix/injector_script/injectors_script_overview.qmd">Injector Script</a> to delete or replace erroneous versions from mdJSON. You would still be required required to manually remove the erroneous versions from SB items.</p></li>
+<p>You may want to consider using the <a href="../appendix/injector_script/injector_script_overview.qmd">Injector Script</a> to delete or replace erroneous versions from mdJSON. You would still be required to manually remove the erroneous versions from SB items.</p></li>
 </ol>
 </section>
 <section id="funding" class="level3">
@@ -683,13 +705,12 @@ ul.task-list li input[type="checkbox"] {
 <section id="distribution" class="level3">
 <h3 class="anchored" data-anchor-id="distribution">Distribution</h3>
 <ol start="10" type="1">
-<li><p>Distribution links need to be included for products. This was already required for all products and this is particularly critical for items sent to data.gov. This is the only online resource data.gov reads so without a URL here, there is no way for a user to access the actual product. The recommended role is “distributor” (see the <a href="../../content/product_records/distribution_tab_product.html">Product Distribution</a> section for more info).</p>
-<p><strong>Note</strong>: Matt Heller is looking into a solution using the injector script so data managers could run this automated process themselves to meet minimum requirements.</p></li>
+<li>Distribution links need to be included for products. This was already required for all products and this is particularly critical for items sent to data.gov. This is the only online resource data.gov reads so without a URL here, there is no way for a user to access the actual product. The recommended role is “distributor” (see the <a href="../../content/product_records/distribution_tab_product.html">Product Distribution</a> section for more info).</li>
 </ol>
 </section>
 <section id="fixing-errors" class="level3">
 <h3 class="anchored" data-anchor-id="fixing-errors">Fixing Errors</h3>
-<ol start="12" type="1">
+<ol start="11" type="1">
 <li>Republish any records that don’t have mdJSON attached (without mdJSON, the item will not show up in the Science Catalog).</li>
 </ol>
 
@@ -1258,8 +1279,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../content/appendix/appendix_overview.html" class="pagination-link" aria-label="Appendix">
-        <span class="nav-page-text">Appendix</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../content/developer_resources/developer_resources_overview.html" class="pagination-link" aria-label="Developer Resources">
+        <span class="nav-page-text">Developer Resources</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
