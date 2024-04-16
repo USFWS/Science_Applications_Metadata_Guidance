@@ -48,7 +48,7 @@ errors.
 
 ## Edit a Project
 
-1.  Import or create your project record (see [[workflow](../workflow/workflow_overview.qmd)).
+1.  Import or create your project record (see [workflow](../workflow/workflow_overview.qmd)).
 2.  Pick **"project"** as the **Resource Type**
 3.  Select the Project Profile: from the Main Menu (Top Navigation Bar) select
     "**Project"** from the profile drop-down menu.

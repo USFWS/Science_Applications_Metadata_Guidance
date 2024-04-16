@@ -34,6 +34,7 @@ Always hit ***Refresh*** in your browser before each work session (and
 periodically throughout the session) to ensure that you are using the most
 updated version of mdEditor.
 
+
 ### 3. Adjust settings
 
 In mdEditor settings, set the SA-specific settings for importing from
@@ -52,47 +53,32 @@ that contains pre-filled information and standard
 naming conventions for all SA regions, common federal agencies, and the SA
 Network Data Steward. 
 
-### 5. Create or import projects
+### 5. Create projects
 
-For creating or importing metadata for a
-[project](../project_records/project_records_overview.qmd) use one of the
-following options based on whether or not you have already created a mdEditor
-project record.
+For creating metadata for a [project](../project_records/project_records_overview.qmd) 
+you will need to create an mdEditor project record from scratch. 
 
-a.  If you do not have existing ScienceBase project records, create an mdEditor
-    project record from scratch using the [Metadata from
-    Scratch](metadata_from_scratch.qmd) workflow.
+On the main page's left menu-bar next to "Metadata Records" click on the 
+plus (+) sign to add a new record. 
 
-b.  If you have an existing ScienceBase project record that has not been edited
-    in mdEditor, import the ScienceBase record to create a new mdEditor record
-    using the [Metadata from ScienceBase](metadata_sciencebase_first.qmd)
-    workflow.
+![](../../assets/add_new_record.png)
 
-c.  If you have already created an mdEditor record for the project, import the
-    mdEditor file to [Metadata Editing /
-    Re-Publishing](metadata_editing_republishing.qmd) workflow to continue
-    editing.
+Fill in the rest of the information in [main tab](../project_records/main_tab_project.qmd),
+as needed.
 
-### 6. Create or import products
+### 6. Create products
 
-For creating or importing metadata for a
-[product](../product_records/product_records_overview.qmd) use one of the
-following options based on whether or not you have already created a mdEditor
-project record.
+For creating metadata for a
+[product](../product_records/product_records_overview.qmd) you will need to 
+create an mdEditor product record from scratch.
 
-a.  If you do not have existing ScienceBase product records, create an mdEditor
-    project record from scratch using the [Metadata from
-    Scratch](metadata_from_scratch.qmd) workflow.
+On the main page's left menu-bar next to "Metadata Records" click on the 
+plus (+) sign to add a new record. 
 
-b.  If you have an existing ScienceBase product record that has not been edited
-    in mdEditor, import the ScienceBase record to create a new mdEditor record
-    using the [Metadata from ScienceBase](metadata_sciencebase_first.qmd)
-    workflow.
+![](../../assets/add_new_record.png)
 
-c.  If you have already created an mdEditor record for the product, import the
-    mdEditor file to [Metadata Editing /
-    Re-Publishing](metadata_editing_republishing.qmd) workflow to continue
-    editing.
+Fill in the rest of the information in [main tab](../product_records/main_tab_product.qmd),
+as needed.
 
 ### 7. Create or import data dictionaries
 
