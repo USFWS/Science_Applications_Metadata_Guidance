@@ -7,7 +7,7 @@ editor:
 
 Follow the guidance below for items to be sent to data.gov.
 
-## **What Products go into data.gov?**
+## **What Products go into Data.gov?**
 
 The information below is based on the best available information about data.gov
 as of April 2018. A future Department of the Interior data governance board may
@@ -25,32 +25,30 @@ issue written guidance about what is appropriate for data.gov.
 -   Data.gov is intended for data only. As such, NO publications, report
     documents, web pages, or presentation recordings are to be cataloged.
 
-:::{.callout-warning appearance="minimal"} 
-**Warning**: Avoid submitting a dataset more than once. If someone
-else from any organization has cataloged the identical data on data.gov, do not
-enter it again. 
+::: {.callout-warning appearance="minimal"}
+**Warning**: Avoid submitting a dataset more than once. If someone else from any
+organization has cataloged the identical data on data.gov, do not enter it
+again.
 :::
 
 ## Requirements to send something to data.gov
 
 1.  Set the appropriate [data.gov Metadata Repository
-    tag](./#metadata-repositories).
+    tag](metadata_tab_product.qmd#metadata-repositories).
 2.  List the Science Applications National Data Steward first in the list of
-    [Responsible Parties](main_tab_product.qmd#citation) (#0). data.gov only
+    [Responsible Parties](main_tab_product.qmd#citation) (#0). Data.gov only
     displays the first contact and the data steward should be listed first.
-3.  Include a [Distribution Link](distribution_tab_product.qmd) where the 
+3.  Include a [Distribution Link](distribution_tab_product.qmd) where the
     product can be accessed or downloaded.
 
-## data.doi.gov
+## Data.gov
 
 Items actually go through an intermediary before they harvested to data.gov. All
-Department of the Interior items go through data.doi.gov first.
+Department of the Interior items go through the [U.S Department of Interior
+Enterprise Data Inventory](https://stg-datainventory.doi.gov/) first.
 
-Link to DOI data.gov: <https://data.doi.gov/dataset>
+Link to DOI data catalog on Data.gov: [DOI Data
+Catalog](https://catalog.data.gov/organization/doi-gov){.uri}
 
-Link to SA items: __(insert link here)__
-
-<!--
-Link to LCC Network items:
-<https://data.doi.gov/dataset?organization=lcc-network>
--->
+Link to USFWS items on Data.gov: [USFWS Published
+Items](https://catalog.data.gov/organization/doi-gov?publisher=U.S.+Fish+and+Wildlife+Service)

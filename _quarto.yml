@@ -6,7 +6,7 @@ language:
 
 website: 
   page-navigation: true
-  title: "USFWS Science Applications - Metadata Guidance QUARTO" 
+  title: "USFWS Science Applications Metadata Guidance" 
   site-url: "https://studious-adventure-wo15nv1.pages.github.io" 
   repo-url: "https://github.com/usfws/sciapps_metadata_guidance"
   repo-actions: [edit, issue]
