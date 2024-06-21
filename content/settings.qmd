@@ -50,7 +50,12 @@ previously made a backup copy).
 Import URL to import items from ScienceBase with the following:
 <https://api.sciencebase.gov/sbmd-service/mdjson/>.
 
-**2. Metadata Repositories**: In the Defaults section, add two Metadata
+**1. MdTransaltor APO** In the Defaults section, set the default
+mdTranslator API URL to use the latest version of the translator with the 
+following:
+<https://api.sciencebase.gov/mdTranslator/api/v3/translator>.
+
+**3. Metadata Repositories**: In the Defaults section, add two Metadata
 Repositories.
 
 1.  Select **ScienceCatalog** from the Repository drop-down menu. Enter “SA
