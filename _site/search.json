@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "USFWS Science Applications Metadata Guidance",
     "section": "",
-    "text": "This manual describes the requirements and best practices for the creation of high-quality and consistent metadata records for projects and products for USFWS Science Applications (SA) Program. These metadata requirements conform to the standardized metadata format agreed upon by the SA Data Management Working Group and meet USFWS policy requirements for data management. This metadata is aggregated and organized in the SA Science Catalog, where SA projects and products are discoverable, accessible, and usable.\nThis is a working draft that will continue to be edited. Please refresh this manual every time you open it to ensure you are viewing the most recent version. Last updated: 21 June, 2024. If you have questions or concerns regarding this guidance, please contact the FWS SA National Data Steward (sadatasteward@fws.gov) or Blake Massey (blake_massey@fws.gov).",
+    "text": "This manual describes the requirements and best practices for the creation of high-quality and consistent metadata records for projects and products for USFWS Science Applications (SA) Program. These metadata requirements conform to the standardized metadata format agreed upon by the SA Data Management Working Group and meet USFWS policy requirements for data management. This metadata is aggregated and organized in the SA Science Catalog, where SA projects and products are discoverable, accessible, and usable.\nThis is a working draft that will continue to be edited. Please refresh this manual every time you open it to ensure you are viewing the most recent version. Last updated: 03 July, 2024. If you have questions or concerns regarding this guidance, please contact the FWS SA National Data Steward (sadatasteward@fws.gov) or Blake Massey (blake_massey@fws.gov).",
     "crumbs": [
       "Introduction"
     ]
@@ -14,7 +14,7 @@
     "href": "index.html#introduction",
     "title": "USFWS Science Applications Metadata Guidance",
     "section": "",
-    "text": "This manual describes the requirements and best practices for the creation of high-quality and consistent metadata records for projects and products for USFWS Science Applications (SA) Program. These metadata requirements conform to the standardized metadata format agreed upon by the SA Data Management Working Group and meet USFWS policy requirements for data management. This metadata is aggregated and organized in the SA Science Catalog, where SA projects and products are discoverable, accessible, and usable.\nThis is a working draft that will continue to be edited. Please refresh this manual every time you open it to ensure you are viewing the most recent version. Last updated: 21 June, 2024. If you have questions or concerns regarding this guidance, please contact the FWS SA National Data Steward (sadatasteward@fws.gov) or Blake Massey (blake_massey@fws.gov).",
+    "text": "This manual describes the requirements and best practices for the creation of high-quality and consistent metadata records for projects and products for USFWS Science Applications (SA) Program. These metadata requirements conform to the standardized metadata format agreed upon by the SA Data Management Working Group and meet USFWS policy requirements for data management. This metadata is aggregated and organized in the SA Science Catalog, where SA projects and products are discoverable, accessible, and usable.\nThis is a working draft that will continue to be edited. Please refresh this manual every time you open it to ensure you are viewing the most recent version. Last updated: 03 July, 2024. If you have questions or concerns regarding this guidance, please contact the FWS SA National Data Steward (sadatasteward@fws.gov) or Blake Massey (blake_massey@fws.gov).",
     "crumbs": [
       "Introduction"
     ]
@@ -88,7 +88,7 @@
     "href": "content/settings.html#sa-specific-settings",
     "title": "Settings",
     "section": "SA-Specific Settings",
-    "text": "SA-Specific Settings\nThese must be implemented before you begin creating metadata records.\n1. Importing from ScienceBase In the Defaults section, set the default Import URL to import items from ScienceBase with the following: https://api.sciencebase.gov/sbmd-service/mdjson/.\n2. Metadata Repositories: In the Defaults section, add two Metadata Repositories.\n\nSelect ScienceCatalog from the Repository drop-down menu. Enter “SA Science Catalog” as the collection title. It is important that the text is entered exactly as written to be included in the Science Catalog.\nSelect data.gov from the Repository drop-down menu. For the collection title, enter “Data.gov USFWS Science Applications”.\n\n\n\n\nScience Applications settings\n\n\n\n\n\n\n\n\nThe metadata repository information must be exactly the same for each record with no variations in spelling, spaces, capitalization, etc. Specifying this information in Settings is the best way to ensure the repository information will be consistent across records. It is strongly recommended that you do not type these in by hand on individual metadata records.\n\n\n\n3. Parent Identifier: Under publishing, enter the ScienceBase identifier for your SA Region’s ScienceBase project folder (see table below) in the “Default Parent Identifier” field.\n\n\n\n\nUSFWS Region\nParent Identifier\n\n\n\n\nRegion 1\n5b4e1c5ae4b06a6dd17df2d5\n\n\nRegion 2\n5b6469d3e4b006a11f733900\n\n\nRegion 3\n5b6469e5e4b006a11f733902\n\n\nRegion 4\n5b6469efe4b006a11f733904\n\n\nRegion 5\n5b6469f8e4b006a11f733906\n\n\nRegion 6\n5b646a02e4b006a11f733908\n\n\nRegion 7\n5b646a2fe4b006a11f73390c\n\n\nRegion 8\n5b646a38e4b006a11f73390e\n\n\nHeadquarters\n5b646a14e4b006a11f73390a",
+    "text": "SA-Specific Settings\nThese must be implemented before you begin creating metadata records.\n1. Importing from ScienceBase In the Defaults section, set the default Import URL to import items from ScienceBase with the following: https://api.sciencebase.gov/sbmd-service/mdjson/.\n2. MdTranslator In the Defaults section, set the default mdTranslator API URL to use the latest version of the translator with the following: https://api.sciencebase.gov/mdTranslator/api/v3/translator.\n3. Metadata Repositories: In the Defaults section, add two Metadata Repositories.\n\nSelect ScienceCatalog from the Repository drop-down menu. Enter “SA Science Catalog” as the collection title. It is important that the text is entered exactly as written to be included in the Science Catalog.\nSelect data.gov from the Repository drop-down menu. For the collection title, enter “Data.gov USFWS Science Applications”.\n\n\n\n\nScience Applications settings\n\n\n\n\n\n\n\n\nThe metadata repository information must be exactly the same for each record with no variations in spelling, spaces, capitalization, etc. Specifying this information in Settings is the best way to ensure the repository information will be consistent across records. It is strongly recommended that you do not type these in by hand on individual metadata records.\n\n\n\n3. Parent Identifier: Under publishing, enter the ScienceBase identifier for your SA Region’s ScienceBase project folder (see table below) in the “Default Parent Identifier” field.\n\n\n\n\nUSFWS Region\nParent Identifier\n\n\n\n\nRegion 1\n5b4e1c5ae4b06a6dd17df2d5\n\n\nRegion 2\n5b6469d3e4b006a11f733900\n\n\nRegion 3\n5b6469e5e4b006a11f733902\n\n\nRegion 4\n5b6469efe4b006a11f733904\n\n\nRegion 5\n5b6469f8e4b006a11f733906\n\n\nRegion 6\n5b646a02e4b006a11f733908\n\n\nRegion 7\n5b646a2fe4b006a11f73390c\n\n\nRegion 8\n5b646a38e4b006a11f73390e\n\n\nHeadquarters\n5b646a14e4b006a11f73390a",
     "crumbs": [
       "Settings"
     ]
@@ -1599,21 +1599,30 @@
     "href": "content/science_catalog.html",
     "title": "Science Catalog",
     "section": "",
-    "text": "A more detailed look at the metadata requirements and architecture behind the Science Applications Science Catalog."
+    "text": "A more detailed look at the metadata requirements and architecture behind the Science Applications Science Catalog.",
+    "crumbs": [
+      "Science Catalog"
+    ]
   },
   {
     "objectID": "content/science_catalog.html#overview",
     "href": "content/science_catalog.html#overview",
     "title": "Science Catalog",
     "section": "Overview",
-    "text": "Overview\nThe SA Science Catalog collates the metadata from all FWS regions and Headquarters. It allows for user-defined searching and filtering of projects and products as well as access to products for download. Users can see what has been funded, which can help prevent duplication of work. The SA Science Catalog also enables reporting, such as funding summaries or project examples based on particular geographies, species, organization, year, or other categories of interest."
+    "text": "Overview\nThe Science Application Science Catalog collates the metadata from all FWS regions and Headquarters. It allows users to search for and filter projects and products and download products. Users can see what has been funded, which can help prevent duplication of work. The SA Science Catalog also enables reporting, such as funding summaries or project examples based on particular geographies, species, organization, year, or other categories of interest.",
+    "crumbs": [
+      "Science Catalog"
+    ]
   },
   {
     "objectID": "content/science_catalog.html#architecture",
     "href": "content/science_catalog.html#architecture",
     "title": "Science Catalog",
     "section": "Architecture",
-    "text": "Architecture\nAt present, SA creates and edits metadata in mdEditor and then publish the metadata to ScienceBase, where it can be channeled to the SA Science Catalog and Data.gov. The mdTranslator tool is integrated with mdEditor so you can create metadata once, and then convert and publish the metadata in your desired format, such as mdJSON for the SA Science Catalog, sbJSON for ScienceBase, XML for data.gov, and FGDC for geospatial data.\n\n\n\nA basic diagram detailing the Science Applications metadata system architecture\n\n\n\nItems are imported from a database (like ScienceBase), or created directly in mdEditor.\nmdJSON files can also be stored in a local repository and then transmitted via a web service to ScienceBase. Alternately, the local files can be exported to a web accessible folder and then harvested by ScienceBase.\nThe mdTranslator converts the mdJSON files into sbJSON (the ScienceBase JSON format), and XML.\nItems are exported from ScienceBase to: Data.gov as XML; the SA Science Catalog website as Projects and Products; or into mdEditor as mdJSON."
+    "text": "Architecture\nAt present, SA creates and edits metadata in mdEditor and then publish the metadata to ScienceBase, where it can be channeled to the SA Science Catalog and Data.gov. The mdTranslator tool is integrated with mdEditor so you can create metadata once, and then convert and publish the metadata in your desired format, such as mdJSON for the SA Science Catalog, sbJSON for ScienceBase, XML for data.gov, and FGDC for geospatial data.\n\n\n\nA basic diagram detailing the Science Applications metadata system architecture\n\n\n\nItems are imported from a database (like ScienceBase), or created directly in mdEditor.\nmdJSON files can also be stored in a local repository and then transmitted via a web service to ScienceBase. Alternately, the local files can be exported to a web accessible folder and then harvested by ScienceBase.\nThe mdTranslator converts the mdJSON files into sbJSON (the ScienceBase JSON format), and XML.\nItems are exported from ScienceBase to: Data.gov as XML; the SA Science Catalog website as Projects and Products; or into mdEditor as mdJSON.",
+    "crumbs": [
+      "Science Catalog"
+    ]
   },
   {
     "objectID": "content/trouble_shooting/qa_qc_fixes.html",
