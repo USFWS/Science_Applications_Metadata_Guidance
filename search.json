@@ -799,7 +799,7 @@
     "href": "content/science_catalog.html#overview",
     "title": "Science Catalog",
     "section": "Overview",
-    "text": "Overview\nThe SA Science Catalog collates the metadata from all FWS regions and Headquarters. It allows for user-defined searching and filtering of projects and products as well as access to products for download. Users can see what has been funded, which can help prevent duplication of work. The SA Science Catalog also enables reporting, such as funding summaries or project examples based on particular geographies, species, organization, year, or other categories of interest.",
+    "text": "Overview\nThe Science Application Science Catalog collates the metadata from all FWS regions and Headquarters. It allows users to search for and filter projects and products and download products. Users can see what has been funded, which can help prevent duplication of work. The SA Science Catalog also enables reporting, such as funding summaries or project examples based on particular geographies, species, organization, year, or other categories of interest.",
     "crumbs": [
       "Science Catalog"
     ]
@@ -2453,7 +2453,7 @@
     "href": "index.html",
     "title": "USFWS Science Applications Metadata Guidance",
     "section": "",
-    "text": "This manual describes the requirements and best practices for the creation of high-quality and consistent metadata records for projects and products for USFWS Science Applications (SA) Program. These metadata requirements conform to the standardized metadata format agreed upon by the SA Data Management Working Group and meet USFWS policy requirements for data management. This metadata is aggregated and organized in the SA Science Catalog, where SA projects and products are discoverable, accessible, and usable.\nThis is a working draft that will continue to be edited. Please refresh this manual every time you open it to ensure you are viewing the most recent version. Last updated: 21 June, 2024. If you have questions or concerns regarding this guidance, please contact the FWS SA National Data Steward (sadatasteward@fws.gov) or Blake Massey (blake_massey@fws.gov).",
+    "text": "This manual describes the requirements and best practices for the creation of high-quality and consistent metadata records for projects and products for USFWS Science Applications (SA) Program. These metadata requirements conform to the standardized metadata format agreed upon by the SA Data Management Working Group and meet USFWS policy requirements for data management. This metadata is aggregated and organized in the SA Science Catalog, where SA projects and products are discoverable, accessible, and usable.\nThis is a working draft that will continue to be edited. Please refresh this manual every time you open it to ensure you are viewing the most recent version. Last updated: 03 July, 2024. If you have questions or concerns regarding this guidance, please contact the FWS SA National Data Steward (sadatasteward@fws.gov) or Blake Massey (blake_massey@fws.gov).",
     "crumbs": [
       "Introduction"
     ]
@@ -2463,7 +2463,7 @@
     "href": "index.html#introduction",
     "title": "USFWS Science Applications Metadata Guidance",
     "section": "",
-    "text": "This manual describes the requirements and best practices for the creation of high-quality and consistent metadata records for projects and products for USFWS Science Applications (SA) Program. These metadata requirements conform to the standardized metadata format agreed upon by the SA Data Management Working Group and meet USFWS policy requirements for data management. This metadata is aggregated and organized in the SA Science Catalog, where SA projects and products are discoverable, accessible, and usable.\nThis is a working draft that will continue to be edited. Please refresh this manual every time you open it to ensure you are viewing the most recent version. Last updated: 21 June, 2024. If you have questions or concerns regarding this guidance, please contact the FWS SA National Data Steward (sadatasteward@fws.gov) or Blake Massey (blake_massey@fws.gov).",
+    "text": "This manual describes the requirements and best practices for the creation of high-quality and consistent metadata records for projects and products for USFWS Science Applications (SA) Program. These metadata requirements conform to the standardized metadata format agreed upon by the SA Data Management Working Group and meet USFWS policy requirements for data management. This metadata is aggregated and organized in the SA Science Catalog, where SA projects and products are discoverable, accessible, and usable.\nThis is a working draft that will continue to be edited. Please refresh this manual every time you open it to ensure you are viewing the most recent version. Last updated: 03 July, 2024. If you have questions or concerns regarding this guidance, please contact the FWS SA National Data Steward (sadatasteward@fws.gov) or Blake Massey (blake_massey@fws.gov).",
     "crumbs": [
       "Introduction"
     ]
