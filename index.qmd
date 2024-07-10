@@ -69,7 +69,9 @@ The mdEditor application is under constant development. Consequently, there may
 be some minor discrepancies between screenshots in this guidance and the 
 current version of mdEditor.
 
-If you’d like to give feedback, please consider reporting an
+If you’d like to give direct feedback, please consider reporting an
 [issue](https://github.com/USFWS/sciapps_metadata_guidance/issues/new) 
 or submitting edits through a 
-[pull request](https://github.com/USFWS/sciapps_metadata_guidance).
+[pull request](https://github.com/USFWS/sciapps_metadata_guidance). However, 
+in order to access these functions, you will be required to sign in or
+create an account with Github.
