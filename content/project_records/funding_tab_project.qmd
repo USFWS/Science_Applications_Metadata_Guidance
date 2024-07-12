@@ -19,6 +19,9 @@ and recipients, enables comparisons, and aggregations across all regions.
 | Funding agreement type                    | Best Practice |
 | Matching Funds, including above           | Best Practice |
 | Time Period (fiscal year of allocation)   | Required      |
+: {.striped .hover .bordered .sm .allborder}  
+
+<br/>
 
 ## Funding Allocations
 

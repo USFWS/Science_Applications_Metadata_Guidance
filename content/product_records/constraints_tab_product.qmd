@@ -17,6 +17,9 @@ how the resource can and cannot be used.
 | Use Limitation                           | Optional      |
 | Legal                                    | Required      |
 | Security Constraints                     | Best Practice |
+: {.striped .hover .bordered .sm .allborder}   
+
+<br/>
 
 ## Use Limitation
 

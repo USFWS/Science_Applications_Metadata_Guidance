@@ -17,6 +17,9 @@ clear results of projects and products.
 |:--------------------------------------|:--------------|
 | ISO Topic Category                    | Required      |
 | GCMD Keywords                         | Best Practice |
+: {.striped .hover .bordered .md .allborder} 
+
+<br/>
 
 ## To add Keywords to your Metadata Record
 
@@ -37,29 +40,35 @@ might be a bit of a stretch, but do your best to find the best fit. mdEditor
 provides definitions of each ISO topic category if you hover over the **?**
 icon.
 
-ISO Topic List:
+Choose all that apply. The ISO Topic list is as follows:
 
-1.  biota
-2.  boundaries
-3.  climatologyMeteorologyAtmosphere
-4.  economy
-5.  elevation
-6.  environment
-7.  geoscientificInformation
-8.  health
-9.  imageryBaseMapsEarthCover
-10. intelligenceMilitary
-11. inlandWaters
-12. location
-13. oceans
-14. planningCadastre
-15. society
-16. structure
-17. transportation
-18. utilitiesCommunication
+|                                   |
+|-----------------------------------|
+| biota                             |
+| boundaries                        |
+| climatologyMeteorologyAtmosphere  |
+| disaster                          |
+| economy                           |
+| elevation                         |
+| environment                       |
+| extraTerrestrial                  |
+| farming                           |
+| geoscientificInformation          |
+| health                            |
+| imageryBaseMapsEarthCover         |
+| inlandWaters                      |
+| intelligenceMilitary              |
+| location                          |
+| oceans                            |
+| planningCadastre                  |
+| society                           |
+| structure                         |
+| transportation                    |
+| utilitiesCommunication            |
+: { .hover .sm .allborder}   
 
-::: callout-tip
-Biota and environment are probably the best fit for most SA projects.
+:::{.callout-tip icon=false}
+Biota and environment are probably the best fit for most SA products.
 :::
 
 #### GCMD Keywords (Best Practice)

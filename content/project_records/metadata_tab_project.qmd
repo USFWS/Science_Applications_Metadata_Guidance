@@ -17,6 +17,9 @@ metadata, and metadata repositories.
 | Metadata Identifier                       | Required  |
 | Parent Metadata                           | Required  |
 | Metadata Repositories                     | Required  |
+: {.striped .hover .bordered .md .allborder} 
+
+<br/>
 
 ## Basic Information
 
@@ -35,13 +38,16 @@ publication).
 ## Metadata Contacts
 
 **Metadata Contacts** are required. Adding a metadata contact will give users a
-contact point should they have any questions about the metadata. \_\_
+contact point should they have any questions about the metadata. 
 
 | **Role**       | **Contact**      | **Required?**            |
 |:---------------|:-----------------|:-------------------------|
-| author         | See notes below  | At least one is required |
+| author         | See notes below  | At Least One is Required |
 | publisher      | default is USFWS | Required                 |
 | pointOfContact | SA Data Steward  | Required                 |
+: {.striped .hover .bordered .md .allborder} 
+
+<br/>
 
 #### Metadata Contact Notes:
 

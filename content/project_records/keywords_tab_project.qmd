@@ -20,6 +20,9 @@ keywords.
 | Strategic Habitat Conservation Component | Required, if applicable |
 | GCMD Keywords                            | Best Practice           |
 | Shared Priority Keywords                 | Best Practice           |
+: {.striped .hover .bordered .md .allborder} 
+
+<br/>
 
 ## Add Keywords to your Project
 
@@ -41,73 +44,90 @@ provides definitions of each ISO topic category if you hover over the ? icon.
 
 Choose all that apply. The ISO Topic list is as follows:
 
-1.  biota
-2.  boundaries
-3.  climatologyMeteorologyAtmosphere
-4.  economy
-5.  elevation
-6.  environment
-7.  geoscientificInformation
-8.  health
-9.  imageryBaseMapsEarthCover
-10. intelligenceMilitary
-11. inlandWaters
-12. location
-13. oceans
-14. planningCadastre
-15. society
-16. structure
-17. transportation
-18. utilitiesCommunication
+|                                   |
+|-----------------------------------|
+| biota                             |
+| boundaries                        |
+| climatologyMeteorologyAtmosphere  |
+| disaster                          |
+| economy                           |
+| elevation                         |
+| environment                       |
+| extraTerrestrial                  |
+| farming                           |
+| geoscientificInformation          |
+| health                            |
+| imageryBaseMapsEarthCover         |
+| inlandWaters                      |
+| intelligenceMilitary              |
+| location                          |
+| oceans                            |
+| planningCadastre                  |
+| society                           |
+| structure                         |
+| transportation                    |
+| utilitiesCommunication            |
+: { .hover .sm .allborder}
 
-:::{.callout-info appearance="minimal"} 
-Tip: Biota and environment are probably the best fit for
-most projects.
+:::{.callout-tip icon=false}
+Biota and environment are probably the best fit for most SA projects.
 :::
+
+<br/>
 
 ### SA Priority Area (Required)
 
 Choose all that apply. The list of options includes the following:
 
-1.  Collaborative Partnerships
-2.  Landscape Conservation
-3.  At-risk Species
-4.  Data Management
-5.  Conservation Science Support
-6.  Climate Change
-7.  Social Science
-8.  Workforce Culture
-9.  Organization Operations and Standards
-10. Communications
+|                                          |
+|------------------------------------------|
+|  Collaborative Partnerships              |
+|  Landscape Conservation                  |
+|  At-risk Species                         |
+|  Data Management                         |
+|  Conservation Science Support            |
+|  Climate Change                          |
+|  Social Science                          |
+|  Workforce Culture                       |
+|  Organization Operations and Standards   |
+|  Communications                          |
+: { .hover .sm .allborder}   
+
+<br/>
 
 ### Science Topic (Required)
 
 Choose all that apply. The list of options includes the following:
 
-1.  Climate Adaptation
-2.  Climate Mitigation
-3.  Climate Resiliency
-4.  Carbon Sequestration
-5.  Indigenous Knowledge
-6.  Decision Support
-7.  Biotechnology
-8.  Species Status Assessment Support
-9.  Genetics and eDNA
-10. Habitat Connectivity
-11. Wildlife Corridors
-12. Diversity and Inclusion
-13. Working Lands
-14. Pollinators
-15. Strategic Habitat Conservation
-16. Landscape Conservation Design
-17. Vulnerability Assessment
-18. Ecosystem Services
-19. Wildlife Health and Disease
-20. Environmental Justice
-21. Stakeholder Engagement
-22. Human Dimensions
-23. Policy
-24. Economics
+|                                   |
+|-----------------------------------|
+| Climate Adaptation                |     
+| Climate Mitigation                |                                            
+| Climate Resiliency                |                                            
+| Carbon Sequestration              |
+| Indigenous Knowledge              |
+| Decision Support                  |
+| Biotechnology                     |
+| Species Status Assessment Support |
+| Genetics and eDNA                 |
+| Habitat Connectivity              |
+| Wildlife Corridors                |
+| Diversity and Inclusion           |
+| Working Lands                     |
+| Pollinators                       |
+| Strategic Habitat Conservation    |
+| Landscape Conservation Design     |
+| Vulnerability Assessment          |
+| Ecosystem Services                |
+| Wildlife Health and Disease       |
+| Environmental Justice             |
+| Stakeholder Engagement            |
+| Human Dimensions                  |
+| Policy                            |
+| Economics                         |
+: { .hover .sm .allborder}  
+
+<br/>
 
 ### Conservation Action Open Standard (Required, if applicable)
 
@@ -117,8 +137,9 @@ of USFWS Science Applications with global conservation efforts and to utilize
 the shared resources of the Conservation Standards Network. The open standards
 keywords for conservation actions are as listed:
 
-| Land / Water Management  (1.0)                             |
+|                                                            |
 |------------------------------------------------------------|
+| Land / Water Management  (1.0)                             | 
 | Site/Area Stewardship (1.1)                                |
 | Ecosystem & natural process (re)creation (1.2)             |
 | Species Management  (2.0)                                  |
@@ -158,6 +179,9 @@ keywords for conservation actions are as listed:
 | External organizational development & support (10.2)       |
 | Alliance & partnership development (10.3)                  |
 | Financing conservation (10.4)                              |
+: { .hover .sm .allborder}   
+
+<br/>
 
 ### GCMD Keywords (Best Practice)
 
@@ -166,7 +190,7 @@ by NASA. Look for useful keywords in the GCMD Science Keywords. There are GCMD
 Platforms and Instruments Keywords but they are unlikely to apply to SA 
 projects.
 
-:::{.callout-info appearance="minimal"}
+:::{.callout-note appearance="minimal"}
 *Best Practice*: Check the "Full Path" checkbox to save the full path of the 
 keyword to your metadata. This will maintain the category and context of the 
 specific keywords chosen. 
@@ -183,16 +207,16 @@ custom thesaurus. If a region or program finds the need for the additional of
 keywords to an existing thesaurus or the need for another thesaurus, please
 contact the FWS SA National Data Steward.
 
-:::{.callout-info appearance="minimal"} 
+:::{.callout-note appearance="minimal"}   
 You cannot save a custom thesaurus in mdEditor. 
 :::
 
-:::{.callout-info appearance="minimal"} 
+:::{.callout-note appearance="minimal"}   
 Tip: If you have a consistent set of keywords that you
 use across your projects, you could add these to a "template project" record in
 mdEditor and then modify the specific keywords you need for each project. See
 the workflow section for more info about using template records.
-:::
+:::    
 
 ## Keywords and ScienceBase Tags
 
@@ -200,7 +224,7 @@ the workflow section for more info about using template records.
 
 mdEditor uses the term "keywords" while ScienceBase uses the term "tags."
 
-:::{.callout-info appearance="minimal"} 
+:::{.callout-note appearance="minimal"} 
 Keywords edited in mdEditor will not overwrite keywords
 stored in sbJSON on ScienceBase because ScienceBase only adds to the list of
 tags. If you want to remove obsolete keywords/tags on ScienceBase, you will need

@@ -1,5 +1,5 @@
 ---
-title: "Summary Contact Requirements"
+title: "Contact Requirements Summary"
 editor: 
   markdown: 
     wrap: 80
@@ -33,13 +33,14 @@ where.*
 | Role                  | Contact                  | Required?     |
 |:----------------------|:-------------------------|:--------------|
 | pointOfContact        | SA National Data Steward | Required      |
-| pointOfContact        | your region Data Steward | Best Practice |
-| pointOfContact        | data steward             | Required      |
-| custodian             | data custodian           | Best Practice |
-| principalInvestigator | The Project PI           | Best Practice |
-| administrator         | FWS project officer      | Required      |
-| administrator         | FWS region               | Required      |
-| administrator         | FWS program              | Best Practice |
+| pointOfContact        | Your Region Data Steward | Best Practice |
+| pointOfContact        | Data Steward             | Required      |
+| custodian             | Data Custodian           | Best Practice |
+| principalInvestigator | Project PI               | Best Practice |
+| administrator         | FWS Project Officer      | Required      |
+| administrator         | FWS Region               | Required      |
+| administrator         | FWS Program              | Best Practice |
+: {.striped .hover .bordered .md .allborder} 
 
 ### Main / Citation / Responsible Parties
 
@@ -50,15 +51,17 @@ contributors could be intellectual and financial participants.
 
 | Role                  | Contact        | Required? |
 |:----------------------|:---------------|:----------|
-| principalInvestigator | The Project PI | Required  |
+| principalInvestigator | Project PI     | Required  |
+: {.striped .hover .bordered .md .allborder} 
 
 ### Metadata / Contacts
 
 | Role           | Contact          | Required?                |
 |:---------------|:-----------------|:-------------------------|
-| author         | See notes below  | At least one is required |
-| publisher      | default is FWS   | Required                 |
-| pointOfContact | FWS data steward | Required                 |
+| author         | See Notes Below  | At Least One is Required |
+| publisher      | Default is FWS   | Required                 |
+| pointOfContact | FWS Data Steward | Required                 |
+: {.striped .hover .bordered .md .allborder} 
 
 **Regarding Role of "author"**
 

@@ -4,8 +4,21 @@ subtitle: "A guide to MDEditor and ScienceBase for Science Application"
 page-layout: full
 execute: 
   enabled: true
+format: html
+include-in-header:
+  text: |
+    <style type="text/css">
+      .table{
+        border-top: 5px solid #ff0000;
+        border-top-color: #ff0000;
+      }
+    </style>
     
 ---
+
+
+
+
 ```{r, echo=FALSE}
 todays_date = format(Sys.time(), '%d %B, %Y')
 ```

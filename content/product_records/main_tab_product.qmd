@@ -17,6 +17,9 @@ The **Main** tab allows for the creation and/or editing of primary metadata.
 | Citation: Identifier                                        | Required  |
 | Description: Abstract                                       | Required  |
 | Time Period: Start Date, End Date                           | Required  |
+: {.striped .hover .bordered .sm .allborder}  
+
+<br/>
 
 ## Basic Information
 
@@ -53,7 +56,7 @@ a valid option. After the record is initiated the field should be automatically
 filled in with the resource type selected when the record was created. Name is
 optional - you can leave this blank or enter a shorten project name.
 
-::: {.callout-info} 
+::: {.callout-note} 
 Products must have a specific resource type selected, NOT just "product". 
 :::
 
@@ -66,8 +69,8 @@ contact from the list of contacts. See the
 [Contact Records](../contact_records/contact_records_overview.qmd) 
 section for information on creating contacts.
 
-| Role                  | Contact                                        | Required?               |
-|:--------------------------|:--------------------------|:--------------------------|
+| Role                | Contact                                        | Required?               |
+|:----------------------|:---------------------------------------|:--------------------------|
 | pointOfContact        | FWS Science Applications National Data Steward | Required                |
 | pointOfContact        | Data Steward                                   | Required                |
 | principalInvestigator | The Project PI                                 | Required, if applicable |
@@ -75,8 +78,11 @@ section for information on creating contacts.
 | administrator         | Data Trustee                                   | Required                |
 | administrator         | FWS Region (legacy and DOI Unified)            | Required                |
 | collaborator          | partnership organizations and/or programs      | Required, if applicable |
+: {.striped .hover .bordered .sm .allborder}  
 
-::: {.callout-info} 
+<br/>
+
+::: {.callout-note} 
 The FWS Science Applications National Data Steward will
 serve as the long term contact/backup. This way, users have a point-of-contact
 even if there is a positional change within an organization. Regional Data
@@ -119,8 +125,11 @@ contributors could be intellectual and financial participants.
 |:------------------------|:----------------|:--------------|
 | principalInvestigator   | data creator    | Required      |
 | coPrincipalInvestigator | data co-creator | Best Practice |
+: {.striped .hover .bordered .sm .allborder}  
 
-::: {.callout-info}
+<br/>
+
+::: {.callout-note}
 For items that will be sent to data.gov, only the first
 in the list of Responsible Parties (#0) will appear. 
 :::
@@ -131,7 +140,7 @@ Enter the Name and URL for the location where users can find the product (e.g.,
 ScienceBase page or DOI url). Data.gov refers to this online resource link to
 send users to the data download.
 
-::: {.callout-info} 
+::: {.callout-note} 
 Important: The URLs to access and download products must
 **also** be included in the Distribution tab. Distribution Links is the only
 online resource that data.gov reads so without a URL there, users have no way to
@@ -147,20 +156,20 @@ Name may be included here as well.
 
 ![Example of Online resource and identifier metadata entries](../../assets/doi_identifier_metadata.png)
 
-::: {.callout-info} 
+::: {.callout-note} 
 Digital Object Identifier can be entered both as an
 online resource AND an identifier. Note that the entry format is different. As
 an online resource, the entire url is required, however, as an identifier, only
 the prefix and suffix of the DOI are required (see figure above).
 :::
 
-::: {.callout-info title="Best Practice"} 
-**Best Practice**: Create and use internal identifiers
+::: {.callout-note title="Best Practice"} 
+Create and use internal identifiers
 that are unique within your region for projects and their products. Example:
 GNLCC2010-11.
 :::
 
-::: {.callout-info} 
+::: {.callout-note} 
 If your item does not have a ScienceBase ID (SBID) yet,
 ScienceBase will create one automatically upon publishing. If you imported your
 item from ScienceBase originally, then the SBID will already be included in
@@ -171,7 +180,7 @@ SBID, a duplicate item will be created on ScienceBase. Consult the
 learn more. 
 :::
 
-::: {.callout-info} 
+::: {.callout-note} 
 If the product metadata was created by copying another
 mdEditor metadata record, this identifier MUST be edited/changed since it will
 reflect the copied record identifier. Only the mdEditor UUID changes to
@@ -189,7 +198,7 @@ Abstract, Purpose, Supplemental Information, and an Environment Description.
 
 Enter an Abstract
 
-::: {.callout-info} 
+::: {.callout-note} 
  Tip: Write your abstracts for projects in the present
 tense if the project is underway and past tense if it has been completed. 
 :::

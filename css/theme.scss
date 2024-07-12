@@ -28,6 +28,15 @@ $font-family: "Atkinson Hyperlegible", sans-serif;
   --mermaid-node-bg-color: #375a7f;
 }
 
+table.allborder {
+  border-top: 2px solid lightgray;
+  border-bottom: 2px solid lightgray;
+}
+
+.table > :not(:first-child) {
+  border-top: 2px solid gray;
+}
+
 /*-- navbar --*/  //Currently not used
 //.navbar {
 //  padding-top: 0;

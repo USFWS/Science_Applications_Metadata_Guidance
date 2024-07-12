@@ -18,6 +18,9 @@ metadata, and metadata repositories.
 | Metadata Identifier                       | Required  |
 | Parent Metadata                           | Required  |
 | Metadata Repositories                     | Required  |
+: {.striped .hover .bordered .sm .allborder}  
+
+<br/>
 
 ## Basic Information
 
@@ -43,6 +46,9 @@ any questions about the metadata.
 | author         | See notes below  | At least one is required |
 | publisher      | default is USFWS | Required                 |
 | pointOfContact | SA Data Steward  | Required                 |
+: {.striped .hover .bordered .sm .allborder}  
+
+<br/>
 
 **Metadata Contact Notes:**
 

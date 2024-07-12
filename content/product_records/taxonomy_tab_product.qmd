@@ -9,6 +9,9 @@ editor:
 | Quick Reference: Product Taxonomy Tab | Required?               |
 |:--------------------------------------|:------------------------|
 | Taxonomy                              | Required, if applicable |
+: {.striped .hover .bordered .sm .allborder}   
+
+<br/>
 
 Please see the [taxonomy guidance in the Project Records section](../project_records/taxonomy_tab_project.qmd).
 

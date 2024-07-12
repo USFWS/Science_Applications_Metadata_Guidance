@@ -13,6 +13,9 @@ searching within specific geographic areas.
 | Quick Reference: Product Extent Tab | Required? |
 |:------------------------------------|:----------|
 | Extent                              | Required  |
+: {.striped .hover .bordered .sm .allborder}   
+
+<br/>
 
 Spatial extents should be included for all applicable products. As a default,
 products should inherit extents from their parent project. geoJSON files for

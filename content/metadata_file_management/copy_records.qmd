@@ -30,7 +30,7 @@ Making a copy will generate a new Record ID for the copied record and be named
 WILL be copied.
 :::
 
-::: {.callout-warning appearance="minimal"}}
+::: {.callout-warning appearance="minimal"}
 **Warning**: It is extremely important to review all copied identifiers and 
 delete any that do not apply to the new record. Leaving in identifiers that do 
 not belong could result in your new item being published to the wrong location

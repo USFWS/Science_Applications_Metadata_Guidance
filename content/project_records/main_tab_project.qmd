@@ -16,6 +16,9 @@ The **Main** tab allows for the creation and/or editing of primary metadata.
 | Citation: Title, Dates, Responsible Parties, Online Resource, Identifier | Required  |
 | Description: Abstract                                                    | Required  |
 | Time Period                                                              | Required  |
+: {.striped .hover .bordered .md .allborder} 
+
+<br/>
 
 ## Basic Information
 
@@ -77,6 +80,9 @@ Section for more information.
 | administrator         | Project officer, if not the steward              | Required                |
 | administrator         | FWS Region (legacy and DOI Unified), FWS Program | Required                |
 | collaborator          | partnership organizations and/or programs        | Required, if applicable |
+: {.striped .hover .bordered .md .allborder} 
+
+<br/>
 
 ![Example Points of Contact Entry in mdEditor](../../assets/example_points_of_contact.png)
 
@@ -130,6 +136,9 @@ for more information.
 |-------------------------|------------------|-------------------------|
 | principalInvestigator   | The Project PI   | Required                |
 | coPrincipalInvestigator | co investigators | Required, if applicable |
+: {.striped .hover .bordered .md .allborder} 
+
+<br/>
 
 #### Online Resource
 

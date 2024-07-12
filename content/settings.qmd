@@ -91,6 +91,8 @@ Parent Identifier" field.
 | **Region 7**     | 5b646a2fe4b006a11f73390c |
 | **Region 8**     | 5b646a38e4b006a11f73390e |
 | **Headquarters** | 5b646a14e4b006a11f73390a |
+: {.striped .hover .bordered .md .allborder} 
+
 
 ## Defaults
 

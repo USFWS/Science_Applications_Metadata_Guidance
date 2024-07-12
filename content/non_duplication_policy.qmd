@@ -19,6 +19,7 @@ allows partners to discover and engage in SA supported science as desired.
 | Description: Abstract                                                                      | Required |
 | Time Period                                                                                | Required |
 | Funding: Award Number, amount, source, fiscal year, recipients                             | Required |
+: {.striped .hover .bordered .md .allborder} 
 
 Below is a copy of the Non Duplication Policy guidance memo, in detail for
 reference:
@@ -110,9 +111,8 @@ projects funded with SA applications monies (1410, 1420, and 1430).
     b.  If you decide that it IS research or another type of science activity,
         proceed with the steps outlined below.
 
-```{=html}
 <!-- -->
-```
+
 2.  Consider coordinating with other federal agencies prior to the project
     funding phase:
 
@@ -226,7 +226,7 @@ projects funded with SA applications monies (1410, 1420, and 1430).
     project is part of a larger initiative; you can find related records here:
     URL 1, URL 2, …”).
 
-5.  If you need “editing” access to your region’s [ScienceBase
+5.  If you need “editing” access to your Region’s [ScienceBase
     folder](https://www.sciencebase.gov/catalog/item/5b4e1c3fe4b06a6dd17df2d3)
     email Jill Cohen ([jillian_cohen\@fws.gov](mailto:jillian_cohen@fws.gov)).
 

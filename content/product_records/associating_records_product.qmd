@@ -47,6 +47,9 @@ and product records have been created in mdEditor.
 | 2\. Use the *Select a Record* button to select an associated project.                      |
 | 3\. Choose the project that you would like to associate from the "Select a Resource" list. |
 | 4\. Fill out the Linked Association Type with "**product**."                               |
+: {.bordered .md .allborder}   
+
+<br/>
 
 ### Step-by-Step: Creating an Association in a Product Record
 
