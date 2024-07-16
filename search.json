@@ -978,7 +978,7 @@
     "href": "content/product_records/taxonomy_tab_product.html",
     "title": "Taxonomy Tab",
     "section": "",
-    "text": "Quick Reference: Product Taxonomy Tab\nRequired?\n\n\n\n\nTaxonomy\nRequired, if applicable\n\n\n\n\nPlease see the taxonomy guidance in the Project Records section.\nTaxonomy is required for projects and products, as applicable.",
+    "text": "Taxonomy Tab\nRequirements\n\n\n\n\nTaxonomy\nRequired\n\n\n\n\nPlease see the taxonomy guidance in the Project Records section.\nTaxonomy is required for projects and products, as applicable.",
     "crumbs": [
       "Product Records",
       "Taxonomy Tab"
@@ -1052,7 +1052,7 @@
     "href": "content/product_records/metadata_tab_product.html#basic-information",
     "title": "Metadata Tab",
     "section": "Basic Information",
-    "text": "Basic Information\n\nMetadata Status\nSelect the appropriate status of the creation of your metadata from the drop-down menu. For example, if you have added all of your metadata, select “completed.” If you still have metadata to add, select “onGoing.”\n\n\nDates\nEnter a creation date or last updated date. At least one of these dates is required.",
+    "text": "Basic Information\n\nMetadata Status\nSelect the appropriate Status of the creation of your metadata from the drop-down menu. For example, if you have added all of your metadata, select completed. If you still have metadata to add, select onGoing.\n\n\nDates\nEnter a Date for creation or last updated date. At least one of these dates is required.",
     "crumbs": [
       "Product Records",
       "Metadata Tab"
@@ -1063,7 +1063,7 @@
     "href": "content/product_records/metadata_tab_product.html#metadata-contacts",
     "title": "Metadata Tab",
     "section": "Metadata Contacts",
-    "text": "Metadata Contacts\nMetadata Contacts are required and selected from your list of contacts. Adding a metadata contact will give people a contact point should they have any questions about the metadata.\n\n\n\nRole\nContact\n**Required?\n\n\n\n\nauthor\nSee notes below\nRequired\n\n\npublisher\nDefault is USFWS\nRequired\n\n\npointOfContact\nSA Data Steward\nRequired\n\n\n\n\nMetadata Contact Notes:\n\nThe author should be an individual and can be a generic data manager.\nIn most cases, the author will be the data manager, but could be anyone, including someone outside of FWS (e.g., imported FGDC metadata can list the original author).\nPublisher can also include the FWS region and/or program.\nThe point of contact should be a regional or national data steward.\n\n\n\n\nExample Metadata Contacts entry",
+    "text": "Metadata Contacts\nMetadata Contacts are required and selected from your list of contacts. Adding a metadata contact will give people a contact point should they have any questions about the metadata.\n\n\n\n\n\n\n\n\nRole\nContact\n**Requirements\n\n\n\n\nauthor\nSee Notes Below\nRequired\n\n\npublisher\nDefault is USFWS\nRequired\n\n\npointOfContact\nSA Data Steward\nRequired\n\n\n\n\nMetadata Contact Notes:\n\nThe author should be an individual and can be a generic data manager.\nIn most cases, the author will be the data manager, but could be anyone, including someone outside of FWS (e.g., imported FGDC metadata can list the original author).\nPublisher can also include the FWS region and/or program.\nThe point of contact should be a regional or national data steward.\n\n\n\n\nExample Metadata Contacts entry",
     "crumbs": [
       "Product Records",
       "Metadata Tab"
@@ -1085,7 +1085,7 @@
     "href": "content/product_records/metadata_tab_product.html#parent-metadata",
     "title": "Metadata Tab",
     "section": "Parent Metadata",
-    "text": "Parent Metadata\nParent Metadata defines the ScienceBase folder in which the product will be published. The parent metadata tells mdEditor where the product metadata should go when it is published to ScienceBase.\nIf you imported the product metadata from ScienceBase originally, this section will be populated already.\nIf you created the product metadata from scratch in mdEditor, you need to enter the appropriate parent item ScienceBase ID. This is most likely the folder for the project that this product originated from.\n\nTitle (Required)\nIf this is not already populated, you can enter something like “Parent folder.”\n\n\nIdentifier (Required)\nDefines the location of the parent folder in ScienceBase.\n\n\n\nIdentifier\nNamespace\n\n\n\n\nScienceBase identifier for the parent item\nscienceBase\n\n\n\n\nThe ScienceBase identifier is the alphanumeric string in the item’s URL immediately following “item/”. For example, 59b97600e4b091459a54d9f3c is the SBID for the item at the URL: https://www.sciencebase.gov/catalog/item/59b97600e4b091459a54d9f3c\n\n\n\n\nExample Parent Metadata entry",
+    "text": "Parent Metadata\nParent Metadata defines the ScienceBase folder in which the product will be published. The parent metadata tells mdEditor where the product metadata should go when it is published to ScienceBase.\nIf you imported the product metadata from ScienceBase originally, this section will be populated already.\nIf you created the product metadata from scratch in mdEditor, you need to enter the appropriate parent item ScienceBase ID. This is most likely the folder for the project that this product originated from.\n\nTitle ({style=“color:#b50909;”})\nIf the Title is not already populated, you can enter something like “Parent folder.”\n\n\nIdentifier ({style=“color:#b50909;”})\nThe Identifier defines the location of the parent folder in ScienceBase.\n\n\n\nIdentifier\nNamespace\n\n\n\n\nScienceBase identifier for the parent item\nscienceBase\n\n\n\n\nThe ScienceBase identifier is the alphanumeric string in the item’s URL immediately following “item/”. For example, 59b97600e4b091459a54d9f3c is the SBID for the item at the URL: https://www.sciencebase.gov/catalog/item/59b97600e4b091459a54d9f3c\n\n\n\n\nExample Parent Metadata entry",
     "crumbs": [
       "Product Records",
       "Metadata Tab"

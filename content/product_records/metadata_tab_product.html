@@ -660,36 +660,40 @@ ul.task-list li input[type="checkbox"] {
 
 <p>The Metadata tab describes your project’s metadata, including a description that outlines the process of metadata creation, contributors to the creation of the metadata, and metadata repositories.</p>
 <table class="table-striped table-hover table-bordered table-sm allborder small caption-top table">
+<colgroup>
+<col style="width: 79%">
+<col style="width: 20%">
+</colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;"><strong>Product Metadata Tab</strong></th>
-<th style="text-align: left;"><strong>Required?</strong></th>
+<th style="text-align: left;">Metadata Tab</th>
+<th style="text-align: left;">Requirements</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">Metadata Status</td>
-<td style="text-align: left;"><strong>Required</strong></td>
+<td style="text-align: left;"><strong>Metadata: Status</strong></td>
+<td style="text-align: left;"><span style="color:#b50909;"><strong>Required</strong></span></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Date</td>
-<td style="text-align: left;"><strong>Required</strong></td>
+<td style="text-align: left;"><strong>Date</strong></td>
+<td style="text-align: left;"><span style="color:#b50909;"><strong>Required</strong></span></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Metadata Contacts</td>
-<td style="text-align: left;"><strong>Required</strong></td>
+<td style="text-align: left;"><strong>Metadata Contacts</strong></td>
+<td style="text-align: left;"><span style="color:#b50909;"><strong>Required</strong></span></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Metadata Identifier</td>
-<td style="text-align: left;"><strong>Required</strong></td>
+<td style="text-align: left;"><strong>Metadata Identifier</strong></td>
+<td style="text-align: left;"><span style="color:#b50909;"><strong>Required</strong></span></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Parent Metadata</td>
-<td style="text-align: left;"><strong>Required</strong></td>
+<td style="text-align: left;"><strong>Parent Metadata</strong></td>
+<td style="text-align: left;"><span style="color:#b50909;"><strong>Required</strong></span></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Metadata Repositories</td>
-<td style="text-align: left;"><strong>Required</strong></td>
+<td style="text-align: left;"><strong>Metadata Repositories</strong></td>
+<td style="text-align: left;"><span style="color:#b50909;"><strong>Required</strong></span></td>
 </tr>
 </tbody>
 </table>
@@ -698,39 +702,44 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="basic-information">Basic Information</h2>
 <section id="metadata-status" class="level3">
 <h3 class="anchored" data-anchor-id="metadata-status">Metadata Status</h3>
-<p>Select the appropriate status of the creation of your metadata from the drop-down menu. For example, if you have added all of your metadata, select “<strong>completed</strong>.” If you still have metadata to add, select “<strong>onGoing</strong>.”</p>
+<p>Select the appropriate <strong>Status</strong> of the creation of your metadata from the drop-down menu. For example, if you have added all of your metadata, select <strong><em>completed</em></strong>. If you still have metadata to add, select <strong><em>onGoing</em></strong>.</p>
 </section>
 <section id="dates" class="level3">
 <h3 class="anchored" data-anchor-id="dates">Dates</h3>
-<p>Enter a creation date or last updated date. At least one of these dates is required.</p>
+<p>Enter a <strong>Date</strong> for <strong><em>creation</em></strong> or <strong><em>last updated</em></strong> date. At least one of these dates is required.</p>
 </section>
 </section>
 <section id="metadata-contacts" class="level2">
 <h2 class="anchored" data-anchor-id="metadata-contacts">Metadata Contacts</h2>
 <p><strong>Metadata Contacts</strong> are required and selected from your list of contacts. Adding a metadata contact will give people a contact point should they have any questions about the metadata.</p>
-<table class="table-striped table-hover table-bordered table-sm allborder small caption-top table">
+<table class="table-striped table-hover table-bordered md allborder caption-top table">
+<colgroup>
+<col style="width: 26%">
+<col style="width: 30%">
+<col style="width: 43%">
+</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Role</th>
 <th style="text-align: left;">Contact</th>
-<th style="text-align: left;">**Required?</th>
+<th style="text-align: left;">**Requirements</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">author</td>
-<td style="text-align: left;">See notes below</td>
-<td style="text-align: left;"><strong>Required</strong></td>
+<td style="text-align: left;">See Notes Below</td>
+<td style="text-align: left;"><span style="color:#b50909;"><strong>Required</strong></span></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">publisher</td>
 <td style="text-align: left;">Default is USFWS</td>
-<td style="text-align: left;"><strong>Required</strong></td>
+<td style="text-align: left;"><span style="color:#b50909;"><strong>Required</strong></span></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">pointOfContact</td>
 <td style="text-align: left;">SA Data Steward</td>
-<td style="text-align: left;"><strong>Required</strong></td>
+<td style="text-align: left;"><span style="color:#b50909;"><strong>Required</strong></span></td>
 </tr>
 </tbody>
 </table>
@@ -784,13 +793,13 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Parent Metadata</strong> defines the ScienceBase folder in which the product will be published. The parent metadata tells mdEditor where the product metadata should go when it is published to ScienceBase.</p>
 <p>If you imported the product metadata from ScienceBase originally, this section will be populated already.</p>
 <p>If you created the product metadata from scratch in mdEditor, you need to enter the appropriate parent item ScienceBase ID. This is most likely the folder for the project that this product originated from.</p>
-<section id="title-required" class="level4">
-<h4 class="anchored" data-anchor-id="title-required">Title (Required)</h4>
-<p>If this is not already populated, you can enter something like “Parent folder.”</p>
+<section id="title-stylecolorb50909" class="level4">
+<h4 class="anchored" data-anchor-id="title-stylecolorb50909">Title ({style=“color:#b50909;”})</h4>
+<p>If the <strong>Title</strong> is not already populated, you can enter something like “Parent folder.”</p>
 </section>
-<section id="identifier-required" class="level4">
-<h4 class="anchored" data-anchor-id="identifier-required">Identifier (Required)</h4>
-<p>Defines the location of the parent folder in ScienceBase.</p>
+<section id="identifier-stylecolorb50909" class="level4">
+<h4 class="anchored" data-anchor-id="identifier-stylecolorb50909">Identifier ({style=“color:#b50909;”})</h4>
+<p>The <strong>Identifier</strong> defines the location of the parent folder in ScienceBase.</p>
 <table class="caption-top table">
 <thead>
 <tr class="header">
