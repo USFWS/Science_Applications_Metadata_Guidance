@@ -5,66 +5,66 @@ editor:
     wrap: 80
 ---
 
-The settings menu allows for the configuring of user-specific options. Settings
-must be configured before you create SA metadata.
+The **Settings** menu allows for the configuring of user-specific options. 
+Settings must be configured before you create SA metadata.
 
-## General Settings
-
-**mdEditor Version**: The mdEditor version notes the current version of
+The **mdEditor Version** notes the current version of
 mdEditor. Use this when reporting errors. Errors can be reported at
 <https://github.com/adiwg/mdEditor/issues>. You must have a github account in
 order to post.
 
-**Auto-Save**: The Auto-Save option will write all changes to local storage when
-you exit a data entry field. Changes must be manually saved if the Auto-Save
-feature is turned off.
+## General Settings
 
-::: {.callout-note appearance="minimal"}
-Auto-Save allows you to save less frequently, but it makes it harder to undo
+The **Auto-Save** option will automatically write all changes to local storage 
+when you exit a data entry field when turned on. If the Auto-Save
+feature is turned off, changes must be manually saved. Auto-Save allows you to 
+save less frequently, but it makes it harder to undo
 changes that you make to your records. If you stay on the same record, you can
 cancel changes. But once you leave the record, the record is saved and you can’t
 cancel the change except by manually re-editing the record.
-:::
 
-**Copy in Edit Mode:** All
+The **Copy in Edit Mode** option allow users to copy a record while in edit mode.
 
-**Delete in Edit Mode:** Allow users to delete a record while in edit
+The **Delete in Edit Mode** option allows users to delete a record while in edit mode.
 
-**Clear All Records**: All records can be cleared by clicking the "Clear Storage
-Cache."
+The **Clear All Records** option will delete all records (Projects, Products, 
+and Contacts) by clicking the "Clear Storage Cache" button.
 
-::: {.callout-warning appearance="minimal"}
-**Warning**: Clearing all records will delete all of the records currently
+::: {.callout-warning}
+Clearing all records will delete all of the records currently
 loaded in mdEditor. Before doing so, use the Export function to make a backup of
 your records. Otherwise, the records will be permanently lost (unless you
 previously made a backup copy).
 :::
 
-![General Settings](/assets/settings_general_Settings.png)
+![General Settings](../assets/settings_general_Settings.png)
 
-## SA-Specific Settings
+## Defaults
 
-*These must be implemented before you begin creating metadata records.*
+These **<u>must be implemented</u>** before you begin creating metadata records. 
+These defaults will allow metadata to be imported from ScienceBase, connect to 
+the proper version of mdTranslator, and select the proper metadata repositories. 
 
-**1. Importing from ScienceBase** In the Defaults section, set the default
-Import URL to import items from ScienceBase with the following:
-<https://api.sciencebase.gov/sbmd-service/mdjson/>.
+Keep the **Language** defaults that are pre-loaded. Language: **English**, 
+Character Set: **UTF-8**, Location: **USA**.
 
-**2. MdTranslator** In the Defaults section, set the default
-mdTranslator API URL to use the latest version of the translator with the 
-following:
-<https://api.sciencebase.gov/mdTranslator/api/v3/translator>.
+Set the **Import URL** to: <https://api.sciencebase.gov/sbmd-service/mdjson/>
 
-**3. Metadata Repositories**: In the Defaults section, add two Metadata
-Repositories.
+Set the **mdTranslator API URL** to:
+<https://api.sciencebase.gov/mdTranslator/api/v3/translator>
 
-1.  Select **ScienceCatalog** from the Repository drop-down menu. Enter “SA
-    Science Catalog” as the collection title. It is important that the text is
-    entered exactly as written to be included in the Science Catalog.
+For the **Metadata Repositories** (online databases for storing metadata) 
+settings, add two repositories:
+
+1.  Select **ScienceCatalog** from the Repository drop-down menu. Enter 
+    “**SA Science Catalog**” as the collection title. It is important that the 
+    text is entered exactly as written to be included in the Science Catalog.
 2.  Select **data.gov** from the Repository drop-down menu. For the collection
-    title, enter "Data.gov USFWS Science Applications".
+    title, enter "**Data.gov USFWS Science Applications**".
 
-![Science Applications settings](/assets/settings_defaults.png)
+Once entered in the Settings, these repository options can then be selected for 
+projects and products records to ensure they are properly tag for inclusion in 
+the repositories. 
 
 ::: {.callout-note appearance="minimal"}
 The metadata repository information must be exactly the same for each record
@@ -74,54 +74,36 @@ will be consistent across records. It is strongly recommended that you do not
 type these in by hand on individual metadata records.
 :::
 
-**3. Parent Identifier**: Under publishing, enter the ScienceBase identifier for
-your SA Region's ScienceBase project folder (see table below) in the "Default
-Parent Identifier" field.
+![Default settings for Science Applications metadata](../assets/settings_defaults.png)
 
-![](/assets/settings_publishing_settings_parentid.png)
+## Date Settings
 
-| USFWS Region     | Parent Identifier        |
-|------------------|--------------------------|
-| **Region 1**     | 5b4e1c5ae4b06a6dd17df2d5 |
-| **Region 2**     | 5b6469d3e4b006a11f733900 |
-| **Region 3**     | 5b6469e5e4b006a11f733902 |
-| **Region 4**     | 5b6469efe4b006a11f733904 |
-| **Region 5**     | 5b6469f8e4b006a11f733906 |
-| **Region 6**     | 5b646a02e4b006a11f733908 |
-| **Region 7**     | 5b646a2fe4b006a11f73390c |
-| **Region 8**     | 5b646a38e4b006a11f73390e |
-| **Headquarters** | 5b646a14e4b006a11f73390a |
-: {.striped .hover .bordered .md .allborder} 
-
-
-## Defaults
-
-**Defaults** include settings for **Language**, **Character Set**, **Country**,
-and the *\*Import URL* \*(used for defining the default URL for importing).
-
-The following defaults will be pre-loaded:
-
--   default language: English
--   default character set: UTF-8
--   default location: USA
-
-Also included in **Defaults** are the **Metadata Repositories** (online
-databases for storing metadata). Once entered in **Settings** these can then be
-selected for projects and products so that they are flagged to a metadata
-repository of your choice. See SA Specific Settings for Metadata Repository
-information above.
+Set the **Start Month of Fiscal Year** to **October**.  
 
 ## Publishing Settings
 
-SA metadata will be published directly to ScienceBase (and from there be sent to
-the Science Catalog and data.gov).
+Under **Publishing Settings**, in the **Default Parent Identifier** field, 
+enter the ScienceBase identifier (SBID) for your SA Region.
 
-In the **Default Parent Identifier**, enter your SA Region's ScienceBase project
-folder ScienceBase ID (SBID). **Default Community** and **Default Organization**
-are free text fields to describe where your Default Parent Identifier is
-located.
+![Publishing Settings (use the **Parent Identifier** for your Region).](../assets/settings_publishing_settings_parentid.png)
 
-![](/assets/settings_publishing_settings_parentid_comm_org.png)
+The following table shows each Region's **Default Parent Identifier**. This is 
+the ScienceBase identifier for each Region's 'Project' folder.
+
+| USFWS Region     | Parent Identifier        |
+|------------------|--------------------------|
+| **Headquarters** | 6696c783d34ecb78f609f673 |
+| **Region 1**     | 6696c74ad34ecb78f609f66f |
+| **Region 2**     | 6696c7b2d34ecb78f609f678 |
+| **Region 3**     | 6696c873d34ecb78f609f67c |
+| **Region 4**     | 6696c884d34ecb78f609f680 |
+| **Region 5**     | 66326ad6d34ea70bd5f26d5f |
+| **Region 6**     | 6696c92dd34ecb78f609f68b |
+| **Region 7**     | 645bfe80d34ec179a83822d8 |
+| **Region 8**     | 6696c89bd34ecb78f609f685 |
+: {.striped .hover .bordered .md .allborder} 
+
+</br>
 
 ## Export Settings
 

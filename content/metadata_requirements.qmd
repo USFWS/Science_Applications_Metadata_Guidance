@@ -31,8 +31,7 @@ if_app_style <- paste0('{style="color:', if_applicable_color, ';"}')
 |        Administrative Region  | [**Required**](project_records/main_tab_project.qmd#point-of-contacts)`r required_style` | [**Required**](product_records/main_tab_product.qmd#point-of-contacts)`r required_style`|
 |        Principal Investigator | [**Required, if applicable**](project_records/main_tab_project.qmd#point-of-contacts)`r req_if_app_style`^\*^ |  [**Required, if applicable**](product_records/main_tab_product.qmd#point-of-contacts)`r req_if_app_style`^\*^    |
 |        Co-Principal Investigator | [If applicable]`r if_app_style`                         | [If applicable]`r if_app_style`  |
-| Abstract                      | [**Required**](project_records/main_tab_project.qmd#abstract)`r required_style`^\*^     |
-    [**Required**](product_records/main_tab_product.qmd#abstract){style="color:crimson;"}^\*^      |
+| Abstract                      | [**Required**](project_records/main_tab_project.qmd#abstract)`r required_style`^\*^     | [**Required**](product_records/main_tab_product.qmd#abstract)`r required_style`^\*^      |
 | Start Date                    | [**Required**](project_records/main_tab_project.qmd#time-period)`r required_style`^\*^  | [If applicable]`r if_app_style`  |
 | End Date                      | [**Required**](project_records/main_tab_project.qmd#time-period)`r required_style`^\*^  | [**Required**](product_records/main_tab_product.qmd#time-period)`r required_style`^\*^   |
 : { .hover .bordered .md .allborder} 

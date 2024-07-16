@@ -43,12 +43,12 @@ The **Main** tab allows for the creation and/or editing of primary metadata.
 edited if absolutely necessary (and ideally edited as soon as the record is
 created in mdEditor).
 
-### Title
+### Title ([Required]`r required_style`)
 
 Enter a concise, yet informative **Title**. Good titles, when they appear in a
 search, will be understood and traceable.
 
-### Status
+### Status ([Required]`r required_style`)
 
 The **Status** drop-down menu allows you to select the status of your project.
 Choose a status from <u>only these four</u> options: ***accepted***, 
@@ -56,7 +56,7 @@ Choose a status from <u>only these four</u> options: ***accepted***,
 
 ![](../../assets/basic_information.png)
 
-## Default Locale
+## Default Locale ([Required]`r required_style`)
 
 **Default Locale** allows for the selection of **Language**, **Character Set**,
 and **Country**. English, UTF-8, and USA will be selected by default, but you
@@ -64,7 +64,7 @@ may change them if necessary. See [Settings](../settings.qmd) for instruction.
 
 ![](../../assets/default_locale.png)
 
-## Resource Types
+## Resource Types ([Required]`r required_style`)
 
 For projects, the **Resource Type** should be automatically filled in with the
 resource type you selected when you created your record. This should be
@@ -73,7 +73,7 @@ enter a shorten project name.
 
 ![](../../assets/resource_types.png)
 
-## Point of Contacts
+## Point of Contacts ([Required]`r required_style`)
 
 Adding a **Point of Contact** gives users information on who to contact should
 they have a question regarding your project or product.
@@ -118,21 +118,21 @@ publication citation, provides credit and services as a reference citation.
 Adding information in the citation will also improve users' ability to find your
 items.
 
-### Title
+### Title ([Required]`r required_style`)
 
 The citation **Title** is automatically populated with the title of your record.
 
-### Alternate Title
+### Alternate Title 
 
 You can add an alternate title, if desired. Generally these should be shorter
 than the full Title.
 
-### Dates
+### Dates ([Required]`r required_style`)
 
 Enter **Dates** for *acquisition*, *creation*, *updated*, or *revision* from the 
 picklist and then enter the date, <u>at least one </u> of these date types is required.
 
-### Responsible Parties
+### Responsible Parties ([Required]`r required_style`)
 
 **Responsible parties** must include the principal investigator of the project, 
 but may optionally include other responsible parties such as funders (your 
@@ -154,7 +154,7 @@ section for more information.
 
 <br/>
 
-### Online Resource
+### Online Resource ([If available]`r req_if_app_style`)
 
 Enter the Name and URL for the project homepage website, if available.
 
@@ -183,14 +183,14 @@ more.
 
 ![Example Citation in mdEditor](../../assets/example_citation.png)
 
-## Description
+## Description ([Required]`r required_style`)
 
 **Description** allows for the addition of the **Abstract** as well as a Short
 Abstract, and Supplemental Information.
 
-### Abstract
+### Abstract ([Required]`r required_style`)
 
-Enter an abstract that succinctly describes the project's purpose and goals.
+Enter an **Abstract** that succinctly describes the project's purpose and goals.
 Include key species or habitats as well.
 
 ::: callout-note
@@ -217,7 +217,7 @@ Enter comments, if desired.
 
 ![Example Abstract entry in mdEditor](../../assets/example_abstract_entry.png)
 
-## Time Period
+## Time Period ([Required]`r required_style`)
 
 **Time Period** refers to project **Start Date** and **End Date**.
 
