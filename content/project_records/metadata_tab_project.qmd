@@ -6,17 +6,30 @@ editor:
     wrap: 80
 ---
 
+```{r, echo=FALSE}
+# Using colors from this wesbite:
+# https://designsystem.digital.gov/design-tokens/color/state-tokens/
+# This allows the colors to be coded as a variable and, thus, easily changed.
+
+required_color <- "#b50909"
+required_if_applicable_color <- "#936f38"
+if_applicable_color <- "#757575"
+required_style <- paste0('{style="color:', required_color, ';"}')
+req_if_app_style <- paste0('{style="color:', required_if_applicable_color,';"}')
+if_app_style <- paste0('{style="color:', if_applicable_color, ';"}')
+```
+
 The Metadata tab describes your project's metadata, including a description that
 outlines the process of metadata creation, contributors to the creation of the
 metadata, and metadata repositories.
 
-| Quick Reference: Project Metadata Tab     | Required? |
+| Project Metadata Tab                              | Requirements |
 |:------------------------------------------|:----------|
-| Basic Information: Metadata Status, Dates | Required  |
-| Metadata Contacts                         | Required  |
-| Metadata Identifier                       | Required  |
-| Parent Metadata                           | Required  |
-| Metadata Repositories                     | Required  |
+| Basic Information: **Metadata Status**, **Dates** | [**Required**]`r required_style` |
+| **Metadata Contacts**                             | [**Required**]`r required_style` |
+| **Metadata Identifier**                           | [**Required**]`r required_style` |
+| **Parent Metadata**                               | [**Required**]`r required_style` |
+| **Metadata Repositories**                         | [**Required**]`r required_style` |
 : {.striped .hover .bordered .md .allborder} 
 
 <br/>
@@ -27,24 +40,24 @@ metadata, and metadata repositories.
 
 Select the appropriate status of the creation of your metadata from the drop
 down menu. For example, if you have added all of your metadata, select
-*"completed"*. If you still have metadata to add, select *"onGoing"*.
+***completed***. If you still have metadata to add, select ***onGoing***.
 
 ### Dates
 
-Add at least one date is required. Recommended are "creation" (when you first
-created your metadata) and "lastUpdate" (when you updated metadata after initial
-publication).
+Add at least one **Date** is required. Recommended are ***creation*** (when you 
+first created your metadata) and ***lastUpdate*** (when you updated metadata 
+after initial publication).
 
 ## Metadata Contacts
 
 **Metadata Contacts** are required. Adding a metadata contact will give users a
 contact point should they have any questions about the metadata. 
 
-| **Role**       | **Contact**      | **Required?**            |
+| Role           | Contact         | Requirements              |
 |:---------------|:-----------------|:-------------------------|
-| author         | See notes below  | At Least One is Required |
-| publisher      | default is USFWS | Required                 |
-| pointOfContact | SA Data Steward  | Required                 |
+| **author**         | See Notes Below  | [**Required**]`r required_style`   |
+| **publisher**      | Default is USFWS | [**Required**]`r required_style`   |
+| **pointOfContact** | SA Data Steward  | [**Required**]`r required_style`   |
 : {.striped .hover .bordered .md .allborder} 
 
 <br/>

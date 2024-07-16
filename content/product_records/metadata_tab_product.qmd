@@ -10,14 +10,14 @@ The Metadata tab describes your project's metadata, including a description that
 outlines the process of metadata creation, contributors to the creation of the
 metadata, and metadata repositories.
 
-| **Quick Reference: Product Metadata Tab** | Required? |
+| **Product Metadata Tab**                  | **Required?** |
 |:------------------------------------------|:----------|
-| Metadata Status                           | Required  |
-| Date                                      | Required  |
-| Metadata Contacts                         | Required  |
-| Metadata Identifier                       | Required  |
-| Parent Metadata                           | Required  |
-| Metadata Repositories                     | Required  |
+| Metadata Status                           | **Required**  |
+| Date                                      | **Required**  |
+| Metadata Contacts                         | **Required**  |
+| Metadata Identifier                       | **Required**  |
+| Parent Metadata                           | **Required**  |
+| Metadata Repositories                     | **Required**  |
 : {.striped .hover .bordered .sm .allborder}  
 
 <br/>
@@ -41,11 +41,11 @@ required.
 Adding a metadata contact will give people a contact point should they have
 any questions about the metadata.
 
-| Role           | Contact          | Required?                |
+| Role           | Contact          | **Required?              |
 |:---------------|:-----------------|:-------------------------|
-| author         | See notes below  | At least one is required |
-| publisher      | default is USFWS | Required                 |
-| pointOfContact | SA Data Steward  | Required                 |
+| author         | See notes below  | **Required**             |
+| publisher      | Default is USFWS | **Required**             |
+| pointOfContact | SA Data Steward  | **Required**             |
 : {.striped .hover .bordered .sm .allborder}  
 
 <br/>

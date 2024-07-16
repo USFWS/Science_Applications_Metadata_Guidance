@@ -6,20 +6,33 @@ editor:
     wrap: 80
 ---
 
+```{r, echo=FALSE}
+# Using colors from this wesbite:
+# https://designsystem.digital.gov/design-tokens/color/state-tokens/
+# This allows the colors to be coded as a variable and, thus, easily changed.
+
+required_color <- "#b50909"
+required_if_applicable_color <- "#936f38"
+if_applicable_color <- "#757575"
+required_style <- paste0('{style="color:', required_color, ';"}')
+req_if_app_style <- paste0('{style="color:', required_if_applicable_color,';"}')
+if_app_style <- paste0('{style="color:', if_applicable_color, ';"}')
+```
+
 Adding keywords to your metadata record allows for the record to be found later
 through a search engine, keywords are the way to tag your projects or products.
 mdEditor is designed using existing thesauruses that contain pre-determined
 keywords.
 
-| Quick Reference: Project Keywords Tab    | Required?               |
+| Keywords Tab                             | Requirements               |
 |------------------------------------------|-------------------------|
-| ISO Topic Category                       | Required                |
-| SA Priority Category                     | Required                |
-| Science Topic Category                   | Required                |
-| Conservation Action Open Standard        | Required, if applicable |
-| Strategic Habitat Conservation Component | Required, if applicable |
-| GCMD Keywords                            | Best Practice           |
-| Shared Priority Keywords                 | Best Practice           |
+| **ISO Topic Category**                       | [**Required**]`r required_style`                |
+| **SA Priority Category**                     | [**Required**]`r required_style`                |
+| **Science Topic Category**                   | [**Required**]`r required_style`                |
+| **Conservation Action Open Standard**        | [**Required, if applicable**]`r req_if_app_style` |
+| **Strategic Habitat Conservation Component** | [**Required, if applicable**]`r req_if_app_style` |
+| **GCMD Keywords**                            | [Best practice]`r if_app_style`           |
+| **Shared Priority Keywords**                 | [Best practice]`r if_app_style`           |
 : {.striped .hover .bordered .md .allborder} 
 
 <br/>
@@ -34,7 +47,7 @@ keywords.
 
 ## SA Project Required Keywords
 
-### ISO Topic Category (Required)
+### ISO Topic Category ([**Required**]`r required_style`)
 
 Because mdJSON metadata is based on the ISO (International Organization for
 Standardization) metadata standard, all SA projects should select at least one
@@ -75,7 +88,7 @@ Biota and environment are probably the best fit for most SA projects.
 
 <br/>
 
-### SA Priority Area (Required)
+### SA Priority Area ([**Required**]`r required_style`)
 
 Choose all that apply. The list of options includes the following:
 
@@ -95,41 +108,41 @@ Choose all that apply. The list of options includes the following:
 
 <br/>
 
-### Science Topic (Required)
+### Science Topic ([**Required**]`r required_style`)
 
 Choose all that apply. The list of options includes the following:
 
 |                                   |
 |-----------------------------------|
+| Biotechnology                     |
+| Carbon Sequestration              |
 | Climate Adaptation                |     
 | Climate Mitigation                |                                            
 | Climate Resiliency                |                                            
-| Carbon Sequestration              |
-| Indigenous Knowledge              |
 | Decision Support                  |
-| Biotechnology                     |
-| Species Status Assessment Support |
+| Diversity and Inclusion           |
+| Economics                         |
+| Ecosystem Services                |
+| Environmental Justice             |
+| Human Dimensions                  |
 | Genetics and eDNA                 |
 | Habitat Connectivity              |
-| Wildlife Corridors                |
-| Diversity and Inclusion           |
-| Working Lands                     |
-| Pollinators                       |
-| Strategic Habitat Conservation    |
+| Indigenous Knowledge              |
 | Landscape Conservation Design     |
-| Vulnerability Assessment          |
-| Ecosystem Services                |
-| Wildlife Health and Disease       |
-| Environmental Justice             |
-| Stakeholder Engagement            |
-| Human Dimensions                  |
 | Policy                            |
-| Economics                         |
+| Pollinators                       |
+| Species Status Assessment Support |
+| Stakeholder Engagement            |
+| Strategic Habitat Conservation    |
+| Vulnerability Assessment          |
+| Wildlife Corridors                |
+| Wildlife Health and Disease       |
+| Working Lands                     |
 : { .hover .sm .allborder}  
 
 <br/>
 
-### Conservation Action Open Standard (Required, if applicable)
+### Conservation Action Open Standard ([**Required, if applicable**]`r req_if_app_style`)
 
 The Open Standards for the Practice of Conservation is a globally utilized
 nomenclature for conservation. Including these keywords helps to align the work
@@ -183,15 +196,15 @@ keywords for conservation actions are as listed:
 
 <br/>
 
-### GCMD Keywords (Best Practice)
+### GCMD Keywords ([Best Practice]`r if_app_style`)
 
 GCMD stands for Global Change Master Directory and these keywords are maintained
 by NASA. Look for useful keywords in the GCMD Science Keywords. There are GCMD
 Platforms and Instruments Keywords but they are unlikely to apply to SA 
 projects.
 
-:::{.callout-note appearance="minimal"}
-*Best Practice*: Check the "Full Path" checkbox to save the full path of the 
+:::{.callout-tip icon=false title="Best Practice"}
+Check the "Full Path" checkbox to save the full path of the 
 keyword to your metadata. This will maintain the category and context of the 
 specific keywords chosen. 
 :::
@@ -207,12 +220,10 @@ custom thesaurus. If a region or program finds the need for the additional of
 keywords to an existing thesaurus or the need for another thesaurus, please
 contact the FWS SA National Data Steward.
 
-:::{.callout-note appearance="minimal"}   
+:::{.callout-tip icon=false}  
 You cannot save a custom thesaurus in mdEditor. 
-:::
 
-:::{.callout-note appearance="minimal"}   
-Tip: If you have a consistent set of keywords that you
+If you have a consistent set of keywords that you
 use across your projects, you could add these to a "template project" record in
 mdEditor and then modify the specific keywords you need for each project. See
 the workflow section for more info about using template records.

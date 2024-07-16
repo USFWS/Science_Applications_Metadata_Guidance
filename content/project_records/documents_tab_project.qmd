@@ -20,4 +20,5 @@ These will be populated in the Documents section if sbJSON is imported into
 mdEditor. 
 :::
 
-For more information, consult the Documents section of the mdEditor manual.
+For more information, consult the [Documents section](https://guide.mdeditor.org/reference/edit-window/metadata/documents-panels/document-section.html) 
+of the mdEditor manual.

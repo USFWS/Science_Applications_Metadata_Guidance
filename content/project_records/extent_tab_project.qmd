@@ -6,13 +6,29 @@ editor:
     wrap: 80
 ---
 
+```{r, echo=FALSE}
+# Using colors from this wesbite:
+# https://designsystem.digital.gov/design-tokens/color/state-tokens/
+# This allows the colors to be coded as a variable and, thus, easily changed.
+
+required_color <- "#b50909"
+required_if_applicable_color <- "#936f38"
+if_applicable_color <- "#757575"
+required_style <- paste0('{style="color:', required_color, ';"}')
+req_if_app_style <- paste0('{style="color:', required_if_applicable_color,';"}')
+if_app_style <- paste0('{style="color:', if_applicable_color, ';"}')
+```
+
 **Extent** refers to geographic boundaries for your project. Spatial extents
 lets users see at a glance the geographic footprint of your project and allows
 searching within specific geographic areas.
 
-| Quick Reference: Project Extent Tab | Required? |
-|:------------------------------------|:----------|
-| Extent                              | Required  |
+| Extent Tab                    | Requirements                       |
+|:------------------------------|:--------------------|
+| **Extent**                    | [**Required**]`r required_style`   |
+: {.striped .hover .bordered .md .allborder} 
+
+<br/>
 
 ## Creating Extents
 

@@ -6,18 +6,31 @@ editor:
     wrap: 80
 ---
 
+```{r, echo=FALSE}
+# Using colors from this wesbite:
+# https://designsystem.digital.gov/design-tokens/color/state-tokens/
+# This allows the colors to be coded as a variable and, thus, easily changed.
+
+required_color <- "#b50909"
+required_if_applicable_color <- "#936f38"
+if_applicable_color <- "#757575"
+required_style <- paste0('{style="color:', required_color, ';"}')
+req_if_app_style <- paste0('{style="color:', required_if_applicable_color,';"}')
+if_app_style <- paste0('{style="color:', if_applicable_color, ';"}')
+```
+
+
 The **Main** tab allows for the creation and/or editing of primary metadata.
 
-| Quick Reference: Product Main Tab                           | Required? |
+| Quick Reference: Product Main Tab                           | Requirements |
 |:------------------------------------------------------------|:----------|
-| Basic Information: Title, Status                            | Required  |
-| Resource Type                                               | Required  |
-| Point of Contact                                            | Required  |
-| Citation: Title, Date, Responsible Parties, Online Resource | Required  |
-| Citation: Identifier                                        | Required  |
-| Description: Abstract                                       | Required  |
-| Time Period: Start Date, End Date                           | Required  |
-: {.striped .hover .bordered .sm .allborder}  
+| Basic Information: **Title**, **Status**                    | [**Required**]`r required_style` |
+| **Resource Type**                                           | [**Required**]`r required_style` |
+| **Point of Contact** (multiple)                             | [**Required**]`r required_style` |
+| Citation: **Title**, **Date**, **Responsible Parties**, **Online Resource**, **Identifier** | [**Required**]`r required_style` |
+| Description: **Abstract**                                   | [**Required**]`r required_style` |
+| Time Period: **Start Date**,**End Date**                    | [**Required**]`r required_style` |
+: {.striped .hover .bordered .md .allborder}  
 
 <br/>
 
@@ -29,14 +42,14 @@ Will be auto-generated but can be edited.
 
 ### Title
 
-Enter as informative a title as possible. Good titles, when they appear in a
+Enter as informative a **Title** as possible. Good titles, when they appear in a
 search, will be understood and/or traceable.
 
 ### Status
 
-The **Status** drop-down menu allows you to select the status of your product.
-Choose status ONLY from the four following options: *completed*, *ongoing*,
-*proposed*, or *accepted*.
+The **Status** drop-down menu allows you to select the status of your project.
+Choose a status from <u>only these four</u> options: ***accepted***, 
+***completed***, ***onGoing***, or ***proposed***.
 
 ![](../../assets/basic_information.png)
 
@@ -50,7 +63,7 @@ may change them if necessary. See [Settings](../settings.qmd) for instruction.
 
 ## Resource Types
 
-The Resource Type must be identified when the record is created. Products must
+The **Resource Type** must be identified when the record is created. Products must
 be identified from the list of options, but 'product', while on the list, is not
 a valid option. After the record is initiated the field should be automatically
 filled in with the resource type selected when the record was created. Name is
@@ -71,18 +84,18 @@ section for information on creating contacts.
 
 | Role                | Contact                                        | Required?               |
 |:----------------------|:---------------------------------------|:--------------------------|
-| pointOfContact        | FWS Science Applications National Data Steward | Required                |
-| pointOfContact        | Data Steward                                   | Required                |
-| principalInvestigator | The Project PI                                 | Required, if applicable |
-| custodian             | Data Custodian                                 | Required, if applicable |
-| administrator         | Data Trustee                                   | Required                |
-| administrator         | FWS Region (legacy and DOI Unified)            | Required                |
-| collaborator          | partnership organizations and/or programs      | Required, if applicable |
+| pointOfContact        | FWS Science Applications National Data Steward | [**Required**]`r required_style`                |
+| pointOfContact        | Data Steward                                   | [**Required**]`r required_style`                |
+| principalInvestigator | The Project PI                                 | [**Required, if applicable**]`r req_if_app_style` |
+| custodian             | Data Custodian                                 | [**Required, if applicable**]`r req_if_app_style`  |
+| administrator         | Data Trustee                                   | [**Required**]`r required_style`                |
+| administrator         | FWS Region (legacy and DOI Unified)            | [**Required**]`r required_style`                |
+| collaborator          | partnership organizations and/or programs      | [**Required, if applicable**]`r req_if_app_style`  |
 : {.striped .hover .bordered .sm .allborder}  
 
 <br/>
 
-::: {.callout-note} 
+::: {.callout-note icon=false} 
 The FWS Science Applications National Data Steward will
 serve as the long term contact/backup. This way, users have a point-of-contact
 even if there is a positional change within an organization. Regional Data
@@ -106,13 +119,13 @@ Added automatically based on the title of your record.
 
 #### Alternate Title
 
-Add an alternate title.
+Add an **Alternate Title*.
 
 #### Dates
 
-Enter *acquisition*, *creation, updated*, *revision*, or *publication* date
-reference from the picklist and then enter the date. At least one of these date
-types is required.
+Enter ***acquisition***, ***creation***, ***updated***, ***revision***, or 
+***publication*** date reference from the picklist and then enter the date. 
+<u>At least one </u> of these date types is required.
 
 #### Responsible Parties
 
@@ -123,24 +136,24 @@ contributors could be intellectual and financial participants.
 
 | Role                    | Contact         | Required?     |
 |:------------------------|:----------------|:--------------|
-| principalInvestigator   | data creator    | Required      |
-| coPrincipalInvestigator | data co-creator | Best Practice |
-: {.striped .hover .bordered .sm .allborder}  
+| principalInvestigator   | Data Creator    | [**Required**]`r required_style`  |
+| coPrincipalInvestigator | Data Co-Creator | [Best Practice]`r required_style` |
+: {.striped .hover .bordered .md .allborder}  
 
 <br/>
 
-::: {.callout-note}
+::: {.callout-note icon=false}
 For items that will be sent to data.gov, only the first
 in the list of Responsible Parties (#0) will appear. 
 :::
 
 #### Online Resource
 
-Enter the Name and URL for the location where users can find the product (e.g.,
+Enter the **Name** and **URL** for the location where users can find the product (e.g.,
 ScienceBase page or DOI url). Data.gov refers to this online resource link to
 send users to the data download.
 
-::: {.callout-note} 
+::: {.callout-note icon=false} 
 Important: The URLs to access and download products must
 **also** be included in the Distribution tab. Distribution Links is the only
 online resource that data.gov reads so without a URL there, users have no way to
@@ -149,27 +162,27 @@ access the actual product from data.gov.
 
 #### Identifier
 
-You may enter as many identifiers as desired, but at least one is required. If
-you have internal SA specific IDs for projects, enter them here. A Digital
-Object Identifier (DOI) is the preferred identifier for this. The Archive Folder
-Name may be included here as well.
+You may enter as many identifiers as desired, but <u>at least one </u> is 
+required. If you have internal SA specific IDs for projects, enter them here. 
+A Digital Object Identifier (DOI) is the preferred identifier for this. The 
+Archive Folder Name may be included here as well.
 
 ![Example of Online resource and identifier metadata entries](../../assets/doi_identifier_metadata.png)
 
-::: {.callout-note} 
+::: {.callout-note icon=false} 
 Digital Object Identifier can be entered both as an
 online resource AND an identifier. Note that the entry format is different. As
 an online resource, the entire url is required, however, as an identifier, only
 the prefix and suffix of the DOI are required (see figure above).
 :::
 
-::: {.callout-note title="Best Practice"} 
+::: {.callout-note icon=false title="Best Practice"} 
 Create and use internal identifiers
 that are unique within your region for projects and their products. Example:
 GNLCC2010-11.
 :::
 
-::: {.callout-note} 
+::: {.callout-note icon=false} 
 If your item does not have a ScienceBase ID (SBID) yet,
 ScienceBase will create one automatically upon publishing. If you imported your
 item from ScienceBase originally, then the SBID will already be included in
@@ -180,7 +193,7 @@ SBID, a duplicate item will be created on ScienceBase. Consult the
 learn more. 
 :::
 
-::: {.callout-note} 
+::: {.callout-note icon=false} 
 If the product metadata was created by copying another
 mdEditor metadata record, this identifier MUST be edited/changed since it will
 reflect the copied record identifier. Only the mdEditor UUID changes to
@@ -196,7 +209,7 @@ Abstract, Purpose, Supplemental Information, and an Environment Description.
 
 #### Abstract
 
-Enter an Abstract
+Enter an **Abstract**
 
 ::: {.callout-note} 
  Tip: Write your abstracts for projects in the present
@@ -205,9 +218,9 @@ tense if the project is underway and past tense if it has been completed.
 
 #### Short Abstract
 
-Enter a short description, limited to 300 characters, if desired. The Best
-Practice here is to include a few sentences for media communications that Public
-Affairs may find helpful.
+In the Short **Abstract**, enter a short description, limited to 300 characters, 
+if desired. The Best Practice here is to include a few sentences for media 
+communications that Office of Communications may find helpful.
 
 #### Supplemental Information
 

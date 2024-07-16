@@ -5,19 +5,8 @@ page-layout: full
 execute: 
   enabled: true
 format: html
-include-in-header:
-  text: |
-    <style type="text/css">
-      .table{
-        border-top: 5px solid #ff0000;
-        border-top-color: #ff0000;
-      }
-    </style>
     
 ---
-
-
-
 
 ```{r, echo=FALSE}
 todays_date = format(Sys.time(), '%d %B, %Y')
@@ -32,7 +21,7 @@ the standardized metadata format agreed upon by the SA Data Management Working
 Group and meet USFWS policy requirements for data management. This metadata is 
 aggregated and organized in the SA Science Catalog, where SA projects and 
 products are discoverable, accessible, and usable.
-
+`r todays_date`
 This is a working draft that will continue to be edited. Please refresh 
 this manual every time you open it to ensure you are viewing the most recent 
 version. **Last updated:** **`r todays_date`**. If you have questions or 
