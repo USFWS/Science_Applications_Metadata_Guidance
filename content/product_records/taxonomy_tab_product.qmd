@@ -6,9 +6,22 @@ editor:
     wrap: 80
 ---
 
-| Quick Reference: Product Taxonomy Tab | Required?               |
+```{r, echo=FALSE}
+# Using colors from this wesbite:
+# https://designsystem.digital.gov/design-tokens/color/state-tokens/
+# This allows the colors to be coded as a variable and, thus, easily changed.
+
+required_color <- "#b50909"
+required_if_applicable_color <- "#936f38"
+if_applicable_color <- "#757575"
+required_style <- paste0('{style="color:', required_color, ';"}')
+req_if_app_style <- paste0('{style="color:', required_if_applicable_color,';"}')
+if_app_style <- paste0('{style="color:', if_applicable_color, ';"}')
+```
+
+| Taxonomy Tab | Requirements               |
 |:--------------------------------------|:------------------------|
-| Taxonomy                              | Required, if applicable |
+| Taxonomy                              | [**Required**]`r required_style`   |
 : {.striped .hover .bordered .sm .allborder}   
 
 <br/>

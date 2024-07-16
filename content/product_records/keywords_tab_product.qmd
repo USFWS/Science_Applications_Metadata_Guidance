@@ -6,6 +6,19 @@ editor:
     wrap: 80
 ---
 
+```{r, echo=FALSE}
+# Using colors from this wesbite:
+# https://designsystem.digital.gov/design-tokens/color/state-tokens/
+# This allows the colors to be coded as a variable and, thus, easily changed.
+
+required_color <- "#b50909"
+required_if_applicable_color <- "#936f38"
+if_applicable_color <- "#757575"
+required_style <- paste0('{style="color:', required_color, ';"}')
+req_if_app_style <- paste0('{style="color:', required_if_applicable_color,';"}')
+if_app_style <- paste0('{style="color:', if_applicable_color, ';"}')
+```
+
 Adding keywords to your metadata record allows for the record to be found later
 through a search engine, keywords are the way to tag your projects or products.
 The mdEditor is designed using thesauruses that contain pre-determined keywords.
@@ -13,10 +26,10 @@ These thesauruses create a 'controlled vocabulary' so that all SA staff adding
 metadata can adhere to the same standards, and future search results can return
 clear results of projects and products.
 
-| Quick Reference: Product Keywords Tab | Required?     |
+| Keywords Tab | Requirements     |
 |:--------------------------------------|:--------------|
-| ISO Topic Category                    | Required      |
-| GCMD Keywords                         | Best Practice |
+| **ISO Topic Category**                | [**Required**]`r required_style`      |
+| **GCMD Keywords**                     | [Best Practice]`r if_app_style` |
 : {.striped .hover .bordered .md .allborder} 
 
 <br/>

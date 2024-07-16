@@ -12,7 +12,7 @@ editor:
 **The Constraint** tab allows you to enter information into the metadata about
 how the resource can and cannot be used.
 
-| Quick Reference: Product Constraints Tab | Required?     |
+| Constraints Tab | Requirements     |
 |:-----------------------------------------|:--------------|
 | Use Limitation                           | Optional      |
 | Legal                                    | Required      |

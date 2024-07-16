@@ -91,7 +91,7 @@ section for information on creating contacts.
 | administrator         | Data Trustee                                   | [**Required**]`r required_style`                |
 | administrator         | FWS Region (legacy and DOI Unified)            | [**Required**]`r required_style`                |
 | collaborator          | partnership organizations and/or programs      | [**Required, if applicable**]`r req_if_app_style`  |
-: {.striped .hover .bordered .sm .allborder}  
+: {.striped .hover .bordered .md .allborder}  
 
 <br/>
 
@@ -149,9 +149,9 @@ in the list of Responsible Parties (#0) will appear.
 
 #### Online Resource
 
-Enter the **Name** and **URL** for the location where users can find the product (e.g.,
-ScienceBase page or DOI url). Data.gov refers to this online resource link to
-send users to the data download.
+Enter the **Name** and **URL** for the location where users can find the product 
+(e.g., ScienceBase page or DOI url). Data.gov refers to this online resource 
+link to send users to the data download.
 
 ::: {.callout-note icon=false} 
 Important: The URLs to access and download products must
