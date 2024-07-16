@@ -620,8 +620,8 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#general-settings" id="toc-general-settings" class="nav-link active" data-scroll-target="#general-settings">General Settings</a></li>
-  <li><a href="#sa-specific-settings" id="toc-sa-specific-settings" class="nav-link" data-scroll-target="#sa-specific-settings">SA-Specific Settings</a></li>
   <li><a href="#defaults" id="toc-defaults" class="nav-link" data-scroll-target="#defaults">Defaults</a></li>
+  <li><a href="#date-settings" id="toc-date-settings" class="nav-link" data-scroll-target="#date-settings">Date Settings</a></li>
   <li><a href="#publishing-settings" id="toc-publishing-settings" class="nav-link" data-scroll-target="#publishing-settings">Publishing Settings</a></li>
   <li><a href="#export-settings" id="toc-export-settings" class="nav-link" data-scroll-target="#export-settings">Export Settings</a></li>
   <li><a href="#profile-and-validation-settings" id="toc-profile-and-validation-settings" class="nav-link" data-scroll-target="#profile-and-validation-settings">Profile and Validation Settings</a></li>
@@ -650,32 +650,25 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>The settings menu allows for the configuring of user-specific options. Settings must be configured before you create SA metadata.</p>
+<p>The <strong>Settings</strong> menu allows for the configuring of user-specific options. Settings must be configured before you create SA metadata.</p>
+<p>The <strong>mdEditor Version</strong> notes the current version of mdEditor. Use this when reporting errors. Errors can be reported at <a href="https://github.com/adiwg/mdEditor/issues" class="uri">https://github.com/adiwg/mdEditor/issues</a>. You must have a github account in order to post.</p>
 <section id="general-settings" class="level2">
 <h2 class="anchored" data-anchor-id="general-settings">General Settings</h2>
-<p><strong>mdEditor Version</strong>: The mdEditor version notes the current version of mdEditor. Use this when reporting errors. Errors can be reported at <a href="https://github.com/adiwg/mdEditor/issues" class="uri">https://github.com/adiwg/mdEditor/issues</a>. You must have a github account in order to post.</p>
-<p><strong>Auto-Save</strong>: The Auto-Save option will write all changes to local storage when you exit a data entry field. Changes must be manually saved if the Auto-Save feature is turned off.</p>
-<div class="callout callout-style-simple callout-note no-icon">
-<div class="callout-body d-flex">
+<p>The <strong>Auto-Save</strong> option will automatically write all changes to local storage when you exit a data entry field when turned on. If the Auto-Save feature is turned off, changes must be manually saved. Auto-Save allows you to save less frequently, but it makes it harder to undo changes that you make to your records. If you stay on the same record, you can cancel changes. But once you leave the record, the record is saved and you can’t cancel the change except by manually re-editing the record.</p>
+<p>The <strong>Copy in Edit Mode</strong> option allow users to copy a record while in edit mode.</p>
+<p>The <strong>Delete in Edit Mode</strong> option allows users to delete a record while in edit mode.</p>
+<p>The <strong>Clear All Records</strong> option will delete all records (Projects, Products, and Contacts) by clicking the “Clear Storage Cache” button.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<i class="callout-icon"></i>
 </div>
-<div class="callout-body-container">
-<p>Auto-Save allows you to save less frequently, but it makes it harder to undo changes that you make to your records. If you stay on the same record, you can cancel changes. But once you leave the record, the record is saved and you can’t cancel the change except by manually re-editing the record.</p>
+<div class="callout-title-container flex-fill">
+Warning
 </div>
 </div>
-</div>
-<p><strong>Copy in Edit Mode:</strong> All</p>
-<p><strong>Delete in Edit Mode:</strong> Allow users to delete a record while in edit</p>
-<p><strong>Clear All Records</strong>: All records can be cleared by clicking the “Clear Storage Cache.”</p>
-<div class="callout callout-style-simple callout-warning no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
-<p><strong>Warning</strong>: Clearing all records will delete all of the records currently loaded in mdEditor. Before doing so, use the Export function to make a backup of your records. Otherwise, the records will be permanently lost (unless you previously made a backup copy).</p>
-</div>
+<div class="callout-body-container callout-body">
+<p>Clearing all records will delete all of the records currently loaded in mdEditor. Before doing so, use the Export function to make a backup of your records. Otherwise, the records will be permanently lost (unless you previously made a backup copy).</p>
 </div>
 </div>
 <div class="quarto-figure quarto-figure-center">
@@ -685,22 +678,18 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 </section>
-<section id="sa-specific-settings" class="level2">
-<h2 class="anchored" data-anchor-id="sa-specific-settings">SA-Specific Settings</h2>
-<p><em>These must be implemented before you begin creating metadata records.</em></p>
-<p><strong>1. Importing from ScienceBase</strong> In the Defaults section, set the default Import URL to import items from ScienceBase with the following: <a href="https://api.sciencebase.gov/sbmd-service/mdjson/" class="uri">https://api.sciencebase.gov/sbmd-service/mdjson/</a>.</p>
-<p><strong>2. MdTranslator</strong> In the Defaults section, set the default mdTranslator API URL to use the latest version of the translator with the following: <a href="https://api.sciencebase.gov/mdTranslator/api/v3/translator" class="uri">https://api.sciencebase.gov/mdTranslator/api/v3/translator</a>.</p>
-<p><strong>3. Metadata Repositories</strong>: In the Defaults section, add two Metadata Repositories.</p>
+<section id="defaults" class="level2">
+<h2 class="anchored" data-anchor-id="defaults">Defaults</h2>
+<p>These <strong><u>must be implemented</u></strong> before you begin creating metadata records. These defaults will allow metadata to be imported from ScienceBase, connect to the proper version of mdTranslator, and select the proper metadata repositories.</p>
+<p>Keep the <strong>Language</strong> defaults that are pre-loaded. Language: <strong>English</strong>, Character Set: <strong>UTF-8</strong>, Location: <strong>USA</strong>.</p>
+<p>Set the <strong>Import URL</strong> to: <a href="https://api.sciencebase.gov/sbmd-service/mdjson/" class="uri">https://api.sciencebase.gov/sbmd-service/mdjson/</a></p>
+<p>Set the <strong>mdTranslator API URL</strong> to: <a href="https://api.sciencebase.gov/mdTranslator/api/v3/translator" class="uri">https://api.sciencebase.gov/mdTranslator/api/v3/translator</a></p>
+<p>For the <strong>Metadata Repositories</strong> (online databases for storing metadata) settings, add two repositories:</p>
 <ol type="1">
-<li>Select <strong>ScienceCatalog</strong> from the Repository drop-down menu. Enter “SA Science Catalog” as the collection title. It is important that the text is entered exactly as written to be included in the Science Catalog.</li>
-<li>Select <strong>data.gov</strong> from the Repository drop-down menu. For the collection title, enter “Data.gov USFWS Science Applications”.</li>
+<li>Select <strong>ScienceCatalog</strong> from the Repository drop-down menu. Enter “<strong>SA Science Catalog</strong>” as the collection title. It is important that the text is entered exactly as written to be included in the Science Catalog.</li>
+<li>Select <strong>data.gov</strong> from the Repository drop-down menu. For the collection title, enter “<strong>Data.gov USFWS Science Applications</strong>”.</li>
 </ol>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../assets/settings_defaults.png" class="img-fluid figure-img"></p>
-<figcaption>Science Applications settings</figcaption>
-</figure>
-</div>
+<p>Once entered in the Settings, these repository options can then be selected for projects and products records to ensure they are properly tag for inclusion in the repositories.</p>
 <div class="callout callout-style-simple callout-note no-icon">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
@@ -711,8 +700,27 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<p><strong>3. Parent Identifier</strong>: Under publishing, enter the ScienceBase identifier for your SA Region’s ScienceBase project folder (see table below) in the “Default Parent Identifier” field.</p>
-<p><img src="../assets/settings_publishing_settings_parentid.png" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/settings_defaults.png" class="img-fluid figure-img"></p>
+<figcaption>Default settings for Science Applications metadata</figcaption>
+</figure>
+</div>
+</section>
+<section id="date-settings" class="level2">
+<h2 class="anchored" data-anchor-id="date-settings">Date Settings</h2>
+<p>Set the <strong>Start Month of Fiscal Year</strong> to <strong>October</strong>.</p>
+</section>
+<section id="publishing-settings" class="level2">
+<h2 class="anchored" data-anchor-id="publishing-settings">Publishing Settings</h2>
+<p>Under <strong>Publishing Settings</strong>, in the <strong>Default Parent Identifier</strong> field, enter the ScienceBase identifier (SBID) for your SA Region.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/settings_publishing_settings_parentid.png" class="img-fluid figure-img"></p>
+<figcaption>Publishing Settings (use the <strong>Parent Identifier</strong> for your Region).</figcaption>
+</figure>
+</div>
+<p>The following table shows each Region’s <strong>Default Parent Identifier</strong>. This is the ScienceBase identifier for each Region’s ‘Project’ folder.</p>
 <table class="table-striped table-hover table-bordered md allborder caption-top table">
 <thead>
 <tr class="header">
@@ -722,60 +730,44 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Region 1</strong></td>
-<td>5b4e1c5ae4b06a6dd17df2d5</td>
-</tr>
-<tr class="even">
-<td><strong>Region 2</strong></td>
-<td>5b6469d3e4b006a11f733900</td>
-</tr>
-<tr class="odd">
-<td><strong>Region 3</strong></td>
-<td>5b6469e5e4b006a11f733902</td>
-</tr>
-<tr class="even">
-<td><strong>Region 4</strong></td>
-<td>5b6469efe4b006a11f733904</td>
-</tr>
-<tr class="odd">
-<td><strong>Region 5</strong></td>
-<td>5b6469f8e4b006a11f733906</td>
-</tr>
-<tr class="even">
-<td><strong>Region 6</strong></td>
-<td>5b646a02e4b006a11f733908</td>
-</tr>
-<tr class="odd">
-<td><strong>Region 7</strong></td>
-<td>5b646a2fe4b006a11f73390c</td>
-</tr>
-<tr class="even">
-<td><strong>Region 8</strong></td>
-<td>5b646a38e4b006a11f73390e</td>
-</tr>
-<tr class="odd">
 <td><strong>Headquarters</strong></td>
-<td>5b646a14e4b006a11f73390a</td>
+<td>6696c783d34ecb78f609f673</td>
+</tr>
+<tr class="even">
+<td><strong>Region 1</strong></td>
+<td>6696c74ad34ecb78f609f66f</td>
+</tr>
+<tr class="odd">
+<td><strong>Region 2</strong></td>
+<td>6696c7b2d34ecb78f609f678</td>
+</tr>
+<tr class="even">
+<td><strong>Region 3</strong></td>
+<td>6696c873d34ecb78f609f67c</td>
+</tr>
+<tr class="odd">
+<td><strong>Region 4</strong></td>
+<td>6696c884d34ecb78f609f680</td>
+</tr>
+<tr class="even">
+<td><strong>Region 5</strong></td>
+<td>66326ad6d34ea70bd5f26d5f</td>
+</tr>
+<tr class="odd">
+<td><strong>Region 6</strong></td>
+<td>6696c92dd34ecb78f609f68b</td>
+</tr>
+<tr class="even">
+<td><strong>Region 7</strong></td>
+<td>645bfe80d34ec179a83822d8</td>
+</tr>
+<tr class="odd">
+<td><strong>Region 8</strong></td>
+<td>6696c89bd34ecb78f609f685</td>
 </tr>
 </tbody>
 </table>
-</section>
-<section id="defaults" class="level2">
-<h2 class="anchored" data-anchor-id="defaults">Defaults</h2>
-<p><strong>Defaults</strong> include settings for <strong>Language</strong>, <strong>Character Set</strong>, <strong>Country</strong>, and the <em>*Import URL</em> *(used for defining the default URL for importing).</p>
-<p>The following defaults will be pre-loaded:</p>
-<ul>
-<li>default language: English</li>
-<li>default character set: UTF-8</li>
-<li>default location: USA</li>
-</ul>
-<p>Also included in <strong>Defaults</strong> are the <strong>Metadata Repositories</strong> (online databases for storing metadata). Once entered in <strong>Settings</strong> these can then be selected for projects and products so that they are flagged to a metadata repository of your choice. See SA Specific Settings for Metadata Repository information above.</p>
-</section>
-<section id="publishing-settings" class="level2">
-<h2 class="anchored" data-anchor-id="publishing-settings">Publishing Settings</h2>
-<p>SA metadata will be published directly to ScienceBase (and from there be sent to the Science Catalog and data.gov).</p>
-<p>In the <strong>Default Parent Identifier</strong>, enter your SA Region’s ScienceBase project folder ScienceBase ID (SBID). <strong>Default Community</strong> and <strong>Default Organization</strong> are free text fields to describe where your Default Parent Identifier is located.</p>
-<p><img src="../assets/settings_publishing_settings_parentid_comm_org.png" class="img-fluid"></p>
+<p><br></p>
 </section>
 <section id="export-settings" class="level2">
 <h2 class="anchored" data-anchor-id="export-settings">Export Settings</h2>
