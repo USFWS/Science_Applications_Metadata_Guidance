@@ -2,11 +2,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.54">
+<meta name="generator" content="quarto-1.5.55">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="THIS SECTION IS UNDER REVIEW FOR FOIA, RECORDS MANAGEMENT, AND PRIVACY POLICY GUIDANCE; MAJOR CHANGES ARE FORTHCOMING.">
 
 <title>Constraints Tab – USFWS Science Applications Metadata Guidance</title>
 <style>
@@ -30,7 +29,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../content/product_records/dictionaries_tab_product.html" rel="next">
+<link href="../../content/product_records/associated_tab_product.html" rel="next">
 <link href="../../content/product_records/distribution_tab_product.html" rel="prev">
 <link href="../../favicon.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
@@ -273,14 +272,20 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../../content/project_records/extent_tab_project.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Extent Tab</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../../content/project_records/taxonomy_tab_project.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Taxonomy Tab</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/project_records/extent_tab_project.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Extent Tab</span></a>
+  <a href="../../content/project_records/associated_tab_project.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Associated Tab</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -293,12 +298,6 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="../../content/project_records/funding_tab_project.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Funding Tab</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../content/project_records/associating_records_project.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Associating Records</span></a>
   </div>
 </li>
       </ul>
@@ -338,12 +337,6 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/product_records/taxonomy_tab_product.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Taxonomy Tab</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="../../content/product_records/extent_tab_product.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Extent Tab</span></a>
   </div>
@@ -352,6 +345,12 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="../../content/product_records/lineage_tab_product.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Lineage Tab</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/product_records/taxonomy_tab_product.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Taxonomy Tab</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -368,8 +367,8 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/product_records/dictionaries_tab_product.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Dictionaries Tab</span></a>
+  <a href="../../content/product_records/associated_tab_product.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Associated Tab</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -380,8 +379,8 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/product_records/associating_records_product.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Associating Records</span></a>
+  <a href="../../content/product_records/dictionaries_tab_product.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dictionaries Tab</span></a>
   </div>
 </li>
       </ul>
@@ -620,8 +619,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#use-limitation" id="toc-use-limitation" class="nav-link active" data-scroll-target="#use-limitation">Use Limitation</a></li>
-  <li><a href="#legal" id="toc-legal" class="nav-link" data-scroll-target="#legal">Legal</a></li>
+  <li><a href="#constraint-type-required" id="toc-constraint-type-required" class="nav-link active" data-scroll-target="#constraint-type-required">Constraint Type <span style="color:#b50909;">(Required)</span></a></li>
+  <li><a href="#use-limitation" id="toc-use-limitation" class="nav-link" data-scroll-target="#use-limitation">Use Limitation</a></li>
+  <li><a href="#legal" id="toc-legal" class="nav-link" data-scroll-target="#legal">Legal</a>
+  <ul class="collapse">
+  <li><a href="#access-constraints-required" id="toc-access-constraints-required" class="nav-link" data-scroll-target="#access-constraints-required">Access Constraints ([<strong>Required</strong>])</a></li>
+  <li><a href="#use-constraints-if-applicable" id="toc-use-constraints-if-applicable" class="nav-link" data-scroll-target="#use-constraints-if-applicable">Use Constraints ([If applicable])</a></li>
+  <li><a href="#other-constraints" id="toc-other-constraints" class="nav-link" data-scroll-target="#other-constraints">Other constraints</a></li>
+  </ul></li>
   <li><a href="#security-constraints" id="toc-security-constraints" class="nav-link" data-scroll-target="#security-constraints">Security Constraints</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/usfws/sciapps_metadata_guidance/edit/main/content/product_records/constraints_tab_product.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/usfws/sciapps_metadata_guidance/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
@@ -635,11 +640,6 @@ ul.task-list li input[type="checkbox"] {
 <p class="subtitle lead">Product Records</p>
 </div>
 
-<div>
-  <div class="description">
-    THIS SECTION IS UNDER REVIEW FOR FOIA, RECORDS MANAGEMENT, AND PRIVACY POLICY GUIDANCE; MAJOR CHANGES ARE FORTHCOMING.
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -654,8 +654,12 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><strong>The Constraint</strong> tab allows you to enter information into the metadata about how the resource can and cannot be used.</p>
-<table class="table-striped table-hover table-bordered table-sm allborder small caption-top table">
+<p>The <strong>Constraint</strong> tab allows you to enter information into the metadata about how the resource can and cannot be used. This section is under review for FOIA, Records Management, and Privacy Policy, so changes may be forthcoming.</p>
+<table class="table-striped table-hover table-bordered md allborder caption-top table">
+<colgroup>
+<col style="width: 68%">
+<col style="width: 31%">
+</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Constraints Tab</th>
@@ -664,20 +668,44 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">Use Limitation</td>
-<td style="text-align: left;">Optional</td>
+<td style="text-align: left;">Constraint Type</td>
+<td style="text-align: left;"><span style="color:#b50909;"><strong>Required</strong></span></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Legal</td>
-<td style="text-align: left;">Required</td>
+<td style="text-align: left;">Use Limitations</td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Security Constraints</td>
-<td style="text-align: left;">Best Practice</td>
+<td style="text-align: left;">Legal</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Access Constraints</td>
+<td style="text-align: left;"><span style="color:#b50909;"><strong>Required</strong></span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Use Constraints</td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Security</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Handling Description</td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Other Constraints</td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
 </tr>
 </tbody>
 </table>
 <p><br></p>
+<section id="constraint-type-required" class="level2">
+<h2 class="anchored" data-anchor-id="constraint-type-required">Constraint Type <span style="color:#b50909;">(Required)</span></h2>
+<p>Select <strong><em>legal</em></strong> from the drop-down list.</p>
+</section>
 <section id="use-limitation" class="level2">
 <h2 class="anchored" data-anchor-id="use-limitation">Use Limitation</h2>
 <p>Identify concerns over how people should or should not use the product.</p>
@@ -698,14 +726,22 @@ Note
 </section>
 <section id="legal" class="level2">
 <h2 class="anchored" data-anchor-id="legal">Legal</h2>
-<ul>
-<li><strong>Access Constraints:</strong> Access constraints are applied to assure the protection of privacy or intellectual property and any special restrictions or limitations on obtaining the resource.</li>
-<li><strong>Use constraints</strong>: How the product should be used.</li>
-<li><strong>Other constraints:</strong> This is a place to put standard disclaimers.</li>
-</ul>
-<p><strong>Access Constraints are limited to Open, Limited Access, Sensitive/Protected, and Restricted</strong></p>
+<section id="access-constraints-required" class="level3" style="color:#b50909;">
+<h3 style="color:#b50909;" class="anchored" data-anchor-id="access-constraints-required">Access Constraints ([<strong>Required</strong>])</h3>
+<p>Access constraints are applied to assure the protection of privacy or intellectual property and any special restrictions or limitations on obtaining the resource.</p>
+</section>
+<section id="use-constraints-if-applicable" class="level3" style="color:#757575;">
+<h3 style="color:#757575;" class="anchored" data-anchor-id="use-constraints-if-applicable">Use Constraints ([If applicable])</h3>
+<p>How the product should be used.</p>
+</section>
+<section id="other-constraints" class="level3">
+<h3 class="anchored" data-anchor-id="other-constraints">Other constraints</h3>
+<p>This is a place to put standard disclaimers.</p>
+<p>Constraints are limited to four categories: <strong>Open</strong>, <strong>Limited Access</strong>, , <strong>Sensitive/Protected</strong> and <strong>Restricted</strong>. git</p>
+<!-- Originally: Open, Limited Access, Sensitive/Protected, and Restricted. --->
 <section id="open-access" class="level4">
 <h4 class="anchored" data-anchor-id="open-access">Open Access</h4>
+<p>For data that is consider Open Access, the <strong><em>licenseUnrestricted</em></strong> and <strong><em>unrestricted</em></strong> options should be selected.</p>
 <p>Data and content created by government employees within the scope of their employment are not subject to domestic copyright protection under <a href="http://www.copyright.gov/title17/92chap1.html#105">17 U.S.C. § 105</a>. Government works are by default in the U.S. Public Domain. If no other open license applies, the following URL should be used in the license field.</p>
 <pre class="text"><code>http://www.usa.gov/publicdomain/label/1.0/</code></pre>
 <p>The default U.S. Public Domain status of U.S. Government Works is limited to the jurisdiction of the United States. A public domain status is applicable internationally for works produced by government employees, by using a worldwide public domain dedication such as <a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons Zero</a>. This assures users of U.S. Government Works that they have full permission to freely use the work internationally. When Creative Commons Zero has been applied, the following URL should be used for in the license field.</p>
@@ -727,9 +763,10 @@ Note
 <h4 class="anchored" data-anchor-id="restricted-access">Restricted Access</h4>
 </section>
 </section>
+</section>
 <section id="security-constraints" class="level2">
 <h2 class="anchored" data-anchor-id="security-constraints">Security Constraints</h2>
-<p>****A place to describe constraints or restrictions pertaining to security of the resource. Choose classification from the drop-down menu. For products without restrictions, best practice is to indicate ‘unclassified’ from the security classification dropdown menu.</p>
+<p>A place to describe constraints or restrictions pertaining to security of the resource. Choose security classification from the drop-down menu. For products without restrictions, best practice is to select <strong><em>unclassified</em></strong> from the menu.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -1320,8 +1357,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../content/product_records/dictionaries_tab_product.html" class="pagination-link" aria-label="Dictionaries Tab">
-        <span class="nav-page-text">Dictionaries Tab</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../content/product_records/associated_tab_product.html" class="pagination-link" aria-label="Associated Tab">
+        <span class="nav-page-text">Associated Tab</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

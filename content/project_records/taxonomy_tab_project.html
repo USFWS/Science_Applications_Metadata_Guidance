@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.54">
+<meta name="generator" content="quarto-1.5.55">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -29,8 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../content/project_records/extent_tab_project.html" rel="next">
-<link href="../../content/project_records/keywords_tab_project.html" rel="prev">
+<link href="../../content/project_records/associated_tab_project.html" rel="next">
+<link href="../../content/project_records/extent_tab_project.html" rel="prev">
 <link href="../../favicon.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
@@ -272,14 +272,20 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../../content/project_records/extent_tab_project.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Extent Tab</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../../content/project_records/taxonomy_tab_project.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Taxonomy Tab</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/project_records/extent_tab_project.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Extent Tab</span></a>
+  <a href="../../content/project_records/associated_tab_project.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Associated Tab</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -292,12 +298,6 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="../../content/project_records/funding_tab_project.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Funding Tab</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../content/project_records/associating_records_project.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Associating Records</span></a>
   </div>
 </li>
       </ul>
@@ -337,12 +337,6 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/product_records/taxonomy_tab_product.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Taxonomy Tab</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="../../content/product_records/extent_tab_product.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Extent Tab</span></a>
   </div>
@@ -351,6 +345,12 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="../../content/product_records/lineage_tab_product.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Lineage Tab</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/product_records/taxonomy_tab_product.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Taxonomy Tab</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -367,8 +367,8 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/product_records/dictionaries_tab_product.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Dictionaries Tab</span></a>
+  <a href="../../content/product_records/associated_tab_product.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Associated Tab</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -379,8 +379,8 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/product_records/associating_records_product.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Associating Records</span></a>
+  <a href="../../content/product_records/dictionaries_tab_product.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dictionaries Tab</span></a>
   </div>
 </li>
       </ul>
@@ -651,7 +651,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Taxonomy is required for projects and strongly recommended for products (where applicable).</p>
+<p>The <strong>Taxonomy</strong> tab allows taxonomic information the species associated with the project or product. Taxonomy is required for projects and strongly recommended for products (if applicable).</p>
 <table class="table-striped table-hover table-bordered md allborder caption-top table">
 <colgroup>
 <col style="width: 52%">
@@ -665,17 +665,21 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><strong>Taxonomy</strong></td>
-<td style="text-align: left;"><span style="color:#936f38;"><strong>Required, if applicable</strong></span></td>
+<td style="text-align: left;"><strong>Taxonomic System</strong></td>
+<td style="text-align: left;"><span style="color:#b50909;"><strong>Required</strong></span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Taxonomic Classification</strong></td>
+<td style="text-align: left;"><span style="color:#b50909;"><strong>Required</strong></span></td>
 </tr>
 </tbody>
 </table>
 <p><br></p>
 <section id="taxonomy" class="level2">
 <h2 class="anchored" data-anchor-id="taxonomy">Taxonomy</h2>
-<p>mdEditor’s new “Taxonomy” section automatically pulls in taxonomic information from ITIS (Integrated Taxonomic Information System – see itis.gov for more information).</p>
+<p>The <strong>Taxonomy</strong> tab automatically pulls in taxonomic information from ITIS (Integrated Taxonomic Information System) a partnership of U.S., Canadian, and Mexican agencies and other taxonomic specialists.</p>
 <div class="callout-info">
-<p>Please note that this functionality in mdEditor is not intended to explore ITIS. It is a tool to add known taxonomic information to your metadata. If you want to explore ITIS, go to itis.gov to find information and then come back to mdEditor with the desired search values.</p>
+<p>Please note that this functionality in mdEditor is not intended to explore ITIS. It is a tool to add known taxonomic information to your metadata. If you want to explore ITIS, go to <a href="https://www.itis.gov/">itis.gov</a> to find information and then come back to mdEditor with the desired search values.</p>
 </div>
 <p>The minimum requirements for valid taxonomy are a Taxonomic System plus one or more taxonomic classifications.</p>
 <section id="add-taxonomic-system" class="level3">
@@ -708,7 +712,7 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>The status of the taxonomic classification is denoted in () after the TSN. ITIS may consider a classification “invalid” if the species was reclassified, for example. It is up to you whether you want to add invalid ITIS classifications to your metadata.</p>
+<p>The status of the taxonomic classification is denoted as (<em>status</em>) after the TSN. ITIS may consider a classification “invalid” if the species was reclassified, for example. It is up to you whether you want to add invalid ITIS classifications to your metadata.</p>
 </div>
 </div>
 <p><img src="../../assets/taxonomy_search_redlegged_frog.png" class="img-fluid"></p>
@@ -756,7 +760,7 @@ Note
 </div>
 <p><img src="../../assets/taxonomy_collection.png" class="img-fluid"></p>
 <p><strong>6.</strong> You can add additional information regarding the taxonomic information if you desire.</p>
-<p><strong>Observers</strong> would be filled out when there were people who actually went in the field/lab and identified species. Here you would lie the people who did that work.</p>
+<p><strong>Observers</strong> would be filled out when there were people who actually went in the field/lab and identified the species. Here you would list the people who did that work.</p>
 <ul>
 <li>General Scope: You can add a description of the range of taxa addressed in the dataset or collection.</li>
 <li>Identification Procedure: You can describe the methods used for taxonomic identification.</li>
@@ -1358,13 +1362,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../content/project_records/keywords_tab_project.html" class="pagination-link" aria-label="Keywords Tab">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Keywords Tab</span>
+      <a href="../../content/project_records/extent_tab_project.html" class="pagination-link" aria-label="Extent Tab">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Extent Tab</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../content/project_records/extent_tab_project.html" class="pagination-link" aria-label="Extent Tab">
-        <span class="nav-page-text">Extent Tab</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../content/project_records/associated_tab_project.html" class="pagination-link" aria-label="Associated Tab">
+        <span class="nav-page-text">Associated Tab</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

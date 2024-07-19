@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "USFWS Science Applications Metadata Guidance",
     "section": "",
-    "text": "This manual describes the requirements and best practices for the creation of high-quality and consistent metadata records for projects and products for USFWS Science Applications (SA) Program. These metadata requirements conform to the standardized metadata format agreed upon by the SA Data Management Working Group and meet USFWS policy requirements for data management. This metadata is aggregated and organized in the SA Science Catalog, where SA projects and products are discoverable, accessible, and usable. 16 July, 2024 This is a working draft that will continue to be edited. Please refresh this manual every time you open it to ensure you are viewing the most recent version. Last updated: 16 July, 2024. If you have questions or concerns regarding this guidance, please contact the FWS SA National Data Steward (sadatasteward@fws.gov) or Blake Massey (blake_massey@fws.gov).",
+    "text": "This manual describes the requirements and best practices for the creation of high-quality and consistent metadata records for projects and products for USFWS Science Applications (SA) Program. These metadata requirements conform to the standardized metadata format agreed upon by the SA Data Management Working Group and meet USFWS policy requirements for data management. This metadata is aggregated and organized in the SA Science Catalog, where SA projects and products are discoverable, accessible, and usable.",
     "crumbs": [
       "Introduction"
     ]
@@ -14,7 +14,7 @@
     "href": "index.html#introduction",
     "title": "USFWS Science Applications Metadata Guidance",
     "section": "",
-    "text": "This manual describes the requirements and best practices for the creation of high-quality and consistent metadata records for projects and products for USFWS Science Applications (SA) Program. These metadata requirements conform to the standardized metadata format agreed upon by the SA Data Management Working Group and meet USFWS policy requirements for data management. This metadata is aggregated and organized in the SA Science Catalog, where SA projects and products are discoverable, accessible, and usable. 16 July, 2024 This is a working draft that will continue to be edited. Please refresh this manual every time you open it to ensure you are viewing the most recent version. Last updated: 16 July, 2024. If you have questions or concerns regarding this guidance, please contact the FWS SA National Data Steward (sadatasteward@fws.gov) or Blake Massey (blake_massey@fws.gov).",
+    "text": "This manual describes the requirements and best practices for the creation of high-quality and consistent metadata records for projects and products for USFWS Science Applications (SA) Program. These metadata requirements conform to the standardized metadata format agreed upon by the SA Data Management Working Group and meet USFWS policy requirements for data management. This metadata is aggregated and organized in the SA Science Catalog, where SA projects and products are discoverable, accessible, and usable.",
     "crumbs": [
       "Introduction"
     ]
@@ -24,7 +24,7 @@
     "href": "index.html#usfws-data-management-integration",
     "title": "USFWS Science Applications Metadata Guidance",
     "section": "USFWS Data Management Integration",
-    "text": "USFWS Data Management Integration\nMetadata is an essential element of the Data Management Lifecycle. Creating metadata is the principal component of the Maintain step. Publishing metadata in an approved repository (e.g., ScienceBase) is crucial to the Access and Archive steps.\nOverall guidance about USFWS Data Management is in the USFWS Data Management Handbook.\n\nMetadata and mdEditor\nThe metadata editing tool used to create and support metadata requirements is mdEditor. This tool was initially developed by the Alaska Data Integration Working Group (ADIwg) and adopted by SA.\nThis manual refers to the creation of SA metadata specifically. If you want information on the creation of other metadata records using mdEditor, or more information in general, please refer to the mdEditor User Manual.",
+    "text": "USFWS Data Management Integration\nMetadata is an essential element of the Data Management Lifecycle. Creating metadata is the principal component of the Maintain step. Publishing metadata in an approved repository (e.g., ScienceBase) is crucial to the Access and Archive steps.\nOverall guidance about USFWS Data Management is in the USFWS Data Management Handbook.\n\nMetadata and mdEditor\nThe metadata editing tool used to create and support metadata requirements is mdEditor. This tool was initially developed by the Alaska Data Integration Working Group (ADIwg) and adopted by SA. The mdEditor application is under constant development. Consequently, there may be some minor discrepancies between screenshots in this guidance and the current version of mdEditor.\nThis manual refers to the creation of SA metadata specifically. If you want information on the creation of other metadata records using mdEditor, or more information in general, please refer to the mdEditor User Manual.",
     "crumbs": [
       "Introduction"
     ]
@@ -44,7 +44,7 @@
     "href": "index.html#how-to-use-this-manual",
     "title": "USFWS Science Applications Metadata Guidance",
     "section": "How to Use this Manual",
-    "text": "How to Use this Manual\nThe recommended way to use this manual is directly accessing the pages from the internet. By doing so, you guarantee you are using the current version. This is a living document and will be updated as needed. The online version will also have the best functionality and graphical display.\nThe mdEditor application is under constant development. Consequently, there may be some minor discrepancies between screenshots in this guidance and the current version of mdEditor.\nIf you’d like to give direct feedback, please consider reporting an issue or submitting edits through a pull request. However, in order to access these functions, you will be required to sign in or create an account with Github.",
+    "text": "How to Use this Manual\nThe recommended way to use this manual is directly accessing the pages from the internet. By doing so, you guarantee you are using the current version. This is a living document and will be updated as needed. The online version will also have the best functionality and graphical display.\nThis is a working draft that will continue to be edited. Please refresh this manual every time you open it to ensure you are viewing the most recent version. Last updated: 19 July, 2024. If you have questions or concerns regarding this guidance, please contact the FWS SA National Data Steward (sadatasteward@fws.gov) or Blake Massey (blake_massey@fws.gov).\nIf you’d like to give direct feedback, please consider reporting an issue or submitting edits through a pull request. However, in order to access these functions, you will be required to sign in or create an account with Github.",
     "crumbs": [
       "Introduction"
     ]
@@ -331,75 +331,169 @@
     "href": "content/metadata_requirements.html",
     "title": "Metadata Requirements",
     "section": "",
-    "text": "Certain metadata fields are required for Project and Product metadata records.\n\nBasic Information\n\n\n\nMetadata Field\nProject Records\nProduct Records\n\n\n\n\nStatus\nRequired*\nRequired*\n\n\nResource Type\n\nRequired\n\n\nPoints of Contact\n\n\n\n\n       Point of Contact\nRequired\nRequired\n\n\n       Custodian\nRequired\nRequired\n\n\n       Administrator\nRequired*\n\n\n\n       Administrative Region\nRequired\nRequired\n\n\n       Principal Investigator\nRequired, if applicable*\nRequired, if applicable*\n\n\n       Co-Principal Investigator\nIf applicable\nIf applicable\n\n\nAbstract\nRequired*\nRequired*\n\n\nStart Date\nRequired*\nIf applicable\n\n\nEnd Date\nRequired*\nRequired*\n\n\n\n* Also required under the ScienceBase 30-day Policy\n\n\n\nCitation Information\n\n\n\nMetadata Field\nProject Records\nProduct Records\n\n\n\n\nTitle\nRequired*\nRequired*\n\n\nAcquisition Date\n\nIf applicable\n\n\nCreation Date\n\nIf applicable\n\n\nDate Updated\n\nIf applicable\n\n\nDate Revised\n\nIf applicable\n\n\nDate Published\n\nIf applicable\n\n\nPrincipal Investigator\nRequired*\nRequired*\n\n\nOnline Resource Name\nIf applicable\nIf applicable\n\n\nOnline Resource URL\nIf applicable\nIf applicable\n\n\nURL Function\nIf applicable\nIf applicable\n\n\nMetadata Identifier\nRequired\nRequired\n\n\nIdentifier Namespace\nRequired\nRequired\n\n\nDOI Identifier\n\nIf applicable\n\n\nDOI Namespace\n\nIf applicable\n\n\n\n* Also required under the ScienceBase 30-day Policy\n\n\n\nMetadata Information\n\n\n\nMetadata Field\nProject Records\nProduct Records\n\n\n\n\nAuthor\nRequired\nRequired\n\n\nPublisher\nRequired\nRequired\n\n\nPoint of Contact\nRequired\nRequired\n\n\nParent Metadata Title\nRequired\nRequired\n\n\nMetadata Identifier\nRequired\nRequired\n\n\nIdentifier Namespace\nRequired\nRequired\n\n\nRepository or Catalog Name\nRequired\nRequired\n\n\nRepository or Catalog Collection Title\nRequired\nRequired\n\n\ndata.gov Catalog Collection Name\n\nIf applicable\n\n\nMaintenance Frequency\n\nIf applicable\n\n\n\n* Also required under the ScienceBase 30-day Policy\n\n\n\nKeywords\n\n\n\nMetadata Field\nProject Records\nProduct Records\n\n\n\n\nISO Topic Category\nRequired\nRequired\n\n\nSA Priority Area\nRequired\nRequired\n\n\nSA Science Topic\nRequired\n\n\n\nConservation Action\nIf applicable\n\n\n\nShared Priority\nIf applicable\n\n\n\nStrategic Habitat Conservation Component\nIf applicable\n\n\n\nTaxonomic Classification (ITIS)\nIf applicable\nIf applicable\n\n\nGeographic Extent\nRequired\nRequired\n\n\nSpatial Reference and Resolution\nIf applicable\nIf applicable\n\n\n\n\n\n\nDistribution Information\n\n\n\nMetadata Field\nProject Records\nProduct Records\n\n\n\n\nDistributor\n\nRequired\n\n\nOnline Transfer Name\n\nIf applicable\n\n\nOnline Transfer URL\n\nIf applicable\n\n\nOnline Transfer Function\n\nIf applicable\n\n\nOnline Transfer Application Profile\n\nIf applicable\n\n\nOnline Transfer Order Process\n\nIf applicable\n\n\nDistribution Format name, version, & compression\n\nIf applicable\n\n\n\n* Also required under the ScienceBase 30-day Policy\n\n\n\nConstraints Information\n\n\n\nMetadata Field\nProject Records\nProduct Records\n\n\n\n\nAccess Constraints\n\nRequired\n\n\nUse Constraints\n\nIf applicable\n\n\nHandling Description\n\nIf applicable\n\n\nOther Constraints\n\nIf applicable\n\n\n\n\n\n\nFunding Information\n\n\n\nMetadata Field\nProject Records\nProduct Records\n\n\n\n\nAward ID\nRequired*\n\n\n\nSub-activity\nRequired\n\n\n\nFunding Code\nRequired\n\n\n\nAmount\nRequired*\n\n\n\nSource\nRequired*\n\n\n\nAllocation\nRequired\n\n\n\nFunding Organization\nRequired\n\n\n\nRecipient Organization\nRequired\n\n\n\nMatching Funds\nIf applicable\n\n\n\nFiscal Year\nRequired*\n\n\n\n\n* Also required under the ScienceBase 30-day Policy \n\n\nContact Information\nCertain metadata fields are required for Individual or Organization contacts.\n\n\n\nMetadata Field\nIndividual\nOrganization\n\n\n\n\nType\nRequired\nRequired\n\n\nIndividual Name\nRequired\n\n\n\nOrganizational Name\n\nRequired\n\n\nPosition Name\nIf applicable\n\n\n\nContact Type\nRequired\nRequired\n\n\nMember Organization\nRequired\n\n\n\nEmail Address\nRequired\nRequired\n\n\nOnline Resource\n\nRequired\n\n\nPhysical Address\nBest practice\nBest practice\n\n\nLogo\n\nOptional",
+    "text": "Certain metadata fields are required for Project and Product metadata records.\n\n\n\n\n\nMetadata Field\nProject Records\nProduct Records\n\n\n\n\nRecord ID\nRequired\nRequired\n\n\nTitle\nRequired*\nRequired*\n\n\nStatus\nRequired*\nRequired*\n\n\nDefault Locale\nRequired\nRequired\n\n\nResource Type\nRequired\nRequired\n\n\nPoints of Contact\n\n\n\n\n       Point of Contact\nRequired\nRequired\n\n\n       Custodian\nRequired\nRequired\n\n\n       Administrator\nRequired*\n\n\n\n       Administrative Region\nRequired\nRequired\n\n\n       Principal Investigator\nRequired, if applicable*\nRequired, if applicable*\n\n\n       Co-Principal Investigator\nIf applicable\nIf applicable\n\n\nCitation\n\n\n\n\n       Title\nRequired*\nRequired*\n\n\n       Acquisition Date\n\nIf applicable\n\n\n       Creation Date\n\nIf applicable\n\n\n       Date Updated\n\nIf applicable\n\n\n       Date Revised\n\nIf applicable\n\n\n       Date Published\n\nIf applicable\n\n\n       Principal Investigator\nRequired*\nRequired*\n\n\n       Online Resource Name\nIf applicable\nIf applicable\n\n\n       Online Resource URL\nIf applicable\nIf applicable\n\n\n       URL Function\nIf applicable\nIf applicable\n\n\n       Metadata Identifier\nRequired\nRequired\n\n\n       Identifier Namespace\nRequired\nRequired\n\n\n       DOI Identifier\n\nIf applicable\n\n\n       DOI Namespace\n\nIf applicable\n\n\nAbstract\nRequired*\nRequired*\n\n\nStart Date\nRequired*\nIf applicable\n\n\nEnd Date\nRequired*\nRequired*\n\n\n\n*Also required under the ScienceBase 30-day Policy\n\n\n\n\n\n\nMetadata Field\nProject Records\nProduct Records\n\n\n\n\nStatus\nRequired\nRequired\n\n\nDates\nRequired\n\n\n\nMetadata Contacts\n\n\n\n\n       Author\nRequired\nRequired\n\n\n       Publisher\nRequired\nRequired\n\n\n       Point of Contact\nRequired\nRequired\n\n\nMetadata Identifier\nRequired\nRequired\n\n\nParent Metadata\nRequired\nRequired\n\n\nMetadata Repositories\nRequired\nRequired\n\n\nMaintenance Frequency\n\nIf applicable\n\n\n\n*Also required under the ScienceBase 30-day Policy\n\n\n\n\n\n\n\nMetadata Field\nProject Records\nProduct Records\n\n\n\n\nISO Topic Category\nRequired\nRequired\n\n\nSA Priority Area\nRequired\nRequired\n\n\nSA Science Topic\nRequired\n\n\n\nConservation Action\nIf applicable\n\n\n\nShared Priority\nIf applicable\n\n\n\nStrategic Habitat Conservation Component\nIf applicable\n\n\n\nTaxonomic Classification (ITIS)\nIf applicable\nIf applicable\n\n\nGeographic Extent\nRequired\nRequired\n\n\nSpatial Reference and Resolution\nIf applicable\nIf applicable\n\n\n\n\n\n\n\n\n\n\nMetadata Field\nProject Records\nProduct Records\n\n\n\n\nExtent\nRequired\nRequired\n\n\n\n\n\n\n\n\n\n\nMetadata Field\nProject Records\nProduct Records\n\n\n\n\nTaxonomic System\nRequired\nRequired, if applicable\n\n\nTaxonomic Classifcation\nRequired\nRequired, if applicable\n\n\n\n\n\n\n\n\n\n\nMetadata Field\nProject Records\nProduct Records\n\n\n\n\nDistributor\n\nRequired\n\n\nOnline Transfer Name\n\nIf applicable\n\n\nOnline Transfer URL\n\nIf applicable\n\n\nOnline Transfer Function\n\nIf applicable\n\n\nOnline Transfer Application Profile\n\nIf applicable\n\n\nOnline Transfer Order Process\n\nIf applicable\n\n\nDistribution Format Name, Version, & Compression\n\nIf applicable\n\n\n\n*Also required under the ScienceBase 30-day Policy\n\n\n\n\n\n\n\nMetadata Field\nProject Records\nProduct Records\n\n\n\n\nConstraint Type\n\nRequired\n\n\nLegal\n\n\n\n\n       Access Constraints\n\nRequired\n\n\n       Use Constraints\n\nIf applicable\n\n\nSecurity\n\n\n\n\n       Handling Description\n\nIf applicable\n\n\n       Other Constraints\n\nIf applicable\n\n\n\n\n\n\n\n\n\n\nMetadata Field\nProject Records\nProduct Records\n\n\n\n\nAward ID\nRequired*\n\n\n\nSub-activity\nRequired\n\n\n\nFunding Code\nRequired\n\n\n\nAmount\nRequired*\n\n\n\nSource\nRequired*\n\n\n\nAllocation\nRequired\n\n\n\nFunding Organization\nRequired\n\n\n\nRecipient Organization\nRequired\n\n\n\nMatching Funds\nIf applicable\n\n\n\nFiscal Year\nRequired*\n\n\n\n\n*Also required under the ScienceBase 30-day Policy",
     "crumbs": [
       "Metadata Requirements"
     ]
   },
   {
-    "objectID": "content/project_records/associating_records_project.html",
-    "href": "content/project_records/associating_records_project.html",
-    "title": "Associating Records",
+    "objectID": "content/metadata_requirements.html#projects-and-products",
+    "href": "content/metadata_requirements.html#projects-and-products",
+    "title": "Metadata Requirements",
+    "section": "",
+    "text": "Certain metadata fields are required for Project and Product metadata records.\n\n\n\n\n\nMetadata Field\nProject Records\nProduct Records\n\n\n\n\nRecord ID\nRequired\nRequired\n\n\nTitle\nRequired*\nRequired*\n\n\nStatus\nRequired*\nRequired*\n\n\nDefault Locale\nRequired\nRequired\n\n\nResource Type\nRequired\nRequired\n\n\nPoints of Contact\n\n\n\n\n       Point of Contact\nRequired\nRequired\n\n\n       Custodian\nRequired\nRequired\n\n\n       Administrator\nRequired*\n\n\n\n       Administrative Region\nRequired\nRequired\n\n\n       Principal Investigator\nRequired, if applicable*\nRequired, if applicable*\n\n\n       Co-Principal Investigator\nIf applicable\nIf applicable\n\n\nCitation\n\n\n\n\n       Title\nRequired*\nRequired*\n\n\n       Acquisition Date\n\nIf applicable\n\n\n       Creation Date\n\nIf applicable\n\n\n       Date Updated\n\nIf applicable\n\n\n       Date Revised\n\nIf applicable\n\n\n       Date Published\n\nIf applicable\n\n\n       Principal Investigator\nRequired*\nRequired*\n\n\n       Online Resource Name\nIf applicable\nIf applicable\n\n\n       Online Resource URL\nIf applicable\nIf applicable\n\n\n       URL Function\nIf applicable\nIf applicable\n\n\n       Metadata Identifier\nRequired\nRequired\n\n\n       Identifier Namespace\nRequired\nRequired\n\n\n       DOI Identifier\n\nIf applicable\n\n\n       DOI Namespace\n\nIf applicable\n\n\nAbstract\nRequired*\nRequired*\n\n\nStart Date\nRequired*\nIf applicable\n\n\nEnd Date\nRequired*\nRequired*\n\n\n\n*Also required under the ScienceBase 30-day Policy\n\n\n\n\n\n\nMetadata Field\nProject Records\nProduct Records\n\n\n\n\nStatus\nRequired\nRequired\n\n\nDates\nRequired\n\n\n\nMetadata Contacts\n\n\n\n\n       Author\nRequired\nRequired\n\n\n       Publisher\nRequired\nRequired\n\n\n       Point of Contact\nRequired\nRequired\n\n\nMetadata Identifier\nRequired\nRequired\n\n\nParent Metadata\nRequired\nRequired\n\n\nMetadata Repositories\nRequired\nRequired\n\n\nMaintenance Frequency\n\nIf applicable\n\n\n\n*Also required under the ScienceBase 30-day Policy\n\n\n\n\n\n\n\nMetadata Field\nProject Records\nProduct Records\n\n\n\n\nISO Topic Category\nRequired\nRequired\n\n\nSA Priority Area\nRequired\nRequired\n\n\nSA Science Topic\nRequired\n\n\n\nConservation Action\nIf applicable\n\n\n\nShared Priority\nIf applicable\n\n\n\nStrategic Habitat Conservation Component\nIf applicable\n\n\n\nTaxonomic Classification (ITIS)\nIf applicable\nIf applicable\n\n\nGeographic Extent\nRequired\nRequired\n\n\nSpatial Reference and Resolution\nIf applicable\nIf applicable\n\n\n\n\n\n\n\n\n\n\nMetadata Field\nProject Records\nProduct Records\n\n\n\n\nExtent\nRequired\nRequired\n\n\n\n\n\n\n\n\n\n\nMetadata Field\nProject Records\nProduct Records\n\n\n\n\nTaxonomic System\nRequired\nRequired, if applicable\n\n\nTaxonomic Classifcation\nRequired\nRequired, if applicable\n\n\n\n\n\n\n\n\n\n\nMetadata Field\nProject Records\nProduct Records\n\n\n\n\nDistributor\n\nRequired\n\n\nOnline Transfer Name\n\nIf applicable\n\n\nOnline Transfer URL\n\nIf applicable\n\n\nOnline Transfer Function\n\nIf applicable\n\n\nOnline Transfer Application Profile\n\nIf applicable\n\n\nOnline Transfer Order Process\n\nIf applicable\n\n\nDistribution Format Name, Version, & Compression\n\nIf applicable\n\n\n\n*Also required under the ScienceBase 30-day Policy\n\n\n\n\n\n\n\nMetadata Field\nProject Records\nProduct Records\n\n\n\n\nConstraint Type\n\nRequired\n\n\nLegal\n\n\n\n\n       Access Constraints\n\nRequired\n\n\n       Use Constraints\n\nIf applicable\n\n\nSecurity\n\n\n\n\n       Handling Description\n\nIf applicable\n\n\n       Other Constraints\n\nIf applicable\n\n\n\n\n\n\n\n\n\n\nMetadata Field\nProject Records\nProduct Records\n\n\n\n\nAward ID\nRequired*\n\n\n\nSub-activity\nRequired\n\n\n\nFunding Code\nRequired\n\n\n\nAmount\nRequired*\n\n\n\nSource\nRequired*\n\n\n\nAllocation\nRequired\n\n\n\nFunding Organization\nRequired\n\n\n\nRecipient Organization\nRequired\n\n\n\nMatching Funds\nIf applicable\n\n\n\nFiscal Year\nRequired*\n\n\n\n\n*Also required under the ScienceBase 30-day Policy",
+    "crumbs": [
+      "Metadata Requirements"
+    ]
+  },
+  {
+    "objectID": "content/metadata_requirements.html#contacts",
+    "href": "content/metadata_requirements.html#contacts",
+    "title": "Metadata Requirements",
+    "section": "Contacts",
+    "text": "Contacts\nCertain metadata fields are required for Individual or Organization contacts.\n\nContacts Information\n\n\n\nMetadata Field\nIndividual\nOrganization\n\n\n\n\nType\nRequired\nRequired\n\n\nIndividual Name\nRequired\n\n\n\nOrganizational Name\n\nRequired\n\n\nPosition Name\nIf applicable\n\n\n\nContact Type\nRequired\nRequired\n\n\nMember Organization\nRequired\n\n\n\nEmail Address\nRequired\nRequired\n\n\nOnline Resource\n\nRequired\n\n\nPhysical Address\nBest practice\nBest practice\n\n\nLogo\n\nOptional",
+    "crumbs": [
+      "Metadata Requirements"
+    ]
+  },
+  {
+    "objectID": "content/project_records/project_records_overview.html",
+    "href": "content/project_records/project_records_overview.html",
+    "title": "Project Records: Overview",
+    "section": "",
+    "text": "This section will cover how to create a metadata record for an SA project.",
+    "crumbs": [
+      "Project Records"
+    ]
+  },
+  {
+    "objectID": "content/project_records/project_records_overview.html#before-you-begin",
+    "href": "content/project_records/project_records_overview.html#before-you-begin",
+    "title": "Project Records: Overview",
+    "section": "Before You Begin",
+    "text": "Before You Begin\n\n1. Check mdEditor Settings\nIn the Default settings make sure Metadata Repositories includes “SA Science Catalog” and “data.gov”.\nIn the Publishing settings, under the Default Parent Identifier: ensure you entered your Region’s Parent Identifier from the table below.\n\n\n\nUSFWS Region\nParent Identifier\n\n\n\n\nHeadquarters\n6696c783d34ecb78f609f673\n\n\nRegion 1\n6696c74ad34ecb78f609f66f\n\n\nRegion 2\n6696c7b2d34ecb78f609f678\n\n\nRegion 3\n6696c873d34ecb78f609f67c\n\n\nRegion 4\n6696c884d34ecb78f609f680\n\n\nRegion 5\n66326ad6d34ea70bd5f26d5f\n\n\nRegion 6\n6696c92dd34ecb78f609f68b\n\n\nRegion 7\n645bfe80d34ec179a83822d8\n\n\nRegion 8\n6696c89bd34ecb78f609f685\n\n\n\n\n\n\n2. Select the “Project” profile\nAfter initially creating your project record, but before you begin adding metadata, select the metadata record’s profile type. In the main menu’s Profile drop-down options, select “Project”. This will limit the number of available tabs and only show tabs that contain fields that are applicable to project metadata.\n\n\n\nAfter selecting the Project profile, only the relevant tabs will be displayed.\n\n\n\n\n\n3. Ensure your Contacts are loaded into mdEditor\nIn mdEditor, contacts are created separately from individual records and then stored within a library in mdEditor. Once contacts have been entered or imported into mdEditor, they can be used in any metadata records.\nTo reduce unnecessary duplication of contacts, SA has a “seed list” of contacts that include government agencies and partners that are often affiliated with USFWS projects and products SA ScienceBase Community. item page\n\n\n\n\n\n\nWarning\n\n\n\nYou should maintain a single list of your contacts. Having duplicate copies of the same contact is not desirable. It can create confusion as you edit and manage your metadata records and introduce unnecessary errors.",
+    "crumbs": [
+      "Project Records"
+    ]
+  },
+  {
+    "objectID": "content/project_records/project_records_overview.html#edit-a-project",
+    "href": "content/project_records/project_records_overview.html#edit-a-project",
+    "title": "Project Records: Overview",
+    "section": "Edit a Project",
+    "text": "Edit a Project\n\nImport or create your Project record (see workflow).\nPick “project” as the Resource Type\nSelect the Project Profile: from the Main Menu (Top Navigation Bar) select “Project” from the profile drop-down menu.\nFill out metadata information for the following tabs:\n      Main Tab\n      Metadata Tab\n      Keywords Tab\n      Taxonomy Tab\n      Extent Tab\n      Documents Tab\n      Funding Tab\n\nIf applicable, the Associated Tab allow your project to be associated with other metadata records.",
+    "crumbs": [
+      "Project Records"
+    ]
+  },
+  {
+    "objectID": "content/project_records/main_tab_project.html",
+    "href": "content/project_records/main_tab_project.html",
+    "title": "Main Tab",
+    "section": "",
+    "text": "The Main tab allows for the creation and/or editing of primary metadata.",
+    "crumbs": [
+      "Project Records",
+      "Main Tab"
+    ]
+  },
+  {
+    "objectID": "content/project_records/main_tab_project.html#basic-information",
+    "href": "content/project_records/main_tab_project.html#basic-information",
+    "title": "Main Tab",
+    "section": "Basic Information",
+    "text": "Basic Information\n\nRecord ID (Required)\nThe Record ID will be auto-generated. It can be edited but it should only be edited if absolutely necessary (and ideally edited as soon as the record is created in mdEditor).\n\n\nTitle (Required)\nEnter a concise, yet informative Title. Good titles, when they appear in a search, will be understood and traceable.\n\n\nStatus (Required)\nThe Status drop-down menu allows you to select the status of your project. Choose a status from only these four options: accepted, completed, onGoing, or proposed.",
+    "crumbs": [
+      "Project Records",
+      "Main Tab"
+    ]
+  },
+  {
+    "objectID": "content/project_records/main_tab_project.html#default-locale-required",
+    "href": "content/project_records/main_tab_project.html#default-locale-required",
+    "title": "Main Tab",
+    "section": "Default Locale (Required)",
+    "text": "Default Locale (Required)\nDefault Locale allows for the selection of Language, Character Set, and Country. English, UTF-8, and USA will be selected by default, but you may change them if necessary. See Settings for instruction.",
+    "crumbs": [
+      "Project Records",
+      "Main Tab"
+    ]
+  },
+  {
+    "objectID": "content/project_records/main_tab_project.html#resource-types-required",
+    "href": "content/project_records/main_tab_project.html#resource-types-required",
+    "title": "Main Tab",
+    "section": "Resource Types (Required)",
+    "text": "Resource Types (Required)\nFor projects, the Resource Type should be automatically filled in with the resource type you selected when you created your record. This should be “project” for all SA projects. Name is optional - you can leave this blank or enter a shorten project name.",
+    "crumbs": [
+      "Project Records",
+      "Main Tab"
+    ]
+  },
+  {
+    "objectID": "content/project_records/main_tab_project.html#point-of-contacts-required",
+    "href": "content/project_records/main_tab_project.html#point-of-contacts-required",
+    "title": "Main Tab",
+    "section": "Point of Contacts (Required)",
+    "text": "Point of Contacts (Required)\nAdding a Point of Contact gives users information on who to contact should they have a question regarding your project or product.\n\n\n\n\n\n\nNote\n\n\n\nTo add contacts to a metadata record, you must first create/upload the contacts into mdEditor. See the Contact Records Section for more information.\n\n\n\n\n\n\n\n\n\n\nRole\nContact\nRequirements\n\n\n\n\npointOfContact\nFWS Science Applications National Data Steward\nRequired\n\n\npointOfContact\nData Steward\nRequired\n\n\nprincipalInvestigator\nProject Principal Investigator and/or Producer\nRequired, if applicable\n\n\ncustodian\nData Custodian\nRequired, if applicable\n\n\nowner\nData Trustee\nRequired\n\n\nadministrator\nProject Officer, if not the Steward\nRequired\n\n\nadministrator\nFWS Region (legacy and DOI Unified), FWS Program\nRequired\n\n\ncollaborator\nPartnership Organizations and/or Programs\nRequired, if applicable\n\n\n\n\n\n\n\nExample Points of Contact Entry in mdEditor\n\n\n\n\n\n\n\n\nNote\n\n\n\nThe FWS Science Applications National Data Steward will serve as the long term contact and backup. This way, users have a point-of-contact even if there is a positional change within an organization. Regional Data Steward should be included in addition as a point of contact, if available.",
+    "crumbs": [
+      "Project Records",
+      "Main Tab"
+    ]
+  },
+  {
+    "objectID": "content/project_records/main_tab_project.html#citation",
+    "href": "content/project_records/main_tab_project.html#citation",
+    "title": "Main Tab",
+    "section": "Citation",
+    "text": "Citation\nThe Citation describes pertinent information about your project such as: responsible parties, internal and ScienceBase identifiers, and any online resources that may relate to your item. The citation, much like a peer-reviewed publication citation, provides credit and services as a reference citation. Adding information in the citation will also improve users’ ability to find your items.\n\nTitle (Required)\nThe citation Title is automatically populated with the title of your record.\n\n\nAlternate Title\nYou can add an Alternate Title, if desired. Generally these should be shorter than the full Title.\n\n\nDates (Required)\nEnter Dates for acquisition, creation, updated, or revision from the pick list and then enter the date, at least one  of these date types is required.\n\n\nResponsible Parties (Required)\nResponsible parties must include the principal investigator of the project, but may optionally include other responsible parties such as funders (your region and program), partners, collaborators, and contributors. Collaborators could be intellectual participants while contributors could be intellectual and financial participants.\n\n\n\n\n\n\nNote\n\n\n\nTo add contacts to a metadata record, you must first create/upload the contacts in mdEditor. See the Contacts section for more information.\n\n\n\n\n\n\n\n\n\n\nRole\nContact\nRequirements\n\n\n\n\nprincipalInvestigator\nProject Principal Investigator\nRequired\n\n\ncoPrincipalInvestigator\nCo-Investigators\nRequired, if applicable\n\n\n\n\n\n\nOnline Resource\nEnter the Name and URL for the project homepage website, if available.\n\n\nIdentifier (Required)\nYou may enter as many Identifiers as desired. The identifier for the repository is required here. If you have other internal IDs for projects, enter them here. Other optional identifiers for projects include: Archive Folder Name.\n\n\n\n\n\n\nBest Practice\n\n\n\nCreate and use internal identifiers that are unique within your region or program for projects and their products. Example: GNLCC2010-11.\n\n\n\n\n\n\n\n\nNote\n\n\n\nIf your item does not have a ScienceBase ID yet, ScienceBase will create one automatically upon publishing. If you imported your item from ScienceBase originally, then the SBID will already be included in Metadata/Metadata Identifier and you do not need to include it here. Note that if you edit an item that is already on ScienceBase without using its existing ID, a duplicate item will be created on ScienceBase. Consult the Publish section of this manual to learn more.\n\n\n\n\n\nExample Citation in mdEditor",
+    "crumbs": [
+      "Project Records",
+      "Main Tab"
+    ]
+  },
+  {
+    "objectID": "content/project_records/main_tab_project.html#description",
+    "href": "content/project_records/main_tab_project.html#description",
+    "title": "Main Tab",
+    "section": "Description",
+    "text": "Description\n\nAbstract (Required)\nEnter an Abstract that succinctly describes the project’s purpose and goals. Include key species or habitats as well.\n\n\n\n\n\n\nTip\n\n\n\nWrite your project abstract in the present tense if the project is in progress and past tense if the project has been completed.\n\n\n\n\nShort Abstract\nFor the Short Abstract enter a short description, limited to 300 characters, if desired. By default, mdEditor will fill the short abstract with the first 300 characters of the Abstract. Best practice is to write this abstract for public outreach, such as use by Office of Communications.\n\n\nPurpose\nThe Purpose should be a short narrative about the issue or problem that the resource is designed to address and anticipated results or benefits.\n\n\nSupplemental Information\nFor the Supplemental Information enter comments, if desired.\n\n\n\nExample Abstract entry in mdEditor",
+    "crumbs": [
+      "Project Records",
+      "Main Tab"
+    ]
+  },
+  {
+    "objectID": "content/project_records/main_tab_project.html#time-period",
+    "href": "content/project_records/main_tab_project.html#time-period",
+    "title": "Main Tab",
+    "section": "Time Period",
+    "text": "Time Period\n\nDates (Required)\nFor each project, add a Start Date and End Date. If the project spanned a single fiscal year, you can use the “Pick a Fiscal Year” drop-down to autofill the date fields.\n\n\n\n\n\n\nNote\n\n\n\nThis set of dates is distinct from the fiscal year of funding. Here you want to indicate the overall project start and end dates. In the Funding section you will specify the fiscal years that funds were allocated.\n\n\n\n\n\nExample Project Start and End Dates entry in mdEditor",
+    "crumbs": [
+      "Project Records",
+      "Main Tab"
+    ]
+  },
+  {
+    "objectID": "content/project_records/associated_tab_project.html",
+    "href": "content/project_records/associated_tab_project.html",
+    "title": "Associated Tab",
     "section": "",
     "text": "The Associated section is used to connect metadata records with each other. This feature should be used when items are related, for example, products are often the result of projects, and projects often have sub-projects. Projects and Products can be linked together by using association. Adding associations gives users the ability to find items that relate to each other in the Science Catalog.",
     "crumbs": [
       "Project Records",
-      "Associating Records"
+      "Associated Tab"
     ]
   },
   {
-    "objectID": "content/project_records/associating_records_project.html#create-associations",
-    "href": "content/project_records/associating_records_project.html#create-associations",
-    "title": "Associating Records",
+    "objectID": "content/project_records/associated_tab_project.html#create-associations",
+    "href": "content/project_records/associated_tab_project.html#create-associations",
+    "title": "Associated Tab",
     "section": "Create Associations",
     "text": "Create Associations\nIn mdEditor, associations can be created from the Project record or the Product record. The “Association Type” will define the association from your current record to the linked record. Specifying the “Linked Association Type” will create the association from the other direction.\n\n\n\n\n\n\nNote\n\n\n\nImportant: It is recommended you ALWAYS specify the Linked Association Type when you create associations. This will ensure the associations are defined from both directions and be present in the metadata no matter how the metadata is translated or where it is used in the future.\n\n\nIf you import records from ScienceBase, the record associations might be automatically created, but sometimes associations may need to be created manually (as described below). Associations can only be made after both project and product records have been created or imported into mdEditor.\n\n\n\n\n\n\nQuick Reference: Creating an Association in a Project Record\n\n\n\n\n1. Select “product” from the Association Type drop-down menu.\n\n\n2. Use the Select a Record button to select an associated product.\n\n\n3. Choose the product that you would like to associate from the “Select a Resource” list.\n\n\n4. Fill out the Linked Association Type with “parentProject.”\n\n\n\n\n\nStep-by-Step: Creating an Association in a Project Record\nStep 1: Select “product” from the Association Type drop-down menu. This field will describe the relationship from the associated record to the project record (the associated record is the product of the project record you are editing).\n\nStep 2: Click the “Select a Record” button to select an associated product.\n\nStep 3: Choose the product that you would like to associate from the Select a Resource list.\n\nStep 4: Fill out the Linked Association Type with “parentProject.”",
     "crumbs": [
       "Project Records",
-      "Associating Records"
-    ]
-  },
-  {
-    "objectID": "content/project_records/documents_tab_project.html",
-    "href": "content/project_records/documents_tab_project.html",
-    "title": "Documents Tab",
-    "section": "",
-    "text": "The Documents tab is where you can add references to resources that relate to your project but do not define or describe the project. These can include videos, webinars, books, posters, web pages, news releases, etc. This should not include links to the project or its products. An example document could be a report for a workshop that inspired the project.\nThere are no specific requirements or best practices for documents.\n\n\n\n\n\n\nNote\n\n\n\nScienceBase has a similar section called “weblinks.” These will be populated in the Documents section if sbJSON is imported into mdEditor.\n\n\nFor more information, consult the Documents section of the mdEditor manual.",
-    "crumbs": [
-      "Project Records",
-      "Documents Tab"
-    ]
-  },
-  {
-    "objectID": "content/project_records/extent_tab_project.html",
-    "href": "content/project_records/extent_tab_project.html",
-    "title": "Extent Tab",
-    "section": "",
-    "text": "Extent refers to geographic boundaries for your project. Spatial extents lets users see at a glance the geographic footprint of your project and allows searching within specific geographic areas.",
-    "crumbs": [
-      "Project Records",
-      "Extent Tab"
-    ]
-  },
-  {
-    "objectID": "content/project_records/extent_tab_project.html#creating-extents",
-    "href": "content/project_records/extent_tab_project.html#creating-extents",
-    "title": "Extent Tab",
-    "section": "Creating Extents",
-    "text": "Creating Extents\nThere are multiple ways to create a spatial extent for your project.\nClicking the Edit Extent Features button allows for the addition of Feature Properties such as: ID, Name, or Description. You can draw a polygon or a bounding box in the initial window.\nYou can export spatial extents and re-use for other records using the import feature button or by dragging and dropping onto the map.\nExtents are limited to 5000 vertices. Recommend you create only simple polygons or bounding boxes. If you want greater detail, attach high-definition shapefiles instead of trying to draw them.\nExtents should be accurate enough for searching purposes, but remember that they are metadata, not data.\n\nOption 1: Import Spatial Features\nSpatial features such as geoJSON, shapefiles, and kml can be imported. However, file attributes (such as name and description), will not be imported and must be added manually.\nFor projects without a specific extent, you can use the FWS regional geography. Projects should have custom extents when it is relevant to the scope of the project. Remember, these extents will be used for search and discovery purposes. geoJSON files for all FWS regional and state geographies are available on ScienceBase (private DMWG folder that requires ScienceBase login). Download the relevant files and then import into mdEditor.\n\n\n\n\n\n\nNote\n\n\n\nImportant: coordinates used must be geographic coordinates, not projected coordinates. {% endhint %}\n\n\n\n\nOption 2: Draw Spatial Features\n\n\n\n\n\n\nNote\n\n\n\nTip: It is easier to click “finish” when drawing a polygon instead of trying to close the polygon by clicking on the first point.\n\n\n\n\nOption 3: Draw Bounding Box\n\n\n\n\n\n\nTip\n\n\n\nmdEditor can automatically calculate a bounding box if you have at least one extent in the metadata.\n\n\n\n\n\nExample Geographic Extent entry\n\n\n\n\n\n\n\n\nWarning\n\n\n\nBounding boxes will not work across the dateline but you can have more than one extent per project. If your project area crosses the dateline, split the area into multiple extents and create separate bounding boxes.",
-    "crumbs": [
-      "Project Records",
-      "Extent Tab"
-    ]
-  },
-  {
-    "objectID": "content/project_records/extent_tab_project.html#saving-and-exporting-extents",
-    "href": "content/project_records/extent_tab_project.html#saving-and-exporting-extents",
-    "title": "Extent Tab",
-    "section": "Saving and Exporting Extents",
-    "text": "Saving and Exporting Extents\n\n\n\n\n\n\nNote\n\n\n\nTip: You can export, save, and import an extent to use for other projects or products.",
-    "crumbs": [
-      "Project Records",
-      "Extent Tab"
+      "Associated Tab"
     ]
   },
   {
@@ -418,7 +512,7 @@
     "href": "content/project_records/metadata_tab_project.html#basic-information",
     "title": "Metadata Tab",
     "section": "Basic Information",
-    "text": "Basic Information\n\nMetadata Status\nSelect the appropriate status of the creation of your metadata from the drop down menu. For example, if you have added all of your metadata, select completed. If you still have metadata to add, select onGoing.\n\n\nDates\nAdd at least one Date is required. Recommended are creation (when you first created your metadata) and lastUpdate (when you updated metadata after initial publication).",
+    "text": "Basic Information\n\nMetadata Status (Required)\nSelect the appropriate Status of the creation of your metadata from the drop down menu. For example, if you have added all of your metadata, select completed. If you still have metadata to add, select onGoing.\n\n\nDates (Required)\nAt least one Date is required. Recommended are creation (when you first created your metadata) and lastUpdate (when you updated metadata after initial publication).",
     "crumbs": [
       "Project Records",
       "Metadata Tab"
@@ -429,7 +523,7 @@
     "href": "content/project_records/metadata_tab_project.html#metadata-contacts",
     "title": "Metadata Tab",
     "section": "Metadata Contacts",
-    "text": "Metadata Contacts\nMetadata Contacts are required. Adding a metadata contact will give users a contact point should they have any questions about the metadata.\n\n\n\n\n\n\n\n\nRole\nContact\nRequirements\n\n\n\n\nauthor\nSee Notes Below\nRequired\n\n\npublisher\nDefault is USFWS\nRequired\n\n\npointOfContact\nSA Data Steward\nRequired\n\n\n\n\n\nMetadata Contact Notes:\n\nThe author should be an individual and can be a generic data manager.\nIn most cases, the author will be the data manager, but could be anyone, including someone outside of FWS (e.g., imported FGDC metadata can list the original author).\nPublisher can also include the FWS region and/or program.\nThe point of contact should be a regional or national data steward.\n\n\n\n\nExample Metadata Contacts entry",
+    "text": "Metadata Contacts\n\nContacts (Required)\nThese Contacts (person or role) will provide a point of contact for users to reach out to should they have any questions about the metadata. The following table shows the required contact roles.\n\n\n\n\n\n\n\n\nRole\nContact\nRequirements\n\n\n\n\nauthor\nSee Notes Below\nRequired\n\n\npublisher\nDefault is USFWS\nRequired\n\n\npointOfContact\nSA Data Steward\nRequired\n\n\n\n\nMetadata Contact Notes:\n\nThe author should be an individual and can be a generic data manager.\nIn most cases, the author will be the data manager, but could be anyone, including someone outside of FWS (e.g., imported FGDC metadata can list the original author).\nPublisher can also include the FWS Region and/or Program.\nThe point of contact should be a Regional or National Data Steward.",
     "crumbs": [
       "Project Records",
       "Metadata Tab"
@@ -440,7 +534,7 @@
     "href": "content/project_records/metadata_tab_project.html#metadata-identifier",
     "title": "Metadata Tab",
     "section": "Metadata Identifier",
-    "text": "Metadata Identifier\nThe Metadata Identifier is automatically populated by mdEditor. The metadata identifier gives each of your projects and products a unique ID and differentiates them from other similar projects and products. Digital Object Identifiers are not needed for Projects.\n\nIf the record was imported from ScienceBase, the Metadata Identifier will be auto-populated with the ScienceBase ID (SBID).\nIf the record was created in mdEditor, it will generate a universally unique identifier (UUID).\n\n\n\n\n\n\n\nWarning\n\n\n\nOnce a Metadata Identifier is created in the metadata, do not change it. mdEditor uses the Metadata Identifier to connect records and changing the Metadata Identifier can break those connections. If there are additional identifiers you want to include in your metadata record, include them in Main/Citation/Identifier.\n\n\n\n\n\nmdEditor Metadata auto-generated identifier entry",
+    "text": "Metadata Identifier\n\nMetadata Identifier (Required)\nThe Identifier is automatically populated by mdEditor. The metadata identifier gives each of your projects and products a unique ID and differentiates them from other similar projects and products. Digital Object Identifiers are not needed for Projects.\n\nIf the record was imported from ScienceBase, the Metadata Identifier will be auto-populated with the ScienceBase ID (SBID).\nIf the record was created in mdEditor, it will generate a universally unique identifier (UUID).\n\n\n\n\nmdEditor Metadata auto-generated identifier entry\n\n\n\n\n\n\n\n\nWarning\n\n\n\nOnce a Metadata Identifier is created in the metadata, do not change it. mdEditor uses the Metadata Identifier to connect records and changing the Metadata Identifier can break those connections. If there are additional identifiers you want to include in your metadata record, include them in the Citation Identifier.",
     "crumbs": [
       "Project Records",
       "Metadata Tab"
@@ -451,7 +545,7 @@
     "href": "content/project_records/metadata_tab_project.html#parent-metadata",
     "title": "Metadata Tab",
     "section": "Parent Metadata",
-    "text": "Parent Metadata\nParent Metadata tells mdEditor where the project metadata should go when it is published. If using ScienceBase, this is the folder above the project by default.\nIf you imported the project metadata from ScienceBase originally, this section will be populated already.\nIf you created the project metadata from scratch in mdEditor, this will be blank. If you provide a default parent ID in Settings (Publishing Settings for ScienceBase), this will be generated for you when when you publish. This is most likely your SA regional project folder. You can enter the parent item SBID directly in your individual metadata record if you wish.\n\nParent Metadata Required Fields:\n\nTitle (Required)\nIf this is not already populated, you can enter something like “Parent folder.”\n\n\nIdentifier and namespace (Required)\nDefines the location of the parent folder in ScienceBase.\n\n\n\nIdentifier\nNamespace\n\n\n\n\nScienceBase identifier for the parent item\nscienceBase\n\n\n\n\nThe ScienceBase identifier is the alphanumeric string in the item’s URL immediately following “item/“. For example, 59b97600e4b091459a54d9f3c is the SBID for the item at the URL: https://www.sciencebase.gov/catalog/item/59b97600e4b091459a54d9f3c\n\n\n\n\nExample ScienceBase Parent Metadata entry",
+    "text": "Parent Metadata\nParent Metadata tells mdEditor where the project metadata should go when it is published. If using ScienceBase, this is the folder above the project by default.\nIf you imported the project metadata from ScienceBase originally, this section will be populated already.\nIf you created the project metadata from scratch in mdEditor, this will be blank. If you provide a default parent ID in Settings (Publishing Settings for ScienceBase), this will be generated for you when when you publish. This is most likely your SA regional project folder. You can enter the parent item SBID directly in your individual metadata record if you wish.\n\nTitle (Required)\nIf the Title is not already populated, you can enter something like “Parent folder.”\n\n\nIdentifier and Namespace (Required)\nThe Identifier and Namespace defines the location of the parent folder in ScienceBase.\n\n\n\nIdentifier\nNamespace\n\n\n\n\nScienceBase identifier for the parent item\nscienceBase\n\n\n\n\nThe ScienceBase identifier is the alphanumeric string in the item’s URL immediately following “item/“. For example, 59b97600e4b091459a54d9f3c is the SBID for the item at the URL: https://www.sciencebase.gov/catalog/item/59b97600e4b091459a54d9f3c\n\n\n\n\nExample ScienceBase Parent Metadata entry",
     "crumbs": [
       "Project Records",
       "Metadata Tab"
@@ -462,7 +556,7 @@
     "href": "content/project_records/metadata_tab_project.html#metadata-repositories",
     "title": "Metadata Tab",
     "section": "Metadata Repositories",
-    "text": "Metadata Repositories\nMetadata Repositories indicate where the metadata will be sent upon publishing.\n\nSA Science Catalog\nFor projects that should be listed in the SA Science Catalog: Select “ScienceCatalog” from the repository list. “SA Science Catalog” should automatically show up as the collection title. If the collection title does not appear, stop and enter the correct information in Settings. Then select the repository for your project. Projects without the correct tag and collection title will not show up in the Science Catalog.\n\nThe Metadata Repository and Collection Title must be exactly the same for each of your records with no variations in spelling, spaces, capitalization, etc. Specifying this information in Settings is the best way to ensure the repository information will be consistent across all of your records. It strongly recommended that you do not type these in by hand on individual metadata records.\n\n\nYou should only use the data.gov repository for data products such as datasets, GIS data, etc. Data.gov does not include reports, presentations, or other documents nor are projects sent to data.gov.\n\n\n\n\nExample SA Science Catalog Metadata entry",
+    "text": "Metadata Repositories\n\nRepositories (Required)\nThe metadata Repositories indicate where the metadata will be sent upon publishing.\nFor projects that should be listed in the SA Science Catalog:\n\nSelect ”ScienceCatalog” from the repository list. ”SA Science Catalog” should automatically show up as the collection title.\nIf the Collection Title does not appear, stop and enter the correct information in Settings. Then select the repository for your project.\n\nProjects without the correct Repository and Collection Title will not show up in the SA Science Catalog.\n\n\n\nExample SA Science Catalog Metadata entry\n\n\n\n\n\n\n\n\nWarning\n\n\n\nThe Repository and Collection Title must be exactly the same for each of your records with no variations in spelling, spaces, capitalization, etc. Specifying this information in Settings is the best way to ensure the repository information will be consistent across all of your records. It strongly recommended that you avoid typing these in by hand on individual metadata records.\n\n\n\n\n\n\n\n\nNote\n\n\n\nYou should only use the data.gov repository for data products such as datasets, GIS data, etc. Data.gov does not include reports, presentations, or other documents nor are projects sent to data.gov.",
     "crumbs": [
       "Project Records",
       "Metadata Tab"
@@ -912,7 +1006,18 @@
     "href": "content/product_records/constraints_tab_product.html",
     "title": "Constraints Tab",
     "section": "",
-    "text": "The Constraint tab allows you to enter information into the metadata about how the resource can and cannot be used.",
+    "text": "The Constraint tab allows you to enter information into the metadata about how the resource can and cannot be used. This section is under review for FOIA, Records Management, and Privacy Policy, so changes may be forthcoming.",
+    "crumbs": [
+      "Product Records",
+      "Constraints Tab"
+    ]
+  },
+  {
+    "objectID": "content/product_records/constraints_tab_product.html#constraint-type-required",
+    "href": "content/product_records/constraints_tab_product.html#constraint-type-required",
+    "title": "Constraints Tab",
+    "section": "Constraint Type (Required)",
+    "text": "Constraint Type (Required)\nSelect legal from the drop-down list.",
     "crumbs": [
       "Product Records",
       "Constraints Tab"
@@ -934,7 +1039,7 @@
     "href": "content/product_records/constraints_tab_product.html#legal",
     "title": "Constraints Tab",
     "section": "Legal",
-    "text": "Legal\n\nAccess Constraints: Access constraints are applied to assure the protection of privacy or intellectual property and any special restrictions or limitations on obtaining the resource.\nUse constraints: How the product should be used.\nOther constraints: This is a place to put standard disclaimers.\n\nAccess Constraints are limited to Open, Limited Access, Sensitive/Protected, and Restricted\n\nOpen Access\nData and content created by government employees within the scope of their employment are not subject to domestic copyright protection under 17 U.S.C. § 105. Government works are by default in the U.S. Public Domain. If no other open license applies, the following URL should be used in the license field.\nhttp://www.usa.gov/publicdomain/label/1.0/\nThe default U.S. Public Domain status of U.S. Government Works is limited to the jurisdiction of the United States. A public domain status is applicable internationally for works produced by government employees, by using a worldwide public domain dedication such as Creative Commons Zero. This assures users of U.S. Government Works that they have full permission to freely use the work internationally. When Creative Commons Zero has been applied, the following URL should be used for in the license field.\nhttps://creativecommons.org/publicdomain/zero/1.0/\n\n\n\nExample legal constraint entry for U.S. Government Works open license\n\n\n\n\nLimited Access\n\n\nSensitive/Protected Access\n\n\nRestricted Access",
+    "text": "Legal\n\nAccess Constraints ([Required])\nAccess constraints are applied to assure the protection of privacy or intellectual property and any special restrictions or limitations on obtaining the resource.\n\n\nUse Constraints ([If applicable])\nHow the product should be used.\n\n\nOther constraints\nThis is a place to put standard disclaimers.\nConstraints are limited to four categories: Open, Limited Access, , Sensitive/Protected and Restricted. git\n\n\nOpen Access\nFor data that is consider Open Access, the licenseUnrestricted and unrestricted options should be selected.\nData and content created by government employees within the scope of their employment are not subject to domestic copyright protection under 17 U.S.C. § 105. Government works are by default in the U.S. Public Domain. If no other open license applies, the following URL should be used in the license field.\nhttp://www.usa.gov/publicdomain/label/1.0/\nThe default U.S. Public Domain status of U.S. Government Works is limited to the jurisdiction of the United States. A public domain status is applicable internationally for works produced by government employees, by using a worldwide public domain dedication such as Creative Commons Zero. This assures users of U.S. Government Works that they have full permission to freely use the work internationally. When Creative Commons Zero has been applied, the following URL should be used for in the license field.\nhttps://creativecommons.org/publicdomain/zero/1.0/\n\n\n\nExample legal constraint entry for U.S. Government Works open license\n\n\n\n\nLimited Access\n\n\nSensitive/Protected Access\n\n\nRestricted Access",
     "crumbs": [
       "Product Records",
       "Constraints Tab"
@@ -945,7 +1050,7 @@
     "href": "content/product_records/constraints_tab_product.html#security-constraints",
     "title": "Constraints Tab",
     "section": "Security Constraints",
-    "text": "Security Constraints\n****A place to describe constraints or restrictions pertaining to security of the resource. Choose classification from the drop-down menu. For products without restrictions, best practice is to indicate ‘unclassified’ from the security classification dropdown menu.\n\n\n\n\n\n\nNote\n\n\n\nClassification is the class of security (e.g., top secret, public access).",
+    "text": "Security Constraints\nA place to describe constraints or restrictions pertaining to security of the resource. Choose security classification from the drop-down menu. For products without restrictions, best practice is to select unclassified from the menu.\n\n\n\n\n\n\nNote\n\n\n\nClassification is the class of security (e.g., top secret, public access).",
     "crumbs": [
       "Product Records",
       "Constraints Tab"
@@ -956,84 +1061,197 @@
     "href": "content/product_records/extent_tab_product.html",
     "title": "Extent Tab",
     "section": "",
-    "text": "Extent refers to geographic boundaries for your project. Spatial extents lets users see at a glance the geographic footprint of your project and allows searching within specific geographic areas.\n\n\n\nQuick Reference: Product Extent Tab\nRequired?\n\n\n\n\nExtent\nRequired\n\n\n\n\nSpatial extents should be included for all applicable products. As a default, products should inherit extents from their parent project. geoJSON files for specific geographies are available on ScienceBase (private DMWG folder that requires ScienceBase login). Download the relevant files and then import the geoJSON files into mdEditor.\n\n\n\n\n\n\nTip\n\n\n\nTip: You can export, save, and import an extent to use for other projects or products.\n\n\nSee further information on Extents in the Project Extent entry guidance.",
+    "text": "Extent refers to geographic boundaries for your project. Spatial extents lets users see at a glance the geographic footprint of your project and allows searching within specific geographic areas.\n\n\n\n\n\n\n\nExtent Tab\nRequirements\n\n\n\n\nExtent\n[Required]r required_style\n\n\n\n\nSpatial extents should be included for all applicable products. As a default, products should inherit extents from their parent project. geoJSON files for specific geographies are available on ScienceBase (private DMWG folder that requires ScienceBase login). Download the relevant files and then import the geoJSON files into mdEditor.\n\n\n\n\n\n\nTip\n\n\n\nTip: You can export, save, and import an extent to use for other projects or products.\n\n\nSee further information on Extents in the Project Extent entry guidance.",
     "crumbs": [
       "Product Records",
       "Extent Tab"
     ]
   },
   {
-    "objectID": "content/product_records/documents_tab_product.html",
-    "href": "content/product_records/documents_tab_product.html",
-    "title": "Documents Tab",
+    "objectID": "content/product_records/main_tab_product.html",
+    "href": "content/product_records/main_tab_product.html",
+    "title": "Main Tab",
     "section": "",
-    "text": "The Documents tab is where additional references to resources that relate to your product but do not define or describe the item are added. These can include videos, webinars, books, posters, web pages, news releases, etc. This should not include links to project or products. An example document could be a report for a workshop that inspired the product.\nThere are no SA specific requirements or best practices for documents.\n\n\n\n\n\n\nNote\n\n\n\nScienceBase has a similar section called “weblinks.” These will be populated in the Documents section if sbJSON is imported into mdEditor.\n\n\nFor more information, consult the Documents section of the mdEditor manual.",
+    "text": "The Main tab allows for the creation and/or editing of primary metadata.",
     "crumbs": [
       "Product Records",
-      "Documents Tab"
+      "Main Tab"
     ]
   },
   {
-    "objectID": "content/product_records/taxonomy_tab_product.html",
-    "href": "content/product_records/taxonomy_tab_product.html",
-    "title": "Taxonomy Tab",
-    "section": "",
-    "text": "Taxonomy Tab\nRequirements\n\n\n\n\nTaxonomy\nRequired\n\n\n\n\nPlease see the taxonomy guidance in the Project Records section.\nTaxonomy is required for projects and products, as applicable.",
+    "objectID": "content/product_records/main_tab_product.html#basic-information",
+    "href": "content/product_records/main_tab_product.html#basic-information",
+    "title": "Main Tab",
+    "section": "Basic Information",
+    "text": "Basic Information\n\nRecord ID\nWill be auto-generated but can be edited.\n\n\nTitle\nEnter as informative a Title as possible. Good titles, when they appear in a search, will be understood and/or traceable.\n\n\nStatus\nThe Status drop-down menu allows you to select the status of your project. Choose a status from only these four options: accepted, completed, onGoing, or proposed.",
     "crumbs": [
       "Product Records",
-      "Taxonomy Tab"
+      "Main Tab"
     ]
   },
   {
-    "objectID": "content/product_records/product_records_overview.html",
-    "href": "content/product_records/product_records_overview.html",
-    "title": "Product Records: Overview",
-    "section": "",
-    "text": "The Product Records section will cover how to create a metadata record for a product. A product can be anything from a document or presentation or website to a dataset or programming code. mdEditor offers an extensive list of product options, of which “product” should never be used.",
-    "crumbs": [
-      "Product Records"
-    ]
-  },
-  {
-    "objectID": "content/product_records/product_records_overview.html#before-you-begin",
-    "href": "content/product_records/product_records_overview.html#before-you-begin",
-    "title": "Product Records: Overview",
-    "section": "Before You Begin",
-    "text": "Before You Begin\n\n1. Adjust mdEditor Settings\nMetadata Repositories: Make sure your default settings are correct for the SA Science Catalog and data.gov. See Settings.\nParent Identifier: In the publishing settings, enter your SA regional ScienceBase project folder’s identifier in the “Default Parent Identifier” field.\n\n\n2. Select the “Product” Profile:\nAfter initially creating your project record, but before you begin adding metadata, select the metadata record’s profile type. In the main menu’s Profile drop-down options, select “Product”. This will limit the number of available tabs and only show tabs that contain fields that are required for product creation.\n\n\n\nSelect the Product profile in the Profile dropdown in the top ribbon\n\n\n\n\n3. Ensure Contacts are loaded into mdEditor:\nIn mdEditor, contacts are created separately from individual records, and then stored within a library in mdEditor. Once contacts have been entered or imported into mdEditor, they can be used in metadata records. SA maintains a ‘seed’ list of contacts that can be found in the SA ScienceBase Community. item page.",
-    "crumbs": [
-      "Product Records"
-    ]
-  },
-  {
-    "objectID": "content/product_records/product_records_overview.html#edit-a-product",
-    "href": "content/product_records/product_records_overview.html#edit-a-product",
-    "title": "Product Records: Overview",
-    "section": "Edit a Product",
-    "text": "Edit a Product\n\nImport or create your product record (see workflow).\nChoose the specific Resource Type that describes your product. Do not choose the generic “product.”\nSelect the Product Profile: from the Main Menu (Top Navigation Bar) select “Product” from the profile drop-down menu.\nFill out metadata information for the following tabs:\n      Main Tab\n      Metadata Tab\n      Keywords Tab\n      Taxonomy Tab\n      Extent Tab\n      Lineage Tab\n      Distribution Tab\n      Constraints Tab\n      Dictionaries Tab\n      Documents Tab\n\nIf applicable, Associate your products with other metadata records.",
-    "crumbs": [
-      "Product Records"
-    ]
-  },
-  {
-    "objectID": "content/product_records/associating_records_product.html",
-    "href": "content/product_records/associating_records_product.html",
-    "title": "Associating Records",
-    "section": "",
-    "text": "The Associated section is used to connect metadata records with each other. This feature should be used when items are related. For example, products are often the result of projects, and projects can have sub-projects. Projects and products can be linked together by using an association. Adding associations will allow users to find items that relate to each other quickly and easily.",
+    "objectID": "content/product_records/main_tab_product.html#default-locale",
+    "href": "content/product_records/main_tab_product.html#default-locale",
+    "title": "Main Tab",
+    "section": "Default Locale",
+    "text": "Default Locale\nDefault Locale allows for the selection of Language, Character Set, and Country. English, UTF-8, and USA will be selected by default, but you may change them if necessary. See Settings for instruction.",
     "crumbs": [
       "Product Records",
-      "Associating Records"
+      "Main Tab"
     ]
   },
   {
-    "objectID": "content/product_records/associating_records_product.html#create-associations",
-    "href": "content/product_records/associating_records_product.html#create-associations",
-    "title": "Associating Records",
-    "section": "Create Associations",
-    "text": "Create Associations\nIn mdEditor, the association can be created either from the Project record or the Product record. The “Association Type” will define the association from your current record to the linked record. Specifying the “Linked Association Type” will create the association from the other direction.\n\n\n\n\n\n\nWarning\n\n\n\nImportant: It is recommended you ALWAYS specify the Linked Association Type when you create associations. This will ensure the associations are defined from both directions and be present in the metadata regardless of how the metadata is translated or where it is used in the future.\n\n\nIf records are imported from ScienceBase, the record associations might be automatically created, but sometimes the associations may need to be recreated manually (as described below). Associations can only be made after both project and product records have been created in mdEditor.\n\n\n\n\n\n\nQuick Reference: Creating an Association in a Product Record\n\n\n\n\n1. Select “parentProject” from the Association Type drop-down menu.\n\n\n2. Use the Select a Record button to select an associated project.\n\n\n3. Choose the project that you would like to associate from the “Select a Resource” list.\n\n\n4. Fill out the Linked Association Type with “product.”\n\n\n\n\n\nStep-by-Step: Creating an Association in a Product Record\nStep 1: Select “parentProject” from the Association Type drop-down menu. This field will describe the relationship from the associated record to the product record (the associated record is the parentProject of the product record you are editing).\n\nStep 2: Click the “Select a Record” button to select an associated project.\n\nStep 3: Choose the project that you would like to associate from the Select a Resource list.\n\nStep 4: Fill out the Linked Association Type with “product”.",
+    "objectID": "content/product_records/main_tab_product.html#resource-types",
+    "href": "content/product_records/main_tab_product.html#resource-types",
+    "title": "Main Tab",
+    "section": "Resource Types",
+    "text": "Resource Types\nThe Resource Type must be identified when the record is created. Products must be identified from the list of options, but ‘product’, while on the list, is not a valid option. After the record is initiated the field should be automatically filled in with the resource type selected when the record was created. Name is optional - you can leave this blank or enter a shorten project name.\n\n\n\n\n\n\nNote\n\n\n\nProducts must have a specific resource type selected, NOT just “product”.",
     "crumbs": [
       "Product Records",
-      "Associating Records"
+      "Main Tab"
+    ]
+  },
+  {
+    "objectID": "content/product_records/main_tab_product.html#point-of-contacts",
+    "href": "content/product_records/main_tab_product.html#point-of-contacts",
+    "title": "Main Tab",
+    "section": "Point of Contacts",
+    "text": "Point of Contacts\nAdding a point of contact gives staff information on who to contact should they have a question regarding your project or product. From the Role drop-down menu, select pointOfContact. From the Contacts drop-down menu, select a contact from the list of contacts. See the Contact Records section for information on creating contacts.\n\n\n\n\n\n\n\n\nRole\nContact\nRequired?\n\n\n\n\npointOfContact\nFWS Science Applications National Data Steward\nRequired\n\n\npointOfContact\nData Steward\nRequired\n\n\nprincipalInvestigator\nThe Project PI\nRequired, if applicable\n\n\ncustodian\nData Custodian\nRequired, if applicable\n\n\nadministrator\nData Trustee\nRequired\n\n\nadministrator\nFWS Region (legacy and DOI Unified)\nRequired\n\n\ncollaborator\npartnership organizations and/or programs\nRequired, if applicable\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nThe FWS Science Applications National Data Steward will serve as the long term contact/backup. This way, users have a point-of-contact even if there is a positional change within an organization. Regional Data Steward should be included in addition as a point of contact if available.",
+    "crumbs": [
+      "Product Records",
+      "Main Tab"
+    ]
+  },
+  {
+    "objectID": "content/product_records/main_tab_product.html#citation",
+    "href": "content/product_records/main_tab_product.html#citation",
+    "title": "Main Tab",
+    "section": "Citation",
+    "text": "Citation\nThe Citation lets users know pertinent information about your product such as responsible parties, internal and ScienceBase identifiers, and any online resources that may relate to your item. The citation much like a peer-reviewed publication citation, provides credit and services a as reference. Adding information in the citation will also allow users to find your item when they search for items that contain said information.\nThe following fields are required in citation:\n\nTitle\nAdded automatically based on the title of your record.\n\n\nAlternate Title\nAdd an **Alternate Title*.\n\n\nDates\nEnter acquisition, creation, updated, revision, or publication date reference from the picklist and then enter the date. At least one  of these date types is required.\n\n\nResponsible Parties\nThis must include a point of contact, but may also include other responsible parties such as funders, partners, collaborators, and contributors. Collaborators could be intellectual participants while contributors could be intellectual and financial participants.\n\n\n\n\n\n\n\n\nRole\nContact\nRequired?\n\n\n\n\nprincipalInvestigator\nData Creator\nRequired\n\n\ncoPrincipalInvestigator\nData Co-Creator\nBest Practice\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nFor items that will be sent to data.gov, only the first in the list of Responsible Parties (#0) will appear.\n\n\n\n\nOnline Resource\nEnter the Name and URL for the location where users can find the product (e.g., ScienceBase page or DOI url). Data.gov refers to this online resource link to send users to the data download.\n\n\n\n\n\n\nNote\n\n\n\nImportant: The URLs to access and download products must also be included in the Distribution tab. Distribution Links is the only online resource that data.gov reads so without a URL there, users have no way to access the actual product from data.gov.\n\n\n\n\nIdentifier\nYou may enter as many identifiers as desired, but at least one  is required. If you have internal SA specific IDs for projects, enter them here. A Digital Object Identifier (DOI) is the preferred identifier for this. The Archive Folder Name may be included here as well.\n\n\n\nExample of Online resource and identifier metadata entries\n\n\n\n\n\n\n\n\nNote\n\n\n\nDigital Object Identifier can be entered both as an online resource AND an identifier. Note that the entry format is different. As an online resource, the entire url is required, however, as an identifier, only the prefix and suffix of the DOI are required (see figure above).\n\n\n\n\n\n\n\n\nBest Practice\n\n\n\nCreate and use internal identifiers that are unique within your region for projects and their products. Example: GNLCC2010-11.\n\n\n\n\n\n\n\n\nNote\n\n\n\nIf your item does not have a ScienceBase ID (SBID) yet, ScienceBase will create one automatically upon publishing. If you imported your item from ScienceBase originally, then the SBID will already be included in Metadata/Metadata Identifier and you do not need to include it here. Note that if you edit an item that is already on ScienceBase without using its existing SBID, a duplicate item will be created on ScienceBase. Consult the Publish section of this manual to learn more.\n\n\n\n\n\n\n\n\nNote\n\n\n\nIf the product metadata was created by copying another mdEditor metadata record, this identifier MUST be edited/changed since it will reflect the copied record identifier. Only the mdEditor UUID changes to represent a new record when an item is copied. Consult the Copy Records section of this manual to learn how to make a copy.",
+    "crumbs": [
+      "Product Records",
+      "Main Tab"
+    ]
+  },
+  {
+    "objectID": "content/product_records/main_tab_product.html#description",
+    "href": "content/product_records/main_tab_product.html#description",
+    "title": "Main Tab",
+    "section": "Description",
+    "text": "Description\nDescription allows for the addition of the Abstract as well as a Short Abstract, Purpose, Supplemental Information, and an Environment Description.\n\nAbstract\nEnter an Abstract\n\n\n\n\n\n\nNote\n\n\n\nTip: Write your abstracts for projects in the present tense if the project is underway and past tense if it has been completed.\n\n\n\n\nShort Abstract\nIn the Short Abstract, enter a short description, limited to 300 characters, if desired. The Best Practice here is to include a few sentences for media communications that Office of Communications may find helpful.\n\n\nSupplemental Information\nEnter comments, if desired.",
+    "crumbs": [
+      "Product Records",
+      "Main Tab"
+    ]
+  },
+  {
+    "objectID": "content/product_records/main_tab_product.html#time-period",
+    "href": "content/product_records/main_tab_product.html#time-period",
+    "title": "Main Tab",
+    "section": "Time Period",
+    "text": "Time Period\nTime Period refers to project start and end date, or the date that the product was applicable. For example, the time when a map is valid, date of publication, date of presentation, or dates when the data was collected.\n\nRequired: For each product, add a start date and end date.",
+    "crumbs": [
+      "Product Records",
+      "Main Tab"
+    ]
+  },
+  {
+    "objectID": "content/product_records/keywords_tab_product.html",
+    "href": "content/product_records/keywords_tab_product.html",
+    "title": "Keywords Tab",
+    "section": "",
+    "text": "Adding keywords to your metadata record allows for the record to be found later through a search engine, keywords are the way to tag your projects or products. The mdEditor is designed using thesauruses that contain pre-determined keywords. These thesauruses create a ‘controlled vocabulary’ so that all SA staff adding metadata can adhere to the same standards, and future search results can return clear results of projects and products.",
+    "crumbs": [
+      "Product Records",
+      "Keywords Tab"
+    ]
+  },
+  {
+    "objectID": "content/product_records/keywords_tab_product.html#to-add-keywords-to-your-metadata-record",
+    "href": "content/product_records/keywords_tab_product.html#to-add-keywords-to-your-metadata-record",
+    "title": "Keywords Tab",
+    "section": "To add Keywords to your Metadata Record",
+    "text": "To add Keywords to your Metadata Record\n\nClick “+ Add Thesaurus” on the right to add the different thesauruses.\nAdd keywords from the following pre-populated thesauruses.\nIf none of the keywords in the following categories are sufficient for tagging your record, you can create a custom thesaurus (see below for more information).\n\n\nProduct Required Keywords\n\nISO Topic Category (Required)\nBecause mdJSON metadata is based on the ISO (International Organization for Standardization) metadata standard, all projects should select at least one ISO Topic Category. ISO topics were generally meant for spatial data so they might be a bit of a stretch, but do your best to find the best fit. mdEditor provides definitions of each ISO topic category if you hover over the ? icon.\nChoose all that apply. The ISO Topic list is as follows:\n\n\n\nbiota\n\n\nboundaries\n\n\nclimatologyMeteorologyAtmosphere\n\n\ndisaster\n\n\neconomy\n\n\nelevation\n\n\nenvironment\n\n\nextraTerrestrial\n\n\nfarming\n\n\ngeoscientificInformation\n\n\nhealth\n\n\nimageryBaseMapsEarthCover\n\n\ninlandWaters\n\n\nintelligenceMilitary\n\n\nlocation\n\n\noceans\n\n\nplanningCadastre\n\n\nsociety\n\n\nstructure\n\n\ntransportation\n\n\nutilitiesCommunication\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nBiota and environment are probably the best fit for most SA products.\n\n\n\n\nGCMD Keywords (Best Practice)\nGCMD stands for Global Change Master Directory and these keywords are maintained by NASA. Look for useful keywords in the GCMD Science Keywords. There are GCMD Platforms and Instruments Keywords but they are unlikely to apply to SA products.\n\nBest Practice: Check the “Full Path” checkbox to save the full path of the keyword to your metadata. This will maintain the category and context of the specific keywords chosen.",
+    "crumbs": [
+      "Product Records",
+      "Keywords Tab"
+    ]
+  },
+  {
+    "objectID": "content/product_records/keywords_tab_product.html#custom-thesaurus",
+    "href": "content/product_records/keywords_tab_product.html#custom-thesaurus",
+    "title": "Keywords Tab",
+    "section": "Custom Thesaurus",
+    "text": "Custom Thesaurus\nIf any of your desired keywords do not appear in the existing thesauruses, you can add them via the custom thesaurus. Use a custom thesaurus only for keywords that are not available in an existing thesaurus.\nYou cannot add keywords to an existing thesaurus; you can only add keywords in a custom thesaurus.\n\nYou cannot save a custom thesaurus in mdEditor.\n\n\nTip: If you have a consistent set of keywords that you use across your projects or products, you could add these to a “template project” record in mdEditor and then modify the specific keywords you need for each entry. See the workflow section for more info about using template records.\n\n\nLook for useful keywords in the GCMD Science Keywords. GCMD Science keywords are the most applicable to SA. There are GCMD Platforms and Instruments keywords, but they are unlikely to apply to SA.",
+    "crumbs": [
+      "Product Records",
+      "Keywords Tab"
+    ]
+  },
+  {
+    "objectID": "content/product_records/keywords_tab_product.html#keywords-and-sciencebase",
+    "href": "content/product_records/keywords_tab_product.html#keywords-and-sciencebase",
+    "title": "Keywords Tab",
+    "section": "Keywords and ScienceBase",
+    "text": "Keywords and ScienceBase\n\nKeywords vs. Tags\nmdEditor uses the term “keywords” while ScienceBase uses the term “tags.”\n\nKeywords edited in mdEditor will not overwrite keywords stored in ScienceBase (i.e. sbJSON) because ScienceBase only adds to the list of tags. If you do not want obsolete keywords/tags to show up on ScienceBase, manually delete these in ScienceBase. mdJSON and the SA Science Catalog, however, will reflect any changes made in mdEditor.\n\n\n\nImported Keywords\nIf you imported your product metadata from ScienceBase, then the ScienceBase tags are each created as a keyword in a custom thesaurus.\nControlled vocab list in ScienceBase cannot connect to mdEditor. The selected keywords for any specific record will import into mdEditor, but the saved list will not be.\n\n\n\nExample ISO Topic Category keyword entry",
+    "crumbs": [
+      "Product Records",
+      "Keywords Tab"
+    ]
+  },
+  {
+    "objectID": "content/product_records/dictionaries_tab_product.html",
+    "href": "content/product_records/dictionaries_tab_product.html",
+    "title": "Dictionaries Tab",
+    "section": "",
+    "text": "Dictionaries Tab: Product\nThe Dictionaries tab links the product metadata record to a data dictionary that you define. Data dictionaries define attributes of data that are tabular in nature.\nThere are no SA specific requirements or best practices for dictionaries.",
+    "crumbs": [
+      "Product Records",
+      "Dictionaries Tab"
+    ]
+  },
+  {
+    "objectID": "content/product_records/distribution_tab_product.html",
+    "href": "content/product_records/distribution_tab_product.html",
+    "title": "Distribution Tab",
+    "section": "",
+    "text": "Distribution provides documentation on how or where users can obtain products. Distribution methods may include online options (e.g., website, database) or offline options (e.g., delivery via mail, library).\nClick Add Distribution Section and then Edit Distributors to begin adding distributors.*",
+    "crumbs": [
+      "Product Records",
+      "Distribution Tab"
+    ]
+  },
+  {
+    "objectID": "content/product_records/distribution_tab_product.html#distributor",
+    "href": "content/product_records/distribution_tab_product.html#distributor",
+    "title": "Distribution Tab",
+    "section": "Distributor",
+    "text": "Distributor\nThis section involves adding distributor information and a URL for data products that are hosted anywhere. For example, if The Nature Conservancy is hosting a data source, the distributor is “The Nature Conservancy.”\n\nContacts and Role (Required)\nIf anything is filled out in the distribution section, a contact must be added. The appropriate role is “distributor.”\nThe contact should ideally be someone who will remain available to respond to potential inquiries about the product. If there is not an appropriate contact specific to the product, you can use a generic SA Data Steward contact for a long-term backup contact.",
+    "crumbs": [
+      "Product Records",
+      "Distribution Tab"
+    ]
+  },
+  {
+    "objectID": "content/product_records/distribution_tab_product.html#transfer-options-required-if-applicable",
+    "href": "content/product_records/distribution_tab_product.html#transfer-options-required-if-applicable",
+    "title": "Distribution Tab",
+    "section": "Transfer Options (Required, if applicable)",
+    "text": "Transfer Options (Required, if applicable)\nTransfer Options provide details regarding obtaining the product. Online and offline options are available.\n\nOnline Option (Required if Available)\n\nName\nThe Name of the online resource should be something that indicates it is a product page where the data can be downloaded. Examples: “product webpage” or “Product Webpage with Downloadable Files.” If there are multiple files for a single product record, the Name should be different for each file so the user can differentiate between them. For example, “Download Aguiguan Veg 2016 data” or “Download FDM Veg 2011 data.”\n\n\n\n\n\n\nNote\n\n\n\nUnique Names for multiple files are particularly important for items being sent to data.gov. Without a name specified at all, the link will display as “webpage,” which isn’t particularly informative to users. Identical names for different files also won’t be particularly informative.\n\n\n\n\nURI\nThe most important thing to enter is the URL where the product can be accessed or downloaded.\n\n\n\n\n\n\nNote\n\n\n\nAn online link is required for any products sent to data.gov. Preferably the link should be a direct download to the data and not an intermediary page.\n\n\n\n\nFunction\nIn the Function field, you should indicate the type of URL. If the link is a direct download of the data, select “download.” If the link goes to an informational page, select “information.”\n\n\nHow to obtain download link from ScienceBase Items\nFor products hosted on ScienceBase, obtaining the direct download URL is a little tricky. The text displayed on the ScienceBase page under Attached Files is not actually a link (so you can’t right-click and copy link address from there). Here are directions for how to obtain the direct download link for ScienceBase items.\n(1) First scroll to the Attached Files on the ScienceBase item and click the Attach Files control.\n\n(2) From the list of attached files, find the relevant file, right click the name, and select “copy link address.” Then paste that link into the Online Option in mdEditor.\n\n\n\n\nOffline Option\nIf your product is only available offline, describe how users can obtain the product here.",
+    "crumbs": [
+      "Product Records",
+      "Distribution Tab"
+    ]
+  },
+  {
+    "objectID": "content/product_records/distribution_tab_product.html#example-distributor",
+    "href": "content/product_records/distribution_tab_product.html#example-distributor",
+    "title": "Distribution Tab",
+    "section": "Example Distributor",
+    "text": "Example Distributor",
+    "crumbs": [
+      "Product Records",
+      "Distribution Tab"
     ]
   },
   {
@@ -1147,7 +1365,7 @@
     "href": "content/settings.html#publishing-settings",
     "title": "Settings",
     "section": "Publishing Settings",
-    "text": "Publishing Settings\nUnder Publishing Settings, in the Default Parent Identifier field, enter the ScienceBase identifier (SBID) for your SA Region.\n\n\n\nPublishing Settings (use the Parent Identifier for your Region).\n\n\nThe following table shows each Region’s Default Parent Identifier. This is the ScienceBase identifier for each Region’s ‘Project’ folder.\n\n\n\nUSFWS Region\nParent Identifier\n\n\n\n\nHeadquarters\n6696c783d34ecb78f609f673\n\n\nRegion 1\n6696c74ad34ecb78f609f66f\n\n\nRegion 2\n6696c7b2d34ecb78f609f678\n\n\nRegion 3\n6696c873d34ecb78f609f67c\n\n\nRegion 4\n6696c884d34ecb78f609f680\n\n\nRegion 5\n66326ad6d34ea70bd5f26d5f\n\n\nRegion 6\n6696c92dd34ecb78f609f68b\n\n\nRegion 7\n645bfe80d34ec179a83822d8\n\n\nRegion 8\n6696c89bd34ecb78f609f685",
+    "text": "Publishing Settings\nUnder Publishing Settings, in the Default Parent Identifier field, enter the ScienceBase identifier (SBID) for your SA Region.\n\n\n\nPublishing Settings (use the Parent Identifier for your Region).\n\n\nThe following table shows each Region’s Default Parent Identifier. This is the ScienceBase identifier for each Region’s ‘Project’ folder.\n\n\n\nUSFWS Region\nParent Identifier\n\n\n\n\nHeadquarters\n6696c783d34ecb78f609f673\n\n\nRegion 1\n6696c74ad34ecb78f609f66f\n\n\nRegion 2\n6696c7b2d34ecb78f609f678\n\n\nRegion 3\n6696c873d34ecb78f609f67c\n\n\nRegion 4\n6696c884d34ecb78f609f680\n\n\nRegion 5\n66326aebd34ea70bd5f26d62\n\n\nRegion 6\n6696c92dd34ecb78f609f68b\n\n\nRegion 7\n645bfe80d34ec179a83822d8\n\n\nRegion 8\n6696c89bd34ecb78f609f685",
     "crumbs": [
       "Settings"
     ]
@@ -1205,190 +1423,110 @@
     ]
   },
   {
-    "objectID": "content/product_records/distribution_tab_product.html",
-    "href": "content/product_records/distribution_tab_product.html",
-    "title": "Distribution Tab",
+    "objectID": "content/product_records/product_records_overview.html",
+    "href": "content/product_records/product_records_overview.html",
+    "title": "Product Records: Overview",
     "section": "",
-    "text": "Distribution provides documentation on how or where users can obtain products. Distribution methods may include online options (e.g., website, database) or offline options (e.g., delivery via mail, library).\nClick Add Distribution Section and then Edit Distributors to begin adding distributors.",
+    "text": "The Product Records section will cover how to create a metadata record for a product. A product can be anything from a document or presentation or website to a dataset or programming code. mdEditor offers an extensive list of product options, of which “product” should never be used.",
     "crumbs": [
-      "Product Records",
-      "Distribution Tab"
+      "Product Records"
     ]
   },
   {
-    "objectID": "content/product_records/distribution_tab_product.html#distributor",
-    "href": "content/product_records/distribution_tab_product.html#distributor",
-    "title": "Distribution Tab",
-    "section": "Distributor",
-    "text": "Distributor\nThis section involves adding distributor information and a URL for data products that are hosted anywhere. For example, if The Nature Conservancy is hosting a data source, the distributor is “The Nature Conservancy.”\n\nContacts and Role (Required)\nIf anything is filled out in the distribution section, a contact must be added. The appropriate role is “distributor.”\nThe contact should ideally be someone who will remain available to respond to potential inquiries about the product. If there is not an appropriate contact specific to the product, you can use a generic SA Data Steward contact for a long-term backup contact.",
+    "objectID": "content/product_records/product_records_overview.html#before-you-begin",
+    "href": "content/product_records/product_records_overview.html#before-you-begin",
+    "title": "Product Records: Overview",
+    "section": "Before You Begin",
+    "text": "Before You Begin\n\n1. Adjust mdEditor Settings\nMetadata Repositories: Make sure your default settings are correct for the SA Science Catalog and data.gov. See Settings.\nParent Identifier: In the publishing settings, enter your SA regional ScienceBase project folder’s identifier in the “Default Parent Identifier” field.\n\n\n2. Select the “Product” Profile:\nAfter initially creating your project record, but before you begin adding metadata, select the metadata record’s profile type. In the main menu’s Profile drop-down options, select “Product”. This will limit the number of available tabs and only show tabs that contain fields that are required for product creation.\n\n\n\nSelect the Product profile in the Profile dropdown in the top ribbon\n\n\n\n\n3. Ensure Contacts are loaded into mdEditor:\nIn mdEditor, contacts are created separately from individual records, and then stored within a library in mdEditor. Once contacts have been entered or imported into mdEditor, they can be used in metadata records. SA maintains a ‘seed’ list of contacts that can be found in the SA ScienceBase Community. item page.",
     "crumbs": [
-      "Product Records",
-      "Distribution Tab"
+      "Product Records"
     ]
   },
   {
-    "objectID": "content/product_records/distribution_tab_product.html#transfer-options-required",
-    "href": "content/product_records/distribution_tab_product.html#transfer-options-required",
-    "title": "Distribution Tab",
-    "section": "Transfer Options (Required)",
-    "text": "Transfer Options (Required)\nTransfer Options provide details regarding obtaining the product. Online and offline options are available.\n\nOnline Option (Required if Available)\n\nName\nThe Name of the online resource should be something that indicates it is a product page where the data can be downloaded. Examples: “product webpage” or “Product Webpage with Downloadable Files.” If there are multiple files for a single product record, the Name should be different for each file so the user can differentiate between them. For example, “Download Aguiguan Veg 2016 data” or “Download FDM Veg 2011 data.”\n\n\n\n\n\n\nNote\n\n\n\nUnique Names for multiple files are particularly important for items being sent to data.gov. Without a name specified at all, the link will display as “webpage,” which isn’t particularly informative to users. Identical names for different files also won’t be particularly informative.\n\n\n\n\nURI\nThe most important thing to enter is the URL where the product can be accessed or downloaded.\n\n\n\n\n\n\nNote\n\n\n\nAn online link is required for any products sent to data.gov. Preferably the link should be a direct download to the data and not an intermediary page.\n\n\n\n\nFunction\nIn the Function field, you should indicate the type of URL. If the link is a direct download of the data, select “download.” If the link goes to an informational page, select “information.”\n\n\nHow to obtain download link from ScienceBase Items\nFor products hosted on ScienceBase, obtaining the direct download URL is a little tricky. The text displayed on the ScienceBase page under Attached Files is not actually a link (so you can’t right-click and copy link address from there). Here are directions for how to obtain the direct download link for ScienceBase items.\n(1) First scroll to the Attached Files on the ScienceBase item and click the Attach Files control.\n\n(2) From the list of attached files, find the relevant file, right click the name, and select “copy link address.” Then paste that link into the Online Option in mdEditor.\n\n\n\n\nOffline Option\nIf your product is only available offline, describe how users can obtain the product here.",
+    "objectID": "content/product_records/product_records_overview.html#edit-a-product",
+    "href": "content/product_records/product_records_overview.html#edit-a-product",
+    "title": "Product Records: Overview",
+    "section": "Edit a Product",
+    "text": "Edit a Product\n\nImport or create your product record (see workflow).\nChoose the specific Resource Type that describes your product. Do not choose the generic “product.”\nSelect the Product Profile: from the Main Menu (Top Navigation Bar) select “Product” from the profile drop-down menu.\nFill out metadata information for the following tabs:\n      Main Tab\n      Metadata Tab\n      Keywords Tab\n      Taxonomy Tab\n      Extent Tab\n      Lineage Tab\n      Distribution Tab\n      Constraints Tab\n      Dictionaries Tab\n      Documents Tab\n\nIf applicable, the Associated Tab allows your product to be associated with other metadata records.",
     "crumbs": [
-      "Product Records",
-      "Distribution Tab"
+      "Product Records"
     ]
   },
   {
-    "objectID": "content/product_records/distribution_tab_product.html#example-distributor",
-    "href": "content/product_records/distribution_tab_product.html#example-distributor",
-    "title": "Distribution Tab",
-    "section": "Example Distributor",
-    "text": "Example Distributor",
-    "crumbs": [
-      "Product Records",
-      "Distribution Tab"
-    ]
-  },
-  {
-    "objectID": "content/product_records/dictionaries_tab_product.html",
-    "href": "content/product_records/dictionaries_tab_product.html",
-    "title": "Dictionaries Tab",
+    "objectID": "content/product_records/taxonomy_tab_product.html",
+    "href": "content/product_records/taxonomy_tab_product.html",
+    "title": "Taxonomy Tab",
     "section": "",
-    "text": "Dictionaries Tab: Product\nThe Dictionaries tab links the product metadata record to a data dictionary that you define. Data dictionaries define attributes of data that are tabular in nature.\nThere are no SA specific requirements or best practices for dictionaries.",
+    "text": "The Taxonomy tab allows taxonomic information the species associated with the project or product. Taxonomy is required for projects and strongly recommended for products (if applicable).",
     "crumbs": [
       "Product Records",
-      "Dictionaries Tab"
+      "Taxonomy Tab"
     ]
   },
   {
-    "objectID": "content/product_records/keywords_tab_product.html",
-    "href": "content/product_records/keywords_tab_product.html",
-    "title": "Keywords Tab",
+    "objectID": "content/product_records/taxonomy_tab_product.html#taxonomy",
+    "href": "content/product_records/taxonomy_tab_product.html#taxonomy",
+    "title": "Taxonomy Tab",
+    "section": "Taxonomy",
+    "text": "Taxonomy\nThe Taxonomy tab automatically pulls in taxonomic information from ITIS (Integrated Taxonomic Information System) a partnership of U.S., Canadian, and Mexican agencies and other taxonomic specialists.\n\nPlease note that this functionality in mdEditor is not intended to explore ITIS. It is a tool to add known taxonomic information to your metadata. If you want to explore ITIS, go to itis.gov to find information and then come back to mdEditor with the desired search values.\n\nThe minimum requirements for valid taxonomy are a Taxonomic System plus one or more taxonomic classifications.\n\nAdd Taxonomic System\n1. Click “Add Collection”\n\n2. From here, you can click “Add Taxa from ITIS” directly (on right side) without adding the taxonomic system. This will be filled in for you automatically once you have added items from ITIS.\n\n3. Enter your search terms in the search box. You can type in a common name, scientific name, or TSN (Taxonomic Serial Number, assigned by ITIS). You can type in any level of taxonomy, not just species name (e.g., you can type in an order or class or genus). You can specify by Kingdom if you like.\n\n\n\n\n\n\nNote\n\n\n\nIf you haven’t used the search in a while (or ever) the ITIS service might be asleep so it will take a few more seconds to load but then will load quickly after that.\n\n\n\n\n\n\n\n\nNote\n\n\n\nThe status of the taxonomic classification is denoted as (status) after the TSN. ITIS may consider a classification “invalid” if the species was reclassified, for example. It is up to you whether you want to add invalid ITIS classifications to your metadata.\n\n\n\n4. Click “Add” for the search results you want to add to your record and then click “Import Taxa.” You will get a message of successful import at the bottom of your screen.\n\n\n\n\n\n\nNote\n\n\n\nYou don’t need to worry about clicking import multiple times for the same species. mdEditor is smart enough to know not to create duplicate entries of the same species.\n\n\n\n5. Click “Back to Collection.” You will see that it has added a taxonomic hierarchy. It has also added a Title to Taxonomic System (if you hadn’t already added one by hand). This complete the the minimum information required for taxonomy.\n\n\n\n\n\n\nTip\n\n\n\nYou can click on any level of the taxonomic hierarchy to collapse the entries below that level.\n\n\n\n\n\n\n\n\nNote\n\n\n\nmdEditor only adds common names at the lowest taxonomic level you identified (e.g., species level).\n\n\n\n6. You can add additional information regarding the taxonomic information if you desire.\nObservers would be filled out when there were people who actually went in the field/lab and identified the species. Here you would list the people who did that work.\n\nGeneral Scope: You can add a description of the range of taxa addressed in the dataset or collection.\nIdentification Procedure: You can describe the methods used for taxonomic identification.\nIdentification Completeness: You can add information regarding completeness and uncertainty in the identifications.\n\nVoucher is where you can add information about specimens you submitted to a museum or a storage facility where you are storing specimens, can document that here (select a Repository via a Contact entered in mdEditor).",
+    "crumbs": [
+      "Product Records",
+      "Taxonomy Tab"
+    ]
+  },
+  {
+    "objectID": "content/product_records/taxonomy_tab_product.html#when-taxonomy-is-needed",
+    "href": "content/product_records/taxonomy_tab_product.html#when-taxonomy-is-needed",
+    "title": "Taxonomy Tab",
+    "section": "When Taxonomy is Needed",
+    "text": "When Taxonomy is Needed\nTaxonomy is mostly used for search is discovery and functions similar to keywords.\n\n\n\n\n\n\nNote\n\n\n\nIf you have existing species names or other keywords, you do not need to delete those. Taxonomy is entered in a separate section in mdJSON so they are separate from Keywords.\n\n\nTo some extent, this is up to the judgement of the data manager. You will know best the connection of a resource to a specific species or other taxonomic group. For example, if a bear model was used to rank habitat for a prioritization product but the final output is not relevant to bears any longer, then you probably wouldn’t want to add bear species in taxonomy.",
+    "crumbs": [
+      "Product Records",
+      "Taxonomy Tab"
+    ]
+  },
+  {
+    "objectID": "content/product_records/taxonomy_tab_product.html#reporting-issues",
+    "href": "content/product_records/taxonomy_tab_product.html#reporting-issues",
+    "title": "Taxonomy Tab",
+    "section": "Reporting Issues",
+    "text": "Reporting Issues\nIf you encounter issues or bugs using the new Taxonomy feature, please report them in this github thread: https://github.com/adiwg/mdEditor/issues/101 (requires github account to post).",
+    "crumbs": [
+      "Product Records",
+      "Taxonomy Tab"
+    ]
+  },
+  {
+    "objectID": "content/product_records/documents_tab_product.html",
+    "href": "content/product_records/documents_tab_product.html",
+    "title": "Documents Tab",
     "section": "",
-    "text": "Adding keywords to your metadata record allows for the record to be found later through a search engine, keywords are the way to tag your projects or products. The mdEditor is designed using thesauruses that contain pre-determined keywords. These thesauruses create a ‘controlled vocabulary’ so that all SA staff adding metadata can adhere to the same standards, and future search results can return clear results of projects and products.",
+    "text": "The Documents tab is where additional references to resources that relate to your product but do not define or describe the item are added. These can include videos, webinars, books, posters, web pages, news releases, etc. This should not include links to project or products. An example document could be a report for a workshop that inspired the product.\nThere are no SA specific requirements or best practices for documents.\n\n\n\n\n\n\nNote\n\n\n\nScienceBase has a similar section called “weblinks.” These will be populated in the Documents section if sbJSON is imported into mdEditor.\n\n\nFor more information, consult the Documents section of the mdEditor manual.",
     "crumbs": [
       "Product Records",
-      "Keywords Tab"
+      "Documents Tab"
     ]
   },
   {
-    "objectID": "content/product_records/keywords_tab_product.html#to-add-keywords-to-your-metadata-record",
-    "href": "content/product_records/keywords_tab_product.html#to-add-keywords-to-your-metadata-record",
-    "title": "Keywords Tab",
-    "section": "To add Keywords to your Metadata Record",
-    "text": "To add Keywords to your Metadata Record\n\nClick “+ Add Thesaurus” on the right to add the different thesauruses.\nAdd keywords from the following pre-populated thesauruses.\nIf none of the keywords in the following categories are sufficient for tagging your record, you can create a custom thesaurus (see below for more information).\n\n\nProduct Required Keywords\n\nISO Topic Category (Required)\nBecause mdJSON metadata is based on the ISO (International Organization for Standardization) metadata standard, all projects should select at least one ISO Topic Category. ISO topics were generally meant for spatial data so they might be a bit of a stretch, but do your best to find the best fit. mdEditor provides definitions of each ISO topic category if you hover over the ? icon.\nChoose all that apply. The ISO Topic list is as follows:\n\n\n\nbiota\n\n\nboundaries\n\n\nclimatologyMeteorologyAtmosphere\n\n\ndisaster\n\n\neconomy\n\n\nelevation\n\n\nenvironment\n\n\nextraTerrestrial\n\n\nfarming\n\n\ngeoscientificInformation\n\n\nhealth\n\n\nimageryBaseMapsEarthCover\n\n\ninlandWaters\n\n\nintelligenceMilitary\n\n\nlocation\n\n\noceans\n\n\nplanningCadastre\n\n\nsociety\n\n\nstructure\n\n\ntransportation\n\n\nutilitiesCommunication\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nBiota and environment are probably the best fit for most SA products.\n\n\n\n\nGCMD Keywords (Best Practice)\nGCMD stands for Global Change Master Directory and these keywords are maintained by NASA. Look for useful keywords in the GCMD Science Keywords. There are GCMD Platforms and Instruments Keywords but they are unlikely to apply to SA products.\n\nBest Practice: Check the “Full Path” checkbox to save the full path of the keyword to your metadata. This will maintain the category and context of the specific keywords chosen.",
-    "crumbs": [
-      "Product Records",
-      "Keywords Tab"
-    ]
-  },
-  {
-    "objectID": "content/product_records/keywords_tab_product.html#custom-thesaurus",
-    "href": "content/product_records/keywords_tab_product.html#custom-thesaurus",
-    "title": "Keywords Tab",
-    "section": "Custom Thesaurus",
-    "text": "Custom Thesaurus\nIf any of your desired keywords do not appear in the existing thesauruses, you can add them via the custom thesaurus. Use a custom thesaurus only for keywords that are not available in an existing thesaurus.\nYou cannot add keywords to an existing thesaurus; you can only add keywords in a custom thesaurus.\n\nYou cannot save a custom thesaurus in mdEditor.\n\n\nTip: If you have a consistent set of keywords that you use across your projects or products, you could add these to a “template project” record in mdEditor and then modify the specific keywords you need for each entry. See the workflow section for more info about using template records.\n\n\nLook for useful keywords in the GCMD Science Keywords. GCMD Science keywords are the most applicable to SA. There are GCMD Platforms and Instruments keywords, but they are unlikely to apply to SA.",
-    "crumbs": [
-      "Product Records",
-      "Keywords Tab"
-    ]
-  },
-  {
-    "objectID": "content/product_records/keywords_tab_product.html#keywords-and-sciencebase",
-    "href": "content/product_records/keywords_tab_product.html#keywords-and-sciencebase",
-    "title": "Keywords Tab",
-    "section": "Keywords and ScienceBase",
-    "text": "Keywords and ScienceBase\n\nKeywords vs. Tags\nmdEditor uses the term “keywords” while ScienceBase uses the term “tags.”\n\nKeywords edited in mdEditor will not overwrite keywords stored in ScienceBase (i.e. sbJSON) because ScienceBase only adds to the list of tags. If you do not want obsolete keywords/tags to show up on ScienceBase, manually delete these in ScienceBase. mdJSON and the SA Science Catalog, however, will reflect any changes made in mdEditor.\n\n\n\nImported Keywords\nIf you imported your product metadata from ScienceBase, then the ScienceBase tags are each created as a keyword in a custom thesaurus.\nControlled vocab list in ScienceBase cannot connect to mdEditor. The selected keywords for any specific record will import into mdEditor, but the saved list will not be.\n\n\n\nExample ISO Topic Category keyword entry",
-    "crumbs": [
-      "Product Records",
-      "Keywords Tab"
-    ]
-  },
-  {
-    "objectID": "content/product_records/main_tab_product.html",
-    "href": "content/product_records/main_tab_product.html",
-    "title": "Main Tab",
+    "objectID": "content/product_records/associated_tab_product.html",
+    "href": "content/product_records/associated_tab_product.html",
+    "title": "Associated Tab",
     "section": "",
-    "text": "The Main tab allows for the creation and/or editing of primary metadata.",
+    "text": "The Associated section is used to connect metadata records with each other. This feature should be used when items are related. For example, products are often the result of projects, and projects can have sub-projects. Projects and products can be linked together by using an association. Adding associations will allow users to find items that relate to each other quickly and easily.",
     "crumbs": [
       "Product Records",
-      "Main Tab"
+      "Associated Tab"
     ]
   },
   {
-    "objectID": "content/product_records/main_tab_product.html#basic-information",
-    "href": "content/product_records/main_tab_product.html#basic-information",
-    "title": "Main Tab",
-    "section": "Basic Information",
-    "text": "Basic Information\n\nRecord ID\nWill be auto-generated but can be edited.\n\n\nTitle\nEnter as informative a Title as possible. Good titles, when they appear in a search, will be understood and/or traceable.\n\n\nStatus\nThe Status drop-down menu allows you to select the status of your project. Choose a status from only these four options: accepted, completed, onGoing, or proposed.",
+    "objectID": "content/product_records/associated_tab_product.html#create-associations",
+    "href": "content/product_records/associated_tab_product.html#create-associations",
+    "title": "Associated Tab",
+    "section": "Create Associations",
+    "text": "Create Associations\nIn mdEditor, the association can be created either from the Project record or the Product record. The “Association Type” will define the association from your current record to the linked record. Specifying the “Linked Association Type” will create the association from the other direction.\n\n\n\n\n\n\nWarning\n\n\n\nImportant: It is recommended you ALWAYS specify the Linked Association Type when you create associations. This will ensure the associations are defined from both directions and be present in the metadata regardless of how the metadata is translated or where it is used in the future.\n\n\nIf records are imported from ScienceBase, the record associations might be automatically created, but sometimes the associations may need to be recreated manually (as described below). Associations can only be made after both project and product records have been created in mdEditor.\n\n\n\n\n\n\nQuick Reference: Creating an Association in a Product Record\n\n\n\n\n1. Select “parentProject” from the Association Type drop-down menu.\n\n\n2. Use the Select a Record button to select an associated project.\n\n\n3. Choose the project that you would like to associate from the “Select a Resource” list.\n\n\n4. Fill out the Linked Association Type with “product.”\n\n\n\n\n\nStep-by-Step: Creating an Association in a Product Record\nStep 1: Select “parentProject” from the Association Type drop-down menu. This field will describe the relationship from the associated record to the product record (the associated record is the parentProject of the product record you are editing).\n\nStep 2: Click the “Select a Record” button to select an associated project.\n\nStep 3: Choose the project that you would like to associate from the Select a Resource list.\n\nStep 4: Fill out the Linked Association Type with “product”.",
     "crumbs": [
       "Product Records",
-      "Main Tab"
-    ]
-  },
-  {
-    "objectID": "content/product_records/main_tab_product.html#default-locale",
-    "href": "content/product_records/main_tab_product.html#default-locale",
-    "title": "Main Tab",
-    "section": "Default Locale",
-    "text": "Default Locale\nDefault Locale allows for the selection of Language, Character Set, and Country. English, UTF-8, and USA will be selected by default, but you may change them if necessary. See Settings for instruction.",
-    "crumbs": [
-      "Product Records",
-      "Main Tab"
-    ]
-  },
-  {
-    "objectID": "content/product_records/main_tab_product.html#resource-types",
-    "href": "content/product_records/main_tab_product.html#resource-types",
-    "title": "Main Tab",
-    "section": "Resource Types",
-    "text": "Resource Types\nThe Resource Type must be identified when the record is created. Products must be identified from the list of options, but ‘product’, while on the list, is not a valid option. After the record is initiated the field should be automatically filled in with the resource type selected when the record was created. Name is optional - you can leave this blank or enter a shorten project name.\n\n\n\n\n\n\nNote\n\n\n\nProducts must have a specific resource type selected, NOT just “product”.",
-    "crumbs": [
-      "Product Records",
-      "Main Tab"
-    ]
-  },
-  {
-    "objectID": "content/product_records/main_tab_product.html#point-of-contacts",
-    "href": "content/product_records/main_tab_product.html#point-of-contacts",
-    "title": "Main Tab",
-    "section": "Point of Contacts",
-    "text": "Point of Contacts\nAdding a point of contact gives staff information on who to contact should they have a question regarding your project or product. From the Role drop-down menu, select pointOfContact. From the Contacts drop-down menu, select a contact from the list of contacts. See the Contact Records section for information on creating contacts.\n\n\n\n\n\n\n\n\nRole\nContact\nRequired?\n\n\n\n\npointOfContact\nFWS Science Applications National Data Steward\nRequired\n\n\npointOfContact\nData Steward\nRequired\n\n\nprincipalInvestigator\nThe Project PI\nRequired, if applicable\n\n\ncustodian\nData Custodian\nRequired, if applicable\n\n\nadministrator\nData Trustee\nRequired\n\n\nadministrator\nFWS Region (legacy and DOI Unified)\nRequired\n\n\ncollaborator\npartnership organizations and/or programs\nRequired, if applicable\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nThe FWS Science Applications National Data Steward will serve as the long term contact/backup. This way, users have a point-of-contact even if there is a positional change within an organization. Regional Data Steward should be included in addition as a point of contact if available.",
-    "crumbs": [
-      "Product Records",
-      "Main Tab"
-    ]
-  },
-  {
-    "objectID": "content/product_records/main_tab_product.html#citation",
-    "href": "content/product_records/main_tab_product.html#citation",
-    "title": "Main Tab",
-    "section": "Citation",
-    "text": "Citation\nThe Citation lets users know pertinent information about your product such as responsible parties, internal and ScienceBase identifiers, and any online resources that may relate to your item. The citation much like a peer-reviewed publication citation, provides credit and services a as reference. Adding information in the citation will also allow users to find your item when they search for items that contain said information.\nThe following fields are required in citation:\n\nTitle\nAdded automatically based on the title of your record.\n\n\nAlternate Title\nAdd an **Alternate Title*.\n\n\nDates\nEnter acquisition, creation, updated, revision, or publication date reference from the picklist and then enter the date. At least one  of these date types is required.\n\n\nResponsible Parties\nThis must include a point of contact, but may also include other responsible parties such as funders, partners, collaborators, and contributors. Collaborators could be intellectual participants while contributors could be intellectual and financial participants.\n\n\n\n\n\n\n\n\nRole\nContact\nRequired?\n\n\n\n\nprincipalInvestigator\nData Creator\nRequired\n\n\ncoPrincipalInvestigator\nData Co-Creator\nBest Practice\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nFor items that will be sent to data.gov, only the first in the list of Responsible Parties (#0) will appear.\n\n\n\n\nOnline Resource\nEnter the Name and URL for the location where users can find the product (e.g., ScienceBase page or DOI url). Data.gov refers to this online resource link to send users to the data download.\n\n\n\n\n\n\nNote\n\n\n\nImportant: The URLs to access and download products must also be included in the Distribution tab. Distribution Links is the only online resource that data.gov reads so without a URL there, users have no way to access the actual product from data.gov.\n\n\n\n\nIdentifier\nYou may enter as many identifiers as desired, but at least one  is required. If you have internal SA specific IDs for projects, enter them here. A Digital Object Identifier (DOI) is the preferred identifier for this. The Archive Folder Name may be included here as well.\n\n\n\nExample of Online resource and identifier metadata entries\n\n\n\n\n\n\n\n\nNote\n\n\n\nDigital Object Identifier can be entered both as an online resource AND an identifier. Note that the entry format is different. As an online resource, the entire url is required, however, as an identifier, only the prefix and suffix of the DOI are required (see figure above).\n\n\n\n\n\n\n\n\nBest Practice\n\n\n\nCreate and use internal identifiers that are unique within your region for projects and their products. Example: GNLCC2010-11.\n\n\n\n\n\n\n\n\nNote\n\n\n\nIf your item does not have a ScienceBase ID (SBID) yet, ScienceBase will create one automatically upon publishing. If you imported your item from ScienceBase originally, then the SBID will already be included in Metadata/Metadata Identifier and you do not need to include it here. Note that if you edit an item that is already on ScienceBase without using its existing SBID, a duplicate item will be created on ScienceBase. Consult the Publish section of this manual to learn more.\n\n\n\n\n\n\n\n\nNote\n\n\n\nIf the product metadata was created by copying another mdEditor metadata record, this identifier MUST be edited/changed since it will reflect the copied record identifier. Only the mdEditor UUID changes to represent a new record when an item is copied. Consult the Copy Records section of this manual to learn how to make a copy.",
-    "crumbs": [
-      "Product Records",
-      "Main Tab"
-    ]
-  },
-  {
-    "objectID": "content/product_records/main_tab_product.html#description",
-    "href": "content/product_records/main_tab_product.html#description",
-    "title": "Main Tab",
-    "section": "Description",
-    "text": "Description\nDescription allows for the addition of the Abstract as well as a Short Abstract, Purpose, Supplemental Information, and an Environment Description.\n\nAbstract\nEnter an Abstract\n\n\n\n\n\n\nNote\n\n\n\nTip: Write your abstracts for projects in the present tense if the project is underway and past tense if it has been completed.\n\n\n\n\nShort Abstract\nIn the Short Abstract, enter a short description, limited to 300 characters, if desired. The Best Practice here is to include a few sentences for media communications that Office of Communications may find helpful.\n\n\nSupplemental Information\nEnter comments, if desired.",
-    "crumbs": [
-      "Product Records",
-      "Main Tab"
-    ]
-  },
-  {
-    "objectID": "content/product_records/main_tab_product.html#time-period",
-    "href": "content/product_records/main_tab_product.html#time-period",
-    "title": "Main Tab",
-    "section": "Time Period",
-    "text": "Time Period\nTime Period refers to project start and end date, or the date that the product was applicable. For example, the time when a map is valid, date of publication, date of presentation, or dates when the data was collected.\n\nRequired: For each product, add a start date and end date.",
-    "crumbs": [
-      "Product Records",
-      "Main Tab"
+      "Associated Tab"
     ]
   },
   {
@@ -1930,7 +2068,7 @@
     "href": "content/project_records/keywords_tab_project.html",
     "title": "Keywords Tab",
     "section": "",
-    "text": "Adding keywords to your metadata record allows for the record to be found later through a search engine, keywords are the way to tag your projects or products. mdEditor is designed using existing thesauruses that contain pre-determined keywords.",
+    "text": "The “Keywords” tab adds keywords to your metadata so the record to be found later through a search engine, keywords are the way to tag your projects or products.mdEditor is designed using existing thesauruses that contain pre-determined keywords.",
     "crumbs": [
       "Project Records",
       "Keywords Tab"
@@ -1985,7 +2123,7 @@
     "href": "content/project_records/taxonomy_tab_project.html",
     "title": "Taxonomy Tab",
     "section": "",
-    "text": "Taxonomy is required for projects and strongly recommended for products (where applicable).",
+    "text": "The Taxonomy tab allows taxonomic information the species associated with the project or product. Taxonomy is required for projects and strongly recommended for products (if applicable).",
     "crumbs": [
       "Project Records",
       "Taxonomy Tab"
@@ -1996,7 +2134,7 @@
     "href": "content/project_records/taxonomy_tab_project.html#taxonomy",
     "title": "Taxonomy Tab",
     "section": "Taxonomy",
-    "text": "Taxonomy\nmdEditor’s new “Taxonomy” section automatically pulls in taxonomic information from ITIS (Integrated Taxonomic Information System – see itis.gov for more information).\n\nPlease note that this functionality in mdEditor is not intended to explore ITIS. It is a tool to add known taxonomic information to your metadata. If you want to explore ITIS, go to itis.gov to find information and then come back to mdEditor with the desired search values.\n\nThe minimum requirements for valid taxonomy are a Taxonomic System plus one or more taxonomic classifications.\n\nAdd Taxonomic System\n1. Click “Add Collection”\n\n2. From here, you can click “Add Taxa from ITIS” directly (on right side) without adding the taxonomic system. This will be filled in for you automatically once you have added items from ITIS.\n\n3. Enter your search terms in the search box. You can type in a common name, scientific name, or TSN (Taxonomic Serial Number, assigned by ITIS). You can type in any level of taxonomy, not just species name (e.g., you can type in an order or class or genus). You can specify by Kingdom if you like.\n\n\n\n\n\n\nNote\n\n\n\nIf you haven’t used the search in a while (or ever) the ITIS service might be asleep so it will take a few more seconds to load but then will load quickly after that.\n\n\n\n\n\n\n\n\nNote\n\n\n\nThe status of the taxonomic classification is denoted in () after the TSN. ITIS may consider a classification “invalid” if the species was reclassified, for example. It is up to you whether you want to add invalid ITIS classifications to your metadata.\n\n\n\n4. Click “Add” for the search results you want to add to your record and then click “Import Taxa.” You will get a message of successful import at the bottom of your screen.\n\n\n\n\n\n\nNote\n\n\n\nYou don’t need to worry about clicking import multiple times for the same species. mdEditor is smart enough to know not to create duplicate entries of the same species.\n\n\n\n5. Click “Back to Collection.” You will see that it has added a taxonomic hierarchy. It has also added a Title to Taxonomic System (if you hadn’t already added one by hand). This complete the the minimum information required for taxonomy.\n\n\n\n\n\n\nTip\n\n\n\nYou can click on any level of the taxonomic hierarchy to collapse the entries below that level.\n\n\n\n\n\n\n\n\nNote\n\n\n\nmdEditor only adds common names at the lowest taxonomic level you identified (e.g., species level).\n\n\n\n6. You can add additional information regarding the taxonomic information if you desire.\nObservers would be filled out when there were people who actually went in the field/lab and identified species. Here you would lie the people who did that work.\n\nGeneral Scope: You can add a description of the range of taxa addressed in the dataset or collection.\nIdentification Procedure: You can describe the methods used for taxonomic identification.\nIdentification Completeness: You can add information regarding completeness and uncertainty in the identifications.\n\nVoucher is where you can add information about specimens you submitted to a museum or a storage facility where you are storing specimens, can document that here (select a Repository via a Contact entered in mdEditor).",
+    "text": "Taxonomy\nThe Taxonomy tab automatically pulls in taxonomic information from ITIS (Integrated Taxonomic Information System) a partnership of U.S., Canadian, and Mexican agencies and other taxonomic specialists.\n\nPlease note that this functionality in mdEditor is not intended to explore ITIS. It is a tool to add known taxonomic information to your metadata. If you want to explore ITIS, go to itis.gov to find information and then come back to mdEditor with the desired search values.\n\nThe minimum requirements for valid taxonomy are a Taxonomic System plus one or more taxonomic classifications.\n\nAdd Taxonomic System\n1. Click “Add Collection”\n\n2. From here, you can click “Add Taxa from ITIS” directly (on right side) without adding the taxonomic system. This will be filled in for you automatically once you have added items from ITIS.\n\n3. Enter your search terms in the search box. You can type in a common name, scientific name, or TSN (Taxonomic Serial Number, assigned by ITIS). You can type in any level of taxonomy, not just species name (e.g., you can type in an order or class or genus). You can specify by Kingdom if you like.\n\n\n\n\n\n\nNote\n\n\n\nIf you haven’t used the search in a while (or ever) the ITIS service might be asleep so it will take a few more seconds to load but then will load quickly after that.\n\n\n\n\n\n\n\n\nNote\n\n\n\nThe status of the taxonomic classification is denoted as (status) after the TSN. ITIS may consider a classification “invalid” if the species was reclassified, for example. It is up to you whether you want to add invalid ITIS classifications to your metadata.\n\n\n\n4. Click “Add” for the search results you want to add to your record and then click “Import Taxa.” You will get a message of successful import at the bottom of your screen.\n\n\n\n\n\n\nNote\n\n\n\nYou don’t need to worry about clicking import multiple times for the same species. mdEditor is smart enough to know not to create duplicate entries of the same species.\n\n\n\n5. Click “Back to Collection.” You will see that it has added a taxonomic hierarchy. It has also added a Title to Taxonomic System (if you hadn’t already added one by hand). This complete the the minimum information required for taxonomy.\n\n\n\n\n\n\nTip\n\n\n\nYou can click on any level of the taxonomic hierarchy to collapse the entries below that level.\n\n\n\n\n\n\n\n\nNote\n\n\n\nmdEditor only adds common names at the lowest taxonomic level you identified (e.g., species level).\n\n\n\n6. You can add additional information regarding the taxonomic information if you desire.\nObservers would be filled out when there were people who actually went in the field/lab and identified the species. Here you would list the people who did that work.\n\nGeneral Scope: You can add a description of the range of taxa addressed in the dataset or collection.\nIdentification Procedure: You can describe the methods used for taxonomic identification.\nIdentification Completeness: You can add information regarding completeness and uncertainty in the identifications.\n\nVoucher is where you can add information about specimens you submitted to a museum or a storage facility where you are storing specimens, can document that here (select a Repository via a Contact entered in mdEditor).",
     "crumbs": [
       "Project Records",
       "Taxonomy Tab"
@@ -2025,121 +2163,47 @@
     ]
   },
   {
-    "objectID": "content/project_records/main_tab_project.html",
-    "href": "content/project_records/main_tab_project.html",
-    "title": "Main Tab",
+    "objectID": "content/project_records/extent_tab_project.html",
+    "href": "content/project_records/extent_tab_project.html",
+    "title": "Extent Tab",
     "section": "",
-    "text": "The Main tab allows for the creation and/or editing of primary metadata.",
+    "text": "Extent refers to geographic boundaries for your project. Spatial extents lets users see at a glance the geographic footprint of your project and allows searching within specific geographic areas.",
     "crumbs": [
       "Project Records",
-      "Main Tab"
+      "Extent Tab"
     ]
   },
   {
-    "objectID": "content/project_records/main_tab_project.html#basic-information",
-    "href": "content/project_records/main_tab_project.html#basic-information",
-    "title": "Main Tab",
-    "section": "Basic Information",
-    "text": "Basic Information\n\nRecord ID\nRecord ID will be auto-generated. It can be edited but it should only be edited if absolutely necessary (and ideally edited as soon as the record is created in mdEditor).\n\n\nTitle (Required)\nEnter a concise, yet informative Title. Good titles, when they appear in a search, will be understood and traceable.\n\n\nStatus (Required)\nThe Status drop-down menu allows you to select the status of your project. Choose a status from only these four options: accepted, completed, onGoing, or proposed.",
+    "objectID": "content/project_records/extent_tab_project.html#creating-extents",
+    "href": "content/project_records/extent_tab_project.html#creating-extents",
+    "title": "Extent Tab",
+    "section": "Creating Extents",
+    "text": "Creating Extents\nThere are multiple ways to create a spatial extent for your project.\nClicking the Edit Extent Features button allows for the addition of Feature Properties such as: ID, Name, or Description. You can draw a polygon or a bounding box in the initial window.\nYou can export spatial extents and re-use for other records using the import feature button or by dragging and dropping onto the map.\nExtents are limited to 5000 vertices. Recommend you create only simple polygons or bounding boxes. If you want greater detail, attach high-definition shapefiles instead of trying to draw them.\nExtents should be accurate enough for searching purposes, but remember that they are metadata, not data.\n\nOption 1: Import Spatial Features\nSpatial features such as geoJSON, shapefiles, and kml can be imported. However, file attributes (such as name and description), will not be imported and must be added manually.\nFor projects without a specific extent, you can use the FWS regional geography. Projects should have custom extents when it is relevant to the scope of the project. Remember, these extents will be used for search and discovery purposes. geoJSON files for all FWS regional and state geographies are available on ScienceBase (private DMWG folder that requires ScienceBase login). Download the relevant files and then import into mdEditor.\n\n\n\n\n\n\nNote\n\n\n\nImportant: coordinates used must be geographic coordinates, not projected coordinates. {% endhint %}\n\n\n\n\nOption 2: Draw Spatial Features\n\n\n\n\n\n\nNote\n\n\n\nTip: It is easier to click “finish” when drawing a polygon instead of trying to close the polygon by clicking on the first point.\n\n\n\n\nOption 3: Draw Bounding Box\n\n\n\n\n\n\nTip\n\n\n\nmdEditor can automatically calculate a bounding box if you have at least one extent in the metadata.\n\n\n\n\n\nExample Geographic Extent entry\n\n\n\n\n\n\n\n\nWarning\n\n\n\nBounding boxes will not work across the dateline but you can have more than one extent per project. If your project area crosses the dateline, split the area into multiple extents and create separate bounding boxes.",
     "crumbs": [
       "Project Records",
-      "Main Tab"
+      "Extent Tab"
     ]
   },
   {
-    "objectID": "content/project_records/main_tab_project.html#default-locale-required",
-    "href": "content/project_records/main_tab_project.html#default-locale-required",
-    "title": "Main Tab",
-    "section": "Default Locale (Required)",
-    "text": "Default Locale (Required)\nDefault Locale allows for the selection of Language, Character Set, and Country. English, UTF-8, and USA will be selected by default, but you may change them if necessary. See Settings for instruction.",
+    "objectID": "content/project_records/extent_tab_project.html#saving-and-exporting-extents",
+    "href": "content/project_records/extent_tab_project.html#saving-and-exporting-extents",
+    "title": "Extent Tab",
+    "section": "Saving and Exporting Extents",
+    "text": "Saving and Exporting Extents\n\n\n\n\n\n\nNote\n\n\n\nTip: You can export, save, and import an extent to use for other projects or products.",
     "crumbs": [
       "Project Records",
-      "Main Tab"
+      "Extent Tab"
     ]
   },
   {
-    "objectID": "content/project_records/main_tab_project.html#resource-types-required",
-    "href": "content/project_records/main_tab_project.html#resource-types-required",
-    "title": "Main Tab",
-    "section": "Resource Types (Required)",
-    "text": "Resource Types (Required)\nFor projects, the Resource Type should be automatically filled in with the resource type you selected when you created your record. This should be “project” for all SA projects. Name is optional - you can leave this blank or enter a shorten project name.",
-    "crumbs": [
-      "Project Records",
-      "Main Tab"
-    ]
-  },
-  {
-    "objectID": "content/project_records/main_tab_project.html#point-of-contacts-required",
-    "href": "content/project_records/main_tab_project.html#point-of-contacts-required",
-    "title": "Main Tab",
-    "section": "Point of Contacts (Required)",
-    "text": "Point of Contacts (Required)\nAdding a Point of Contact gives users information on who to contact should they have a question regarding your project or product.\n\n\n\n\n\n\nNote\n\n\n\nTo add contacts to a metadata record, you must first create/upload the contacts into mdEditor. See the Contact Records Section for more information.\n\n\n\n\n\n\n\n\n\n\nRole\nContact\nRequirements\n\n\n\n\npointOfContact\nFWS Science Applications National Data Steward\nRequired\n\n\npointOfContact\nData Steward\nRequired\n\n\nprincipalInvestigator\nProject Principal Investigator and/or Producer\nRequired, if applicable\n\n\ncustodian\nData Custodian\nRequired, if applicable\n\n\nowner\nData Trustee\nRequired\n\n\nadministrator\nProject officer, if not the steward\nRequired\n\n\nadministrator\nFWS Region (legacy and DOI Unified), FWS Program\nRequired\n\n\ncollaborator\nPartnership organizations and/or programs\nRequired, if applicable\n\n\n\n\n\n\n\nExample Points of Contact Entry in mdEditor\n\n\n\n\n\n\n\n\nNote\n\n\n\nThe FWS Science Applications National Data Steward will serve as the long term contact and backup. This way, users have a point-of-contact even if there is a positional change within an organization. Regional Data Steward should be included in addition as a point of contact, if available.",
-    "crumbs": [
-      "Project Records",
-      "Main Tab"
-    ]
-  },
-  {
-    "objectID": "content/project_records/main_tab_project.html#citation",
-    "href": "content/project_records/main_tab_project.html#citation",
-    "title": "Main Tab",
-    "section": "Citation",
-    "text": "Citation\nThe Citation describes pertinent information about your project such as: responsible parties, internal and ScienceBase identifiers, and any online resources that may relate to your item. The citation, much like a peer-reviewed publication citation, provides credit and services as a reference citation. Adding information in the citation will also improve users’ ability to find your items.\n\nTitle (Required)\nThe citation Title is automatically populated with the title of your record.\n\n\nAlternate Title\nYou can add an alternate title, if desired. Generally these should be shorter than the full Title.\n\n\nDates (Required)\nEnter Dates for acquisition, creation, updated, or revision from the picklist and then enter the date, at least one  of these date types is required.\n\n\nResponsible Parties (Required)\nResponsible parties must include the principal investigator of the project, but may optionally include other responsible parties such as funders (your region and program), partners, collaborators, and contributors. Collaborators could be intellectual participants while contributors could be intellectual and financial participants.\n\n\n\n\n\n\nNote\n\n\n\nTo add contacts to a metadata record, you must first create/upload the contacts in mdEditor. See the Contacts section for more information.\n\n\n\n\n\n\n\n\n\n\nRole\nContact\nRequirements\n\n\n\n\nprincipalInvestigator\nProject Principal Investigator\nRequired\n\n\ncoPrincipalInvestigator\nCo-Investigators\nRequired, if applicable\n\n\n\n\n\n\nOnline Resource (If available)\nEnter the Name and URL for the project homepage website, if available.\n\n\nIdentifier\nYou may enter as many identifiers as desired. The identifier for the repository is required here. If you have other internal IDs for projects, enter them here. Other optional identifiers for projects include: Archive Folder Name.\n\n\n\n\n\n\nBest Practice\n\n\n\nCreate and use internal identifiers that are unique within your region or program for projects and their products. Example: GNLCC2010-11.\n\n\n\n\n\n\n\n\nNote\n\n\n\nIf your item does not have a ScienceBase ID yet, ScienceBase will create one automatically upon publishing. If you imported your item from ScienceBase originally, then the SBID will already be included in Metadata/Metadata Identifier and you do not need to include it here. Note that if you edit an item that is already on ScienceBase without using its existing ID, a duplicate item will be created on ScienceBase. Consult the Publish section of this manual to learn more.\n\n\n\n\n\nExample Citation in mdEditor",
-    "crumbs": [
-      "Project Records",
-      "Main Tab"
-    ]
-  },
-  {
-    "objectID": "content/project_records/main_tab_project.html#description-required",
-    "href": "content/project_records/main_tab_project.html#description-required",
-    "title": "Main Tab",
-    "section": "Description (Required)",
-    "text": "Description (Required)\nDescription allows for the addition of the Abstract as well as a Short Abstract, and Supplemental Information.\n\nAbstract (Required)\nEnter an Abstract that succinctly describes the project’s purpose and goals. Include key species or habitats as well.\n\n\n\n\n\n\nNote\n\n\n\nTip: Write your project abstract in the present tense if the project is in progress and past tense if the project has been completed.\n\n\n\n\nShort Abstract\nEnter a short description, limited to 300 characters, if desired. By default, mdEditor will fill the short abstract with the first 300 characters of the abstract. Best practice is a public outreach abstract for Office of Communications purposes.\n\n\nPurpose\nEnter a short narrative about the purpose of the resource such as the issue or problem that the resource is designed to address and anticipated results or benefits. This aligns with SA Internal Tracking metadata.\n\n\nSupplemental Information\nEnter comments, if desired.\n\n\n\nExample Abstract entry in mdEditor",
-    "crumbs": [
-      "Project Records",
-      "Main Tab"
-    ]
-  },
-  {
-    "objectID": "content/project_records/main_tab_project.html#time-period-required",
-    "href": "content/project_records/main_tab_project.html#time-period-required",
-    "title": "Main Tab",
-    "section": "Time Period (Required)",
-    "text": "Time Period (Required)\nTime Period refers to project Start Date and End Date.\n\n\n\n\n\n\nNote\n\n\n\nThis set of dates is distinct from the fiscal year of funding. Here you want to indicate the overall project start and end dates. In the Funding section you will specify the fiscal years that funds were allocated.\n\n\nFor each project, add a Start Date and End Date. If the project spanned a single fiscal year, you can use the “Pick a Fiscal Year” dropdown to autofill the date fields.\n\n\n\nExample Project Start and End Dates entry in mdEditor",
-    "crumbs": [
-      "Project Records",
-      "Main Tab"
-    ]
-  },
-  {
-    "objectID": "content/project_records/project_records_overview.html",
-    "href": "content/project_records/project_records_overview.html",
-    "title": "Project Records: Overview",
+    "objectID": "content/project_records/documents_tab_project.html",
+    "href": "content/project_records/documents_tab_project.html",
+    "title": "Documents Tab",
     "section": "",
-    "text": "This section will cover how to create a metadata record for an SA project.",
+    "text": "The Documents tab is where you can add references to resources that relate to your project but do not define or describe the project. These can include videos, webinars, books, posters, web pages, news releases, etc. This should not include links to the project or its products. An example document could be a report for a workshop that inspired the project.\nThere are no specific requirements or best practices for documents.\n\n\n\n\n\n\nNote\n\n\n\nScienceBase has a similar section called “weblinks.” These will be populated in the Documents section if sbJSON is imported into mdEditor.\n\n\nFor more information, consult the Documents section of the mdEditor manual.",
     "crumbs": [
-      "Project Records"
-    ]
-  },
-  {
-    "objectID": "content/project_records/project_records_overview.html#before-you-begin",
-    "href": "content/project_records/project_records_overview.html#before-you-begin",
-    "title": "Project Records: Overview",
-    "section": "Before You Begin",
-    "text": "Before You Begin\n\n1. Check mdEditor Settings\nIn the Default settings make sure Metadata Repositories includes “SA Science Catalog” and “data.gov”.\nIn the Publishing settings, under the Default Parent Identifier: ensure you entered your Region’s Parent Identifier from the table below.\n\n\n\nUSFWS Region\nParent Identifier\n\n\n\n\nHeadquarters\n6696c783d34ecb78f609f673\n\n\nRegion 1\n6696c74ad34ecb78f609f66f\n\n\nRegion 2\n6696c7b2d34ecb78f609f678\n\n\nRegion 3\n6696c873d34ecb78f609f67c\n\n\nRegion 4\n6696c884d34ecb78f609f680\n\n\nRegion 5\n66326ad6d34ea70bd5f26d5f\n\n\nRegion 6\n6696c92dd34ecb78f609f68b\n\n\nRegion 7\n645bfe80d34ec179a83822d8\n\n\nRegion 8\n6696c89bd34ecb78f609f685\n\n\n\n\n\n2. Select the “Project” profile\nAfter initially creating your project record, but before you begin adding metadata, select the metadata record’s profile type. In the main menu’s Profile drop-down options, select “Project”. This will limit the number of available tabs and only show tabs that contain fields that are applicable to project metadata.\n\n\n\nAfter selecting the Project profile, only the relevant tabs will be displayed.\n\n\n\n\n3. Ensure your Contacts are loaded into mdEditor\nIn mdEditor, contacts are created separately from individual records and then stored within a library in mdEditor. Once contacts have been entered or imported into mdEditor, they can be used in any metadata records.\nTo reduce unnecessary duplication of contacts, SA has a “seed list” of contacts that include government agencies and partners that are often affiliated with USFWS projects and products SA ScienceBase Community. item page\n\n\n\n\n\n\nWarning\n\n\n\nYou should maintain a single list of your contacts. Having duplicate copies of the same contact is not desirable. It can create confusion as you edit and manage your metadata records and introduce unnecessary errors.",
-    "crumbs": [
-      "Project Records"
-    ]
-  },
-  {
-    "objectID": "content/project_records/project_records_overview.html#edit-a-project",
-    "href": "content/project_records/project_records_overview.html#edit-a-project",
-    "title": "Project Records: Overview",
-    "section": "Edit a Project",
-    "text": "Edit a Project\n\nImport or create your Project record (see workflow).\nPick “project” as the Resource Type\nSelect the Project Profile: from the Main Menu (Top Navigation Bar) select “Project” from the profile drop-down menu.\nFill out metadata information for the following tabs:\n      Main Tab\n      Metadata Tab\n      Keywords Tab\n      Taxonomy Tab\n      Extent Tab\n      Documents Tab\n      Funding Tab\n\nIf applicable, Associate your project with other metadata records.",
-    "crumbs": [
-      "Project Records"
+      "Project Records",
+      "Documents Tab"
     ]
   },
   {

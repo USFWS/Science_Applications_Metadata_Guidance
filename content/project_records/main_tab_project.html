@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.54">
+<meta name="generator" content="quarto-1.5.55">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -272,14 +272,20 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../../content/project_records/extent_tab_project.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Extent Tab</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../../content/project_records/taxonomy_tab_project.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Taxonomy Tab</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/project_records/extent_tab_project.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Extent Tab</span></a>
+  <a href="../../content/project_records/associated_tab_project.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Associated Tab</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -292,12 +298,6 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="../../content/project_records/funding_tab_project.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Funding Tab</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../content/project_records/associating_records_project.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Associating Records</span></a>
   </div>
 </li>
       </ul>
@@ -337,12 +337,6 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/product_records/taxonomy_tab_product.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Taxonomy Tab</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="../../content/product_records/extent_tab_product.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Extent Tab</span></a>
   </div>
@@ -351,6 +345,12 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="../../content/product_records/lineage_tab_product.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Lineage Tab</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/product_records/taxonomy_tab_product.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Taxonomy Tab</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -367,8 +367,8 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/product_records/dictionaries_tab_product.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Dictionaries Tab</span></a>
+  <a href="../../content/product_records/associated_tab_product.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Associated Tab</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -379,8 +379,8 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/product_records/associating_records_product.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Associating Records</span></a>
+  <a href="../../content/product_records/dictionaries_tab_product.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dictionaries Tab</span></a>
   </div>
 </li>
       </ul>
@@ -621,30 +621,33 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#basic-information" id="toc-basic-information" class="nav-link active" data-scroll-target="#basic-information">Basic Information</a>
   <ul class="collapse">
-  <li><a href="#record-id" id="toc-record-id" class="nav-link" data-scroll-target="#record-id">Record ID</a></li>
-  <li><a href="#title-required" id="toc-title-required" class="nav-link" data-scroll-target="#title-required">Title (<span style="color:#b50909;">Required</span>)</a></li>
-  <li><a href="#status-required" id="toc-status-required" class="nav-link" data-scroll-target="#status-required">Status (<span style="color:#b50909;">Required</span>)</a></li>
+  <li><a href="#record-id-required" id="toc-record-id-required" class="nav-link" data-scroll-target="#record-id-required">Record ID <span style="color:#b50909;">(Required)</span></a></li>
+  <li><a href="#title-required" id="toc-title-required" class="nav-link" data-scroll-target="#title-required">Title <span style="color:#b50909;">(Required)</span></a></li>
+  <li><a href="#status-required" id="toc-status-required" class="nav-link" data-scroll-target="#status-required">Status <span style="color:#b50909;">(Required)</span></a></li>
   </ul></li>
-  <li><a href="#default-locale-required" id="toc-default-locale-required" class="nav-link" data-scroll-target="#default-locale-required">Default Locale (<span style="color:#b50909;">Required</span>)</a></li>
-  <li><a href="#resource-types-required" id="toc-resource-types-required" class="nav-link" data-scroll-target="#resource-types-required">Resource Types (<span style="color:#b50909;">Required</span>)</a></li>
-  <li><a href="#point-of-contacts-required" id="toc-point-of-contacts-required" class="nav-link" data-scroll-target="#point-of-contacts-required">Point of Contacts (<span style="color:#b50909;">Required</span>)</a></li>
+  <li><a href="#default-locale-required" id="toc-default-locale-required" class="nav-link" data-scroll-target="#default-locale-required">Default Locale <span style="color:#b50909;">(Required)</span></a></li>
+  <li><a href="#resource-types-required" id="toc-resource-types-required" class="nav-link" data-scroll-target="#resource-types-required">Resource Types <span style="color:#b50909;">(Required)</span></a></li>
+  <li><a href="#point-of-contacts-required" id="toc-point-of-contacts-required" class="nav-link" data-scroll-target="#point-of-contacts-required">Point of Contacts <span style="color:#b50909;">(Required)</span></a></li>
   <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation">Citation</a>
   <ul class="collapse">
-  <li><a href="#title-required-1" id="toc-title-required-1" class="nav-link" data-scroll-target="#title-required-1">Title (<span style="color:#b50909;">Required</span>)</a></li>
+  <li><a href="#title-required-1" id="toc-title-required-1" class="nav-link" data-scroll-target="#title-required-1">Title <span style="color:#b50909;">(Required)</span></a></li>
   <li><a href="#alternate-title" id="toc-alternate-title" class="nav-link" data-scroll-target="#alternate-title">Alternate Title</a></li>
-  <li><a href="#dates-required" id="toc-dates-required" class="nav-link" data-scroll-target="#dates-required">Dates (<span style="color:#b50909;">Required</span>)</a></li>
-  <li><a href="#responsible-parties-required" id="toc-responsible-parties-required" class="nav-link" data-scroll-target="#responsible-parties-required">Responsible Parties (<span style="color:#b50909;">Required</span>)</a></li>
-  <li><a href="#online-resource-if-available" id="toc-online-resource-if-available" class="nav-link" data-scroll-target="#online-resource-if-available">Online Resource (<span style="color:#936f38;">If available</span>)</a></li>
-  <li><a href="#identifier" id="toc-identifier" class="nav-link" data-scroll-target="#identifier">Identifier</a></li>
+  <li><a href="#dates-required" id="toc-dates-required" class="nav-link" data-scroll-target="#dates-required">Dates <span style="color:#b50909;">(Required)</span></a></li>
+  <li><a href="#responsible-parties-required" id="toc-responsible-parties-required" class="nav-link" data-scroll-target="#responsible-parties-required">Responsible Parties <span style="color:#b50909;">(Required)</span></a></li>
+  <li><a href="#online-resource" id="toc-online-resource" class="nav-link" data-scroll-target="#online-resource">Online Resource</a></li>
+  <li><a href="#identifier-required" id="toc-identifier-required" class="nav-link" data-scroll-target="#identifier-required">Identifier <span style="color:#b50909;">(Required)</span></a></li>
   </ul></li>
-  <li><a href="#description-required" id="toc-description-required" class="nav-link" data-scroll-target="#description-required">Description (<span style="color:#b50909;">Required</span>)</a>
+  <li><a href="#description" id="toc-description" class="nav-link" data-scroll-target="#description">Description</a>
   <ul class="collapse">
-  <li><a href="#abstract-required" id="toc-abstract-required" class="nav-link" data-scroll-target="#abstract-required">Abstract (<span style="color:#b50909;">Required</span>)</a></li>
+  <li><a href="#abstract-required" id="toc-abstract-required" class="nav-link" data-scroll-target="#abstract-required">Abstract <span style="color:#b50909;">(Required)</span></a></li>
   <li><a href="#short-abstract" id="toc-short-abstract" class="nav-link" data-scroll-target="#short-abstract">Short Abstract</a></li>
   <li><a href="#purpose" id="toc-purpose" class="nav-link" data-scroll-target="#purpose">Purpose</a></li>
   <li><a href="#supplemental-information" id="toc-supplemental-information" class="nav-link" data-scroll-target="#supplemental-information">Supplemental Information</a></li>
   </ul></li>
-  <li><a href="#time-period-required" id="toc-time-period-required" class="nav-link" data-scroll-target="#time-period-required">Time Period (<span style="color:#b50909;">Required</span>)</a></li>
+  <li><a href="#time-period" id="toc-time-period" class="nav-link" data-scroll-target="#time-period">Time Period</a>
+  <ul class="collapse">
+  <li><a href="#dates-required-1" id="toc-dates-required-1" class="nav-link" data-scroll-target="#dates-required-1">Dates <span style="color:#b50909;">(Required)</span></a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/usfws/sciapps_metadata_guidance/edit/main/content/project_records/main_tab_project.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/usfws/sciapps_metadata_guidance/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -685,7 +688,7 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>Basic Information: <strong>Title</strong>, <strong>Status</strong></td>
+<td>Basic Information: <strong>Record ID</strong>, <strong>Title</strong>, <strong>Status</strong></td>
 <td><span style="color:#b50909;"><strong>Required</strong></span></td>
 </tr>
 <tr class="even">
@@ -717,32 +720,32 @@ ul.task-list li input[type="checkbox"] {
 <p><br></p>
 <section id="basic-information" class="level2">
 <h2 class="anchored" data-anchor-id="basic-information">Basic Information</h2>
-<section id="record-id" class="level3">
-<h3 class="anchored" data-anchor-id="record-id">Record ID</h3>
-<p><strong>Record ID</strong> will be auto-generated. It can be edited but it should only be edited if absolutely necessary (and ideally edited as soon as the record is created in mdEditor).</p>
+<section id="record-id-required" class="level3">
+<h3 class="anchored" data-anchor-id="record-id-required">Record ID <span style="color:#b50909;">(Required)</span></h3>
+<p>The <strong>Record ID</strong> will be auto-generated. It can be edited but it should only be edited if absolutely necessary (and ideally edited as soon as the record is created in mdEditor).</p>
 </section>
 <section id="title-required" class="level3">
-<h3 class="anchored" data-anchor-id="title-required">Title (<span style="color:#b50909;">Required</span>)</h3>
+<h3 class="anchored" data-anchor-id="title-required">Title <span style="color:#b50909;">(Required)</span></h3>
 <p>Enter a concise, yet informative <strong>Title</strong>. Good titles, when they appear in a search, will be understood and traceable.</p>
 </section>
 <section id="status-required" class="level3">
-<h3 class="anchored" data-anchor-id="status-required">Status (<span style="color:#b50909;">Required</span>)</h3>
+<h3 class="anchored" data-anchor-id="status-required">Status <span style="color:#b50909;">(Required)</span></h3>
 <p>The <strong>Status</strong> drop-down menu allows you to select the status of your project. Choose a status from <u>only these four</u> options: <strong><em>accepted</em></strong>, <strong><em>completed</em></strong>, <strong><em>onGoing</em></strong>, or <strong><em>proposed</em></strong>.</p>
 <p><img src="../../assets/basic_information.png" class="img-fluid"></p>
 </section>
 </section>
 <section id="default-locale-required" class="level2">
-<h2 class="anchored" data-anchor-id="default-locale-required">Default Locale (<span style="color:#b50909;">Required</span>)</h2>
+<h2 class="anchored" data-anchor-id="default-locale-required">Default Locale <span style="color:#b50909;">(Required)</span></h2>
 <p><strong>Default Locale</strong> allows for the selection of <strong>Language</strong>, <strong>Character Set</strong>, and <strong>Country</strong>. English, UTF-8, and USA will be selected by default, but you may change them if necessary. See <a href="../../content/settings.html">Settings</a> for instruction.</p>
 <p><img src="../../assets/default_locale.png" class="img-fluid"></p>
 </section>
 <section id="resource-types-required" class="level2">
-<h2 class="anchored" data-anchor-id="resource-types-required">Resource Types (<span style="color:#b50909;">Required</span>)</h2>
+<h2 class="anchored" data-anchor-id="resource-types-required">Resource Types <span style="color:#b50909;">(Required)</span></h2>
 <p>For projects, the <strong>Resource Type</strong> should be automatically filled in with the resource type you selected when you created your record. This should be “project” for all SA projects. Name is optional - you can leave this blank or enter a shorten project name.</p>
 <p><img src="../../assets/resource_types.png" class="img-fluid"></p>
 </section>
 <section id="point-of-contacts-required" class="level2">
-<h2 class="anchored" data-anchor-id="point-of-contacts-required">Point of Contacts (<span style="color:#b50909;">Required</span>)</h2>
+<h2 class="anchored" data-anchor-id="point-of-contacts-required">Point of Contacts <span style="color:#b50909;">(Required)</span></h2>
 <p>Adding a <strong>Point of Contact</strong> gives users information on who to contact should they have a question regarding your project or product.</p>
 <div class="callout callout-style-default callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -798,7 +801,7 @@ Note
 </tr>
 <tr class="even">
 <td>administrator</td>
-<td>Project officer, if not the steward</td>
+<td>Project Officer, if not the Steward</td>
 <td><span style="color:#b50909;"><strong>Required</strong></span></td>
 </tr>
 <tr class="odd">
@@ -808,7 +811,7 @@ Note
 </tr>
 <tr class="even">
 <td>collaborator</td>
-<td>Partnership organizations and/or programs</td>
+<td>Partnership Organizations and/or Programs</td>
 <td><span style="color:#936f38;"><strong>Required, if applicable</strong></span></td>
 </tr>
 </tbody>
@@ -830,7 +833,7 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>The <em>FWS Science Applications National Data Steward</em> will serve as the long term contact and backup. This way, users have a point-of-contact even if there is a positional change within an organization. Regional Data Steward should be included in addition as a point of contact, if available.</p>
+<p>The <strong>FWS Science Applications National Data Steward</strong> will serve as the long term contact and backup. This way, users have a point-of-contact even if there is a positional change within an organization. Regional Data Steward should be included in addition as a point of contact, if available.</p>
 </div>
 </div>
 </section>
@@ -838,19 +841,19 @@ Note
 <h2 class="anchored" data-anchor-id="citation">Citation</h2>
 <p>The <strong>Citation</strong> describes pertinent information about your project such as: responsible parties, internal and ScienceBase identifiers, and any online resources that may relate to your item. The citation, much like a peer-reviewed publication citation, provides credit and services as a reference citation. Adding information in the citation will also improve users’ ability to find your items.</p>
 <section id="title-required-1" class="level3">
-<h3 class="anchored" data-anchor-id="title-required-1">Title (<span style="color:#b50909;">Required</span>)</h3>
+<h3 class="anchored" data-anchor-id="title-required-1">Title <span style="color:#b50909;">(Required)</span></h3>
 <p>The citation <strong>Title</strong> is automatically populated with the title of your record.</p>
 </section>
 <section id="alternate-title" class="level3">
 <h3 class="anchored" data-anchor-id="alternate-title">Alternate Title</h3>
-<p>You can add an alternate title, if desired. Generally these should be shorter than the full Title.</p>
+<p>You can add an <strong>Alternate Title</strong>, if desired. Generally these should be shorter than the full Title.</p>
 </section>
 <section id="dates-required" class="level3">
-<h3 class="anchored" data-anchor-id="dates-required">Dates (<span style="color:#b50909;">Required</span>)</h3>
-<p>Enter <strong>Dates</strong> for <em>acquisition</em>, <em>creation</em>, <em>updated</em>, or <em>revision</em> from the picklist and then enter the date, <u>at least one </u> of these date types is required.</p>
+<h3 class="anchored" data-anchor-id="dates-required">Dates <span style="color:#b50909;">(Required)</span></h3>
+<p>Enter <strong>Dates</strong> for <em>acquisition</em>, <em>creation</em>, <em>updated</em>, or <em>revision</em> from the pick list and then enter the date, <u>at least one </u> of these date types is required.</p>
 </section>
 <section id="responsible-parties-required" class="level3">
-<h3 class="anchored" data-anchor-id="responsible-parties-required">Responsible Parties (<span style="color:#b50909;">Required</span>)</h3>
+<h3 class="anchored" data-anchor-id="responsible-parties-required">Responsible Parties <span style="color:#b50909;">(Required)</span></h3>
 <p><strong>Responsible parties</strong> must include the principal investigator of the project, but may optionally include other responsible parties such as funders (your region and program), partners, collaborators, and contributors. Collaborators could be intellectual participants while contributors could be intellectual and financial participants.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -893,13 +896,13 @@ Note
 </table>
 <p><br></p>
 </section>
-<section id="online-resource-if-available" class="level3">
-<h3 class="anchored" data-anchor-id="online-resource-if-available">Online Resource (<span style="color:#936f38;">If available</span>)</h3>
-<p>Enter the Name and URL for the project homepage website, if available.</p>
+<section id="online-resource" class="level3">
+<h3 class="anchored" data-anchor-id="online-resource">Online Resource</h3>
+<p>Enter the <strong>Name</strong> and <strong>URL</strong> for the project homepage website, if available.</p>
 </section>
-<section id="identifier" class="level3">
-<h3 class="anchored" data-anchor-id="identifier">Identifier</h3>
-<p>You may enter as many identifiers as desired. The identifier for the repository is required here. If you have other internal IDs for projects, enter them here. Other optional identifiers for projects include: Archive Folder Name.</p>
+<section id="identifier-required" class="level3">
+<h3 class="anchored" data-anchor-id="identifier-required">Identifier <span style="color:#b50909;">(Required)</span></h3>
+<p>You may enter as many <strong>Identifiers</strong> as desired. The identifier for the repository is required here. If you have other internal IDs for projects, enter them here. Other optional identifiers for projects include: Archive Folder Name.</p>
 <div class="callout callout-style-default callout-note callout-titled" title="Best Practice">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -934,37 +937,36 @@ Note
 </div>
 </section>
 </section>
-<section id="description-required" class="level2">
-<h2 class="anchored" data-anchor-id="description-required">Description (<span style="color:#b50909;">Required</span>)</h2>
-<p><strong>Description</strong> allows for the addition of the <strong>Abstract</strong> as well as a Short Abstract, and Supplemental Information.</p>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
 <section id="abstract-required" class="level3">
-<h3 class="anchored" data-anchor-id="abstract-required">Abstract (<span style="color:#b50909;">Required</span>)</h3>
+<h3 class="anchored" data-anchor-id="abstract-required">Abstract <span style="color:#b50909;">(Required)</span></h3>
 <p>Enter an <strong>Abstract</strong> that succinctly describes the project’s purpose and goals. Include key species or habitats as well.</p>
-<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon"></i>
+<i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Note
+Tip
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Tip: Write your project abstract in the present tense if the project is in progress and past tense if the project has been completed.</p>
+<p>Write your project abstract in the present tense if the project is in progress and past tense if the project has been completed.</p>
 </div>
 </div>
 </section>
 <section id="short-abstract" class="level3">
 <h3 class="anchored" data-anchor-id="short-abstract">Short Abstract</h3>
-<p>Enter a short description, limited to 300 characters, if desired. By default, mdEditor will fill the short abstract with the first 300 characters of the abstract. Best practice is a public outreach abstract for Office of Communications purposes.</p>
+<p>For the <strong>Short Abstract</strong> enter a short description, limited to 300 characters, if desired. By default, mdEditor will fill the short abstract with the first 300 characters of the Abstract. Best practice is to write this abstract for public outreach, such as use by Office of Communications.</p>
 </section>
 <section id="purpose" class="level3">
 <h3 class="anchored" data-anchor-id="purpose">Purpose</h3>
-<p>Enter a short narrative about the purpose of the resource such as the issue or problem that the resource is designed to address and anticipated results or benefits. This aligns with SA Internal Tracking metadata.</p>
+<p>The <strong>Purpose</strong> should be a short narrative about the issue or problem that the resource is designed to address and anticipated results or benefits.</p>
 </section>
 <section id="supplemental-information" class="level3">
 <h3 class="anchored" data-anchor-id="supplemental-information">Supplemental Information</h3>
-<p>Enter comments, if desired.</p>
+<p>For the <strong>Supplemental Information</strong> enter comments, if desired.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../../assets/example_abstract_entry.png" class="img-fluid figure-img"></p>
@@ -973,9 +975,11 @@ Note
 </div>
 </section>
 </section>
-<section id="time-period-required" class="level2">
-<h2 class="anchored" data-anchor-id="time-period-required">Time Period (<span style="color:#b50909;">Required</span>)</h2>
-<p><strong>Time Period</strong> refers to project <strong>Start Date</strong> and <strong>End Date</strong>.</p>
+<section id="time-period" class="level2">
+<h2 class="anchored" data-anchor-id="time-period">Time Period</h2>
+<section id="dates-required-1" class="level3">
+<h3 class="anchored" data-anchor-id="dates-required-1">Dates <span style="color:#b50909;">(Required)</span></h3>
+<p>For each project, add a <strong>Start Date</strong> and <strong>End Date</strong>. If the project spanned a single fiscal year, you can use the “Pick a Fiscal Year” drop-down to autofill the date fields.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -989,7 +993,6 @@ Note
 <p>This set of dates is distinct from the fiscal year of funding. Here you want to indicate the overall project start and end dates. In the Funding section you will specify the fiscal years that funds were allocated.</p>
 </div>
 </div>
-<p>For each project, add a Start Date and End Date. If the project spanned a single fiscal year, you can use the “Pick a Fiscal Year” dropdown to autofill the date fields.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../../assets/example_time_period.png" class="img-fluid figure-img"></p>
@@ -998,6 +1001,7 @@ Note
 </div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

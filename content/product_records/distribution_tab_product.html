@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.54">
+<meta name="generator" content="quarto-1.5.55">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
 <link href="../../content/product_records/constraints_tab_product.html" rel="next">
-<link href="../../content/product_records/lineage_tab_product.html" rel="prev">
+<link href="../../content/product_records/taxonomy_tab_product.html" rel="prev">
 <link href="../../favicon.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
@@ -272,14 +272,20 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../../content/project_records/extent_tab_project.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Extent Tab</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../../content/project_records/taxonomy_tab_project.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Taxonomy Tab</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/project_records/extent_tab_project.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Extent Tab</span></a>
+  <a href="../../content/project_records/associated_tab_project.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Associated Tab</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -292,12 +298,6 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="../../content/project_records/funding_tab_project.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Funding Tab</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../content/project_records/associating_records_project.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Associating Records</span></a>
   </div>
 </li>
       </ul>
@@ -337,12 +337,6 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/product_records/taxonomy_tab_product.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Taxonomy Tab</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="../../content/product_records/extent_tab_product.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Extent Tab</span></a>
   </div>
@@ -351,6 +345,12 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="../../content/product_records/lineage_tab_product.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Lineage Tab</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/product_records/taxonomy_tab_product.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Taxonomy Tab</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -367,8 +367,8 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/product_records/dictionaries_tab_product.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Dictionaries Tab</span></a>
+  <a href="../../content/product_records/associated_tab_product.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Associated Tab</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -379,8 +379,8 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/product_records/associating_records_product.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Associating Records</span></a>
+  <a href="../../content/product_records/dictionaries_tab_product.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dictionaries Tab</span></a>
   </div>
 </li>
       </ul>
@@ -621,9 +621,9 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#distributor" id="toc-distributor" class="nav-link active" data-scroll-target="#distributor">Distributor</a>
   <ul class="collapse">
-  <li><a href="#contacts-and-role-required" id="toc-contacts-and-role-required" class="nav-link" data-scroll-target="#contacts-and-role-required">Contacts and Role (Required)</a></li>
+  <li><a href="#contacts-and-role-required" id="toc-contacts-and-role-required" class="nav-link" data-scroll-target="#contacts-and-role-required">Contacts and Role <span style="color:#b50909;">(Required)</span></a></li>
   </ul></li>
-  <li><a href="#transfer-options-required" id="toc-transfer-options-required" class="nav-link" data-scroll-target="#transfer-options-required">Transfer Options (Required)</a>
+  <li><a href="#transfer-options-required-if-applicable" id="toc-transfer-options-required-if-applicable" class="nav-link" data-scroll-target="#transfer-options-required-if-applicable">Transfer Options <span style="color:#936f38;">(Required, if applicable)</span></a>
   <ul class="collapse">
   <li><a href="#online-option-required-if-available" id="toc-online-option-required-if-available" class="nav-link" data-scroll-target="#online-option-required-if-available">Online Option (Required if Available)</a></li>
   <li><a href="#offline-option" id="toc-offline-option" class="nav-link" data-scroll-target="#offline-option">Offline Option</a></li>
@@ -659,37 +659,62 @@ ul.task-list li input[type="checkbox"] {
 <div class="callout-hint">
 <p>An online distribution link is required for any products sent to data.gov.</p>
 </div>
-<table class="table-striped table-hover table-bordered table-sm allborder small caption-top table">
+<table class="caption-top table">
+<caption>{.striped .hover .bordered .md .allborder}<br>
+<br></caption>
+<colgroup>
+<col style="width: 68%">
+<col style="width: 31%">
+</colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Quick Reference: Required for SA Products</th>
-<th style="text-align: left;">Required?</th>
+<th style="text-align: left;">Distribution Tab</th>
+<th style="text-align: left;">Requirements</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">Contacts and Role</td>
-<td style="text-align: left;">Required</td>
+<td style="text-align: left;">Distributor</td>
+<td style="text-align: left;"><span style="color:#b50909;"><strong>Required</strong></span></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Transfer Options: Online Option</td>
-<td style="text-align: left;">Required</td>
+<td style="text-align: left;">Online Transfer Name</td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Online Transfer URL</td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Online Transfer Function</td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Online Transfer Application Profile</td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Online Transfer Order Process</td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Distribution Format Name, Version, &amp; Compression</td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
 </tr>
 </tbody>
 </table>
-<p><br></p>
-<p><em>Click <strong>Add Distribution Section</strong> and then <strong>Edit Distributors</strong> to begin adding distributors.</em></p>
+<p>Click <strong>Add Distribution Section</strong> and then <strong>Edit Distributors</strong> to begin adding distributors.*</p>
 <section id="distributor" class="level2">
 <h2 class="anchored" data-anchor-id="distributor">Distributor</h2>
 <p>This section involves adding distributor information and a URL for data products that are hosted anywhere. For example, if The Nature Conservancy is hosting a data source, the distributor is “The Nature Conservancy.”</p>
 <section id="contacts-and-role-required" class="level3">
-<h3 class="anchored" data-anchor-id="contacts-and-role-required">Contacts and Role (Required)</h3>
+<h3 class="anchored" data-anchor-id="contacts-and-role-required">Contacts and Role <span style="color:#b50909;">(Required)</span></h3>
 <p>If anything is filled out in the distribution section, a contact must be added. The appropriate role is “distributor.”</p>
 <p>The contact should ideally be someone who will remain available to respond to potential inquiries about the product. If there is not an appropriate contact specific to the product, you can use a generic SA Data Steward contact for a long-term backup contact.</p>
 </section>
 </section>
-<section id="transfer-options-required" class="level2">
-<h2 class="anchored" data-anchor-id="transfer-options-required">Transfer Options (Required)</h2>
+<section id="transfer-options-required-if-applicable" class="level2">
+<h2 class="anchored" data-anchor-id="transfer-options-required-if-applicable">Transfer Options <span style="color:#936f38;">(Required, if applicable)</span></h2>
 <p>Transfer Options provide details regarding obtaining the product. Online and offline options are available.</p>
 <section id="online-option-required-if-available" class="level3">
 <h3 class="anchored" data-anchor-id="online-option-required-if-available">Online Option (Required if Available)</h3>
@@ -1319,8 +1344,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../content/product_records/lineage_tab_product.html" class="pagination-link" aria-label="Lineage Tab">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Lineage Tab</span>
+      <a href="../../content/product_records/taxonomy_tab_product.html" class="pagination-link" aria-label="Taxonomy Tab">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Taxonomy Tab</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
