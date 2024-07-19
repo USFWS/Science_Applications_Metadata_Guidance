@@ -19,10 +19,10 @@ req_if_app_style <- paste0('{style="color:', required_if_applicable_color,';"}')
 if_app_style <- paste0('{style="color:', if_applicable_color, ';"}')
 ```
 
-Adding keywords to your metadata record allows for the record to be found later
-through a search engine, keywords are the way to tag your projects or products.
-mdEditor is designed using existing thesauruses that contain pre-determined
-keywords.
+The "Keywords" tab adds keywords to your metadata so the record to be 
+found later through a search engine, keywords are the way to tag your projects 
+or products.mdEditor is designed using existing thesauruses that contain 
+pre-determined keywords.
 
 | Keywords Tab                             | Requirements               |
 |------------------------------------------|-------------------------|

@@ -9,7 +9,7 @@ This section will cover how to create a metadata record for an SA project.
 
 ## Before You Begin
 
-#### 1. Check mdEditor Settings
+### 1. Check mdEditor Settings
 
 In the [Default](../settings.qmd#defaults) settings make sure 
 **Metadata Repositories** includes "SA Science Catalog" and "data.gov".
@@ -31,7 +31,9 @@ Identifier from the table below.
 | **Region 8**     | 6696c89bd34ecb78f609f685 |
 : {.striped .hover .bordered .md .allborder} 
 
-#### 2. Select the "Project" profile
+<br/>
+
+### 2. Select the "Project" profile
 
 After initially creating your project record, but before you begin adding
 metadata, select the metadata record's profile type. 
@@ -42,7 +44,9 @@ fields that are applicable to project metadata.
 ![After selecting the Project profile, only the relevant tabs will be
 displayed.](../../assets/project_profile.png)
 
-#### 3. Ensure your Contacts are loaded into mdEditor
+<br/>
+
+### 3. Ensure your Contacts are loaded into mdEditor
 
 In mdEditor, contacts are created separately from individual records and then
 stored within a library in mdEditor. Once contacts have been entered or imported
@@ -75,8 +79,8 @@ errors.
           [Extent Tab](extent_tab_project.qmd)    
           [Documents Tab](documents_tab_project.qmd)    
           [Funding Tab](funding_tab_project.qmd)    
-5.  If applicable, [Associate](associating_records_project.qmd) your project with other
-    metadata records.
+5.  If applicable, the [Associated Tab](associated_tab_project.qmd) allow your 
+    project to be associated with other metadata records.
 
 <!-- 
 ################### START OF COMMENTED OUT CODE ################################ 

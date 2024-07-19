@@ -21,12 +21,6 @@ the standardized metadata format agreed upon by the SA Data Management Working
 Group and meet USFWS policy requirements for data management. This metadata is 
 aggregated and organized in the SA Science Catalog, where SA projects and 
 products are discoverable, accessible, and usable.
-`r todays_date`
-This is a working draft that will continue to be edited. Please refresh 
-this manual every time you open it to ensure you are viewing the most recent 
-version. **Last updated:** **`r todays_date`**. If you have questions or 
-concerns regarding this guidance, please contact the FWS SA National Data Steward
-(sadatasteward@fws.gov) or Blake Massey (blake_massey@fws.gov).
 
 ## USFWS Data Management Integration
 
@@ -35,14 +29,16 @@ Creating metadata is the principal component of the **Maintain** step.
 Publishing metadata in an approved repository (e.g., ScienceBase) is crucial
 to the **Access** and **Archive** steps.
 
-Overall guidance about USFWS Data Management is in the [USFWS Data Management Handbook.](https://doimspp.sharepoint.com/sites/fws-data/Shared%20Documents/References/DataManagementHandbook.pdf?web=1)
+Overall guidance about USFWS Data Management is in the [USFWS Data Management Handbook](https://doimspp.sharepoint.com/sites/fws-data/Shared%20Documents/References/DataManagementHandbook.pdf?web=1).
 
 ### Metadata and mdEditor
 
 The metadata editing tool used to create and support metadata requirements 
 is mdEditor. This tool was initially developed by the 
 [Alaska Data Integration Working Group (ADIwg)](http://www.adiwg.org/about/) 
-and adopted by SA.
+and adopted by SA. The mdEditor application is under constant development. 
+Consequently, there may be some minor discrepancies between screenshots in this 
+guidance and the current version of mdEditor.
 
 This manual refers to the creation of SA metadata specifically. If you want 
 information on the creation of other metadata records using mdEditor, or more 
@@ -67,9 +63,11 @@ internet. By doing so, you guarantee you are using the current version. This is
 a living document and will be updated as needed. The online version will 
 also have the best functionality and graphical display.
 
-The mdEditor application is under constant development. Consequently, there may 
-be some minor discrepancies between screenshots in this guidance and the 
-current version of mdEditor.
+This is a working draft that will continue to be edited. Please refresh 
+this manual every time you open it to ensure you are viewing the most recent 
+version. **Last updated:** **`r todays_date`**. If you have questions or 
+concerns regarding this guidance, please contact the FWS SA National Data Steward
+(sadatasteward@fws.gov) or Blake Massey (blake_massey@fws.gov).
 
 If you’d like to give direct feedback, please consider reporting an
 [issue](https://github.com/USFWS/sciapps_metadata_guidance/issues/new) 

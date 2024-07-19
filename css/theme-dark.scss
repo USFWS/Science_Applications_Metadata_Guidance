@@ -31,3 +31,13 @@ $input-bg: #242424;
     opacity: 1;
     color: white;
 }
+
+
+table.allborder {
+  border-top: 2px solid lightgray;
+  border-bottom: 2px solid lightgray;
+}
+
+.table > :not(:first-child) {
+  border-top: 2px solid gray;
+}

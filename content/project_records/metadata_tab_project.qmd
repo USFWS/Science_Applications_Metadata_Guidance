@@ -19,39 +19,41 @@ req_if_app_style <- paste0('{style="color:', required_if_applicable_color,';"}')
 if_app_style <- paste0('{style="color:', if_applicable_color, ';"}')
 ```
 
-The Metadata tab describes your project's metadata, including a description that
-outlines the process of metadata creation, contributors to the creation of the
-metadata, and metadata repositories.
+The **Metadata** tab describes your project's metadata, including a description 
+that outlines the process of metadata creation, contributors to the creation of 
+the metadata, and metadata repositories.
 
 | Project Metadata Tab                              | Requirements |
 |:------------------------------------------|:----------|
-| Basic Information: **Metadata Status**, **Dates** | [**Required**]`r required_style` |
-| **Metadata Contacts**                             | [**Required**]`r required_style` |
-| **Metadata Identifier**                           | [**Required**]`r required_style` |
-| **Parent Metadata**                               | [**Required**]`r required_style` |
-| **Metadata Repositories**                         | [**Required**]`r required_style` |
+| Basic Information: **Metadata Status**, **Dates**           | [**Required**]`r required_style` |
+| **Metadata Contacts** (multiple)                            | [**Required**]`r required_style` |
+| Metadata Identifier: **Identifier**, **Namespace**          | [**Required**]`r required_style` |
+| Parent Metadata: **Title**, **Identifier**, **Namespace**   | [**Required**]`r required_style` |
+| **Metadata Repositories** (SA Science Catalog)              | [**Required**]`r required_style` |
 : {.striped .hover .bordered .md .allborder} 
 
 <br/>
 
 ## Basic Information
 
-### Metadata Status
+### Metadata Status [(Required)]`r required_style`
 
-Select the appropriate status of the creation of your metadata from the drop
+Select the appropriate **Status** of the creation of your metadata from the drop
 down menu. For example, if you have added all of your metadata, select
 ***completed***. If you still have metadata to add, select ***onGoing***.
 
-### Dates
+### Dates [(Required)]`r required_style`
 
-Add at least one **Date** is required. Recommended are ***creation*** (when you 
+At least one **Date** is required. Recommended are ***creation*** (when you 
 first created your metadata) and ***lastUpdate*** (when you updated metadata 
 after initial publication).
 
 ## Metadata Contacts
 
-**Metadata Contacts** are required. Adding a metadata contact will give users a
-contact point should they have any questions about the metadata. 
+### **Contacts** [(Required)]`r required_style` 
+These **Contacts** (person or role) will provide a point of contact for 
+users to reach out to should they have any questions about the 
+metadata. The following table shows the required contact roles. 
 
 | Role           | Contact         | Requirements              |
 |:---------------|:-----------------|:-------------------------|
@@ -60,7 +62,6 @@ contact point should they have any questions about the metadata.
 | **pointOfContact** | SA Data Steward  | [**Required**]`r required_style`   |
 : {.striped .hover .bordered .md .allborder} 
 
-<br/>
 
 #### Metadata Contact Notes:
 
@@ -68,14 +69,18 @@ contact point should they have any questions about the metadata.
 -   In most cases, the author will be the data manager, but could be anyone,
     including someone outside of FWS (e.g., imported FGDC metadata can list the
     original author).
--   Publisher can also include the FWS region and/or program.
--   The point of contact should be a regional or national data steward.
+-   Publisher can also include the FWS Region and/or Program.
+-   The point of contact should be a Regional or National Data Steward.
 
 ![Example Metadata Contacts entry](../../assets/example_metadata_contacts.png)
+<br/>
+<br/>
 
 ## Metadata Identifier
 
-The **Metadata Identifier** is automatically populated by mdEditor. The metadata
+### Metadata Identifier [(Required)]`r required_style` 
+
+The **Identifier** is automatically populated by mdEditor. The metadata
 identifier gives each of your projects and products a unique ID and
 differentiates them from other similar projects and products. Digital Object
 Identifiers are not needed for Projects.
@@ -85,15 +90,15 @@ Identifiers are not needed for Projects.
 -   If the record was created in mdEditor, it will generate a universally unique
     identifier (UUID).
 
+![mdEditor Metadata auto-generated identifier entry](../../assets/metadata_auto_generated_identifier.png)
+
 :::{.callout-warning}
 Once a Metadata Identifier is created in the metadata,
 do not change it. mdEditor uses the Metadata Identifier to connect records and
 changing the Metadata Identifier can break those connections. If there are
 additional identifiers you want to include in your metadata record, include them
-in [Main/Citation/Identifier](main_tab_project.qmd#identifier). 
+in the [Citation Identifier](main_tab_project.qmd#identifier). 
 :::
-
-![mdEditor Metadata auto-generated identifier entry](../../assets/metadata_auto_generated_identifier.png)
 
 ## Parent Metadata
 
@@ -111,19 +116,20 @@ ScienceBase), this will be generated for you when when you publish. This is most
 likely your SA regional project folder. You can enter the parent item SBID
 directly in your individual metadata record if you wish.
 
-### Parent Metadata Required Fields:
+### Title [(Required)]`r required_style` 
 
-#### Title (Required)
+If the **Title** is not already populated, you can enter something like 
+"Parent folder."
 
-If this is not already populated, you can enter something like "Parent folder."
+### Identifier and Namespace [(Required)]`r required_style`
 
-#### Identifier and namespace (Required)
-
-Defines the location of the parent folder in ScienceBase.
+The **Identifier** and **Namespace** defines the location of the parent folder 
+in ScienceBase.
 
 | Identifier                                 | Namespace   |
 |:-------------------------------------------|:------------|
 | ScienceBase identifier for the parent item | scienceBase |
+: {.striped .hover .bordered .md .allborder} 
 
 :::{.callout-info}
 The ScienceBase identifier is the alphanumeric string in
@@ -136,31 +142,34 @@ the item's URL immediately following "**item/".** For example,
 
 ## Metadata Repositories
 
-**Metadata Repositories** indicate where the metadata will be sent upon
+### Repositories [(Required)]`r required_style`
+The metadata **Repositories** indicate where the metadata will be sent upon 
 publishing.
 
-### SA Science Catalog
+For projects that should be listed in the **SA Science Catalog**: 
 
-For projects that should be listed in the SA Science Catalog: Select
-*“ScienceCatalog”* from the repository list. *“SA Science Catalog”* should
-automatically show up as the collection title. If the collection title does not
-appear, stop and enter the correct information in [Settings](../settings.qmd).
-Then select the repository for your project. Projects without the correct tag
-and collection title will not show up in the Science Catalog.
+- Select ”**ScienceCatalog**” from the repository list. ”**SA Science Catalog**” 
+should automatically show up as the collection title. 
+- If the **Collection Title** does not appear, stop and enter the correct 
+information in [Settings](../settings.qmd). Then select the repository for your 
+project. 
 
-:::{.callout-danger}
-The Metadata Repository and Collection Title must be
-exactly the same for each of your records with no variations in spelling,
-spaces, capitalization, etc. Specifying this information in Settings is the best
-way to ensure the repository information will be consistent across all of your
-records. It strongly recommended that you do not type these in by hand on
-individual metadata records. 
+Projects without the correct **Repository** and **Collection Title** will not 
+show up in the SA Science Catalog.
+
+![Example SA Science Catalog Metadata entry](../../assets/example_sa_science_catalog_metadata.png)
+
+::: {.callout-warning icon=false}
+The **Repository** and **Collection Title** must be exactly the same for each 
+of your records with no variations in spelling, spaces, capitalization, etc. 
+Specifying this information in [Settings](../settings.qmd#publishing-settings) 
+is the best way to ensure the repository information will be consistent across 
+all of your records. It strongly recommended that you avoid typing these in by 
+hand on individual metadata records. 
 :::
 
-:::{.callout-info}
+::: {.callout-note icon=false}
 You should only use the data.gov repository for data
 products such as datasets, GIS data, etc. Data.gov does not include reports,
 presentations, or other documents nor are projects sent to data.gov.
 :::
-
-![Example SA Science Catalog Metadata entry](../../assets/example_sa_science_catalog_metadata.png)

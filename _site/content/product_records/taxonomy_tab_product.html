@@ -29,8 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../content/product_records/extent_tab_product.html" rel="next">
-<link href="../../content/product_records/keywords_tab_product.html" rel="prev">
+<link href="../../content/product_records/distribution_tab_product.html" rel="next">
+<link href="../../content/product_records/lineage_tab_product.html" rel="prev">
 <link href="../../favicon.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
@@ -272,14 +272,20 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../../content/project_records/extent_tab_project.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Extent Tab</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../../content/project_records/taxonomy_tab_project.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Taxonomy Tab</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/project_records/extent_tab_project.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Extent Tab</span></a>
+  <a href="../../content/project_records/associated_tab_project.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Associated Tab</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -292,12 +298,6 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="../../content/project_records/funding_tab_project.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Funding Tab</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../content/project_records/associating_records_project.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Associating Records</span></a>
   </div>
 </li>
       </ul>
@@ -337,12 +337,6 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/product_records/taxonomy_tab_product.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Taxonomy Tab</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="../../content/product_records/extent_tab_product.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Extent Tab</span></a>
   </div>
@@ -351,6 +345,12 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="../../content/product_records/lineage_tab_product.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Lineage Tab</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/product_records/taxonomy_tab_product.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Taxonomy Tab</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -367,8 +367,8 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/product_records/dictionaries_tab_product.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Dictionaries Tab</span></a>
+  <a href="../../content/product_records/associated_tab_product.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Associated Tab</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -379,8 +379,8 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/product_records/associating_records_product.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Associating Records</span></a>
+  <a href="../../content/product_records/dictionaries_tab_product.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dictionaries Tab</span></a>
   </div>
 </li>
       </ul>
@@ -615,7 +615,18 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#taxonomy" id="toc-taxonomy" class="nav-link active" data-scroll-target="#taxonomy">Taxonomy</a>
+  <ul class="collapse">
+  <li><a href="#add-taxonomic-system" id="toc-add-taxonomic-system" class="nav-link" data-scroll-target="#add-taxonomic-system">Add Taxonomic System</a></li>
+  </ul></li>
+  <li><a href="#when-taxonomy-is-needed" id="toc-when-taxonomy-is-needed" class="nav-link" data-scroll-target="#when-taxonomy-is-needed">When Taxonomy is Needed</a></li>
+  <li><a href="#reporting-issues" id="toc-reporting-issues" class="nav-link" data-scroll-target="#reporting-issues">Reporting Issues</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/usfws/sciapps_metadata_guidance/edit/main/content/product_records/taxonomy_tab_product.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/usfws/sciapps_metadata_guidance/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -640,10 +651,11 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<table class="table-striped table-hover table-bordered table-sm allborder small table">
+<p>The <strong>Taxonomy</strong> tab allows taxonomic information the species associated with the project or product. Taxonomy is required for projects and strongly recommended for products (where applicable).</p>
+<table class="table-striped table-hover table-bordered md allborder table">
 <colgroup>
-<col style="width: 60%">
-<col style="width: 39%">
+<col style="width: 52%">
+<col style="width: 47%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -653,16 +665,135 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">Taxonomy</td>
-<td style="text-align: left;"><span style="color:#b50909;"><strong>Required</strong></span></td>
+<td style="text-align: left;"><strong>Taxonomic System</strong></td>
+<td style="text-align: left;"><span style="color:#936f38;"><strong>Required, if applicable</strong></span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Taxonomic Classifcation</strong></td>
+<td style="text-align: left;"><span style="color:#936f38;"><strong>Required, if applicable</strong></span></td>
 </tr>
 </tbody>
 </table>
 <p><br></p>
-<p>Please see the <a href="../../content/project_records/taxonomy_tab_project.html">taxonomy guidance in the Project Records section</a>.</p>
-<p>Taxonomy is required for projects and products, as applicable.</p>
+<section id="taxonomy" class="level2">
+<h2 class="anchored" data-anchor-id="taxonomy">Taxonomy</h2>
+<p>The <strong>Taxonomy</strong> tab automatically pulls in taxonomic information from ITIS (Integrated Taxonomic Information System – see <a href="https://www.itis.gov/">itis.gov</a> for more information).</p>
+<div class="callout-info">
+<p>Please note that this functionality in mdEditor is not intended to explore ITIS. It is a tool to add known taxonomic information to your metadata. If you want to explore ITIS, go to itis.gov to find information and then come back to mdEditor with the desired search values.</p>
+</div>
+<p>The minimum requirements for valid taxonomy are a Taxonomic System plus one or more taxonomic classifications.</p>
+<section id="add-taxonomic-system" class="level3">
+<h3 class="anchored" data-anchor-id="add-taxonomic-system">Add Taxonomic System</h3>
+<p><strong>1.</strong> Click “Add Collection”</p>
+<p><img src="../../assets/taxonomy_add_collection.png" class="img-fluid"></p>
+<p><strong>2.</strong> From here, you can click “Add Taxa from ITIS” directly (on right side) without adding the taxonomic system. This will be filled in for you automatically once you have added items from ITIS.</p>
+<p><img src="../../assets/taxonomy_add_taxa_from_itis.png" class="img-fluid"></p>
+<p><strong>3.</strong> Enter your search terms in the search box. You can type in a common name, scientific name, or TSN (Taxonomic Serial Number, assigned by ITIS). You can type in any level of taxonomy, not just species name (e.g., you can type in an order or class or genus). You can specify by Kingdom if you like.</p>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>If you haven’t used the search in a while (or ever) the ITIS service might be asleep so it will take a few more seconds to load but then will load quickly after that.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The status of the taxonomic classification is denoted as (<em>status</em>) after the TSN. ITIS may consider a classification “invalid” if the species was reclassified, for example. It is up to you whether you want to add invalid ITIS classifications to your metadata.</p>
+</div>
+</div>
+<p><img src="../../assets/taxonomy_search_redlegged_frog.png" class="img-fluid"></p>
+<p><strong>4.</strong> Click “Add” for the search results you want to add to your record and then click “Import Taxa.” You will get a message of successful import at the bottom of your screen.</p>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>You don’t need to worry about clicking import multiple times for the same species. mdEditor is smart enough to know not to create duplicate entries of the same species.</p>
+</div>
+</div>
+<p><img src="../../assets/taxonomy_successful_import.png" class="img-fluid"></p>
+<p><strong>5.</strong> Click “Back to Collection.” You will see that it has added a taxonomic hierarchy. It has also added a Title to Taxonomic System (if you hadn’t already added one by hand). This complete the the minimum information required for taxonomy.</p>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>You can click on any level of the taxonomic hierarchy to collapse the entries below that level.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>mdEditor only adds common names at the lowest taxonomic level you identified (e.g., species level).</p>
+</div>
+</div>
+<p><img src="../../assets/taxonomy_collection.png" class="img-fluid"></p>
+<p><strong>6.</strong> You can add additional information regarding the taxonomic information if you desire.</p>
+<p><strong>Observers</strong> would be filled out when there were people who actually went in the field/lab and identified the species. Here you would list the people who did that work.</p>
+<ul>
+<li>General Scope: You can add a description of the range of taxa addressed in the dataset or collection.</li>
+<li>Identification Procedure: You can describe the methods used for taxonomic identification.</li>
+<li>Identification Completeness: You can add information regarding completeness and uncertainty in the identifications.</li>
+</ul>
+<p><strong>Voucher</strong> is where you can add information about specimens you submitted to a museum or a storage facility where you are storing specimens, can document that here (select a Repository via a Contact entered in mdEditor).</p>
+<p><img src="../../assets/taxonomy_additional_info.png" class="img-fluid"></p>
+</section>
+</section>
+<section id="when-taxonomy-is-needed" class="level2">
+<h2 class="anchored" data-anchor-id="when-taxonomy-is-needed">When Taxonomy is Needed</h2>
+<p>Taxonomy is mostly used for search is discovery and functions similar to keywords.</p>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>If you have existing species names or other keywords, you do not need to delete those. Taxonomy is entered in a separate section in mdJSON so they are separate from Keywords.</p>
+</div>
+</div>
+<p>To some extent, this is up to the judgement of the data manager. You will know best the connection of a resource to a specific species or other taxonomic group. For example, if a bear model was used to rank habitat for a prioritization product but the final output is not relevant to bears any longer, then you probably wouldn’t want to add bear species in taxonomy.</p>
+</section>
+<section id="reporting-issues" class="level2">
+<h2 class="anchored" data-anchor-id="reporting-issues">Reporting Issues</h2>
+<p>If you encounter issues or bugs using the new Taxonomy feature, please report them in this github thread: <a href="https://github.com/adiwg/mdEditor/issues/101" class="uri">https://github.com/adiwg/mdEditor/issues/101</a> (requires github account to post).</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -1220,13 +1351,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../content/product_records/keywords_tab_product.html" class="pagination-link" aria-label="Keywords Tab">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Keywords Tab</span>
+      <a href="../../content/product_records/lineage_tab_product.html" class="pagination-link" aria-label="Lineage Tab">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Lineage Tab</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../content/product_records/extent_tab_product.html" class="pagination-link" aria-label="Extent Tab">
-        <span class="nav-page-text">Extent Tab</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../content/product_records/distribution_tab_product.html" class="pagination-link" aria-label="Distribution Tab">
+        <span class="nav-page-text">Distribution Tab</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -1235,4 +1366,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/usfws/sciapps_metadata_guidance/edit/main/content/product_records/taxonomy_tab_product.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/usfws/sciapps_metadata_guidance/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/usfws/sciapps_metadata_guidance/edit/main/content/product_records/taxonomy_tab_product.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/usfws/sciapps_metadata_guidance/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>

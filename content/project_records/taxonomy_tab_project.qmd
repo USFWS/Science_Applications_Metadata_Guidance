@@ -19,26 +19,29 @@ req_if_app_style <- paste0('{style="color:', required_if_applicable_color,';"}')
 if_app_style <- paste0('{style="color:', if_applicable_color, ';"}')
 ```
 
-Taxonomy is required for projects and strongly recommended for products (where
-applicable).
+The **Taxonomy** tab allows taxonomic information the species associated
+with the project or product. Taxonomy is required for projects and strongly 
+recommended for products (if applicable).
 
 | Taxonomy Tab         | Requirements |
 |:---------------------|:-------------------|
-| **Taxonomy**        | [**Required, if applicable**]`r req_if_app_style` |
+| **Taxonomic System**              | [**Required**]`r required_style` |
+| **Taxonomic Classification**      | [**Required**]`r required_style` |
 : {.striped .hover .bordered .md .allborder} 
 
 <br/>
 
 ## Taxonomy
 
-mdEditor's new “Taxonomy” section automatically pulls in taxonomic information
-from ITIS (Integrated Taxonomic Information System – see itis.gov for more
-information).
+The **Taxonomy** tab automatically pulls in taxonomic information
+from ITIS (Integrated Taxonomic Information System) a partnership of U.S., 
+Canadian, and Mexican agencies and other taxonomic specialists.
 
 :::{.callout-info} 
 Please note that this functionality in mdEditor is not
 intended to explore ITIS. It is a tool to add known taxonomic information to
-your metadata. If you want to explore ITIS, go to itis.gov to find information
+your metadata. If you want to explore ITIS, go to 
+[itis.gov](https://www.itis.gov/) to find information
 and then come back to mdEditor with the desired search values.
 :::
 
@@ -69,8 +72,8 @@ will load quickly after that.
 :::
 
 :::{.callout-note icon=false} 
-The status of the taxonomic classification is denoted in
-() after the TSN. ITIS may consider a classification "invalid" if the species
+The status of the taxonomic classification is denoted as (*status*) after the 
+TSN. ITIS may consider a classification "invalid" if the species
 was reclassified, for example. It is up to you whether you want to add invalid
 ITIS classifications to your metadata. 
 :::
@@ -110,8 +113,8 @@ mdEditor only adds common names at the lowest taxonomic level you identified
 you desire.
 
 **Observers** would be filled out when there were people who actually went in
-the field/lab and identified species. Here you would lie the people who did that
-work.
+the field/lab and identified the species. Here you would list the people who did 
+that work.
 
 -   General Scope: You can add a description of the range of taxa addressed in
     the dataset or collection.

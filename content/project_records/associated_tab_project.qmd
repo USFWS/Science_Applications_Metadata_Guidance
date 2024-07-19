@@ -1,5 +1,5 @@
 ---
-title: "Associating Records"
+title: "Associated Tab"
 subtitle: "Project Records"
 editor: 
   markdown: 

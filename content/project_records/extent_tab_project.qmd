@@ -23,10 +23,10 @@ if_app_style <- paste0('{style="color:', if_applicable_color, ';"}')
 lets users see at a glance the geographic footprint of your project and allows
 searching within specific geographic areas.
 
-| Extent Tab                    | Requirements                       |
-|:------------------------------|:--------------------|
-| **Extent**                    | [**Required**]`r required_style`   |
-: {.striped .hover .bordered .md .allborder} 
+| Extent Tab | Requirements |
+|:------------------------------------|:----------|
+| Extent                              |[**Required**]`r required_style` |
+: {.striped .hover .bordered .md .allborder}  
 
 <br/>
 

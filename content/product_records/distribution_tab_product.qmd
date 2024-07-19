@@ -6,6 +6,19 @@ editor:
     wrap: 80
 ---
 
+```{r, echo=FALSE}
+# Using colors from this wesbite:
+# https://designsystem.digital.gov/design-tokens/color/state-tokens/
+# This allows the colors to be coded as a variable and, thus, easily changed.
+
+required_color <- "#b50909"
+required_if_applicable_color <- "#936f38"
+if_applicable_color <- "#757575"
+required_style <- paste0('{style="color:', required_color, ';"}')
+req_if_app_style <- paste0('{style="color:', required_if_applicable_color,';"}')
+if_app_style <- paste0('{style="color:', if_applicable_color, ';"}')
+```
+
 **Distribution** provides documentation on how or where users can obtain
 products. Distribution methods may include online options (e.g., website,
 database) or offline options (e.g., delivery via mail, library).
@@ -15,15 +28,19 @@ An online distribution link is required for any products
 sent to data.gov. 
 :::
 
-| Quick Reference: Required for SA Products | Required? |
-|:------------------------------------------|:----------|
-| Contacts and Role                         | Required  |
-| Transfer Options: Online Option           | Required  |
-: {.striped .hover .bordered .sm .allborder}   
-
+| Distribution Tab | Requirements |
+|:------------------------------|:-------------|
+| Distributor                                      |   [**Required**]`r required_style` |
+| Online Transfer Name                             |   [If applicable]`r if_app_style`    |
+| Online Transfer URL                              |   [If applicable]`r if_app_style`    |
+| Online Transfer Function                         |   [If applicable]`r if_app_style`    |
+| Online Transfer Application Profile              |   [If applicable]`r if_app_style`    |
+| Online Transfer Order Process                    |   [If applicable]`r if_app_style`    |
+| Distribution Format Name, Version, & Compression |   [If applicable]`r if_app_style`    |
+: {.striped .hover .bordered .md .allborder}   
 <br/>
 
-*Click **Add Distribution Section** and then **Edit Distributors** to begin
+Click **Add Distribution Section** and then **Edit Distributors** to begin
 adding distributors.*
 
 ## Distributor
@@ -32,7 +49,7 @@ This section involves adding distributor information and a URL for data products
 that are hosted anywhere. For example, if The Nature Conservancy is hosting a
 data source, the distributor is "The Nature Conservancy."
 
-### Contacts and Role (Required)
+### Contacts and Role [(Required)]`r required_style`
 
 If anything is filled out in the distribution section, a contact must be added.
 The appropriate role is "distributor."
@@ -42,7 +59,7 @@ potential inquiries about the product. If there is not an appropriate contact
 specific to the product, you can use a generic SA Data Steward contact for a
 long-term backup contact.
 
-## Transfer Options (Required)
+## Transfer Options [(Required, if applicable)]`r req_if_app_style`
 
 Transfer Options provide details regarding obtaining the product. Online and
 offline options are available.

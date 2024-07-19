@@ -1,27 +1,47 @@
 ---
 title: "Constraints Tab"
 subtitle: "Product Records"
-description: 
-  "THIS SECTION IS UNDER REVIEW FOR FOIA, RECORDS MANAGEMENT, AND PRIVACY POLICY
-  GUIDANCE; MAJOR CHANGES ARE FORTHCOMING."
 editor: 
   markdown: 
     wrap: 80
 ---
 
-**The Constraint** tab allows you to enter information into the metadata about
-how the resource can and cannot be used.
+```{r, echo=FALSE}
+# Using colors from this wesbite:
+# https://designsystem.digital.gov/design-tokens/color/state-tokens/
+# This allows the colors to be coded as a variable and, thus, easily changed.
+
+required_color <- "#b50909"
+required_if_applicable_color <- "#936f38"
+if_applicable_color <- "#757575"
+required_style <- paste0('{style="color:', required_color, ';"}')
+req_if_app_style <- paste0('{style="color:', required_if_applicable_color,';"}')
+if_app_style <- paste0('{style="color:', if_applicable_color, ';"}')
+```
+
+The **Constraint** tab allows you to enter information into the metadata about
+how the resource can and cannot be used. This section is under review for FOIA, 
+Records Management, and Privacy Policy, so changes may be forthcoming. 
 
 | Constraints Tab | Requirements     |
-|:-----------------------------------------|:--------------|
-| Use Limitation                           | Optional      |
-| Legal                                    | Required      |
-| Security Constraints                     | Best Practice |
-: {.striped .hover .bordered .sm .allborder}   
+|:------------------------------|:-------------|
+| Constraint Type             | [**Required**]`r required_style`   |
+| Use Limitations             | [If applicable]`r if_app_style`    |
+| Legal                       |                                    |
+|        Access Constraints   | [**Required**]`r required_style`   |
+|        Use Constraints      | [If applicable]`r if_app_style`    |
+| Security                    |                                    |
+|        Handling Description | [If applicable]`r if_app_style`    |
+|        Other Constraints    | [If applicable]`r if_app_style`    |
+: {.striped .hover .bordered .md .allborder}   
 
 <br/>
 
-## Use Limitation
+## Constraint Type [(Required)]`r required_style`
+
+Select ***legal*** from the drop-down list. 
+
+## Use Limitation 
 
 Identify concerns over how people should or should not use the product.
 
@@ -34,16 +54,25 @@ Typically files used will be public domain, but not always.
 
 ## Legal
 
--   **Access Constraints:** Access constraints are applied to assure the
-    protection of privacy or intellectual property and any special restrictions
-    or limitations on obtaining the resource.
--   **Use constraints**: How the product should be used.
--   **Other constraints:** This is a place to put standard disclaimers.
+### Access Constraints ([**Required**])`r required_style`
+Access constraints are applied to assure the protection of privacy or 
+intellectual property and any special restrictions or limitations on obtaining 
+the resource.
 
-**Access Constraints are limited to Open, Limited Access, Sensitive/Protected,
-and Restricted**
+### Use Constraints ([If applicable])`r if_app_style`
+How the product should be used.
+
+### Other constraints 
+This is a place to put standard disclaimers.
+
+Constraints are limited to four categories:  **Open**, **Limited Access**, 
+, **Sensitive/Protected** and **Restricted**. git
+
+<!-- Originally: Open, Limited Access, Sensitive/Protected, and Restricted. --->
 
 #### Open Access
+For data that is consider Open Access, the ***licenseUnrestricted*** and 
+***unrestricted*** options should be selected. 
 
 Data and content created by government employees within the scope of their
 employment are not subject to domestic copyright protection under [17 U.S.C. §
@@ -70,18 +99,23 @@ https://creativecommons.org/publicdomain/zero/1.0/
 
 ![Example legal constraint entry for U.S. Government Works open license](../../assets/example_legal_contraint_entry.png)
 
+
+
+
+
 #### Limited Access
 
 #### Sensitive/Protected Access
 
 #### Restricted Access
 
+
 ## Security Constraints
 
-\*\*\*\*A place to describe constraints or restrictions pertaining to security
-of the resource. Choose classification from the drop-down menu. For products
-without restrictions, best practice is to indicate 'unclassified' from the
-security classification dropdown menu.
+A place to describe constraints or restrictions pertaining to security
+of the resource. Choose security classification from the drop-down menu. 
+For products without restrictions, best practice is to select ***unclassified*** 
+from the menu.
 
 ::: {.callout-note}
 Classification is the class of security (e.g., top secret, public access). 

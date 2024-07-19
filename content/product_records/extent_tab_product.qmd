@@ -10,10 +10,10 @@ editor:
 lets users see at a glance the geographic footprint of your project and allows
 searching within specific geographic areas.
 
-| Quick Reference: Product Extent Tab | Required? |
+| Extent Tab | Requirements |
 |:------------------------------------|:----------|
-| Extent                              | Required  |
-: {.striped .hover .bordered .sm .allborder}   
+| Extent                              |[**Required**]`r required_style` |
+: {.striped .hover .bordered .md .allborder}   
 
 <br/>
 

@@ -63,11 +63,11 @@ website:
           - content/project_records/main_tab_project.qmd          
           - content/project_records/metadata_tab_project.qmd          
           - content/project_records/keywords_tab_project.qmd          
-          - content/project_records/taxonomy_tab_project.qmd          
           - content/project_records/extent_tab_project.qmd          
+          - content/project_records/taxonomy_tab_project.qmd          
+          - content/project_records/associated_tab_project.qmd          
           - content/project_records/documents_tab_project.qmd          
           - content/project_records/funding_tab_project.qmd           
-          - content/project_records/associating_records_project.qmd          
       - section: "Product Records"
         href: content/product_records/product_records_overview.qmd
         contents:
@@ -75,14 +75,14 @@ website:
           - content/product_records/metadata_tab_product.qmd  
           - content/product_records/datagov_guidance_product.qmd 
           - content/product_records/keywords_tab_product.qmd          
-          - content/product_records/taxonomy_tab_product.qmd          
           - content/product_records/extent_tab_product.qmd          
           - content/product_records/lineage_tab_product.qmd   
+          - content/product_records/taxonomy_tab_product.qmd          
           - content/product_records/distribution_tab_product.qmd       
           - content/product_records/constraints_tab_product.qmd       
-          - content/product_records/dictionaries_tab_product.qmd       
+          - content/product_records/associated_tab_product.qmd       
           - content/product_records/documents_tab_product.qmd       
-          - content/product_records/associating_records_product.qmd       
+          - content/product_records/dictionaries_tab_product.qmd       
       - section: "Contact Records"
         href: content/contact_records/contact_records_overview.qmd
         contents:

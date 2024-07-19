@@ -60,8 +60,8 @@ item page.
           [Constraints Tab](constraints_tab_product.qmd)\
           [Dictionaries Tab](dictionaries_tab_product.qmd)\
           [Documents Tab](documents_tab_product.qmd)\
-5.  If applicable, [Associate](associating_records_product.qmd) your products
-    with other metadata records.
+5.  If applicable, the [Associated Tab](associated_tab_product.qmd) allows your 
+    product to be associated with other metadata records.
 
 ```{=html}
 <!-- 
