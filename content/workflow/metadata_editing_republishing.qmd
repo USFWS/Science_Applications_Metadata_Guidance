@@ -73,7 +73,9 @@ If you only updated metadata in existing record that were already associated,
 you do not need to do anything with the associations.
 
 If you created a new product for your project, then associate those records in
-mdEditor.
+mdEditor. Associations can be either [associated from a
+project](../project_records/associated_tab_project.qmd) or [associated from
+a product](../product_records/associated_tab_product.qmd).
 
 ### 10. Publish your records
 
