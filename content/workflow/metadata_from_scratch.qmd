@@ -95,8 +95,8 @@ section for options and instructions.
 ### 9. Create associations
 
 For projects and/or products, associations can be either [associated from a
-project](../project_records/associating_records_project.qmd) or [associated from
-a product](../product_records/associating_records_product.qmd).
+project](../project_records/associated_tab_project.qmd) or [associated from
+a product](../product_records/associated_tab_product.qmd).
 
 ### 10. Publish your records
 
