@@ -1,0 +1,18 @@
+---
+title: "Co-Funded Protocol: Overview"
+editor: 
+  markdown: 
+    wrap: 80
+---
+
+There are two types of co-funded protocols.
+
+1\) One or more region or program provides funding for a project and the project
+can not be divided into distinct sub-projects to be attributed separately to any
+region or program. In this case, follow the
+[FWS co-funded Projects](fws_cofunded_projects.qmd) guidance.
+
+2\) A project is funded by a Service regional program AND by a CASC or other DOI
+agency where the project can not be divided into distinct sub-projects to be
+attributed separately. In this case follow, 
+[the FWS/CASC Projects](fws_casc_projects_products.qmd) guidance.

@@ -1,0 +1,175 @@
+---
+title: "Metadata Tab"
+subtitle: "Project Records"
+editor: 
+  markdown: 
+    wrap: 80
+---
+
+```{r, echo=FALSE}
+# Using colors from this wesbite:
+# https://designsystem.digital.gov/design-tokens/color/state-tokens/
+# This allows the colors to be coded as a variable and, thus, easily changed.
+
+required_color <- "#b50909"
+required_if_applicable_color <- "#936f38"
+if_applicable_color <- "#757575"
+required_style <- paste0('{style="color:', required_color, ';"}')
+req_if_app_style <- paste0('{style="color:', required_if_applicable_color,';"}')
+if_app_style <- paste0('{style="color:', if_applicable_color, ';"}')
+```
+
+The **Metadata** tab describes your project's metadata, including a description 
+that outlines the process of metadata creation, contributors to the creation of 
+the metadata, and metadata repositories.
+
+| Project Metadata Tab                              | Requirements |
+|:------------------------------------------|:----------|
+| Basic Information: **Metadata Status**, **Dates**           | [**Required**]`r required_style` |
+| **Metadata Contacts** (multiple)                            | [**Required**]`r required_style` |
+| Metadata Identifier: **Identifier**, **Namespace**          | [**Required**]`r required_style` |
+| Parent Metadata: **Title**, **Identifier**, **Namespace**   | [**Required**]`r required_style` |
+| **Metadata Repositories** (SA Science Catalog)              | [**Required**]`r required_style` |
+: {.striped .hover .bordered .md .allborder} 
+
+<br/>
+
+## Basic Information
+
+### Metadata Status [(Required)]`r required_style`
+
+Select the appropriate **Status** of the creation of your metadata from the drop
+down menu. For example, if you have added all of your metadata, select
+***completed***. If you still have metadata to add, select ***onGoing***.
+
+### Dates [(Required)]`r required_style`
+
+At least one **Date** is required. Recommended are ***creation*** (when you 
+first created your metadata) and ***lastUpdate*** (when you updated metadata 
+after initial publication).
+
+## Metadata Contacts
+
+### **Contacts** [(Required)]`r required_style` 
+These **Contacts** (person or role) will provide a point of contact for 
+users to reach out to should they have any questions about the 
+metadata. The following table shows the required contact roles. 
+
+| Role           | Contact         | Requirements              |
+|:---------------|:-----------------|:-------------------------|
+| **author**         | See Notes Below  | [**Required**]`r required_style`   |
+| **publisher**      | Default is USFWS | [**Required**]`r required_style`   |
+| **pointOfContact** | SA Data Steward  | [**Required**]`r required_style`   |
+: {.striped .hover .bordered .md .allborder} 
+
+
+#### Metadata Contact Notes:
+
+-   The author should be an individual and can be a generic data manager.
+-   In most cases, the author will be the data manager, but could be anyone,
+    including someone outside of FWS (e.g., imported FGDC metadata can list the
+    original author).
+-   Publisher can also include the FWS Region and/or Program.
+-   The point of contact should be a Regional or National Data Steward.
+
+![Example Metadata Contacts entry](../../assets/example_metadata_contacts.png)
+<br/>
+<br/>
+
+## Metadata Identifier
+
+### Metadata Identifier [(Required)]`r required_style` 
+
+The **Identifier** is automatically populated by mdEditor. The metadata
+identifier gives each of your projects and products a unique ID and
+differentiates them from other similar projects and products. Digital Object
+Identifiers are not needed for Projects.
+
+-   If the record was imported from ScienceBase, the Metadata Identifier will be
+    auto-populated with the ScienceBase ID (SBID).
+-   If the record was created in mdEditor, it will generate a universally unique
+    identifier (UUID).
+
+![mdEditor Metadata auto-generated identifier entry](../../assets/metadata_auto_generated_identifier.png)
+
+:::{.callout-warning}
+Once a Metadata Identifier is created in the metadata,
+do not change it. mdEditor uses the Metadata Identifier to connect records and
+changing the Metadata Identifier can break those connections. If there are
+additional identifiers you want to include in your metadata record, include them
+in the [Citation Identifier](main_tab_project.qmd#identifier). 
+:::
+
+## Parent Metadata
+
+**Parent Metadata** tells mdEditor where the project metadata should go when it
+is published. If using ScienceBase, this is the folder above the project by
+default.
+
+If you imported the project metadata from ScienceBase originally, this section
+will be populated already.
+
+If you created the project metadata from scratch in mdEditor, this will be
+blank. If you provide a default parent ID in
+[Settings](../settings.qmd#publishing-settings) (Publishing Settings for
+ScienceBase), this will be generated for you when when you publish. This is most
+likely your SA regional project folder. You can enter the parent item SBID
+directly in your individual metadata record if you wish.
+
+### Title [(Required)]`r required_style` 
+
+If the **Title** is not already populated, you can enter something like 
+"Parent folder."
+
+### Identifier and Namespace [(Required)]`r required_style`
+
+The **Identifier** and **Namespace** defines the location of the parent folder 
+in ScienceBase.
+
+| Identifier                                 | Namespace   |
+|:-------------------------------------------|:------------|
+| ScienceBase identifier for the parent item | scienceBase |
+: {.striped .hover .bordered .md .allborder} 
+
+:::{.callout-info}
+The ScienceBase identifier is the alphanumeric string in
+the item's URL immediately following "**item/".** For example,
+**59b97600e4b091459a54d9f3c** is the SBID for the item at the URL:
+<https://www.sciencebase.gov/catalog/item/59b97600e4b091459a54d9f3c> 
+:::
+
+![Example ScienceBase Parent Metadata entry](../../assets/example_sb_parent_metadata.png)
+
+## Metadata Repositories
+
+### Repositories [(Required)]`r required_style`
+The metadata **Repositories** indicate where the metadata will be sent upon 
+publishing.
+
+For projects that should be listed in the **SA Science Catalog**: 
+
+- Select ”**ScienceCatalog**” from the repository list. ”**SA Science Catalog**” 
+should automatically show up as the collection title. 
+- If the **Collection Title** does not appear, stop and enter the correct 
+information in [Settings](../settings.qmd). Then select the repository for your 
+project. 
+
+Projects without the correct **Repository** and **Collection Title** will not 
+show up in the SA Science Catalog.
+
+![Example SA Science Catalog Metadata entry](../../assets/example_sa_science_catalog_metadata.png)
+
+::: {.callout-warning icon=false}
+The **Repository** and **Collection Title** must be exactly the same for each 
+of your records with no variations in spelling, spaces, capitalization, etc. 
+Specifying this information in [Settings](../settings.qmd#publishing-settings) 
+is the best way to ensure the repository information will be consistent across 
+all of your records. It strongly recommended that you avoid typing these in by 
+hand on individual metadata records. 
+:::
+
+::: {.callout-note icon=false}
+You should only use the data.gov repository for data
+products such as datasets, GIS data, etc. Data.gov does not include reports,
+presentations, or other documents nor are projects sent to data.gov.
+:::

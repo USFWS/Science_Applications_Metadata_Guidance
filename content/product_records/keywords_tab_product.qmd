@@ -1,0 +1,150 @@
+---
+title: "Keywords Tab"
+subtitle: "Product Records"
+editor: 
+  markdown: 
+    wrap: 80
+---
+
+```{r, echo=FALSE}
+# Using colors from this wesbite:
+# https://designsystem.digital.gov/design-tokens/color/state-tokens/
+# This allows the colors to be coded as a variable and, thus, easily changed.
+
+required_color <- "#b50909"
+required_if_applicable_color <- "#936f38"
+if_applicable_color <- "#757575"
+required_style <- paste0('{style="color:', required_color, ';"}')
+req_if_app_style <- paste0('{style="color:', required_if_applicable_color,';"}')
+if_app_style <- paste0('{style="color:', if_applicable_color, ';"}')
+```
+
+Adding keywords to your metadata record allows for the record to be found later
+through a search engine, keywords are the way to tag your projects or products.
+The mdEditor is designed using thesauruses that contain pre-determined keywords.
+These thesauruses create a 'controlled vocabulary' so that all SA staff adding
+metadata can adhere to the same standards, and future search results can return
+clear results of projects and products.
+
+| Keywords Tab | Requirements     |
+|:--------------------------------------|:--------------|
+| **ISO Topic Category**                | [**Required**]`r required_style`      |
+| **GCMD Keywords**                     | [Best Practice]`r if_app_style` |
+: {.striped .hover .bordered .md .allborder} 
+
+<br/>
+
+## To add Keywords to your Metadata Record
+
+1.  Click “+ Add Thesaurus” on the right to add the different thesauruses.
+2.  Add keywords from the following pre-populated thesauruses.
+3.  If none of the keywords in the following categories are sufficient for
+    tagging your record, you can create a custom thesaurus (see below for more
+    information).
+
+### Product Required Keywords
+
+#### ISO Topic Category (Required)
+
+Because mdJSON metadata is based on the ISO (International Organization for
+Standardization) metadata standard, all projects should select at least one
+ISO Topic Category. ISO topics were generally meant for spatial data so they
+might be a bit of a stretch, but do your best to find the best fit. mdEditor
+provides definitions of each ISO topic category if you hover over the **?**
+icon.
+
+Choose all that apply. The ISO Topic list is as follows:
+
+|                                   |
+|-----------------------------------|
+| biota                             |
+| boundaries                        |
+| climatologyMeteorologyAtmosphere  |
+| disaster                          |
+| economy                           |
+| elevation                         |
+| environment                       |
+| extraTerrestrial                  |
+| farming                           |
+| geoscientificInformation          |
+| health                            |
+| imageryBaseMapsEarthCover         |
+| inlandWaters                      |
+| intelligenceMilitary              |
+| location                          |
+| oceans                            |
+| planningCadastre                  |
+| society                           |
+| structure                         |
+| transportation                    |
+| utilitiesCommunication            |
+: { .hover .sm .allborder}   
+
+:::{.callout-tip icon=false}
+Biota and environment are probably the best fit for most SA products.
+:::
+
+#### GCMD Keywords (Best Practice)
+
+GCMD stands for Global Change Master Directory and these keywords are maintained
+by NASA. Look for useful keywords in the GCMD Science Keywords. There are GCMD
+Platforms and Instruments Keywords but they are unlikely to apply to SA
+products.
+
+::: {.callout-hint appearance="minimal"}
+Best Practice: Check the "Full Path" checkbox to save the full path of the
+keyword to your metadata. This will maintain the category and context of the
+specific keywords chosen.
+:::
+
+## Custom Thesaurus
+
+If any of your desired keywords do not appear in the existing thesauruses, you
+can add them via the custom thesaurus. Use a custom thesaurus only for keywords
+that are not available in an existing thesaurus.
+
+You cannot add keywords to an existing thesaurus; you can only add keywords in a
+custom thesaurus.
+
+::: {.callout-hint appearance="minimal"}
+You cannot save a custom thesaurus in mdEditor.
+:::
+
+::: {.callout-hint appearance="minimal"}
+Tip: If you have a consistent set of keywords that you use across your projects
+or products, you could add these to a "template project" record in mdEditor and
+then modify the specific keywords you need for each entry. See the workflow
+section for more info about using template records.
+:::
+
+::: {.callout-hint appearance="minimal"}
+Look for useful keywords in the GCMD Science Keywords. GCMD Science keywords are
+the most applicable to SA. There are GCMD Platforms and Instruments keywords,
+but they are unlikely to apply to SA.
+:::
+
+## Keywords and ScienceBase
+
+### Keywords vs. Tags
+
+mdEditor uses the term "keywords" while ScienceBase uses the term "tags."
+
+::: {.callout-hint appearance="minimal"}
+Keywords edited in mdEditor will not overwrite keywords stored in ScienceBase
+(i.e. sbJSON) because ScienceBase only adds to the list of tags. If you do not
+want obsolete keywords/tags to show up on ScienceBase, manually delete these in
+ScienceBase. mdJSON and the SA Science Catalog, however, will reflect any
+changes made in mdEditor.
+:::
+
+### Imported Keywords
+
+If you imported your product metadata from ScienceBase, then the ScienceBase
+tags are each created as a keyword in a custom thesaurus.
+
+Controlled vocab list in ScienceBase cannot connect to mdEditor. The selected
+keywords for any specific record will import into mdEditor, but the saved list
+will not be.
+
+![Example ISO Topic Category keyword entry](../../assets/example_keywords_entry.png)
+

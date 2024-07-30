@@ -1,0 +1,38 @@
+---
+title: "Collaboration Protocol"
+editor: 
+  markdown: 
+    wrap: 80
+---
+
+## Applicability
+
+Refer to this protocol if:
+
+-   Multiple regions, programs, etc. collaborate on a single project where only
+    one region provided funding (this funding region is the lead). There can
+    only be one lead region per project.
+
+## Metadata Responsibility
+
+The lead region data manager is responsible for project and product metadata.
+There should only be one metadata record for each collaborating project and
+product. These records will publish and be searchable in the Science Catalog for
+each collaborating regions identified in the metadata.
+
+::: {.callout-note}
+If the project is collaborative between multiple regions but neither provides
+direct funding allocations, the regions should determine who will be the lead
+region and be responsible for entering the metadata.
+:::
+
+In addition to metadata requirements described in 
+[Project Records](../project_records/project_records_overview.qmd), 
+enter the following for projects with multiple Service regional or program 
+collaborators:
+
+## Funding/Other Contacts
+
+Include the lead region and/or program in other funding Contacts as
+'administrator' (see 
+[Contact Records](../contact_records/contact_records_overview.qmd)).

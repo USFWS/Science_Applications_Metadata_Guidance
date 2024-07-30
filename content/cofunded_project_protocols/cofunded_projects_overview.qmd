@@ -1,0 +1,122 @@
+---
+title: "Co-Funded Projects: Overview"
+description:
+  "Co-funded projects are those where two regions or federal agencies both
+  provide funding and the project and/or products cannot be easily and
+  distinctly separated."
+editor: 
+  markdown: 
+    wrap: 80
+---
+
+This section describes the additional metadata entry requirements for
+documenting projects and products that involved multiple SA regions or FWS
+programs, or were co-funded with the USGS Climate Adaptation Science Centers
+(CASCs) or other federal bureaus. 
+
+SA metadata requirements and best practices described in 
+[Project Records](../project_records/project_records_overview.qmd) 
+still apply, unless otherwise noted below.
+
+## Goals
+
+The goals for these guidelines are:
+
+1.  Identify when a project is co-funded and which protocol to follow
+2.  Maintain consistent, quality metadata records for projects and products
+    across all FWS regions for inclusion in the SA Science Catalog
+3.  Avoid duplicate reporting of the same funding dollars, while also
+    allowing each regional program to fully describe its financial contribution
+    and project support.
+4.  Avoid the appearance of duplicated research efforts between FWS and CASCs
+    or other federal bureaus (see 
+    [Non-Duplication Policy](../non_duplication_policy.qmd#non-duplication-policy))
+5.  Clearly communicate the relationships between separate, but related,
+    FWS and CASC funded projects to the public
+
+## Terms
+
+**Multi-regional** refers to a single project or product that is supported by
+more than one FWS region. Support may come in the form of collaboration, in-kind
+donations of effort, and/or funding allocations.
+
+**Multi-regional co-funded** refers to a single project that is financially
+supported by more than one region.
+
+**Lead region** refers to the region that was instrumental in initializing and
+administering a project. There can be only one lead region per project.
+
+**CASC co-funded** refers to a single project or product that is supported by
+one or more FWS region and one or more USGS Climate Adaptation Science Centers
+(CASCs).
+
+**Matching** refers to funds or in-kind donations of effort that are provided by
+organizations outside of FWS.
+
+**Project** is a particular effort in a particular geography with specific
+outcomes.
+
+**Sub-project** is an effort that is related to a project, but is distinctly
+different in some specific aspect, such as geography, goal, or product. A
+sub-project often expands the scope of a project or grows from a research need
+identified by the project (aka parent project). If two regions fund similar work
+in different geographical regions, or for different species with separate
+deliverables, then these are considered to be separate projects. If both
+projects are part of a larger effort, and/or administered from the same grant,
+and/or developed in collaboration with the same investigators, then these are
+sub-projects.
+
+## Scenario Descriptions
+
+**Collaborating Project**: One Service region leads a project with joint support
+or cooperation in the form of advisory consultation or staff time from another
+region. The collaborating region(s) does not provide direct funding support.
+
+**Sub-Project** (see definition above): One region (Region A) is the lead for a
+large project (parent project), while another region (Region B), funds a
+distinct sub-project effort or distinct deliverable of the large project. This
+scenario can apply to FWS-CASC parent projects and may include project
+continuations when new objectives or deliverables are described.
+
+**Multi-regional Co-funded Project**: One region leads a project with funding
+support from another region(s). The project cannot be divided into distinct
+sub-projects.
+
+**FWS/CASC Co-funded Project**: FWS region(s) and CASC(s) co-fund a project
+without distinct sub-projects or products.
+
+
+```{mermaid}
+%%| label: fig-mermaid1
+%%| fig-width: 8
+%%| fig-cap: |
+%%|    Flowchart for identifying which protocol to follow
+%%{init: {'theme': 'base', 'themeVariables': {'fontSize': '16px', 'primaryColor': '#E6E6FA', 'secondaryColor': '#006100', 'primaryBorderColor': '#fff0f0', 'tertiaryColor': '#fff0f0'}}}%%
+%%{init: {"flowchart": {"htmlLabels": false}} }%%
+
+flowchart TD
+    A("Did another FWS Region or DOI Agency<br> (i.e., CASC) provide funding?") 
+    AY("Yes")
+    AN("No")
+    ANN("Follow collaboration protocol")
+    B("Can a distinct portion of the project be identified,<br> or a separate product be identified?")    
+    BY("Yes")
+    BN("No")
+    BYY("Split the project;<br> follow sub-project protocol")
+    BNN("This is multi-regional <br>or CASC co-funded project;<br> follow co-funded protocol")
+
+    A ---AY:::yesclass
+    A ---AN:::noclass
+    AY -->B
+    B ---BY:::yesclass
+    B ---BN:::noclass
+    BY -->BYY:::stopclass
+    BN -->BNN:::stopclass
+    AN -->ANN:::stopclass
+    
+    classDef stopclass fill:#FFC300,stroke-width:0px,stroke:#333;
+    classDef yesclass fill:#00A36C;    
+    classDef noclass fill:#fF9966;
+    linkStyle default stroke:#5F6A6A,stroke-width:4px;
+```
+

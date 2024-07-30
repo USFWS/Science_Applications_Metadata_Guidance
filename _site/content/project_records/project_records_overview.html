@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Keywords Tab – USFWS Science Applications Metadata Guidance</title>
+<title>Project Records: Overview – USFWS Science Applications Metadata Guidance</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,8 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../content/project_records/extent_tab_project.html" rel="next">
-<link href="../../content/project_records/metadata_tab_project.html" rel="prev">
+<link href="../../content/project_records/main_tab_project.html" rel="next">
+<link href="../../content/metadata_requirements.html" rel="prev">
 <link href="../../favicon.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../content/project_records/project_records_overview.html">Project Records</a></li><li class="breadcrumb-item"><a href="../../content/project_records/keywords_tab_project.html">Keywords Tab</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../content/project_records/project_records_overview.html">Project Records</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -245,7 +245,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../content/project_records/project_records_overview.html" class="sidebar-item-text sidebar-link">
+            <a href="../../content/project_records/project_records_overview.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Project Records</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -266,7 +266,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/project_records/keywords_tab_project.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../content/project_records/keywords_tab_project.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Keywords Tab</span></a>
   </div>
 </li>
@@ -619,31 +619,22 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#add-keywords-to-your-project" id="toc-add-keywords-to-your-project" class="nav-link active" data-scroll-target="#add-keywords-to-your-project">Add Keywords to your Project</a></li>
-  <li><a href="#sa-project-required-keywords" id="toc-sa-project-required-keywords" class="nav-link" data-scroll-target="#sa-project-required-keywords">SA Project Required Keywords</a>
+  <li><a href="#before-you-begin" id="toc-before-you-begin" class="nav-link active" data-scroll-target="#before-you-begin">Before You Begin</a>
   <ul class="collapse">
-  <li><a href="#iso-topic-category-required" id="toc-iso-topic-category-required" class="nav-link" data-scroll-target="#iso-topic-category-required">ISO Topic Category (<span style="color:#b50909;"><strong>Required</strong></span>)</a></li>
-  <li><a href="#sa-priority-area-required" id="toc-sa-priority-area-required" class="nav-link" data-scroll-target="#sa-priority-area-required">SA Priority Area (<span style="color:#b50909;"><strong>Required</strong></span>)</a></li>
-  <li><a href="#sa-science-topic-required" id="toc-sa-science-topic-required" class="nav-link" data-scroll-target="#sa-science-topic-required">SA Science Topic (<span style="color:#b50909;"><strong>Required</strong></span>)</a></li>
-  <li><a href="#conservation-action-open-standard-required-if-applicable" id="toc-conservation-action-open-standard-required-if-applicable" class="nav-link" data-scroll-target="#conservation-action-open-standard-required-if-applicable">Conservation Action Open Standard (<span style="color:#936f38;"><strong>Required, if applicable</strong></span>)</a></li>
-  <li><a href="#gcmd-keywords-best-practice" id="toc-gcmd-keywords-best-practice" class="nav-link" data-scroll-target="#gcmd-keywords-best-practice">GCMD Keywords (<span style="color:#757575;">Best Practice</span>)</a></li>
+  <li><a href="#check-mdeditor-settings" id="toc-check-mdeditor-settings" class="nav-link" data-scroll-target="#check-mdeditor-settings">1. Check mdEditor Settings</a></li>
+  <li><a href="#select-the-project-profile" id="toc-select-the-project-profile" class="nav-link" data-scroll-target="#select-the-project-profile">2. Select the “Project” profile</a></li>
+  <li><a href="#ensure-your-contacts-are-loaded-into-mdeditor" id="toc-ensure-your-contacts-are-loaded-into-mdeditor" class="nav-link" data-scroll-target="#ensure-your-contacts-are-loaded-into-mdeditor">3. Ensure your Contacts are loaded into mdEditor</a></li>
   </ul></li>
-  <li><a href="#custom-thesaurus" id="toc-custom-thesaurus" class="nav-link" data-scroll-target="#custom-thesaurus">Custom Thesaurus</a></li>
-  <li><a href="#keywords-and-sciencebase-tags" id="toc-keywords-and-sciencebase-tags" class="nav-link" data-scroll-target="#keywords-and-sciencebase-tags">Keywords and ScienceBase Tags</a>
-  <ul class="collapse">
-  <li><a href="#keywords-vs.-tags" id="toc-keywords-vs.-tags" class="nav-link" data-scroll-target="#keywords-vs.-tags">Keywords vs.&nbsp;Tags</a></li>
-  <li><a href="#imported-keywords" id="toc-imported-keywords" class="nav-link" data-scroll-target="#imported-keywords">Imported Keywords</a></li>
-  </ul></li>
+  <li><a href="#edit-a-project" id="toc-edit-a-project" class="nav-link" data-scroll-target="#edit-a-project">Edit a Project</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/usfws/sciapps_metadata_guidance/edit/main/content/project_records/keywords_tab_project.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/usfws/sciapps_metadata_guidance/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/usfws/sciapps_metadata_guidance/edit/main/content/project_records/project_records_overview.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/usfws/sciapps_metadata_guidance/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../content/project_records/project_records_overview.html">Project Records</a></li><li class="breadcrumb-item"><a href="../../content/project_records/keywords_tab_project.html">Keywords Tab</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Keywords Tab</h1>
-<p class="subtitle lead">Project Records</p>
+<h1 class="title">Project Records: Overview</h1>
 </div>
 
 
@@ -660,477 +651,178 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>The “Keywords” tab adds keywords to your metadata so the record to be found later through a search engine, keywords are the way to tag your projects or products.mdEditor is designed using existing thesauruses that contain pre-determined keywords.</p>
+<p>This section will cover how to create a metadata record for an SA project.</p>
+<section id="before-you-begin" class="level2">
+<h2 class="anchored" data-anchor-id="before-you-begin">Before You Begin</h2>
+<section id="check-mdeditor-settings" class="level3">
+<h3 class="anchored" data-anchor-id="check-mdeditor-settings">1. Check mdEditor Settings</h3>
+<p>In the <a href="../../content/settings.html#defaults">Default</a> settings make sure <strong>Metadata Repositories</strong> includes “SA Science Catalog” and “data.gov”.</p>
+<p>In the <a href="../../content/settings.html#publishing-settings">Publishing</a> settings, under the <strong>Default Parent Identifier:</strong> ensure you entered your Region’s Parent Identifier from the table below.</p>
 <table class="table-striped table-hover table-bordered md allborder caption-top table">
-<colgroup>
-<col style="width: 62%">
-<col style="width: 37%">
-</colgroup>
 <thead>
 <tr class="header">
-<th>Keywords Tab</th>
-<th>Requirements</th>
+<th>USFWS Region</th>
+<th>Parent Identifier</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>ISO Topic Category</td>
-<td><span style="color:#b50909;"><strong>Required</strong></span></td>
+<td><strong>Headquarters</strong></td>
+<td>6696c783d34ecb78f609f673</td>
 </tr>
 <tr class="even">
-<td>SA Priority Area</td>
-<td><span style="color:#b50909;"><strong>Required</strong></span></td>
+<td><strong>Region 1</strong></td>
+<td>6696c74ad34ecb78f609f66f</td>
 </tr>
 <tr class="odd">
-<td>SA Science Topic</td>
-<td><span style="color:#b50909;"><strong>Required</strong></span></td>
+<td><strong>Region 2</strong></td>
+<td>6696c7b2d34ecb78f609f678</td>
 </tr>
 <tr class="even">
-<td>Conservation Action</td>
-<td><span style="color:#936f38;"><strong>Required, if applicable</strong></span></td>
+<td><strong>Region 3</strong></td>
+<td>6696c873d34ecb78f609f67c</td>
 </tr>
 <tr class="odd">
-<td>Shared Priority</td>
-<td><span style="color:#757575;">If applicable</span></td>
+<td><strong>Region 4</strong></td>
+<td>6696c884d34ecb78f609f680</td>
 </tr>
 <tr class="even">
-<td>Strategic Habitat Conservation Component</td>
-<td><span style="color:#757575;">If applicable</span></td>
+<td><strong>Region 5</strong></td>
+<td>66326ad6d34ea70bd5f26d5f</td>
 </tr>
 <tr class="odd">
-<td>Taxonomic Classification (ITIS)</td>
-<td><span style="color:#757575;">If applicable</span></td>
+<td><strong>Region 6</strong></td>
+<td>6696c92dd34ecb78f609f68b</td>
 </tr>
 <tr class="even">
-<td>Geographic Extent</td>
-<td><span style="color:#936f38;"><strong>Required, if applicable</strong></span></td>
+<td><strong>Region 7</strong></td>
+<td>645bfe80d34ec179a83822d8</td>
 </tr>
 <tr class="odd">
-<td>Spatial Referenece and Resolution</td>
-<td><span style="color:#936f38;"><strong>if applicable</strong></span></td>
-</tr>
-<tr class="even">
-<td>GCMD Keywords</td>
-<td><span style="color:#757575;">Best practice</span></td>
-</tr>
-<tr class="odd">
-<td>Shared Priority Keywords</td>
-<td><span style="color:#757575;">Best practice</span></td>
-</tr>
-</tbody>
-</table>
-<p><br></p>
-<section id="add-keywords-to-your-project" class="level2">
-<h2 class="anchored" data-anchor-id="add-keywords-to-your-project">Add Keywords to your Project</h2>
-<ol type="1">
-<li>Click “+ Add Thesaurus” on the right to add the different thesauruses.</li>
-<li>Add keywords from the following pre-populated thesauruses.</li>
-<li>If none of the keywords in the following categories are sufficient for tagging your project, you can add other keywords with a custom thesaurus (see below for more information).</li>
-</ol>
-</section>
-<section id="sa-project-required-keywords" class="level2">
-<h2 class="anchored" data-anchor-id="sa-project-required-keywords">SA Project Required Keywords</h2>
-<section id="iso-topic-category-required" class="level3">
-<h3 class="anchored" data-anchor-id="iso-topic-category-required">ISO Topic Category (<span style="color:#b50909;"><strong>Required</strong></span>)</h3>
-<p>Because mdJSON metadata is based on the ISO (International Organization for Standardization) metadata standard, all SA projects should select at least one ISO Topic Category. ISO topics were generally meant for spatial data so they might be a bit of a stretch, bu do your best to find the best fit. mdEditor provides definitions of each ISO topic category if you hover over the ? icon.</p>
-<p>Choose all that apply. The ISO Topic list is as follows:</p>
-<table class="table-hover table-sm allborder small caption-top table">
-<tbody>
-<tr class="odd">
-<td>biota</td>
-</tr>
-<tr class="even">
-<td>boundaries</td>
-</tr>
-<tr class="odd">
-<td>climatologyMeteorologyAtmosphere</td>
-</tr>
-<tr class="even">
-<td>disaster</td>
-</tr>
-<tr class="odd">
-<td>economy</td>
-</tr>
-<tr class="even">
-<td>elevation</td>
-</tr>
-<tr class="odd">
-<td>environment</td>
-</tr>
-<tr class="even">
-<td>extraTerrestrial</td>
-</tr>
-<tr class="odd">
-<td>farming</td>
-</tr>
-<tr class="even">
-<td>geoscientificInformation</td>
-</tr>
-<tr class="odd">
-<td>health</td>
-</tr>
-<tr class="even">
-<td>imageryBaseMapsEarthCover</td>
-</tr>
-<tr class="odd">
-<td>inlandWaters</td>
-</tr>
-<tr class="even">
-<td>intelligenceMilitary</td>
-</tr>
-<tr class="odd">
-<td>location</td>
-</tr>
-<tr class="even">
-<td>oceans</td>
-</tr>
-<tr class="odd">
-<td>planningCadastre</td>
-</tr>
-<tr class="even">
-<td>society</td>
-</tr>
-<tr class="odd">
-<td>structure</td>
-</tr>
-<tr class="even">
-<td>transportation</td>
-</tr>
-<tr class="odd">
-<td>utilitiesCommunication</td>
-</tr>
-</tbody>
-</table>
-<div class="callout callout-style-default callout-tip no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Tip
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Biota and environment are probably the best fit for most SA projects.</p>
-</div>
-</div>
-<p><br></p>
-</section>
-<section id="sa-priority-area-required" class="level3">
-<h3 class="anchored" data-anchor-id="sa-priority-area-required">SA Priority Area (<span style="color:#b50909;"><strong>Required</strong></span>)</h3>
-<p>Choose all that apply. The list of options includes the following:</p>
-<table class="table-hover table-sm allborder small caption-top table">
-<tbody>
-<tr class="odd">
-<td>Collaborative Partnerships</td>
-</tr>
-<tr class="even">
-<td>Landscape Conservation</td>
-</tr>
-<tr class="odd">
-<td>At-risk Species</td>
-</tr>
-<tr class="even">
-<td>Data Management</td>
-</tr>
-<tr class="odd">
-<td>Conservation Science Support</td>
-</tr>
-<tr class="even">
-<td>Climate Change</td>
-</tr>
-<tr class="odd">
-<td>Social Science</td>
-</tr>
-<tr class="even">
-<td>Workforce Culture</td>
-</tr>
-<tr class="odd">
-<td>Organization Operations and Standards</td>
-</tr>
-<tr class="even">
-<td>Communications</td>
+<td><strong>Region 8</strong></td>
+<td>6696c89bd34ecb78f609f685</td>
 </tr>
 </tbody>
 </table>
 <p><br></p>
 </section>
-<section id="sa-science-topic-required" class="level3">
-<h3 class="anchored" data-anchor-id="sa-science-topic-required">SA Science Topic (<span style="color:#b50909;"><strong>Required</strong></span>)</h3>
-<p>Choose all that apply. The list of options includes the following:</p>
-<table class="table-hover table-sm allborder small caption-top table">
-<tbody>
-<tr class="odd">
-<td>Biotechnology</td>
-</tr>
-<tr class="even">
-<td>Carbon Sequestration</td>
-</tr>
-<tr class="odd">
-<td>Climate Adaptation</td>
-</tr>
-<tr class="even">
-<td>Climate Mitigation</td>
-</tr>
-<tr class="odd">
-<td>Climate Resiliency</td>
-</tr>
-<tr class="even">
-<td>Decision Support</td>
-</tr>
-<tr class="odd">
-<td>Diversity and Inclusion</td>
-</tr>
-<tr class="even">
-<td>Economics</td>
-</tr>
-<tr class="odd">
-<td>Ecosystem Services</td>
-</tr>
-<tr class="even">
-<td>Environmental Justice</td>
-</tr>
-<tr class="odd">
-<td>Human Dimensions</td>
-</tr>
-<tr class="even">
-<td>Genetics and eDNA</td>
-</tr>
-<tr class="odd">
-<td>Habitat Connectivity</td>
-</tr>
-<tr class="even">
-<td>Indigenous Knowledge</td>
-</tr>
-<tr class="odd">
-<td>Landscape Conservation Design</td>
-</tr>
-<tr class="even">
-<td>Policy</td>
-</tr>
-<tr class="odd">
-<td>Pollinators</td>
-</tr>
-<tr class="even">
-<td>Species Status Assessment Support</td>
-</tr>
-<tr class="odd">
-<td>Stakeholder Engagement</td>
-</tr>
-<tr class="even">
-<td>Strategic Habitat Conservation</td>
-</tr>
-<tr class="odd">
-<td>Vulnerability Assessment</td>
-</tr>
-<tr class="even">
-<td>Wildlife Corridors</td>
-</tr>
-<tr class="odd">
-<td>Wildlife Health and Disease</td>
-</tr>
-<tr class="even">
-<td>Working Lands</td>
-</tr>
-</tbody>
-</table>
-<p><br></p>
-</section>
-<section id="conservation-action-open-standard-required-if-applicable" class="level3">
-<h3 class="anchored" data-anchor-id="conservation-action-open-standard-required-if-applicable">Conservation Action Open Standard (<span style="color:#936f38;"><strong>Required, if applicable</strong></span>)</h3>
-<p>The Open Standards for the Practice of Conservation is a globally utilized nomenclature for conservation. Including these keywords helps to align the work of USFWS Science Applications with global conservation efforts and to utilize the shared resources of the Conservation Standards Network. The open standards keywords for conservation actions are as listed:</p>
-<table class="table-hover table-sm allborder small caption-top table">
-<tbody>
-<tr class="odd">
-<td>Land / Water Management  (1.0)</td>
-</tr>
-<tr class="even">
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Site/Area Stewardship (1.1)</td>
-</tr>
-<tr class="odd">
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ecosystem &amp; natural process (re)creation (1.2)</td>
-</tr>
-<tr class="even">
-<td>Species Management  (2.0)</td>
-</tr>
-<tr class="odd">
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Species stewardship (2.1)</td>
-</tr>
-<tr class="even">
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Species re-introduction &amp; translocation (2.2)</td>
-</tr>
-<tr class="odd">
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ex-situ conservation (2.3)</td>
-</tr>
-<tr class="even">
-<td>Awareness Raising  (3)</td>
-</tr>
-<tr class="odd">
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Outreach &amp; communications (3.1)</td>
-</tr>
-<tr class="even">
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Protests &amp; Civil Disobedience (3.2)</td>
-</tr>
-<tr class="odd">
-<td>Law Enforcement and Protection (4.0)</td>
-</tr>
-<tr class="even">
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Detection &amp; Arrest (4.1)</td>
-</tr>
-<tr class="odd">
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Criminal Prosecution &amp; Conviction (4.2)</td>
-</tr>
-<tr class="even">
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Non-Criminal Legal Action (4.3)</td>
-</tr>
-<tr class="odd">
-<td>Livelihood, Economic, and Moral Incentives  (5)</td>
-</tr>
-<tr class="even">
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Linked enterprises &amp; alternative livelihoods (5.1)</td>
-</tr>
-<tr class="odd">
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Better products &amp; management practices (5.2)</td>
-</tr>
-<tr class="even">
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Market-base incentives (5.3)</td>
-</tr>
-<tr class="odd">
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Direct economic incentives (5.4)</td>
-</tr>
-<tr class="even">
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Non-monetary values (5.5)</td>
-</tr>
-<tr class="odd">
-<td>Conservation Designation and Planning  (6)</td>
-</tr>
-<tr class="even">
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Protected area designation or acquisition (6.1)</td>
-</tr>
-<tr class="odd">
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Easements &amp; Resource rights (6.2)</td>
-</tr>
-<tr class="even">
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Land/Water use zoning &amp; designation (6.3)</td>
-</tr>
-<tr class="odd">
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Conservation planning (6.4)</td>
-</tr>
-<tr class="even">
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Site Infrastructure (6.5)</td>
-</tr>
-<tr class="odd">
-<td>Legal &amp; Policy Frameworks  (7)</td>
-</tr>
-<tr class="even">
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Laws, regulations, &amp; codes (7.1)</td>
-</tr>
-<tr class="odd">
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Policies &amp; guidelines (7.2)</td>
-</tr>
-<tr class="even">
-<td>Research and Monitoring  (8)</td>
-</tr>
-<tr class="odd">
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Basic research &amp; Status monitoring (8.1)</td>
-</tr>
-<tr class="even">
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Evaluation, effectiveness measures &amp; learning (8.2)</td>
-</tr>
-<tr class="odd">
-<td>Education and Training  (9)</td>
-</tr>
-<tr class="even">
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Formal education (9.1)</td>
-</tr>
-<tr class="odd">
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Training &amp; individual capacity development (9.2)</td>
-</tr>
-<tr class="even">
-<td>Institutional Development  (10)</td>
-</tr>
-<tr class="odd">
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Internal organizational management &amp; administration (10.1)</td>
-</tr>
-<tr class="even">
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; External organizational development &amp; support (10.2)</td>
-</tr>
-<tr class="odd">
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Alliance &amp; partnership development (10.3)</td>
-</tr>
-<tr class="even">
-<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Financing conservation (10.4)</td>
-</tr>
-</tbody>
-</table>
-<p><br></p>
-</section>
-<section id="gcmd-keywords-best-practice" class="level3">
-<h3 class="anchored" data-anchor-id="gcmd-keywords-best-practice">GCMD Keywords (<span style="color:#757575;">Best Practice</span>)</h3>
-<p>GCMD stands for Global Change Master Directory and these keywords are maintained by NASA. Look for useful keywords in the GCMD Science Keywords. There are GCMD Platforms and Instruments Keywords but they are unlikely to apply to SA projects.</p>
-<div class="callout callout-style-default callout-tip no-icon callout-titled" title="Best Practice">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Best Practice
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Check the “Full Path” checkbox to save the full path of the keyword to your metadata. This will maintain the category and context of the specific keywords chosen.</p>
-</div>
-</div>
-</section>
-</section>
-<section id="custom-thesaurus" class="level2">
-<h2 class="anchored" data-anchor-id="custom-thesaurus">Custom Thesaurus</h2>
-<p>If any of your desired keywords do not appear in the existing thesauruses, you can add them via the custom thesaurus. Use a custom thesaurus only for keywords that are not available in an existing thesaurus.</p>
-<p>You cannot add keywords to an existing thesaurus; you can only add keywords in a custom thesaurus. If a region or program finds the need for the additional of keywords to an existing thesaurus or the need for another thesaurus, please contact the FWS SA National Data Steward.</p>
-<div class="callout callout-style-default callout-tip no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Tip
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>You cannot save a custom thesaurus in mdEditor.</p>
-<p>If you have a consistent set of keywords that you use across your projects, you could add these to a “template project” record in mdEditor and then modify the specific keywords you need for each project. See the workflow section for more info about using template records.</p>
-</div>
-</div>
-</section>
-<section id="keywords-and-sciencebase-tags" class="level2">
-<h2 class="anchored" data-anchor-id="keywords-and-sciencebase-tags">Keywords and ScienceBase Tags</h2>
-<section id="keywords-vs.-tags" class="level3">
-<h3 class="anchored" data-anchor-id="keywords-vs.-tags">Keywords vs.&nbsp;Tags</h3>
-<p>mdEditor uses the term “keywords” while ScienceBase uses the term “tags.”</p>
-<div class="callout callout-style-simple callout-note no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
-<p>Keywords edited in mdEditor will not overwrite keywords stored in sbJSON on ScienceBase because ScienceBase only adds to the list of tags. If you want to remove obsolete keywords/tags on ScienceBase, you will need to manually delete them in ScienceBase. mdJSON and the SA Science Catalog, however, will reflect the changes made in mdEditor.</p>
-</div>
-</div>
-</div>
-</section>
-<section id="imported-keywords" class="level3">
-<h3 class="anchored" data-anchor-id="imported-keywords">Imported Keywords</h3>
-<p>If you imported your project metadata from ScienceBase, then the ScienceBase keywords are included in a custom thesaurus.</p>
-<p>If your project already has a controlled vocab list in ScienceBase, unfortunately it cannot connect to mdEditor. The selected keywords for any specific record will import into mdEditor, but the saved list will not be.</p>
+<section id="select-the-project-profile" class="level3">
+<h3 class="anchored" data-anchor-id="select-the-project-profile">2. Select the “Project” profile</h3>
+<p>After initially creating your project record, but before you begin adding metadata, select the metadata record’s profile type. In the main menu’s <strong>Profile</strong> drop-down options, select “<strong>Project</strong>”. This will limit the number of available tabs and only show tabs that contain fields that are applicable to project metadata.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="../../assets/example_keywords_entry.png" class="img-fluid figure-img"></p>
-<figcaption>Example ISO Topic Category Keywords</figcaption>
+<p><img src="../../assets/project_profile.png" class="img-fluid figure-img"></p>
+<figcaption>After selecting the Project profile, only the relevant tabs will be displayed.</figcaption>
 </figure>
 </div>
-
-
+<p><br></p>
 </section>
+<section id="ensure-your-contacts-are-loaded-into-mdeditor" class="level3">
+<h3 class="anchored" data-anchor-id="ensure-your-contacts-are-loaded-into-mdeditor">3. Ensure your Contacts are loaded into mdEditor</h3>
+<p>In mdEditor, contacts are created separately from individual records and then stored within a library in mdEditor. Once contacts have been entered or imported into mdEditor, they can be used in any metadata records.</p>
+<p>To reduce unnecessary duplication of contacts, SA has a “seed list” of contacts that include government agencies and partners that are often affiliated with USFWS projects and products <a href="https://www.sciencebase.gov/catalog/item/5b4e1c3fe4b06a6dd17df2d3">SA ScienceBase Community</a>. item page</p>
+<div class="callout callout-style-default callout-warning no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>You should maintain a single list of your contacts. Having duplicate copies of the same contact is not desirable. It can create confusion as you edit and manage your metadata records and introduce unnecessary errors.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="edit-a-project" class="level2">
+<h2 class="anchored" data-anchor-id="edit-a-project">Edit a Project</h2>
+<ol type="1">
+<li>Import or create your Project record (see <a href="../../content/workflow/workflow_overview.html">workflow</a>).</li>
+<li>Pick <strong>“project”</strong> as the <strong>Resource Type</strong></li>
+<li>Select the Project Profile: from the Main Menu (Top Navigation Bar) select “<strong>Project”</strong> from the profile drop-down menu.</li>
+<li>Fill out metadata information for the following tabs:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../content/project_records/main_tab_project.html">Main Tab</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../content/project_records/metadata_tab_project.html">Metadata Tab</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../content/project_records/keywords_tab_project.html">Keywords Tab</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../content/project_records/taxonomy_tab_project.html">Taxonomy Tab</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../content/project_records/extent_tab_project.html">Extent Tab</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../content/project_records/documents_tab_project.html">Documents Tab</a><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../../content/project_records/funding_tab_project.html">Funding Tab</a><br>
+</li>
+<li>If applicable, the <a href="../../content/project_records/associated_tab_project.html">Associated Tab</a> allow your project to be associated with other metadata records.</li>
+</ol>
+<!-- 
+################### START OF COMMENTED OUT CODE ################################ 
+
+### Required Fields for Projects
+
+#### **Main Tab**
+
+-   Title
+-   Status
+-   Language
+-   Resource Type
+-   Point of Contact
+-   Main Citation
+    -   Title
+    -   Identifier
+    -   Responsible Parties
+    -   Date
+    -   Online Resource URI
+-   Description
+    -   Abstract
+-   Time Period
+    -   Start Date
+    -   End Date
+
+#### **Metadata Tab**
+
+-   Metadata Status
+-   Last Update Date
+-   Metadata Contacts
+-   Metadata Identifier
+-   Parent Metadata
+    -   Title
+    -   Identifier
+    -   Namespace
+-   Metadata Repositories
+
+#### **Keywords Tab**
+
+-   ISO Topic Category
+-   SA Priority Area Category
+-   SA Science Category
+-   Conservation Action Open Standard
+-   Anticipated Deliverables (Best Practice)
+-   GCMD Keywords (Best Practice)
+
+#### Taxonomy Tab
+
+-   Taxonomic classifications
+
+#### **Extent Tab**
+
+-   Geographic Extent
+
+#### **Funding Tab**
+
+-   Allocation
+    -   AwardID
+    -   Amount
+    -   Currency
+    -   Source
+    -   Recipient
+    -   Other Contacts\Administrator
+    -   Matching Funds
+-   Time Period
+    -   Fiscal Year
+
+################### END OF COMMENTED OUT CODE ################################ 
+-->
+
+
 </section>
 
 </main> <!-- /main -->
@@ -1700,13 +1392,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../content/project_records/metadata_tab_project.html" class="pagination-link" aria-label="Metadata Tab">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Metadata Tab</span>
+      <a href="../../content/metadata_requirements.html" class="pagination-link" aria-label="Metadata Requirements">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Metadata Requirements</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../content/project_records/extent_tab_project.html" class="pagination-link" aria-label="Extent Tab">
-        <span class="nav-page-text">Extent Tab</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../content/project_records/main_tab_project.html" class="pagination-link" aria-label="Main Tab">
+        <span class="nav-page-text">Main Tab</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -1715,4 +1407,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/usfws/sciapps_metadata_guidance/edit/main/content/project_records/keywords_tab_project.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/usfws/sciapps_metadata_guidance/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/usfws/sciapps_metadata_guidance/edit/main/content/project_records/project_records_overview.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/usfws/sciapps_metadata_guidance/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
