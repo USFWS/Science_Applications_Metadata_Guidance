@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Projects, Products, Contacts – USFWS Science Applications Metadata Guidance</title>
+<title>Metadata Requirements – USFWS Science Applications Metadata Guidance</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,8 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../content/non_duplication_policy.html" rel="next">
-<link href="../content/science_catalog.html" rel="prev">
+<link href="../content/project_records/project_records_overview.html" rel="next">
+<link href="../content/metadata_file_management/copy_records.html" rel="prev">
 <link href="../favicon.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/projects_products_contacts.html">Projects, Products, Contacts</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/metadata_requirements.html">Metadata Requirements</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -140,7 +140,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/projects_products_contacts.html" class="sidebar-item-text sidebar-link active">
+  <a href="../content/projects_products_contacts.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Projects, Products, Contacts</span></a>
   </div>
 </li>
@@ -239,7 +239,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/metadata_requirements.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/metadata_requirements.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Metadata Requirements</span></a>
   </div>
 </li>
@@ -619,20 +619,30 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#projects" id="toc-projects" class="nav-link active" data-scroll-target="#projects">Projects</a></li>
-  <li><a href="#products" id="toc-products" class="nav-link" data-scroll-target="#products">Products</a></li>
-  <li><a href="#contacts" id="toc-contacts" class="nav-link" data-scroll-target="#contacts">Contacts</a></li>
-  <li><a href="#relationships" id="toc-relationships" class="nav-link" data-scroll-target="#relationships">Relationships</a></li>
+  <li><a href="#projects-and-products" id="toc-projects-and-products" class="nav-link active" data-scroll-target="#projects-and-products">Projects and Products</a>
+  <ul class="collapse">
+  <li><a href="#main-tab" id="toc-main-tab" class="nav-link" data-scroll-target="#main-tab">Main Tab</a></li>
+  <li><a href="#metadata-tab" id="toc-metadata-tab" class="nav-link" data-scroll-target="#metadata-tab">Metadata Tab</a></li>
+  <li><a href="#keywords-tab" id="toc-keywords-tab" class="nav-link" data-scroll-target="#keywords-tab">Keywords Tab</a></li>
+  <li><a href="#extent-tab" id="toc-extent-tab" class="nav-link" data-scroll-target="#extent-tab">Extent Tab</a></li>
+  <li><a href="#taxonomy-tab" id="toc-taxonomy-tab" class="nav-link" data-scroll-target="#taxonomy-tab">Taxonomy Tab</a></li>
+  <li><a href="#distribution-tab" id="toc-distribution-tab" class="nav-link" data-scroll-target="#distribution-tab">Distribution Tab</a></li>
+  <li><a href="#constraints-tab" id="toc-constraints-tab" class="nav-link" data-scroll-target="#constraints-tab">Constraints Tab</a></li>
+  <li><a href="#funding-tab" id="toc-funding-tab" class="nav-link" data-scroll-target="#funding-tab">Funding Tab</a></li>
+  </ul></li>
+  <li><a href="#contacts" id="toc-contacts" class="nav-link" data-scroll-target="#contacts">Contacts</a>
+  <ul class="collapse">
+  <li><a href="#contacts-information" id="toc-contacts-information" class="nav-link" data-scroll-target="#contacts-information">Contacts Information</a></li>
+  </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/usfws/sciapps_metadata_guidance/edit/main/content/projects_products_contacts.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/usfws/sciapps_metadata_guidance/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/usfws/sciapps_metadata_guidance/edit/main/content/metadata_requirements.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/usfws/sciapps_metadata_guidance/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Projects, Products, Contacts</h1>
-<p class="subtitle lead">Relationships among Projects, Products, and Contacts</p>
+<h1 class="title">Metadata Requirements</h1>
 </div>
 
 
@@ -649,67 +659,582 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Projects, products, and contacts all share a relationship in mdEditor and are each entered independently.</p>
-<section id="projects" class="level3">
-<h3 class="anchored" data-anchor-id="projects">Projects</h3>
-<p>A project encompasses a discrete effort on a particular topic with defined goals or objectives. The target projects for the SA Science Catalog are science projects whose topics and resulting products have value to partners or the public being able to discover and access them. Many projects are the result of SA issued financial assistance agreements, contracts, or inter-agency agreements. However, not everything funded through one of these mechanisms needs to be in the Science Catalog. For example, a contract to maintain an individual website likely does not quality as a “science project” nor does it provide public-relevant information. A grant to develop an interactive landscape-conservation tool, however, would be a science project that results in public-relevant information.</p>
-<p>SA projects can also include other defined efforts that did not necessarily require the awarding of funds (i.e.&nbsp;internal efforts).</p>
-<div class="callout callout-style-simple callout-note no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
-<p>Individual data managers may want to track other projects using the same metadata format and store that information on ScienceBase, without publishing it to the SA Science Catalog.</p>
-</div>
-</div>
-</div>
+<section id="projects-and-products" class="level2">
+<h2 class="anchored" data-anchor-id="projects-and-products">Projects and Products</h2>
+<p>Certain metadata fields are required for Project and Product metadata records.</p>
+<section id="main-tab" class="level3">
+<h3 class="anchored" data-anchor-id="main-tab">Main Tab</h3>
+<table class="table-striped table-hover table-bordered md allborder caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Metadata Field</th>
+<th style="text-align: left;">Project Records</th>
+<th style="text-align: left;">Product Records</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Record ID</td>
+<td style="text-align: left;"><a href="../content/project_records/main_tab_project.html#record-id-required" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"><a href="../content/product_records/main_tab_product.html#record-id-required" style="color:#b50909;"><strong>Required</strong></a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Title</td>
+<td style="text-align: left;"><a href="../content/project_records/main_tab_project.html#title-required" style="color:#b50909;"><strong>Required</strong></a><sup>*</sup></td>
+<td style="text-align: left;"><a href="../content/product_records/main_tab_product.html#title" style="color:#b50909;"><strong>Required</strong></a><sup>*</sup></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Status</td>
+<td style="text-align: left;"><a href="../content/project_records/main_tab_project.html#status-required" style="color:#b50909;"><strong>Required</strong></a><sup>*</sup></td>
+<td style="text-align: left;"><a href="../content/product_records/main_tab_product.html#status" style="color:#b50909;"><strong>Required</strong></a><sup>*</sup></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Default Locale</td>
+<td style="text-align: left;"><a href="../content/project_records/main_tab_project.html#default-locale-required" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"><a href="../content/product_records/main_tab_product.html#default-locale-required" style="color:#b50909;"><strong>Required</strong></a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Resource Type</td>
+<td style="text-align: left;"><a href="../content/project_records/main_tab_project.html#resource-types" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"><a href="../content/product_records/main_tab_product.html#resource-types" style="color:#b50909;"><strong>Required</strong></a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Points of Contact</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Point of Contact</td>
+<td style="text-align: left;"><a href="../content/project_records/main_tab_project.html#point-of-contacts" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"><a href="../content/product_records/main_tab_product.html#point-of-contacts" style="color:#b50909;"><strong>Required</strong></a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Custodian</td>
+<td style="text-align: left;"><a href="../content/project_records/main_tab_project.html#point-of-contacts" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"><a href="../content/product_records/main_tab_product.html#point-of-contacts" style="color:#b50909;"><strong>Required</strong></a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Administrator</td>
+<td style="text-align: left;"><a href="../content/project_records/main_tab_project.html#point-of-contacts" style="color:#b50909;"><strong>Required</strong></a><sup>*</sup></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Administrative Region</td>
+<td style="text-align: left;"><a href="../content/project_records/main_tab_project.html#point-of-contacts" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"><a href="../content/product_records/main_tab_product.html#point-of-contacts" style="color:#b50909;"><strong>Required</strong></a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Principal Investigator</td>
+<td style="text-align: left;"><a href="../content/project_records/main_tab_project.html#point-of-contacts" style="color:#936f38;"><strong>Required, if applicable</strong></a><sup>*</sup></td>
+<td style="text-align: left;"><a href="../content/product_records/main_tab_product.html#point-of-contacts" style="color:#936f38;"><strong>Required, if applicable</strong></a><sup>*</sup></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Co-Principal Investigator</td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Citation</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Title</td>
+<td style="text-align: left;"><a href="../content/project_records/main_tab_project.html#title" style="color:#b50909;"><strong>Required</strong></a><sup>*</sup></td>
+<td style="text-align: left;"><a href="../content/project_records/main_tab_project.html#title" style="color:#b50909;"><strong>Required</strong></a><sup>*</sup></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Acquisition Date</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Creation Date</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Date Updated</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Date Revised</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Date Published</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Principal Investigator</td>
+<td style="text-align: left;"><a href="../content/project_records/main_tab_project.html#responsible-parties" style="color:#b50909;"><strong>Required</strong></a><sup>*</sup></td>
+<td style="text-align: left;"><a href="../content/product_records/main_tab_product.html#responsible-parties" style="color:#b50909;"><strong>Required</strong></a><sup>*</sup></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Online Resource Name</td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Online Resource URL</td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; URL Function</td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Metadata Identifier</td>
+<td style="text-align: left;"><a href="../content/project_records/main_tab_project.html#responsible-parties" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"><a href="../content/product_records/main_tab_product.html#responsible-parties" style="color:#b50909;"><strong>Required</strong></a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Identifier Namespace</td>
+<td style="text-align: left;"><a href="../content/project_records/main_tab_project.html#responsible-parties" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"><a href="../content/product_records/main_tab_product.html#responsible-parties" style="color:#b50909;"><strong>Required</strong></a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; DOI Identifier</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; DOI Namespace</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Abstract</td>
+<td style="text-align: left;"><a href="../content/project_records/main_tab_project.html#abstract" style="color:#b50909;"><strong>Required</strong></a><sup>*</sup></td>
+<td style="text-align: left;"><a href="../content/product_records/main_tab_product.html#abstract" style="color:#b50909;"><strong>Required</strong></a><sup>*</sup></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Start Date</td>
+<td style="text-align: left;"><a href="../content/project_records/main_tab_project.html#time-period" style="color:#b50909;"><strong>Required</strong></a><sup>*</sup></td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">End Date</td>
+<td style="text-align: left;"><a href="../content/project_records/main_tab_project.html#time-period" style="color:#b50909;"><strong>Required</strong></a><sup>*</sup></td>
+<td style="text-align: left;"><a href="../content/product_records/main_tab_product.html#time-period" style="color:#b50909;"><strong>Required</strong></a><sup>*</sup></td>
+</tr>
+</tbody>
+</table>
+<p><sup>*</sup>Also required under the ScienceBase 30-day Policy</p>
 </section>
-<section id="products" class="level3">
-<h3 class="anchored" data-anchor-id="products">Products</h3>
-<p>A product is a resource, usually (but not necessarily) developed as an output from a project. Products can be tools, data, maps, reports, presentations, workshops, etc. These will usually be the direct result of a project though there may be some products without a parent project.</p>
-<p>Not every output of a project is necessarily a product, however. For example, meeting minutes do not have standalone value as a publicly-available resource. It is up to each data manager to determine which outputs should be entered as products.</p>
+<section id="metadata-tab" class="level3">
+<h3 class="anchored" data-anchor-id="metadata-tab">Metadata Tab</h3>
+<table class="table-striped table-hover table-bordered md allborder caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Metadata Field</th>
+<th style="text-align: left;">Project Records</th>
+<th style="text-align: left;">Product Records</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Status</td>
+<td style="text-align: left;"><a href="../content/project_records/metadata_tab_project.html#metadata-status-required" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"><a href="../content/product_records/metadata_tab_product.html#metadata-status-required" style="color:#b50909;"><strong>Required</strong></a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Dates</td>
+<td style="text-align: left;"><a href="../content/project_records/metadata_tab_project.html#metadata-dates-required" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Metadata Contacts</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Author</td>
+<td style="text-align: left;"><a href="../content/project_records/metadata_tab_project.html#metadata-contacts" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"><a href="../content/product_records/metadata_tab_product.html#metadata-contacts" style="color:#b50909;"><strong>Required</strong></a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Publisher</td>
+<td style="text-align: left;"><a href="../content/project_records/metadata_tab_project.html#metadata-contacts" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"><a href="../content/product_records/metadata_tab_product.html#metadata-contacts" style="color:#b50909;"><strong>Required</strong></a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Point of Contact</td>
+<td style="text-align: left;"><a href="../content/project_records/metadata_tab_project.html#metadata-contacts" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"><a href="../content/product_records/metadata_tab_product.html#metadata-contacts" style="color:#b50909;"><strong>Required</strong></a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Metadata Identifier</td>
+<td style="text-align: left;"><a href="../content/project_records/metadata_tab_project.html#metadata-identifier" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"><a href="../content/product_records/metadata_tab_product.html#metadata-identifier" style="color:#b50909;"><strong>Required</strong></a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Parent Metadata</td>
+<td style="text-align: left;"><a href="../content/project_records/metadata_tab_project.html#parent-metadata" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"><a href="../content/product_records/metadata_tab_product.html#parent-metadata" style="color:#b50909;"><strong>Required</strong></a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Metadata Repositories</td>
+<td style="text-align: left;"><a href="../content/project_records/metadata_tab_project.html#metadata-repositories" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"><a href="../content/project_records/metadata_tab_project.html#metadata-repositories" style="color:#b50909;"><strong>Required</strong></a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Maintenance Frequency</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+</tr>
+</tbody>
+</table>
+<p><sup>*</sup>Also required under the ScienceBase 30-day Policy<br>
+<br></p>
 </section>
-<section id="contacts" class="level3">
-<h3 class="anchored" data-anchor-id="contacts">Contacts</h3>
-<p>Contacts are the individuals and organizations involved with projects and products (e.g., investigators, collaborators, funders). Contacts are entered once in mdEditor and can be added to multiple projects and products.</p>
-<div class="callout callout-style-simple callout-note no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
-<p>Consult the <a href="../content/contact_records/contact_records_overview.html">Contacts</a> section for information on adding contacts.</p>
-</div>
-</div>
-</div>
+<section id="keywords-tab" class="level3">
+<h3 class="anchored" data-anchor-id="keywords-tab">Keywords Tab</h3>
+<table class="table-striped table-hover table-bordered md allborder caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Metadata Field</th>
+<th style="text-align: left;">Project Records</th>
+<th style="text-align: left;">Product Records</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">ISO Topic Category</td>
+<td style="text-align: left;"><a href="../content/project_records/keywords_tab_project.html#iso-topic-category-required" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"><a href="../content/product_records/keywords_tab_product.html#iso-topic-category-required" style="color:#b50909;"><strong>Required</strong></a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">SA Priority Area</td>
+<td style="text-align: left;"><a href="../content/project_records/keywords_tab_project.html#sa-priority-area-required" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"><a href="../content/project_records/keywords_tab_project.html#sa-priority-area-required" style="color:#b50909;"><strong>Required</strong></a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">SA Science Topic</td>
+<td style="text-align: left;"><a href="../content/project_records/keywords_tab_project.html#science-topic-required" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Conservation Action</td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Shared Priority</td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Strategic Habitat Conservation Component</td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Taxonomic Classification (ITIS)</td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Geographic Extent</td>
+<td style="text-align: left;"><a href="../content/project_records/keywords_tab_project.html" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"><a href="../content/product_records/keywords_tab_product.html" style="color:#b50909;"><strong>Required</strong></a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Spatial Reference and Resolution</td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
 </section>
-<section id="relationships" class="level3">
-<h3 class="anchored" data-anchor-id="relationships">Relationships</h3>
-<p><strong>Projects and Products</strong> will always have a relationship with contacts. Projects will always have at least one point of contact (FWS SA National Data Steward). Additional contact relationships may include project authors, metadata creators, funders, principal investigators, publishers, distributors, and many others. One crucial contact relationship between contacts, projects, and products is the role of the individual(s) and/or organization(s) who provided funding. This may include a direct full contributor or any partners that provided funding.</p>
-<div class="callout callout-style-simple callout-note no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
-<p>Contact types are specified in the contact record (examples: federal, state, NGO). Specific roles for each contact are defined within the respective project and product records (examples: principal investigator, collaborator).</p>
-</div>
-</div>
-</div>
-<p><strong>Products are often the results of projects</strong>. mdEditor defines the relationships between projects and products through the Associated feature.</p>
-<div class="callout callout-style-simple callout-note no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
-<p>Consult either the <a href="product_records/associating_records_product.qmd">Associating Records: Product</a> or <a href="project_records/associating_records_project.qmd">Associating Records: Project</a> section for more information.</p>
-</div>
-</div>
-</div>
+<section id="extent-tab" class="level3">
+<h3 class="anchored" data-anchor-id="extent-tab">Extent Tab</h3>
+<table class="table-striped table-hover table-bordered md allborder caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Metadata Field</th>
+<th style="text-align: left;">Project Records</th>
+<th style="text-align: left;">Product Records</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Extent</td>
+<td style="text-align: left;"><a href="../content/project_records/extent_tab_project.html#add-taxonomic-system#creating-extents" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"><a href="../content/product_records/extent_tab_product.html#creating-extents" style="color:#b50909;"><strong>Required</strong></a></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+</section>
+<section id="taxonomy-tab" class="level3">
+<h3 class="anchored" data-anchor-id="taxonomy-tab">Taxonomy Tab</h3>
+<table class="table-striped table-hover table-bordered md allborder caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Metadata Field</th>
+<th style="text-align: left;">Project Records</th>
+<th style="text-align: left;">Product Records</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Taxonomic System</td>
+<td style="text-align: left;"><a href="../content/project_records/taxonomy_tab_project.html#add-taxonomic-system" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"><a href="../content/product_records/taxonomy_tab_product.html#add-taxonomic-system" style="color:#936f38;"><strong>Required, if applicable</strong></a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Taxonomic Classifcation</td>
+<td style="text-align: left;"><a href="../content/project_records/taxonomy_tab_project.html#add-taxonomic-system" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"><a href="../content/product_records/taxonomy_tab_product.html#add-taxonomic-system" style="color:#936f38;"><strong>Required, if applicable</strong></a></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+</section>
+<section id="distribution-tab" class="level3">
+<h3 class="anchored" data-anchor-id="distribution-tab">Distribution Tab</h3>
+<table class="table-striped table-hover table-bordered md allborder caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Metadata Field</th>
+<th style="text-align: left;">Project Records</th>
+<th style="text-align: left;">Product Records</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Distributor</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="../content/product_records/distribution_tab_product.html#distributor" style="color:#b50909;"><strong>Required</strong></a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Online Transfer Name</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Online Transfer URL</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Online Transfer Function</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Online Transfer Application Profile</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Online Transfer Order Process</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Distribution Format Name, Version, &amp; Compression</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+</tr>
+</tbody>
+</table>
+<p><sup>*</sup>Also required under the ScienceBase 30-day Policy<br>
+<br></p>
+</section>
+<section id="constraints-tab" class="level3">
+<h3 class="anchored" data-anchor-id="constraints-tab">Constraints Tab</h3>
+<table class="table-striped table-hover table-bordered md allborder caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Metadata Field</th>
+<th style="text-align: left;">Project Records</th>
+<th style="text-align: left;">Product Records</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Constraint Type</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="../content/product_records/constraints_tab_product.html#legal" style="color:#b50909;"><strong>Required</strong></a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Legal</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Access Constraints</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="../content/product_records/constraints_tab_product.html#legal" style="color:#b50909;"><strong>Required</strong></a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Use Constraints</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Security</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Handling Description</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Other Constraints</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+</section>
+<section id="funding-tab" class="level3">
+<h3 class="anchored" data-anchor-id="funding-tab">Funding Tab</h3>
+<table class="table-striped table-hover table-bordered md allborder caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Metadata Field</th>
+<th style="text-align: left;">Project Records</th>
+<th style="text-align: left;">Product Records</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Award ID</td>
+<td style="text-align: left;"><a href="../content/project_records/funding_tab_project.html#award-id-required" style="color:#b50909;"><strong>Required</strong></a><sup>*</sup></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Sub-activity</td>
+<td style="text-align: left;"><a href="../content/project_records/funding_tab_project.html#fws-sub-activity-funding-codes-agreement-type-best-practice" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Funding Code</td>
+<td style="text-align: left;"><a href="../content/project_records/funding_tab_project.html#fws-sub-activity-funding-codes-agreement-type-best-practice" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Amount</td>
+<td style="text-align: left;"><a href="../content/project_records/funding_tab_project.html#amount-required" style="color:#b50909;"><strong>Required</strong></a><sup>*</sup></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Source</td>
+<td style="text-align: left;"><a href="../content/project_records/funding_tab_project.html#source-required" style="color:#b50909;"><strong>Required</strong></a><sup>*</sup></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Allocation</td>
+<td style="text-align: left;"><a href="../content/project_records/funding_tab_project.html#marked-funding" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Funding Organization</td>
+<td style="text-align: left;"><a href="../content/project_records/funding_tab_project.html#marked-funding" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Recipient Organization</td>
+<td style="text-align: left;"><a href="../content/project_records/funding_tab_project.html#recipient-required" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Matching Funds</td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Fiscal Year</td>
+<td style="text-align: left;"><a href="../content/project_records/funding_tab_project.html#dates-required" style="color:#b50909;"><strong>Required</strong></a><sup>*</sup></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p><sup>*</sup>Also required under the ScienceBase 30-day Policy <br></p>
+</section>
+</section>
+<section id="contacts" class="level2">
+<h2 class="anchored" data-anchor-id="contacts">Contacts</h2>
+<p>Certain metadata fields are required for Individual or Organization contacts.</p>
+<section id="contacts-information" class="level3">
+<h3 class="anchored" data-anchor-id="contacts-information">Contacts Information</h3>
+<table class="table-striped table-hover table-bordered md allborder caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Metadata Field</th>
+<th style="text-align: left;">Individual</th>
+<th style="text-align: left;">Organization</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Type</td>
+<td style="text-align: left;"><a href="../content/contact_records/individual_contacts.html#create-a-new-contact" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"><a href="../content/contact_records/organization_contacts.html#create-a-new-contact" style="color:#b50909;"><strong>Required</strong></a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Individual Name</td>
+<td style="text-align: left;"><a href="../content/contact_records/individual_contacts.html#create-a-new-contact" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Organizational Name</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="../content/contact_records/organization_contacts.html#create-a-new-contact" style="color:#b50909;"><strong>Required</strong></a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Position Name</td>
+<td style="text-align: left;"><span style="color:#757575;">If applicable</span></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Contact Type</td>
+<td style="text-align: left;"><a href="../content/contact_records/individual_contacts.html#create-a-new-contact" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"><a href="../content/contact_records/organization_contacts.html#create-a-new-contact" style="color:#b50909;"><strong>Required</strong></a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Member Organization</td>
+<td style="text-align: left;"><a href="../content/contact_records/individual_contacts.html#create-a-new-contact" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Email Address</td>
+<td style="text-align: left;"><a href="../content/contact_records/individual_contacts.html#create-a-new-contact" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"><a href="../content/contact_records/organization_contacts.html#create-a-new-contact" style="color:#b50909;"><strong>Required</strong></a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Online Resource</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="../content/contact_records/organization_contacts.html#create-a-new-contact" style="color:#b50909;"><strong>Required</strong></a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Physical Address</td>
+<td style="text-align: left;"><span style="color:#757575;">Best practice</span></td>
+<td style="text-align: left;"><span style="color:#757575;">Best practice</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Logo</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span style="color:#757575;">Optional</span></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -1279,13 +1804,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../content/science_catalog.html" class="pagination-link" aria-label="Science Catalog">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Science Catalog</span>
+      <a href="../content/metadata_file_management/copy_records.html" class="pagination-link" aria-label="Copy Records">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Copy Records</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../content/non_duplication_policy.html" class="pagination-link" aria-label="Non-Duplication Policy">
-        <span class="nav-page-text">Non-Duplication Policy</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../content/project_records/project_records_overview.html" class="pagination-link" aria-label="Project Records">
+        <span class="nav-page-text">Project Records</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -1294,4 +1819,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/usfws/sciapps_metadata_guidance/edit/main/content/projects_products_contacts.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/usfws/sciapps_metadata_guidance/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/usfws/sciapps_metadata_guidance/edit/main/content/metadata_requirements.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/usfws/sciapps_metadata_guidance/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
