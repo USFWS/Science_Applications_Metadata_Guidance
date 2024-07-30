@@ -1,0 +1,274 @@
+---
+title: "Main Tab"
+subtitle: "Project Records"
+editor: 
+  markdown: 
+    wrap: 80
+---
+
+```{r, echo=FALSE}
+# Using colors from this wesbite:
+# https://designsystem.digital.gov/design-tokens/color/state-tokens/
+# This allows the colors to be coded as a variable and, thus, easily changed.
+
+required_color <- "#b50909"
+required_if_applicable_color <- "#936f38"
+if_applicable_color <- "#757575"
+required_style <- paste0('{style="color:', required_color, ';"}')
+req_if_app_style <- paste0('{style="color:', required_if_applicable_color,';"}')
+if_app_style <- paste0('{style="color:', if_applicable_color, ';"}')
+```
+
+The **Main** tab allows for the creation and/or editing of primary metadata.
+
+
+### Main Tab    
+
+| Metadata Field                | Project Records   |
+|:------------------------------|:-------------|
+| Basic Information     |                                                                                                         |
+|        Record ID      | [**Required**](main_tab_project.qmd#record-id-required)`r required_style`               |
+|        Title          | [**Required**](main_tab_project.qmd#title-required)`r required_style`^\*^               |
+|        Status         | [**Required**](main_tab_project.qmd#status-required)`r required_style`^\*^              |
+| Default Locale        |                                                                                                         |
+|        Language       | [**Required**](main_tab_project.qmd#default-locale-required)`r required_style`          | 
+|        Character Set  | [**Required**](main_tab_project.qmd#default-locale-required)`r required_style`          | 
+|        Country        | [**Required**](main_tab_project.qmd#default-locale-required)`r required_style`          | 
+| Resource Type         | [**Required**](main_tab_project.qmd#resource-types)`r required_style`                   |
+|        Point of Contact       | [**Required**](main_tab_project.qmd#point-of-contacts)`r required_style`        | 
+|        Custodian              | [**Required**](main_tab_project.qmd#point-of-contacts)`r required_style`        | 
+|        Administrator          | [**Required**](main_tab_project.qmd#point-of-contacts)`r required_style`^\*^    |
+|        Administrative Region  | [**Required**](main_tab_project.qmd#point-of-contacts)`r required_style`        | 
+|        Principal Investigator | [**Required, if applicable**](main_tab_project.qmd#point-of-contacts)`r req_if_app_style`^\*^ | 
+|        Co-Principal Investigator | [If applicable]`r if_app_style`                                                              | 
+| Citation                      |                                                                                                 |
+|        Title                  | [**Required**](main_tab_project.qmd#title)`r required_style`^\*^                | 
+|        Principal Investigator | [**Required**](main_tab_project.qmd#responsible-parties)`r required_style`^\*^  |
+|        Online Resource Name   | [If applicable]`r if_app_style`                                                                 | 
+|        Online Resource URL    | [If applicable]`r if_app_style`                                                                 | 
+|        URL Function           | [If applicable]`r if_app_style`                                                                 | 
+|        Metadata Identifier    | [**Required**](main_tab_project.qmd#responsible-parties)`r required_style`      |
+|        Identifier Namespace   | [**Required**](main_tab_project.qmd#responsible-parties)`r required_style`      |
+| Description                   |                                                                                                 | 
+|        Abstract               | [**Required**](main_tab_project.qmd#abstract)`r required_style`^\*^             |
+| Time Period                   |                                                                                                 |          
+|        Start Date             | [**Required**](main_tab_project.qmd#time-period)`r required_style`^\*^          | 
+|        End Date               | [**Required**](main_tab_project.qmd#time-period)`r required_style`^\*^          | 
+: {.striped .hover .bordered .sm .allborder} 
+
+</br>
+
+## Basic Information
+
+### Record ID [(Required)]`r required_style`
+
+The **Record ID** will be auto-generated. It can be edited but it should only be
+edited if absolutely necessary (and ideally edited as soon as the record is
+created in mdEditor).
+
+### Title [(Required)]`r required_style`
+
+Enter a concise, yet informative **Title**. Good titles, when they appear in a
+search, will be understood and traceable.
+
+### Status [(Required)]`r required_style`
+
+The **Status** drop-down menu allows you to select the status of your project.
+Choose a status from <u>only these four</u> options: ***accepted***, 
+***completed***, ***onGoing***, or ***proposed***.
+
+![](../../assets/basic_information.png)
+
+## Default Locale [(Required)]`r required_style`
+
+**Default Locale** allows for the selection of **Language**, **Character Set**,
+and **Country**. English, UTF-8, and USA will be selected by default, but you
+may change them if necessary. See [Settings](../settings.qmd) for instruction.
+
+![](../../assets/default_locale.png)
+
+## Resource Types [(Required)]`r required_style`
+
+For projects, the **Resource Type** should be automatically filled in with the
+resource type you selected when you created your record. This should be
+"project" for all SA projects. Name is optional - you can leave this blank or
+enter a shorten project name.
+
+![](../../assets/resource_types.png)
+
+## Point of Contacts [(Required)]`r required_style`
+
+Adding a **Point of Contact** gives users information on who to contact should
+they have a question regarding your project or product.
+
+:::{.callout-note icon=false} 
+To add contacts to a metadata record, you must first create/upload the contacts
+into mdEditor. See the [Contact
+Records](../contact_records/contact_records_overview.qmd) Section for more
+information.
+:::
+
+| Role                  | Contact                                          | Requirements                   |
+|---------------------|----------------------------------------|---------------------|
+| pointOfContact        | FWS Science Applications National Data Steward   | [**Required**]`r required_style`                |
+| pointOfContact        | Data Steward                                     | [**Required**]`r required_style`                |
+| principalInvestigator | Project Principal Investigator and/or Producer   | [**Required, if applicable**]`r req_if_app_style` |
+| custodian             | Data Custodian                                   | [**Required, if applicable**]`r req_if_app_style` |
+| owner                 | Data Trustee                                     | [**Required**]`r required_style`                |
+| administrator         | Project Officer, if not the Steward              | [**Required**]`r required_style`                |
+| administrator         | FWS Region (legacy and DOI Unified), FWS Program | [**Required**]`r required_style`                |
+| collaborator          | Partnership Organizations and/or Programs        | [**Required, if applicable**]`r req_if_app_style` |
+: {.striped .hover .bordered .md .allborder}
+
+<br/>
+
+![Example Points of Contact Entry in
+mdEditor](../../assets/example_points_of_contact.png)
+
+:::{.callout-note icon=false}
+The **FWS Science Applications National Data Steward** will serve as the long term
+contact and backup. This way, users have a point-of-contact even if there is a
+positional change within an organization. Regional Data Steward should be
+included in addition as a point of contact, if available.
+:::
+
+## Citation
+
+The **Citation** describes pertinent information about your project such as:
+responsible parties, internal and ScienceBase identifiers, and any online
+resources that may relate to your item. The citation, much like a peer-reviewed
+publication citation, provides credit and services as a reference citation.
+Adding information in the citation will also improve users' ability to find your
+items.
+
+### Title [(Required)]`r required_style`
+
+The citation **Title** is automatically populated with the title of your record.
+
+### Alternate Title 
+
+You can add an **Alternate Title**, if desired. Generally these should be 
+shorter than the full Title.
+
+### Dates [(Required)]`r required_style`
+
+Enter **Dates** for *acquisition*, *creation*, *updated*, or *revision* from the 
+pick list and then enter the date, <u>at least one </u> of these date types is 
+required.
+
+### Responsible Parties [(Required)]`r required_style`
+
+**Responsible parties** must include the principal investigator of the project, 
+but may optionally include other responsible parties such as funders (your 
+region and program), partners, collaborators, and contributors. Collaborators 
+could be intellectual participants while contributors could be intellectual and 
+financial participants.
+
+::: callout-note
+To add contacts to a metadata record, you must first create/upload the contacts
+in mdEditor. See the [Contacts](../contact_records/contact_records_overview.qmd)
+section for more information.
+:::
+
+| Role                    | Contact          | Requirements               |
+|----------------------|----------------------|-------------------|
+| principalInvestigator   | Project Principal Investigator | [**Required**]`r required_style` |
+| coPrincipalInvestigator | Co-Investigators |[**Required, if applicable**]`r req_if_app_style` |
+: {.striped .hover .bordered .md .allborder}
+
+<br/>
+
+### Online Resource
+
+Enter the **Name** and **URL** for the project homepage website, if available.
+
+### Identifier [(Required)]`r required_style`
+
+You may enter as many **Identifiers** as desired. The identifier for the 
+repository is required here. If you have other internal IDs for projects, enter 
+them here. 
+<!-- 
+Other optional identifiers for projects include: [Archive](../archiving.qmd) Folder Name.
+-->
+
+::: {.callout-note title="Best Practice"}
+Create and use internal identifiers that are unique within your region or
+program for projects and their products. Example: GNLCC2010-11.
+:::
+
+::: callout-note
+If your item does not have a ScienceBase ID yet, ScienceBase will create one
+automatically upon publishing. If you imported your item from ScienceBase
+originally, then the SBID will already be included in Metadata/Metadata
+Identifier and you do not need to include it here. Note that if you edit an item
+that is already on ScienceBase without using its existing ID, a duplicate item
+will be created on ScienceBase. Consult the
+[Publish](../publishing/publishing_overview.qmd) section of this manual to learn
+more.
+:::
+
+![Example Citation in mdEditor](../../assets/example_citation.png)
+
+## Description
+
+### Abstract [(Required)]`r required_style`
+
+Enter an **Abstract** that succinctly describes the project's purpose and goals.
+Include key species or habitats as well.
+
+::: {.callout-tip icon=false}
+Write your project abstract in the present tense if the project is in
+progress and past tense if the project has been completed.
+:::
+
+### Short Abstract
+
+For the **Short Abstract** enter a short description, limited to 300 characters, 
+if desired. By default, mdEditor will fill the short abstract with the first 300 
+characters of the Abstract. Best practice is to write this abstract for public 
+outreach, such as use by Office of Communications.
+
+### Purpose
+
+The **Purpose** should be a short narrative about the issue or problem that the 
+resource is designed to address and anticipated results or benefits. 
+
+### Supplemental Information
+
+For the **Supplemental Information** enter comments, if desired.
+
+![Example Abstract entry in mdEditor](../../assets/example_abstract_entry.png)
+
+## Time Period 
+
+### Dates [(Required)]`r required_style`
+
+For each project, add a **Start Date** and **End Date**. If the project 
+spanned a single fiscal year, you can use the “Pick a Fiscal Year” drop-down to 
+autofill the date fields.
+
+::: callout-note
+This set of dates is distinct from the fiscal year of funding. Here you want to
+indicate the overall project start and end dates. In the Funding section you
+will specify the fiscal years that funds were allocated.
+:::
+
+![Example Project Start and End Dates entry in
+mdEditor](../../assets/example_time_period.png)
+
+<!-- # This was the original way this was 
+
+| Project Main Tab                                                                             | Requirements    |
+|------------------------------------------------------------|--------------------|
+| Basic Information: **Record ID**, **Title**, **Status**                                      | [**Required**]`r required_style` |
+| Default Locale: **Language**, **Character Set**, **Country**                                 | [**Required**]`r required_style` |
+| **Resource Type**                                                                            | [**Required**]`r required_style` |
+| **Point of Contact** (multiple)                                                              | [**Required**]`r required_style` |
+| Citation: **Title**, **Dates**, **Responsible Parties**, **Online Resource**, **Identifier** | [**Required**]`r required_style` |
+| Description: **Abstract**                                                                    | [**Required**]`r required_style` |
+| Time Period: **Start Date**, **End Date**                                                    | [**Required**]`r required_style` |
+: {.striped .hover .bordered .md .allborder}
+
+<br/>
+
+-->
