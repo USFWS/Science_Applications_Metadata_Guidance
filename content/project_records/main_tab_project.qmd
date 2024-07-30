@@ -72,7 +72,7 @@ enter a shorten project name.
 
 ![](../../assets/resource_types.png)
 
-## Point of Contacts [(Required)]`r required_style`
+## Points of Contacts [(Required)]`r required_style`
 
 Adding a **Point of Contact** gives users information on who to contact should
 they have a question regarding your project or product.
@@ -129,7 +129,7 @@ shorter than the full Title.
 ### Dates [(Required)]`r required_style`
 
 Enter **Dates** for *acquisition*, *creation*, *updated*, or *revision* from the 
-pick list and then enter the date, <u>at least one </u> of these date types is 
+pick list and then enter the date. <u>At least one</u> of these date types is 
 required.
 
 ### Responsible Parties [(Required)]`r required_style`

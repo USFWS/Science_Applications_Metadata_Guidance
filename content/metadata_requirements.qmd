@@ -28,24 +28,20 @@ Certain metadata fields are required for Project and Product metadata records.
 | Default Locale        | [**Required**](project_records/main_tab_project.qmd#default-locale-required)`r required_style` | [**Required**](product_records/main_tab_product.qmd#default-locale-required)`r required_style`  |
 | Resource Type         | [**Required**](project_records/main_tab_project.qmd#resource-types)`r required_style` | [**Required**](product_records/main_tab_product.qmd#resource-types)`r required_style`  |
 | Points of Contact     |                                                                                            |                                                                                        |
-|        Point of Contact       | [**Required**](project_records/main_tab_project.qmd#point-of-contacts)`r required_style` | [**Required**](product_records/main_tab_product.qmd#point-of-contacts)`r required_style`|
-|        Custodian              | [**Required**](project_records/main_tab_project.qmd#point-of-contacts)`r required_style` | [**Required**](product_records/main_tab_product.qmd#point-of-contacts)`r required_style`|
-|        Administrator          | [**Required**](project_records/main_tab_project.qmd#point-of-contacts)`r required_style`^\*^ |     |
-|        Administrative Region  | [**Required**](project_records/main_tab_project.qmd#point-of-contacts)`r required_style` | [**Required**](product_records/main_tab_product.qmd#point-of-contacts)`r required_style`|
-|        Principal Investigator | [**Required, if applicable**](project_records/main_tab_project.qmd#point-of-contacts)`r req_if_app_style`^\*^ | [**Required, if applicable**](product_records/main_tab_product.qmd#point-of-contacts)`r req_if_app_style`^\*^  |
+|        Point of Contact       | [**Required**](project_records/main_tab_project.qmd#points-of-contacts-required)`r required_style` | [**Required**](product_records/main_tab_product.qmd#point-of-contacts)`r required_style`|
+|        Custodian              | [**Required**](project_records/main_tab_project.qmd#points-of-contacts-required)`r required_style` | [**Required**](product_records/main_tab_product.qmd#point-of-contacts)`r required_style`|
+|        Administrator          | [**Required**](project_records/main_tab_project.qmd#points-of-contacts-required)`r required_style`^\*^ |     |
+|        Administrative Region  | [**Required**](project_records/main_tab_project.qmd#points-of-contacts-required)`r required_style` | [**Required**](product_records/main_tab_product.qmd#point-of-contacts)`r required_style`|
+|        Principal Investigator | [**Required, if applicable**](project_records/main_tab_project.qmd#points-of-contacts-required)`r req_if_app_style`^\*^ | [**Required, if applicable**](product_records/main_tab_product.qmd#point-of-contacts)`r req_if_app_style`^\*^  |
 |        Co-Principal Investigator | [If applicable]`r if_app_style`                         | [If applicable]`r if_app_style`  |
 | Citation                      |                                                                                            |                                                                                        |
-|        Title                  | [**Required**](project_records/main_tab_project.qmd#title)`r required_style`^\*^ | [**Required**](project_records/main_tab_project.qmd#title)`r required_style`^\*^|
-|        Acquisition Date       |                                                                            | [If applicable]`r if_app_style`  |
-|        Creation Date          |                                                                            | [If applicable]`r if_app_style`  |
-|        Date Updated           |                                                                            | [If applicable]`r if_app_style`  |
-|        Date Revised           |                                                                            | [If applicable]`r if_app_style`  |
-|        Date Published         |                                                                            | [If applicable]`r if_app_style`  |
-|        Principal Investigator | [**Required**](project_records/main_tab_project.qmd#responsible-parties)`r required_style`^\*^ | [**Required**](product_records/main_tab_product.qmd#responsible-parties)`r required_style`^\*^ |
-|        Online Resource Name   | [If applicable]`r if_app_style`                           | [If applicable]`r if_app_style`  |
+|        Title                  | [**Required**](project_records/main_tab_project.qmd#title-required-1)`r required_style`^\*^    | [**Required**](project_records/main_tab_project.qmd#title)`r required_style`^\*^|
+|        Dates (multiple)       | [**Required**](project_records/main_tab_project.qmd#dates-required)`r required_style`^\*^      | [If applicable]`r if_app_style`  |
+|        Responsible Parties    | [**Required**](project_records/main_tab_project.qmd#responsible-parties-required)`r required_style`^\*^ | [**Required**](product_records/main_tab_product.qmd#responsible-parties)`r required_style`^\*^ |
+|        Online Resource        | [If applicable](project_records/main_tab_project.qmd#online-resource)`r if_app_style`| [If applicable]`r if_app_style`  |
 |        Online Resource URL    | [If applicable]`r if_app_style`                           | [If applicable]`r if_app_style`  |
 |        URL Function           | [If applicable]`r if_app_style`                           | [If applicable]`r if_app_style`  |
-|        Metadata Identifier    | [**Required**](project_records/main_tab_project.qmd#responsible-parties)`r required_style` | [**Required**](product_records/main_tab_product.qmd#responsible-parties)`r required_style`   |
+|        Metadata Identifier    | [**Required**](project_records/main_tab_project.qmd#responsible-parties-required)`r required_style` | [**Required**](product_records/main_tab_product.qmd#responsible-parties)`r required_style`   |
 |        Identifier Namespace   | [**Required**](project_records/main_tab_project.qmd#responsible-parties)`r required_style` | [**Required**](product_records/main_tab_product.qmd#responsible-parties)`r required_style`   |
 |        DOI Identifier         |                                                                            | [If applicable]`r if_app_style`  |
 |        DOI Namespace          |                                                                            | [If applicable]`r if_app_style`  |

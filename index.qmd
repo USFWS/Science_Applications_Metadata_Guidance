@@ -63,7 +63,7 @@ internet. By doing so, you guarantee you are using the current version. This is
 a living document and will be updated as needed. The online version will 
 also have the best functionality and graphical display.
 
-This is a living document that will continue to be edited. Please refresh 
+This is a living document and will continue to be edited. Please refresh 
 this manual every time you open it to ensure you are viewing the most recent 
 version. **Last updated:** **`r todays_date`**. If you have questions or 
 concerns regarding this guidance, please contact the FWS SA National Data Steward
