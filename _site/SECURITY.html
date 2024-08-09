@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>USFWS Science Applications Metadata Guidance - Archiving</title>
+<title>USFWS Science Applications Metadata Guidance</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +23,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../favicon.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./favicon.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -83,43 +83,59 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#central-storage-of-mdeditor-files" id="toc-central-storage-of-mdeditor-files" class="nav-link active" data-scroll-target="#central-storage-of-mdeditor-files">Central storage of mdEditor Files</a></li>
-  <li><a href="#folder-structure" id="toc-folder-structure" class="nav-link" data-scroll-target="#folder-structure">Folder structure</a></li>
+  <li><a href="#security-policy" id="toc-security-policy" class="nav-link active" data-scroll-target="#security-policy">Security Policy</a>
+  <ul class="collapse">
+  <li><a href="#supported-versions" id="toc-supported-versions" class="nav-link" data-scroll-target="#supported-versions">Supported Versions</a></li>
+  <li><a href="#reporting-a-vulnerability" id="toc-reporting-a-vulnerability" class="nav-link" data-scroll-target="#reporting-a-vulnerability">Reporting a Vulnerability</a></li>
+  </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/usfws/sciapps_metadata_guidance/edit/main/content/archiving.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/usfws/sciapps_metadata_guidance/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/usfws/sciapps_metadata_guidance/edit/main/SECURITY.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/usfws/sciapps_metadata_guidance/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Archiving</h1>
-</div>
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<section id="central-storage-of-mdeditor-files" class="level3">
-<h3 class="anchored" data-anchor-id="central-storage-of-mdeditor-files">Central storage of mdEditor Files</h3>
-<p>All mdEditor files (NOT just the mdJSON files) need to be in a central location accessible to the DMWG and SA Headquarters as well as the respective regional personnel. These are needed to ensure future updates, corrections, or improvements can be made to any metadata record. During the 2017 Seattle workshop, the ASG proposes that everyone post their mdEditor files to the single ScienceBase folder.</p>
-<p>Link (you must be logged in to ScienceBase to access): <a href="https://www.sciencebase.gov/catalog/item/59bb08efe4b091459a563da2" class="uri">https://www.sciencebase.gov/catalog/item/59bb08efe4b091459a563da2</a></p>
+<section id="security-policy" class="level1">
+<h1>Security Policy</h1>
+<section id="supported-versions" class="level2">
+<h2 class="anchored" data-anchor-id="supported-versions">Supported Versions</h2>
+<p>Use this section to tell people about which versions of your project are currently being supported with security updates.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Version</th>
+<th>Supported</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>5.1.x</td>
+<td>:white_check_mark:</td>
+</tr>
+<tr class="even">
+<td>5.0.x</td>
+<td>:x:</td>
+</tr>
+<tr class="odd">
+<td>4.0.x</td>
+<td>:white_check_mark:</td>
+</tr>
+<tr class="even">
+<td>&lt; 4.0</td>
+<td>:x:</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="folder-structure" class="level3">
-<h3 class="anchored" data-anchor-id="folder-structure">Folder structure</h3>
-<p><em>In Development</em></p>
+<section id="reporting-a-vulnerability" class="level2">
+<h2 class="anchored" data-anchor-id="reporting-a-vulnerability">Reporting a Vulnerability</h2>
+<p>Use this section to tell people how to report a vulnerability.</p>
+<p>Tell them where to go, how often they can expect to get an update on a reported vulnerability, what to expect if the vulnerability is accepted or declined, etc.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -681,4 +697,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/usfws/sciapps_metadata_guidance/edit/main/content/archiving.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/usfws/sciapps_metadata_guidance/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/usfws/sciapps_metadata_guidance/edit/main/SECURITY.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/usfws/sciapps_metadata_guidance/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>

@@ -619,17 +619,19 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#funding-allocations" id="toc-funding-allocations" class="nav-link active" data-scroll-target="#funding-allocations">Funding Allocations</a>
+  <li><a href="#funding-tab" id="toc-funding-tab" class="nav-link active" data-scroll-target="#funding-tab">Funding Tab</a></li>
+  <li><a href="#funding-allocations" id="toc-funding-allocations" class="nav-link" data-scroll-target="#funding-allocations">Funding Allocations</a>
   <ul class="collapse">
   <li><a href="#required-fields" id="toc-required-fields" class="nav-link" data-scroll-target="#required-fields">Required Fields</a></li>
-  <li><a href="#award-id-required" id="toc-award-id-required" class="nav-link" data-scroll-target="#award-id-required">Award ID (<span style="color:#b50909;"><strong>Required</strong></span>)</a></li>
   <li><a href="#amount-required" id="toc-amount-required" class="nav-link" data-scroll-target="#amount-required">Amount (<span style="color:#b50909;"><strong>Required</strong></span>)</a></li>
+  <li><a href="#currency-required" id="toc-currency-required" class="nav-link" data-scroll-target="#currency-required">Currency (<span style="color:#b50909;"><strong>Required</strong></span>)</a></li>
+  <li><a href="#award-id-required" id="toc-award-id-required" class="nav-link" data-scroll-target="#award-id-required">Award ID (<span style="color:#b50909;"><strong>Required</strong></span>)</a></li>
   <li><a href="#source-required" id="toc-source-required" class="nav-link" data-scroll-target="#source-required">Source (<span style="color:#b50909;"><strong>Required</strong></span>)</a></li>
   <li><a href="#recipient-required" id="toc-recipient-required" class="nav-link" data-scroll-target="#recipient-required">Recipient (<span style="color:#b50909;"><strong>Required</strong></span>)</a></li>
   <li><a href="#other-contacts-required" id="toc-other-contacts-required" class="nav-link" data-scroll-target="#other-contacts-required">Other Contacts (<span style="color:#b50909;"><strong>Required</strong></span>)</a></li>
-  <li><a href="#marked-funding-best-practice" id="toc-marked-funding-best-practice" class="nav-link" data-scroll-target="#marked-funding-best-practice">Marked Funding (<span style="color:#757575;">Best Practice</span>)</a></li>
-  <li><a href="#fws-sub-activity-funding-codes-agreement-type-best-practice" id="toc-fws-sub-activity-funding-codes-agreement-type-best-practice" class="nav-link" data-scroll-target="#fws-sub-activity-funding-codes-agreement-type-best-practice">FWS Sub-Activity, Funding Codes, Agreement Type (<span style="color:#757575;">Best Practice</span>)</a></li>
-  <li><a href="#matching-and-in-kind-funds-best-practice" id="toc-matching-and-in-kind-funds-best-practice" class="nav-link" data-scroll-target="#matching-and-in-kind-funds-best-practice">Matching and In-kind Funds (<span style="color:#757575;">Best Practice</span>)</a></li>
+  <li><a href="#marked-funding-best-practice" id="toc-marked-funding-best-practice" class="nav-link" data-scroll-target="#marked-funding-best-practice">Marked Funding (<span style="color:#947100;">Best Practice</span>)</a></li>
+  <li><a href="#description-best-practice" id="toc-description-best-practice" class="nav-link" data-scroll-target="#description-best-practice">Description (<span style="color:#947100;">Best Practice</span>)</a></li>
+  <li><a href="#matching-and-in-kind-funds-if-applicable" id="toc-matching-and-in-kind-funds-if-applicable" class="nav-link" data-scroll-target="#matching-and-in-kind-funds-if-applicable">Matching and In-kind Funds (<span style="color:#947100;">If applicable</span>)</a></li>
   </ul></li>
   <li><a href="#time-period" id="toc-time-period" class="nav-link" data-scroll-target="#time-period">Time Period</a>
   <ul class="collapse">
@@ -662,57 +664,64 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>Tracking funding in the metadata allows for identification of funding sources and recipients, enables comparisons, and aggregations across all regions.</p>
-<table class="table-striped table-hover table-bordered md allborder table">
-<colgroup>
-<col style="width: 74%">
-<col style="width: 25%">
-</colgroup>
+<section id="funding-tab" class="level3">
+<h3 class="anchored" data-anchor-id="funding-tab">Funding Tab</h3>
+<table class="table-striped table-hover table-bordered table-sm allborder small table">
 <thead>
 <tr class="header">
-<th style="text-align: left;"><strong>Quick Reference: Project Funding Tab</strong></th>
-<th style="text-align: left;">Requirements</th>
+<th style="text-align: left;">Metadata Field</th>
+<th style="text-align: left;">Project Records</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><strong>Award ID</strong></td>
-<td style="text-align: left;"><span style="color:#b50909;"><strong>Required</strong></span></td>
+<td style="text-align: left;">Allocation</td>
+<td style="text-align: left;"></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Amount</strong></td>
-<td style="text-align: left;"><span style="color:#b50909;"><strong>Required</strong></span></td>
+<td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Amount</td>
+<td style="text-align: left;"><a href="#amount-required" style="color:#b50909;"><strong>Required</strong></a><sup>*</sup></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>Source</strong></td>
-<td style="text-align: left;"><span style="color:#b50909;"><strong>Required</strong></span></td>
+<td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Currency</td>
+<td style="text-align: left;"><a href="#currency-required" style="color:#b50909;"><strong>Required</strong></a><sup>*</sup></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Funding Recipient Organization</strong></td>
-<td style="text-align: left;"><span style="color:#b50909;"><strong>Required</strong></span></td>
+<td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Award ID</td>
+<td style="text-align: left;"><a href="#award-id-required" style="color:#b50909;"><strong>Required</strong></a><sup>*</sup></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>Funding Administrator</strong></td>
-<td style="text-align: left;"><span style="color:#b50909;"><strong>Required</strong></span></td>
+<td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Source</td>
+<td style="text-align: left;"><a href="#source-required" style="color:#b50909;"><strong>Required</strong></a><sup>*</sup></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>FWS sub-activity and funding codes</strong></td>
-<td style="text-align: left;"><span style="color:#757575;">Best Practice</span></td>
+<td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Recipient</td>
+<td style="text-align: left;"><a href="#recipient-required" style="color:#b50909;"><strong>Required</strong></a></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>Funding agreement type</strong></td>
-<td style="text-align: left;"><span style="color:#757575;">Best Practice</span></td>
+<td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Other Contacts (multiple)</td>
+<td style="text-align: left;"><a href="#recipient-required" style="color:#b50909;"><strong>Required</strong></a></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Matching Funds</strong>, including above</td>
-<td style="text-align: left;"><span style="color:#757575;">Best Practice</span></td>
+<td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Matching and In-kind Funds</td>
+<td style="text-align: left;"><a href="#matching-and-in-kind-funds-if-applicable" style="color:#947100;">If Applicable</a></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Time Period: <strong>Dates</strong></td>
-<td style="text-align: left;"><span style="color:#b50909;"><strong>Required</strong></span></td>
+<td style="text-align: left;">Time Period</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fiscal Year</td>
+<td style="text-align: left;"><a href="#dates-required" style="color:#b50909;"><strong>Required</strong></a><sup>*</sup></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Description (multiple)</td>
+<td style="text-align: left;"><a href="#description" style="color:#00687d;">Best Practice</a></td>
 </tr>
 </tbody>
 </table>
 <p><br></p>
+</section>
 <section id="funding-allocations" class="level2">
 <h2 class="anchored" data-anchor-id="funding-allocations">Funding Allocations</h2>
 <p>Allocations describe where project funding came from, how much, where and when it was distributed. Science Catalog users can search by specific fiscal year, funders, or recipients.</p>
@@ -734,14 +743,18 @@ Note
 <h3 class="anchored" data-anchor-id="required-fields">Required Fields</h3>
 <p>For each funding allocation, the following fields should be filled out.</p>
 </section>
+<section id="amount-required" class="level3">
+<h3 class="anchored" data-anchor-id="amount-required">Amount (<span style="color:#b50909;"><strong>Required</strong></span>)</h3>
+<p>Enter the amount of funding.</p>
+</section>
+<section id="currency-required" class="level3">
+<h3 class="anchored" data-anchor-id="currency-required">Currency (<span style="color:#b50909;"><strong>Required</strong></span>)</h3>
+<p>Be sure U.S. Dollars is selected (i.e., Unites States of America, the–US Dollar; this is third from the bottom of USD options in mdEditor).</p>
+</section>
 <section id="award-id-required" class="level3">
 <h3 class="anchored" data-anchor-id="award-id-required">Award ID (<span style="color:#b50909;"><strong>Required</strong></span>)</h3>
 <p>The Award ID numbers are internal codes that connect the distribution forms to the project metadata. Award IDs include grant or cooperative agreement numbers, contract numbers, or inter-agency agreement numbers. Inclusion of Award IDs provides accountability and allows tracking and auditing between financial systems and the Science Catalog.</p>
 <p>If no Award ID exists, then the project is likely an internal effort. Enter ’<em>None</em>” in the Award ID field. This allows for tracking and search of internally funded projects.</p>
-</section>
-<section id="amount-required" class="level3">
-<h3 class="anchored" data-anchor-id="amount-required">Amount (<span style="color:#b50909;"><strong>Required</strong></span>)</h3>
-<p>Enter the amount of funding. Be sure U.S. Dollars is selected (ie. Unites States of America, the–US Dollar; this is third from the bottom of USD options in mdEditor).</p>
 </section>
 <section id="source-required" class="level3">
 <h3 class="anchored" data-anchor-id="source-required">Source (<span style="color:#b50909;"><strong>Required</strong></span>)</h3>
@@ -783,7 +796,7 @@ Note
 </div>
 </section>
 <section id="marked-funding-best-practice" class="level3">
-<h3 class="anchored" data-anchor-id="marked-funding-best-practice">Marked Funding (<span style="color:#757575;">Best Practice</span>)</h3>
+<h3 class="anchored" data-anchor-id="marked-funding-best-practice">Marked Funding (<span style="color:#947100;">Best Practice</span>)</h3>
 <p>In some cases, funds are marked for specific activities and include reporting requirements that accompany the funding allocations. For example, EPA allocates Great Lakes Restoration Initiative (GLRI) funds on behalf of Congress to FWS, among others. FWS then distributes the funds across programs for use. The Gulf Coast Restore funds are a similar case. This funding flow can be tracked and aggregated with the Funding Other Contacts. Add the Name of the funding source as an organization contact and add the funding source as the “<em>funder</em>” in Funding Other Contacts.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -798,9 +811,10 @@ Note
 </figure>
 </div>
 </section>
-<section id="fws-sub-activity-funding-codes-agreement-type-best-practice" class="level3">
-<h3 class="anchored" data-anchor-id="fws-sub-activity-funding-codes-agreement-type-best-practice">FWS Sub-Activity, Funding Codes, Agreement Type (<span style="color:#757575;">Best Practice</span>)</h3>
-<p>In order to better integrate budgeting records and align with activity tracking priorities, add the FWS sub-activity code and funding code in the Allocation comments. Also add the funding For example, the text entry may look like this: FWS sub-activity 1420, fundcode 190, contract. If funds are provided from multiple sub-activities, please add this in the description (i.e.&nbsp;FWS sub-activity 1430, fundcode 170, $30,000: sub-activity 1420, fundcode 170, $10,000). At some point in the future, mdEditor may include additional fields for these values.</p>
+<section id="description-best-practice" class="level3">
+<h3 class="anchored" data-anchor-id="description-best-practice">Description (<span style="color:#947100;">Best Practice</span>)</h3>
+<p>In order to better integrate budgeting records and align with activity tracking priorities, add the <strong><em>FWS Sub-Activity</em></strong>, <strong><em>Funding Codes</em></strong>, and <strong><em>Agreement Type</em></strong> to the Description.</p>
+<p>For example, the text entry may look like this: FWS sub-activity 1420, fundcode 190, contract. If funds are provided from multiple sub-activities, please add this in the description (i.e.&nbsp;FWS sub-activity 1430, fundcode 170, $30,000: sub-activity 1420, fundcode 170, $10,000). At some point in the future, mdEditor may include additional fields for these values.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../../assets/example_budgeting_infomation.png" class="img-fluid figure-img"></p>
@@ -808,8 +822,8 @@ Note
 </figure>
 </div>
 </section>
-<section id="matching-and-in-kind-funds-best-practice" class="level3">
-<h3 class="anchored" data-anchor-id="matching-and-in-kind-funds-best-practice">Matching and In-kind Funds (<span style="color:#757575;">Best Practice</span>)</h3>
+<section id="matching-and-in-kind-funds-if-applicable" class="level3">
+<h3 class="anchored" data-anchor-id="matching-and-in-kind-funds-if-applicable">Matching and In-kind Funds (<span style="color:#947100;">If applicable</span>)</h3>
 <p>Project funds or in-kind support that were supplied by a partner (i.e., not specifically allocated to SA) should be included as an allocation as described above, but with the matching fund box checked. Each matching fund provider needs to be included as a separate allocation.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">

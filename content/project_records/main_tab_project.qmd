@@ -11,43 +11,68 @@ editor:
 # https://designsystem.digital.gov/design-tokens/color/state-tokens/
 # This allows the colors to be coded as a variable and, thus, easily changed.
 
-required_color <- "#b50909"
-required_if_applicable_color <- "#936f38"
-if_applicable_color <- "#757575"
-required_style <- paste0('{style="color:', required_color, ';"}')
-req_if_app_style <- paste0('{style="color:', required_if_applicable_color,';"}')
-if_app_style <- paste0('{style="color:', if_applicable_color, ';"}')
+required_color <- "#b50909"        #'red-60v'
+if_applicable_color <- "#947100"   # 'yellow-50v'
+best_practice_color <- "#00687d"   # 'cyan-60v'
+other_color <- "#00687d"           # 'gray-cool-70'
+req_style <- paste0('{style="color:', required_color, ';"}')
+if_style <- paste0('{style="color:', if_applicable_color,';"}')
+best_style <- paste0('{style="color:', best_practice_color, ';"}')
+other_style <- paste0('{style="color:', best_practice_color, ';"}')
 ```
 
 The **Main** tab allows for the creation and/or editing of primary metadata.
 
-| Project Main Tab                                                                             | Requirements    |
-|------------------------------------------------------------|--------------------|
-| Basic Information: **Record ID**, **Title**, **Status**                                      | [**Required**]`r required_style` |
-| Default Locale: **Language**, **Character Set**, **Country**                                 | [**Required**]`r required_style` |
-| **Resource Type**                                                                            | [**Required**]`r required_style` |
-| **Point of Contact** (multiple)                                                              | [**Required**]`r required_style` |
-| Citation: **Title**, **Dates**, **Responsible Parties**, **Online Resource**, **Identifier** | [**Required**]`r required_style` |
-| Description: **Abstract**                                                                    | [**Required**]`r required_style` |
-| Time Period: **Start Date**, **End Date**                                                    | [**Required**]`r required_style` |
-: {.striped .hover .bordered .md .allborder}
+### Main Tab    
+
+| Metadata Field                | Project Records  |
+|:------------------------------| :-------------|
+| Basic Information     | | 
+|        Title          | [**Required**](#title-required)`r req_style`^\*^  |                                                                                                               
+|        Status         | [**Required**](#status-required)`r req_style`^\*^ |                                                                                                               
+| Default Locale        | [**Required**](#default-locale-required)`r req_style` |
+| Resource Type         | [**Required**](#resource-types)`r req_style` |
+| Points of Contact     | |
+|        Point of Contact       | [**Required**](#points-of-contacts-required)`r req_style` |
+|        Custodian              | [**Required**](#points-of-contacts-required)`r req_style` |               
+|        Administrator          | [**Required**](#points-of-contacts-required)`r req_style`^\*^ |     
+|        Administrative Region  | [**Required**](#points-of-contacts-required)`r req_style` |               
+|        Principal Investigator | [If Applicable](#points-of-contacts-required)`r if_style`^\*^ |
+|        Co-Principal Investigator | [If Applicable](#points-of-contacts-if-applicable)`r if_style`|                                                                                         
+| Citation                      | |
+|        Title                  | [**Required**](#title-required-1)`r req_style`^\*^ |                                                                                                       
+|        Dates (multiple)       | [**Required**](#dates-required)`r req_style`^\*^   |                                                                                                       
+|        Responsible Parties (multiple)  | [**Required**](#responsible-parties-required)`r req_style`^\*^ |                                                                                  
+|        Online Resource        | |
+|               Name            | [If Applicable](#online-resource)`r if_style`|                                                                                                             
+|               URL             | [If Applicable](#online-resource)`r if_style`|                                                                                                             
+|               Function        | [If Applicable](#online-resource)`r if_style`|                                                                                                             
+|        Identifier             | |
+|               Identifier      | [**Required**](#metadata-identifier-required)`r req_style` |                                                                                                 
+|               Namespace       | [**Required**](#metadata-namespace-required)`r req_style` |                                                                                                    
+| Description                   | |
+|        Abstract               | [**Required**](#abstract)`r req_style`^\*^     |                                                                                                           
+| Time Period                   | |
+|        Start Date             | [**Required**](#time-period)`r req_style`^\*^  |                                                                                                           
+|        End Date               | [**Required**](#time-period)`r req_style`^\*^  |                                                                                                           
+: {.striped .hover .bordered .sm .allborder} 
 
 <br/>
 
 ## Basic Information
 
-### Record ID [(Required)]`r required_style`
+### Record ID [(Auto-generated)]`r other_style`
 
 The **Record ID** will be auto-generated. It can be edited but it should only be
 edited if absolutely necessary (and ideally edited as soon as the record is
 created in mdEditor).
 
-### Title [(Required)]`r required_style`
+### Title [(Required)]`r req_style`
 
 Enter a concise, yet informative **Title**. Good titles, when they appear in a
 search, will be understood and traceable.
 
-### Status [(Required)]`r required_style`
+### Status [(Required)]`r req_style`
 
 The **Status** drop-down menu allows you to select the status of your project.
 Choose a status from <u>only these four</u> options: ***accepted***, 
@@ -55,7 +80,7 @@ Choose a status from <u>only these four</u> options: ***accepted***,
 
 ![](../../assets/basic_information.png)
 
-## Default Locale [(Required)]`r required_style`
+## Default Locale [(Required)]`r req_style`
 
 **Default Locale** allows for the selection of **Language**, **Character Set**,
 and **Country**. English, UTF-8, and USA will be selected by default, but you
@@ -63,7 +88,7 @@ may change them if necessary. See [Settings](../settings.qmd) for instruction.
 
 ![](../../assets/default_locale.png)
 
-## Resource Types [(Required)]`r required_style`
+## Resource Types [(Required)]`r req_style`
 
 For projects, the **Resource Type** should be automatically filled in with the
 resource type you selected when you created your record. This should be
@@ -72,7 +97,7 @@ enter a shorten project name.
 
 ![](../../assets/resource_types.png)
 
-## Points of Contacts [(Required)]`r required_style`
+## Points of Contacts [(Required)]`r req_style`
 
 Adding a **Point of Contact** gives users information on who to contact should
 they have a question regarding your project or product.
@@ -86,14 +111,14 @@ information.
 
 | Role                  | Contact                                          | Requirements                   |
 |---------------------|----------------------------------------|---------------------|
-| pointOfContact        | FWS Science Applications National Data Steward   | [**Required**]`r required_style`                |
-| pointOfContact        | Data Steward                                     | [**Required**]`r required_style`                |
-| principalInvestigator | Project Principal Investigator and/or Producer   | [**Required, if applicable**]`r req_if_app_style` |
-| custodian             | Data Custodian                                   | [**Required, if applicable**]`r req_if_app_style` |
-| owner                 | Data Trustee                                     | [**Required**]`r required_style`                |
-| administrator         | Project Officer, if not the Steward              | [**Required**]`r required_style`                |
-| administrator         | FWS Region (legacy and DOI Unified), FWS Program | [**Required**]`r required_style`                |
-| collaborator          | Partnership Organizations and/or Programs        | [**Required, if applicable**]`r req_if_app_style` |
+| pointOfContact        | FWS Science Applications National Data Steward   | [**Required**]`r req_style`                |
+| pointOfContact        | Data Steward                                     | [**Required**]`r req_style`                |
+| principalInvestigator | Project Principal Investigator and/or Producer   | [**Required, if applicable**]`r if_style` |
+| custodian             | Data Custodian                                   | [**Required, if applicable**]`r if_style` |
+| owner                 | Data Trustee                                     | [**Required**]`r req_style`                |
+| administrator         | Project Officer, if not the Steward              | [**Required**]`r req_style`                |
+| administrator         | FWS Region (legacy and DOI Unified), FWS Program | [**Required**]`r req_style`                |
+| collaborator          | Partnership Organizations and/or Programs        | [**Required, if applicable**]`r if_style` |
 : {.striped .hover .bordered .md .allborder}
 
 <br/>
@@ -117,22 +142,23 @@ publication citation, provides credit and services as a reference citation.
 Adding information in the citation will also improve users' ability to find your
 items.
 
-### Title [(Required)]`r required_style`
+### Title [(Required)]`r req_style`
 
-The citation **Title** is automatically populated with the title of your record.
+The citation **Title** is automatically populated with the Basis Information
+section's Title.
 
-### Alternate Title 
+### Alternate Title [(If desired)]`r best_style`
 
 You can add an **Alternate Title**, if desired. Generally these should be 
 shorter than the full Title.
 
-### Dates [(Required)]`r required_style`
+### Dates [(Required)]`r req_style`
 
 Enter **Dates** for *acquisition*, *creation*, *updated*, or *revision* from the 
 pick list and then enter the date. <u>At least one</u> of these date types is 
 required.
 
-### Responsible Parties [(Required)]`r required_style`
+### Responsible Parties [(Required)]`r req_style`
 
 **Responsible parties** must include the principal investigator of the project, 
 but may optionally include other responsible parties such as funders (your 
@@ -148,17 +174,18 @@ section for more information.
 
 | Role                    | Contact          | Requirements               |
 |----------------------|----------------------|-------------------|
-| principalInvestigator   | Project Principal Investigator       | [**Required**]`r required_style`               |
-| coPrincipalInvestigator | Co-Investigators |[**Required, if applicable**]`r req_if_app_style` |
+| principalInvestigator   | Project Principal Investigator       | [**Required**]`r req_style`               |
+| coPrincipalInvestigator | Co-Investigators |[**Required, if applicable**]`r if_style` |
 : {.striped .hover .bordered .md .allborder}
 
 <br/>
 
-### Online Resource
+### Online Resource [(If applicable)]`r if_style`
 
-Enter the **Name** and **URL** for the project homepage website, if available.
+Enter the **Name**, **URL**, and **Function** for the project homepage website, 
+if available.
 
-### Identifier [(Required)]`r required_style`
+### Identifier [(Required)]`r req_style`
 
 You may enter as many **Identifiers** as desired. The identifier for the 
 repository is required here. If you have other internal IDs for projects, enter 
@@ -185,7 +212,7 @@ more.
 
 ## Description
 
-### Abstract [(Required)]`r required_style`
+### Abstract [(Required)]`r req_style`
 
 Enter an **Abstract** that succinctly describes the project's purpose and goals.
 Include key species or habitats as well.
@@ -215,7 +242,7 @@ For the **Supplemental Information** enter comments, if desired.
 
 ## Time Period 
 
-### Dates [(Required)]`r required_style`
+### Dates [(Required)]`r req_style`
 
 For each project, add a **Start Date** and **End Date**. If the project 
 spanned a single fiscal year, you can use the “Pick a Fiscal Year” drop-down to 

@@ -7,65 +7,72 @@ title: "Metadata Requirements"
 # https://designsystem.digital.gov/design-tokens/color/state-tokens/
 # This allows the colors to be coded as a variable and, thus, easily changed.
 
-required_color <- "#b50909"
-required_if_applicable_color <- "#936f38"
-if_applicable_color <- "#757575"
-required_style <- paste0('{style="color:', required_color, ';"}')
-req_if_app_style <- paste0('{style="color:', required_if_applicable_color,';"}')
-if_app_style <- paste0('{style="color:', if_applicable_color, ';"}')
+required_color <- "#b50909"        #'red-60v'
+if_applicable_color <- "#947100"   # 'yellow-50v'
+best_practice_color <- "#00687d"   # 'cyan-60v'
+other_color <- "#00687d"           # 'gray-cool-70'
+req_style <- paste0('{style="color:', required_color, ';"}')
+if_style <- paste0('{style="color:', if_applicable_color,';"}')
+best_style <- paste0('{style="color:', best_practice_color, ';"}')
+other_style <- paste0('{style="color:', best_practice_color, ';"}')
 ```
 
 ## Projects and Products
-Certain metadata fields are required for Project and Product metadata records. 
+Metadata fields have different requirements for Project and Product records. 
+
+       [**Required**]`r req_style`: required for all records of that type.   
+       [If Applicable]`r if_style`: required if the information is applicable and available. 
+       [Best Practice]`r best_style`: recommended, but not required. 
 
 ### Main Tab    
 
 | Metadata Field                | Project Records   | Product Records   |
 |:------------------------------|:-------------|:-------------|
-| Record ID             | [**Required**](project_records/main_tab_project.qmd#record-id-required)`r required_style`  | [**Required**](product_records/main_tab_product.qmd#record-id-required)`r required_style`       |
-| Title                 | [**Required**](project_records/main_tab_project.qmd#title-required)`r required_style`^\*^  | [**Required**](product_records/main_tab_product.qmd#title)`r required_style`^\*^       |
-| Status                | [**Required**](project_records/main_tab_project.qmd#status-required)`r required_style`^\*^ | [**Required**](product_records/main_tab_product.qmd#status)`r required_style`^\*^      |
-| Default Locale        | [**Required**](project_records/main_tab_project.qmd#default-locale-required)`r required_style` | [**Required**](product_records/main_tab_product.qmd#default-locale-required)`r required_style`  |
-| Resource Type         | [**Required**](project_records/main_tab_project.qmd#resource-types)`r required_style` | [**Required**](product_records/main_tab_product.qmd#resource-types)`r required_style`  |
-| Points of Contact     |                                                                                            |                                                                                        |
-|        Point of Contact       | [**Required**](project_records/main_tab_project.qmd#points-of-contacts-required)`r required_style` | [**Required**](product_records/main_tab_product.qmd#point-of-contacts)`r required_style`|
-|        Custodian              | [**Required**](project_records/main_tab_project.qmd#points-of-contacts-required)`r required_style` | [**Required**](product_records/main_tab_product.qmd#point-of-contacts)`r required_style`|
-|        Administrator          | [**Required**](project_records/main_tab_project.qmd#points-of-contacts-required)`r required_style`^\*^ |     |
-|        Administrative Region  | [**Required**](project_records/main_tab_project.qmd#points-of-contacts-required)`r required_style` | [**Required**](product_records/main_tab_product.qmd#point-of-contacts)`r required_style`|
-|        Principal Investigator | [**Required, if applicable**](project_records/main_tab_project.qmd#points-of-contacts-required)`r req_if_app_style`^\*^ | [**Required, if applicable**](product_records/main_tab_product.qmd#point-of-contacts)`r req_if_app_style`^\*^  |
-|        Co-Principal Investigator | [If applicable]`r if_app_style`                         | [If applicable]`r if_app_style`  |
-| Citation                      |                                                                                            |                                                                                        |
-|        Title                  | [**Required**](project_records/main_tab_project.qmd#title-required-1)`r required_style`^\*^    | [**Required**](project_records/main_tab_project.qmd#title)`r required_style`^\*^|
-|        Dates (multiple)       | [**Required**](project_records/main_tab_project.qmd#dates-required)`r required_style`^\*^      | [If applicable]`r if_app_style`  |
-|        Responsible Parties    | [**Required**](project_records/main_tab_project.qmd#responsible-parties-required)`r required_style`^\*^ | [**Required**](product_records/main_tab_product.qmd#responsible-parties)`r required_style`^\*^ |
-|        Online Resource        | [If applicable](project_records/main_tab_project.qmd#online-resource)`r if_app_style`| [If applicable]`r if_app_style`  |
-|        Online Resource URL    | [If applicable]`r if_app_style`                           | [If applicable]`r if_app_style`  |
-|        URL Function           | [If applicable]`r if_app_style`                           | [If applicable]`r if_app_style`  |
-|        Metadata Identifier    | [**Required**](project_records/main_tab_project.qmd#responsible-parties-required)`r required_style` | [**Required**](product_records/main_tab_product.qmd#responsible-parties)`r required_style`   |
-|        Identifier Namespace   | [**Required**](project_records/main_tab_project.qmd#responsible-parties)`r required_style` | [**Required**](product_records/main_tab_product.qmd#responsible-parties)`r required_style`   |
-|        DOI Identifier         |                                                                            | [If applicable]`r if_app_style`  |
-|        DOI Namespace          |                                                                            | [If applicable]`r if_app_style`  |
-| Abstract                      | [**Required**](project_records/main_tab_project.qmd#abstract)`r required_style`^\*^     | [**Required**](product_records/main_tab_product.qmd#abstract)`r required_style`^\*^      |
-| Start Date                    | [**Required**](project_records/main_tab_project.qmd#time-period)`r required_style`^\*^  | [If applicable]`r if_app_style`  |
-| End Date                      | [**Required**](project_records/main_tab_project.qmd#time-period)`r required_style`^\*^  | [**Required**](product_records/main_tab_product.qmd#time-period)`r required_style`^\*^   |
-: {.striped .hover .bordered .md .allborder} 
+| Basic Information     | | |
+|        Title          | [**Required**](project_records/main_tab_project.qmd#title-required)`r req_style`^\*^  |                                                                                                                                          [**Required**](product_records/main_tab_product.qmd#title)`r req_style`^\*^           |
+|        Status         | [**Required**](project_records/main_tab_project.qmd#status-required)`r req_style`^\*^ |                                                                                                                                          [**Required**](product_records/main_tab_product.qmd#status)`r req_style`^\*^      |
+| Default Locale        | [**Required**](project_records/main_tab_project.qmd#default-locale-required)`r req_style` |                                                                                                                                      [**Required**](product_records/main_tab_product.qmd#default-locale-required)`r req_style`  |
+| Resource Type         | [**Required**](project_records/main_tab_project.qmd#resource-types)`r req_style` |                                                                                                                                               [**Required**](product_records/main_tab_product.qmd#resource-types)`r req_style`  |
+| Points of Contact     | | |
+|        Point of Contact       | [**Required**](project_records/main_tab_project.qmd#points-of-contacts-required)`r req_style` |                                                                                                                                  [**Required**](product_records/main_tab_product.qmd#point-of-contacts)`r req_style`|
+|        Custodian              | [**Required**](project_records/main_tab_project.qmd#points-of-contacts-required)`r req_style` |                                                                                                                                  [**Required**](product_records/main_tab_product.qmd#point-of-contacts)`r req_style`|
+|        Administrator          | [**Required**](project_records/main_tab_project.qmd#points-of-contacts-required)`r req_style`^\*^ |     |
+|        Administrative Region  | [**Required**](project_records/main_tab_project.qmd#points-of-contacts-required)`r req_style` |                                                                                                                                  [**Required**](product_records/main_tab_product.qmd#point-of-contacts)`r req_style`|
+|        Principal Investigator | [If Applicable](project_records/main_tab_project.qmd#points-of-contacts-required)`r if_style`^\*^ |                                                                                                                              [If Applicable](product_records/main_tab_product.qmd#point-of-contacts)`r if_style`^\*^  |
+|        Co-Principal Investigator | [If Applicable](project_records/main_tab_project.qmd#points-of-contacts-if-applicable)`r if_style`|                                                                                                                              [If Applicable](product_records/main_tab_product.qmd#point-of-contacts-if-applicable)`r if_style`  |
+| Citation                      | | |
+|        Title                  | [**Required**](project_records/main_tab_project.qmd#title-required-1)`r req_style`^\*^ |                                                                                                                                         [**Required**](product_records/main_tab_product.qmd#title)`r req_style`^\*^|
+|        Dates (multiple)       | [**Required**](project_records/main_tab_project.qmd#dates-required)`r req_style`^\*^   |                                                                                                                                         [If Applicable](product_records/main_tab_product.qmd#dates-if-applicable)`r if_style`  |
+|        Responsible Parties (multiple)  | [**Required**](project_records/main_tab_project.qmd#responsible-parties-required)`r req_style`^\*^ |                                                                                                                             [**Required**](product_records/main_tab_product.qmd#responsible-parties-required)`r req_style`^\*^ |
+|        Online Resource        | | |
+|               Name            | [If Applicable](project_records/main_tab_project.qmd#online-resource)`r if_style`|                                                                                                                                               [If Applicable](product_records/main_tab_product.qmd#online-resource)`r if_style`  |
+|               URL             | [If Applicable](project_records/main_tab_project.qmd#online-resource)`r if_style`|                                                                                                                                               [If Applicable](product_records/main_tab_product.qmd#online-resource)`r if_style`  |
+|               Function        | [If Applicable](project_records/main_tab_project.qmd#online-resource)`r if_style`|                                                                                                                                               [If Applicable](product_records/main_tab_product.qmd#online-resource)`r if_style`  |
+|        Identifier             | | |
+|               Identifier    | [**Required**](project_records/main_tab_project.qmd#metadata-identifier-required)`r req_style` |                                                                                                                                 [**Required**](product_records/main_tab_product.qmd#metadata-identifier-required)`r req_style`   |
+|               Namespace   | [**Required**](project_records/main_tab_project.qmd#metadata-namespace-required)`r req_style` |                                                                                                                                  [**Required**](product_records/main_tab_product.qmd#metadata-namespace-required)`r req_style`   |
+| Description                   | | |
+|        Abstract               | [**Required**](project_records/main_tab_project.qmd#abstract)`r req_style`^\*^     |                                                                                                                                             [**Required**](product_records/main_tab_product.qmd#abstract)`r req_style`^\*^      |
+| Time Period                   | | |
+|        Start Date             | [**Required**](project_records/main_tab_project.qmd#time-period)`r req_style`^\*^  |                                                                                                                                             [If Applicable](product_records/main_tab_product.qmd#time-period)`r if_style`  |
+|        End Date               | [**Required**](project_records/main_tab_project.qmd#time-period)`r req_style`^\*^  |                                                                                                                                             [**Required**](product_records/main_tab_product.qmd#time-period)`r req_style`^\*^   |
+: {.striped .hover .bordered .sm .allborder} 
 
 ^\*^Also required under the ScienceBase 30-day Policy    
 
 ### Metadata Tab    
 | Metadata Field                | Project Records   | Product Records   |
 |:------------------------------|:-------------|:-------------|
-| Status    |  [**Required**](project_records/metadata_tab_project.qmd#metadata-status-required)`r required_style`  |  [**Required**](product_records/metadata_tab_product.qmd#metadata-status-required)`r required_style` | 
-| Dates                      |   [**Required**](project_records/metadata_tab_project.qmd#metadata-dates-required)`r required_style`  |                                                                      |
-| Metadata Contacts          |                                                                                                |                                                                      |
-|        Author              | [**Required**](project_records/metadata_tab_project.qmd#metadata-contacts)`r required_style`   | [**Required**](product_records/metadata_tab_product.qmd#metadata-contacts)`r required_style`|
-|        Publisher           | [**Required**](project_records/metadata_tab_project.qmd#metadata-contacts)`r required_style`   | [**Required**](product_records/metadata_tab_product.qmd#metadata-contacts)`r required_style`|
-|        Point of Contact    | [**Required**](project_records/metadata_tab_project.qmd#metadata-contacts)`r required_style`   | [**Required**](product_records/metadata_tab_product.qmd#metadata-contacts)`r required_style`|
-| Metadata Identifier        | [**Required**](project_records/metadata_tab_project.qmd#metadata-identifier)`r required_style` | [**Required**](product_records/metadata_tab_product.qmd#metadata-identifier)`r required_style`|
-| Parent Metadata            | [**Required**](project_records/metadata_tab_project.qmd#parent-metadata)`r required_style`     | [**Required**](product_records/metadata_tab_product.qmd#parent-metadata)`r required_style`|
-| Metadata Repositories      | [**Required**](project_records/metadata_tab_project.qmd#metadata-repositories)`r required_style` | [**Required**](project_records/metadata_tab_project.qmd#metadata-repositories)`r required_style`|
-| Maintenance Frequency                  |                                                                            | [If applicable]`r if_app_style` |
-: {.striped .hover .bordered .md .allborder}   
+| Metadata Status   | [**Required**](project_records/metadata_tab_project.qmd#metadata-status-required)`r req_style`  |  [**Required**](product_records/metadata_tab_product.qmd#metadata-status-required)`r req_style` | 
+| Dates             | [**Required**](project_records/metadata_tab_project.qmd#metadata-dates-required)`r req_style`  | |
+| Metadata Contacts |        |                                                                      |
+|        Author     | [**Required**](project_records/metadata_tab_project.qmd#metadata-contacts)`r req_style`   | [**Required**](product_records/metadata_tab_product.qmd#metadata-contacts)`r req_style`|
+|        Publisher  | [**Required**](project_records/metadata_tab_project.qmd#metadata-contacts)`r req_style`   | [**Required**](product_records/metadata_tab_product.qmd#metadata-contacts)`r req_style`|
+|        Point of Contact | [**Required**](project_records/metadata_tab_project.qmd#metadata-contacts)`r req_style`   | [**Required**](product_records/metadata_tab_product.qmd#metadata-contacts)`r req_style`|
+| Metadata Identifier     | [**Required**](project_records/metadata_tab_project.qmd#metadata-identifier)`r req_style` | [**Required**](product_records/metadata_tab_product.qmd#metadata-identifier)`r req_style`|
+| Parent Metadata         | [**Required**](project_records/metadata_tab_project.qmd#parent-metadata)`r req_style`     | [**Required**](product_records/metadata_tab_product.qmd#parent-metadata)`r req_style`|
+| Metadata Repositories   | [**Required**](project_records/metadata_tab_project.qmd#metadata-repositories)`r req_style` | [**Required**](project_records/metadata_tab_project.qmd#metadata-repositories)`r req_style`|
+: {.striped .hover .bordered .sm .allborder}   
 
 ^\*^Also required under the ScienceBase 30-day Policy   
 <br/>    
@@ -73,47 +80,44 @@ Certain metadata fields are required for Project and Product metadata records.
 ### Keywords Tab   
 | Metadata Field                | Project Records   | Product Records   |
 |:------------------------------|:-------------|:-------------|
-| ISO Topic Category | [**Required**](project_records/keywords_tab_project.qmd#iso-topic-category-required)`r required_style` | [**Required**](product_records/keywords_tab_product.qmd#iso-topic-category-required)`r required_style`  |
-| SA Priority Area | [**Required**](project_records/keywords_tab_project.qmd#sa-priority-area-required)`r required_style` | [**Required**](project_records/keywords_tab_project.qmd#sa-priority-area-required)`r required_style`    |
-| SA Science Topic                         | [**Required**](project_records/keywords_tab_project.qmd#science-topic-required)`r required_style`      |                  |
-| Conservation Action                      | [If applicable]`r if_app_style`    |                  |
-| Shared Priority                          | [If applicable]`r if_app_style`    |                  |
-| Strategic Habitat Conservation Component | [If applicable]`r if_app_style`    |                  |
-| Taxonomic Classification (ITIS)          | [If applicable]`r if_app_style`    | [If applicable]`r if_app_style`    |
-| Geographic Extent                        | [**Required**](project_records/keywords_tab_project.qmd)`r required_style`   | [**Required**](product_records/keywords_tab_product.qmd)`r required_style`   |
-| Spatial Reference and Resolution         | [If applicable]`r if_app_style`    | [If applicable]`r if_app_style`    |
-: {.striped .hover .bordered .md .allborder}   
+| ISO Topic Category | [**Required**](project_records/keywords_tab_project.qmd#iso-topic-category-required)`r req_style` | [**Required**](product_records/keywords_tab_product.qmd#iso-topic-category-required)`r req_style`  |
+| SA Priority Area | [**Required**](project_records/keywords_tab_project.qmd#sa-priority-area-required)`r req_style` | [**Required**](product_records/keywords_tab_product.qmd#sa-priority-area-required)`r req_style`    |
+| SA Science Topic  | [**Required**](project_records/keywords_tab_project.qmd#science-topic-required)`r req_style`   |                  |
+| Conservation Action Open Standard | [If Applicable](project_records/keywords_tab_project.qmd#conservation-action-open-standard-required-if-applicable)`r if_style` |                  |
+| Global Change Master Directory (GCMD)  | [Best Practice](project_records/keywords_tab_project.qmd#gcmd)`r best_style`      |                  |
+: {.striped .hover .bordered .sm .allborder}   
 
 <br/>    
 
 ### Extent Tab 
 | Metadata Field       | Project Records   | Product Records   |
 |:------------------------------------|:----------|:----------|
-| Extent|[**Required**](project_records/extent_tab_project.qmd#add-taxonomic-system#creating-extents)`r required_style` | [**Required**](product_records/extent_tab_product.qmd#creating-extents)`r required_style` |
-: {.striped .hover .bordered .md .allborder}  
+| Extent|[**Required**](project_records/extent_tab_project.qmd#add-taxonomic-system#creating-extents)`r req_style` | [**Required**](product_records/extent_tab_product.qmd#creating-extents)`r req_style` |
+: {.striped .hover .bordered .sm .allborder}  
 
 <br/>  
 
 ### Taxonomy Tab 
 | Metadata Field       | Project Records   | Product Records   |
 |:---------------------|:-------------------|:-------------------|
-| Taxonomic System        |[**Required**](project_records/taxonomy_tab_project.qmd#add-taxonomic-system)`r required_style` | [**Required, if applicable**](product_records/taxonomy_tab_product.qmd#add-taxonomic-system)`r req_if_app_style`|
-| Taxonomic Classifcation |[**Required**](project_records/taxonomy_tab_project.qmd#add-taxonomic-system)`r required_style` | [**Required, if applicable**](product_records/taxonomy_tab_product.qmd#add-taxonomic-system)`r req_if_app_style`|
-: {.striped .hover .bordered .md .allborder} 
+| Taxonomic System         |[If Applicable](project_records/taxonomy_tab_project.qmd#add-taxonomic-system)`r if_style` | [If Applicable](product_records/taxonomy_tab_product.qmd#add-taxonomic-system)`r if_style`|
+| Taxonomic Classification |[If Applicable](project_records/taxonomy_tab_project.qmd#add-taxonomic-system)`r if_style` | [If Applicable](product_records/taxonomy_tab_product.qmd#add-taxonomic-system)`r if_style`|
+: {.striped .hover .bordered .sm .allborder} 
 
 <br/>
 
 ### Distribution Tab
 | Metadata Field                | Project Records   | Product Records   |
 |:------------------------------|:-------------|:-------------|
-| Distributor                                      |   | [**Required**](product_records/distribution_tab_product.qmd#distributor)`r required_style` |
-| Online Transfer Name                             |   | [If applicable]`r if_app_style`    |
-| Online Transfer URL                              |   | [If applicable]`r if_app_style`    |
-| Online Transfer Function                         |   | [If applicable]`r if_app_style`    |
-| Online Transfer Application Profile              |   | [If applicable]`r if_app_style`    |
-| Online Transfer Order Process                    |   | [If applicable]`r if_app_style`    |
-| Distribution Format Name, Version, & Compression |   | [If applicable]`r if_app_style`    |
-: {.striped .hover .bordered .md .allborder}   
+| Distributor                                      | | |
+|        Contacts                                  | | [If Applicable](product_records/distribution_tab_product.qmd#transfer-options-required-if-applicable)`r if_style`    |
+|        Role                                      | | [If Applicable](product_records/distribution_tab_product.qmd#transfer-options-required-if-applicable)`r if_style`    |
+| Transfer Options                                 | | |
+|        Online Options                     | | |
+|               Name                        |   | [If Applicable](product_records/distribution_tab_product.qmd#transfer-options-required-if-applicable)`r if_style`    |
+|               URI                              |   | [If Applicable](product_records/distribution_tab_product.qmd#transfer-options-required-if-applicable)`r if_style`    |
+|               Function                         |   | [If Applicable](product_records/distribution_tab_product.qmd#transfer-options-required-if-applicable)`r if_style`    |
+: {.striped .hover .bordered .sm .allborder}   
 
 ^\*^Also required under the ScienceBase 30-day Policy   
 <br/>
@@ -121,31 +125,31 @@ Certain metadata fields are required for Project and Product metadata records.
 ### Constraints Tab   
 | Metadata Field                | Project Records   | Product Records   |
 |:------------------------------|:-------------|:-------------|
-| Constraint Type             |                  | [**Required**](product_records/constraints_tab_product.qmd#legal)`r required_style`     |
+| Constraint Type             |                  | [**Required**](product_records/constraints_tab_product.qmd#legal)`r req_style`     |
 | Legal                       |                  |                                                                                         |
-|        Access Constraints   |                  | [**Required**](product_records/constraints_tab_product.qmd#legal)`r required_style`     |
-|        Use Constraints      |                  | [If applicable]`r if_app_style`    |
+|        Access Constraints   |                  | [**Required**](product_records/constraints_tab_product.qmd#legal)`r req_style`     |
+|        Use Constraints      |                  | [If Applicable](product_records/constraints_tab_product.qmd#legal)`r if_style`    |
 | Security                    |                  |                                    |
-|        Handling Description |                  | [If applicable]`r if_app_style`    |
-|        Other Constraints    |                  | [If applicable]`r if_app_style`    |
-: {.striped .hover .bordered .md .allborder}   
+|        Classification       |                  | [If Applicable](product_records/constraints_tab_product.qmd#security)`r if_style`    |
+: {.striped .hover .bordered .sm .allborder}   
 
 <br/>    
 
 ### Funding Tab
 | Metadata Field                | Project Records   | Product Records   |
 |:------------------------------|:-------------|:-------------|
-| Award ID               | [**Required**](project_records/funding_tab_project.qmd#award-id-required)`r required_style`^\*^ |            | 
-| Sub-activity           | [**Required**](project_records/funding_tab_project.qmd#fws-sub-activity-funding-codes-agreement-type-best-practice)`r required_style`     |            | 
-| Funding Code           | [**Required**](project_records/funding_tab_project.qmd#fws-sub-activity-funding-codes-agreement-type-best-practice)`r required_style`     |            | 
-| Amount                 | [**Required**](project_records/funding_tab_project.qmd#amount-required)`r required_style`^\*^ |            | 
-| Source                 | [**Required**](project_records/funding_tab_project.qmd#source-required)`r required_style`^\*^ |            | 
-| Allocation             | [**Required**](project_records/funding_tab_project.qmd#marked-funding)`r required_style`     |            | 
-| Funding Organization   | [**Required**](project_records/funding_tab_project.qmd#marked-funding)`r required_style`     |            | 
-| Recipient Organization | [**Required**](project_records/funding_tab_project.qmd#recipient-required)`r required_style`     |            | 
-| Matching Funds         | [If applicable]`r if_app_style`    |            | 
-| Fiscal Year            | [**Required**](project_records/funding_tab_project.qmd#dates-required)`r required_style`^\*^ |            | 
-: {.striped .hover .bordered .md .allborder}   
+| Allocation                    | | | 
+|        Amount                 | [**Required**](project_records/funding_tab_project.qmd#amount-required)`r req_style`^\*^   |            | 
+|        Currency               | [**Required**](project_records/funding_tab_project.qmd#currency-required)`r req_style`^\*^   |            | 
+|        Award ID               | [**Required**](project_records/funding_tab_project.qmd#award-id-required)`r req_style`^\*^ |            | 
+|        Source                 | [**Required**](project_records/funding_tab_project.qmd#source-required)`r req_style`^\*^   |            | 
+|        Recipient              | [**Required**](project_records/funding_tab_project.qmd#recipient-required)`r req_style`    |            | 
+|        Other Contacts (multiple)  | [**Required**](project_records/funding_tab_project.qmd#recipient-required)`r req_style`|            | 
+|        Matching and In-kind Funds | [If Applicable](project_records/funding_tab_project.qmd#matching-and-in-kind-funds-if-applicable)`r if_style` |            | 
+| Time Period            | | | 
+|        Fiscal Year     | [**Required**](project_records/funding_tab_project.qmd#dates-required)`r req_style`^\*^ |  | 
+| Description (multiple) | [Best Practice](project_records/funding_tab_project.qmd#description-best-practice)`r best_style` |  | 
+: {.striped .hover .bordered .sm .allborder}   
 
 ^\*^Also required under the ScienceBase 30-day Policy
 <br/> 
@@ -156,16 +160,16 @@ Certain metadata fields are required for Individual or Organization contacts.
 ### Contacts Information
 | Metadata Field                | Individual    | Organization    |
 |:------------------------------|:-------------|:-------------|
-| Type                | [**Required**](contact_records/individual_contacts.qmd#create-a-new-contact)`r required_style` | [**Required**](contact_records/organization_contacts.qmd#create-a-new-contact)`r required_style` |
-| Individual Name     | [**Required**](contact_records/individual_contacts.qmd#create-a-new-contact)`r required_style` |                                                                                                  |
-| Organizational Name |                                                                                                | [**Required**](contact_records/organization_contacts.qmd#create-a-new-contact)`r required_style` |
-| Position Name       | [If applicable]`r if_app_style`                                                                |                                                                                                  |
-| Contact Type        | [**Required**](contact_records/individual_contacts.qmd#create-a-new-contact)`r required_style` | [**Required**](contact_records/organization_contacts.qmd#create-a-new-contact)`r required_style` |
-| Member Organization | [**Required**](contact_records/individual_contacts.qmd#create-a-new-contact)`r required_style` |                                                                                                  |
-| Email Address       | [**Required**](contact_records/individual_contacts.qmd#create-a-new-contact)`r required_style` | [**Required**](contact_records/organization_contacts.qmd#create-a-new-contact)`r required_style` |
-| Online Resource     |                                                                                                | [**Required**](contact_records/organization_contacts.qmd#create-a-new-contact)`r required_style` |
-| Physical Address    | [Best practice]`r if_app_style`                                                                | [Best practice]`r if_app_style` |
-| Logo                |                                                                                                | [Optional]`r if_app_style`      |
-: {.striped .hover .bordered .md .allborder}   
+| Type                | [**Required**](contact_records/individual_contacts.qmd#create-a-new-contact)`r req_style`   | [**Required**](contact_records/organization_contacts.qmd#create-a-new-contact)`r req_style`   |
+| Individual Name     | [**Required**](contact_records/individual_contacts.qmd#create-a-new-contact)`r req_style`   |                                                                                               |
+| Organizational Name |                                                                                             | [**Required**](contact_records/organization_contacts.qmd#create-a-new-contact)`r req_style`   |
+| Position Name       | [If Applicable](contact_records/organization_contacts.qmd#create-a-new-contact)`r if_style` |                                                                                               |
+| Contact Type        | [**Required**](contact_records/individual_contacts.qmd#create-a-new-contact)`r req_style`   | [**Required**](contact_records/organization_contacts.qmd#create-a-new-contact)`r req_style`   |
+| Member Organization | [**Required**](contact_records/individual_contacts.qmd#create-a-new-contact)`r req_style`   |                                                                                               |
+| Email Address       | [**Required**](contact_records/individual_contacts.qmd#create-a-new-contact)`r req_style`   | [**Required**](contact_records/organization_contacts.qmd#create-a-new-contact)`r req_style`   |
+| Online Resource     |                                                                                             | [**Required**](contact_records/organization_contacts.qmd#create-a-new-contact)`r req_style`   |
+| Physical Address    | [Best Practice](contact_records/individual_contacts.qmd#create-a-new-contact)`r best_style` | [Best Practice](contact_records/organization_contacts.qmd#create-a-new-contact)`r best_style` |
+| Logo                |                                                                                             | [Best Practice](contact_records/organization_contacts.qmd#create-a-new-contact)`r best_style` |
+: {.striped .hover .bordered .sm .allborder}   
 
 <br/>

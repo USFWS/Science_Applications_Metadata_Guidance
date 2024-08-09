@@ -17,7 +17,7 @@ metadata record where you should add contacts.
 *Please see the corresponding sections for which contacts should be added
 where.*
 
-1.  [Main Tab](../project_records/.qmd#point-of-contacts)
+1.  [Main Tab](../project_records/main_tab_project.qmd#points-of-contact-required)
     / "Point of Contact” section
 2.  [Main Tab](../project_records/main_tab_project.qmd#responsible-parties-required)
     / Citation / “Responsible Parties” section

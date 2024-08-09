@@ -11,12 +11,14 @@ editor:
 # https://designsystem.digital.gov/design-tokens/color/state-tokens/
 # This allows the colors to be coded as a variable and, thus, easily changed.
 
-required_color <- "#b50909"
-required_if_applicable_color <- "#936f38"
-if_applicable_color <- "#757575"
-required_style <- paste0('{style="color:', required_color, ';"}')
-req_if_app_style <- paste0('{style="color:', required_if_applicable_color,';"}')
-if_app_style <- paste0('{style="color:', if_applicable_color, ';"}')
+required_color <- "#b50909"        #'red-60v'
+if_applicable_color <- "#947100"   # 'yellow-50v'
+best_practice_color <- "#00687d"   # 'cyan-60v'
+other_color <- "#00687d"           # 'gray-cool-70'
+req_style <- paste0('{style="color:', required_color, ';"}')
+if_style <- paste0('{style="color:', if_applicable_color,';"}')
+best_style <- paste0('{style="color:', best_practice_color, ';"}')
+other_style <- paste0('{style="color:', best_practice_color, ';"}')
 ```
 
 The "Keywords" tab adds keywords to your metadata so the record to be 
@@ -24,16 +26,15 @@ found later through a search engine, keywords are the way to tag your projects
 or products.mdEditor is designed using existing thesauruses that contain 
 pre-determined keywords.
 
-| Keywords Tab                             | Requirements               |
-|------------------------------------------|-------------------------|
-| **ISO Topic Category**                       | [**Required**]`r required_style`                |
-| **SA Priority Category**                     | [**Required**]`r required_style`                |
-| **Science Topic Category**                   | [**Required**]`r required_style`                |
-| **Conservation Action Open Standard**        | [**Required, if applicable**]`r req_if_app_style` |
-| **Strategic Habitat Conservation Component** | [**Required, if applicable**]`r req_if_app_style` |
-| **GCMD Keywords**                            | [Best practice]`r if_app_style`           |
-| **Shared Priority Keywords**                 | [Best practice]`r if_app_style`           |
-: {.striped .hover .bordered .md .allborder} 
+### Keywords Tab   
+| Metadata Field                | Project Records   |
+|:------------------------------|:---------------|
+| ISO Topic Category                | [**Required**](#iso-topic-category-required)`r req_style` |
+| SA Priority Area                  | [**Required**](#sa-priority-area-required)`r req_style`   |
+| SA Science Topic                  | [**Required**](#science-topic-required)`r req_style`      |
+| Conservation Action Open Standard | [If Applicable](#conservation-action-open-standard-required-if-applicable)`r if_style` |
+| Global Change Master Directory (GCMD)  | [Best Practice](p#gcmd)`r best_style`                |
+: {.striped .hover .bordered .sm .allborder}   
 
 <br/>
 
@@ -45,9 +46,7 @@ pre-determined keywords.
     tagging your project, you can add other keywords with a custom thesaurus
     (see below for more information).
 
-## SA Project Required Keywords
-
-### ISO Topic Category ([**Required**]`r required_style`)
+### ISO Topic Category ([**Required**]`r req_style`)
 
 Because mdJSON metadata is based on the ISO (International Organization for
 Standardization) metadata standard, all SA projects should select at least one
@@ -88,7 +87,7 @@ Biota and environment are probably the best fit for most SA projects.
 
 <br/>
 
-### SA Priority Area ([**Required**]`r required_style`)
+### SA Priority Area ([**Required**]`r req_style`)
 
 Choose all that apply. The list of options includes the following:
 
@@ -108,7 +107,7 @@ Choose all that apply. The list of options includes the following:
 
 <br/>
 
-### Science Topic ([**Required**]`r required_style`)
+### Science Topic ([**Required**]`r req_style`)
 
 Choose all that apply. The list of options includes the following:
 
@@ -142,7 +141,7 @@ Choose all that apply. The list of options includes the following:
 
 <br/>
 
-### Conservation Action Open Standard ([**Required, if applicable**]`r req_if_app_style`)
+### Conservation Action Open Standard ([Requied, if applicable**]`r if_style`)
 
 The Open Standards for the Practice of Conservation is a globally utilized
 nomenclature for conservation. Including these keywords helps to align the work
@@ -196,12 +195,12 @@ keywords for conservation actions are as listed:
 
 <br/>
 
-### GCMD Keywords ([Best Practice]`r if_app_style`)
+### GCMD ([Best Practice]`r if_style`)
 
-GCMD stands for Global Change Master Directory and these keywords are maintained
-by NASA. Look for useful keywords in the GCMD Science Keywords. There are GCMD
-Platforms and Instruments Keywords but they are unlikely to apply to SA 
-projects.
+**GCMD** stands for Global Change Master Directory and these keywords are 
+maintained by NASA. Look for useful keywords in the GCMD Science Keywords. 
+There are GCMD Platforms and Instruments Keywords but they are unlikely to 
+apply to SA projects.
 
 :::{.callout-tip icon=false title="Best Practice"}
 Check the "Full Path" checkbox to save the full path of the 

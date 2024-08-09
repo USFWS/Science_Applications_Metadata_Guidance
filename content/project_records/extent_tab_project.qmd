@@ -11,22 +11,25 @@ editor:
 # https://designsystem.digital.gov/design-tokens/color/state-tokens/
 # This allows the colors to be coded as a variable and, thus, easily changed.
 
-required_color <- "#b50909"
-required_if_applicable_color <- "#936f38"
-if_applicable_color <- "#757575"
-required_style <- paste0('{style="color:', required_color, ';"}')
-req_if_app_style <- paste0('{style="color:', required_if_applicable_color,';"}')
-if_app_style <- paste0('{style="color:', if_applicable_color, ';"}')
+required_color <- "#b50909"        #'red-60v'
+if_applicable_color <- "#947100"   # 'yellow-50v'
+best_practice_color <- "#00687d"   # 'cyan-60v'
+other_color <- "#00687d"           # 'gray-cool-70'
+req_style <- paste0('{style="color:', required_color, ';"}')
+if_style <- paste0('{style="color:', if_applicable_color,';"}')
+best_style <- paste0('{style="color:', best_practice_color, ';"}')
+other_style <- paste0('{style="color:', best_practice_color, ';"}')
 ```
 
 **Extent** refers to geographic boundaries for your project. Spatial extents
 lets users see at a glance the geographic footprint of your project and allows
 searching within specific geographic areas.
 
-| Extent Tab | Requirements |
-|:------------------------------------|:----------|
-| Extent                              |[**Required**]`r required_style` |
-: {.striped .hover .bordered .md .allborder}  
+### Extent Tab 
+| Metadata Field        | Project Records   |
+|:----------------------|:----------|
+| Extent       |[**Required**](#creating-extents)`r req_style` | 
+: {.striped .hover .bordered .sm .allborder}  
 
 <br/>
 

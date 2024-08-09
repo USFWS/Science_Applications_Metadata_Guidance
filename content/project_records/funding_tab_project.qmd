@@ -11,29 +11,34 @@ editor:
 # https://designsystem.digital.gov/design-tokens/color/state-tokens/
 # This allows the colors to be coded as a variable and, thus, easily changed.
 
-required_color <- "#b50909"
-required_if_applicable_color <- "#936f38"
-if_applicable_color <- "#757575"
-required_style <- paste0('{style="color:', required_color, ';"}')
-req_if_app_style <- paste0('{style="color:', required_if_applicable_color,';"}')
-if_app_style <- paste0('{style="color:', if_applicable_color, ';"}')
+required_color <- "#b50909"        #'red-60v'
+if_applicable_color <- "#947100"   # 'yellow-50v'
+best_practice_color <- "#00687d"   # 'cyan-60v'
+other_color <- "#00687d"           # 'gray-cool-70'
+req_style <- paste0('{style="color:', required_color, ';"}')
+if_style <- paste0('{style="color:', if_applicable_color,';"}')
+best_style <- paste0('{style="color:', best_practice_color, ';"}')
+other_style <- paste0('{style="color:', best_practice_color, ';"}')
 ```
 
 Tracking funding in the metadata allows for identification of funding sources
 and recipients, enables comparisons, and aggregations across all regions.
 
-| **Quick Reference: Project Funding Tab**  | Requirements     |
-|:------------------------------------------|:--------------|
-| **Award ID**                              | [**Required**]`r required_style`       |
-| **Amount**                                | [**Required**]`r required_style`       |
-| **Source**                                | [**Required**]`r required_style`       |
-| **Funding Recipient Organization**        | [**Required**]`r required_style`       |
-| **Funding Administrator**                 | [**Required**]`r required_style`       |
-| **FWS sub-activity and funding codes**    | [Best Practice]`r if_app_style` |
-| **Funding agreement type**                | [Best Practice]`r if_app_style` |
-| **Matching Funds**, including above       | [Best Practice]`r if_app_style` |
-| Time Period: **Dates**                    | [**Required**]`r required_style`       |
-: {.striped .hover .bordered .md .allborder}  
+### Funding Tab
+| Metadata Field                | Project Records   | 
+|:------------------------------|:-------------|
+| Allocation                    | | 
+|        Amount                 | [**Required**](#amount-required)`r req_style`^\*^   |
+|        Currency               | [**Required**](#currency-required)`r req_style`^\*^   |
+|        Award ID               | [**Required**](#award-id-required)`r req_style`^\*^ |
+|        Source                 | [**Required**](#source-required)`r req_style`^\*^   |
+|        Recipient              | [**Required**](#recipient-required)`r req_style`    |
+|        Other Contacts (multiple)  | [**Required**](#recipient-required)`r req_style`|
+|        Matching and In-kind Funds | [If Applicable](#matching-and-in-kind-funds-if-applicable)`r if_style` |
+| Time Period            | | 
+|        Fiscal Year     | [**Required**](#dates-required)`r req_style`^\*^ | 
+| Description (multiple) | [Best Practice](#description)`r best_style` | 
+: {.striped .hover .bordered .sm .allborder}  
 
 <br/>
 
@@ -54,7 +59,16 @@ separate funding allocations.
 
 For each funding allocation, the following fields should be filled out.
 
-### Award ID ([**Required**]`r required_style`)
+### Amount ([**Required**]`r req_style`)
+
+Enter the amount of funding. 
+
+### Currency ([**Required**]`r req_style`)
+
+Be sure U.S. Dollars is selected (i.e., Unites States of America, the--US Dollar; 
+this is third from the bottom of USD options in mdEditor).
+
+### Award ID ([**Required**]`r req_style`)
 
 The Award ID numbers are internal codes that connect the distribution forms to
 the project metadata. Award IDs include grant or cooperative agreement numbers,
@@ -66,13 +80,7 @@ If no Award ID exists, then the project is likely an internal effort. Enter
 '*None*" in the Award ID field. This allows for tracking and search of
 internally funded projects.
 
-### Amount ([**Required**]`r required_style`)
-
-Enter the amount of funding. Be sure U.S. Dollars is selected (ie. Unites States
-of America, the--US Dollar; this is third from the bottom of USD options in
-mdEditor).
-
-### Source ([**Required**]`r required_style`)
+### Source ([**Required**]`r req_style`)
 
 Add the relevant contact for the “source” of the project funding. Source should
 be an organization, not an individual. For SA projects, the most common sources
@@ -88,7 +96,7 @@ office where the funding came from should be done through the Funding/Other
 Contacts field.
 :::
 
-### Recipient ([**Required**]`r required_style`)
+### Recipient ([**Required**]`r req_style`)
 
 Add the relevant contact for the “recipient” of the project funding. Recipient
 should always be an organization, not an individual. For example, the Principal
@@ -99,7 +107,7 @@ separate allocations.
 You could add the Principal Investigator in the Other Contacts field as
 "principalInvestigator."
 
-### Other Contacts ([**Required**]`r required_style`)
+### Other Contacts ([**Required**]`r req_style`)
 
 In most cases, a program or region has allocated the funding for a project. In
 order to track funds within regions and programs and provide proper credit, add
@@ -116,7 +124,7 @@ Service can be identified as the funding source and the funding administrator
 may also include "Ecological Services" or a specific field office.
 :::
 
-### Marked Funding ([Best Practice]`r if_app_style`)
+### Marked Funding ([Best Practice]`r if_style`)
 
 In some cases, funds are marked for specific activities and include reporting
 requirements that accompany the funding allocations. For example, EPA allocates
@@ -131,11 +139,13 @@ Funding Other Contacts.
 
 ![Example of organizational fund entry in Funding metadata entry](../../assets/example_funding_entry.png)
 
-### FWS Sub-Activity, Funding Codes, Agreement Type ([Best Practice]`r if_app_style`)
+### Description ([Best Practice]`r if_style`)
 
 In order to better integrate budgeting records and align with activity tracking
-priorities, add the FWS sub-activity code and funding code in the Allocation
-comments. Also add the funding For example, the text entry may look like this:
+priorities, add the ***FWS Sub-Activity***, ***Funding Codes***, and 
+***Agreement Type*** to the Description. 
+
+For example, the text entry may look like this:
 FWS sub-activity 1420, fundcode 190, contract. If funds are provided from
 multiple sub-activities, please add this in the description (i.e. FWS
 sub-activity 1430, fundcode 170, \$30,000: sub-activity 1420, fundcode 170,
@@ -144,7 +154,7 @@ for these values.
 
 ![Example budgeting information in Allocation Description](../../assets/example_budgeting_infomation.png)
 
-### Matching and In-kind Funds ([Best Practice]`r if_app_style`)
+### Matching and In-kind Funds ([If applicable]`r if_style`)
 
 Project funds or in-kind support that were supplied by a partner (i.e., not
 specifically allocated to SA) should be included as an allocation as described
@@ -155,7 +165,7 @@ to be included as a separate allocation.
 
 ## Time Period
 
-### Dates ([**Required**]`r required_style`)
+### Dates ([**Required**]`r req_style`)
 
 For each allocation, enter the fiscal year that funds were awarded (not the time
 span of the entire project). There should be a single fiscal year for each

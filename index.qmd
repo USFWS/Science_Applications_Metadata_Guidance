@@ -24,7 +24,8 @@ products are discoverable, accessible, and usable.
 
 ## USFWS Data Management Integration
 
-Metadata is an essential element of the [Data Management Lifecycle](https://doimspp.sharepoint.com/sites/fws-data/SitePages/Data_management_life_cycle_home.aspx). 
+Metadata is an essential element of the 
+[Data Management Lifecycle](https://doimspp.sharepoint.com/sites/fws-data/SitePages/Data_management_life_cycle_home.aspx). 
 Creating metadata is the principal component of the **Maintain** step. 
 Publishing metadata in an approved repository (e.g., ScienceBase) is crucial
 to the **Access** and **Archive** steps.

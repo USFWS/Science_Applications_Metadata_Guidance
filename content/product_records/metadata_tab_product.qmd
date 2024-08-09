@@ -11,28 +11,33 @@ editor:
 # https://designsystem.digital.gov/design-tokens/color/state-tokens/
 # This allows the colors to be coded as a variable and, thus, easily changed.
 
-required_color <- "#b50909"
-required_if_applicable_color <- "#936f38"
-if_applicable_color <- "#757575"
-required_style <- paste0('{style="color:', required_color, ';"}')
-req_if_app_style <- paste0('{style="color:', required_if_applicable_color,';"}')
-if_app_style <- paste0('{style="color:', if_applicable_color, ';"}')
+required_color <- "#b50909"        #'red-60v'
+if_applicable_color <- "#947100"   # 'yellow-50v'
+best_practice_color <- "#00687d"   # 'cyan-60v'
+other_color <- "#00687d"           # 'gray-cool-70'
+req_style <- paste0('{style="color:', required_color, ';"}')
+if_style <- paste0('{style="color:', if_applicable_color,';"}')
+best_style <- paste0('{style="color:', best_practice_color, ';"}')
+other_style <- paste0('{style="color:', best_practice_color, ';"}')
 ```
 
 The Metadata tab describes your project's metadata, including a description that
 outlines the process of metadata creation, contributors to the creation of the
 metadata, and metadata repositories.
 
-| Metadata Tab                  | Requirements |
-|:------------------------------------------|:----------|
-| **Metadata: Status**                           | [**Required**]`r required_style` |  |
-| **Date**                                      | [**Required**]`r required_style` |  |
-| **Metadata Contacts**                         | [**Required**]`r required_style` |  |
-| **Metadata Identifier**                       | [**Required**]`r required_style` |  |
-| **Parent Metadata**                           | [**Required**]`r required_style` |  |
-| **Metadata Repositories**                     | [**Required**]`r required_style` |  |
+### Metadata Tab    
+| Metadata Field                | Product Records   |
+|:------------------------------|:-------------|
+| Metadata Status   | [**Required**](#metadata-status-required)`r req_style` | 
+| Dates             | |
+| Metadata Contacts | |
+|        Author     | [**Required**](#metadata-contacts)`r req_style`|
+|        Publisher  | [**Required**](#metadata-contacts)`r req_style`|
+|        Point of Contact | [**Required**](#metadata-contacts)`r req_style`|
+| Metadata Identifier     | [**Required**](#metadata-identifier)`r req_style`|
+| Parent Metadata         | [**Required**](#parent-metadata)`r req_style`|
+| Metadata Repositories   | [**Required**](#metadata-repositories)`r req_style`|
 : {.striped .hover .bordered .sm .allborder}  
-
 <br/>
 
 ## Basic Information
@@ -56,9 +61,9 @@ any questions about the metadata.
 
 | Role           | Contact          | **Requirements              |
 |:---------------|:-----------------|:-------------------------|
-| author         | See Notes Below  | [**Required**]`r required_style` |             |
-| publisher      | Default is USFWS | [**Required**]`r required_style` |             |
-| pointOfContact | SA Data Steward  | [**Required**]`r required_style` |             |
+| author         | See Notes Below  | [**Required**]`r req_style` |             |
+| publisher      | Default is USFWS | [**Required**]`r req_style` |             |
+| pointOfContact | SA Data Steward  | [**Required**]`r req_style` |             |
 : {.striped .hover .bordered .md .allborder}  
 
 <br/>
@@ -112,11 +117,11 @@ If you created the product metadata from scratch in mdEditor, you need to enter
 the appropriate parent item ScienceBase ID. This is most likely the folder for
 the project that this product originated from.
 
-#### Title (`r required_style`)
+#### Title (`r req_style`)
 
 If the **Title** is not already populated, you can enter something like "Parent folder."
 
-#### Identifier (`r required_style`)
+#### Identifier (`r req_style`)
 
 The **Identifier** defines the location of the parent folder in ScienceBase.
 

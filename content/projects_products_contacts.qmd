@@ -78,7 +78,7 @@ relationships between projects and products through the Associated feature.
 
 ::: {.callout-note appearance="minimal"}
 Consult either the [Associating Records:
-Product](product_records/associating_records_product.qmd) or [Associating
-Records: Project](project_records/associating_records_project.qmd) section for
+Product](product_records/associated_tab_product.qmd) or [Associating
+Records: Project](project_records/associated_tab_project.qmd) section for
 more information.
 :::

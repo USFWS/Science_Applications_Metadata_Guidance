@@ -32,7 +32,7 @@ here either.
 
 Associate the relevant projects, sub-projects, and products with each other in
 mdEditor as described in 
-[Associating Records (Project)](../project_records/associating_records_project.qmd). 
+[Associating Records (Project)](../project_records/associated_tab_project.qmd). 
 Your ownership/edit access to the related items will determine how you enter the
 associations in mdEditor. Information below refers to the Associated tab.
 
@@ -41,7 +41,7 @@ associations in mdEditor. Information below refers to the Associated tab.
 If your sub-project falls underneath a project that you also manage or have edit
 rights, you can create the association by defining the association type and
 linking your records as normal (see 
-[Associating Records (Project)](../project_records/associating_records_project.qmd)).
+[Associating Records (Project)](../project_records/associated_tab_project.qmd)).
 
 In the Associated tab, add the association type as one of the following and
 select the appropriate record to link:

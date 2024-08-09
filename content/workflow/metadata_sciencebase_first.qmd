@@ -51,14 +51,14 @@ Network Data Steward. (link to contact seed file here)
 For importing metadata for a
 [project](../project_records/project_records_overview.qmd) of an existing 
 ScienceBase project, import the ScienceBase record to create a new mdEditor 
-record using the [sbJSON Import](../metadata_file_management/import_sbJSON.qmd).
+record using the [sbJSON Import](../metadata_file_management/import_sbjson.qmd).
 
 ### 6. Import products
 
 For importing metadata for a
 [product](../product_records/product_records_overview.qmd) of an existing 
 ScienceBase product record, import the ScienceBase record to create a new 
-mdEditor record using the [sbJSON Import](../metadata_file_management/import_sbJSON.qmd).
+mdEditor record using the [sbJSON Import](../metadata_file_management/import_sbjson.qmd).
 
 ### 7. Create or import data dictionaries
 

@@ -11,38 +11,45 @@ editor:
 # https://designsystem.digital.gov/design-tokens/color/state-tokens/
 # This allows the colors to be coded as a variable and, thus, easily changed.
 
-required_color <- "#b50909"
-required_if_applicable_color <- "#936f38"
-if_applicable_color <- "#757575"
-required_style <- paste0('{style="color:', required_color, ';"}')
-req_if_app_style <- paste0('{style="color:', required_if_applicable_color,';"}')
-if_app_style <- paste0('{style="color:', if_applicable_color, ';"}')
+required_color <- "#b50909"        #'red-60v'
+if_applicable_color <- "#947100"   # 'yellow-50v'
+best_practice_color <- "#00687d"   # 'cyan-60v'
+other_color <- "#00687d"           # 'gray-cool-70'
+req_style <- paste0('{style="color:', required_color, ';"}')
+if_style <- paste0('{style="color:', if_applicable_color,';"}')
+best_style <- paste0('{style="color:', best_practice_color, ';"}')
+other_style <- paste0('{style="color:', best_practice_color, ';"}')
 ```
 
 The **Metadata** tab describes your project's metadata, including a description 
 that outlines the process of metadata creation, contributors to the creation of 
 the metadata, and metadata repositories.
 
-| Project Metadata Tab                              | Requirements |
-|:------------------------------------------|:----------|
-| Basic Information: **Metadata Status**, **Dates**           | [**Required**]`r required_style` |
-| **Metadata Contacts** (multiple)                            | [**Required**]`r required_style` |
-| Metadata Identifier: **Identifier**, **Namespace**          | [**Required**]`r required_style` |
-| Parent Metadata: **Title**, **Identifier**, **Namespace**   | [**Required**]`r required_style` |
-| **Metadata Repositories** (SA Science Catalog)              | [**Required**]`r required_style` |
-: {.striped .hover .bordered .md .allborder} 
+### Metadata Tab    
+| Metadata Field                | Project Records   |
+|:------------------------------|:-------------|
+| Metadata Status   | [**Required**](p#metadata-status-required)`r req_style`  |  
+| Dates             | [**Required**](p#metadata-dates-required)`r req_style`   |
+| Metadata Contacts |                                               |
+|        Author     | [**Required**](p#metadata-contacts)`r req_style`         | 
+|        Publisher  | [**Required**](p#metadata-contacts)`r req_style`         | 
+|        Point of Contact | [**Required**](p#metadata-contacts)`r req_style`   | 
+| Metadata Identifier     | [**Required**](p#metadata-identifier)`r req_style` | 
+| Parent Metadata         | [**Required**](p#parent-metadata)`r req_style`     | 
+| Metadata Repositories   | [**Required**](p#metadata-repositories)`r req_style` | 
+: {.striped .hover .bordered .sm .allborder}   
 
 <br/>
 
 ## Basic Information
 
-### Metadata Status [(Required)]`r required_style`
+### Metadata Status [(Required)]`r req_style`
 
 Select the appropriate **Status** of the creation of your metadata from the drop
 down menu. For example, if you have added all of your metadata, select
 ***completed***. If you still have metadata to add, select ***onGoing***.
 
-### Dates [(Required)]`r required_style`
+### Dates [(Required)]`r req_style`
 
 At least one **Date** is required. Recommended are ***creation*** (when you 
 first created your metadata) and ***lastUpdate*** (when you updated metadata 
@@ -50,16 +57,16 @@ after initial publication).
 
 ## Metadata Contacts
 
-### **Contacts** [(Required)]`r required_style` 
+### **Contacts** [(Required)]`r req_style` 
 These **Contacts** (person or role) will provide a point of contact for 
 users to reach out to should they have any questions about the 
 metadata. The following table shows the required contact roles. 
 
 | Role           | Contact         | Requirements              |
 |:---------------|:-----------------|:-------------------------|
-| **author**         | See Notes Below  | [**Required**]`r required_style`   |
-| **publisher**      | Default is USFWS | [**Required**]`r required_style`   |
-| **pointOfContact** | SA Data Steward  | [**Required**]`r required_style`   |
+| **author**         | See Notes Below  | [**Required**]`r req_style`   |
+| **publisher**      | Default is USFWS | [**Required**]`r req_style`   |
+| **pointOfContact** | SA Data Steward  | [**Required**]`r req_style`   |
 : {.striped .hover .bordered .md .allborder} 
 
 
@@ -78,7 +85,7 @@ metadata. The following table shows the required contact roles.
 
 ## Metadata Identifier
 
-### Metadata Identifier [(Required)]`r required_style` 
+### Metadata Identifier [(Required)]`r req_style` 
 
 The **Identifier** is automatically populated by mdEditor. The metadata
 identifier gives each of your projects and products a unique ID and
@@ -116,12 +123,12 @@ ScienceBase), this will be generated for you when when you publish. This is most
 likely your SA regional project folder. You can enter the parent item SBID
 directly in your individual metadata record if you wish.
 
-### Title [(Required)]`r required_style` 
+### Title [(Required)]`r req_style` 
 
 If the **Title** is not already populated, you can enter something like 
 "Parent folder."
 
-### Identifier and Namespace [(Required)]`r required_style`
+### Identifier and Namespace [(Required)]`r req_style`
 
 The **Identifier** and **Namespace** defines the location of the parent folder 
 in ScienceBase.
@@ -142,7 +149,7 @@ the item's URL immediately following "**item/".** For example,
 
 ## Metadata Repositories
 
-### Repositories [(Required)]`r required_style`
+### Repositories [(Required)]`r req_style`
 The metadata **Repositories** indicate where the metadata will be sent upon 
 publishing.
 

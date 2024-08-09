@@ -11,41 +11,66 @@ editor:
 # https://designsystem.digital.gov/design-tokens/color/state-tokens/
 # This allows the colors to be coded as a variable and, thus, easily changed.
 
-required_color <- "#b50909"
-required_if_applicable_color <- "#936f38"
-if_applicable_color <- "#757575"
-required_style <- paste0('{style="color:', required_color, ';"}')
-req_if_app_style <- paste0('{style="color:', required_if_applicable_color,';"}')
-if_app_style <- paste0('{style="color:', if_applicable_color, ';"}')
+required_color <- "#b50909"        #'red-60v'
+if_applicable_color <- "#947100"   # 'yellow-50v'
+best_practice_color <- "#00687d"   # 'cyan-60v'
+other_color <- "#00687d"           # 'gray-cool-70'
+req_style <- paste0('{style="color:', required_color, ';"}')
+if_style <- paste0('{style="color:', if_applicable_color,';"}')
+best_style <- paste0('{style="color:', best_practice_color, ';"}')
+other_style <- paste0('{style="color:', best_practice_color, ';"}')
 ```
 
 
 The **Main** tab allows for the creation and/or editing of primary metadata.
 
-| Quick Reference: Product Main Tab                           | Requirements |
-|:------------------------------------------------------------|:----------|
-| Basic Information: **Title**, **Status**                    | [**Required**]`r required_style` |
-| **Resource Type**                                           | [**Required**]`r required_style` |
-| **Point of Contact** (multiple)                             | [**Required**]`r required_style` |
-| Citation: **Title**, **Date**, **Responsible Parties**, **Online Resource**, **Identifier** | [**Required**]`r required_style` |
-| Description: **Abstract**                                   | [**Required**]`r required_style` |
-| Time Period: **Start Date**,**End Date**                    | [**Required**]`r required_style` |
-: {.striped .hover .bordered .md .allborder}  
-
+| Metadata Field                | Product Records   |
+|:------------------------------|:-------------|
+| Basic Information     | |
+|        Title          | [**Required**](#title)`r req_style`^\*^                |
+|        Status         | [**Required**](#status)`r req_style`^\*^               |
+| Default Locale        | [**Required**](#default-locale-required)`r req_style`  |
+| Resource Type         | [**Required**](#resource-types)`r req_style`           | 
+| Points of Contact     | |
+|        Point of Contact       | [**Required**](#point-of-contacts)`r req_style`|
+|        Custodian              | [**Required**](#point-of-contacts)`r req_style`|
+|        Administrator          | |
+|        Administrative Region  | [**Required**](#point-of-contacts)`r req_style`|
+|        Principal Investigator | [If Applicable](#point-of-contacts)`r if_style`^\*^  |
+|        Co-Principal Investigator | [If Applicable](#point-of-contacts-if-applicable)`r if_style`  |
+| Citation                      | |
+|        Title                  | [**Required**](#title)`r req_style`^\*^|
+|        Dates (multiple)       | [If Applicable](#dates-if-applicable)`r if_style`  |
+|        Responsible Parties (multiple)  | [**Required**](#responsible-parties-required)`r req_style`^\*^ |
+|        Online Resource        | |
+|               Name            | [If Applicable](#online-resource)`r if_style`  |
+|               URL             | [If Applicable](#online-resource)`r if_style`  |
+|               Function        | [If Applicable](#online-resource)`r if_style`  |
+|        Identifier             | |
+|               Identifier      | [**Required**](#metadata-identifier-required)`r req_style`  |
+|               Namespace       | [**Required**](#metadata-namespace-required)`r req_style`   |
+| Description                   | |
+|        Abstract               | [**Required**](#abstract)`r req_style`^\*^     |
+| Time Period                   | |
+|        Start Date             | [If Applicable](#time-period)`r if_style`      |
+|        End Date               | [**Required**](#time-period)`r req_style`^\*^  |
+: {.striped .hover .bordered .sm .allborder} 
 <br/>
 
 ## Basic Information
 
-### Record ID
+### Record ID [(Auto-generated)]`r other_style`
 
-Will be auto-generated but can be edited.
+The **Record ID** will be auto-generated. It can be edited but it should only be
+edited if absolutely necessary (and ideally edited as soon as the record is
+created in mdEditor).
 
-### Title
+### Title [(Required)]`r req_style`
 
 Enter as informative a **Title** as possible. Good titles, when they appear in a
 search, will be understood and/or traceable.
 
-### Status
+### Status [(Required)]`r req_style`
 
 The **Status** drop-down menu allows you to select the status of your project.
 Choose a status from <u>only these four</u> options: ***accepted***, 
@@ -53,7 +78,7 @@ Choose a status from <u>only these four</u> options: ***accepted***,
 
 ![](../../assets/basic_information.png)
 
-## Default Locale
+## Default Locale [(Required)]`r req_style`
 
 **Default Locale** allows for the selection of **Language**, **Character Set**,
 and **Country**. English, UTF-8, and USA will be selected by default, but you
@@ -61,7 +86,7 @@ may change them if necessary. See [Settings](../settings.qmd) for instruction.
 
 ![](../../assets/default_locale.png)
 
-## Resource Types
+## Resource Types [(Required)]`r req_style`
 
 The **Resource Type** must be identified when the record is created. Products must
 be identified from the list of options, but 'product', while on the list, is not
@@ -73,7 +98,7 @@ optional - you can leave this blank or enter a shorten project name.
 Products must have a specific resource type selected, NOT just "product". 
 :::
 
-## Point of Contacts
+## Point of Contacts [(Required)]`r req_style`
 
 Adding a point of contact gives staff information on who to contact should they
 have a question regarding your project or product. From the **Role** drop-down
@@ -84,13 +109,13 @@ section for information on creating contacts.
 
 | Role                | Contact                                        | Required?               |
 |:----------------------|:---------------------------------------|:--------------------------|
-| pointOfContact        | FWS Science Applications National Data Steward | [**Required**]`r required_style`                |
-| pointOfContact        | Data Steward                                   | [**Required**]`r required_style`                |
-| principalInvestigator | The Project PI                                 | [**Required, if applicable**]`r req_if_app_style` |
-| custodian             | Data Custodian                                 | [**Required, if applicable**]`r req_if_app_style`  |
-| administrator         | Data Trustee                                   | [**Required**]`r required_style`                |
-| administrator         | FWS Region (legacy and DOI Unified)            | [**Required**]`r required_style`                |
-| collaborator          | partnership organizations and/or programs      | [**Required, if applicable**]`r req_if_app_style`  |
+| pointOfContact        | FWS Science Applications National Data Steward | [**Required**]`r req_style`                |
+| pointOfContact        | Data Steward                                   | [**Required**]`r req_style`                |
+| principalInvestigator | The Project PI                                 | [**If applicable**]`r if_style` |
+| custodian             | Data Custodian                                 | [**If applicable**]`r if_style`  |
+| administrator         | Data Trustee                                   | [**Required**]`r req_style`                |
+| administrator         | FWS Region (legacy and DOI Unified)            | [**Required**]`r req_style`                |
+| collaborator          | partnership organizations and/or programs      | [**If applicable**]`r if_style`  |
 : {.striped .hover .bordered .md .allborder}  
 
 <br/>
@@ -113,21 +138,22 @@ search for items that contain said information.
 
 The following fields are required in citation:
 
-#### Title
+#### Title [(Required)]`r req_style`
 
-Added automatically based on the title of your record.
+The citation **Title** is automatically populated with the Basis Information
+section's Title.
 
-#### Alternate Title
+#### Alternate Title [(If desired)]`r best_style`
 
 Add an **Alternate Title*.
 
-#### Dates
+#### Dates [(Required)]`r req_style`
 
 Enter ***acquisition***, ***creation***, ***updated***, ***revision***, or 
 ***publication*** date reference from the picklist and then enter the date. 
 <u>At least one </u> of these date types is required.
 
-#### Responsible Parties
+#### Responsible Parties [(Required)]`r req_style`
 
 This must include a point of contact, but may also include other responsible
 parties such as funders, partners, collaborators, and
@@ -136,8 +162,8 @@ contributors could be intellectual and financial participants.
 
 | Role                    | Contact         | Required?     |
 |:------------------------|:----------------|:--------------|
-| principalInvestigator   | Data Creator    | [**Required**]`r required_style`  |
-| coPrincipalInvestigator | Data Co-Creator | [Best Practice]`r required_style` |
+| principalInvestigator   | Data Creator    | [**Required**]`r req_style`  |
+| coPrincipalInvestigator | Data Co-Creator | [Best Practice]`r req_style` |
 : {.striped .hover .bordered .md .allborder}  
 
 <br/>
@@ -147,7 +173,7 @@ For items that will be sent to data.gov, only the first
 in the list of Responsible Parties (#0) will appear. 
 :::
 
-#### Online Resource
+#### Online Resource [(If applicable)]`r if_style`
 
 Enter the **Name** and **URL** for the location where users can find the product 
 (e.g., ScienceBase page or DOI url). Data.gov refers to this online resource 
@@ -202,14 +228,14 @@ Records](../metadata_file_management/copy_records.qmd) section of this
 manual to learn how to make a copy.
 :::
 
-## Description
+## Description 
 
 **Description** allows for the addition of the **Abstract** as well as a Short
 Abstract, Purpose, Supplemental Information, and an Environment Description.
 
-#### Abstract
+#### Abstract [(Required)]`r req_style`
 
-Enter an **Abstract**
+Enter an **Abstract**.
 
 ::: {.callout-note} 
  Tip: Write your abstracts for projects in the present
@@ -226,7 +252,9 @@ communications that Office of Communications may find helpful.
 
 Enter comments, if desired.
 
-## Time Period
+## Time Period 
+
+### Dates [(If available)]`r if_style`
 
 **Time Period** refers to project start and end date, or the date that the
 product was applicable. For example, the time when a map is valid, date of
