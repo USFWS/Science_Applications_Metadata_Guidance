@@ -397,7 +397,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../content/contact_records/contact_requirements_summary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Project/Product Contact Requirements</span></a>
+ <span class="menu-text">Metadata Record Contact Requirements</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -629,13 +629,12 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#source-required" id="toc-source-required" class="nav-link" data-scroll-target="#source-required">Source (<span style="color:#b50909;"><strong>Required</strong></span>)</a></li>
   <li><a href="#recipient-required" id="toc-recipient-required" class="nav-link" data-scroll-target="#recipient-required">Recipient (<span style="color:#b50909;"><strong>Required</strong></span>)</a></li>
   <li><a href="#other-contacts-required" id="toc-other-contacts-required" class="nav-link" data-scroll-target="#other-contacts-required">Other Contacts (<span style="color:#b50909;"><strong>Required</strong></span>)</a></li>
-  <li><a href="#marked-funding-best-practice" id="toc-marked-funding-best-practice" class="nav-link" data-scroll-target="#marked-funding-best-practice">Marked Funding (<span style="color:#947100;">Best Practice</span>)</a></li>
-  <li><a href="#description-best-practice" id="toc-description-best-practice" class="nav-link" data-scroll-target="#description-best-practice">Description (<span style="color:#947100;">Best Practice</span>)</a></li>
-  <li><a href="#matching-and-in-kind-funds-if-applicable" id="toc-matching-and-in-kind-funds-if-applicable" class="nav-link" data-scroll-target="#matching-and-in-kind-funds-if-applicable">Matching and In-kind Funds (<span style="color:#947100;">If applicable</span>)</a></li>
+  <li><a href="#marked-funding-if-applicable" id="toc-marked-funding-if-applicable" class="nav-link" data-scroll-target="#marked-funding-if-applicable">Marked Funding (<span style="color:#947100;">If applicable</span>)</a></li>
   </ul></li>
   <li><a href="#time-period" id="toc-time-period" class="nav-link" data-scroll-target="#time-period">Time Period</a>
   <ul class="collapse">
   <li><a href="#dates-required" id="toc-dates-required" class="nav-link" data-scroll-target="#dates-required">Dates (<span style="color:#b50909;"><strong>Required</strong></span>)</a></li>
+  <li><a href="#description-best-practice" id="toc-description-best-practice" class="nav-link" data-scroll-target="#description-best-practice">Description (<span style="color:#947100;">Best Practice</span>)</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/usfws/sciapps_metadata_guidance/edit/main/content/project_records/funding_tab_project.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/usfws/sciapps_metadata_guidance/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
@@ -795,8 +794,8 @@ Note
 </div>
 </div>
 </section>
-<section id="marked-funding-best-practice" class="level3">
-<h3 class="anchored" data-anchor-id="marked-funding-best-practice">Marked Funding (<span style="color:#947100;">Best Practice</span>)</h3>
+<section id="marked-funding-if-applicable" class="level3">
+<h3 class="anchored" data-anchor-id="marked-funding-if-applicable">Marked Funding (<span style="color:#947100;">If applicable</span>)</h3>
 <p>In some cases, funds are marked for specific activities and include reporting requirements that accompany the funding allocations. For example, EPA allocates Great Lakes Restoration Initiative (GLRI) funds on behalf of Congress to FWS, among others. FWS then distributes the funds across programs for use. The Gulf Coast Restore funds are a similar case. This funding flow can be tracked and aggregated with the Funding Other Contacts. Add the Name of the funding source as an organization contact and add the funding source as the “<em>funder</em>” in Funding Other Contacts.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -804,26 +803,7 @@ Note
 <figcaption>Example of organizational fund contact entry</figcaption>
 </figure>
 </div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../assets/example_funding_entry.png" class="img-fluid figure-img"></p>
-<figcaption>Example of organizational fund entry in Funding metadata entry</figcaption>
-</figure>
-</div>
-</section>
-<section id="description-best-practice" class="level3">
-<h3 class="anchored" data-anchor-id="description-best-practice">Description (<span style="color:#947100;">Best Practice</span>)</h3>
-<p>In order to better integrate budgeting records and align with activity tracking priorities, add the <strong><em>FWS Sub-Activity</em></strong>, <strong><em>Funding Codes</em></strong>, and <strong><em>Agreement Type</em></strong> to the Description.</p>
-<p>For example, the text entry may look like this: FWS sub-activity 1420, fundcode 190, contract. If funds are provided from multiple sub-activities, please add this in the description (i.e.&nbsp;FWS sub-activity 1430, fundcode 170, $30,000: sub-activity 1420, fundcode 170, $10,000). At some point in the future, mdEditor may include additional fields for these values.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../assets/example_budgeting_infomation.png" class="img-fluid figure-img"></p>
-<figcaption>Example budgeting information in Allocation Description</figcaption>
-</figure>
-</div>
-</section>
-<section id="matching-and-in-kind-funds-if-applicable" class="level3">
-<h3 class="anchored" data-anchor-id="matching-and-in-kind-funds-if-applicable">Matching and In-kind Funds (<span style="color:#947100;">If applicable</span>)</h3>
+<p><img src="../../assets/example_funding_entry.png" class="img-fluid" alt="Example of organizational fund entry in Funding metadata entry"> ### Matching and In-kind Funds (<span style="color:#947100;">If applicable</span>)</p>
 <p>Project funds or in-kind support that were supplied by a partner (i.e., not specifically allocated to SA) should be included as an allocation as described above, but with the matching fund box checked. Each matching fund provider needs to be included as a separate allocation.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -852,6 +832,17 @@ Tip
 </div>
 </div>
 <p><img src="../../assets/project_funding_timeperiod.png" class="img-fluid"></p>
+</section>
+<section id="description-best-practice" class="level3">
+<h3 class="anchored" data-anchor-id="description-best-practice">Description (<span style="color:#947100;">Best Practice</span>)</h3>
+<p>In order to better integrate budgeting records and align with activity tracking priorities, add the <strong><em>FWS Sub-Activity</em></strong>, <strong><em>Funding Codes</em></strong>, and <strong><em>Agreement Type</em></strong> to the Description.</p>
+<p>For example, the text entry may look like this: FWS sub-activity 1420, fundcode 190, contract. If funds are provided from multiple sub-activities, please add this in the description (i.e.&nbsp;FWS sub-activity 1430, fundcode 170, $30,000: sub-activity 1420, fundcode 170, $10,000). At some point in the future, mdEditor may include additional fields for these values.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../assets/example_budgeting_infomation.png" class="img-fluid figure-img"></p>
+<figcaption>Example budgeting information in Allocation Description</figcaption>
+</figure>
+</div>
 <p>Example of multiple allocations across several fiscal years for a single project record.</p>
 <p><img src="../../assets/project_funding_list.png" class="img-fluid"></p>
 

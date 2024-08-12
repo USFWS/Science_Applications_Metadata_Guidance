@@ -397,7 +397,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../content/contact_records/contact_requirements_summary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Project/Product Contact Requirements</span></a>
+ <span class="menu-text">Metadata Record Contact Requirements</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -627,12 +627,12 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#default-locale-required" id="toc-default-locale-required" class="nav-link" data-scroll-target="#default-locale-required">Default Locale <span style="color:#b50909;">(Required)</span></a></li>
   <li><a href="#resource-types-required" id="toc-resource-types-required" class="nav-link" data-scroll-target="#resource-types-required">Resource Types <span style="color:#b50909;">(Required)</span></a></li>
-  <li><a href="#point-of-contacts-required" id="toc-point-of-contacts-required" class="nav-link" data-scroll-target="#point-of-contacts-required">Point of Contacts <span style="color:#b50909;">(Required)</span></a></li>
+  <li><a href="#points-of-contact-required" id="toc-points-of-contact-required" class="nav-link" data-scroll-target="#points-of-contact-required">Points of Contact <span style="color:#b50909;">(Required)</span></a></li>
   <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation">Citation</a></li>
   <li><a href="#description" id="toc-description" class="nav-link" data-scroll-target="#description">Description</a></li>
   <li><a href="#time-period" id="toc-time-period" class="nav-link" data-scroll-target="#time-period">Time Period</a>
   <ul class="collapse">
-  <li><a href="#dates-if-available" id="toc-dates-if-available" class="nav-link" data-scroll-target="#dates-if-available">Dates <span style="color:#947100;">(If available)</span></a></li>
+  <li><a href="#start-date-and-end-date-required" id="toc-start-date-and-end-date-required" class="nav-link" data-scroll-target="#start-date-and-end-date-required">Start Date and End Date <span style="color:#947100;">(Required)</span></a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/usfws/sciapps_metadata_guidance/edit/main/content/product_records/main_tab_product.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/usfws/sciapps_metadata_guidance/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
@@ -661,8 +661,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>The <strong>Main</strong> tab allows for the creation and/or editing of primary metadata.</p>
-<table class="caption-top table">
-<caption>{.striped .hover .bordered .sm .allborder} <br></caption>
+<table class="table-striped table-hover table-bordered table-sm allborder small caption-top table">
 <thead>
 <tr class="header">
 <th style="text-align: left;">Metadata Field</th>
@@ -784,6 +783,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
+<p><br></p>
 <section id="basic-information" class="level2">
 <h2 class="anchored" data-anchor-id="basic-information">Basic Information</h2>
 <section id="record-id-auto-generated" class="level3">
@@ -822,9 +822,10 @@ Note
 </div>
 </div>
 </section>
-<section id="point-of-contacts-required" class="level2">
-<h2 class="anchored" data-anchor-id="point-of-contacts-required">Point of Contacts <span style="color:#b50909;">(Required)</span></h2>
+<section id="points-of-contact-required" class="level2">
+<h2 class="anchored" data-anchor-id="points-of-contact-required">Points of Contact <span style="color:#b50909;">(Required)</span></h2>
 <p>Adding a point of contact gives staff information on who to contact should they have a question regarding your project or product. From the <strong>Role</strong> drop-down menu, select <strong>pointOfContact</strong>. From the <strong>Contacts</strong> drop-down menu, select a contact from the list of contacts. See the <a href="../../content/contact_records/contact_records_overview.html">Contact Records</a> section for information on creating contacts.</p>
+<p>Add additional Points of Contact as listed in the table below.</p>
 <table class="table-striped table-hover table-bordered md allborder caption-top table">
 <colgroup>
 <col style="width: 25%">
@@ -1062,12 +1063,9 @@ Note
 </section>
 <section id="time-period" class="level2">
 <h2 class="anchored" data-anchor-id="time-period">Time Period</h2>
-<section id="dates-if-available" class="level3">
-<h3 class="anchored" data-anchor-id="dates-if-available">Dates <span style="color:#947100;">(If available)</span></h3>
-<p><strong>Time Period</strong> refers to project start and end date, or the date that the product was applicable. For example, the time when a map is valid, date of publication, date of presentation, or dates when the data was collected.</p>
-<ul>
-<li><strong>Required</strong>: For each product, add a start date and end date.</li>
-</ul>
+<section id="start-date-and-end-date-required" class="level3">
+<h3 class="anchored" data-anchor-id="start-date-and-end-date-required">Start Date and End Date <span style="color:#947100;">(Required)</span></h3>
+<p><strong>Time Period</strong> refers to when date the product was applicable, For example, the time when a map is valid, date of publication, date of presentation, or dates when the data was collected. For each product, enter a <strong>Start Date</strong> and <strong>End Date</strong>.</p>
 <p><img src="../../assets/example_time_period.png" class="img-fluid"></p>
 
 
