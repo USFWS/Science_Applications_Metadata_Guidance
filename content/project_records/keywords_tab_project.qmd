@@ -107,7 +107,7 @@ Choose all that apply. The list of options includes the following:
 
 <br/>
 
-### Science Topic ([**Required**]`r req_style`)
+### SA Science Topic ([**Required**]`r req_style`)
 
 Choose all that apply. The list of options includes the following:
 
@@ -141,7 +141,7 @@ Choose all that apply. The list of options includes the following:
 
 <br/>
 
-### Conservation Action Open Standard ([Requied, if applicable**]`r if_style`)
+### Conservation Action Open Standard ([If applicable**]`r if_style`)
 
 The Open Standards for the Practice of Conservation is a globally utilized
 nomenclature for conservation. Including these keywords helps to align the work
@@ -195,7 +195,7 @@ keywords for conservation actions are as listed:
 
 <br/>
 
-### GCMD ([Best Practice]`r if_style`)
+### Global Change Master Directory (GCMD) ([Best Practice]`r if_style`)
 
 **GCMD** stands for Global Change Master Directory and these keywords are 
 maintained by NASA. Look for useful keywords in the GCMD Science Keywords. 

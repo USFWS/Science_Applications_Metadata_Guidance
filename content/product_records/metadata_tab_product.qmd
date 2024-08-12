@@ -38,6 +38,7 @@ metadata, and metadata repositories.
 | Parent Metadata         | [**Required**](#parent-metadata)`r req_style`|
 | Metadata Repositories   | [**Required**](#metadata-repositories)`r req_style`|
 : {.striped .hover .bordered .sm .allborder}  
+
 <br/>
 
 ## Basic Information

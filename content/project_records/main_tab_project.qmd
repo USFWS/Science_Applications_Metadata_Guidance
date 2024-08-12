@@ -97,17 +97,16 @@ enter a shorten project name.
 
 ![](../../assets/resource_types.png)
 
-## Points of Contacts [(Required)]`r req_style`
+## Points of Contact [(Required)]`r req_style`
 
-Adding a **Point of Contact** gives users information on who to contact should
-they have a question regarding your project or product.
+Adding a point of contact gives staff information on who to contact should they
+have a question regarding your project or product. From the **Role** drop-down
+menu, select **pointOfContact**. From the **Contacts** drop-down menu, select a
+contact from the list of contacts. See the 
+[Contact Records](../contact_records/contact_records_overview.qmd) 
+section for information on creating contacts.
 
-:::{.callout-note icon=false} 
-To add contacts to a metadata record, you must first create/upload the contacts
-into mdEditor. See the [Contact
-Records](../contact_records/contact_records_overview.qmd) Section for more
-information.
-:::
+Add additional Points of Contact as listed in the table below.
 
 | Role                  | Contact                                          | Requirements                   |
 |---------------------|----------------------------------------|---------------------|
@@ -242,7 +241,7 @@ For the **Supplemental Information** enter comments, if desired.
 
 ## Time Period 
 
-### Dates [(Required)]`r req_style`
+### Start Date and End Date [(Required)]`r if_style`
 
 For each project, add a **Start Date** and **End Date**. If the project 
 spanned a single fiscal year, you can use the “Pick a Fiscal Year” drop-down to 

@@ -37,6 +37,7 @@ clear results of projects and products.
 | Conservation Action Open Standard | [If Applicable](#conservation-action-open-standard-if-applicable)`r if_style` |    
 | Global Change Master Directory (GCMD) | [Best Practice](#global-change-master-directory-gcmd-best-practice)`r best_style` |
 : {.striped .hover .bordered .sm .allborder}   
+
 <br/>
 
 ## To add Keywords to your Product Record
@@ -108,7 +109,7 @@ Choose all that apply. The list of options includes the following:
 
 <br/>
 
-### Science Topic ([**Required**]`r req_style`)
+### SA Science Topic ([**Required**]`r req_style`)
 
 Choose all that apply. The list of options includes the following:
 
@@ -196,7 +197,7 @@ keywords for conservation actions are as listed:
 
 <br/>
 
-### Global Change Master Directory (GCMD) ([Best Practice])`r if_style`
+### Global Change Master Directory (GCMD) ([Best Practice])`r best_style`
 
 **GCMD** stands for Global Change Master Directory and these keywords are 
 maintained by NASA. Look for useful keywords in the GCMD Science Keywords. 

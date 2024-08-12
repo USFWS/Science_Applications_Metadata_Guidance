@@ -21,7 +21,6 @@ best_style <- paste0('{style="color:', best_practice_color, ';"}')
 other_style <- paste0('{style="color:', best_practice_color, ';"}')
 ```
 
-
 The **Main** tab allows for the creation and/or editing of primary metadata.
 
 | Metadata Field                | Product Records   |
@@ -55,6 +54,7 @@ The **Main** tab allows for the creation and/or editing of primary metadata.
 |        Start Date             | [If Applicable](#time-period)`r if_style`      |
 |        End Date               | [**Required**](#time-period)`r req_style`^\*^  |
 : {.striped .hover .bordered .sm .allborder} 
+
 <br/>
 
 ## Basic Information
@@ -98,7 +98,7 @@ optional - you can leave this blank or enter a shorten project name.
 Products must have a specific resource type selected, NOT just "product". 
 :::
 
-## Point of Contacts [(Required)]`r req_style`
+## Points of Contact [(Required)]`r req_style`
 
 Adding a point of contact gives staff information on who to contact should they
 have a question regarding your project or product. From the **Role** drop-down
@@ -106,6 +106,8 @@ menu, select **pointOfContact**. From the **Contacts** drop-down menu, select a
 contact from the list of contacts. See the 
 [Contact Records](../contact_records/contact_records_overview.qmd) 
 section for information on creating contacts.
+
+Add additional Points of Contact as listed in the table below.
 
 | Role                | Contact                                        | Required?               |
 |:----------------------|:---------------------------------------|:--------------------------|
@@ -254,12 +256,12 @@ Enter comments, if desired.
 
 ## Time Period 
 
-### Dates [(If available)]`r if_style`
+### Start Date and End Date [(Required)]`r if_style`
 
-**Time Period** refers to project start and end date, or the date that the
-product was applicable. For example, the time when a map is valid, date of
-publication, date of presentation, or dates when the data was collected.
+**Time Period** refers to when date the product was applicable, For example, 
+the time when a map is valid, date of publication, date of presentation, or 
+dates when the data was collected. For each product, enter a **Start Date** and 
+**End Date**. 
 
--   **Required**: For each product, add a start date and end date.
 
 ![](../../assets/example_time_period.png)

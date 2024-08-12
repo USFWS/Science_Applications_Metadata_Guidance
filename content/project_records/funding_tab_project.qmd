@@ -124,7 +124,7 @@ Service can be identified as the funding source and the funding administrator
 may also include "Ecological Services" or a specific field office.
 :::
 
-### Marked Funding ([Best Practice]`r if_style`)
+### Marked Funding ([If applicable]`r if_style`)
 
 In some cases, funds are marked for specific activities and include reporting
 requirements that accompany the funding allocations. For example, EPA allocates
@@ -138,22 +138,6 @@ Funding Other Contacts.
 ![Example of organizational fund contact entry](../../assets/example_organizational_contact.png)
 
 ![Example of organizational fund entry in Funding metadata entry](../../assets/example_funding_entry.png)
-
-### Description ([Best Practice]`r if_style`)
-
-In order to better integrate budgeting records and align with activity tracking
-priorities, add the ***FWS Sub-Activity***, ***Funding Codes***, and 
-***Agreement Type*** to the Description. 
-
-For example, the text entry may look like this:
-FWS sub-activity 1420, fundcode 190, contract. If funds are provided from
-multiple sub-activities, please add this in the description (i.e. FWS
-sub-activity 1430, fundcode 170, \$30,000: sub-activity 1420, fundcode 170,
-\$10,000). At some point in the future, mdEditor may include additional fields
-for these values.
-
-![Example budgeting information in Allocation Description](../../assets/example_budgeting_infomation.png)
-
 ### Matching and In-kind Funds ([If applicable]`r if_style`)
 
 Project funds or in-kind support that were supplied by a partner (i.e., not
@@ -178,6 +162,23 @@ Use the “Pick a Fiscal Year” dropdown to autofill the date fields.
 :::
 
 ![](../../assets/project_funding_timeperiod.png)
+
+
+### Description ([Best Practice]`r if_style`)
+
+In order to better integrate budgeting records and align with activity tracking
+priorities, add the ***FWS Sub-Activity***, ***Funding Codes***, and 
+***Agreement Type*** to the Description. 
+
+For example, the text entry may look like this:
+FWS sub-activity 1420, fundcode 190, contract. If funds are provided from
+multiple sub-activities, please add this in the description (i.e. FWS
+sub-activity 1430, fundcode 170, \$30,000: sub-activity 1420, fundcode 170,
+\$10,000). At some point in the future, mdEditor may include additional fields
+for these values.
+
+![Example budgeting information in Allocation Description](../../assets/example_budgeting_infomation.png)
+
 
 Example of multiple allocations across several fiscal years for a single project
 record.

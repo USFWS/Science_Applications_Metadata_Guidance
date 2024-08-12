@@ -87,7 +87,7 @@ website:
         href: content/contact_records/contact_records_overview.qmd
         contents:
           - href: content/contact_records/contact_requirements_summary.qmd
-            text: "Project/Product Contact Requirements"
+            text: "Metadata Record Contact Requirements"
           - content/contact_records/individual_contacts.qmd
           - content/contact_records/organization_contacts.qmd
       - section: "Co-Funded Projects"

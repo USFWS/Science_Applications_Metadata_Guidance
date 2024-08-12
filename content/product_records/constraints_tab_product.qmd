@@ -55,12 +55,12 @@ Typically files used will be public domain, but not always.
 
 ## Legal
 
-### Access Constraints ([**Required**])`r req_style`
+### Access Constraints [(**Required**)]`r req_style`
 Access constraints are applied to assure the protection of privacy or 
 intellectual property and any special restrictions or limitations on obtaining 
 the resource.
 
-### Use Constraints ([If applicable])`r if_style`
+### Use Constraints [(If applicable)]`r if_style`
 How the product should be used.
 
 ### Other constraints 
@@ -108,7 +108,7 @@ https://creativecommons.org/publicdomain/zero/1.0/
 
 ### Security Constraints 
 
-#### Classification ([If applicable])`r if_style`
+#### Classification [(If applicable)]`r if_style`
 
 A place to describe constraints or restrictions pertaining to security
 of the resource. Choose security classification from the drop-down menu. 

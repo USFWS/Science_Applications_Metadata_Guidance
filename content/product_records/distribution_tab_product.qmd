@@ -42,6 +42,7 @@ sent to data.gov.
 |               URI           | [If Applicable](#uri-if-applicable)`r if_style`    |
 |               Function      | [If Applicable](#function-if-applicable)`r if_style`    |
 : {.striped .hover .bordered .sm .allborder}   
+
 <br/>
 
 Click **Add Distribution Section** and then **Edit Distributors** to begin
