@@ -397,7 +397,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../content/contact_records/contact_requirements_summary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Project/Product Contact Requirements</span></a>
+ <span class="menu-text">Metadata Record Contact Requirements</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -624,11 +624,11 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#use-limitation" id="toc-use-limitation" class="nav-link" data-scroll-target="#use-limitation">Use Limitation</a></li>
   <li><a href="#legal" id="toc-legal" class="nav-link" data-scroll-target="#legal">Legal</a>
   <ul class="collapse">
-  <li><a href="#access-constraints-required" id="toc-access-constraints-required" class="nav-link" data-scroll-target="#access-constraints-required">Access Constraints ([<strong>Required</strong>])</a></li>
-  <li><a href="#use-constraints-if-applicable" id="toc-use-constraints-if-applicable" class="nav-link" data-scroll-target="#use-constraints-if-applicable">Use Constraints ([If applicable])</a></li>
+  <li><a href="#access-constraints-required" id="toc-access-constraints-required" class="nav-link" data-scroll-target="#access-constraints-required">Access Constraints <span style="color:#b50909;">(<strong>Required</strong>)</span></a></li>
+  <li><a href="#use-constraints-if-applicable" id="toc-use-constraints-if-applicable" class="nav-link" data-scroll-target="#use-constraints-if-applicable">Use Constraints <span style="color:#947100;">(If applicable)</span></a></li>
   <li><a href="#other-constraints" id="toc-other-constraints" class="nav-link" data-scroll-target="#other-constraints">Other constraints</a></li>
-  </ul></li>
   <li><a href="#security-constraints" id="toc-security-constraints" class="nav-link" data-scroll-target="#security-constraints">Security Constraints</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/usfws/sciapps_metadata_guidance/edit/main/content/product_records/constraints_tab_product.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/usfws/sciapps_metadata_guidance/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -668,7 +668,7 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">Constraint Type</td>
-<td style="text-align: left;"><a href="product_records/constraints_tab_product.qmd#legal" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"><a href="#constraint-type-required" style="color:#b50909;"><strong>Required</strong></a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Legal</td>
@@ -676,11 +676,11 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Access Constraints</td>
-<td style="text-align: left;"><a href="product_records/constraints_tab_product.qmd#legal" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"><a href="#access-constraints-required" style="color:#b50909;"><strong>Required</strong></a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Use Constraints</td>
-<td style="text-align: left;"><a href="product_records/constraints_tab_product.qmd#legal" style="color:#947100;">If Applicable</a></td>
+<td style="text-align: left;"><a href="#use-constraints-if-applicable" style="color:#947100;">If Applicable</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Security</td>
@@ -688,7 +688,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Classification</td>
-<td style="text-align: left;"><a href="product_records/constraints_tab_product.qmd#security" style="color:#947100;">If Applicable</a></td>
+<td style="text-align: left;"><a href="#classification-if-applicable" style="color:#947100;">If Applicable</a></td>
 </tr>
 </tbody>
 </table>
@@ -718,12 +718,12 @@ Note
 </section>
 <section id="legal" class="level2">
 <h2 class="anchored" data-anchor-id="legal">Legal</h2>
-<section id="access-constraints-required" class="level3" style="color:#b50909;">
-<h3 style="color:#b50909;" class="anchored" data-anchor-id="access-constraints-required">Access Constraints ([<strong>Required</strong>])</h3>
+<section id="access-constraints-required" class="level3">
+<h3 class="anchored" data-anchor-id="access-constraints-required">Access Constraints <span style="color:#b50909;">(<strong>Required</strong>)</span></h3>
 <p>Access constraints are applied to assure the protection of privacy or intellectual property and any special restrictions or limitations on obtaining the resource.</p>
 </section>
-<section id="use-constraints-if-applicable" class="level3" style="color:#947100;">
-<h3 style="color:#947100;" class="anchored" data-anchor-id="use-constraints-if-applicable">Use Constraints ([If applicable])</h3>
+<section id="use-constraints-if-applicable" class="level3">
+<h3 class="anchored" data-anchor-id="use-constraints-if-applicable">Use Constraints <span style="color:#947100;">(If applicable)</span></h3>
 <p>How the product should be used.</p>
 </section>
 <section id="other-constraints" class="level3">
@@ -755,9 +755,10 @@ Note
 <h4 class="anchored" data-anchor-id="restricted-access">Restricted Access</h4>
 </section>
 </section>
-</section>
-<section id="security-constraints" class="level2">
-<h2 class="anchored" data-anchor-id="security-constraints">Security Constraints</h2>
+<section id="security-constraints" class="level3">
+<h3 class="anchored" data-anchor-id="security-constraints">Security Constraints</h3>
+<section id="classification-if-applicable" class="level4">
+<h4 class="anchored" data-anchor-id="classification-if-applicable">Classification <span style="color:#947100;">(If applicable)</span></h4>
 <p>A place to describe constraints or restrictions pertaining to security of the resource. Choose security classification from the drop-down menu. For products without restrictions, best practice is to select <strong><em>unclassified</em></strong> from the menu.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -775,6 +776,8 @@ Note
 <p><img src="../../assets/example_security.png" class="img-fluid"></p>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->

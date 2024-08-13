@@ -1,5 +1,5 @@
 ---
-title: "Science Catalog"
+title: "SA Science Catalog"
 subtitle: "Science Applications Program"
 editor: 
   markdown: 
@@ -18,6 +18,37 @@ see what has been funded, which can help prevent duplication of work. The SA
 Science Catalog also enables reporting, such as funding summaries or project 
 examples based on particular geographies, species, organization, year, or other 
 categories of interest.
+
+## MDEditor - SA Science Catalog Crosswalk
+
+This table maps the elements in mdEditor to the equivalent elements 
+in SA Science Catalog. Items will only show up in SA Science Catalog when they 
+have the proper metadata repositories designation
+([Projects](project_records/metadata_tab_project.qmd#metadata-repositories) and
+[Products](product_records/metadata_tab_product.qmd#metadata-repositories)) and 
+have been published to ScienceBase.
+
+### Crosswalk Table
+| Science Catalog      | Project            | Product            | 
+|:---------------------|:-------------------|:-------------------|
+| Resource Type             | [Main Tab: Resource Type](project_records/main_tab_project.qmd#resource-types-required) | [Main Tab: Resource Type](product_records/main_tab_product.qmd#resource-types-required) |
+| Title                     | [Main Tab: Title](project_records/main_tab_project.qmd#title-required)                  | [Main Tab: Title](product_records/main_tab_product.qmd#title-required)                  |
+| Source                    | ScienceBase folder location^1^ | ScienceBase folder location^1^ |
+| Fiscal Years Funded       | [Funding Tab: Allocation: Time Period: Dates](project_records/funding_tab_project.qmd#dates-required) | [Associated Project](product_records/associated_tab_product.qmd)^2^ |
+| Last Update Date          | [Main Tab: Citation: Dates](project_records/main_tab_project.qmd#dates-required)   | [Main Tab: Citation: Dates](product_records/main_tab_product.qmd#dates-required)  |
+| Status                    | [Main Tab: Status](project_records/main_tab_project.qmd#status-required) | [Main Tab: Status](product_records/main_tab_product.qmd#status-required) | 
+| Project Dates (multiple)  | [Main Tab: Citation: Dates](project_records/main_tab_project.qmd#dates-required)   | [Main Tab: Citation: Dates](product_records/main_tab_product.qmd#dates-required)  |
+| Keywords                  | [Keywords Tab](project_records/keywords_tab_project.qmd) | [Keywords Tab](product_records/keywords_tab_product.qmd)  |
+| Contacts                  | [Main Tab: Points of Contact](project_records/main_tab_project.qmd#points-of-contact-required) | [Contacts](product_records/main_tab_product.qmd#points-of-contact-required)|
+| Funding                   | [Funding Tab: Allocation](project_records/funding_tab_project.qmd#funding-allocation) |    |
+| Taxonomy                  | [Taxonomy Tab](project_records/taxonomy_tab_project.qmd#add-taxonomic-system) | [Taxonomy Tab](product_records/taxonomy_tab_product.qmd#add-taxonomic-system)|
+: {.striped .hover .bordered .sm .allborder} 
+
+^1^Items posted in the [USFWS Community](https://www.sciencebase.gov/catalog/item/5011a6bae4b0d78fd4e59bcd) 
+are designated "FWS ScienceBase Community". 
+Items in the [LCC Community](https://www.sciencebase.gov/catalog/item/4f4e476ee4b07f02db47e164) are designated
+by which [Science Applications Region](https://www.sciencebase.gov/catalog/item/5b4e1c3fe4b06a6dd17df2d3) folder they reside.    
+^2^For a Product item, the Fiscal Year is derived from the associated Project.  
 
 ## Architecture
 
