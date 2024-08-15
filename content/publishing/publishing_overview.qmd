@@ -27,7 +27,8 @@ The following describes what happens when you publish from mdEditor:
 
 1.  mdEditor outputs an mdJSON file.
 2.  The mdJSON file is transmitted via a web service to mdTranslator.
-3.  mdTranslator translates the mdJSON file into a sbJSON file and an XML file.
+3.  mdTranslator translates the mdJSON file into a sbJSON file and two XML files:
+    metadata.xml (ISO 19915-2) and metadata_iso1.xml (IS 19115-1).
 4.  ScienceBase imports the sbJSON and attaches the XML and mdJSON files to the
     ScienceBase item.
 5.  The record is sent to data.doi.gov and the SA Science Catalog, if the
