@@ -22,7 +22,7 @@ categories of interest.
 ## SA Science Catalog and mdEditor
 
 This sections shows the elements in the SA Science Catalog and where they are
-derived from in mdEditor. Items will only show up in SA Science Catalog when they 
+derived in mdEditor. Items will only show up in SA Science Catalog when they 
 have the proper metadata repositories designation
 ([Projects](project_records/metadata_tab_project.qmd#metadata-repositories) and
 [Products](product_records/metadata_tab_product.qmd#metadata-repositories)) and 
@@ -33,8 +33,8 @@ have been published to ScienceBase.
 |:---------------------|:-------------------|:-------------------|
 | **Resource Type**    | [Main Tab: Resource Type](project_records/main_tab_project.qmd#resource-types-required) | [Main Tab: Resource Type](product_records/main_tab_product.qmd#resource-types-required) |
 | **Title**                    | [Main Tab: Title](project_records/main_tab_project.qmd#title-required)                  | [Main Tab: Title](product_records/main_tab_product.qmd#title-required)                  |
-| **Source**                   | ScienceBase folder location^1^ | ScienceBase folder location^1^ |
-| **Fiscal Years Funded**      | [Funding Tab: Allocation: Time Period: Dates](project_records/funding_tab_project.qmd#dates-required) | [Associated Project](product_records/associated_tab_product.qmd)^2^ |
+| **Source**                   | ScienceBase folder location^**1**^ | ScienceBase folder location^**1**^ |
+| **Fiscal Years Funded**      | [Funding Tab: Allocation: Time Period: Dates](project_records/funding_tab_project.qmd#dates-required) | [Associated Project](product_records/associated_tab_product.qmd)^**2**^ |
 | **Last Update Date**         | [Main Tab: Citation: Dates](project_records/main_tab_project.qmd#dates-required)   | [Main Tab: Citation: Dates](product_records/main_tab_product.qmd#dates-required)  |
 | **Status**                   | [Main Tab: Status](project_records/main_tab_project.qmd#status-required) | [Main Tab: Status](product_records/main_tab_product.qmd#status-required) | 
 | **Project Dates (multiple)** | [Main Tab: Citation: Dates](project_records/main_tab_project.qmd#dates-required)   | [Main Tab: Citation: Dates](product_records/main_tab_product.qmd#dates-required)  |
@@ -45,16 +45,15 @@ have been published to ScienceBase.
 : {.striped .hover .bordered .sm .allborder} 
 
 ::: {style="font-size: 80%;"}
-^1^ Items posted in the [USFWS Community](https://www.sciencebase.gov/catalog/item/5011a6bae4b0d78fd4e59bcd) 
-are designated "FWS ScienceBase Community". 
-Items in the [LCC Community](https://www.sciencebase.gov/catalog/item/4f4e476ee4b07f02db47e164) are designated
-by which [Science Applications Region](https://www.sciencebase.gov/catalog/item/5b4e1c3fe4b06a6dd17df2d3) folder they reside.    
-^2^ For a Product item, the **Fiscal Year** is derived from the associated Project item.  
+^**1**^ Items in ScienceBase's [USFWS Community](https://www.sciencebase.gov/catalog/item/5011a6bae4b0d78fd4e59bcd) 
+are designated as "FWS ScienceBase Community". 
+Items in ScienceBase's [LCC Community](https://www.sciencebase.gov/catalog/item/4f4e476ee4b07f02db47e164) are designated based 
+on their top-level [Science Applications Region](https://www.sciencebase.gov/catalog/item/5b4e1c3fe4b06a6dd17df2d3) folder's name.    
+^**2**^ For a Product item, the **Fiscal Year** is derived from the associated Project item.  
 :::
 
-
 ::: {.callout-note title="Note"} 
-The SA Science Catalog displays entries in descending order of **Last Update Date**.
+The SA Science Catalog entries are displayed in descending order of **Last Update Date**.
 :::
 
 ## Architecture
