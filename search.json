@@ -1104,7 +1104,17 @@
     "href": "content/trouble_shooting/trouble_shooting_overview.html",
     "title": "Trouble-Shooting: Overview",
     "section": "",
-    "text": "Occasionally, an item may seem to publish correctly to ScienceBase when if fact, the mdJSON did not publish. ScienceBase items without mdJSON file attachements are not in the Science Catalog nor will the automated QA/QC checks identify issues with those records. It is strongly recommended that you check the ScienceBase scanner for any SB records that are missing mdJSON and re-publish those records before proceeding through metadata improvements. Remember that newly-published mdJSON will not be reflected in the Science Catalog until the following day (it updates daily overnight).",
+    "text": "If you would like to provide feedback (e.g., comments, suggestions, etc.) about this guidance, you can use this online form.\nIf you’d like to give direct feedback through Github, please consider reporting an issue or submitting edits through a pull request. However, in order to access these functions, you will be required to sign in or create an account with Github.",
+    "crumbs": [
+      "Trouble-Shooting"
+    ]
+  },
+  {
+    "objectID": "content/trouble_shooting/trouble_shooting_overview.html#issues-or-feedback-for-the-guidance",
+    "href": "content/trouble_shooting/trouble_shooting_overview.html#issues-or-feedback-for-the-guidance",
+    "title": "Trouble-Shooting: Overview",
+    "section": "",
+    "text": "If you would like to provide feedback (e.g., comments, suggestions, etc.) about this guidance, you can use this online form.\nIf you’d like to give direct feedback through Github, please consider reporting an issue or submitting edits through a pull request. However, in order to access these functions, you will be required to sign in or create an account with Github.",
     "crumbs": [
       "Trouble-Shooting"
     ]
@@ -1113,8 +1123,18 @@
     "objectID": "content/trouble_shooting/trouble_shooting_overview.html#records-fail-to-update-to-the-sa-science-catalog",
     "href": "content/trouble_shooting/trouble_shooting_overview.html#records-fail-to-update-to-the-sa-science-catalog",
     "title": "Trouble-Shooting: Overview",
+    "section": "Records fail to update to the SA Science Catalog",
+    "text": "Records fail to update to the SA Science Catalog\nOccasionally, an item may seem to publish correctly to ScienceBase when if fact, the mdJSON did not publish. ScienceBase items without mdJSON file attachments are not in the Science Catalog. Remember that newly-published mdJSON will not be reflected in the Science Catalog until the following day (it updates daily overnight).",
+    "crumbs": [
+      "Trouble-Shooting"
+    ]
+  },
+  {
+    "objectID": "content/trouble_shooting/trouble_shooting_overview.html#section",
+    "href": "content/trouble_shooting/trouble_shooting_overview.html#section",
+    "title": "Trouble-Shooting: Overview",
     "section": "",
-    "text": "Occasionally, an item may seem to publish correctly to ScienceBase when if fact, the mdJSON did not publish. ScienceBase items without mdJSON file attachements are not in the Science Catalog nor will the automated QA/QC checks identify issues with those records. It is strongly recommended that you check the ScienceBase scanner for any SB records that are missing mdJSON and re-publish those records before proceeding through metadata improvements. Remember that newly-published mdJSON will not be reflected in the Science Catalog until the following day (it updates daily overnight).",
+    "text": "If you have questions or issues that you feel may not be addressed in this guidance, please contact the FWS SA National Data Steward (sadatasteward@fws.gov) or Blake Massey (blake_massey@fws.gov).",
     "crumbs": [
       "Trouble-Shooting"
     ]
@@ -1540,7 +1560,7 @@
     "href": "index.html#how-to-use-this-manual",
     "title": "USFWS Science Applications Metadata Guidance",
     "section": "How to Use this Manual",
-    "text": "How to Use this Manual\nThe recommended way to use this manual is directly accessing the pages from the internet. By doing so, you guarantee you are using the current version. This is a living document and will be updated as needed. The online version will also have the best functionality and graphical display.\nThis is a living document and will continue to be edited. Please refresh this manual every time you open it to ensure you are viewing the most recent version. Last updated: 15 August, 2024. If you have questions or concerns regarding this guidance, please contact the FWS SA National Data Steward (sadatasteward@fws.gov) or Blake Massey (blake_massey@fws.gov).\nIf you’d like to give direct feedback, please consider reporting an issue or submitting edits through a pull request. However, in order to access these functions, you will be required to sign in or create an account with Github.",
+    "text": "How to Use this Manual\nThe recommended way to use this manual is directly accessing the pages from the internet. By doing so, you guarantee you are using the current version. This is a living document and will be updated as needed. The online version will also have the best functionality and graphical display.\nThis is a living document and will continue to be edited. Please refresh this manual every time you open it to ensure you are viewing the most recent version. Last updated: 03 September, 2024.\nIf you would like to provide feedback (e.g., comments, suggestions, etc.) about this guidance, you can use this online form.\nIf you’d like to give direct feedback through Github, please consider reporting an issue or submitting edits through a pull request. However, in order to access these functions, you will be required to sign in or create an account with Github.",
     "crumbs": [
       "Introduction"
     ]
