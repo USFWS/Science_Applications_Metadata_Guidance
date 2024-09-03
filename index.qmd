@@ -66,12 +66,13 @@ also have the best functionality and graphical display.
 
 This is a living document and will continue to be edited. Please refresh 
 this manual every time you open it to ensure you are viewing the most recent 
-version. **Last updated:** **`r todays_date`**. If you have questions or 
-concerns regarding this guidance, please contact the FWS SA National Data Steward
-(sadatasteward@fws.gov) or Blake Massey (blake_massey@fws.gov).
+version. **Last updated:** **`r todays_date`**. 
 
-If you’d like to give direct feedback, please consider reporting an
-[issue](https://github.com/USFWS/sciapps_metadata_guidance/issues/new) 
+If you would like to provide feedback (e.g., comments, suggestions, etc.) about
+this guidance, you can use this [online form](https://forms.office.com/g/xtkDZ3rQjW).  
+
+If you’d like to give direct feedback through Github, please consider reporting 
+an [issue](https://github.com/USFWS/sciapps_metadata_guidance/issues/new) 
 or submitting edits through a 
 [pull request](https://github.com/USFWS/sciapps_metadata_guidance). However, 
 in order to access these functions, you will be required to sign in or
