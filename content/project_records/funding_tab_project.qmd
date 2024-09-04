@@ -7,18 +7,8 @@ editor:
 ---
 
 ```{r, echo=FALSE}
-# Using colors from this wesbite:
-# https://designsystem.digital.gov/design-tokens/color/state-tokens/
-# This allows the colors to be coded as a variable and, thus, easily changed.
-
-required_color <- "#b50909"        #'red-60v'
-if_applicable_color <- "#947100"   # 'yellow-50v'
-best_practice_color <- "#00687d"   # 'cyan-60v'
-other_color <- "#00687d"           # 'gray-cool-70'
-req_style <- paste0('{style="color:', required_color, ';"}')
-if_style <- paste0('{style="color:', if_applicable_color,';"}')
-best_style <- paste0('{style="color:', best_practice_color, ';"}')
-other_style <- paste0('{style="color:', best_practice_color, ';"}')
+setwd("../..")
+source(file.path(getwd(), "config.R"))
 ```
 
 Tracking funding in the metadata allows for identification of funding sources
@@ -28,15 +18,15 @@ and recipients, enables comparisons, and aggregations across all regions.
 | Metadata Field                | Project Records   | 
 |:------------------------------|:-------------|
 | Allocation                    | | 
-|        Amount                 | [**Required**](#amount-required)`r req_style`^\*^   |
-|        Currency               | [**Required**](#currency-required)`r req_style`^\*^   |
-|        Award ID               | [**Required**](#award-id-required)`r req_style`^\*^ |
-|        Source                 | [**Required**](#source-required)`r req_style`^\*^   |
-|        Recipient              | [**Required**](#recipient-required)`r req_style`    |
-|        Other Contacts (multiple)  | [**Required**](#recipient-required)`r req_style`|
+|        Amount                 | [Required](#amount-required)`r req_style`^\*^   |
+|        Currency               | [Required](#currency-required)`r req_style`^\*^   |
+|        Award ID               | [Required](#award-id-required)`r req_style`^\*^ |
+|        Source                 | [Required](#source-required)`r req_style`^\*^   |
+|        Recipient              | [Required](#recipient-required)`r req_style`    |
+|        Other Contacts (multiple)  | [Required](#recipient-required)`r req_style`|
 |        Matching and In-kind Funds | [If Applicable](#matching-and-in-kind-funds-if-applicable)`r if_style` |
 | Time Period            | | 
-|        Fiscal Year     | [**Required**](#dates-required)`r req_style`^\*^ | 
+|        Fiscal Year     | [Required](#dates-required)`r req_style`^\*^ | 
 | Description (multiple) | [Best Practice](#description)`r best_style` | 
 : {.striped .hover .bordered .sm .allborder}  
 
@@ -59,16 +49,16 @@ separate funding allocations.
 
 For each funding allocation, the following fields should be filled out.
 
-### Amount ([**Required**]`r req_style`)
+### Amount ([Required]`r req_style`)
 
 Enter the amount of funding. 
 
-### Currency ([**Required**]`r req_style`)
+### Currency ([Required]`r req_style`)
 
 Be sure U.S. Dollars is selected (i.e., Unites States of America, the--US Dollar; 
 this is third from the bottom of USD options in mdEditor).
 
-### Award ID ([**Required**]`r req_style`)
+### Award ID ([Required]`r req_style`)
 
 The Award ID numbers are internal codes that connect the distribution forms to
 the project metadata. Award IDs include grant or cooperative agreement numbers,
@@ -80,7 +70,7 @@ If no Award ID exists, then the project is likely an internal effort. Enter
 '*None*" in the Award ID field. This allows for tracking and search of
 internally funded projects.
 
-### Source ([**Required**]`r req_style`)
+### Source ([Required]`r req_style`)
 
 Add the relevant contact for the “source” of the project funding. Source should
 be an organization, not an individual. For SA projects, the most common sources
@@ -96,7 +86,7 @@ office where the funding came from should be done through the Funding/Other
 Contacts field.
 :::
 
-### Recipient ([**Required**]`r req_style`)
+### Recipient ([Required]`r req_style`)
 
 Add the relevant contact for the “recipient” of the project funding. Recipient
 should always be an organization, not an individual. For example, the Principal
@@ -107,7 +97,7 @@ separate allocations.
 You could add the Principal Investigator in the Other Contacts field as
 "principalInvestigator."
 
-### Other Contacts ([**Required**]`r req_style`)
+### Other Contacts ([Required]`r req_style`)
 
 In most cases, a program or region has allocated the funding for a project. In
 order to track funds within regions and programs and provide proper credit, add
@@ -149,7 +139,7 @@ to be included as a separate allocation.
 
 ## Time Period
 
-### Dates ([**Required**]`r req_style`)
+### Dates ([Required]`r req_style`)
 
 For each allocation, enter the fiscal year that funds were awarded (not the time
 span of the entire project). There should be a single fiscal year for each

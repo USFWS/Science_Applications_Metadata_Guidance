@@ -135,7 +135,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../content/science_catalog.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Science Catalog</span></a>
+ <span class="menu-text">SA Science Catalog</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -672,7 +672,7 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">Metadata Status</td>
-<td style="text-align: left;"><a href="#metadata-status-required" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"><a href="#metadata-status-required" style="color:#b50909;font-weight:bold">Required</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Dates</td>
@@ -684,27 +684,27 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Author</td>
-<td style="text-align: left;"><a href="#metadata-contacts" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"><a href="#metadata-contacts" style="color:#b50909;font-weight:bold">Required</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Publisher</td>
-<td style="text-align: left;"><a href="#metadata-contacts" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"><a href="#metadata-contacts" style="color:#b50909;font-weight:bold">Required</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Point of Contact</td>
-<td style="text-align: left;"><a href="#metadata-contacts" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"><a href="#metadata-contacts" style="color:#b50909;font-weight:bold">Required</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Metadata Identifier</td>
-<td style="text-align: left;"><a href="#metadata-identifier" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"><a href="#metadata-identifier" style="color:#b50909;font-weight:bold">Required</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Parent Metadata</td>
-<td style="text-align: left;"><a href="#parent-metadata" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"><a href="#parent-metadata" style="color:#b50909;font-weight:bold">Required</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Metadata Repositories</td>
-<td style="text-align: left;"><a href="#metadata-repositories" style="color:#b50909;"><strong>Required</strong></a></td>
+<td style="text-align: left;"><a href="#metadata-repositories" style="color:#b50909;font-weight:bold">Required</a></td>
 </tr>
 </tbody>
 </table>
@@ -741,17 +741,17 @@ ul.task-list li input[type="checkbox"] {
 <tr class="odd">
 <td style="text-align: left;">author</td>
 <td style="text-align: left;">See Notes Below</td>
-<td style="text-align: left;"><span style="color:#b50909;"><strong>Required</strong></span></td>
+<td style="text-align: left;"><span style="color:#b50909;font-weight:bold">Required</span></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">publisher</td>
 <td style="text-align: left;">Default is USFWS</td>
-<td style="text-align: left;"><span style="color:#b50909;"><strong>Required</strong></span></td>
+<td style="text-align: left;"><span style="color:#b50909;font-weight:bold">Required</span></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">pointOfContact</td>
 <td style="text-align: left;">SA Data Steward</td>
-<td style="text-align: left;"><span style="color:#b50909;"><strong>Required</strong></span></td>
+<td style="text-align: left;"><span style="color:#b50909;font-weight:bold">Required</span></td>
 </tr>
 </tbody>
 </table>
@@ -805,33 +805,19 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Parent Metadata</strong> defines the ScienceBase folder in which the product will be published. The parent metadata tells mdEditor where the product metadata should go when it is published to ScienceBase.</p>
 <p>If you imported the product metadata from ScienceBase originally, this section will be populated already.</p>
 <p>If you created the product metadata from scratch in mdEditor, you need to enter the appropriate parent item ScienceBase ID. This is most likely the folder for the project that this product originated from.</p>
-<section id="title-stylecolorb50909" class="level4">
-<h4 class="anchored" data-anchor-id="title-stylecolorb50909">Title ({style=“color:#b50909;”})</h4>
-<p>If the <strong>Title</strong> is not already populated, you can enter something like “Parent folder.”</p>
+<section id="title-required" class="level4">
+<h4 class="anchored" data-anchor-id="title-required">Title <span style="color:#b50909;font-weight:bold">(Required)</span></h4>
+<p>If the <strong>Title</strong> is not already populated, you can enter something like “Parent Folder”.</p>
 </section>
-<section id="identifier-stylecolorb50909" class="level4">
-<h4 class="anchored" data-anchor-id="identifier-stylecolorb50909">Identifier ({style=“color:#b50909;”})</h4>
+<section id="identifier-required" class="level4">
+<h4 class="anchored" data-anchor-id="identifier-required">Identifier <span style="color:#b50909;font-weight:bold">(Required)</span></h4>
 <p>The <strong>Identifier</strong> defines the location of the parent folder in ScienceBase.</p>
-<table class="table">
-<thead>
-<tr class="header">
-<th style="text-align: left;">Identifier</th>
-<th style="text-align: left;">Namespace</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">ScienceBase identifier for the parent item</td>
-<td style="text-align: left;">scienceBase</td>
-</tr>
-</tbody>
-</table>
 <div class="callout-hint" data-appearance="minimal">
-<p>The ScienceBase identifier is the alphanumeric string in the item’s URL immediately following “<strong>item/</strong>”. For example, <strong>59b97600e4b091459a54d9f3c</strong> is the SBID for the item at the URL: <a href="https://www.sciencebase.gov/catalog/item/59b97600e4b091459a54d9f3c" class="uri">https://www.sciencebase.gov/catalog/item/59b97600e4b091459a54d9f3c</a></p>
+<p>The ScienceBase identifier is the alphanumeric string in the item’s URL immediately following “<strong>item/</strong>”. For example, <strong>66326ad6d34ea70bd5f26d5f</strong> is the SBID for the item at the URL: <a href="https://www.sciencebase.gov/catalog/item/66326ad6d34ea70bd5f26d5f" class="uri">https://www.sciencebase.gov/catalog/item/66326ad6d34ea70bd5f26d5f</a></p>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="../../assets/example_sb_parent_metadata.png" class="img-fluid figure-img"></p>
+<p><img src="../../assets/example_sb_parent_metadata_product.png" class="img-fluid figure-img"></p>
 <figcaption>Example Parent Metadata entry</figcaption>
 </figure>
 </div>

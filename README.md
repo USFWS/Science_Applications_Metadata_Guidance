@@ -24,6 +24,9 @@ The entire code can be downloaded and opened as a RStudio Project.
 
 The essential file structure is as follows:
 
+-   config.R = The R file that keeps the settings used through the .qmd files, 
+    especially the font colors used for "Required", "If Available", etc. 
+
 -   index.qmd = The Quarto markdown file that is the Website 'homepage'. In
     RStudio, this is file that is used to "render" the whole Website.
 

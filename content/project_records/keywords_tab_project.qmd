@@ -7,18 +7,8 @@ editor:
 ---
 
 ```{r, echo=FALSE}
-# Using colors from this wesbite:
-# https://designsystem.digital.gov/design-tokens/color/state-tokens/
-# This allows the colors to be coded as a variable and, thus, easily changed.
-
-required_color <- "#b50909"        #'red-60v'
-if_applicable_color <- "#947100"   # 'yellow-50v'
-best_practice_color <- "#00687d"   # 'cyan-60v'
-other_color <- "#00687d"           # 'gray-cool-70'
-req_style <- paste0('{style="color:', required_color, ';"}')
-if_style <- paste0('{style="color:', if_applicable_color,';"}')
-best_style <- paste0('{style="color:', best_practice_color, ';"}')
-other_style <- paste0('{style="color:', best_practice_color, ';"}')
+setwd("../..")
+source(file.path(getwd(), "config.R"))
 ```
 
 The "Keywords" tab adds keywords to your metadata so the record to be 
@@ -29,9 +19,9 @@ pre-determined keywords.
 ### Keywords Tab   
 | Metadata Field                | Project Records   |
 |:------------------------------|:---------------|
-| ISO Topic Category                | [**Required**](#iso-topic-category-required)`r req_style` |
-| SA Priority Area                  | [**Required**](#sa-priority-area-required)`r req_style`   |
-| SA Science Topic                  | [**Required**](#science-topic-required)`r req_style`      |
+| ISO Topic Category                | [Required](#iso-topic-category-required)`r req_style` |
+| SA Priority Area                  | [Required](#sa-priority-area-required)`r req_style`   |
+| SA Science Topic                  | [Required](#science-topic-required)`r req_style`      |
 | Conservation Action Open Standard | [If Applicable](#conservation-action-open-standard-required-if-applicable)`r if_style` |
 | Global Change Master Directory (GCMD)  | [Best Practice](p#gcmd)`r best_style`                |
 : {.striped .hover .bordered .sm .allborder}   
@@ -46,7 +36,7 @@ pre-determined keywords.
     tagging your project, you can add other keywords with a custom thesaurus
     (see below for more information).
 
-### ISO Topic Category ([**Required**]`r req_style`)
+### ISO Topic Category ([Required]`r req_style`)
 
 Because mdJSON metadata is based on the ISO (International Organization for
 Standardization) metadata standard, all SA projects should select at least one
@@ -87,7 +77,7 @@ Biota and environment are probably the best fit for most SA projects.
 
 <br/>
 
-### SA Priority Area ([**Required**]`r req_style`)
+### SA Priority Area ([Required]`r req_style`)
 
 Choose all that apply. The list of options includes the following:
 
@@ -107,7 +97,7 @@ Choose all that apply. The list of options includes the following:
 
 <br/>
 
-### SA Science Topic ([**Required**]`r req_style`)
+### SA Science Topic ([Required]`r req_style`)
 
 Choose all that apply. The list of options includes the following:
 
@@ -141,7 +131,7 @@ Choose all that apply. The list of options includes the following:
 
 <br/>
 
-### Conservation Action Open Standard ([If applicable**]`r if_style`)
+### Conservation Action Open Standard ([If applicable]`r if_style`)
 
 The Open Standards for the Practice of Conservation is a globally utilized
 nomenclature for conservation. Including these keywords helps to align the work

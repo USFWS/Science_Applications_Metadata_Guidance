@@ -7,18 +7,8 @@ editor:
 ---
 
 ```{r, echo=FALSE}
-# Using colors from this wesbite:
-# https://designsystem.digital.gov/design-tokens/color/state-tokens/
-# This allows the colors to be coded as a variable and, thus, easily changed.
-
-required_color <- "#b50909"        #'red-60v'
-if_applicable_color <- "#947100"   # 'yellow-50v'
-best_practice_color <- "#00687d"   # 'cyan-60v'
-other_color <- "#00687d"           # 'gray-cool-70'
-req_style <- paste0('{style="color:', required_color, ';"}')
-if_style <- paste0('{style="color:', if_applicable_color,';"}')
-best_style <- paste0('{style="color:', best_practice_color, ';"}')
-other_style <- paste0('{style="color:', best_practice_color, ';"}')
+setwd("../..")
+source(file.path(getwd(), "config.R"))
 ```
 
 The **Main** tab allows for the creation and/or editing of primary metadata.
@@ -26,33 +16,33 @@ The **Main** tab allows for the creation and/or editing of primary metadata.
 | Metadata Field                | Product Records   |
 |:------------------------------|:-------------|
 | Basic Information     | |
-|        Title          | [**Required**](#title)`r req_style`^\*^                |
-|        Status         | [**Required**](#status)`r req_style`^\*^               |
-| Default Locale        | [**Required**](#default-locale-required)`r req_style`  |
-| Resource Type         | [**Required**](#resource-types)`r req_style`           | 
+|        Title          | [Required](#title)`r req_style`^\*^                |
+|        Status         | [Required](#status)`r req_style`^\*^               |
+| Default Locale        | [Required](#default-locale-required)`r req_style`  |
+| Resource Type         | [Required](#resource-types)`r req_style`           | 
 | Points of Contact     | |
-|        Point of Contact       | [**Required**](#point-of-contacts)`r req_style`|
-|        Custodian              | [**Required**](#point-of-contacts)`r req_style`|
+|        Point of Contact       | [Required](#point-of-contacts)`r req_style`|
+|        Custodian              | [Required](#point-of-contacts)`r req_style`|
 |        Administrator          | |
-|        Administrative Region  | [**Required**](#point-of-contacts)`r req_style`|
+|        Administrative Region  | [Required](#point-of-contacts)`r req_style`|
 |        Principal Investigator | [If Applicable](#point-of-contacts)`r if_style`^\*^  |
 |        Co-Principal Investigator | [If Applicable](#point-of-contacts-if-applicable)`r if_style`  |
 | Citation                      | |
-|        Title                  | [**Required**](#title)`r req_style`^\*^|
+|        Title                  | [Required](#title)`r req_style`^\*^|
 |        Dates (multiple)       | [If Applicable](#dates-if-applicable)`r if_style`  |
-|        Responsible Parties (multiple)  | [**Required**](#responsible-parties-required)`r req_style`^\*^ |
+|        Responsible Parties (multiple)  | [Required](#responsible-parties-required)`r req_style`^\*^ |
 |        Online Resource        | |
 |               Name            | [If Applicable](#online-resource)`r if_style`  |
 |               URL             | [If Applicable](#online-resource)`r if_style`  |
 |               Function        | [If Applicable](#online-resource)`r if_style`  |
 |        Identifier             | |
-|               Identifier      | [**Required**](#metadata-identifier-required)`r req_style`  |
-|               Namespace       | [**Required**](#metadata-namespace-required)`r req_style`   |
+|               Identifier      | [Required](#metadata-identifier-required)`r req_style`  |
+|               Namespace       | [Required](#metadata-namespace-required)`r req_style`   |
 | Description                   | |
-|        Abstract               | [**Required**](#abstract)`r req_style`^\*^     |
+|        Abstract               | [Required](#abstract)`r req_style`^\*^     |
 | Time Period                   | |
 |        Start Date             | [If Applicable](#time-period)`r if_style`      |
-|        End Date               | [**Required**](#time-period)`r req_style`^\*^  |
+|        End Date               | [Required](#time-period)`r req_style`^\*^  |
 : {.striped .hover .bordered .sm .allborder} 
 
 <br/>
@@ -111,12 +101,12 @@ Add additional Points of Contact as listed in the table below.
 
 | Role                | Contact                                        | Required?               |
 |:----------------------|:---------------------------------------|:--------------------------|
-| pointOfContact        | FWS Science Applications National Data Steward | [**Required**]`r req_style`                |
-| pointOfContact        | Data Steward                                   | [**Required**]`r req_style`                |
+| pointOfContact        | FWS Science Applications National Data Steward | [Required]`r req_style`                |
+| pointOfContact        | Data Steward                                   | [Required]`r req_style`                |
 | principalInvestigator | The Project PI                                 | [**If applicable**]`r if_style` |
 | custodian             | Data Custodian                                 | [**If applicable**]`r if_style`  |
-| administrator         | Data Trustee                                   | [**Required**]`r req_style`                |
-| administrator         | FWS Region (legacy and DOI Unified)            | [**Required**]`r req_style`                |
+| administrator         | Data Trustee                                   | [Required]`r req_style`                |
+| administrator         | FWS Region (legacy and DOI Unified)            | [Required]`r req_style`                |
 | collaborator          | partnership organizations and/or programs      | [**If applicable**]`r if_style`  |
 : {.striped .hover .bordered .md .allborder}  
 
@@ -164,7 +154,7 @@ contributors could be intellectual and financial participants.
 
 | Role                    | Contact         | Required?     |
 |:------------------------|:----------------|:--------------|
-| principalInvestigator   | Data Creator    | [**Required**]`r req_style`  |
+| principalInvestigator   | Data Creator    | [Required]`r req_style`  |
 | coPrincipalInvestigator | Data Co-Creator | [Best Practice]`r req_style` |
 : {.striped .hover .bordered .md .allborder}  
 

@@ -6,6 +6,11 @@ editor:
     wrap: 80
 ---
 
+```{r, echo=FALSE}
+setwd("../..")
+source(file.path(getwd(), "config.R"))
+```
+
 ## Issues or Feedback for the Guidance
 
 If you would like to provide feedback (e.g., comments, suggestions, etc.) about

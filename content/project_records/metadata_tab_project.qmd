@@ -7,18 +7,8 @@ editor:
 ---
 
 ```{r, echo=FALSE}
-# Using colors from this wesbite:
-# https://designsystem.digital.gov/design-tokens/color/state-tokens/
-# This allows the colors to be coded as a variable and, thus, easily changed.
-
-required_color <- "#b50909"        #'red-60v'
-if_applicable_color <- "#947100"   # 'yellow-50v'
-best_practice_color <- "#00687d"   # 'cyan-60v'
-other_color <- "#00687d"           # 'gray-cool-70'
-req_style <- paste0('{style="color:', required_color, ';"}')
-if_style <- paste0('{style="color:', if_applicable_color,';"}')
-best_style <- paste0('{style="color:', best_practice_color, ';"}')
-other_style <- paste0('{style="color:', best_practice_color, ';"}')
+setwd("../..")
+source(file.path(getwd(), "config.R"))
 ```
 
 The **Metadata** tab describes your project's metadata, including a description 
@@ -28,15 +18,15 @@ the metadata, and metadata repositories.
 ### Metadata Tab    
 | Metadata Field                | Project Records   |
 |:------------------------------|:-------------|
-| Metadata Status   | [**Required**](p#metadata-status-required)`r req_style`  |  
-| Dates             | [**Required**](p#metadata-dates-required)`r req_style`   |
+| Metadata Status   | [Required](p#metadata-status-required)`r req_style`  |  
+| Dates             | [Required](p#metadata-dates-required)`r req_style`   |
 | Metadata Contacts |                                               |
-|        Author     | [**Required**](p#metadata-contacts)`r req_style`         | 
-|        Publisher  | [**Required**](p#metadata-contacts)`r req_style`         | 
-|        Point of Contact | [**Required**](p#metadata-contacts)`r req_style`   | 
-| Metadata Identifier     | [**Required**](p#metadata-identifier)`r req_style` | 
-| Parent Metadata         | [**Required**](p#parent-metadata)`r req_style`     | 
-| Metadata Repositories   | [**Required**](p#metadata-repositories)`r req_style` | 
+|        Author     | [Required](p#metadata-contacts)`r req_style`         | 
+|        Publisher  | [Required](p#metadata-contacts)`r req_style`         | 
+|        Point of Contact | [Required](p#metadata-contacts)`r req_style`   | 
+| Metadata Identifier     | [Required](p#metadata-identifier)`r req_style` | 
+| Parent Metadata         | [Required](p#parent-metadata)`r req_style`     | 
+| Metadata Repositories   | [Required](p#metadata-repositories)`r req_style` | 
 : {.striped .hover .bordered .sm .allborder}   
 
 <br/>
@@ -64,9 +54,9 @@ metadata. The following table shows the required contact roles.
 
 | Role           | Contact         | Requirements              |
 |:---------------|:-----------------|:-------------------------|
-| **author**         | See Notes Below  | [**Required**]`r req_style`   |
-| **publisher**      | Default is USFWS | [**Required**]`r req_style`   |
-| **pointOfContact** | SA Data Steward  | [**Required**]`r req_style`   |
+| **author**         | See Notes Below  | [Required]`r req_style`   |
+| **publisher**      | Default is USFWS | [Required]`r req_style`   |
+| **pointOfContact** | SA Data Steward  | [Required]`r req_style`   |
 : {.striped .hover .bordered .md .allborder} 
 
 
@@ -136,7 +126,7 @@ in ScienceBase.
 :::{.callout-info}
 The ScienceBase identifier is the alphanumeric string in
 the item's URL immediately following "**item/".** For example,
-**59b97600e4b091459a54d9f3c** is the SBID for the item at the URL:
+**66326aebd34ea70bd5f26d62** is the SBID for the item at the URL:
 <https://www.sciencebase.gov/catalog/item/66326aebd34ea70bd5f26d62> 
 :::
 
