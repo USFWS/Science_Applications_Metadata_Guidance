@@ -62,9 +62,9 @@ any questions about the metadata.
 
 | Role           | Contact          | **Requirements              |
 |:---------------|:-----------------|:-------------------------|
-| author         | See Notes Below  | [**Required**]`r req_style` |             |
-| publisher      | Default is USFWS | [**Required**]`r req_style` |             |
-| pointOfContact | SA Data Steward  | [**Required**]`r req_style` |             |
+| author         | See Notes Below  | [**Required**]`r req_style` |       |
+| publisher      | Default is USFWS | [**Required**]`r req_style` |       |
+| pointOfContact | SA Data Steward  | [**Required**]`r req_style` |       |
 : {.striped .hover .bordered .md .allborder}  
 
 <br/>
@@ -118,26 +118,23 @@ If you created the product metadata from scratch in mdEditor, you need to enter
 the appropriate parent item ScienceBase ID. This is most likely the folder for
 the project that this product originated from.
 
-#### Title (`r req_style`)
+#### Title [(Required)]`r req_style`
 
-If the **Title** is not already populated, you can enter something like "Parent folder."
+If the **Title** is not already populated, you can enter something like 
+"Parent Folder".
 
-#### Identifier (`r req_style`)
+#### Identifier [(Required)]`r req_style`
 
 The **Identifier** defines the location of the parent folder in ScienceBase.
-
-| Identifier                                 | Namespace   |
-|:-------------------------------------------|:------------|
-| ScienceBase identifier for the parent item | scienceBase |
 
 :::{.callout-hint appearance="minimal"}
 The ScienceBase identifier is the alphanumeric string in
 the item's URL immediately following "**item/**". For example,
 **59b97600e4b091459a54d9f3c** is the SBID for the item at the URL:
-<https://www.sciencebase.gov/catalog/item/59b97600e4b091459a54d9f3c> 
+<https://www.sciencebase.gov/catalog/item/66326ad6d34ea70bd5f26d5f> 
 :::
 
-![Example Parent Metadata entry](../../assets/example_sb_parent_metadata.png)
+![Example Parent Metadata entry](../../assets/example_sb_parent_metadata_product.png)
 
 ## Metadata Repositories
 

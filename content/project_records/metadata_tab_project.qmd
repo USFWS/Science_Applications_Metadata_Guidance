@@ -126,26 +126,21 @@ directly in your individual metadata record if you wish.
 ### Title [(Required)]`r req_style` 
 
 If the **Title** is not already populated, you can enter something like 
-"Parent folder."
+"Parent Folder".
 
 ### Identifier and Namespace [(Required)]`r req_style`
 
 The **Identifier** and **Namespace** defines the location of the parent folder 
 in ScienceBase.
 
-| Identifier                                 | Namespace   |
-|:-------------------------------------------|:------------|
-| ScienceBase identifier for the parent item | scienceBase |
-: {.striped .hover .bordered .md .allborder} 
-
 :::{.callout-info}
 The ScienceBase identifier is the alphanumeric string in
 the item's URL immediately following "**item/".** For example,
 **59b97600e4b091459a54d9f3c** is the SBID for the item at the URL:
-<https://www.sciencebase.gov/catalog/item/59b97600e4b091459a54d9f3c> 
+<https://www.sciencebase.gov/catalog/item/66326aebd34ea70bd5f26d62> 
 :::
 
-![Example ScienceBase Parent Metadata entry](../../assets/example_sb_parent_metadata.png)
+![Example ScienceBase Parent Metadata entry](../../assets/example_sb_parent_metadata_project.png)
 
 ## Metadata Repositories
 
