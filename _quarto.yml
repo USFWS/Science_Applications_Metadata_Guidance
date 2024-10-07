@@ -9,9 +9,22 @@ website:
   title: "USFWS Science Applications Metadata Guidance" 
   site-url: "https://usfws.github.io/Science_Applications_Metadata_Guidance/" 
   repo-url: "https://github.com/usfws/sciapps_metadata_guidance"
-  repo-actions: [issue]
-  issue-url: "https://forms.office.com/g/xtkDZ3rQjW"
+  repo-actions: [edit, issue]
   favicon: favicon.png
+  # code-links:
+  #   - text: Open Issue in Github
+  #     icon: github 
+  #     href: https://github.com/USFWS/Science_Applications_Metadata_Guidance/issues/new
+  #   - text: Provide Feedback via a Form
+  #     icon: pencil-square 
+  #     href: https://forms.office.com/g/xtkDZ3rQjW  
+  other-links:
+    # - text: Open Issue in Github
+    #   icon: github 
+    #   href: https://github.com/USFWS/Science_Applications_Metadata_Guidance/issues/new
+    - text: Provide User Feedback
+      icon: pencil-square
+      href: https://forms.office.com/g/xtkDZ3rQjW
   search:
     location: sidebar
     type: textbox

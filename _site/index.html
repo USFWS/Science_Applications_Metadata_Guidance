@@ -620,7 +620,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#how-to-use-this-manual" id="toc-how-to-use-this-manual" class="nav-link" data-scroll-target="#how-to-use-this-manual">How to Use this Manual</a></li>
   <li><a href="#providing-feedback" id="toc-providing-feedback" class="nav-link" data-scroll-target="#providing-feedback">Providing Feedback</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://forms.office.com/g/xtkDZ3rQjW" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/usfws/sciapps_metadata_guidance/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/usfws/sciapps_metadata_guidance/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="https://forms.office.com/g/xtkDZ3rQjW"><i class="bi bi-pencil-square"></i>Provide User Feedback</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content column-body" id="quarto-document-content">
@@ -917,6 +917,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -1245,4 +1250,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://forms.office.com/g/xtkDZ3rQjW" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/usfws/sciapps_metadata_guidance/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/usfws/sciapps_metadata_guidance/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>

@@ -7,7 +7,7 @@ execute:
 format:
   html:
     link-external-icon: false
-    link-external-newwindow: false
+    link-external-newwindow: true
 project:
      execute-dir: project    
 ---
