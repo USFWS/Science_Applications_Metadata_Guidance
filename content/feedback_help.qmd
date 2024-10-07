@@ -1,17 +1,11 @@
 ---
-title: "Trouble-Shooting: Overview"
-description: "If you find an issue and have a solution to share, please contact the SA Architecture Sub-Group (ASG)."
+title: "Feedback and Help"
 editor: 
   markdown: 
     wrap: 80
 ---
 
-```{r, echo=FALSE}
-setwd("../..")
-source(file.path(getwd(), "config.R"))
-```
-
-## Issues or Feedback for the Guidance
+## Providing Feedback about the Guidance
 
 If you would like to provide feedback (e.g., comments, suggestions, etc.) about
 this guidance, you can use this [online form](https://forms.office.com/g/xtkDZ3rQjW).  
@@ -30,3 +24,17 @@ the mdJSON did not publish. ScienceBase items without mdJSON file attachments
 are not in the Science Catalog. Remember that newly-published mdJSON will not be
 reflected in the Science Catalog until the following day (it updates daily
 overnight).
+
+## mdEditor Help
+
+Clicking the question mark icon will open the manual, which can be read online
+or downloaded as a PDF document.
+
+![](../assets/help_screenshot.png)
+
+### Reporting mdEditor Bugs 
+
+If you encounter bugs or errors when using mdEditor, please report them at the
+[mdEditor Issues](https://github.com/adiwg/mdEditor/issues) page on GitHub and
+specify the mdEditor version you are using (available in Settings). You must
+have a GitHub account in order to post.

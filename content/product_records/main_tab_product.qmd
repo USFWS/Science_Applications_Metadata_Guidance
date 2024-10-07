@@ -246,7 +246,7 @@ Enter comments, if desired.
 
 ## Time Period 
 
-### Start Date and End Date [(Required)]`r if_style`
+### Start Date and End Date [(Required)]`r req_style`
 
 **Time Period** refers to when date the product was applicable, For example, 
 the time when a map is valid, date of publication, date of presentation, or 

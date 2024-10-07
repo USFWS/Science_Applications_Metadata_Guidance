@@ -44,7 +44,7 @@
     "href": "index.html#how-to-use-this-manual",
     "title": "USFWS Science Applications Metadata Guidance",
     "section": "How to Use this Manual",
-    "text": "How to Use this Manual\nThe recommended way to use this manual is directly accessing the pages from the internet. By doing so, you guarantee you are using the current version. This is a living document and will be updated as needed. The online version will also have the best functionality and graphical display.\nThis is a living document and will continue to be edited. Please refresh this manual every time you open it to ensure you are viewing the most recent version. Last updated: 04 September, 2024.\nIf you would like to provide feedback (e.g., comments, suggestions, etc.) about this guidance, you can use this online form.\nIf you’d like to give direct feedback through Github, please consider reporting an issue or submitting edits through a pull request. However, in order to access these functions, you will be required to sign in or create an account with Github.",
+    "text": "How to Use this Manual\nThe recommended way to use this manual is directly accessing the pages from the internet. By doing so, you guarantee you are using the current version. This is a living document and will be updated as needed. The online version will also have the best functionality and graphical display.\nThis document will continue to be updated regularly and publishing using the GitHub Repository. Please refresh this manual every time you open it to ensure you are viewing the most recent version. Last updated: 07 October, 2024.",
     "crumbs": [
       "Introduction"
     ]
@@ -712,7 +712,7 @@
     "href": "content/help.html",
     "title": "Help",
     "section": "",
-    "text": "Clicking the question mark icon will open the manual, which can be read online or downloaded as a PDF document.",
+    "text": "If you would like to provide feedback (e.g., comments, suggestions, etc.) about this guidance, you can use this online form.\nIf you’d like to give direct feedback through Github, please consider reporting an issue or submitting edits through a pull request. However, in order to access these functions, you will be required to sign in or create an account with Github.",
     "crumbs": [
       "Help"
     ]
@@ -721,8 +721,8 @@
     "objectID": "content/help.html#mdeditor-help",
     "href": "content/help.html#mdeditor-help",
     "title": "Help",
-    "section": "",
-    "text": "Clicking the question mark icon will open the manual, which can be read online or downloaded as a PDF document.",
+    "section": "mdEditor Help",
+    "text": "mdEditor Help\nClicking the question mark icon will open the manual, which can be read online or downloaded as a PDF document.\n\n\nReporting mdEditor Bugs\nIf you encounter bugs or errors when using mdEditor, please report them at the mdEditor Issues page on GitHub and specify the mdEditor version you are using (available in Settings). You must have a GitHub account in order to post.",
     "crumbs": [
       "Help"
     ]
@@ -2448,20 +2448,14 @@
     "href": "content/trouble_shooting/trouble_shooting_overview.html",
     "title": "Trouble-Shooting: Overview",
     "section": "",
-    "text": "If you would like to provide feedback (e.g., comments, suggestions, etc.) about this guidance, you can use this online form.\nIf you’d like to give direct feedback through Github, please consider reporting an issue or submitting edits through a pull request. However, in order to access these functions, you will be required to sign in or create an account with Github.",
-    "crumbs": [
-      "Trouble-Shooting"
-    ]
+    "text": "If you would like to provide feedback (e.g., comments, suggestions, etc.) about this guidance, you can use this online form.\nIf you’d like to give direct feedback through Github, please consider reporting an issue or submitting edits through a pull request. However, in order to access these functions, you will be required to sign in or create an account with Github."
   },
   {
     "objectID": "content/trouble_shooting/trouble_shooting_overview.html#records-fail-to-update-to-the-sa-science-catalog",
     "href": "content/trouble_shooting/trouble_shooting_overview.html#records-fail-to-update-to-the-sa-science-catalog",
     "title": "Trouble-Shooting: Overview",
     "section": "Records fail to update to the SA Science Catalog",
-    "text": "Records fail to update to the SA Science Catalog\nOccasionally, an item may seem to publish correctly to ScienceBase when if fact, the mdJSON did not publish. ScienceBase items without mdJSON file attachments are not in the Science Catalog. Remember that newly-published mdJSON will not be reflected in the Science Catalog until the following day (it updates daily overnight).",
-    "crumbs": [
-      "Trouble-Shooting"
-    ]
+    "text": "Records fail to update to the SA Science Catalog\nOccasionally, an item may seem to publish correctly to ScienceBase when if fact, the mdJSON did not publish. ScienceBase items without mdJSON file attachments are not in the Science Catalog. Remember that newly-published mdJSON will not be reflected in the Science Catalog until the following day (it updates daily overnight)."
   },
   {
     "objectID": "content/workflow/metadata_from_scratch.html",
@@ -2906,10 +2900,7 @@
     "href": "content/trouble_shooting/trouble_shooting_overview.html#issues-or-feedback-for-the-guidance",
     "title": "Trouble-Shooting: Overview",
     "section": "",
-    "text": "If you would like to provide feedback (e.g., comments, suggestions, etc.) about this guidance, you can use this online form.\nIf you’d like to give direct feedback through Github, please consider reporting an issue or submitting edits through a pull request. However, in order to access these functions, you will be required to sign in or create an account with Github.",
-    "crumbs": [
-      "Trouble-Shooting"
-    ]
+    "text": "If you would like to provide feedback (e.g., comments, suggestions, etc.) about this guidance, you can use this online form.\nIf you’d like to give direct feedback through Github, please consider reporting an issue or submitting edits through a pull request. However, in order to access these functions, you will be required to sign in or create an account with Github."
   },
   {
     "objectID": "content/trouble_shooting/trouble_shooting_overview.html#section",
@@ -2919,6 +2910,76 @@
     "text": "If you have questions or issues that you feel may not be addressed in this guidance, please contact the FWS SA National Data Steward (sadatasteward@fws.gov) or Blake Massey (blake_massey@fws.gov).",
     "crumbs": [
       "Trouble-Shooting"
+    ]
+  },
+  {
+    "objectID": "index.html#providing-feedback",
+    "href": "index.html#providing-feedback",
+    "title": "USFWS Science Applications Metadata Guidance",
+    "section": "Providing Feedback",
+    "text": "Providing Feedback\nIf you would like to provide feedback (e.g., comments, suggestions, etc.) about this guidance, you can use this online form.\nIf you’d like to give direct feedback through Github, please consider reporting an issue or submitting edits through a pull request. However, in order to access these functions, you will be required to sign in or create an account with Github.",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "content/help.html#providing-feedback",
+    "href": "content/help.html#providing-feedback",
+    "title": "Help",
+    "section": "",
+    "text": "If you would like to provide feedback (e.g., comments, suggestions, etc.) about this guidance, you can use this online form.\nIf you’d like to give direct feedback through Github, please consider reporting an issue or submitting edits through a pull request. However, in order to access these functions, you will be required to sign in or create an account with Github.",
+    "crumbs": [
+      "Help"
+    ]
+  },
+  {
+    "objectID": "content/help.html#records-fail-to-update-to-the-sa-science-catalog",
+    "href": "content/help.html#records-fail-to-update-to-the-sa-science-catalog",
+    "title": "Help",
+    "section": "Records fail to update to the SA Science Catalog",
+    "text": "Records fail to update to the SA Science Catalog\nOccasionally, an item may seem to publish correctly to ScienceBase when if fact, the mdJSON did not publish. ScienceBase items without mdJSON file attachments are not in the Science Catalog. Remember that newly-published mdJSON will not be reflected in the Science Catalog until the following day (it updates daily overnight).",
+    "crumbs": [
+      "Help"
+    ]
+  },
+  {
+    "objectID": "content/feedback_help.html",
+    "href": "content/feedback_help.html",
+    "title": "Feedback and Help",
+    "section": "",
+    "text": "If you would like to provide feedback (e.g., comments, suggestions, etc.) about this guidance, you can use this online form.\nIf you’d like to give direct feedback through Github, please consider reporting an issue or submitting edits through a pull request. However, in order to access these functions, you will be required to sign in or create an account with Github.",
+    "crumbs": [
+      "Feedback and Help"
+    ]
+  },
+  {
+    "objectID": "content/feedback_help.html#providing-feedback-about-the-guidance",
+    "href": "content/feedback_help.html#providing-feedback-about-the-guidance",
+    "title": "Feedback and Help",
+    "section": "",
+    "text": "If you would like to provide feedback (e.g., comments, suggestions, etc.) about this guidance, you can use this online form.\nIf you’d like to give direct feedback through Github, please consider reporting an issue or submitting edits through a pull request. However, in order to access these functions, you will be required to sign in or create an account with Github.",
+    "crumbs": [
+      "Feedback and Help"
+    ]
+  },
+  {
+    "objectID": "content/feedback_help.html#records-fail-to-update-to-the-sa-science-catalog",
+    "href": "content/feedback_help.html#records-fail-to-update-to-the-sa-science-catalog",
+    "title": "Feedback and Help",
+    "section": "Records fail to update to the SA Science Catalog",
+    "text": "Records fail to update to the SA Science Catalog\nOccasionally, an item may seem to publish correctly to ScienceBase when if fact, the mdJSON did not publish. ScienceBase items without mdJSON file attachments are not in the Science Catalog. Remember that newly-published mdJSON will not be reflected in the Science Catalog until the following day (it updates daily overnight).",
+    "crumbs": [
+      "Feedback and Help"
+    ]
+  },
+  {
+    "objectID": "content/feedback_help.html#mdeditor-help",
+    "href": "content/feedback_help.html#mdeditor-help",
+    "title": "Feedback and Help",
+    "section": "mdEditor Help",
+    "text": "mdEditor Help\nClicking the question mark icon will open the manual, which can be read online or downloaded as a PDF document.\n\n\nReporting mdEditor Bugs\nIf you encounter bugs or errors when using mdEditor, please report them at the mdEditor Issues page on GitHub and specify the mdEditor version you are using (available in Settings). You must have a GitHub account in order to post.",
+    "crumbs": [
+      "Feedback and Help"
     ]
   }
 ]
