@@ -1,1 +1,1 @@
-Sitemap: https://studious-adventure-wo15nv1.pages.github.io/sitemap.xml
+Sitemap: https://usfws.github.io/Science_Applications_Metadata_Guidance/sitemap.xml
