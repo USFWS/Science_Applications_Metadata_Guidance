@@ -20,7 +20,7 @@ records. However, depending on your browser's settings, clearing your browser
 cache may still delete your mdEditor data (e.g., in Chrome, checking the
 "*cookies and other site data*" option will clear your mdEditor data).
 
-::: {.callout-warning appearance="minimal"}
+:::{.callout-warning appearance="minimal"}
 **Warning**: In mdEditor settings, you can clear your storage cache. Doing so 
 will remove all of the information currently loaded in mdEditor. Reasons you 
 might want to clear your storage cache is due to too much information stored in 
@@ -49,7 +49,7 @@ records between browsers. The Import functionality lets you load records into
 mdEditor, either from previously-saved mdEditor session, exported from another
 browser, or downloaded from ScienceBase.
 
-:::{.callout-note appearance="minimal"}}
+:::{.callout-note appearance="minimal"}
 JSON = JavaScript Object Notation, an open source file format. mdEditor produces
 mdJSON. ScienceBase has their own specific format, called sbJSON.
 :::

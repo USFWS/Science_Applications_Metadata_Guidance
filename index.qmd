@@ -48,7 +48,7 @@ guidance and the current version of mdEditor.
 This manual refers to the creation of SA metadata specifically. If you want 
 information on the creation of other metadata records using mdEditor, or more 
 information in general, please refer to the 
-[mdEditor User Manual](https:/./adiwg.gitbooks.io/mdeditor/content/).
+[mdEditor User Manual](https://guide.mdeditor.org/).
 
 ## Who Should Use this Manual
 

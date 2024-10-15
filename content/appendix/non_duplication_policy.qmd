@@ -15,7 +15,7 @@ allows partners to discover and engage in SA supported science as desired.
 | Quick Reference: Project metadata for Non Duplication Policy                               | Required |
 |:---------------------------------------|:---------------------------------------|
 | Basic Information: Title, Status                                                           | Required |
-| Point of Contacts (see [Main Tab](project_records/main_tab_project.qmd#point-of-contacts)) | Required |
+| Point of Contacts (see [Main Tab](../project_records/main_tab_project.qmd#point-of-contacts)) | Required |
 | Description: Abstract                                                                      | Required |
 | Time Period                                                                                | Required |
 | Funding: Award Number, amount, source, fiscal year, recipients                             | Required |

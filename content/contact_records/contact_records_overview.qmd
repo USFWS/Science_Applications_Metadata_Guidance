@@ -29,7 +29,7 @@ confusion and unnecessary duplication errors as you edit and manage your
 metadata records.
 :::
 
-Copying contacts will change the ID and the name (the name will be “Copy of ….”)
+Copying contacts will change the ID and the name (the name will be “Copy of …”)
 but all the other information will remain the same in the copy.
 
 It is recommended that you leave contacts in mdEditor between work sessions.

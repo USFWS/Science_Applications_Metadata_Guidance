@@ -21,22 +21,22 @@ The **Main** tab allows for the creation and/or editing of primary metadata.
 |        Title          | [Required](#title-required)`r req_style`^\*^  |                                                                                                               
 |        Status         | [Required](#status-required)`r req_style`^\*^ |                                                                                                               
 | Default Locale        | [Required](#default-locale-required)`r req_style` |
-| Resource Type         | [Required](#resource-types)`r req_style` |
+| Resource Type         | [Required](#resource-types-required)`r req_style` |
 | Points of Contact     | |
-|        Point of Contact       | [Required](#points-of-contacts-required)`r req_style` |
-|        Custodian              | [Required](#points-of-contacts-required)`r req_style` |               
-|        Administrator          | [Required](#points-of-contacts-required)`r req_style`^\*^ |     
-|        Administrative Region  | [Required](#points-of-contacts-required)`r req_style` |               
-|        Principal Investigator | [If Applicable](#points-of-contacts-required)`r if_style`^\*^ |
-|        Co-Principal Investigator | [If Applicable](#points-of-contacts-if-applicable)`r if_style`|                                                                                         
+|        Point of Contact       | [Required](#points-of-contact-required)`r req_style` |
+|        Custodian              | [Required](#points-of-contact-required)`r req_style` |               
+|        Administrator          | [Required](#points-of-contact-required)`r req_style`^\*^ |     
+|        Administrative Region  | [Required](#points-of-contact-required)`r req_style` |               
+|        Principal Investigator | [If Applicable](#points-of-contact-required)`r if_style`^\*^ |
+|        Co-Principal Investigator | [If Applicable](#points-of-contact-required)`r if_style`|                                                                                         
 | Citation                      | |
 |        Title                  | [Required](#title-required-1)`r req_style`^\*^ |                                                                                                       
 |        Dates (multiple)       | [Required](#dates-required)`r req_style`^\*^   |                                                                                                       
 |        Responsible Parties (multiple)  | [Required](#responsible-parties-required)`r req_style`^\*^ |                                                                                  
 |        Online Resource        | |
-|               Name            | [If Applicable](#online-resource)`r if_style`|                                                                                                             
-|               URL             | [If Applicable](#online-resource)`r if_style`|                                                                                                             
-|               Function        | [If Applicable](#online-resource)`r if_style`|                                                                                                             
+|               Name            | [If Applicable](#online-resource-if-applicable)`r if_style`|                                                                                                             
+|               URL             | [If Applicable](#identifier-if-applicable)`r if_style`|                                                                                                             
+|               Function        | [If Applicable](#identifier-if-applicable)`r if_style`|                                                                                                             
 |        Identifier             | |
 |               Identifier      | [Required](#metadata-identifier-required)`r req_style` |                                                                                                 
 |               Namespace       | [Required](#metadata-namespace-required)`r req_style` |                                                                                                    
@@ -102,12 +102,12 @@ Add additional Points of Contact as listed in the table below.
 |---------------------|----------------------------------------|---------------------|
 | pointOfContact        | FWS Science Applications National Data Steward   | [Required]`r req_style`                |
 | pointOfContact        | Data Steward                                     | [Required]`r req_style`                |
-| principalInvestigator | Project Principal Investigator and/or Producer   | [**Required, if applicable**]`r if_style` |
-| custodian             | Data Custodian                                   | [**Required, if applicable**]`r if_style` |
+| principalInvestigator | Project Principal Investigator and/or Producer   | [If applicable]`r if_style` |
+| custodian             | Data Custodian                                   | [If applicable]`r if_style` |
 | owner                 | Data Trustee                                     | [Required]`r req_style`                |
 | administrator         | Project Officer, if not the Steward              | [Required]`r req_style`                |
 | administrator         | FWS Region (legacy and DOI Unified), FWS Program | [Required]`r req_style`                |
-| collaborator          | Partnership Organizations and/or Programs        | [**Required, if applicable**]`r if_style` |
+| collaborator          | Partnership Organizations and/or Programs        | [If applicable]`r if_style` |
 : {.striped .hover .bordered .md .allborder}
 
 <br/>
@@ -136,7 +136,7 @@ items.
 The citation **Title** is automatically populated with the Basis Information
 section's Title.
 
-### Alternate Title [(If desired)]`r best_style`
+### Alternate Title
 
 You can add an **Alternate Title**, if desired. Generally these should be 
 shorter than the full Title.
@@ -164,7 +164,7 @@ section for more information.
 | Role                    | Contact          | Requirements               |
 |----------------------|----------------------|-------------------|
 | principalInvestigator   | Project Principal Investigator       | [Required]`r req_style`               |
-| coPrincipalInvestigator | Co-Investigators |[**Required, if applicable**]`r if_style` |
+| coPrincipalInvestigator | Co-Investigators |[**If applicable**]`r if_style` |
 : {.striped .hover .bordered .md .allborder}
 
 <br/>

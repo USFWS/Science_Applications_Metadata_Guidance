@@ -18,15 +18,15 @@ the metadata, and metadata repositories.
 ### Metadata Tab    
 | Metadata Field                | Project Records   |
 |:------------------------------|:-------------|
-| Metadata Status   | [Required](p#metadata-status-required)`r req_style`  |  
-| Dates             | [Required](p#metadata-dates-required)`r req_style`   |
+| Metadata Status   | [Required](#metadata-status-required)`r req_style`  |  
+| Dates             | [Required](#metadata-dates-required)`r req_style`   |
 | Metadata Contacts |                                               |
-|        Author     | [Required](p#metadata-contacts)`r req_style`         | 
-|        Publisher  | [Required](p#metadata-contacts)`r req_style`         | 
-|        Point of Contact | [Required](p#metadata-contacts)`r req_style`   | 
-| Metadata Identifier     | [Required](p#metadata-identifier)`r req_style` | 
-| Parent Metadata         | [Required](p#parent-metadata)`r req_style`     | 
-| Metadata Repositories   | [Required](p#metadata-repositories)`r req_style` | 
+|        Author     | [Required](#metadata-contacts)`r req_style`         | 
+|        Publisher  | [Required](#metadata-contacts)`r req_style`         | 
+|        Point of Contact | [Required](#metadata-contacts)`r req_style`   | 
+| Metadata Identifier     | [Required](#metadata-identifier-required)`r req_style` | 
+| Parent Metadata         | [Required](#parent-metadata-required)`r req_style`     | 
+| Metadata Repositories   | [Required](#repositories-required)`r req_style` | 
 : {.striped .hover .bordered .sm .allborder}   
 
 <br/>
@@ -97,7 +97,7 @@ additional identifiers you want to include in your metadata record, include them
 in the [Citation Identifier](main_tab_project.qmd#identifier). 
 :::
 
-## Parent Metadata
+## Parent Metadata [(Required)]`r req_style`
 
 **Parent Metadata** tells mdEditor where the project metadata should go when it
 is published. If using ScienceBase, this is the folder above the project by

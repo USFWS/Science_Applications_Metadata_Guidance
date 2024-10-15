@@ -49,7 +49,6 @@ website:
       - content/data_management_goals.qmd   
       - content/science_catalog.qmd   
       - content/projects_products_contacts.qmd   
-      - content/non_duplication_policy.qmd   
       - section: "Workflow"
         href: content/workflow/workflow_overview.qmd
         contents:
@@ -131,6 +130,7 @@ website:
       - section: "Appendix"
         href: content/appendix/appendix_overview.qmd 
         contents:
+          - content/appendix/non_duplication_policy.qmd   
           - section: "Developer Resources"
             href: content/developer_resources/developer_resources_overview.qmd        
             contents:
