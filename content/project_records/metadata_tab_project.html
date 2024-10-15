@@ -154,12 +154,6 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Projects, Products, Contacts</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../content/non_duplication_policy.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Non-Duplication Policy</span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../content/workflow/workflow_overview.html" class="sidebar-item-text sidebar-link">
@@ -549,6 +543,12 @@ ul.task-list li input[type="checkbox"] {
           </a> 
       </div>
       <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/appendix/non_duplication_policy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Non-Duplication Policy</span></a>
+  </div>
+</li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../content/developer_resources/developer_resources_overview.html" class="sidebar-item-text sidebar-link">
@@ -626,7 +626,7 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#metadata-identifier-required" id="toc-metadata-identifier-required" class="nav-link" data-scroll-target="#metadata-identifier-required">Metadata Identifier <span style="color:#b50909;font-weight:bold">(Required)</span></a></li>
   </ul></li>
-  <li><a href="#parent-metadata" id="toc-parent-metadata" class="nav-link" data-scroll-target="#parent-metadata">Parent Metadata</a>
+  <li><a href="#parent-metadata-required" id="toc-parent-metadata-required" class="nav-link" data-scroll-target="#parent-metadata-required">Parent Metadata <span style="color:#b50909;font-weight:bold">(Required)</span></a>
   <ul class="collapse">
   <li><a href="#title-required" id="toc-title-required" class="nav-link" data-scroll-target="#title-required">Title <span style="color:#b50909;font-weight:bold">(Required)</span></a></li>
   <li><a href="#identifier-and-namespace-required" id="toc-identifier-and-namespace-required" class="nav-link" data-scroll-target="#identifier-and-namespace-required">Identifier and Namespace <span style="color:#b50909;font-weight:bold">(Required)</span></a></li>
@@ -674,11 +674,11 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">Metadata Status</td>
-<td style="text-align: left;"><a href="p#metadata-status-required" style="color:#b50909;font-weight:bold">Required</a></td>
+<td style="text-align: left;"><a href="#metadata-status-required" style="color:#b50909;font-weight:bold">Required</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Dates</td>
-<td style="text-align: left;"><a href="p#metadata-dates-required" style="color:#b50909;font-weight:bold">Required</a></td>
+<td style="text-align: left;"><a href="#metadata-dates-required" style="color:#b50909;font-weight:bold">Required</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Metadata Contacts</td>
@@ -686,27 +686,27 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Author</td>
-<td style="text-align: left;"><a href="p#metadata-contacts" style="color:#b50909;font-weight:bold">Required</a></td>
+<td style="text-align: left;"><a href="#metadata-contacts" style="color:#b50909;font-weight:bold">Required</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Publisher</td>
-<td style="text-align: left;"><a href="p#metadata-contacts" style="color:#b50909;font-weight:bold">Required</a></td>
+<td style="text-align: left;"><a href="#metadata-contacts" style="color:#b50909;font-weight:bold">Required</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Point of Contact</td>
-<td style="text-align: left;"><a href="p#metadata-contacts" style="color:#b50909;font-weight:bold">Required</a></td>
+<td style="text-align: left;"><a href="#metadata-contacts" style="color:#b50909;font-weight:bold">Required</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Metadata Identifier</td>
-<td style="text-align: left;"><a href="p#metadata-identifier" style="color:#b50909;font-weight:bold">Required</a></td>
+<td style="text-align: left;"><a href="#metadata-identifier-required" style="color:#b50909;font-weight:bold">Required</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Parent Metadata</td>
-<td style="text-align: left;"><a href="p#parent-metadata" style="color:#b50909;font-weight:bold">Required</a></td>
+<td style="text-align: left;"><a href="#parent-metadata-required" style="color:#b50909;font-weight:bold">Required</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Metadata Repositories</td>
-<td style="text-align: left;"><a href="p#metadata-repositories" style="color:#b50909;font-weight:bold">Required</a></td>
+<td style="text-align: left;"><a href="#repositories-required" style="color:#b50909;font-weight:bold">Required</a></td>
 </tr>
 </tbody>
 </table>
@@ -801,8 +801,8 @@ Warning
 </div>
 </section>
 </section>
-<section id="parent-metadata" class="level2">
-<h2 class="anchored" data-anchor-id="parent-metadata">Parent Metadata</h2>
+<section id="parent-metadata-required" class="level2">
+<h2 class="anchored" data-anchor-id="parent-metadata-required">Parent Metadata <span style="color:#b50909;font-weight:bold">(Required)</span></h2>
 <p><strong>Parent Metadata</strong> tells mdEditor where the project metadata should go when it is published. If using ScienceBase, this is the folder above the project by default.</p>
 <p>If you imported the project metadata from ScienceBase originally, this section will be populated already.</p>
 <p>If you created the project metadata from scratch in mdEditor, this will be blank. If you provide a default parent ID in <a href="../../content/settings.html#publishing-settings">Settings</a> (Publishing Settings for ScienceBase), this will be generated for you when when you publish. This is most likely your SA regional project folder. You can enter the parent item SBID directly in your individual metadata record if you wish.</p>
