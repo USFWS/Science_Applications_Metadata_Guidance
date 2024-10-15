@@ -16,8 +16,8 @@ The **Main** tab allows for the creation and/or editing of primary metadata.
 | Metadata Field                | Product Records   |
 |:------------------------------|:-------------|
 | Basic Information     | |
-|        Title          | [Required](#title)`r req_style`^\*^                |
-|        Status         | [Required](#status)`r req_style`^\*^               |
+|        Title          | [Required](#title)`r req_style`                |
+|        Status         | [Required](#status)`r req_style`               |
 | Default Locale        | [Required](#default-locale-required)`r req_style`  |
 | Resource Type         | [Required](#resource-types)`r req_style`           | 
 | Points of Contact     | |
@@ -25,12 +25,12 @@ The **Main** tab allows for the creation and/or editing of primary metadata.
 |        Custodian              | [Required](#point-of-contacts)`r req_style`|
 |        Administrator          | |
 |        Administrative Region  | [Required](#point-of-contacts)`r req_style`|
-|        Principal Investigator | [If Applicable](#point-of-contacts)`r if_style`^\*^  |
+|        Principal Investigator | [If Applicable](#point-of-contacts)`r if_style`  |
 |        Co-Principal Investigator | [If Applicable](#point-of-contacts-if-applicable)`r if_style`  |
 | Citation                      | |
-|        Title                  | [Required](#title)`r req_style`^\*^|
+|        Title                  | [Required](#title)`r req_style`|
 |        Dates (multiple)       | [If Applicable](#dates-if-applicable)`r if_style`  |
-|        Responsible Parties (multiple)  | [Required](#responsible-parties-required)`r req_style`^\*^ |
+|        Responsible Parties (multiple)  | [Required](#responsible-parties-required)`r req_style` |
 |        Online Resource        | |
 |               Name            | [If Applicable](#online-resource)`r if_style`  |
 |               URL             | [If Applicable](#online-resource)`r if_style`  |
@@ -39,10 +39,10 @@ The **Main** tab allows for the creation and/or editing of primary metadata.
 |               Identifier      | [Required](#metadata-identifier-required)`r req_style`  |
 |               Namespace       | [Required](#metadata-namespace-required)`r req_style`   |
 | Description                   | |
-|        Abstract               | [Required](#abstract)`r req_style`^\*^     |
+|        Abstract               | [Required](#abstract)`r req_style`     |
 | Time Period                   | |
 |        Start Date             | [If Applicable](#time-period)`r if_style`      |
-|        End Date               | [Required](#time-period)`r req_style`^\*^  |
+|        End Date               | [Required](#time-period)`r req_style`  |
 : {.striped .hover .bordered .sm .allborder} 
 
 <br/>

@@ -34,7 +34,7 @@ have been published to ScienceBase.
 | **Resource Type**    | [Main Tab: Resource Type](project_records/main_tab_project.qmd#resource-types-required) | [Main Tab: Resource Type](product_records/main_tab_product.qmd#resource-types-required) |
 | **Title**                    | [Main Tab: Title](project_records/main_tab_project.qmd#title-required)                  | [Main Tab: Title](product_records/main_tab_product.qmd#title-required)                  |
 | **Source**                   | ScienceBase folder location^**1**^ | ScienceBase folder location^**1**^ |
-| **Fiscal Years Funded**      | [Funding Tab: Allocation: Time Period: Dates](project_records/funding_tab_project.qmd#dates-required) | [Associated Project](product_records/associated_tab_product.qmd)^**2**^ |
+| **Fiscal Years Funded**      | [Funding Tab: Funding Period: Time Period: Dates](project_records/funding_tab_project.qmd#dates-required) | [Associated Project](product_records/associated_tab_product.qmd)^**2**^ |
 | **Last Update Date**         | [Main Tab: Citation: Dates](project_records/main_tab_project.qmd#dates-required)   | [Main Tab: Citation: Dates](product_records/main_tab_product.qmd#dates-required)  |
 | **Status**                   | [Main Tab: Status](project_records/main_tab_project.qmd#status-required) | [Main Tab: Status](product_records/main_tab_product.qmd#status-required) | 
 | **Project Dates (multiple)** | [Main Tab: Citation: Dates](project_records/main_tab_project.qmd#dates-required)   | [Main Tab: Citation: Dates](product_records/main_tab_product.qmd#dates-required)  |

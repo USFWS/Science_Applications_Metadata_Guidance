@@ -100,8 +100,3 @@ publishing can alter records, like adding or changing a ScienceBase ID.
 The [SA Science Catalog](https://www.fws.gov/science/catalog/) updates overnight
 so you should review newly-published records the day after you publish to
 ScienceBase. This will be one of your best quality control checks.
-
-### 13. Consult QA/QC resources.
-
-See the [QA/QC Fixes](../trouble_shooting/qa_qc_fixes.qmd) page for suggestions
-about updating your data to check your metadata.

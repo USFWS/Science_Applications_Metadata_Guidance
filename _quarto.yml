@@ -130,7 +130,6 @@ website:
       - section: "Appendix"
         href: content/appendix/appendix_overview.qmd 
         contents:
-          - content/appendix/non_duplication_policy.qmd   
           - section: "Developer Resources"
             href: content/developer_resources/developer_resources_overview.qmd        
             contents:
@@ -143,6 +142,7 @@ website:
             href: content/appendix/lcc_workflows/lcc_workflows_overview.qmd      
             contents:
               - content/appendix/lcc_workflows/cofunded_lcc_projects.qmd      
+          - content/appendix/non_duplication_policy.qmd   
             
 #      - content/archiving.qmd
 #      - section: "Trouble-Shooting"

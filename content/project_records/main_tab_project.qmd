@@ -30,8 +30,8 @@ The **Main** tab allows for the creation and/or editing of primary metadata.
 |        Principal Investigator | [If Applicable](#points-of-contact-required)`r if_style`^\*^ |
 |        Co-Principal Investigator | [If Applicable](#points-of-contact-required)`r if_style`|                                                                                         
 | Citation                      | |
-|        Title                  | [Required](#title-required-1)`r req_style`^\*^ |                                                                                                       
-|        Dates (multiple)       | [Required](#dates-required)`r req_style`^\*^   |                                                                                                       
+|        Title                  | [Required](#title-required-1)`r req_style` |                                                                                                       
+|        Dates (multiple)       | [Required](#dates-required)`r req_style`   |                                                                                                       
 |        Responsible Parties (multiple)  | [Required](#responsible-parties-required)`r req_style`^\*^ |                                                                                  
 |        Online Resource        | |
 |               Name            | [If Applicable](#online-resource-if-applicable)`r if_style`|                                                                                                             
@@ -41,10 +41,10 @@ The **Main** tab allows for the creation and/or editing of primary metadata.
 |               Identifier      | [Required](#metadata-identifier-required)`r req_style` |                                                                                                 
 |               Namespace       | [Required](#metadata-namespace-required)`r req_style` |                                                                                                    
 | Description                   | |
-|        Abstract               | [Required](#abstract)`r req_style`^\*^     |                                                                                                           
+|        Abstract               | [Required](#abstract)`r req_style`     |                                                                                                           
 | Time Period                   | |
-|        Start Date             | [Required](#time-period)`r req_style`^\*^  |                                                                                                           
-|        End Date               | [Required](#time-period)`r req_style`^\*^  |                                                                                                           
+|        Start Date             | [Required](#time-period)`r req_style`  |                                                                                                           
+|        End Date               | [Required](#time-period)`r req_style`  |                                                                                                           
 : {.striped .hover .bordered .sm .allborder} 
 
 <br/>

@@ -19,7 +19,7 @@ Definition​: Assistant Regional Directors for Science Applications
 -   Sign memo stating a project intended for funding is not duplicative
     research or other science activity (Science Project) and therefore does
     not need to go through any additional steps in the [Non-Duplication
-    Policy](non_duplication_policy.qmd).
+    Policy](appendix/non_duplication_policy.qmd).
 -   Sign ​CASC Consultation Certification memo​ stating the CASC consultation
     took place and identified not duplication of funding between SA and a
     CASC. For grants and cooperative agreements, this can be certified by

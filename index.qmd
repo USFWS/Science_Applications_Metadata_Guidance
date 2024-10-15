@@ -72,7 +72,9 @@ This document will continue to be updated regularly and publishing using the
 [GitHub Repository](https://github.com/USFWS/Science_Applications_Metadata_Guidance). 
 Please refresh 
 this manual every time you open it to ensure you are viewing the most recent 
-version. **Last updated:** **`r todays_date`**. 
+version.  
+
+Guidance was last updated: **`r todays_date`**. 
 
 ## Providing Feedback
 
@@ -82,6 +84,6 @@ this guidance, you can use this [online form](https://forms.office.com/g/xtkDZ3r
 If you’d like to give direct feedback through Github, please consider reporting 
 an [issue](https://github.com/USFWS/sciapps_metadata_guidance/issues/new) 
 or submitting edits through a 
-[pull request](https://github.com/USFWS/sciapps_metadata_guidance). However, 
+[pull request](https://github.com/USFWS/sciapps_metadata_guidance/pulls). However, 
 in order to access these functions, you will be required to sign in or
 create an account with Github.
