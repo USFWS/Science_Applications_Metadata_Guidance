@@ -19,30 +19,30 @@ metadata, and metadata repositories.
 | Metadata Field                | Product Records   |
 |:------------------------------|:-------------|
 | Metadata Status   | [Required](#metadata-status-required)`r req_style` | 
-| Dates             | |
+| Dates             | [Required](#dates-required)`r req_style`|
 | Metadata Contacts | |
 |        Author     | [Required](#metadata-contacts)`r req_style`|
 |        Publisher  | [Required](#metadata-contacts)`r req_style`|
-|        Point of Contact | [Required](#metadata-contacts)`r req_style`|
-| Metadata Identifier     | [Required](#metadata-identifier)`r req_style`|
-| Parent Metadata         | [Required](#parent-metadata)`r req_style`|
-| Metadata Repositories   | [Required](#metadata-repositories)`r req_style`|
+|        Point of Contact | [Required](#metadata-contacts-required)`r req_style`|
+| Metadata Identifier     | [Required](#metadata-identifier-required)`r req_style`|
+| Parent Metadata         | [Required](#parent-metadata-required)`r req_style`|
+| Metadata Repositories   | [Required](#metadata-repositories-required)`r req_style`|
 : {.striped .hover .bordered .sm .allborder}  
 
 <br/>
 
 ## Basic Information
 
-### Metadata Status
+### Metadata Status [(Required)]`r req_style`
 
 Select the appropriate **Status** of the creation of your metadata from the
 drop-down menu. For example, if you have added all of your metadata, select
 ***completed***. If you still have metadata to add, select ***onGoing***.
 
-### Dates
+### Dates [(Required)]`r req_style`
 
-Enter a **Date** for ***creation*** or ***last updated*** date. At least one of 
-these dates is required.
+Enter a **Date** for ***creation*** or ***last updated*** date. 
+<u>At least one</u> of these dates is required.
 
 ## Metadata Contacts
 
@@ -95,7 +95,7 @@ in [Main/Citation/Identifier](main_tab_product.qmd#identifier).
 
 ![Example of identifiers in citation.](../../assets/doi_correct_doi_identifier.png)
 
-## Parent Metadata
+## Parent Metadata [(Required)]`r req_style`
 
 **Parent Metadata** defines the ScienceBase folder in which the product will be
 published. The parent metadata tells mdEditor where the product metadata should
@@ -126,7 +126,7 @@ the item's URL immediately following "**item/**". For example,
 
 ![Example Parent Metadata entry](../../assets/example_sb_parent_metadata_product.png)
 
-## Metadata Repositories
+## Metadata Repositories [(Required)]`r req_style`
 
 **Metadata Repositories** indicate where the metadata will be sent upon
 publishing.

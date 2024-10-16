@@ -19,11 +19,11 @@ the metadata, and metadata repositories.
 | Metadata Field                | Project Records   |
 |:------------------------------|:-------------|
 | Metadata Status   | [Required](#metadata-status-required)`r req_style`  |  
-| Dates             | [Required](#metadata-dates-required)`r req_style`   |
+| Dates             | [Required](#mdates-required)`r req_style`   |
 | Metadata Contacts |                                               |
-|        Author     | [Required](#metadata-contacts)`r req_style`         | 
-|        Publisher  | [Required](#metadata-contacts)`r req_style`         | 
-|        Point of Contact | [Required](#metadata-contacts)`r req_style`   | 
+|        Author     | [Required](#contacts-required)`r req_style`         | 
+|        Publisher  | [Required](#contacts-required)`r req_style`         | 
+|        Point of Contact | [Required](#contacts-required)`r req_style`   | 
 | Metadata Identifier     | [Required](#metadata-identifier-required)`r req_style` | 
 | Parent Metadata         | [Required](#parent-metadata-required)`r req_style`     | 
 | Metadata Repositories   | [Required](#repositories-required)`r req_style` | 

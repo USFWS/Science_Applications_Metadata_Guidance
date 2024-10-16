@@ -13,11 +13,11 @@ Products can be linked together by using association. Adding associations gives
 users the ability to find items that relate to each other in the Science
 Catalog.
 
-:::{.callout-note} 
+:::{.callout-note icon=false} 
 In ScienceBase, **Associated Records** are referred to as **Item Associations**.
 :::
 
-:::{.callout-note}
+:::{.callout-note icon=false} 
 Remember: Project-product associations are different than parent-child
 relationships on ScienceBase.
 :::
@@ -29,7 +29,7 @@ record. The "Association Type" will define the association from your current
 record to the linked record. Specifying the "Linked Association Type" will
 create the association from the other direction.
 
-:::{.callout-note}
+:::{.callout-note icon=false} 
 Important: It is recommended you ALWAYS specify the
 Linked Association Type when you create associations. This will ensure the
 associations are defined from both directions and be present in the metadata no

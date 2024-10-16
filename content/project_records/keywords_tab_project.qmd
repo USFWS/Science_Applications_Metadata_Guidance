@@ -11,7 +11,7 @@ setwd("../..")
 source(file.path(getwd(), "config.R"))
 ```
 
-The "Keywords" tab adds keywords to your metadata so the record to be 
+The **Keywords** tab adds keywords to your metadata so the record to be 
 found later through a search engine, keywords are the way to tag your projects 
 or products.mdEditor is designed using existing thesauruses that contain 
 pre-determined keywords.
@@ -21,9 +21,9 @@ pre-determined keywords.
 |:------------------------------|:---------------|
 | ISO Topic Category                | [Required](#iso-topic-category-required)`r req_style` |
 | SA Priority Area                  | [Required](#sa-priority-area-required)`r req_style`   |
-| SA Science Topic                  | [Required](#science-topic-required)`r req_style`      |
-| Conservation Action Open Standard | [If Applicable](#conservation-action-open-standard-required-if-applicable)`r if_style` |
-| Global Change Master Directory (GCMD)  | [Best Practice](p#gcmd)`r best_style`                |
+| SA Science Topic                  | [Required](#sa-science-topic-required)`r req_style`      |
+| Conservation Action Open Standard | [If Applicable](#conservation-action-open-standard-if-applicable)`r if_style` |
+| Global Change Master Directory (GCMD)  | [Best Practice](#global-change-master-directory-gcmd-best-practice)`r best_style` |
 : {.striped .hover .bordered .sm .allborder}   
 
 <br/>
@@ -224,12 +224,12 @@ the workflow section for more info about using template records.
 
 mdEditor uses the term "keywords" while ScienceBase uses the term "tags."
 
-:::{.callout-note appearance="minimal"} 
-Keywords edited in mdEditor will not overwrite keywords
-stored in sbJSON on ScienceBase because ScienceBase only adds to the list of
-tags. If you want to remove obsolete keywords/tags on ScienceBase, you will need
-to manually delete them in ScienceBase. mdJSON and the SA Science Catalog,
-however, will reflect the changes made in mdEditor. 
+::: {.callout-hint icon=false}
+Keywords edited in mdEditor will not overwrite keywords stored in ScienceBase
+(i.e. sbJSON) because ScienceBase only adds to the list of tags. If you do not
+want obsolete keywords/tags to show up on ScienceBase, manually delete these in
+ScienceBase. mdJSON and the SA Science Catalog, however, will reflect any
+changes made in mdEditor.
 :::
 
 ### Imported Keywords

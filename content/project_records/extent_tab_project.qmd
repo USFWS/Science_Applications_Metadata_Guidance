@@ -55,28 +55,28 @@ geoJSON files for all FWS regional and state geographies are available on
 (private DMWG folder that requires ScienceBase login). Download the relevant
 files and then import into mdEditor.
 
-::: {.callout-note}
+::: {.callout-note icon=false} 
 Important: coordinates used must be geographic
 coordinates, not projected coordinates. {% endhint %}
 :::
 
 ### Option 2: Draw Spatial Features
 
-::: {.callout-note} 
+::: {.callout-note icon=false} 
 Tip: It is easier to click "finish" when drawing a
 polygon instead of trying to close the polygon by clicking on the first point.
 :::
 
 ### Option 3: Draw Bounding Box
 
-::: {.callout-tip}
+::: {.callout-tip icon=false}
 mdEditor can automatically calculate a bounding box if
 you have at least one extent in the metadata. 
 :::
 
 ![Example Geographic Extent entry](../../assets/example_geographic_extent.png)
 
-::: {.callout-warning}
+::: {.callout-warning icon=false}
 Bounding boxes will not work across the dateline but
 you can have more than one extent per project. If your project area crosses the
 dateline, split the area into multiple extents and create separate bounding
@@ -85,7 +85,7 @@ boxes.
 
 ## Saving and Exporting Extents
 
-::: {.callout-note}  
+::: {.callout-note icon=false} 
 Tip: You can export, save, and import an extent to use
 for other projects or products. 
 :::

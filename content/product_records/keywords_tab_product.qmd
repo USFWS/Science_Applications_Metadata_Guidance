@@ -228,7 +228,7 @@ the workflow section for more info about using template records.
 
 mdEditor uses the term "keywords" while ScienceBase uses the term "tags."
 
-::: {.callout-hint appearance="minimal"}
+::: {.callout-hint icon=false}
 Keywords edited in mdEditor will not overwrite keywords stored in ScienceBase
 (i.e. sbJSON) because ScienceBase only adds to the list of tags. If you do not
 want obsolete keywords/tags to show up on ScienceBase, manually delete these in

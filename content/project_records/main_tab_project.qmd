@@ -18,30 +18,30 @@ The **Main** tab allows for the creation and/or editing of primary metadata.
 | Metadata Field                | Project Records  |
 |:------------------------------| :-------------|
 | Basic Information     | | 
-|        Title          | [Required](#title-required)`r req_style`^\*^  |                                                                                                               
-|        Status         | [Required](#status-required)`r req_style`^\*^ |                                                                                                               
+|        Title          | [Required](#title-required)`r req_style`  |                                                                                                               
+|        Status         | [Required](#status-required)`r req_style` |                                                                                                               
 | Default Locale        | [Required](#default-locale-required)`r req_style` |
 | Resource Type         | [Required](#resource-types-required)`r req_style` |
 | Points of Contact     | |
 |        Point of Contact       | [Required](#points-of-contact-required)`r req_style` |
 |        Custodian              | [Required](#points-of-contact-required)`r req_style` |               
-|        Administrator          | [Required](#points-of-contact-required)`r req_style`^\*^ |     
+|        Administrator          | [Required](#points-of-contact-required)`r req_style` |     
 |        Administrative Region  | [Required](#points-of-contact-required)`r req_style` |               
-|        Principal Investigator | [If Applicable](#points-of-contact-required)`r if_style`^\*^ |
+|        Principal Investigator | [If Applicable](#points-of-contact-required)`r if_style` |
 |        Co-Principal Investigator | [If Applicable](#points-of-contact-required)`r if_style`|                                                                                         
 | Citation                      | |
 |        Title                  | [Required](#title-required-1)`r req_style` |                                                                                                       
 |        Dates (multiple)       | [Required](#dates-required)`r req_style`   |                                                                                                       
-|        Responsible Parties (multiple)  | [Required](#responsible-parties-required)`r req_style`^\*^ |                                                                                  
+|        Responsible Parties (multiple)  | [Required](#responsible-parties-required)`r req_style` |                                                                                  
 |        Online Resource        | |
-|               Name            | [If Applicable](#online-resource-if-applicable)`r if_style`|                                                                                                             
-|               URL             | [If Applicable](#identifier-if-applicable)`r if_style`|                                                                                                             
-|               Function        | [If Applicable](#identifier-if-applicable)`r if_style`|                                                                                                             
+|               Name            | [If Applicable](#online-resource-if-applicable)`r if_style`|                                                                                                        
+|               URL             | [If Applicable](#online-resource-if-applicable)`r if_style`|                                                                                                        
+|               Function        | [If Applicable](#online-resource-if-applicable)`r if_style`|                                                                                                        
 |        Identifier             | |
-|               Identifier      | [Required](#metadata-identifier-required)`r req_style` |                                                                                                 
-|               Namespace       | [Required](#metadata-namespace-required)`r req_style` |                                                                                                    
+|               Identifier      | [Required](#identifier-required)`r req_style` |                                                                                                 
+|               Namespace       | [Required](#namespace-required)`r req_style` |                                                                                                    
 | Description                   | |
-|        Abstract               | [Required](#abstract)`r req_style`     |                                                                                                           
+|        Abstract               | [Required](#abstract-required)`r req_style`     |                                                                                                           
 | Time Period                   | |
 |        Start Date             | [Required](#time-period)`r req_style`  |                                                                                                           
 |        End Date               | [Required](#time-period)`r req_style`  |                                                                                                           
@@ -161,10 +161,10 @@ in mdEditor. See the [Contacts](../contact_records/contact_records_overview.qmd)
 section for more information.
 :::
 
-| Role                    | Contact          | Requirements               |
+| Role                 | Contact              | Requirements      |
 |----------------------|----------------------|-------------------|
-| principalInvestigator   | Project Principal Investigator       | [Required]`r req_style`               |
-| coPrincipalInvestigator | Co-Investigators |[**If applicable**]`r if_style` |
+| principalInvestigator   | Project Principal Investigator | [Required]`r req_style`  |
+| coPrincipalInvestigator | Co-Investigators | [If applicable]`r if_style` |
 : {.striped .hover .bordered .md .allborder}
 
 <br/>
@@ -176,19 +176,23 @@ if available.
 
 ### Identifier [(Required)]`r req_style`
 
-You may enter as many **Identifiers** as desired. The identifier for the 
-repository is required here. If you have other internal IDs for projects, enter 
+You may enter as many Identifiers as needed. Identifiers are unique codes
+that identify a metadata records and enable metadata management and cataloging. 
+An **Identifier** is a unique character string and the **Namespace** describes 
+the environment (e.g., ScienceBase, ITIS, etc.) or type 
+(e.g., mapProjection, UUID, etc.) of the identifier.  The identifier for the metadata repository is 
+required here. If you have other internal IDs for projects, enter 
 them here. Other optional identifiers for projects include: 
 [Archive](../archiving.qmd) Folder Name.
 
-::: {.callout-note title="Best Practice"}
+::: {.callout-note icon=false title="Best Practice"}
 Create and use internal identifiers that are unique within your region or
 program for projects and their products. Example: GNLCC2010-11.
 :::
 
-::: callout-note
-If your item does not have a ScienceBase ID yet, ScienceBase will create one
-automatically upon publishing. If you imported your item from ScienceBase
+::: {.callout-note icon=false title="ScienceBase ID"}
+If your item does not have a ScienceBase ID (SBID) yet, ScienceBase will create 
+one automatically upon publishing. If you imported your item from ScienceBase
 originally, then the SBID will already be included in Metadata/Metadata
 Identifier and you do not need to include it here. Note that if you edit an item
 that is already on ScienceBase without using its existing ID, a duplicate item
@@ -231,13 +235,13 @@ For the **Supplemental Information** enter comments, if desired.
 
 ## Time Period 
 
-### Start Date and End Date [(Required)]`r if_style`
+### Start Date and End Date [(Required)]`r req_style`
 
 For each project, add a **Start Date** and **End Date**. If the project 
 spanned a single fiscal year, you can use the “Pick a Fiscal Year” drop-down to 
 autofill the date fields.
 
-::: callout-note
+::: {.callout-note icon=false}
 This set of dates is distinct from the fiscal year of funding. Here you want to
 indicate the overall project start and end dates. In the Funding section you
 will specify the fiscal years that funds were allocated.

@@ -16,30 +16,30 @@ The **Main** tab allows for the creation and/or editing of primary metadata.
 | Metadata Field                | Product Records   |
 |:------------------------------|:-------------|
 | Basic Information     | |
-|        Title          | [Required](#title)`r req_style`                |
-|        Status         | [Required](#status)`r req_style`               |
+|        Title          | [Required](#title-required)`r req_style`                |
+|        Status         | [Required](#status-required)`r req_style`               |
 | Default Locale        | [Required](#default-locale-required)`r req_style`  |
-| Resource Type         | [Required](#resource-types)`r req_style`           | 
+| Resource Type         | [Required](#resource-types-required)`r req_style`           | 
 | Points of Contact     | |
-|        Point of Contact       | [Required](#point-of-contacts)`r req_style`|
-|        Custodian              | [Required](#point-of-contacts)`r req_style`|
+|        Point of Contact       | [Required](#points-of-contact-required)`r req_style`|
+|        Custodian              | [Required](#points-of-contact-required)`r req_style`|
 |        Administrator          | |
-|        Administrative Region  | [Required](#point-of-contacts)`r req_style`|
-|        Principal Investigator | [If Applicable](#point-of-contacts)`r if_style`  |
-|        Co-Principal Investigator | [If Applicable](#point-of-contacts-if-applicable)`r if_style`  |
+|        Administrative Region  | [Required](#points-of-contact-required)`r req_style`|
+|        Principal Investigator | [If Applicable](#points-of-contact-required)`r if_style`  |
+|        Co-Principal Investigator | [If Applicable](#points-of-contact-required)`r if_style`  |
 | Citation                      | |
-|        Title                  | [Required](#title)`r req_style`|
-|        Dates (multiple)       | [If Applicable](#dates-if-applicable)`r if_style`  |
+|        Title                  | [Required](#title-required-1)`r req_style`|
+|        Dates (multiple)       | [Required](#dates-required)`r req_style`  |
 |        Responsible Parties (multiple)  | [Required](#responsible-parties-required)`r req_style` |
 |        Online Resource        | |
-|               Name            | [If Applicable](#online-resource)`r if_style`  |
-|               URL             | [If Applicable](#online-resource)`r if_style`  |
-|               Function        | [If Applicable](#online-resource)`r if_style`  |
+|               Name            | [If Applicable](#online-resource-if-applicable)`r if_style`  |
+|               URL             | [If Applicable](#online-resource-if-applicable)`r if_style`  |
+|               Function        | [If Applicable](#online-resource-if-applicable)`r if_style`  |
 |        Identifier             | |
-|               Identifier      | [Required](#metadata-identifier-required)`r req_style`  |
-|               Namespace       | [Required](#metadata-namespace-required)`r req_style`   |
+|               Identifier      | [Required](#identifier-required)`r req_style`  |
+|               Namespace       | [Required](#identifier-required)`r req_style`   |
 | Description                   | |
-|        Abstract               | [Required](#abstract)`r req_style`     |
+|        Abstract               | [Required](#abstract-required)`r req_style`     |
 | Time Period                   | |
 |        Start Date             | [If Applicable](#time-period)`r if_style`      |
 |        End Date               | [Required](#time-period)`r req_style`  |
@@ -178,10 +178,15 @@ online resource that data.gov reads so without a URL there, users have no way to
 access the actual product from data.gov. 
 :::
 
-#### Identifier
+#### Identifier [(Required)]`r req_style`
 
-You may enter as many identifiers as desired, but <u>at least one </u> is 
-required. If you have internal SA specific IDs for projects, enter them here. 
+You may enter as many Identifiers as needed, but <u>at least one </u> is 
+required. Identifiers are unique codes
+that identify a metadata records and enable metadata management and cataloging. 
+An **Identifier** is a unique character string and the **Namespace** describes 
+the environment (e.g., ScienceBase, ITIS, etc.) or type 
+(e.g., mapProjection, UUID, etc.) of the identifier. 
+If you have internal SA specific IDs for projects, enter them here. 
 A Digital Object Identifier (DOI) is the preferred identifier for this. The 
 Archive Folder Name may be included here as well.
 
@@ -246,12 +251,12 @@ Enter comments, if desired.
 
 ## Time Period 
 
-### Start Date and End Date [(Required)]`r req_style`
+### Start Date [(If Applicable)]`r if_style` and End Date [(Required)]`r req_style`
 
 **Time Period** refers to when date the product was applicable, For example, 
 the time when a map is valid, date of publication, date of presentation, or 
-dates when the data was collected. For each product, enter a **Start Date** and 
-**End Date**. 
+dates when the data was collected. For each product, enter a **Start Date**, 
+if available, and **End Date**. 
 
 
 ![](../../assets/example_time_period.png)
