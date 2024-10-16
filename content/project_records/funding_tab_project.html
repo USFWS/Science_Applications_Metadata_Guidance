@@ -623,6 +623,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#recipient-required" id="toc-recipient-required" class="nav-link" data-scroll-target="#recipient-required">Recipient (<span style="color:#b50909;font-weight:bold">Required</span>)</a></li>
   <li><a href="#other-contacts-required" id="toc-other-contacts-required" class="nav-link" data-scroll-target="#other-contacts-required">Other Contacts (<span style="color:#b50909;font-weight:bold">Required</span>)</a></li>
   <li><a href="#marked-funding-if-applicable" id="toc-marked-funding-if-applicable" class="nav-link" data-scroll-target="#marked-funding-if-applicable">Marked Funding (<span style="color:#947100;">If applicable</span>)</a></li>
+  <li><a href="#matching-and-in-kind-funds-if-applicable" id="toc-matching-and-in-kind-funds-if-applicable" class="nav-link" data-scroll-target="#matching-and-in-kind-funds-if-applicable">Matching and In-kind Funds (<span style="color:#947100;">If applicable</span>)</a></li>
   </ul></li>
   <li><a href="#time-period" id="toc-time-period" class="nav-link" data-scroll-target="#time-period">Time Period</a>
   <ul class="collapse">
@@ -672,19 +673,19 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Amount</td>
-<td style="text-align: left;"><a href="#amount-required" style="color:#b50909;font-weight:bold">Required</a><sup>*</sup></td>
+<td style="text-align: left;"><a href="#amount-required" style="color:#b50909;font-weight:bold">Required</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Currency</td>
-<td style="text-align: left;"><a href="#currency-required" style="color:#b50909;font-weight:bold">Required</a><sup>*</sup></td>
+<td style="text-align: left;"><a href="#currency-required" style="color:#b50909;font-weight:bold">Required</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Award ID</td>
-<td style="text-align: left;"><a href="#award-id-required" style="color:#b50909;font-weight:bold">Required</a><sup>*</sup></td>
+<td style="text-align: left;"><a href="#award-id-required" style="color:#b50909;font-weight:bold">Required</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Source</td>
-<td style="text-align: left;"><a href="#source-required" style="color:#b50909;font-weight:bold">Required</a><sup>*</sup></td>
+<td style="text-align: left;"><a href="#source-required" style="color:#b50909;font-weight:bold">Required</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Recipient</td>
@@ -692,7 +693,7 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Other Contacts (multiple)</td>
-<td style="text-align: left;"><a href="#recipient-required" style="color:#b50909;font-weight:bold">Required</a></td>
+<td style="text-align: left;"><a href="#other-contacts-required" style="color:#b50909;font-weight:bold">Required</a></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Matching and In-kind Funds</td>
@@ -704,11 +705,11 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td style="text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fiscal Year</td>
-<td style="text-align: left;"><a href="#dates-required" style="color:#b50909;font-weight:bold">Required</a><sup>*</sup></td>
+<td style="text-align: left;"><a href="#dates-required" style="color:#b50909;font-weight:bold">Required</a></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Description (multiple)</td>
-<td style="text-align: left;"><a href="#description" style="color:#00687d;">Best Practice</a></td>
+<td style="text-align: left;"><a href="#description-best-practive" style="color:#00687d;">Best Practice</a></td>
 </tr>
 </tbody>
 </table>
@@ -796,7 +797,15 @@ Note
 <figcaption>Example of organizational fund contact entry</figcaption>
 </figure>
 </div>
-<p><img src="../../assets/example_funding_entry.png" class="img-fluid" alt="Example of organizational fund entry in Funding metadata entry"> ### Matching and In-kind Funds (<span style="color:#947100;">If applicable</span>)</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../assets/example_funding_entry.png" class="img-fluid figure-img"></p>
+<figcaption>Example of organizational fund entry in Funding metadata entry</figcaption>
+</figure>
+</div>
+</section>
+<section id="matching-and-in-kind-funds-if-applicable" class="level3">
+<h3 class="anchored" data-anchor-id="matching-and-in-kind-funds-if-applicable">Matching and In-kind Funds (<span style="color:#947100;">If applicable</span>)</h3>
 <p>Project funds or in-kind support that were supplied by a partner (i.e., not specifically allocated to SA) should be included as an allocation as described above, but with the matching fund box checked. Each matching fund provider needs to be included as a separate allocation.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -810,7 +819,7 @@ Note
 <h2 class="anchored" data-anchor-id="time-period">Time Period</h2>
 <section id="dates-required" class="level3">
 <h3 class="anchored" data-anchor-id="dates-required">Dates (<span style="color:#b50909;font-weight:bold">Required</span>)</h3>
-<p>For each allocation, enter the fiscal year that funds were awarded (not the time span of the entire project). There should be a single fiscal year for each allocation. Adding a time period lets users know when your items were funded, and lets them find your item when searching for items funded in a similar time period.</p>
+<p>For each allocation, enter the <strong>Fiscal Year</strong> that funds were awarded (not the time span of the entire project). There should be a single fiscal year for each allocation. Adding a time period lets users know when your items were funded, and lets them find your item when searching for items funded in a similar time period.</p>
 <div class="callout callout-style-default callout-tip no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
