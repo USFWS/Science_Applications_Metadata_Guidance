@@ -14,8 +14,8 @@ report for a workshop that inspired the product.
 
 There are no SA specific requirements or best practices for documents.
 
-::: {.callout-note}
-ScienceBase has a similar section called "weblinks."
+::: {.callout-note icon=false}
+ScienceBase has a similar section called "weblinks".
 These will be populated in the Documents section if sbJSON is imported into
 mdEditor. 
 :::

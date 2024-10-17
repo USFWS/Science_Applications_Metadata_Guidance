@@ -5,6 +5,11 @@ editor:
     wrap: 80
 ---
 
+```{r, echo=FALSE}
+setwd("../..")
+source(file.path(getwd(), "config.R"))
+```
+
 The following compiles all of the required and recommended contact information
 for project and product metadata. This information is also listed in the
 specific metadata sections in the manual.
@@ -17,29 +22,24 @@ metadata record where you should add contacts.
 *Please see the corresponding sections for which contacts should be added
 where.*
 
-1.  [Main Tab](../project_records/main_tab_project.qmd#points-of-contact-required)
-    / "Point of Contact” section
-2.  [Main Tab](../project_records/main_tab_project.qmd#responsible-parties-required)
-    / Citation / “Responsible Parties” section
-3.  [Metadata Tab](../project_records/metadata_tab_project.qmd#metadata-contacts)
-    / “Contacts” section
-4.  [Funding Tab](../project_records/funding_tab_project.qmd) / “Allocation”
-    section. For Projects only.
-5.  [Distribution Tab](../product_records/distribution_tab_product.qmd) / "Contacts”
-    section. For Products only.
+1.  [Main Tab / Point of Contact](../project_records/main_tab_project.qmd#points-of-contact-required)
+2.  [Main Tab / Citation / Responsible Parties](../project_records/main_tab_project.qmd#responsible-parties-required)
+3.  [Metadata Tab / Contacts](../project_records/metadata_tab_project.qmd#metadata-contacts)
+4.  [Funding Tab / Allocation](../project_records/funding_tab_project.qmd) (for Projects only)
+5.  [Distribution Tab / Contacts](../product_records/distribution_tab_product.qmd) (for Products only)
 
 ### Main / Point of Contact
 
-| Role                  | Contact                  | Required?     |
+| Role                  | Contact                  | Requirements     |
 |:----------------------|:-------------------------|:--------------|
-| pointOfContact        | SA National Data Steward | Required      |
-| pointOfContact        | Your Region Data Steward | Best Practice |
-| pointOfContact        | Data Steward             | Required      |
-| custodian             | Data Custodian           | Best Practice |
-| principalInvestigator | Project PI               | Best Practice |
-| administrator         | FWS Project Officer      | Required      |
-| administrator         | FWS Region               | Required      |
-| administrator         | FWS Program              | Best Practice |
+| pointOfContact        | SA National Data Steward | [Required]`r req_style`      |
+| pointOfContact        | Your Region Data Steward | [Best Practice]`r best_style` |
+| pointOfContact        | Data Steward             | [Required]`r req_style`      |
+| custodian             | Data Custodian           | [Best Practice]`r best_style` |
+| principalInvestigator | Project PI               | [Best Practice]`r best_style` |
+| administrator         | FWS Project Officer      | [Required]`r req_style` |
+| administrator         | FWS Region               | [Required]`r req_style` |
+| administrator         | FWS Program              | [Best Practice]`r best_style` |
 : {.striped .hover .bordered .md .allborder} 
 
 ### Main / Citation / Responsible Parties
@@ -49,61 +49,62 @@ parties such as funders, partners, collaborators, and
 contributors. Collaborators could be intellectual participants while
 contributors could be intellectual and financial participants.
 
-| Role                  | Contact        | Required? |
+| Role                  | Contact        | Requirements |
 |:----------------------|:---------------|:----------|
-| principalInvestigator | Project PI     | Required  |
+| principalInvestigator | Project PI     | [Required]`r req_style`  |
 : {.striped .hover .bordered .md .allborder} 
 
 ### Metadata / Contacts
 
-| Role           | Contact          | Required?                |
+| Role           | Contact          | Requirements                |
 |:---------------|:-----------------|:-------------------------|
-| author         | See Notes Below  | At Least One is Required |
-| publisher      | Default is FWS   | Required                 |
-| pointOfContact | FWS Data Steward | Required                 |
-: {.striped .hover .bordered .md .allborder} 
+| author         | See notes below  | [Required]`r req_style` (at least one) |
+| publisher      | Default is FWS   | [Required]`r req_style` |
+| pointOfContact | FWS Data Steward | [Required]`r req_style` |
+: {.striped .hover .bordered .md .allborder}   
 
-**Regarding Role of "author"**
+#### Role of **author**
 
--   The author does not necessarily have to be the data steward (e.g., imported
-    FGDC metadata can list the original author).
--   "Author" can be an individual or an organization.
--   You can enter your regional or program data manager as the “author”. If you
+-   At least one contact with the role of **author** is required.
+-   The **author** does not necessarily have to be the data steward (e.g., 
+    imported FGDC metadata can list the original author).
+-   The **author** can be an individual or an organization.
+-   You can enter your regional or program data manager as the **author**. If you
     prefer, you can use a generic data manager contact rather than an individual
     name.
--   At least one contact with the role of “author” is required.
+
 
 ### Funding / Allocation (for Projects only)
 
-#### Source (Required)
+#### Source ([Required]`r req_style`)
 
-Add the relevant contact for the “source” of the project funding. Source should
-be an organization, not an individual. For FWS projects, the default source is
-U.S. Fish and Wildlife Service. Regions or programs should be added as the
-funding "administrator" in the Other Contacts field.
+Add the relevant contact for the **source** of the project funding. Source 
+should be an organization, not an individual. For FWS projects, the default 
+source is U.S. Fish and Wildlife Service. Regions or programs should be added 
+as the funding **administrator** in the Other Contacts field.
 
-::: {.callout-note appearance="minimal"}
-Funding source should always identify the agency or
+::: {.callout-note icon=false}
+Funding **source** should always identify the agency or
 organization, rather than a sub-program or office. For example, all funding from
 other FWS programs need to list U.S. Fish and Wildlife Service as the source
 (and not list the source as Fisheries, specific Refuges, ES, etc.).
 Clarifications on the exact program or office where the funding came from can be
 done through the Funding/Other Contacts field (and choose the role of
-"administrator"). 
+**administrator**). 
 :::
 
-#### Recipient (Required)
+#### Recipient ([Required]`r req_style`)
 
-Add the relevant contact for the “recipient” of the project funding. Recipient
+Add the relevant contact for the **recipient** of the project funding. Recipient
 should always be an organization, not an individual. For example, the Principal
 Investigator would not be listed as the recipient, but their organization would
-be. If there are multiple recipients for a project, they should be added as
-separate allocations.
+be listed. If there are multiple recipients for a project, they should be added 
+as separate allocations.
 
-The Principal Investigator may be added n the Other Contacts field as
-"principalInvestigator."
+The Principal Investigator may be added in the Other Contacts field as
+**principalInvestigator**.
 
-::: {.callout-note appearance="minimal"}
+::: {.callout-note icon=false}
 Funding administrator can also be used to differentiate
 funding from different programs/offices within the same agency. For example, the
 U.S. Fish and Wildlife Service can be identified as the funding source and the
@@ -111,6 +112,6 @@ funding administrator could include "Ecological Services" or a specific field
 office. 
 :::
 
-### **Distribution (for Products only)**
+### Distribution (for Products only)
 
--   Add the relevant contact for “distributor” of the product.
+Add the relevant contact for **distributor** of the product.

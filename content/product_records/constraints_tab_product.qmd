@@ -30,13 +30,13 @@ Records Management, and Privacy Policy, so changes may be forthcoming.
 
 ## Constraint Type [(Required)]`r req_style`
 
-Select ***legal*** from the drop-down list. 
+Select **legal** from the drop-down list. 
 
 ## Use Limitation 
 
 Identify concerns over how people should or should not use the product.
 
-::: {.callout-note}
+::: {.callout-note icon=false}
 If your product is licensed, let people know here.
 Typically files used will be public domain, but not always. 
 :::
@@ -57,13 +57,13 @@ How the product should be used.
 This is a place to put standard disclaimers.
 
 Constraints are limited to four categories:  **Open**, **Limited Access**, 
-, **Sensitive/Protected** and **Restricted**. git
+**Sensitive/Protected** and **Restricted**.
 
 <!-- Originally: Open, Limited Access, Sensitive/Protected, and Restricted. --->
 
 #### Open Access
-For data that is consider Open Access, the ***licenseUnrestricted*** and 
-***unrestricted*** options should be selected. 
+For data that is consider Open Access, the **licenseUnrestricted** and 
+**unrestricted** options should be selected. 
 
 Data and content created by government employees within the scope of their
 employment are not subject to domestic copyright protection under [17 U.S.C. §
@@ -102,7 +102,7 @@ https://creativecommons.org/publicdomain/zero/1.0/
 
 A place to describe constraints or restrictions pertaining to security
 of the resource. Choose security classification from the drop-down menu. 
-For products without restrictions, best practice is to select ***unclassified*** 
+For products without restrictions, best practice is to select **unclassified** 
 from the menu.
 
 ::: {.callout-note}

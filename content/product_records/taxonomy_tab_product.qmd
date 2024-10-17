@@ -30,7 +30,7 @@ The **Taxonomy** tab automatically pulls in taxonomic information
 from ITIS (Integrated Taxonomic Information System) a partnership of U.S., 
 Canadian, and Mexican agencies and other taxonomic specialists.
 
-:::{.callout-info} 
+:::{.callout-info icon=false} 
 Please note that this functionality in mdEditor is not
 intended to explore ITIS. It is a tool to add known taxonomic information to
 your metadata. If you want to explore ITIS, go to 
@@ -43,84 +43,82 @@ more taxonomic classifications.
 
 ### Add Taxonomic System
 
-**1.** Click "Add Collection"
+1. Click "Add Collection"
 
-![](../../assets/taxonomy_add_collection.png)
+  ![](../../assets/taxonomy_add_collection.png){width=97% fig-align="right"}
 
-**2.** From here, you can click "Add Taxa from ITIS" directly (on right side)
-without adding the taxonomic system. This will be filled in for you
-automatically once you have added items from ITIS.
+2. From here, you can click "Add Taxa from ITIS" directly (on right side) without adding the taxonomic system. This will be filled in for you automatically once you have added items from ITIS.
 
-![](../../assets/taxonomy_add_taxa_from_itis.png)
+![](../../assets/taxonomy_add_taxa_from_itis.png){width=97% fig-align="right"}
 
-**3.** Enter your search terms in the search box. You can type in a common name,
-scientific name, or TSN (Taxonomic Serial Number, assigned by ITIS). You can
-type in any level of taxonomy, not just species name (e.g., you can type in an
+3.  Enter your search terms in the search box. You can type in a common name, 
+scientific name, or TSN (Taxonomic Serial Number, assigned by ITIS). You can 
+type in any level of taxonomy, not just species name (e.g., you can type in an 
 order or class or genus). You can specify by Kingdom if you like.
 
-:::{.callout-note icon=false} 
-If you haven’t used the search in a while (or ever) the
-ITIS service might be asleep so it will take a few more seconds to load but then
-will load quickly after that. 
-:::
+    :::{.callout-note icon=false} 
+    If you haven’t used the search in a while (or ever) the ITIS service might 
+    be asleep so it will take a few more seconds to load but then
+    will load quickly after that. 
+    :::
 
-:::{.callout-note icon=false} 
-The status of the taxonomic classification is denoted as (*status*) after the 
-TSN. ITIS may consider a classification "invalid" if the species
-was reclassified, for example. It is up to you whether you want to add invalid
-ITIS classifications to your metadata. 
-:::
+    :::{.callout-note icon=false} 
+    The status of the taxonomic classification is denoted as (*status*) after the 
+    TSN. ITIS may consider a classification "invalid" if the species
+    was reclassified, for example. It is up to you whether you want to add invalid
+    ITIS classifications to your metadata. 
+    :::
 
-![](../../assets/taxonomy_search_redlegged_frog.png)
+![](../../assets/taxonomy_search_redlegged_frog.png){width=97% fig-align="right"}
 
-**4.** Click "Add" for the search results you want to add to your record and then
+4.  Click "Add" for the search results you want to add to your record and then
 click "Import Taxa." You will get a message of successful import at the bottom
 of your screen.
 
-:::{.callout-note icon=false} 
-You don't need to worry about clicking import multiple
-times for the same species. mdEditor is smart enough to know not to create
-duplicate entries of the same species.
-:::
+    :::{.callout-note icon=false} 
+    You don't need to worry about clicking import multiple
+    times for the same species. mdEditor is smart enough to know not to create
+    duplicate entries of the same species.
+    :::
 
-![](../../assets/taxonomy_successful_import.png)
+![](../../assets/taxonomy_successful_import.png){width=97% fig-align="right"}
 
-**5.** Click "Back to Collection." You will see that it has added a taxonomic
+5.  Click "Back to Collection." You will see that it has added a taxonomic
 hierarchy. It has also added a Title to Taxonomic System (if you hadn’t already
 added one by hand). This complete the the minimum information required for
 taxonomy.
 
-:::{.callout-tip icon=false} 
-You can click on any level of the taxonomic hierarchy to collapse the entries 
-below that level.
-:::
+    :::{.callout-tip icon=false} 
+    You can click on any level of the taxonomic hierarchy to collapse the entries 
+    below that level.
+    :::
 
-:::{.callout-note icon=false} 
-mdEditor only adds common names at the lowest taxonomic level you identified 
-(e.g., species level). 
-:::
+    :::{.callout-note icon=false} 
+    mdEditor only adds common names at the lowest taxonomic level you identified 
+    (e.g., species level). 
+    :::
 
-![](../../assets/taxonomy_collection.png)
+![](../../assets/taxonomy_collection.png){width=97% fig-align="right"}
 
-**6.** You can add additional information regarding the taxonomic information if
+6. You can add additional information regarding the taxonomic information if
 you desire.
 
-**Observers** would be filled out when there were people who actually went in
-the field/lab and identified the species. Here you would list the people who did 
-that work.
+    **Observers** would be filled out when there were people who actually went in
+    the field/lab and identified the species. Here you would list the people who did 
+    that work.
 
--   General Scope: You can add a description of the range of taxa addressed in
-    the dataset or collection.
--   Identification Procedure: You can describe the methods used for taxonomic
-    identification.
--   Identification Completeness: You can add information regarding completeness
-    and uncertainty in the identifications.
+    -   General Scope: You can add a description of the range of taxa addressed in
+        the dataset or collection.
+    -   Identification Procedure: You can describe the methods used for taxonomic
+        identification.
+    -   Identification Completeness: You can add information regarding completeness
+        and uncertainty in the identifications.
 
-**Voucher** is where you can add information about specimens you submitted to a
-museum or a storage facility where you are storing specimens, can document that
-here (select a Repository via a Contact entered in mdEditor).
+    **Voucher** is where you can add information about specimens you submitted to a
+    museum or a storage facility where you are storing specimens, can document that
+    here (select a Repository via a Contact entered in mdEditor).
 
-![](../../assets/taxonomy_additional_info.png)
+![](../../assets/taxonomy_additional_info.png){width=97% fig-align="right"}
 
 ## When Taxonomy is Needed
 

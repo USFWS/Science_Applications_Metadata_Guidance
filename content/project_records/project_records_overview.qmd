@@ -52,11 +52,12 @@ In mdEditor, contacts are created separately from individual records and then
 stored within a library in mdEditor. Once contacts have been entered or imported
 into mdEditor, they can be used in any metadata records.
 
-To reduce unnecessary duplication of contacts, SA has a "seed list" of contacts
-that include government agencies and partners that are often affiliated with
-USFWS projects and products 
-[SA ScienceBase Community](https://www.sciencebase.gov/catalog/item/5b4e1c3fe4b06a6dd17df2d3).
-item page
+SA has a "seed list" of contacts that that contains standardized information 
+for common partner agencies, USFWS regions, and the SA Network Data Steward. 
+This **Contacts Seed** file (as a .json) can be downloaded from the
+[mdEditor Seed Contacts item page](https://www.sciencebase.gov/catalog/item/5df8d2b7e4b0cdded73b4069).
+and then imported into mdEditor using the 
+[Import](../metadata_file_management/import_mdjson.qmd) tab.
 
 :::{.callout-warning icon=false} 
 You should maintain a single list of your contacts.

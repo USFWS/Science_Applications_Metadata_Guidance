@@ -16,7 +16,7 @@ instead.
 
 ## Main/Points of Contact
 
-Add the CASC as a “collaborator.”
+Add the CASC as a **collaborator**.
 
 ## Main/Abstract
 
@@ -30,7 +30,7 @@ project described here \[insert hyperlink to CASC ScienceBase URL\].”
 
 ## Metadata/Metadata Contacts
 
-Default is USFWS, if Service is lead on the project, as “publisher.”
+Default is **USFWS**, if Service is lead on the project, as **publisher**.
 
 Collaborating CASCs do not need to be listed here.
 
@@ -42,17 +42,17 @@ directly in ScienceBase.
 
 ### Associations in mdEditor
 
-Manually associate the CASC project as a “subProject” relationship in the
+Manually associate the CASC project as a **subProject** relationship in the
 Associated tab.
 
-1.  Populate the association type as “subProject”.
+1.  Populate the association type as **subProject**.
 2.  Enter the appropriate resource type.
 3.  Copy the CASC’s project title to the title field.
-4.  Enter the CASC as the “administrator” in the Responsible Parties section.
-5.  Add the CASC ScienceBase item URL in the Online Resource field. This is
+4.  Enter the CASC as the **administrator** in the Responsible Parties section.
+5.  Add the CASC ScienceBase item URL in the **Online Resource** field. This is
     important to provide discovery and access to items outside of the SA Science
     Catalog.
-6.  Add the ScienceBase Identifier of the CASC project.
+6.  Add the ScienceBase **Identifier** of the CASC project.
 
 The CASC associated items will not appear in the Science Catalog as standalone
 items, but will appear as links in SA records in the Science Catalog. The
@@ -63,11 +63,11 @@ needed.
 ### Associations in ScienceBase
 
 The only associations that ScienceBase currently recognizes from mdJSON are
-parentProject/product relationships. ScienceBase will not recognize the
-“subProject” association created in mdEditor, so this association must be added
+**parentProject**/**product** relationships. ScienceBase will not recognize the
+**subProject** association created in mdEditor, so this association must be added
 directly in ScienceBase.
 
 1.  Log in to your ScienceBase account to edit the appropriate ScienceBase item.
-2.  Click “Associate an Item” from the right side column of the ScienceBase
+2.  Click **Associate an Item** from the right side column of the ScienceBase
     page.
-3.  Add a “subprojectOf” association to the CASC ScienceBase item.
+3.  Add a **subprojectOf** association to the CASC ScienceBase item.

@@ -8,8 +8,8 @@ editor:
 One metadata format is based on the Federal Geographic Data Committee
 (FDGC) standards for geospatial data. 
 
-You can click or drag and drop an FGDC standard .XML file onto 
-the **Import Data** button to import a local file.
+From the mdEditor header menu, select **Import**. Then you can click or drag and drop an FGDC 
+standard .XML file onto the **Import Data** button to import a local file.
 
 ![Import Data](/assets/mdjson_import_data.png)
 

@@ -18,14 +18,14 @@ section for more information.
 
 1.  Determine your workflow for testing:
 
-    If you **DO NOT** already have items on ScienceBase. Choose a project and
+    If you **do not** already have items on ScienceBase. Choose a project and
     its products to test.
 
-    **BEST MANAGEMENT PRACTICE**: It's recommended that you export a project and
+    **Best Management Practice**: It's recommended that you export a project and
     its products into its own mdEditor file. Set default parent identifier as a
     ScienceBase folder.
 
-    If you **DO** already have items on ScienceBase, choose one of the following
+    If you **do** already have items on ScienceBase, choose one of the following
     approaches. *Note that this procedure may affect your existing records.*
 
     [**Approach #1)**]{.underline} Take a simple project and product set, and make a copy of
@@ -37,7 +37,7 @@ section for more information.
     [**Approach #2)**]{.underline} Publish directly to a real record if you have confirmed a
     backup copy exists, in the event that the record is deleted in ScienceBase.
 
-2.  Set your **Default Parent Identifier** in Settings.
+2.  Set your **Default Parent Identifier** in [Settings / Publishing Settings](../settings.qmd#publishing-settings).
 
 3.  Select one project with its associated products to test.
 
@@ -56,8 +56,7 @@ section for more information.
     [https://github.com/adiwg/mdEditor/issues](https://www.gitbook.com/book/adiwg/mdeditor/edit#).
     You must have a github account in order to post.
 
-    Advanced users can check errors using the console. Consult the **Advanced
-    Users** section of this manual to learn more.
+    Advanced users can check errors using the console. 
 
 7.  Verify that your test records have published as expected in your folder on
     ScienceBase (or to the real record if that’s how you are testing).
@@ -65,7 +64,8 @@ section for more information.
 8.  After you are satisfied with how your test records published to ScienceBase,
     continue to step 10.
 
-9. Update your mdEditor settings to your real Default Parent Identifier.
+9.  Update your mdEditor [Settings / Publishing Settings](../settings.qmd#publishing-settings) to your 
+    real **Default Parent Identifier**.
 
 10. Using the record you just tested, proceed with publishing to the real
     location on ScienceBase.

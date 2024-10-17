@@ -36,7 +36,7 @@ CASC will add the following text to the Summary in the CASC ScienceBase record:
 
 “This product was co-funded by USFWS \[A, B, C\] region and the \[X, Y, Z\]
 Climate Adaptation Science Centers. An alternate reference to this product can
-be found here\[insert SA ScienceBase URL\].”
+be found here \[insert SA ScienceBase URL\].”
 
 Example: “This project was co-funded by USFWS Gulf Coast Region and the South
 Central Climate Adaptation Science Center. An alternate reference to this
@@ -54,5 +54,5 @@ ScienceBase.
 1.  Add the following text to the Summary in the CASC ScienceBase record: “This
     project is a sub-project of USFWS \[X\] region project described
     here \[insert SA ScienceBase URL\].”
-2.  Add the association in ScienceBase as a “subprojectOf” the SA metadata
+2.  Add the association in ScienceBase as a **subprojectOf** the SA metadata
     record.

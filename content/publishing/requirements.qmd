@@ -10,8 +10,8 @@ Publishing requires the record to be a **valid record**, meaning that mdEditor
 checks that all required fields for a mdJSON file are present before allowing a
 record to be published.
 
-::: {.callout-note}
-Note: mdEditor does not check for SA specific
+::: {.callout-note icon=false}
+mdEditor does not check for SA specific
 requirements as documented here. It only checks that the metadata meets ISO
 requirements. Fulfilling SA requirements falls on the creator of the records.
 Consult the [**Project Records**](../project_records/project_records_overview.qmd) and
@@ -27,8 +27,8 @@ publish your record to a location different than your default folder, then you
 need to edit the Parent ID in your metadata record to the different location
 (see [Metadata/Parent Metadata](../project_records/metadata_tab_project.qmd#parent-metadata)).
 
-::: {.callout-note} 
-Note: Please use a testing folder before you update your
+::: {.callout-note icon=false} 
+Please use a testing folder before you update your
 real records. (Consult the [**Testing Publishing**](testing.qmd))
 section of this manual for more information).
 :::

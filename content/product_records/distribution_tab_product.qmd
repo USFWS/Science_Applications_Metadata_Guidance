@@ -15,9 +15,8 @@ source(file.path(getwd(), "config.R"))
 products. Distribution methods may include online options (e.g., website,
 database) or offline options (e.g., delivery via mail, library).
 
-::: {.callout-hint}
-An online distribution link is required for any products
-sent to data.gov. 
+::: {.callout-note icon=false}
+An online distribution link is required for any products sent to data.gov.    
 :::
 
 ### Distribution Tab
@@ -36,7 +35,7 @@ sent to data.gov.
 <br/>
 
 Click **Add Distribution Section** and then **Edit Distributors** to begin
-adding distributors.*
+adding distributors.
 
 ## Distributor
 
@@ -50,7 +49,7 @@ If anything is filled out in the distribution section, a **Contact** must be
 added. The appropriate **Role** is "distributor."
 
 The contact should ideally be someone who will remain available to respond to
-potential inquiries about the product. If there is not an appropriate contact
+potential inquiries about the product. If there is not an appropriate Contact
 specific to the product, you can use a generic SA Data Steward contact for a
 long-term backup contact.
 
@@ -63,15 +62,15 @@ offline options are available.
 
 #### Name [(If applicable)]`r if_style`
 
-The Name of the online resource should be something that indicates it is a
+The **Name** of the online resource should be something that indicates it is a
 product page where the data can be downloaded. Examples: "product webpage" or
 "Product Webpage with Downloadable Files." If there are multiple files for a
 single product record, the Name should be different for each file so the user
 can differentiate between them. For example, "Download Aguiguan Veg 2016 data"
 or "Download FDM Veg 2011 data."
 
-::: {.callout-note}
-Unique Names for multiple files are particularly
+::: {.callout-note icon=false}
+For multiple files, each Name should be unique. This is particularly
 important for items being sent to data.gov. Without a name specified at all, the
 link will display as "webpage," which isn't particularly informative to users.
 Identical names for different files also won't be particularly informative. 
@@ -79,10 +78,10 @@ Identical names for different files also won't be particularly informative.
 
 #### URI [(If applicable)]`r if_style`
 
-The most important thing to enter is the URL where the product can be accessed
+The most important thing to enter is the **URL** where the product can be accessed
 or downloaded.
 
-::: {.callout-note}
+::: {.callout-note icon=false}
 An online link is required for any products sent to
 data.gov. Preferably the link should be a direct download to the data and not an
 intermediary page. 
@@ -102,16 +101,16 @@ is not actually a link (so you can't right-click and copy link address from
 there). Here are directions for how to obtain the direct download link for
 ScienceBase items.
 
-\(1\) First scroll to the Attached Files on the ScienceBase item and click the
+1.  First scroll to the Attached Files on the ScienceBase item and click the
 Attach Files control.
 
-![](../../assets/distribution_sb_attached_files.png)
+![](../../assets/distribution_sb_attached_files.png){width=97% fig-align="right"}
 
-\(2\) From the list of attached files, find the relevant file, right click the
+2.  From the list of attached files, find the relevant file, right click the
 name, and select "copy link address." Then paste that link into the Online
 Option in mdEditor.
 
-![](../../assets/distribution_sb_copy_link.png)
+![](../../assets/distribution_sb_copy_link.png){width=97% fig-align="right"}
 
 ### Offline Option
 

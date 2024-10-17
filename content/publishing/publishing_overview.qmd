@@ -5,7 +5,7 @@ editor:
     wrap: 80
 ---
 
-\[NOTE: the Publishing instructions still need some editing/refinement.\]
+**Note**: The Publishing instructions still need some editing and refinement.
 
 SA metadata is currently published to ScienceBase in your SA community's project
 folder. You must have a ScienceBase user account with write access to this
@@ -15,7 +15,7 @@ with new/updated mdJSON).
 
 ## Before You Begin
 
-Please read through ALL instructions before you begin the publishing process.
+Please read through **all** instructions before you begin the publishing process.
 After you understand how the publishing function works, please read
 the [**Testing Publishing**](testing.qmd)
 and proceed with testing a record before you try to publish any of your real

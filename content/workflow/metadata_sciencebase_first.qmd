@@ -42,9 +42,12 @@ product metadata records using the
 [Contacts](../contact_records/contact_records_overview.qmd) entry form in
 mdEditor.
 
-Use the "contacts seed file" that contains pre-filled information and standard
-naming conventions for all SA regions, common federal agencies, and the SA
-Network Data Steward. (link to contact seed file here)
+SA has a "seed list" of contacts that that contains standardized information 
+for common partner agencies, USFWS regions, and the SA Network Data Steward. 
+This **Contacts Seed** file (as a .json) can be downloaded from the
+[mdEditor Seed Contacts item page](https://www.sciencebase.gov/catalog/item/5df8d2b7e4b0cdded73b4069).
+and then imported into mdEditor using the 
+[Import](../metadata_file_management/import_mdjson.qmd) tab.
 
 ### 5. Import projects
 

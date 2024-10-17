@@ -14,19 +14,19 @@ with no additional requirements.
 
 ## Main/Points of Contact
 
-Add the parent project region(s) or program(s) as a “collaborator”.
+Add the parent project region(s) or program(s) as a **collaborator**.
 
 :::{.callout-info}
-The region or program that is funding the
-sub-project or distinct product is the “administrator” in the sub-project
-funding metadata as described in [Funding Tab](../project_records/funding_tab_project.qmd). 
+The region or program that is funding the sub-project or distinct product is 
+the **administrator** in the sub-project funding metadata as described in 
+[Funding Tab](../project_records/funding_tab_project.qmd). 
 :::
 
 ## Metadata/Metadata Contacts
 
-The default publisher is USFWS. The lead region or program may be included as
-“publisher”, but this is not required. Collaborators do not need to be listed
-here either.
+The **default publisher** is **USFWS**. The Lead Region or Program may be 
+included as **publisher**, but this is not required. Collaborators do not 
+need to be listed here either.
 
 ## Associated
 
@@ -46,11 +46,11 @@ linking your records as normal (see
 In the Associated tab, add the association type as one of the following and
 select the appropriate record to link:
 
--   As parent project to sub-project relationship: “parentProject”/”subProject”
+-   As parent project to sub-project relationship: **parentProject**/**subProject**
     or vice versa
--   As parent project to product relationship: “parentProject”/“product”
+-   As parent project to product relationship: **parentProject**/**product**
 -   If neither is a parent of the other, as Part of the other project:
-    “isPartOf”/“isPartOf”
+    **isPartOf**/**isPartOf**
 
 ### When you do NOT have edit rights to Parent Project
 
@@ -61,7 +61,7 @@ request assistance with creating the association.)
 
 To create the association manually, enter the association type as described
 above, enter the resource type, then copy and paste the title and ScienceBase
-Identifier for the associated item (see Figure 1).
+Identifier for the associated item.
 
 If creating associations to other regional or program items that have s SA
 Science Catalog tag, then those items will show up in the Science Catalog, along

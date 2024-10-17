@@ -306,7 +306,7 @@
   </url>
   <url>
     <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/cofunded_project_protocols/cofunded_projects_overview.html</loc>
-    <lastmod>2024-07-30T16:37:58.355Z</lastmod>
+    <lastmod>2024-10-17T18:47:19.976Z</lastmod>
   </url>
   <url>
     <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/trouble_shooting/trouble_shooting_overview.html</loc>
@@ -330,7 +330,7 @@
   </url>
   <url>
     <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/project_records/main_tab_project.html</loc>
-    <lastmod>2024-10-15T20:06:25.399Z</lastmod>
+    <lastmod>2024-10-16T17:16:03.601Z</lastmod>
   </url>
   <url>
     <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/roles_and_responsibilities.html</loc>
@@ -350,19 +350,19 @@
   </url>
   <url>
     <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/contact_records/contact_records_overview.html</loc>
-    <lastmod>2024-10-15T13:22:09.015Z</lastmod>
+    <lastmod>2024-10-17T16:24:38.779Z</lastmod>
   </url>
   <url>
     <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/contact_records/contact_requirements_summary.html</loc>
-    <lastmod>2024-08-06T12:59:14.137Z</lastmod>
+    <lastmod>2024-10-17T14:40:25.227Z</lastmod>
   </url>
   <url>
     <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/metadata_requirements.html</loc>
-    <lastmod>2024-10-15T20:32:20.976Z</lastmod>
+    <lastmod>2024-10-15T20:33:47.064Z</lastmod>
   </url>
   <url>
     <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/workflow/workflow_overview.html</loc>
-    <lastmod>2024-10-15T19:36:13.558Z</lastmod>
+    <lastmod>2024-10-17T16:32:12.800Z</lastmod>
   </url>
   <url>
     <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/workflow/metadata_from_scratch.html</loc>
@@ -370,7 +370,7 @@
   </url>
   <url>
     <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/workflow/metadata_sciencebase_first.html</loc>
-    <lastmod>2024-10-15T19:36:23.069Z</lastmod>
+    <lastmod>2024-10-17T16:32:37.246Z</lastmod>
   </url>
   <url>
     <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/workflow/metadata_editing_republishing.html</loc>
@@ -382,7 +382,7 @@
   </url>
   <url>
     <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/metadata_file_management/import_overview.html</loc>
-    <lastmod>2024-10-15T13:30:46.712Z</lastmod>
+    <lastmod>2024-10-17T17:11:12.899Z</lastmod>
   </url>
   <url>
     <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/metadata_file_management/export.html</loc>
@@ -394,7 +394,7 @@
   </url>
   <url>
     <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/project_records/metadata_tab_project.html</loc>
-    <lastmod>2024-10-15T14:29:06.372Z</lastmod>
+    <lastmod>2024-10-16T17:43:27.622Z</lastmod>
   </url>
   <url>
     <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/science_catalog.html</loc>
@@ -402,6 +402,138 @@
   </url>
   <url>
     <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/product_records/main_tab_product.html</loc>
-    <lastmod>2024-10-15T20:08:57.095Z</lastmod>
+    <lastmod>2024-10-16T20:45:52.371Z</lastmod>
+  </url>
+  <url>
+    <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/project_records/keywords_tab_project.html</loc>
+    <lastmod>2024-10-16T20:53:14.501Z</lastmod>
+  </url>
+  <url>
+    <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/project_records/extent_tab_project.html</loc>
+    <lastmod>2024-10-16T20:29:34.706Z</lastmod>
+  </url>
+  <url>
+    <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/project_records/associated_tab_project.html</loc>
+    <lastmod>2024-10-17T14:01:51.649Z</lastmod>
+  </url>
+  <url>
+    <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/product_records/keywords_tab_product.html</loc>
+    <lastmod>2024-10-16T20:53:14.464Z</lastmod>
+  </url>
+  <url>
+    <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/product_records/extent_tab_product.html</loc>
+    <lastmod>2024-10-16T20:59:08.187Z</lastmod>
+  </url>
+  <url>
+    <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/product_records/lineage_tab_product.html</loc>
+    <lastmod>2024-10-17T12:24:13.034Z</lastmod>
+  </url>
+  <url>
+    <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/product_records/metadata_tab_product.html</loc>
+    <lastmod>2024-10-17T14:22:25.973Z</lastmod>
+  </url>
+  <url>
+    <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/project_records/documents_tab_project.html</loc>
+    <lastmod>2024-10-16T20:31:30.469Z</lastmod>
+  </url>
+  <url>
+    <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/project_records/funding_tab_project.html</loc>
+    <lastmod>2024-10-16T20:37:15.368Z</lastmod>
+  </url>
+  <url>
+    <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/product_records/product_records_overview.html</loc>
+    <lastmod>2024-10-17T16:55:21.880Z</lastmod>
+  </url>
+  <url>
+    <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/product_records/taxonomy_tab_product.html</loc>
+    <lastmod>2024-10-17T12:52:14.155Z</lastmod>
+  </url>
+  <url>
+    <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/project_records/taxonomy_tab_project.html</loc>
+    <lastmod>2024-10-17T12:53:17.933Z</lastmod>
+  </url>
+  <url>
+    <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/product_records/distribution_tab_product.html</loc>
+    <lastmod>2024-10-17T13:03:47.504Z</lastmod>
+  </url>
+  <url>
+    <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/product_records/constraints_tab_product.html</loc>
+    <lastmod>2024-10-17T13:09:56.152Z</lastmod>
+  </url>
+  <url>
+    <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/product_records/associated_tab_product.html</loc>
+    <lastmod>2024-10-17T14:10:20.589Z</lastmod>
+  </url>
+  <url>
+    <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/product_records/documents_tab_product.html</loc>
+    <lastmod>2024-10-17T14:13:58.696Z</lastmod>
+  </url>
+  <url>
+    <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/product_records/dictionaries_tab_product.html</loc>
+    <lastmod>2024-07-30T16:37:58.389Z</lastmod>
+  </url>
+  <url>
+    <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/contact_records/individual_contacts.html</loc>
+    <lastmod>2024-10-17T18:40:42.179Z</lastmod>
+  </url>
+  <url>
+    <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/metadata_file_management/import_mdjson.html</loc>
+    <lastmod>2024-10-17T17:08:05.880Z</lastmod>
+  </url>
+  <url>
+    <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/metadata_file_management/import_sbjson.html</loc>
+    <lastmod>2024-07-30T16:37:58.387Z</lastmod>
+  </url>
+  <url>
+    <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/contact_records/organization_contacts.html</loc>
+    <lastmod>2024-10-17T18:42:19.488Z</lastmod>
+  </url>
+  <url>
+    <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/cofunded_project_protocols/collaboration_protocol.html</loc>
+    <lastmod>2024-10-17T18:56:54.485Z</lastmod>
+  </url>
+  <url>
+    <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/cofunded_project_protocols/subproject_protocol_overview.html</loc>
+    <lastmod>2024-10-17T19:09:13.502Z</lastmod>
+  </url>
+  <url>
+    <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/cofunded_project_protocols/subproject_of_fws_region_program_project.html</loc>
+    <lastmod>2024-07-30T17:12:34.596Z</lastmod>
+  </url>
+  <url>
+    <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/cofunded_project_protocols/subproject_of_casc_project.html</loc>
+    <lastmod>2024-07-30T16:37:58.355Z</lastmod>
+  </url>
+  <url>
+    <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/cofunded_project_protocols/cofunded_protocol_overview.html</loc>
+    <lastmod>2024-10-17T19:17:28.754Z</lastmod>
+  </url>
+  <url>
+    <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/cofunded_project_protocols/fws_cofunded_projects.html</loc>
+    <lastmod>2024-07-30T16:37:58.355Z</lastmod>
+  </url>
+  <url>
+    <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/cofunded_project_protocols/fws_casc_projects_products.html</loc>
+    <lastmod>2024-07-30T16:37:58.355Z</lastmod>
+  </url>
+  <url>
+    <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/cofunded_project_protocols/casc_responsibilites.html</loc>
+    <lastmod>2024-07-30T16:37:58.355Z</lastmod>
+  </url>
+  <url>
+    <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/publishing/publishing_overview.html</loc>
+    <lastmod>2024-10-17T19:34:10.260Z</lastmod>
+  </url>
+  <url>
+    <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/publishing/requirements.html</loc>
+    <lastmod>2024-07-30T16:37:58.406Z</lastmod>
+  </url>
+  <url>
+    <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/publishing/testing.html</loc>
+    <lastmod>2024-10-17T19:42:30.589Z</lastmod>
+  </url>
+  <url>
+    <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/publishing/how_to.html</loc>
+    <lastmod>2024-07-30T16:37:58.406Z</lastmod>
   </url>
 </urlset>

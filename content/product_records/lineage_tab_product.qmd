@@ -15,7 +15,7 @@ lineage tab is recommended, but not required.
 -   **Statement** (Required): Notes actions taken to verify, transform, repair,
     and integrate the resource.
 -   **Process Step** (Optional): Consult the [**Process
-    Step**](../product_records/lineage_tab_product.qmd#product-entry-guidance-process-step)
+    Step**](../product_records/lineage_tab_product.qmd#product-records-process-step)
     section of this manual to learn how to add information about the creation of
     your project.
 -   **Sources** (Optional): Use the Sources field to indicate what you used to
@@ -43,12 +43,12 @@ lineage tab is recommended, but not required.
 -   **Step Products**: Information about an intermediate data set.
 -   **Processors**: Processors of the process step.
     -   Select or enter a role from the **Role** drop-down and select a contact
-        \*\*\*\*from the **Contacts** drop down.
+        from the **Contacts** drop down.
     -   Consult the [**Contacts**](../contact_records/contact_records_overview.qmd) 
-        \*\*\*\*section of this manual to learn about adding contacts.
+    section of this manual to learn about adding contacts.
 -   **Step Reference**: Add a citation noting your step process references.
--   **Time Period**: Add a time period noting the **Start Date,** **End Date**,
-    \*\*\*\*and **Fiscal Year**.
+-   **Time Period**: Add a time period noting the **Start Date,** **End Date**, 
+and **Fiscal Year**.
     -   **ID**: Add a unique identifier for the time period.
     -   **Description**: Add a description of the time period.
     -   **Time Period Name**: Add a name for your time period.

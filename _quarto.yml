@@ -160,7 +160,7 @@ format:
     toc: true
     theme:
       light: [materia, css/theme.scss]
-      dark: [materia, css/theme-dark.scss]
+#      dark: [materia, css/theme-dark.scss]
     mermaid:
       theme: neutral
     code-copy: true

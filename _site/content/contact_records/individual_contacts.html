@@ -37,12 +37,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -69,6 +67,17 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script type="application/json" class="js-hypothesis-config">
+{
+  "theme": "clean"
+}
+</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
+<script>
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    document.body.classList.add('hypothesis-enabled');
+  });
+</script>
 
 
 </head>
@@ -101,10 +110,6 @@ ul.task-list li input[type="checkbox"] {
       </a>
     <div class="sidebar-title mb-0 py-0">
       <a href="../../">USFWS Science Applications Metadata Guidance</a> 
-        <div class="sidebar-tools-main">
-    <a href="https://github.com/USFWS/sciapps_metadata_guidance" title="Github Repo" class="quarto-navigation-tool px-1" aria-label="Github Repo"><i class="bi bi-github"></i></a>
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
-</div>
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -135,19 +140,13 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../content/science_catalog.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Science Catalog</span></a>
+ <span class="menu-text">SA Science Catalog</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../content/projects_products_contacts.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Projects, Products, Contacts</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../content/non_duplication_policy.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Non-Duplication Policy</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -397,7 +396,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../content/contact_records/contact_requirements_summary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Project/Product Contact Requirements</span></a>
+ <span class="menu-text">Metadata Record Contact Requirements</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -518,24 +517,28 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/feedback_help.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Feedback and Help</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/glossary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Glossary</span></a>
+  </div>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../content/trouble_shooting/trouble_shooting_overview.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Trouble-Shooting</span></a>
+            <a href="../../content/appendix/appendix_overview.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Appendix</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../content/trouble_shooting/qa_qc_fixes.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">QA/QC Fixes</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
+          <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../content/developer_resources/developer_resources_overview.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Developer Resources</span></a>
@@ -543,7 +546,7 @@ ul.task-list li input[type="checkbox"] {
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../content/developer_resources/injector_script/injector_script_overview.html" class="sidebar-item-text sidebar-link">
@@ -552,7 +555,7 @@ ul.task-list li input[type="checkbox"] {
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../content/developer_resources/injector_script/example_funding.html" class="sidebar-item-text sidebar-link">
@@ -569,24 +572,15 @@ ul.task-list li input[type="checkbox"] {
   </li>
       </ul>
   </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../../content/appendix/appendix_overview.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Appendix</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a href="../../content/appendix/lcc_workflows/lcc_workflows_overview.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">LCC Workflows</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-15" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../content/appendix/lcc_workflows/cofunded_lcc_projects.html" class="sidebar-item-text sidebar-link">
@@ -595,20 +589,14 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/appendix/non_duplication_policy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Non-Duplication Policy</span></a>
+  </div>
+</li>
       </ul>
   </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../content/help.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Help</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../content/glossary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Glossary</span></a>
-  </div>
-</li>
     </ul>
     </div>
 </nav>
@@ -622,7 +610,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#create-a-new-contact" id="toc-create-a-new-contact" class="nav-link active" data-scroll-target="#create-a-new-contact">Create a New Contact</a></li>
   <li><a href="#sa-network-data-steward" id="toc-sa-network-data-steward" class="nav-link" data-scroll-target="#sa-network-data-steward">SA Network Data Steward</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/usfws/sciapps_metadata_guidance/edit/main/content/contact_records/individual_contacts.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/usfws/sciapps_metadata_guidance/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/usfws/sciapps_metadata_guidance/edit/main/content/contact_records/individual_contacts.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/usfws/sciapps_metadata_guidance/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="https://forms.office.com/g/xtkDZ3rQjW"><i class="bi bi-pencil-square"></i>Provide User Feedback</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -653,24 +641,24 @@ ul.task-list li input[type="checkbox"] {
 <li>Specify the contact is an <strong>Individual</strong>.</li>
 <li>The <strong>Contact ID</strong> will be auto-generated by mdEditor.</li>
 </ol>
-<p><em>The following fields are available for <strong>Individual Contacts:</strong></em></p>
+<p>The following fields are available for <strong>Individual Contacts:</strong></p>
 <ul>
-<li><strong>Individual Name</strong> (Required): Enter individual’s full name If you are entering a generic Individual contact, you can enter a Position Name without entering an Individual Name. For example: you could enter Region 3 Data Manager as a Position Name rather than an Individual Name.</li>
+<li><strong>Individual Name</strong> (<span style="color:#b50909;font-weight:bold">Required</span>): Enter individual’s full name If you are entering a generic Individual contact, you can enter a Position Name without entering an Individual Name. For example: you could enter Region 3 Data Manager as a Position Name rather than an Individual Name.</li>
 <li><strong>Position Name</strong>: Enter individual’s full title; avoid acronyms If you have entered the individual’s name, Position Name is not required.</li>
-<li><strong>Contact Type</strong> (Required): Enter the contact type from the picklist. Make sure that every contact has Contact Type selected - this is essential for the Science Catalog funding summaries.</li>
-<li><strong>Member Organization</strong> (Required): Select organization(s). An individual may be part of multiple organizations.</li>
-<li><strong>Email Address</strong> (Required): Enter individual’s email</li>
-<li><strong>Physical Address</strong> (Best Practice): Enter a physical address</li>
-<li><strong>Logo</strong> (Optional):
+<li><strong>Contact Type</strong> (<span style="color:#b50909;font-weight:bold">Required</span>): Enter the contact type from the picklist. Make sure that every contact has Contact Type selected - this is essential for the Science Catalog funding summaries.</li>
+<li><strong>Member Organization</strong> (<span style="color:#b50909;font-weight:bold">Required</span>): Select organization(s). An individual may be part of multiple organizations.</li>
+<li><strong>Email Address</strong> (<span style="color:#b50909;font-weight:bold">Required</span>): Enter individual’s email</li>
+<li><strong>Physical Address</strong> (<span style="color:#00687d;">Best Practice</span>): Enter a physical address</li>
+<li><strong>Logo</strong> (<span style="color:#00687d;">Optional</span>):
 <ul>
 <li>It is uncommon that you would add a logo for an individual. If the individual is part of an organization, the individual will inherit the logo from the organization.</li>
 <li>You can either select or drop-in an image. If you choose to load an image, mdEditor will create a URI and has a size limit for the logo. If you have a larger image, link to the image rather than loading it into mdEditor.</li>
 </ul></li>
 </ul>
-<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout callout-style-default callout-warning no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon"></i>
+<i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
 Warning
@@ -683,12 +671,12 @@ Warning
 </section>
 <section id="sa-network-data-steward" class="level2">
 <h2 class="anchored" data-anchor-id="sa-network-data-steward">SA Network Data Steward</h2>
-<p><em>The SA National Data Steward is required as a “PointOfContact” in the Point of Contact section of the Main Tab and in the Contacts section of the Metadata Tab.</em></p>
-<p><strong>The SA National Data Steward:</strong></p>
+<p>The <strong>FWS Science Applications National Data Steward</strong> is <strong><em>required</em></strong> as a <strong>PointOfContact</strong> in the <a href="../../content/project_records/main_tab_project.html#points-of-contact-required">Main Tab / Point of Contact</a> section and in the <a href="../../content/project_records/metadata_tab_project.html#metadata-contacts">Metadata Tab / Contacts</a> section.</p>
+<p>The SA National Data Steward details:</p>
 <ul>
-<li><strong>Individual Name:</strong> SA National Data Steward</li>
-<li><strong>Contact Type:</strong> federal</li>
-<li><strong>Email Address:</strong> sadatasteward@fws.gov</li>
+<li>Individual Name: <strong>FWS Science Applications National Data Steward</strong></li>
+<li>Contact Type: <strong>federal</strong></li>
+<li>Email Address: <strong>sadatasteward@fws.gov</strong></li>
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -696,9 +684,7 @@ Warning
 <figcaption>Example generic data steward contact</figcaption>
 </figure>
 </div>
-<blockquote class="blockquote">
-<p>For more information, consult the <a href="https://adiwg.gitbooks.io/mdeditor/content/contact/new/individual.html"><strong>Individual Contact</strong></a> ****section of the mdEditor manual.</p>
-</blockquote>
+<p>For more information, consult the <a href="https://adiwg.gitbooks.io/mdeditor/content/contact/new/individual.html"><strong>Individual Contact</strong></a> section of the mdEditor manual.</p>
 
 
 </section>
@@ -724,150 +710,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const disableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'prefetch';
-    }
-  }
-  const enableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'stylesheet';
-    }
-  }
-  const manageTransitions = (selector, allowTransitions) => {
-    const els = window.document.querySelectorAll(selector);
-    for (let i=0; i < els.length; i++) {
-      const el = els[i];
-      if (allowTransitions) {
-        el.classList.remove('notransition');
-      } else {
-        el.classList.add('notransition');
-      }
-    }
-  }
-  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-    let newTheme = '';
-    if(darkModeDefault) {
-      newTheme = isAlternate ? baseTheme : alternateTheme;
-    } else {
-      newTheme = isAlternate ? alternateTheme : baseTheme;
-    }
-    const changeGiscusTheme = () => {
-      // From: https://github.com/giscus/giscus/issues/336
-      const sendMessage = (message) => {
-        const iframe = document.querySelector('iframe.giscus-frame');
-        if (!iframe) return;
-        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-      }
-      sendMessage({
-        setConfig: {
-          theme: newTheme
-        }
-      });
-    }
-    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-    if (isGiscussLoaded) {
-      changeGiscusTheme();
-    }
-  }
-  const toggleColorMode = (alternate) => {
-    // Switch the stylesheets
-    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-    manageTransitions('#quarto-margin-sidebar .nav-link', false);
-    if (alternate) {
-      enableStylesheet(alternateStylesheets);
-      for (const sheetNode of alternateStylesheets) {
-        if (sheetNode.id === "quarto-bootstrap") {
-          toggleBodyColorMode(sheetNode);
-        }
-      }
-    } else {
-      disableStylesheet(alternateStylesheets);
-      toggleBodyColorPrimary();
-    }
-    manageTransitions('#quarto-margin-sidebar .nav-link', true);
-    // Switch the toggles
-    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-    for (let i=0; i < toggles.length; i++) {
-      const toggle = toggles[i];
-      if (toggle) {
-        if (alternate) {
-          toggle.classList.add("alternate");     
-        } else {
-          toggle.classList.remove("alternate");
-        }
-      }
-    }
-    // Hack to workaround the fact that safari doesn't
-    // properly recolor the scrollbar when toggling (#1455)
-    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-      manageTransitions("body", false);
-      window.scrollTo(0, 1);
-      setTimeout(() => {
-        window.scrollTo(0, 0);
-        manageTransitions("body", true);
-      }, 40);  
-    }
-  }
-  const isFileUrl = () => { 
-    return window.location.protocol === 'file:';
-  }
-  const hasAlternateSentinel = () => {  
-    let styleSentinel = getColorSchemeSentinel();
-    if (styleSentinel !== null) {
-      return styleSentinel === "alternate";
-    } else {
-      return false;
-    }
-  }
-  const setStyleSentinel = (alternate) => {
-    const value = alternate ? "alternate" : "default";
-    if (!isFileUrl()) {
-      window.localStorage.setItem("quarto-color-scheme", value);
-    } else {
-      localAlternateSentinel = value;
-    }
-  }
-  const getColorSchemeSentinel = () => {
-    if (!isFileUrl()) {
-      const storageValue = window.localStorage.getItem("quarto-color-scheme");
-      return storageValue != null ? storageValue : localAlternateSentinel;
-    } else {
-      return localAlternateSentinel;
-    }
-  }
-  const darkModeDefault = false;
-  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-  // Dark / light mode switch
-  window.quartoToggleColorScheme = () => {
-    // Read the current dark / light value 
-    let toAlternate = !hasAlternateSentinel();
-    toggleColorMode(toAlternate);
-    setStyleSentinel(toAlternate);
-    toggleGiscusIfUsed(toAlternate, darkModeDefault);
-  };
-  // Ensure there is a toggle, if there isn't float one in the top right
-  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-    const a = window.document.createElement('a');
-    a.classList.add('top-right');
-    a.classList.add('quarto-color-scheme-toggle');
-    a.href = "";
-    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-    const i = window.document.createElement("i");
-    i.classList.add('bi');
-    a.appendChild(i);
-    window.document.body.appendChild(a);
-  }
-  // Switch to dark mode if need be
-  if (hasAlternateSentinel()) {
-    toggleColorMode(true);
-  } else {
-    toggleColorMode(false);
-  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
@@ -929,7 +771,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/studious-adventure-wo15nv1\.pages\.github\.io");
+      var filterRegex = new RegExp("https:\/\/usfws\.github\.io\/Science_Applications_Metadata_Guidance\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -1259,8 +1101,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../content/contact_records/contact_requirements_summary.html" class="pagination-link" aria-label="Project/Product Contact Requirements">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Project/Product Contact Requirements</span>
+      <a href="../../content/contact_records/contact_requirements_summary.html" class="pagination-link" aria-label="Metadata Record Contact Requirements">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Metadata Record Contact Requirements</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">

@@ -7,10 +7,10 @@ editor:
 
 ## Applicability
 
--   One or more Service regions or programs provides funding support for a
-    project with one or more USGS Climate Adaptation Science Center (CASC) or
-    other DOI agency where distinct sub-projects or products cannot be
-    separately identified and attributed to either agency.
+**This protocol is applicable when**: One or more Service regions or programs 
+provides funding support for a project with one or more USGS Climate Adaptation 
+Science Center (CASC) or other DOI agency where distinct sub-projects or 
+products cannot be separately identified and attributed to either agency.
 
 ## Metadata Responsibility
 
@@ -56,14 +56,14 @@ data/tool/etc. hosted on ScienceBase. These additions are detailed below.
 
 ## Main/Point of Contacts
 
-Add all collaborating Service regions/programs and CASCs as “collaborator.”
+Add all collaborating Service Regions/Programs and CASCs as **collaborator**.
 
 :::{.callout-note appearance="minimal"}
-The lead Service region/program should be listed as “administrator” and does 
-not need to be added as a “collaborator.” 
+The lead Service region/program should be listed as **administrator** and does 
+not need to be added as a **collaborator**. 
 :::
 
-\(Missing Figure\)
+(Missing Figure)
 *Figure 1: Example of mdEditor entry for Main/Point of Contact*
 
 ## Main/Citation/Online Resource
@@ -102,11 +102,9 @@ reference to this product can be found here: \[insert CASC ScienceBase URL\].”
     Center. An alternate reference to this product can be found here:
     <https://www.sciencebase.gov/catalog/item/5887c1c3e4b02e34393da82d>.”
 
-## Meta**d**ata/Metadata Contacts
+## Metadata/Metadata Contacts
 
-Include the USFWS as “publisher.”
-
-Collaborators do not need to be listed here.
+Include the **USFWS** as **publisher**. Collaborators do not need to be listed here.
 
 ## Funding (Project Only)
 
@@ -128,6 +126,7 @@ region that provided funding.
 2.  Add the funding CASC as the “administrator” in the Other Contacts section.
 3.  Check the matching funds box (see Figure 3).
 
+(Missing Figure)
 *Figure 3: Example of mdEditor entry for a CASC funding allocation.*
 
 ## Associated
@@ -138,16 +137,16 @@ ScienceBase.
 
 ### Associations in mdEditor
 
-Manually associate the CASC project as an “alternate” relationship in the
+Manually associate the CASC project as an **alternate** relationship in the
 Associated tab in mdEditor.
 
-1.  Populate the association type as “alternate”.
-2.  Enter the appropriate resource type.
-3.  Copy the CASC’s project title to the title field.
-4.  Enter the CASC as the “administrator” in the Responsible Parties section.
-5.  Add the CASC ScienceBase item URL in the Online Resource field. This is
-    important to provide discovery and access to items outside of the SA Science
-    Catalog (see Figure 4).
+1.  Populate the association type as **alternate**.
+2.  Enter the appropriate **Resource Type**.
+3.  Copy the CASC’s project title to the **Title** field.
+4.  Enter the CASC as the **administrator** in the **Responsible Parties** section.
+5.  Add the CASC ScienceBase item **URL** in the **Online Resource** field. 
+    This is important to provide discovery and access to items outside of the 
+    SA Science Catalog (see Figure 4).
 6.  Add the ScienceBase Identifier of the CASC project.
 
 (Missing Figure)
@@ -158,14 +157,14 @@ Catalog in order to ensure access and discoverability.*
 ### Associations in ScienceBase
 
 The only associations that ScienceBase recognizes from mdJSON are
-parentProject/product relationships so it will not recognize the “alternate”
+parentProject/product relationships so it will not recognize the **alternate**
 association created in mdEditor. This association must be added by hand directly
 in ScienceBase.
 
 1.  Log in to your ScienceBase account to edit the appropriate ScienceBase item.
-2.  Click “Associate an Item” from the right side column of the ScienceBase
+2.  Click **Associate an Item** from the right side column of the ScienceBase
     page.
-3.  Add an “alternate” association to the CASC ScienceBase item (see Figure 5).
+3.  Add an **alternate** association to the CASC ScienceBase item (see Figure 5).
 
 (Missing Figure)
 *Figure 5: Example of entering an association directly in ScienceBase. From the 
@@ -177,7 +176,7 @@ project record and select “alternate” as the relationship type.*
 Include the CASC weblinks and identifiers that were entered in the mdEditor
 Associated tab in the Online Resource section.
 
--   List the role of the CASC as “owner.”
+-   List the role of the CASC as **owner**.
 
 The Distribution links are critical for providing access to the actual
 data/tool/etc.
@@ -190,7 +189,7 @@ Enter your SA/CASC co-funded Projects and Products on this
 Ideally enter items on the spreadsheet after having completed the co-funded
 metadata requirements and published to ScienceBase. If you prefer to enter
 information on this spreadsheet before completed those steps, be sure to
-indicate the status of your edits/publishing in the "FWS Edits" column.
+indicate the status of your edits/publishing in the **FWS Edits** column.
 
 CASC data managers will refer to the spreadsheet so they know when to make edits
 on their end.

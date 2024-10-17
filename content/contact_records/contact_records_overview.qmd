@@ -22,7 +22,7 @@ mdEditor contact library will update the contact information included in any
 metadata record that uses that contact. Editing a contact in mdEditor will also
 update contact information on ScienceBase once the record is published.
 
-::: {.callout-caution}
+::: {.callout-caution icon=false}
 You should maintain a single list of your contacts.
 Having duplicate copies of the same contact is not desirable. It can create
 confusion and unnecessary duplication errors as you edit and manage your
@@ -35,13 +35,11 @@ but all the other information will remain the same in the copy.
 It is recommended that you leave contacts in mdEditor between work sessions.
 This allows you to readily add contacts to projects and products.
 
-::: {.callout-info}
 It is recommended that when you export records, you also
 export your entire contact list. If you do not export your contact list, and you
 later import a record that contains a contact not in your library, you may
 receive an error and have to re-enter the contact to that record. This can cause
 duplication errors. 
-:::
 
 ## Best Practices for Contacts
 
@@ -51,14 +49,14 @@ duplication errors.
 
 ## Contacts Seed File
 
-The "contacts seed file" contains pre-filled information and standard naming
+The SA **Contacts Seed File** contains pre-filled information and standard naming
 conventions for FWS, common federal agencies, and generic Data Stewards. Using
 this file will increase consistency across all SA metadata records for common
 contacts and reduce the amount of processing needed before records go into the
 Science Catalog.
 
-SA maintains a 'seed' list of contacts that can be found in the
-[SA ScienceBase community item page](https://www.sciencebase.gov/catalog/item/5b4e1c3fe4b06a6dd17df2d3).
+The contacts seed file (as a .json) can be downloaded from the
+[mdEditor Seed Contacts item page](https://www.sciencebase.gov/catalog/item/5df8d2b7e4b0cdded73b4069).
 
 ## Importing Contacts from ScienceBase
 

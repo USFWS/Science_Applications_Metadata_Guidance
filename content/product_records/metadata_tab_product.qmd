@@ -50,7 +50,7 @@ Enter a **Date** for ***creation*** or ***last updated*** date.
 Adding a metadata contact will give people a contact point should they have
 any questions about the metadata.
 
-| Role           | Contact          | **Requirements              |
+| Role           | Contact          | Requirements              |
 |:---------------|:-----------------|:-------------------------|
 | author         | See Notes Below  | [Required]`r req_style` |       |
 | publisher      | Default is USFWS | [Required]`r req_style` |       |

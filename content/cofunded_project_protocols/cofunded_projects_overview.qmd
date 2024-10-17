@@ -1,13 +1,13 @@
 ---
 title: "Co-Funded Projects: Overview"
-description:
-  "Co-funded projects are those where two regions or federal agencies both
-  provide funding and the project and/or products cannot be easily and
-  distinctly separated."
 editor: 
   markdown: 
     wrap: 80
 ---
+
+Co-funded projects are those where two regions or federal agencies both
+provide funding and the project and/or products cannot be easily and
+distinctly separated.
 
 This section describes the additional metadata entry requirements for
 documenting projects and products that involved multiple SA regions or FWS
@@ -30,7 +30,7 @@ The goals for these guidelines are:
     and project support.
 4.  Avoid the appearance of duplicated research efforts between FWS and CASCs
     or other federal bureaus (see 
-    [Non-Duplication Policy](../non_duplication_policy.qmd#non-duplication-policy))
+    [Non-Duplication Policy](../appendix/non_duplication_policy.qmd#non-duplication-policy))
 5.  Clearly communicate the relationships between separate, but related,
     FWS and CASC funded projects to the public
 
@@ -85,12 +85,11 @@ sub-projects.
 **FWS/CASC Co-funded Project**: FWS region(s) and CASC(s) co-fund a project
 without distinct sub-projects or products.
 
-
 ```{mermaid}
 %%| label: fig-mermaid1
 %%| fig-width: 8
 %%| fig-cap: |
-%%|    Flowchart for identifying which protocol to follow
+%%|    Flowchart for identifying which protocol to follow.
 %%{init: {'theme': 'base', 'themeVariables': {'fontSize': '16px', 'primaryColor': '#E6E6FA', 'secondaryColor': '#006100', 'primaryBorderColor': '#fff0f0', 'tertiaryColor': '#fff0f0'}}}%%
 %%{init: {"flowchart": {"htmlLabels": false}} }%%
 
