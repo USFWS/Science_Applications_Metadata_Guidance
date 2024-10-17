@@ -37,12 +37,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -112,9 +110,6 @@ ul.task-list li input[type="checkbox"] {
       </a>
     <div class="sidebar-title mb-0 py-0">
       <a href="../../">USFWS Science Applications Metadata Guidance</a> 
-        <div class="sidebar-tools-main">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
-</div>
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -647,14 +642,14 @@ ul.task-list li input[type="checkbox"] {
 <p>When a project is a sub-project (aka child project) of a larger Service project, complete a project metadata record for the sub-project as in <a href="../../content/project_records/project_records_overview.html">Project Records</a> with the following additions. Products of a sub-project are handled as described in <a href="../../content/product_records/product_records_overview.html">Product Records</a> with no additional requirements.</p>
 <section id="mainpoints-of-contact" class="level2">
 <h2 class="anchored" data-anchor-id="mainpoints-of-contact">Main/Points of Contact</h2>
-<p>Add the parent project region(s) or program(s) as a “collaborator”.</p>
+<p>Add the parent project region(s) or program(s) as a <strong>collaborator</strong>.</p>
 <div class="callout-info">
-<p>The region or program that is funding the sub-project or distinct product is the “administrator” in the sub-project funding metadata as described in <a href="../../content/project_records/funding_tab_project.html">Funding Tab</a>.</p>
+<p>The region or program that is funding the sub-project or distinct product is the <strong>administrator</strong> in the sub-project funding metadata as described in <a href="../../content/project_records/funding_tab_project.html">Funding Tab</a>.</p>
 </div>
 </section>
 <section id="metadatametadata-contacts" class="level2">
 <h2 class="anchored" data-anchor-id="metadatametadata-contacts">Metadata/Metadata Contacts</h2>
-<p>The default publisher is USFWS. The lead region or program may be included as “publisher”, but this is not required. Collaborators do not need to be listed here either.</p>
+<p>The <strong>default publisher</strong> is <strong>USFWS</strong>. The Lead Region or Program may be included as <strong>publisher</strong>, but this is not required. Collaborators do not need to be listed here either.</p>
 </section>
 <section id="associated" class="level2">
 <h2 class="anchored" data-anchor-id="associated">Associated</h2>
@@ -664,15 +659,15 @@ ul.task-list li input[type="checkbox"] {
 <p>If your sub-project falls underneath a project that you also manage or have edit rights, you can create the association by defining the association type and linking your records as normal (see <a href="../../content/project_records/associated_tab_project.html">Associating Records (Project)</a>).</p>
 <p>In the Associated tab, add the association type as one of the following and select the appropriate record to link:</p>
 <ul>
-<li>As parent project to sub-project relationship: “parentProject”/”subProject” or vice versa</li>
-<li>As parent project to product relationship: “parentProject”/“product”</li>
-<li>If neither is a parent of the other, as Part of the other project: “isPartOf”/“isPartOf”</li>
+<li>As parent project to sub-project relationship: <strong>parentProject</strong>/<strong>subProject</strong> or vice versa</li>
+<li>As parent project to product relationship: <strong>parentProject</strong>/<strong>product</strong></li>
+<li>If neither is a parent of the other, as Part of the other project: <strong>isPartOf</strong>/<strong>isPartOf</strong></li>
 </ul>
 </section>
 <section id="when-you-do-not-have-edit-rights-to-parent-project" class="level3">
 <h3 class="anchored" data-anchor-id="when-you-do-not-have-edit-rights-to-parent-project">When you do NOT have edit rights to Parent Project</h3>
 <p>If your sub-project falls underneath a project to which you do not have edit rights for its ScienceBase record or mdEditor file, the metadata records will need to be associated manually within mdEditor (or contact the metadata owner to request assistance with creating the association.)</p>
-<p>To create the association manually, enter the association type as described above, enter the resource type, then copy and paste the title and ScienceBase Identifier for the associated item (see Figure 1).</p>
+<p>To create the association manually, enter the association type as described above, enter the resource type, then copy and paste the title and ScienceBase Identifier for the associated item.</p>
 <p>If creating associations to other regional or program items that have s SA Science Catalog tag, then those items will show up in the Science Catalog, along with your sub-projects and products.</p>
 <div class="callout-info">
 <p>If your sub-project falls underneath a CASC project, refer to the next page: <a href="../../content/cofunded_project_protocols/subproject_of_casc_project.html">Sub-project of CASC Project</a>.</p>
@@ -703,150 +698,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const disableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'prefetch';
-    }
-  }
-  const enableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'stylesheet';
-    }
-  }
-  const manageTransitions = (selector, allowTransitions) => {
-    const els = window.document.querySelectorAll(selector);
-    for (let i=0; i < els.length; i++) {
-      const el = els[i];
-      if (allowTransitions) {
-        el.classList.remove('notransition');
-      } else {
-        el.classList.add('notransition');
-      }
-    }
-  }
-  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-    let newTheme = '';
-    if(darkModeDefault) {
-      newTheme = isAlternate ? baseTheme : alternateTheme;
-    } else {
-      newTheme = isAlternate ? alternateTheme : baseTheme;
-    }
-    const changeGiscusTheme = () => {
-      // From: https://github.com/giscus/giscus/issues/336
-      const sendMessage = (message) => {
-        const iframe = document.querySelector('iframe.giscus-frame');
-        if (!iframe) return;
-        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-      }
-      sendMessage({
-        setConfig: {
-          theme: newTheme
-        }
-      });
-    }
-    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-    if (isGiscussLoaded) {
-      changeGiscusTheme();
-    }
-  }
-  const toggleColorMode = (alternate) => {
-    // Switch the stylesheets
-    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-    manageTransitions('#quarto-margin-sidebar .nav-link', false);
-    if (alternate) {
-      enableStylesheet(alternateStylesheets);
-      for (const sheetNode of alternateStylesheets) {
-        if (sheetNode.id === "quarto-bootstrap") {
-          toggleBodyColorMode(sheetNode);
-        }
-      }
-    } else {
-      disableStylesheet(alternateStylesheets);
-      toggleBodyColorPrimary();
-    }
-    manageTransitions('#quarto-margin-sidebar .nav-link', true);
-    // Switch the toggles
-    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-    for (let i=0; i < toggles.length; i++) {
-      const toggle = toggles[i];
-      if (toggle) {
-        if (alternate) {
-          toggle.classList.add("alternate");     
-        } else {
-          toggle.classList.remove("alternate");
-        }
-      }
-    }
-    // Hack to workaround the fact that safari doesn't
-    // properly recolor the scrollbar when toggling (#1455)
-    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-      manageTransitions("body", false);
-      window.scrollTo(0, 1);
-      setTimeout(() => {
-        window.scrollTo(0, 0);
-        manageTransitions("body", true);
-      }, 40);  
-    }
-  }
-  const isFileUrl = () => { 
-    return window.location.protocol === 'file:';
-  }
-  const hasAlternateSentinel = () => {  
-    let styleSentinel = getColorSchemeSentinel();
-    if (styleSentinel !== null) {
-      return styleSentinel === "alternate";
-    } else {
-      return false;
-    }
-  }
-  const setStyleSentinel = (alternate) => {
-    const value = alternate ? "alternate" : "default";
-    if (!isFileUrl()) {
-      window.localStorage.setItem("quarto-color-scheme", value);
-    } else {
-      localAlternateSentinel = value;
-    }
-  }
-  const getColorSchemeSentinel = () => {
-    if (!isFileUrl()) {
-      const storageValue = window.localStorage.getItem("quarto-color-scheme");
-      return storageValue != null ? storageValue : localAlternateSentinel;
-    } else {
-      return localAlternateSentinel;
-    }
-  }
-  const darkModeDefault = false;
-  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-  // Dark / light mode switch
-  window.quartoToggleColorScheme = () => {
-    // Read the current dark / light value 
-    let toAlternate = !hasAlternateSentinel();
-    toggleColorMode(toAlternate);
-    setStyleSentinel(toAlternate);
-    toggleGiscusIfUsed(toAlternate, darkModeDefault);
-  };
-  // Ensure there is a toggle, if there isn't float one in the top right
-  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-    const a = window.document.createElement('a');
-    a.classList.add('top-right');
-    a.classList.add('quarto-color-scheme-toggle');
-    a.href = "";
-    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-    const i = window.document.createElement("i");
-    i.classList.add('bi');
-    a.appendChild(i);
-    window.document.body.appendChild(a);
-  }
-  // Switch to dark mode if need be
-  if (hasAlternateSentinel()) {
-    toggleColorMode(true);
-  } else {
-    toggleColorMode(false);
-  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {

@@ -37,12 +37,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -112,9 +110,6 @@ ul.task-list li input[type="checkbox"] {
       </a>
     <div class="sidebar-title mb-0 py-0">
       <a href="../../">USFWS Science Applications Metadata Guidance</a> 
-        <div class="sidebar-tools-main">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
-</div>
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -650,8 +645,18 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p><strong>Distribution</strong> provides documentation on how or where users can obtain products. Distribution methods may include online options (e.g., website, database) or offline options (e.g., delivery via mail, library).</p>
-<div class="callout-hint">
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p>An online distribution link is required for any products sent to data.gov.</p>
+</div>
 </div>
 <section id="distribution-tab" class="level3">
 <h3 class="anchored" data-anchor-id="distribution-tab">Distribution Tab</h3>
@@ -698,7 +703,7 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 <p><br></p>
-<p>Click <strong>Add Distribution Section</strong> and then <strong>Edit Distributors</strong> to begin adding distributors.*</p>
+<p>Click <strong>Add Distribution Section</strong> and then <strong>Edit Distributors</strong> to begin adding distributors.</p>
 </section>
 <section id="distributor" class="level2">
 <h2 class="anchored" data-anchor-id="distributor">Distributor</h2>
@@ -706,7 +711,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="contacts-and-role-if-applicable" class="level3">
 <h3 class="anchored" data-anchor-id="contacts-and-role-if-applicable">Contacts and Role <span style="color:#947100;">(If applicable)</span></h3>
 <p>If anything is filled out in the distribution section, a <strong>Contact</strong> must be added. The appropriate <strong>Role</strong> is “distributor.”</p>
-<p>The contact should ideally be someone who will remain available to respond to potential inquiries about the product. If there is not an appropriate contact specific to the product, you can use a generic SA Data Steward contact for a long-term backup contact.</p>
+<p>The contact should ideally be someone who will remain available to respond to potential inquiries about the product. If there is not an appropriate Contact specific to the product, you can use a generic SA Data Steward contact for a long-term backup contact.</p>
 </section>
 </section>
 <section id="transfer-options" class="level2">
@@ -716,28 +721,28 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="online-option">Online Option</h3>
 <section id="name-if-applicable" class="level4">
 <h4 class="anchored" data-anchor-id="name-if-applicable">Name <span style="color:#947100;">(If applicable)</span></h4>
-<p>The Name of the online resource should be something that indicates it is a product page where the data can be downloaded. Examples: “product webpage” or “Product Webpage with Downloadable Files.” If there are multiple files for a single product record, the Name should be different for each file so the user can differentiate between them. For example, “Download Aguiguan Veg 2016 data” or “Download FDM Veg 2011 data.”</p>
-<div class="callout callout-style-default callout-note callout-titled">
+<p>The <strong>Name</strong> of the online resource should be something that indicates it is a product page where the data can be downloaded. Examples: “product webpage” or “Product Webpage with Downloadable Files.” If there are multiple files for a single product record, the Name should be different for each file so the user can differentiate between them. For example, “Download Aguiguan Veg 2016 data” or “Download FDM Veg 2011 data.”</p>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon"></i>
+<i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
 Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Unique Names for multiple files are particularly important for items being sent to data.gov. Without a name specified at all, the link will display as “webpage,” which isn’t particularly informative to users. Identical names for different files also won’t be particularly informative.</p>
+<p>For multiple files, each Name should be unique. This is particularly important for items being sent to data.gov. Without a name specified at all, the link will display as “webpage,” which isn’t particularly informative to users. Identical names for different files also won’t be particularly informative.</p>
 </div>
 </div>
 </section>
 <section id="uri-if-applicable" class="level4">
 <h4 class="anchored" data-anchor-id="uri-if-applicable">URI <span style="color:#947100;">(If applicable)</span></h4>
-<p>The most important thing to enter is the URL where the product can be accessed or downloaded.</p>
-<div class="callout callout-style-default callout-note callout-titled">
+<p>The most important thing to enter is the <strong>URL</strong> where the product can be accessed or downloaded.</p>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon"></i>
+<i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
 Note
@@ -755,10 +760,22 @@ Note
 <section id="how-to-obtain-download-link-from-sciencebase-items" class="level4">
 <h4 class="anchored" data-anchor-id="how-to-obtain-download-link-from-sciencebase-items">How to obtain download link from ScienceBase Items</h4>
 <p>For products hosted on ScienceBase, obtaining the direct download URL is a little tricky. The text displayed on the ScienceBase page under Attached Files is not actually a link (so you can’t right-click and copy link address from there). Here are directions for how to obtain the direct download link for ScienceBase items.</p>
-<p>(1) First scroll to the Attached Files on the ScienceBase item and click the Attach Files control.</p>
-<p><img src="../../assets/distribution_sb_attached_files.png" class="img-fluid"></p>
-<p>(2) From the list of attached files, find the relevant file, right click the name, and select “copy link address.” Then paste that link into the Online Option in mdEditor.</p>
-<p><img src="../../assets/distribution_sb_copy_link.png" class="img-fluid"></p>
+<ol type="1">
+<li>First scroll to the Attached Files on the ScienceBase item and click the Attach Files control.</li>
+</ol>
+<div class="quarto-figure quarto-figure-right">
+<figure class="figure">
+<p><img src="../../assets/distribution_sb_attached_files.png" class="img-fluid quarto-figure quarto-figure-right figure-img" style="width:97.0%"></p>
+</figure>
+</div>
+<ol start="2" type="1">
+<li>From the list of attached files, find the relevant file, right click the name, and select “copy link address.” Then paste that link into the Online Option in mdEditor.</li>
+</ol>
+<div class="quarto-figure quarto-figure-right">
+<figure class="figure">
+<p><img src="../../assets/distribution_sb_copy_link.png" class="img-fluid quarto-figure quarto-figure-right figure-img" style="width:97.0%"></p>
+</figure>
+</div>
 </section>
 </section>
 <section id="offline-option" class="level3">
@@ -794,150 +811,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const disableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'prefetch';
-    }
-  }
-  const enableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'stylesheet';
-    }
-  }
-  const manageTransitions = (selector, allowTransitions) => {
-    const els = window.document.querySelectorAll(selector);
-    for (let i=0; i < els.length; i++) {
-      const el = els[i];
-      if (allowTransitions) {
-        el.classList.remove('notransition');
-      } else {
-        el.classList.add('notransition');
-      }
-    }
-  }
-  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-    let newTheme = '';
-    if(darkModeDefault) {
-      newTheme = isAlternate ? baseTheme : alternateTheme;
-    } else {
-      newTheme = isAlternate ? alternateTheme : baseTheme;
-    }
-    const changeGiscusTheme = () => {
-      // From: https://github.com/giscus/giscus/issues/336
-      const sendMessage = (message) => {
-        const iframe = document.querySelector('iframe.giscus-frame');
-        if (!iframe) return;
-        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-      }
-      sendMessage({
-        setConfig: {
-          theme: newTheme
-        }
-      });
-    }
-    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-    if (isGiscussLoaded) {
-      changeGiscusTheme();
-    }
-  }
-  const toggleColorMode = (alternate) => {
-    // Switch the stylesheets
-    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-    manageTransitions('#quarto-margin-sidebar .nav-link', false);
-    if (alternate) {
-      enableStylesheet(alternateStylesheets);
-      for (const sheetNode of alternateStylesheets) {
-        if (sheetNode.id === "quarto-bootstrap") {
-          toggleBodyColorMode(sheetNode);
-        }
-      }
-    } else {
-      disableStylesheet(alternateStylesheets);
-      toggleBodyColorPrimary();
-    }
-    manageTransitions('#quarto-margin-sidebar .nav-link', true);
-    // Switch the toggles
-    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-    for (let i=0; i < toggles.length; i++) {
-      const toggle = toggles[i];
-      if (toggle) {
-        if (alternate) {
-          toggle.classList.add("alternate");     
-        } else {
-          toggle.classList.remove("alternate");
-        }
-      }
-    }
-    // Hack to workaround the fact that safari doesn't
-    // properly recolor the scrollbar when toggling (#1455)
-    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-      manageTransitions("body", false);
-      window.scrollTo(0, 1);
-      setTimeout(() => {
-        window.scrollTo(0, 0);
-        manageTransitions("body", true);
-      }, 40);  
-    }
-  }
-  const isFileUrl = () => { 
-    return window.location.protocol === 'file:';
-  }
-  const hasAlternateSentinel = () => {  
-    let styleSentinel = getColorSchemeSentinel();
-    if (styleSentinel !== null) {
-      return styleSentinel === "alternate";
-    } else {
-      return false;
-    }
-  }
-  const setStyleSentinel = (alternate) => {
-    const value = alternate ? "alternate" : "default";
-    if (!isFileUrl()) {
-      window.localStorage.setItem("quarto-color-scheme", value);
-    } else {
-      localAlternateSentinel = value;
-    }
-  }
-  const getColorSchemeSentinel = () => {
-    if (!isFileUrl()) {
-      const storageValue = window.localStorage.getItem("quarto-color-scheme");
-      return storageValue != null ? storageValue : localAlternateSentinel;
-    } else {
-      return localAlternateSentinel;
-    }
-  }
-  const darkModeDefault = false;
-  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-  // Dark / light mode switch
-  window.quartoToggleColorScheme = () => {
-    // Read the current dark / light value 
-    let toAlternate = !hasAlternateSentinel();
-    toggleColorMode(toAlternate);
-    setStyleSentinel(toAlternate);
-    toggleGiscusIfUsed(toAlternate, darkModeDefault);
-  };
-  // Ensure there is a toggle, if there isn't float one in the top right
-  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-    const a = window.document.createElement('a');
-    a.classList.add('top-right');
-    a.classList.add('quarto-color-scheme-toggle');
-    a.href = "";
-    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-    const i = window.document.createElement("i");
-    i.classList.add('bi');
-    a.appendChild(i);
-    window.document.body.appendChild(a);
-  }
-  // Switch to dark mode if need be
-  if (hasAlternateSentinel()) {
-    toggleColorMode(true);
-  } else {
-    toggleColorMode(false);
-  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {

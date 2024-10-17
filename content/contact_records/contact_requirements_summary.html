@@ -37,12 +37,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -112,9 +110,6 @@ ul.task-list li input[type="checkbox"] {
       </a>
     <div class="sidebar-title mb-0 py-0">
       <a href="../../">USFWS Science Applications Metadata Guidance</a> 
-        <div class="sidebar-tools-main">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
-</div>
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -618,7 +613,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#main-citation-responsible-parties" id="toc-main-citation-responsible-parties" class="nav-link" data-scroll-target="#main-citation-responsible-parties">Main / Citation / Responsible Parties</a></li>
   <li><a href="#metadata-contacts" id="toc-metadata-contacts" class="nav-link" data-scroll-target="#metadata-contacts">Metadata / Contacts</a></li>
   <li><a href="#funding-allocation-for-projects-only" id="toc-funding-allocation-for-projects-only" class="nav-link" data-scroll-target="#funding-allocation-for-projects-only">Funding / Allocation (for Projects only)</a></li>
-  <li><a href="#distribution-for-products-only" id="toc-distribution-for-products-only" class="nav-link" data-scroll-target="#distribution-for-products-only"><strong>Distribution (for Products only)</strong></a></li>
+  <li><a href="#distribution-for-products-only" id="toc-distribution-for-products-only" class="nav-link" data-scroll-target="#distribution-for-products-only">Distribution (for Products only)</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/usfws/sciapps_metadata_guidance/edit/main/content/contact_records/contact_requirements_summary.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/usfws/sciapps_metadata_guidance/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="https://forms.office.com/g/xtkDZ3rQjW"><i class="bi bi-pencil-square"></i>Provide User Feedback</a></li></ul></div></nav>
@@ -651,62 +646,67 @@ ul.task-list li input[type="checkbox"] {
 <p>Once your contacts have been created in mdEditor, there are five places in a metadata record where you should add contacts.</p>
 <p><em>Please see the corresponding sections for which contacts should be added where.</em></p>
 <ol type="1">
-<li><a href="../../content/project_records/main_tab_project.html#points-of-contact-required">Main Tab</a> / “Point of Contact” section</li>
-<li><a href="../../content/project_records/main_tab_project.html#responsible-parties-required">Main Tab</a> / Citation / “Responsible Parties” section</li>
-<li><a href="../../content/project_records/metadata_tab_project.html#metadata-contacts">Metadata Tab</a> / “Contacts” section</li>
-<li><a href="../../content/project_records/funding_tab_project.html">Funding Tab</a> / “Allocation” section. For Projects only.</li>
-<li><a href="../../content/product_records/distribution_tab_product.html">Distribution Tab</a> / “Contacts” section. For Products only.</li>
+<li><a href="../../content/project_records/main_tab_project.html#points-of-contact-required">Main Tab / Point of Contact</a></li>
+<li><a href="../../content/project_records/main_tab_project.html#responsible-parties-required">Main Tab / Citation / Responsible Parties</a></li>
+<li><a href="../../content/project_records/metadata_tab_project.html#metadata-contacts">Metadata Tab / Contacts</a></li>
+<li><a href="../../content/project_records/funding_tab_project.html">Funding Tab / Allocation</a> (for Projects only)</li>
+<li><a href="../../content/product_records/distribution_tab_product.html">Distribution Tab / Contacts</a> (for Products only)</li>
 </ol>
 <section id="main-point-of-contact" class="level3">
 <h3 class="anchored" data-anchor-id="main-point-of-contact">Main / Point of Contact</h3>
 <table class="table-striped table-hover table-bordered md allborder caption-top table">
+<colgroup>
+<col style="width: 35%">
+<col style="width: 40%">
+<col style="width: 23%">
+</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Role</th>
 <th style="text-align: left;">Contact</th>
-<th style="text-align: left;">Required?</th>
+<th style="text-align: left;">Requirements</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">pointOfContact</td>
 <td style="text-align: left;">SA National Data Steward</td>
-<td style="text-align: left;">Required</td>
+<td style="text-align: left;"><span style="color:#b50909;font-weight:bold">Required</span></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">pointOfContact</td>
 <td style="text-align: left;">Your Region Data Steward</td>
-<td style="text-align: left;">Best Practice</td>
+<td style="text-align: left;"><span style="color:#00687d;">Best Practice</span></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">pointOfContact</td>
 <td style="text-align: left;">Data Steward</td>
-<td style="text-align: left;">Required</td>
+<td style="text-align: left;"><span style="color:#b50909;font-weight:bold">Required</span></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">custodian</td>
 <td style="text-align: left;">Data Custodian</td>
-<td style="text-align: left;">Best Practice</td>
+<td style="text-align: left;"><span style="color:#00687d;">Best Practice</span></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">principalInvestigator</td>
 <td style="text-align: left;">Project PI</td>
-<td style="text-align: left;">Best Practice</td>
+<td style="text-align: left;"><span style="color:#00687d;">Best Practice</span></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">administrator</td>
 <td style="text-align: left;">FWS Project Officer</td>
-<td style="text-align: left;">Required</td>
+<td style="text-align: left;"><span style="color:#b50909;font-weight:bold">Required</span></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">administrator</td>
 <td style="text-align: left;">FWS Region</td>
-<td style="text-align: left;">Required</td>
+<td style="text-align: left;"><span style="color:#b50909;font-weight:bold">Required</span></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">administrator</td>
 <td style="text-align: left;">FWS Program</td>
-<td style="text-align: left;">Best Practice</td>
+<td style="text-align: left;"><span style="color:#00687d;">Best Practice</span></td>
 </tr>
 </tbody>
 </table>
@@ -715,18 +715,23 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="main-citation-responsible-parties">Main / Citation / Responsible Parties</h3>
 <p>This must include a point of contact, but may also include other responsible parties such as funders, partners, collaborators, and contributors. Collaborators could be intellectual participants while contributors could be intellectual and financial participants.</p>
 <table class="table-striped table-hover table-bordered md allborder caption-top table">
+<colgroup>
+<col style="width: 46%">
+<col style="width: 32%">
+<col style="width: 22%">
+</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Role</th>
 <th style="text-align: left;">Contact</th>
-<th style="text-align: left;">Required?</th>
+<th style="text-align: left;">Requirements</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">principalInvestigator</td>
 <td style="text-align: left;">Project PI</td>
-<td style="text-align: left;">Required</td>
+<td style="text-align: left;"><span style="color:#b50909;font-weight:bold">Required</span></td>
 </tr>
 </tbody>
 </table>
@@ -734,76 +739,87 @@ ul.task-list li input[type="checkbox"] {
 <section id="metadata-contacts" class="level3">
 <h3 class="anchored" data-anchor-id="metadata-contacts">Metadata / Contacts</h3>
 <table class="table-striped table-hover table-bordered md allborder caption-top table">
+<colgroup>
+<col style="width: 26%">
+<col style="width: 30%">
+<col style="width: 43%">
+</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Role</th>
 <th style="text-align: left;">Contact</th>
-<th style="text-align: left;">Required?</th>
+<th style="text-align: left;">Requirements</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">author</td>
-<td style="text-align: left;">See Notes Below</td>
-<td style="text-align: left;">At Least One is Required</td>
+<td style="text-align: left;">See notes below</td>
+<td style="text-align: left;"><span style="color:#b50909;font-weight:bold">Required</span> (at least one)</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">publisher</td>
 <td style="text-align: left;">Default is FWS</td>
-<td style="text-align: left;">Required</td>
+<td style="text-align: left;"><span style="color:#b50909;font-weight:bold">Required</span></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">pointOfContact</td>
 <td style="text-align: left;">FWS Data Steward</td>
-<td style="text-align: left;">Required</td>
+<td style="text-align: left;"><span style="color:#b50909;font-weight:bold">Required</span></td>
 </tr>
 </tbody>
 </table>
-<p><strong>Regarding Role of “author”</strong></p>
+<section id="role-of-author" class="level4">
+<h4 class="anchored" data-anchor-id="role-of-author">Role of <strong>author</strong></h4>
 <ul>
-<li>The author does not necessarily have to be the data steward (e.g., imported FGDC metadata can list the original author).</li>
-<li>“Author” can be an individual or an organization.</li>
-<li>You can enter your regional or program data manager as the “author”. If you prefer, you can use a generic data manager contact rather than an individual name.</li>
-<li>At least one contact with the role of “author” is required.</li>
+<li>At least one contact with the role of <strong>author</strong> is required.</li>
+<li>The <strong>author</strong> does not necessarily have to be the data steward (e.g., imported FGDC metadata can list the original author).</li>
+<li>The <strong>author</strong> can be an individual or an organization.</li>
+<li>You can enter your regional or program data manager as the <strong>author</strong>. If you prefer, you can use a generic data manager contact rather than an individual name.</li>
 </ul>
+</section>
 </section>
 <section id="funding-allocation-for-projects-only" class="level3">
 <h3 class="anchored" data-anchor-id="funding-allocation-for-projects-only">Funding / Allocation (for Projects only)</h3>
 <section id="source-required" class="level4">
-<h4 class="anchored" data-anchor-id="source-required">Source (Required)</h4>
-<p>Add the relevant contact for the “source” of the project funding. Source should be an organization, not an individual. For FWS projects, the default source is U.S. Fish and Wildlife Service. Regions or programs should be added as the funding “administrator” in the Other Contacts field.</p>
-<div class="callout callout-style-simple callout-note no-icon">
-<div class="callout-body d-flex">
+<h4 class="anchored" data-anchor-id="source-required">Source (<span style="color:#b50909;font-weight:bold">Required</span>)</h4>
+<p>Add the relevant contact for the <strong>source</strong> of the project funding. Source should be an organization, not an individual. For FWS projects, the default source is U.S. Fish and Wildlife Service. Regions or programs should be added as the funding <strong>administrator</strong> in the Other Contacts field.</p>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-body-container">
-<p>Funding source should always identify the agency or organization, rather than a sub-program or office. For example, all funding from other FWS programs need to list U.S. Fish and Wildlife Service as the source (and not list the source as Fisheries, specific Refuges, ES, etc.). Clarifications on the exact program or office where the funding came from can be done through the Funding/Other Contacts field (and choose the role of “administrator”).</p>
+<div class="callout-title-container flex-fill">
+Note
 </div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Funding <strong>source</strong> should always identify the agency or organization, rather than a sub-program or office. For example, all funding from other FWS programs need to list U.S. Fish and Wildlife Service as the source (and not list the source as Fisheries, specific Refuges, ES, etc.). Clarifications on the exact program or office where the funding came from can be done through the Funding/Other Contacts field (and choose the role of <strong>administrator</strong>).</p>
 </div>
 </div>
 </section>
 <section id="recipient-required" class="level4">
-<h4 class="anchored" data-anchor-id="recipient-required">Recipient (Required)</h4>
-<p>Add the relevant contact for the “recipient” of the project funding. Recipient should always be an organization, not an individual. For example, the Principal Investigator would not be listed as the recipient, but their organization would be. If there are multiple recipients for a project, they should be added as separate allocations.</p>
-<p>The Principal Investigator may be added n the Other Contacts field as “principalInvestigator.”</p>
-<div class="callout callout-style-simple callout-note no-icon">
-<div class="callout-body d-flex">
+<h4 class="anchored" data-anchor-id="recipient-required">Recipient (<span style="color:#b50909;font-weight:bold">Required</span>)</h4>
+<p>Add the relevant contact for the <strong>recipient</strong> of the project funding. Recipient should always be an organization, not an individual. For example, the Principal Investigator would not be listed as the recipient, but their organization would be listed. If there are multiple recipients for a project, they should be added as separate allocations.</p>
+<p>The Principal Investigator may be added in the Other Contacts field as <strong>principalInvestigator</strong>.</p>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-body-container">
-<p>Funding administrator can also be used to differentiate funding from different programs/offices within the same agency. For example, the U.S. Fish and Wildlife Service can be identified as the funding source and the funding administrator could include “Ecological Services” or a specific field office.</p>
+<div class="callout-title-container flex-fill">
+Note
 </div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Funding administrator can also be used to differentiate funding from different programs/offices within the same agency. For example, the U.S. Fish and Wildlife Service can be identified as the funding source and the funding administrator could include “Ecological Services” or a specific field office.</p>
 </div>
 </div>
 </section>
 </section>
 <section id="distribution-for-products-only" class="level3">
-<h3 class="anchored" data-anchor-id="distribution-for-products-only"><strong>Distribution (for Products only)</strong></h3>
-<ul>
-<li>Add the relevant contact for “distributor” of the product.</li>
-</ul>
+<h3 class="anchored" data-anchor-id="distribution-for-products-only">Distribution (for Products only)</h3>
+<p>Add the relevant contact for <strong>distributor</strong> of the product.</p>
 
 
 </section>
@@ -830,150 +846,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const disableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'prefetch';
-    }
-  }
-  const enableStylesheet = (stylesheets) => {
-    for (let i=0; i < stylesheets.length; i++) {
-      const stylesheet = stylesheets[i];
-      stylesheet.rel = 'stylesheet';
-    }
-  }
-  const manageTransitions = (selector, allowTransitions) => {
-    const els = window.document.querySelectorAll(selector);
-    for (let i=0; i < els.length; i++) {
-      const el = els[i];
-      if (allowTransitions) {
-        el.classList.remove('notransition');
-      } else {
-        el.classList.add('notransition');
-      }
-    }
-  }
-  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-    let newTheme = '';
-    if(darkModeDefault) {
-      newTheme = isAlternate ? baseTheme : alternateTheme;
-    } else {
-      newTheme = isAlternate ? alternateTheme : baseTheme;
-    }
-    const changeGiscusTheme = () => {
-      // From: https://github.com/giscus/giscus/issues/336
-      const sendMessage = (message) => {
-        const iframe = document.querySelector('iframe.giscus-frame');
-        if (!iframe) return;
-        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-      }
-      sendMessage({
-        setConfig: {
-          theme: newTheme
-        }
-      });
-    }
-    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-    if (isGiscussLoaded) {
-      changeGiscusTheme();
-    }
-  }
-  const toggleColorMode = (alternate) => {
-    // Switch the stylesheets
-    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-    manageTransitions('#quarto-margin-sidebar .nav-link', false);
-    if (alternate) {
-      enableStylesheet(alternateStylesheets);
-      for (const sheetNode of alternateStylesheets) {
-        if (sheetNode.id === "quarto-bootstrap") {
-          toggleBodyColorMode(sheetNode);
-        }
-      }
-    } else {
-      disableStylesheet(alternateStylesheets);
-      toggleBodyColorPrimary();
-    }
-    manageTransitions('#quarto-margin-sidebar .nav-link', true);
-    // Switch the toggles
-    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-    for (let i=0; i < toggles.length; i++) {
-      const toggle = toggles[i];
-      if (toggle) {
-        if (alternate) {
-          toggle.classList.add("alternate");     
-        } else {
-          toggle.classList.remove("alternate");
-        }
-      }
-    }
-    // Hack to workaround the fact that safari doesn't
-    // properly recolor the scrollbar when toggling (#1455)
-    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-      manageTransitions("body", false);
-      window.scrollTo(0, 1);
-      setTimeout(() => {
-        window.scrollTo(0, 0);
-        manageTransitions("body", true);
-      }, 40);  
-    }
-  }
-  const isFileUrl = () => { 
-    return window.location.protocol === 'file:';
-  }
-  const hasAlternateSentinel = () => {  
-    let styleSentinel = getColorSchemeSentinel();
-    if (styleSentinel !== null) {
-      return styleSentinel === "alternate";
-    } else {
-      return false;
-    }
-  }
-  const setStyleSentinel = (alternate) => {
-    const value = alternate ? "alternate" : "default";
-    if (!isFileUrl()) {
-      window.localStorage.setItem("quarto-color-scheme", value);
-    } else {
-      localAlternateSentinel = value;
-    }
-  }
-  const getColorSchemeSentinel = () => {
-    if (!isFileUrl()) {
-      const storageValue = window.localStorage.getItem("quarto-color-scheme");
-      return storageValue != null ? storageValue : localAlternateSentinel;
-    } else {
-      return localAlternateSentinel;
-    }
-  }
-  const darkModeDefault = false;
-  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-  // Dark / light mode switch
-  window.quartoToggleColorScheme = () => {
-    // Read the current dark / light value 
-    let toAlternate = !hasAlternateSentinel();
-    toggleColorMode(toAlternate);
-    setStyleSentinel(toAlternate);
-    toggleGiscusIfUsed(toAlternate, darkModeDefault);
-  };
-  // Ensure there is a toggle, if there isn't float one in the top right
-  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-    const a = window.document.createElement('a');
-    a.classList.add('top-right');
-    a.classList.add('quarto-color-scheme-toggle');
-    a.href = "";
-    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-    const i = window.document.createElement("i");
-    i.classList.add('bi');
-    a.appendChild(i);
-    window.document.body.appendChild(a);
-  }
-  // Switch to dark mode if need be
-  if (hasAlternateSentinel()) {
-    toggleColorMode(true);
-  } else {
-    toggleColorMode(false);
-  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
