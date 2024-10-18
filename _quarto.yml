@@ -49,12 +49,12 @@ website:
       - content/data_management_goals.qmd   
       - content/science_catalog.qmd   
       - content/projects_products_contacts.qmd   
-      - section: "Workflow"
-        href: content/workflow/workflow_overview.qmd
+      - section: "Metadata Workflows"
+        href: content/metadata_workflows/metadata_workflows_overview.qmd
         contents:
-          - content/workflow/metadata_from_scratch.qmd
-          - content/workflow/metadata_sciencebase_first.qmd          
-          - content/workflow/metadata_editing_republishing.qmd          
+          - content/metadata_workflows/from_scratch.qmd
+          - content/metadata_workflows/sciencebase_first.qmd          
+          - content/metadata_workflows/editing_republishing.qmd          
       - content/settings.qmd           
       - section: "Metadata File Management"
         href: content/metadata_file_management/metadata_file_management_overview.qmd    
@@ -126,23 +126,23 @@ website:
           - content/publishing/how_to.qmd          
           - content/publishing/republishing.qmd          
       - content/feedback_help.qmd
-      - content/glossary.qmd
       - section: "Appendix"
         href: content/appendix/appendix_overview.qmd 
         contents:
-          - section: "Developer Resources"
-            href: content/developer_resources/developer_resources_overview.qmd        
-            contents:
-              - section: "Injector Script"
-                href: content/developer_resources/injector_script/injector_script_overview.qmd      
-                contents:
-                  - content/developer_resources/injector_script/example_funding.qmd      
-                  - content/developer_resources/injector_script/example_distribution_links.qmd         
+#          - section: "Developer Resources"
+#            href: content/developer_resources/developer_resources_overview.qmd        
+#            contents:
+#              - section: "Injector Script"
+#                href: content/developer_resources/injector_script/injector_script_overview.qmd      
+#                contents:
+#                  - content/developer_resources/injector_script/example_funding.qmd      
+#                  - content/developer_resources/injector_script/example_distribution_links.qmd         
           - section: "LCC Workflows"
             href: content/appendix/lcc_workflows/lcc_workflows_overview.qmd      
             contents:
               - content/appendix/lcc_workflows/cofunded_lcc_projects.qmd      
           - content/appendix/non_duplication_policy.qmd   
+      - content/glossary.qmd
             
 #      - content/archiving.qmd
 #      - section: "Trouble-Shooting"

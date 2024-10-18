@@ -7,8 +7,8 @@ editor:
 
 **Note**: The Publishing instructions still need some editing and refinement.
 
-SA metadata is currently published to ScienceBase in your SA community's project
-folder. You must have a ScienceBase user account with write access to this
+SA metadata is currently published to ScienceBase in your SA Region folder. You 
+must have a ScienceBase user account with write access to this
 folder. Once the mdJSON metadata is published in ScienceBase, the records will
 be synced with the SA Science Catalog (the Science Catalog updates overnight
 with new/updated mdJSON).
@@ -17,11 +17,10 @@ with new/updated mdJSON).
 
 Please read through **all** instructions before you begin the publishing process.
 After you understand how the publishing function works, please read
-the [**Testing Publishing**](testing.qmd)
-and proceed with testing a record before you try to publish any of your real
-records.
+the [**Testing**](testing.qmd) section and publish a test record before trying 
+to publish any real records.
 
-## Overview of Publishing to the Science Catalog
+## Publishing to the Science Catalog Process Overview
 
 The following describes what happens when you publish from mdEditor:
 

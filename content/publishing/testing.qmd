@@ -1,20 +1,11 @@
 ---
 title: "Testing"
-subtitle: "Publishing"
+subtitle: "Publishing a Test Record"
 editor: 
   markdown: 
     wrap: 80
 ---
 
-For tracking issues with mdEditor, please use the github thread
-[here](https://github.com/adiwg/mdEditor/issues/128) and sign up for
-notifications via email.
-
-::: {.callout-note}
-Note: Please use a testing folder before you update your
-real records. Consult the [**Testing**](testing.qmd)
-section for more information. 
-:::
 
 1.  Determine your workflow for testing:
 
@@ -54,11 +45,10 @@ section for more information.
 6.  **NOTE:** Any unsolvable issues can be submitted on the issues page for
     mdEditor:
     [https://github.com/adiwg/mdEditor/issues](https://www.gitbook.com/book/adiwg/mdeditor/edit#).
-    You must have a github account in order to post.
+    You must have a github account in order to post. Advanced users can check 
+    errors using the browser console. 
 
-    Advanced users can check errors using the console. 
-
-7.  Verify that your test records have published as expected in your folder on
+7.  Verify your test records have published as expected in your folder on
     ScienceBase (or to the real record if that’s how you are testing).
 
 8.  After you are satisfied with how your test records published to ScienceBase,

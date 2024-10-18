@@ -1,5 +1,6 @@
 ---
-title: "Metadata Editing / Re-Publishing"
+title: "Editing/Re-Publishing"
+subtitle: "Metadata Workflows"
 editor: 
   markdown: 
     wrap: 80
@@ -21,9 +22,8 @@ projects.
 The direct link to mdEditor is <https://go.mdeditor.org>. Choose the browser you
 plan to use for mdEditor and bookmark this link.
 
-mdEditor can also be accessed from its homepage at <https://www.mdeditor.org/>.
-This site provides some background information and Frequently Asked Questions
-about mdEditor.
+The [mdEditor homepage](https://www.mdeditor.org) provides some background 
+information and Frequently Asked Questions about mdEditor.
 
 Always hit ***Refresh*** in your browser before each work session (and
 periodically throughout the session) to ensure that you are using the most

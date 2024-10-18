@@ -1,12 +1,14 @@
 ---
-title: "Metadata From ScienceBase"
+title: "Workflow: Overview"
 editor: 
   markdown: 
     wrap: 80
 ---
 
-Follow this workflow if you are creating mdJSON for the first time and already
-have project or product metadata on ScienceBase.
+## Suggested Workflow for SA Metadata and mdEditor
+
+The following is a suggested workflow for using mdEditor to create, publish, and
+save metadata records for SA projects and products.
 
 ### 1. Gather information 
 
@@ -21,9 +23,8 @@ projects.
 The direct link to mdEditor is <https://go.mdeditor.org>. Choose the browser you
 plan to use for mdEditor and bookmark this link.
 
-mdEditor can also be accessed from its homepage at <https://www.mdeditor.org/>.
-This site provides some background information and Frequently Asked Questions
-about mdEditor.
+The [mdEditor homepage](https://www.mdeditor.org) provides some background 
+information and Frequently Asked Questions about mdEditor.
 
 Always hit ***Refresh*** in your browser before each work session (and
 periodically throughout the session) to ensure that you are using the most
@@ -45,27 +46,52 @@ mdEditor.
 SA has a "seed list" of contacts that that contains standardized information 
 for common partner agencies, USFWS regions, and the SA Network Data Steward. 
 This **Contacts Seed** file (as a .json) can be downloaded from the
-[mdEditor Seed Contacts item page](https://www.sciencebase.gov/catalog/item/5df8d2b7e4b0cdded73b4069).
+[mdEditor Seed Contacts item page](https://www.sciencebase.gov/catalog/item/5df8d2b7e4b0cdded73b4069)
 and then imported into mdEditor using the 
 [Import](../metadata_file_management/import_mdjson.qmd) tab.
 
-### 5. Import projects
 
-For importing metadata for a
-[project](../project_records/project_records_overview.qmd) of an existing 
-ScienceBase project, import the ScienceBase record to create a new mdEditor 
-record using the [sbJSON Import](../metadata_file_management/import_sbjson.qmd).
+### 5. Create or import projects
 
-### 6. Import products
+For creating or importing metadata for a
+[project](../project_records/project_records_overview.qmd) use one of the
+following options based on whether or not you have already created a mdEditor
+project record.
 
-For importing metadata for a
-[product](../product_records/product_records_overview.qmd) of an existing 
-ScienceBase product record, import the ScienceBase record to create a new 
-mdEditor record using the [sbJSON Import](../metadata_file_management/import_sbjson.qmd).
+a.  If you do not have existing ScienceBase project records, create an mdEditor
+    project record from scratch using the [From Scratch](from_scratch.qmd) workflow.
+
+b.  If you have an existing ScienceBase project record that has not been edited
+    in mdEditor, import the ScienceBase record to create a new mdEditor record
+    using the [ScienceBase First](sciencebase_first.qmd) workflow.
+
+c.  If you have already created an mdEditor record for the project, import the
+    mdEditor file using the [Editing/Re-Publishing](editing_republishing.qmd) workflow to continue
+    editing.
+
+### 6. Create or import products
+
+For creating or importing metadata for a
+[product](../product_records/product_records_overview.qmd) use one of the
+following options based on whether or not you have already created a mdEditor
+project record.
+
+a.  If you do not have existing ScienceBase product records, create an mdEditor
+    project record from scratch using the [Metadata from
+    Scratch](from_scratch.qmd) workflow.
+
+b.  If you have an existing ScienceBase product record that has not been edited
+    in mdEditor, import the ScienceBase record to create a new mdEditor record
+    using the [ScienceBase First](sciencebase_first.qmd)
+    workflow.
+
+c.  If you have already created an mdEditor record for the product, import the
+    mdEditor file to [Editing/Re-Publishing](editing_republishing.qmd) workflow to continue
+    editing.
 
 ### 7. Create or import data dictionaries
 
-If a product record have a need for data
+If a product record has a need for data
 [dictionaries](../product_records/dictionaries_tab_product.qmd), create or
 import one.
 

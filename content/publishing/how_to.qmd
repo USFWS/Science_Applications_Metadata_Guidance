@@ -6,7 +6,7 @@ editor:
     wrap: 80
 ---
 
-**BEST PRACTICE**: Always refresh your browser before you access the publishing
+**Best Practive**: Always refresh your browser before you access the publishing
 menu to ensure that you are using the most updated version of mdEditor. However,
 if you have already moved items around in the publishing outline (see below for
 details), note that you will lose this information if you refresh.
@@ -25,11 +25,17 @@ details), note that you will lose this information if you refresh.
 
 ### Step 1: Login to ScienceBase
 
-1.  Click the **Publish** button from the top menu in mdEditor.
-2.  You will be asked to select a *publishing service*. Click on ScienceBase.
-3.  A login window will appear on the right side of the screen - enter your
-    ScienceBase ID and password, and click **Login**. When you are logged in,
-    the login window will display who you are logged in as. *The current user
+1.  Click the **Publish** button on the banner menu in mdEditor.
+2.  You will be asked to select a **publishing service**. Click on **ScienceBase**.
+3.  A login window will appear on the right side of the screen. Log in options
+    will appear, select **Log in with BisonConnect**. Then select 
+    **Sign in with PIV Card** and in the pop-up window select your certificate.  
+    Finally, enter your PIV PIN ID number. You should be returned to the 
+    mdEditor window.
+    and click **Login**. 
+    
+    When you are logged in, the login window will display who you are logged in 
+    as. *The current user
     must have read/write permissions on ScienceBase for any items to be
     published (including parent items)*. You cannot publish until you are logged
     in.

@@ -29,6 +29,6 @@ need to edit the Parent ID in your metadata record to the different location
 
 ::: {.callout-note icon=false} 
 Please use a testing folder before you update your
-real records. (Consult the [**Testing Publishing**](testing.qmd))
+real records. (Consult the [**Testing**](testing.qmd))
 section of this manual for more information).
 :::

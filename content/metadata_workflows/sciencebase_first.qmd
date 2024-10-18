@@ -1,14 +1,13 @@
 ---
-title: "Workflow: Overview"
+title: "ScienceBase First"
+subtitle: "Metadata Workflows"
 editor: 
   markdown: 
     wrap: 80
 ---
 
-## Suggested Workflow for SA Metadata and mdEditor
-
-The following is a suggested workflow for using mdEditor to create, publish, and
-save metadata records for SA projects and products.
+Follow this workflow if you are creating mdJSON for the first time and already
+have project or product metadata on ScienceBase.
 
 ### 1. Gather information 
 
@@ -23,9 +22,8 @@ projects.
 The direct link to mdEditor is <https://go.mdeditor.org>. Choose the browser you
 plan to use for mdEditor and bookmark this link.
 
-mdEditor can also be accessed from its homepage at <https://www.mdeditor.org/>.
-This site provides some background information and Frequently Asked Questions
-about mdEditor.
+The [mdEditor homepage](https://www.mdeditor.org) provides some background 
+information and Frequently Asked Questions about mdEditor.
 
 Always hit ***Refresh*** in your browser before each work session (and
 periodically throughout the session) to ensure that you are using the most
@@ -51,52 +49,23 @@ This **Contacts Seed** file (as a .json) can be downloaded from the
 and then imported into mdEditor using the 
 [Import](../metadata_file_management/import_mdjson.qmd) tab.
 
+### 5. Import projects
 
-### 5. Create or import projects
+For importing metadata for a
+[project](../project_records/project_records_overview.qmd) of an existing 
+ScienceBase project, import the ScienceBase record to create a new mdEditor 
+record using the [sbJSON Import](../metadata_file_management/import_sbjson.qmd).
 
-For creating or importing metadata for a
-[project](../project_records/project_records_overview.qmd) use one of the
-following options based on whether or not you have already created a mdEditor
-project record.
+### 6. Import products
 
-a.  If you do not have existing ScienceBase project records, create an mdEditor
-    project record from scratch using the [Metadata from
-    Scratch](metadata_from_scratch.qmd) workflow.
-
-b.  If you have an existing ScienceBase project record that has not been edited
-    in mdEditor, import the ScienceBase record to create a new mdEditor record
-    using the [Metadata from ScienceBase](metadata_sciencebase_first.qmd)
-    workflow.
-
-c.  If you have already created an mdEditor record for the project, import the
-    mdEditor file to [Metadata Editing /
-    Re-Publishing](metadata_editing_republishing.qmd) workflow to continue
-    editing.
-
-### 6. Create or import products
-
-For creating or importing metadata for a
-[product](../product_records/product_records_overview.qmd) use one of the
-following options based on whether or not you have already created a mdEditor
-project record.
-
-a.  If you do not have existing ScienceBase product records, create an mdEditor
-    project record from scratch using the [Metadata from
-    Scratch](metadata_from_scratch.qmd) workflow.
-
-b.  If you have an existing ScienceBase product record that has not been edited
-    in mdEditor, import the ScienceBase record to create a new mdEditor record
-    using the [Metadata from ScienceBase](metadata_sciencebase_first.qmd)
-    workflow.
-
-c.  If you have already created an mdEditor record for the product, import the
-    mdEditor file to [Metadata Editing /
-    Re-Publishing](metadata_editing_republishing.qmd) workflow to continue
-    editing.
+For importing metadata for a
+[product](../product_records/product_records_overview.qmd) of an existing 
+ScienceBase product record, import the ScienceBase record to create a new 
+mdEditor record using the [sbJSON Import](../metadata_file_management/import_sbjson.qmd).
 
 ### 7. Create or import data dictionaries
 
-If a product record has a need for data
+If a product record have a need for data
 [dictionaries](../product_records/dictionaries_tab_product.qmd), create or
 import one.
 

@@ -47,19 +47,21 @@ include a filename for the logo. Otherwise, mdEditor will indicate an error on
 the metadata records that includes this contact.
 :::
 
-## SA Network Data Steward
+## SA National Data Steward
 
 The **FWS Science Applications National Data Steward** is ***required*** as a 
-**PointOfContact** in the [Main Tab / Point of Contact](../project_records/main_tab_project.qmd#points-of-contact-required) 
-section and in the [Metadata Tab / Contacts](../project_records/metadata_tab_project.qmd#metadata-contacts) section.
+**pointOfContact** in two metadata sections:  
+
+1.   [Main Tab / Point of Contact](../project_records/main_tab_project.qmd#points-of-contact-required) 
+2.   [Metadata Tab / Contacts](../project_records/metadata_tab_project.qmd#metadata-contacts)
 
 The SA National Data Steward details:
 
--   Individual Name: **FWS Science Applications National Data Steward**
--   Contact Type: **federal**
--   Email Address: **sadatasteward\@fws.gov**
+-   Individual Name: **FWS Science Applications National Data Steward**  
+-   Contact Type: **federal**   
+-   Email Address: **sadatasteward\@fws.gov**   
 
-![Example generic data steward contact](../../assets/example_data_steward_contact.png)
+![](../../assets/example_data_steward_contact.png){width=97% fig-align="right"}
 
 For more information, consult the [**Individual Contact**](https://adiwg.gitbooks.io/mdeditor/content/contact/new/individual.html)
 section of the mdEditor manual.

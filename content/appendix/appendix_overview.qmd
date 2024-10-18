@@ -6,17 +6,18 @@ editor:
     wrap: 80
 ---
 
-This appendix is where Policies, Region, or Program-specific resources are located.
+The appendix is where policies, coding, or project-specific resources are located.
 
 ### Folder structure
 
+[LCC Workflows](lcc_workflows/lcc_workflows_overview.qmd): Metadata workflow components specific to LCCs.   
 [Non-Duplication Policy](non_duplication_policy.qmd): Information about the 
-2017 Non-Duplication Policy.
-[Developer Resources](project_tracking_system/project_tracking_system_considerations): Coding or scripting information.
-[LCC Workflows](lcc_workflows/lcc_workflows_overview.qmd): Metadata workflow components specific to LCCs.
-
+2017 Non-Duplication Policy.  
 
 <!--  # REMOVE THIS ARROW AND THE BOTTOM ARROW TO SHOW THIS SECTION AGAIN
+
+[Developer Resources](project_tracking_system/project_tracking_system_considerations.qmd): Coding or scripting information.   
+
 ***Project Tracking System:*** Considerations when using the Project Tracking
 System (PTS) used in Region 6.
 -->

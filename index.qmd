@@ -40,7 +40,7 @@ Overall guidance about USFWS Data Management is in the [USFWS Data Management Ha
 
 The metadata editing tool used to create and support metadata requirements 
 is mdEditor. This tool was initially developed by the 
-[Alaska Data Integration Working Group (ADIwg)](http://www.adiwg.org/about/) 
+[Alaska Data Integration Working Group](http://www.adiwg.org/about/) 
 and adopted by SA. The mdEditor application is under constant development. 
 Consequently, there may be some minor discrepancies between screenshots in this 
 guidance and the current version of mdEditor.

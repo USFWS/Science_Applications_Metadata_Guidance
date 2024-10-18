@@ -51,23 +51,22 @@ and product records have been created in mdEditor.
 
 ### Steps for Creating an Association in a Product Record
 
-1.  Select **parentProject** from the **Association Type** drop-down
-menu. This field will describe the relationship from the associated record to
-the product record (the associated record is the parentProject of the product
-record you are editing). 
+1.  Select **parentProject** from the **Association Type** drop-down menu. 
+    This field will describe the relationship from the associated record to
+    the product record (the associated record is the parentProject of the product
+    record you are editing). 
 
-![](../../assets/product_association_type.png){width=97% fig-align="right"}
+    ![](../../assets/product_association_type.png)
 
-2. Click the **Select a Record** button to select an associated
-project. 
+2.  Click the **Select a Record** button to select an associated project. 
 
-![](../../assets/select_a_record_button.png){fig-align="center"}
+    ![](../../assets/select_a_record_button.png){fig-align="center"}
 
-3. Choose the project that you would like to associate from the
-**Select a Resource** list.
+3.  Choose the project that you would like to associate from the 
+    **Select a Resource** list.
 
-![](../../assets/product_association_choose_parent.png){width=97% fig-align="right"}
+    ![](../../assets/product_association_choose_parent.png)
 
 4.  Fill out the Linked Association Type with **product**.
 
-![](../../assets/product_association_linked_record.png){width=97% fig-align="right"}
+    ![](../../assets/product_association_linked_record.png)

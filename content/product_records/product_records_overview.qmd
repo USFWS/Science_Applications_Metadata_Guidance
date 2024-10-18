@@ -48,7 +48,7 @@ and then imported into mdEditor using the
 ## Edit a Product
 
 1.  Import or create your product record (see
-    [workflow](../workflow/workflow_overview.qmd)).
+    [workflow](../metadata_workflows/metadata_workflows_overview.qmd)).
 2.  Choose the specific **Resource Type** that describes your product. Do not
     choose the generic "product."
 3.  Select the Product Profile: from the Main Menu (Top Navigation Bar) select
