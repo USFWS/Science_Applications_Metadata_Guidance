@@ -28,7 +28,7 @@ to a DOI Office of the Inspector General 2017 report, individual LCCs were
 required to contribute their project and product metadata to the ScienceBase
 repository by the end of 2017 and mid-2018 respectively. In tandem with this
 ScienceBase requirement, the LCC Network was required to post data products to
-data.gov and this data conduit be in place with products cataloged by end of
+Data.gov and this data conduit be in place with products cataloged by end of
 2018.
 
 While SA has refocused on FWS priorities, the need for data management,

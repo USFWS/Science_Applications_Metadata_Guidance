@@ -28,6 +28,7 @@ website:
   search:
     location: sidebar
     type: textbox
+    collapse-after: 10
   sidebar:
     title: "USFWS Science Applications Metadata Guidance"   
     background: "#D9E3E4"

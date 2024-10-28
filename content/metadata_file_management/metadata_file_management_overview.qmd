@@ -36,7 +36,7 @@ The underlying format of the metadata from mdEditor is mdJSON, which was created
 specifically for mdEditor. There are two types of mdJSON files.
 
 1.  mdJSON files are the format that is published from mdEditor and made
-    available on ScienceBase and data.gov. Their default file name is
+    available on ScienceBase and Data.gov. Their default file name is
     ***md_metadata.json***.
 2.  mdEditor.json files are the files used by mdEditor. They contain extra
     information, such as settings, that tell mdEditor how to operate. Their

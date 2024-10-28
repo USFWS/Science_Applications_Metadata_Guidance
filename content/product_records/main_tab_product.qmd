@@ -137,12 +137,12 @@ section's Title.
 
 #### Alternate Title [(If desired)]`r best_style`
 
-Add an **Alternate Title*.
+Add an **Alternate Title**.
 
 #### Dates [(Required)]`r req_style`
 
-Enter ***acquisition***, ***creation***, ***updated***, ***revision***, or 
-***publication*** date reference from the picklist and then enter the date. 
+Enter **acquisition**, **creation**, **updated**, **revision**, or 
+**publication** date reference from the picklist and then enter the date. 
 <u>At least one </u> of these date types is required.
 
 #### Responsible Parties [(Required)]`r req_style`
@@ -161,7 +161,7 @@ contributors could be intellectual and financial participants.
 <br/>
 
 ::: {.callout-note icon=false}
-For items that will be sent to data.gov, only the first
+For items that will be sent to Data.gov, only the first
 in the list of Responsible Parties (#0) will appear. 
 :::
 
@@ -174,8 +174,8 @@ link to send users to the data download.
 ::: {.callout-note icon=false} 
 Important: The URLs to access and download products must
 **also** be included in the Distribution tab. Distribution Links is the only
-online resource that data.gov reads so without a URL there, users have no way to
-access the actual product from data.gov. 
+online resource that Data.gov reads so without a URL there, users have no way to
+access the actual product from Data.gov. 
 :::
 
 #### Identifier [(Required)]`r req_style`

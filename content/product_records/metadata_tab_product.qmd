@@ -37,11 +37,11 @@ metadata, and metadata repositories.
 
 Select the appropriate **Status** of the creation of your metadata from the
 drop-down menu. For example, if you have added all of your metadata, select
-***completed***. If you still have metadata to add, select ***onGoing***.
+**completed**. If you still have metadata to add, select **onGoing**.
 
 ### Dates [(Required)]`r req_style`
 
-Enter a **Date** for ***creation*** or ***last updated*** date. 
+Enter a **Date** for **creation** or **last updated** date. 
 <u>At least one</u> of these dates is required.
 
 ## Metadata Contacts
@@ -134,20 +134,21 @@ publishing.
 ### SA Science Catalog
 
 For products that should be listed in the SA Science Catalog: Select
-*“ScienceCatalog”* from the repository list. *“SA Science Catalog”* should
+“**ScienceCatalog**" from the repository list. "**SA Science Catalog**" should
 automatically show up as the collection title. If the collection title does not
 appear, stop and enter the correct information in [Settings](../settings.qmd).
 Then select the repository for your project. Products without the correct tag
 and collection title will not show up in the Science Catalog.
 
-### data.gov
+### Data.gov
 
-For products that should be sent to data.gov: Select "data.gov" from the
-repository list. The full name of your data.gov tag should automatically show up
-in the collection title. If the collection title does not appear, stop and enter
-the correct information in [Settings](../settings.qmd). Then select the
-data.gov repository for your product. Products without the correct tag and
-collection title will not be sent to data.gov.
+For products that should be sent to Data.gov: Select **data.gov** from the
+repository list. The **Data.gov USFWS Science Applications** tag should 
+automatically show up in the Collection Title field. If the proper collection 
+title does not appear, stop and enter the correct information in 
+[Settings](../settings.qmd). Then select the **data.gov** repository for your 
+product. Products without the correct tag and collection title will not be sent 
+to Data.gov.
 
 :::{.callout-warning} 
 The Metadata Repository and Collection Title must be

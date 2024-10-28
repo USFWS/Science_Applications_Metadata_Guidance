@@ -16,7 +16,7 @@ products. Distribution methods may include online options (e.g., website,
 database) or offline options (e.g., delivery via mail, library).
 
 ::: {.callout-note icon=false}
-An online distribution link is required for any products sent to data.gov.    
+An online distribution link is required for any products sent to Data.gov.    
 :::
 
 ### Distribution Tab
@@ -71,7 +71,7 @@ or "Download FDM Veg 2011 data."
 
 ::: {.callout-note icon=false}
 For multiple files, each Name should be unique. This is particularly
-important for items being sent to data.gov. Without a name specified at all, the
+important for items being sent to Data.gov. Without a name specified at all, the
 link will display as "webpage," which isn't particularly informative to users.
 Identical names for different files also won't be particularly informative. 
 :::
@@ -82,8 +82,8 @@ The most important thing to enter is the **URL** where the product can be access
 or downloaded.
 
 ::: {.callout-note icon=false}
-An online link is required for any products sent to
-data.gov. Preferably the link should be a direct download to the data and not an
+An online link is required for any products sent to Data.gov. Preferably the 
+link should be a direct download to the data and not an
 intermediary page. 
 :::
 

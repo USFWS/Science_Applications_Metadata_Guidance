@@ -3,7 +3,7 @@ title: "Digital Object Identifier (DOI)"
 editor: 
   markdown: 
     wrap: 80
-draft: true
+draft: true # REMOVE if you want this page to publish    
 ---
 
 A Digital Object Identifier (DOI) is a globally unique, persistent, and

@@ -161,7 +161,7 @@ hand on individual metadata records.
 :::
 
 ::: {.callout-note icon=false}
-You should only use the data.gov repository for data
+You should only use the Data.gov repository for data
 products such as datasets, GIS data, etc. Data.gov does not include reports,
 presentations, or other documents nor are projects sent to data.gov.
 :::

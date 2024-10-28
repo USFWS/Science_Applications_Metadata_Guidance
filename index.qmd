@@ -34,7 +34,8 @@ Creating metadata is the principal component of the **Maintain** step.
 Publishing metadata in an approved repository (e.g., ScienceBase) is crucial
 to the **Access** and **Archive** steps.
 
-Overall guidance about USFWS Data Management is in the [USFWS Data Management Handbook](https://doimspp.sharepoint.com/sites/fws-data/Shared%20Documents/References/DataManagementHandbook.pdf?web=1).
+Overall guidance about USFWS Data Management is in the 
+[USFWS Data Management Handbook](https://doimspp.sharepoint.com/sites/fws-data/Shared%20Documents/References/DataManagementHandbook.pdf?web=1).
 
 ### Metadata and mdEditor
 

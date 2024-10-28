@@ -1,5 +1,6 @@
 ---
 title: "QA/QC Resources"
+search: false
 editor: 
   markdown: 
     wrap: 80

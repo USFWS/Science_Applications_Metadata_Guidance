@@ -12,7 +12,7 @@ This section will cover how to create a metadata record for an SA project.
 ### 1. Check mdEditor Settings
 
 In the [Default](../settings.qmd#defaults) settings make sure 
-**Metadata Repositories** includes "SA Science Catalog" and "data.gov".
+**Metadata Repositories** includes "SA Science Catalog" and "Data.gov".
 
 In the [Publishing](../settings.qmd#publishing-settings) settings, under the 
 **Default Parent Identifier:** ensure you entered your Region's Parent 

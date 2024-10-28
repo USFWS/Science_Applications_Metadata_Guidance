@@ -5,13 +5,13 @@ editor:
     wrap: 80
 ---
 
-Follow the guidance below for items to be sent to data.gov.
+Follow the guidance below for items to be sent to Data.gov.
 
 ## **What Products go into Data.gov?**
 
-The information below is based on the best available information about data.gov
+The information below is based on the best available information about Data.gov
 as of April 2018. A future Department of the Interior data governance board may
-issue written guidance about what is appropriate for data.gov.
+issue written guidance about what is appropriate for Data.gov.
 
 -   Machine-readable, non-proprietary data sets are top priority (e.g., .csv,
     txt, etc.), including GIS files (e.g., .shp, .jpg, .tif, geotif, etc.).
@@ -27,13 +27,13 @@ issue written guidance about what is appropriate for data.gov.
 
 ::: {.callout-warning appearance="minimal"}
 **Warning**: Avoid submitting a dataset more than once. If someone else from any
-organization has cataloged the identical data on data.gov, do not enter it
+organization has cataloged the identical data on Data.gov, do not enter it
 again.
 :::
 
-## Requirements to send something to data.gov
+## Requirements to send something to Data.gov
 
-1.  Set the appropriate [data.gov Metadata Repository
+1.  Set the appropriate [Data.gov Metadata Repository
     tag](metadata_tab_product.qmd#metadata-repositories).
 2.  List the Science Applications National Data Steward first in the list of
     [Responsible Parties](main_tab_product.qmd#citation) (#0). Data.gov only
@@ -43,7 +43,7 @@ again.
 
 ## Data.gov
 
-Items actually go through an intermediary before they harvested to data.gov. All
+Items actually go through an intermediary before they harvested to Data.gov. All
 Department of the Interior items go through the [U.S Department of Interior
 Enterprise Data Inventory](https://stg-datainventory.doi.gov/) first.
 

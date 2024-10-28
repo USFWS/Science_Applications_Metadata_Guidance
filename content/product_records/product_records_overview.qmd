@@ -15,7 +15,7 @@ options, of which "**product**" should never be used.
 #### 1. Adjust mdEditor Settings
 
 **Metadata Repositories**: Make sure your default settings are correct for the
-SA Science Catalog and data.gov. See [Settings](../settings.qmd).
+SA Science Catalog and Data.gov. See [Settings](../settings.qmd).
 
 **Parent Identifier**: In the publishing settings, enter your SA regional
 ScienceBase project folder's identifier in the "Default Parent Identifier"

@@ -1,8 +1,10 @@
 ---
 title: "QA/QC Fixes"
+search: false
 editor: 
   markdown: 
     wrap: 80
+draft: true # REMOVE if you want this page to publish    
 ---
 
 ## Must Do QA/QC Fixes
