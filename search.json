@@ -44,7 +44,7 @@
     "href": "index.html#how-to-use-this-manual",
     "title": "USFWS Science Applications Metadata Guidance",
     "section": "How to Use this Manual",
-    "text": "How to Use this Manual\nThe recommended way to use this manual is directly accessing the pages from the internet. By doing so, you guarantee you are using the current version. This is a living document and will be updated as needed. The online version will also have the best functionality and graphical display.\nThis document will continue to be updated regularly and publishing using the GitHub Repository. Please refresh this manual every time you open it to ensure you are viewing the most recent version.\nGuidance was last updated: 28 October, 2024.",
+    "text": "How to Use this Manual\nThe recommended way to use this manual is directly accessing the pages from the internet. By doing so, you guarantee you are using the current version. This is a living document and will be updated as needed. The online version will also have the best functionality and graphical display.\nThis document will continue to be updated regularly and publishing using the GitHub Repository. Please refresh this manual every time you open it to ensure you are viewing the most recent version.\nGuidance was last updated: 08 November, 2024.",
     "crumbs": [
       "Introduction"
     ]
@@ -2176,7 +2176,7 @@
     "href": "content/publishing/publishing_overview.html#publishing-to-the-science-catalog-process-overview",
     "title": "Publishing: Overview",
     "section": "Publishing to the Science Catalog Process Overview",
-    "text": "Publishing to the Science Catalog Process Overview\nThe following describes what happens when you publish from mdEditor:\n\nmdEditor outputs an mdJSON file.\nThe mdJSON file is transmitted via a web service to mdTranslator.\nmdTranslator translates the mdJSON file into a sbJSON file and two XML files: metadata.xml (ISO 19915-2) and metadata_iso1.xml (IS 19115-1).\nScienceBase imports the sbJSON and attaches the XML and mdJSON files to the ScienceBase item.\nThe record is sent to data.doi.gov and the SA Science Catalog, if the requisite metadata repositories are specified.",
+    "text": "Publishing to the Science Catalog Process Overview\nThe following describes what happens when you publish from mdEditor:\n\nmdEditor outputs an mdJSON file.\nThe mdJSON file is transmitted to the SBMB web service API.\nThe SBMD service sends the mdJSON file to mdTranslator.\nmdTranslator translates the mdJSON file into a sbJSON file and two XML files: metadata.xml (ISO 19915-2) and metadata_iso1.xml (IS 19115-1).\nThe SBMD service sends the sbJSON file to the ScienceBase API, which creates (or updates) the ScienceBase item.\nThe SBMD service attaches the XML and mdJSON files to the ScienceBase item.\nThe ScienceBase record is sent to data.doi.gov and the SA Science Catalog, if the requisite metadata repositories are specified.",
     "crumbs": [
       "Publishing"
     ]
