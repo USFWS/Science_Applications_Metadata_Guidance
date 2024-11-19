@@ -1938,7 +1938,7 @@
     "href": "content/data_management_goals.html",
     "title": "Data Management Goals",
     "section": "",
-    "text": "We envision a well-functioning data management, integration, and sharing process that integrates, at minimum, the products of SA-funded projects with those from regionally-funded projects, and that support the data lifecycle in a coordinated manner.       – Conservation Science Plan v.1\nThe original goal of Science Applications data management efforts were to create an integrated project and product database for the Landscape Conservation Cooperatives (LCCs). After the conclusion of the LCCs, much of that workflow is applicable for general SA metadata management.\nAs SA has refocused on broader FWS priorities, the need for data management, integration, and sharing process remains essential to mission of FWS and SA. This guidance was developed by the SA Data Management Working Group (DMWG) with the leadership of the Architecture Subgroup (ASG).",
+    "text": "The original goal of Science Applications data management efforts were to create an integrated project and product database for the Landscape Conservation Cooperatives (LCCs). After the conclusion of the LCCs, much of that workflow is applicable for general SA metadata management.\nAs SA has refocused on broader FWS priorities, the need for data management, integration, and sharing process remains essential to mission of USFWS and SA. This guidance was developed by the SA Data Management Working Group (DMWG) with the leadership of the Architecture Subgroup (ASG).",
     "crumbs": [
       "Data Management Goals"
     ]
