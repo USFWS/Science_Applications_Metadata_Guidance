@@ -44,7 +44,7 @@ ul.task-list li input[type="checkbox"] {
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
-  "collapse-after": 3,
+  "collapse-after": 10,
   "panel-placement": "start",
   "type": "textbox",
   "limit": 50,
@@ -601,7 +601,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p><strong>Note</strong>: The Publishing instructions still need some editing and refinement.</p>
-<p>SA metadata is currently published to ScienceBase in your SA Region folder. You must have a ScienceBase user account with write access to this folder. Once the mdJSON metadata is published in ScienceBase, the records will be synced with the SA Science Catalog (the Science Catalog updates overnight with new/updated mdJSON).</p>
+<p>SA metadata is currently published to ScienceBase in your <a href="https://www.sciencebase.gov/catalog/item/645bfdf8d34ec179a83822c0">SA Region folder</a>. You must have a ScienceBase user account with write access to this folder. Once the mdJSON metadata is published in ScienceBase, the records will be synced with the <a href="https://www.fws.gov/science/catalog">SA Science Catalog</a> (the Science Catalog updates overnight with new/updated mdJSON).</p>
 <section id="before-you-begin" class="level2">
 <h2 class="anchored" data-anchor-id="before-you-begin">Before You Begin</h2>
 <p>Please read through <strong>all</strong> instructions before you begin the publishing process. After you understand how the publishing function works, please read the <a href="../../content/publishing/testing.html"><strong>Testing</strong></a> section and publish a test record before trying to publish any real records.</p>
@@ -611,10 +611,12 @@ ul.task-list li input[type="checkbox"] {
 <p>The following describes what happens when you publish from mdEditor:</p>
 <ol type="1">
 <li>mdEditor outputs an mdJSON file.</li>
-<li>The mdJSON file is transmitted via a web service to mdTranslator.</li>
+<li>The mdJSON file is transmitted to the SBMB web service API.</li>
+<li>The SBMD service sends the mdJSON file to mdTranslator.</li>
 <li>mdTranslator translates the mdJSON file into a sbJSON file and two XML files: metadata.xml (ISO 19915-2) and metadata_iso1.xml (IS 19115-1).</li>
-<li>ScienceBase imports the sbJSON and attaches the XML and mdJSON files to the ScienceBase item.</li>
-<li>The record is sent to data.doi.gov and the SA Science Catalog, if the requisite metadata repositories are specified.</li>
+<li>The SBMD service sends the sbJSON file to the <a href="https://www.usgs.gov/sciencebase-instructions-and-documentation/api-and-web-services">ScienceBase API</a>, which creates (or updates) the ScienceBase item.</li>
+<li>The SBMD service attaches the XML and mdJSON files to the ScienceBase item.</li>
+<li>The ScienceBase record is sent to data.doi.gov and the <a href="https://www.fws.gov/science/catalog">SA Science Catalog</a>, if the requisite metadata repositories are specified.</li>
 </ol>
 
 
