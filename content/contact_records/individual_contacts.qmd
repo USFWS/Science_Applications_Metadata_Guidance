@@ -12,6 +12,11 @@ source(file.path(getwd(), "config.R"))
 
 ## Create a New Contact
 
+::: {.callout-important icon=true}
+All information published to a publicly accessible location, must comply with current [privacy policy requirements](https://www.doi.gov/privacy/policies-references). Do not include **sensitive** personally identifiable information (PII) in publicly accessible contact records. Contact information should only contain publicly available information, such as what would be found in an organizational directory. 
+:::
+
+
 1.  Click the plus (![](../../assets/symbol_plus_16.png)) sign by
     **Contacts**.
 2.  Specify the contact is an **Individual**.
