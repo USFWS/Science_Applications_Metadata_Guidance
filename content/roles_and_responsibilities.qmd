@@ -130,4 +130,10 @@ data manager, or other staff. Often a Data Manager fills this role.
 -   Assist non-SA Project Officers with ensuring SA data management, Science
     Catalog, internal tracking, and non-duplication policies and requirements
     are followed.
--   Staff who publish metadata and/or data to ScienceBase must do so in accordance with the requirements of the [ScienceBase User Agreement](https://www.sciencebase.gov/catalog/userAgreement/show).
+-   Staff who publish metadata and/or data to ScienceBase must do so in 
+    accordance with the requirements of the 
+    [ScienceBase User Agreement](https://www.sciencebase.gov/catalog/userAgreement/show) 
+    and comply with the Department of Interior privacy guidelines as describe 
+    in the annual 
+    [Information Management and Technology (IMT) Awareness](https://doitalent.ibc.doi.gov/course/view.php?id=14773) 
+    training.
