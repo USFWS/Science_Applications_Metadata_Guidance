@@ -326,7 +326,7 @@
   </url>
   <url>
     <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/project_records/main_tab_project.html</loc>
-    <lastmod>2024-10-16T17:16:03.601Z</lastmod>
+    <lastmod>2024-12-19T19:33:33.627Z</lastmod>
   </url>
   <url>
     <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/roles_and_responsibilities.html</loc>
@@ -354,7 +354,7 @@
   </url>
   <url>
     <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/metadata_requirements.html</loc>
-    <lastmod>2024-11-19T21:35:17.883Z</lastmod>
+    <lastmod>2024-12-20T17:22:15.711Z</lastmod>
   </url>
   <url>
     <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/workflow/workflow_overview.html</loc>
@@ -398,7 +398,7 @@
   </url>
   <url>
     <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/product_records/main_tab_product.html</loc>
-    <lastmod>2024-10-28T17:43:44.557Z</lastmod>
+    <lastmod>2024-12-19T19:24:30.531Z</lastmod>
   </url>
   <url>
     <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/project_records/keywords_tab_project.html</loc>
@@ -575,5 +575,9 @@
   <url>
     <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/product_records/datagov_guidance_product.html</loc>
     <lastmod>2024-10-28T15:50:18.304Z</lastmod>
+  </url>
+  <url>
+    <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/R/metadata_requirements_bacvkup.html</loc>
+    <lastmod>2024-12-20T17:08:37.974Z</lastmod>
   </url>
 </urlset>

@@ -21,16 +21,21 @@ The **Main** tab allows for the creation and/or editing of primary metadata.
 | Default Locale        | [Required](#default-locale-required)`r req_style`  |
 | Resource Type         | [Required](#resource-types-required)`r req_style`           | 
 | Points of Contact     | |
-|        Point of Contact       | [Required](#points-of-contact-required)`r req_style`|
-|        Custodian              | [Required](#points-of-contact-required)`r req_style`|
-|        Administrator          | |
-|        Administrative Region  | [Required](#points-of-contact-required)`r req_style`|
-|        Principal Investigator | [If Applicable](#points-of-contact-required)`r if_style`  |
-|        Co-Principal Investigator | [If Applicable](#points-of-contact-required)`r if_style`  |
+|        pointOfContact       | [Required](#points-of-contact-required)`r req_style`|
+|        administrator          | [Required](#points-of-contact-required)`r req_style`|
+|        collaborator           | [Required](#points-of-contact-required)`r req_style`|
+|        custodian              | [Required](#points-of-contact-required)`r req_style`|
+|        principalInvestigator   | [If Applicable](#points-of-contact-required)`r if_style`  |
+|        coPrincipalInvestigator | [If Applicable](#points-of-contact-required)`r if_style`  |
 | Citation                      | |
 |        Title                  | [Required](#title-required-1)`r req_style`|
-|        Dates (multiple)       | [Required](#dates-required)`r req_style`  |
-|        Responsible Parties (multiple)  | [Required](#responsible-parties-required)`r req_style` |
+|        Dates                  | [Required](#dates-required)`r req_style`  |
+|               lastUpdated     | [If Applicable](#dates-required)`r if_style`  |
+|               Others (multiple)   | [If Applicable](#dates-required)`r if_style`  |
+|        Responsible Parties    | |
+|               pointOfContact  | [Required](#responsible-parties-required)`r req_style` |
+|               principalInvestigator  | [Required](#responsible-parties-required)`r req_style` |
+|               Others (multiple)| [If Applicable](#responsible-parties-required)`r if_style` |
 |        Online Resource        | |
 |               Name            | [If Applicable](#online-resource-if-applicable)`r if_style`  |
 |               URL             | [If Applicable](#online-resource-if-applicable)`r if_style`  |
@@ -101,13 +106,14 @@ Add additional Points of Contact as listed in the table below.
 
 | Role                | Contact                                        | Required?               |
 |:----------------------|:---------------------------------------|:--------------------------|
-| pointOfContact        | FWS Science Applications National Data Steward | [Required]`r req_style`                |
-| pointOfContact        | Data Steward                                   | [Required]`r req_style`                |
+| pointOfContact        | FWS Science Applications National Data Steward | [Required]`r req_style`         |
+| pointOfContact        | Data Steward                                   | [Required]`r req_style`         |
+| administrator         | Data Trustee                                   | [Required]`r req_style`         |
+| administrator         | FWS Region (legacy and DOI Unified)            | [Required]`r req_style`         |
+| collaborator          | Partnership organizations and/or programs      | [**If applicable**]`r if_style` |
+| custodian             | Data Custodian                                 | [**If applicable**]`r if_style` |
 | principalInvestigator | The Project PI                                 | [**If applicable**]`r if_style` |
-| custodian             | Data Custodian                                 | [**If applicable**]`r if_style`  |
-| administrator         | Data Trustee                                   | [Required]`r req_style`                |
-| administrator         | FWS Region (legacy and DOI Unified)            | [Required]`r req_style`                |
-| collaborator          | partnership organizations and/or programs      | [**If applicable**]`r if_style`  |
+| coPrincipalInvestigator | The Project co-PI                            | [**If applicable**]`r if_style` |
 : {.striped .hover .bordered .md .allborder}  
 
 <br/>
@@ -141,28 +147,29 @@ Add an **Alternate Title**.
 
 #### Dates [(Required)]`r req_style`
 
-Enter **acquisition**, **creation**, **updated**, **revision**, or 
-**publication** date reference from the picklist and then enter the date. 
-<u>At least one </u> of these date types is required.
+For all records, select the current date and choose **lastUpdate** from the 
+date type picklist. This ensures that your record appears as a more recent 
+entry in the Science Catalog.
+
+Additionally, you can select dates for the **acquisition**, **creation**, 
+**revision**, or **publication** date types, if applicable.
 
 #### Responsible Parties [(Required)]`r req_style`
 
-This must include a point of contact, but may also include other responsible
-parties such as funders, partners, collaborators, and
-contributors. Collaborators could be intellectual participants while
-contributors could be intellectual and financial participants.
+A **pointOfContact** and **principalInvestigator** are required. 
+The Principal Investigator is the primary data creator. It is best practice 
+to include any data co-creators as a **coPrincipalInvestigator**. 
 
-| Role                    | Contact         | Required?     |
-|:------------------------|:----------------|:--------------|
-| principalInvestigator   | Data Creator    | [Required]`r req_style`  |
-| coPrincipalInvestigator | Data Co-Creator | [Best Practice]`r req_style` |
-: {.striped .hover .bordered .md .allborder}  
+If applicable, additional responsible parties should be listed, including 
+**funder**, **collaborator**, and **contributor**. Collaborators could be 
+intellectual participants while contributors could be intellectual and financial 
+participants.
 
 <br/>
 
 ::: {.callout-note icon=false}
-For items that will be sent to Data.gov, only the first
-in the list of Responsible Parties (#0) will appear. 
+For items sent to Data.gov, only the first in the list of Responsible Parties 
+(#0) will appear. 
 :::
 
 #### Online Resource [(If applicable)]`r if_style`
