@@ -4,11 +4,32 @@
     "href": "CHANGELOG.html",
     "title": "CHANGELOG",
     "section": "",
-    "text": "Created this repository for storing a generic template for R projects."
+    "text": "Added a section for external comments via a Microsoft Form\n\n\n\nStable version of the document was published and initial phase of review was initiated\n\n\n\nInitial version of the guidance was fully published over several weeks in early 2024\n\n\n\nCreated this repository for storing a generic template for R projects."
   },
   {
     "objectID": "CHANGELOG.html#section",
     "href": "CHANGELOG.html#section",
+    "title": "CHANGELOG",
+    "section": "",
+    "text": "Added a section for external comments via a Microsoft Form"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-1",
+    "href": "CHANGELOG.html#section-1",
+    "title": "CHANGELOG",
+    "section": "",
+    "text": "Stable version of the document was published and initial phase of review was initiated"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-2",
+    "href": "CHANGELOG.html#section-2",
+    "title": "CHANGELOG",
+    "section": "",
+    "text": "Initial version of the guidance was fully published over several weeks in early 2024"
+  },
+  {
+    "objectID": "CHANGELOG.html#section-3",
+    "href": "CHANGELOG.html#section-3",
     "title": "CHANGELOG",
     "section": "",
     "text": "Created this repository for storing a generic template for R projects."
@@ -1093,7 +1114,7 @@
     "href": "index.html#how-to-use-this-manual",
     "title": "USFWS Science Applications Metadata Guidance",
     "section": "How to Use this Manual",
-    "text": "How to Use this Manual\nThe recommended way to use this manual is directly accessing the pages from the internet. By doing so, you guarantee you are using the current version. This is a living document and will be updated as needed. The online version will also have the best functionality and graphical display.\nThis document will continue to be updated regularly and publishing using the GitHub Repository. Please refresh this manual every time you open it to ensure you are viewing the most recent version.\nGuidance was last updated: 02 January, 2025.",
+    "text": "How to Use this Manual\nThe recommended way to use this manual is directly accessing the pages from the internet. By doing so, you guarantee you are using the current version. This is a living document and will be updated as needed. The online version will also have the best functionality and graphical display.\nThis document will continue to be updated regularly and publishing using the GitHub Repository. Please refresh this manual every time you open it to ensure you are viewing the most recent version.\nGuidance was last updated: 03 January, 2025.",
     "crumbs": [
       "Introduction"
     ]
