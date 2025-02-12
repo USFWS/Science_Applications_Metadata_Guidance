@@ -87,10 +87,10 @@ Choose all that apply. The list of options includes the following:
 |                                          |
 |------------------------------------------|
 |  At-Risk Species                         |
-|  Collaborative Partnerships              |
-|  Conservation Science Support            |
 |  Climate Change                          |
+|  Collaborative Partnerships              |
 |  Communications                          |
+|  Conservation Science Support            |
 |  Data Management                         |
 |  Landscape Conservation                  |
 |  Organization Operations and Standards   |
