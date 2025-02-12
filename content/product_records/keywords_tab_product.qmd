@@ -86,16 +86,16 @@ Choose all that apply. The list of options includes the following:
 
 |                                          |
 |------------------------------------------|
+|  At-Risk Species                         |
 |  Collaborative Partnerships              |
-|  Landscape Conservation                  |
-|  At-risk Species                         |
-|  Data Management                         |
 |  Conservation Science Support            |
 |  Climate Change                          |
+|  Communications                          |
+|  Data Management                         |
+|  Landscape Conservation                  |
+|  Organization Operations and Standards   |
 |  Social Science                          |
 |  Workforce Culture                       |
-|  Organization Operations and Standards   |
-|  Communications                          |
 : { .hover .sm .allborder}   
 
 <br/>
