@@ -326,7 +326,7 @@
   </url>
   <url>
     <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/project_records/main_tab_project.html</loc>
-    <lastmod>2024-12-19T19:33:33.627Z</lastmod>
+    <lastmod>2025-05-27T19:41:39.663Z</lastmod>
   </url>
   <url>
     <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/roles_and_responsibilities.html</loc>
@@ -354,7 +354,7 @@
   </url>
   <url>
     <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/metadata_requirements.html</loc>
-    <lastmod>2024-12-20T17:22:15.711Z</lastmod>
+    <lastmod>2025-05-27T19:25:41.504Z</lastmod>
   </url>
   <url>
     <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/workflow/workflow_overview.html</loc>
@@ -398,11 +398,11 @@
   </url>
   <url>
     <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/product_records/main_tab_product.html</loc>
-    <lastmod>2024-12-19T19:24:30.531Z</lastmod>
+    <lastmod>2025-05-27T19:41:26.278Z</lastmod>
   </url>
   <url>
     <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/project_records/keywords_tab_project.html</loc>
-    <lastmod>2024-10-16T20:53:14.501Z</lastmod>
+    <lastmod>2025-02-12T17:48:32.235Z</lastmod>
   </url>
   <url>
     <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/project_records/extent_tab_project.html</loc>
@@ -414,7 +414,7 @@
   </url>
   <url>
     <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/product_records/keywords_tab_product.html</loc>
-    <lastmod>2024-10-16T20:53:14.464Z</lastmod>
+    <lastmod>2025-02-12T17:47:59.914Z</lastmod>
   </url>
   <url>
     <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/content/product_records/extent_tab_product.html</loc>
@@ -579,5 +579,13 @@
   <url>
     <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/R/metadata_requirements_bacvkup.html</loc>
     <lastmod>2024-12-20T17:08:37.974Z</lastmod>
+  </url>
+  <url>
+    <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/R/metadata_requirements_backup.html</loc>
+    <lastmod>2024-12-20T17:08:37.974Z</lastmod>
+  </url>
+  <url>
+    <loc>https://usfws.github.io/Science_Applications_Metadata_Guidance/CHANGELOG.html</loc>
+    <lastmod>2025-02-12T17:21:24.782Z</lastmod>
   </url>
 </urlset>

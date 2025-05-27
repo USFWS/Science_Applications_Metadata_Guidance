@@ -33,7 +33,6 @@ The **Main** tab allows for the creation and/or editing of primary metadata.
 |               lastUpdated     | [If Applicable](#dates-required)`r if_style`  |
 |               Others (multiple)   | [If Applicable](#dates-required)`r if_style`  |
 |        Responsible Parties    | |
-|               pointOfContact  | [Required](#responsible-parties-required)`r req_style` |
 |               principalInvestigator  | [Required](#responsible-parties-required)`r req_style` |
 |               Others (multiple)| [If Applicable](#responsible-parties-required)`r if_style` |
 |        Online Resource        | |
@@ -136,16 +135,16 @@ search for items that contain said information.
 
 The following fields are required in citation:
 
-#### Title [(Required)]`r req_style`
+### Title [(Required)]`r req_style`
 
 The citation **Title** is automatically populated with the Basis Information
 section's Title.
 
-#### Alternate Title [(If desired)]`r best_style`
+### Alternate Title [(If desired)]`r best_style`
 
 Add an **Alternate Title**.
 
-#### Dates [(Required)]`r req_style`
+### Dates [(Required)]`r req_style`
 
 For all records, select the current date and choose **lastUpdate** from the 
 date type picklist. This ensures that your record appears as a more recent 
@@ -154,16 +153,31 @@ entry in the Science Catalog.
 Additionally, you can select dates for the **acquisition**, **creation**, 
 **revision**, or **publication** date types, if applicable.
 
-#### Responsible Parties [(Required)]`r req_style`
+### Responsible Parties [(Required)]`r req_style`
 
-A **pointOfContact** and **principalInvestigator** are required. 
-The Principal Investigator is the primary data creator. It is best practice 
-to include any data co-creators as a **coPrincipalInvestigator**. 
+A **principalInvestigator** is required. The Principal Investigator is the 
+primary data creator. It is best practice to include any data co-creators 
+as a **coPrincipalInvestigator**. 
 
 If applicable, additional responsible parties should be listed, including 
 **funder**, **collaborator**, and **contributor**. Collaborators could be 
 intellectual participants while contributors could be intellectual and financial 
 participants.
+
+| Role                 | Contact              | Requirements      |
+|----------------------|----------------------|-------------------|
+| principalInvestigator   | Project Principal Investigator | [Required]`r req_style`  |
+| coPrincipalInvestigator | Co-Investigators | [If applicable]`r if_style` |
+| funder                  | Funding Parties | [If applicable]`r if_style` |
+| collaborator            | Collaborators | [If applicable]`r if_style` |
+| contributor             | Contributors | [Best Practice]`r if_style` |
+: {.striped .hover .bordered .md .allborder}
+
+::: callout-note
+To add contacts to a metadata record, you must first create/upload the contacts
+in mdEditor. See the [Contacts](../contact_records/contact_records_overview.qmd)
+section for more information.
+:::
 
 <br/>
 
@@ -172,7 +186,7 @@ For items sent to Data.gov, only the first in the list of Responsible Parties
 (#0) will appear. 
 :::
 
-#### Online Resource [(If applicable)]`r if_style`
+### Online Resource [(If applicable)]`r if_style`
 
 Enter the **Name** and **URL** for the location where users can find the product 
 (e.g., ScienceBase page or DOI url). Data.gov refers to this online resource 
@@ -185,7 +199,7 @@ online resource that Data.gov reads so without a URL there, users have no way to
 access the actual product from Data.gov. 
 :::
 
-#### Identifier [(Required)]`r req_style`
+### Identifier [(Required)]`r req_style`
 
 You may enter as many Identifiers as needed, but <u>at least one </u> is 
 required. Identifiers are unique codes
@@ -237,7 +251,7 @@ manual to learn how to make a copy.
 **Description** allows for the addition of the **Abstract** as well as a Short
 Abstract, Purpose, Supplemental Information, and an Environment Description.
 
-#### Abstract [(Required)]`r req_style`
+### Abstract [(Required)]`r req_style`
 
 Enter an **Abstract**.
 
@@ -246,13 +260,13 @@ Enter an **Abstract**.
 tense if the project is underway and past tense if it has been completed. 
 :::
 
-#### Short Abstract
+### Short Abstract
 
 In the Short **Abstract**, enter a short description, limited to 300 characters, 
 if desired. The Best Practice here is to include a few sentences for media 
 communications that Office of Communications may find helpful.
 
-#### Supplemental Information
+### Supplemental Information
 
 Enter comments, if desired.
 

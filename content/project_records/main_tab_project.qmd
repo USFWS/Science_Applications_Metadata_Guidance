@@ -153,23 +153,29 @@ Additionally, you can select dates for the **acquisition**, **creation**, or
 
 ### Responsible Parties [(Required)]`r req_style`
 
-**Responsible parties** must include the principal investigator of the project, 
-but may optionally include other responsible parties such as funders (your 
-region and program), partners, collaborators, and contributors. Collaborators 
-could be intellectual participants while contributors could be intellectual and 
-financial participants.
+A **principalInvestigator** is required. The Principal Investigator is the 
+primary data creator. It is best practice to include any data co-creators 
+as a **coPrincipalInvestigator**. 
+
+If applicable, additional responsible parties should be listed, including 
+**funder**, **collaborator**, and **contributor**. Collaborators could be 
+intellectual participants while contributors could be intellectual and financial 
+participants.
+
+| Role                 | Contact              | Requirements      |
+|----------------------|----------------------|-------------------|
+| principalInvestigator   | Project Principal Investigator | [Required]`r req_style`  |
+| coPrincipalInvestigator | Co-Investigators | [If applicable]`r if_style` |
+| funder                  | Funding Parties | [If applicable]`r if_style` |
+| collaborator            | Collaborators | [If applicable]`r if_style` |
+| contributor             | Contributors | [If applicable]`r if_style` |
+: {.striped .hover .bordered .md .allborder}
 
 ::: callout-note
 To add contacts to a metadata record, you must first create/upload the contacts
 in mdEditor. See the [Contacts](../contact_records/contact_records_overview.qmd)
 section for more information.
 :::
-
-| Role                 | Contact              | Requirements      |
-|----------------------|----------------------|-------------------|
-| principalInvestigator   | Project Principal Investigator | [Required]`r req_style`  |
-| coPrincipalInvestigator | Co-Investigators | [If applicable]`r if_style` |
-: {.striped .hover .bordered .md .allborder}
 
 <br/>
 
